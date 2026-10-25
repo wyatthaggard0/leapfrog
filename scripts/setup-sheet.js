@@ -30,16 +30,17 @@ if (missing.length) {
   console.log(`Added tabs: ${missing.join(', ')}`);
 }
 
-// One row per student (first finished game), sorted by last name.
+// Whole-column ranges (A:C, not A2:C) so inserted rows can never shift the formulas.
+// One row per student (first finished game), sorted by last name; row 1 is the header.
 const attendance =
-  `=QUERY(${RESPONSES_TAB}!A2:C, "select B, C, min(A) where B is not null group by B, C order by B, C ` +
-  `label B 'Last Name', C 'First Name', min(A) 'Check-in Time'", 0)`;
+  `=QUERY(${RESPONSES_TAB}!A:C, "select B, C, min(A) where B is not null group by B, C order by B, C ` +
+  `label B 'Last Name', C 'First Name', min(A) 'Check-in Time'", 1)`;
 // Answers are columns E..K and points S..Y for prompts 1..7.
 const col = (start, i) => String.fromCharCode(start.charCodeAt(0) + i);
 const unmatched = PROMPTS.map((_, i) => {
-  const a = `${RESPONSES_TAB}!${col('E', i)}2:${col('E', i)}`;
-  const p = `${RESPONSES_TAB}!${col('S', i)}2:${col('S', i)}`;
-  return `=IFERROR(SORT(UNIQUE(FILTER(${a}, ${p}=0, ${a}<>""))), "")`;
+  const a = `${RESPONSES_TAB}!${col('E', i)}:${col('E', i)}`;
+  const p = `${RESPONSES_TAB}!${col('S', i)}:${col('S', i)}`;
+  return `=IFERROR(SORT(UNIQUE(FILTER(${a}, ${p}=0, ${a}<>"", ROW(${a})>1))), "")`;
 });
 
 const data = [
