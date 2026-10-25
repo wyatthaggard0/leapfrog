@@ -48,7 +48,21 @@ function notFound(res) {
 }
 
 const { storageMode } = await import('./lib/store.js');
-server.listen(PORT, () => {
-  console.log(`Leapfrog running at http://localhost:${PORT}`);
+
+// If the port is taken (another dev server), try the next one.
+function listen(port, triesLeft = 10) {
+  server.once('error', (err) => {
+    if (err.code === 'EADDRINUSE' && triesLeft > 0) {
+      console.log(`Port ${port} is busy, trying ${port + 1}…`);
+      listen(port + 1, triesLeft - 1);
+    } else {
+      throw err;
+    }
+  });
+  server.listen(port);
+}
+server.once('listening', () => {
+  console.log(`Leapfrog running at http://localhost:${server.address().port}`);
   console.log(`Check-ins are saved to: ${storageMode() === 'sheets' ? 'Google Sheets' : 'data/responses.json'}`);
 });
+listen(PORT);
