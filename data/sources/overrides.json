@@ -1,0 +1,42 @@
+{
+  "_comment": "Manual pass applied after the sources are merged. tiers: force a tier by display name (fun-factor deep cuts, pageview oddities). aliases: extra spellings for an answer. reject: guesses that must never match anything (e.g. BIS itself as a double major).",
+  "tiers": {
+    "companies": {
+      "Texas Christian University": 6,
+      "NASA": 6,
+      "Central Intelligence Agency": 6,
+      "Federal Bureau of Investigation": 6,
+      "National Security Agency": 6,
+      "Dallas Cowboys": 6,
+      "Texas Rangers": 6,
+      "SpaceX": 5,
+      "Whataburger": 6,
+      "Buc-ee's": 6,
+      "Raising Cane's": 6,
+      "Chick-fil-A": 5
+    },
+    "cyber-threats": {
+      "Stuxnet": 5,
+      "WannaCry": 5,
+      "Log4Shell": 5,
+      "SolarWinds hack": 5
+    },
+    "excel": {
+      "LAMBDA": 6,
+      "ROMAN": 6
+    },
+    "double-majors": {
+      "Ranch Management": 6
+    }
+  },
+  "aliases": {
+    "languages": { "SQL": ["sequel", "structured query language"] },
+    "data-tools": { "SQL": ["sequel"] }
+  },
+  "reject": {
+    "double-majors": [
+      "business information systems", "information systems", "management information systems",
+      "computer information systems", "bis", "mis", "cis", "information system"
+    ]
+  }
+}

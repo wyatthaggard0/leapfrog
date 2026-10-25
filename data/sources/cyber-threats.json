@@ -1,0 +1,8132 @@
+{
+  "prompt": "Name a cybersecurity threat",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Template:Malware",
+    "https://en.wikipedia.org/wiki/Template:Information_security",
+    "https://en.wikipedia.org/wiki/Template:Botnets",
+    "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2000s",
+    "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2010s",
+    "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2020s",
+    "https://en.wikipedia.org/wiki/List_of_computer_worms",
+    "https://en.wikipedia.org/wiki/Timeline_of_computer_viruses_and_worms",
+    "https://en.wikipedia.org/wiki/List_of_trojan_horses",
+    "https://en.wikipedia.org/wiki/List_of_cyberattacks",
+    "https://en.wikipedia.org/wiki/List_of_security_hacking_incidents",
+    "https://en.wikipedia.org/wiki/Ransomware",
+    "https://en.wikipedia.org/wiki/Social_engineering_(security)",
+    "https://en.wikipedia.org/wiki/Cyberattack",
+    "https://en.wikipedia.org/wiki/Computer_security",
+    "https://en.wikipedia.org/w/api.php (prop=links, prop=categories, redirects — link harvesting, category filtering, title verification)",
+    "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json (MITRE ATT&CK Enterprise: techniques, intrusion-sets/groups, software)",
+    "https://owasp.org/Top10/ (OWASP Top 10 2021 categories)",
+    "https://capec.mitre.org/ (CAPEC common attack pattern names)"
+  ],
+  "answers": [
+    {
+      "name": "Phishing",
+      "aliases": [
+        "phish",
+        "phishing attack",
+        "phishing email",
+        "phishing scam",
+        "phishing emails"
+      ],
+      "wiki": "Phishing",
+      "tier": 1
+    },
+    {
+      "name": "Malware",
+      "aliases": [
+        "malicious software"
+      ],
+      "wiki": "Malware",
+      "tier": 1
+    },
+    {
+      "name": "Virus",
+      "aliases": [
+        "computer virus",
+        "viruses",
+        "virus attack"
+      ],
+      "wiki": "Computer virus",
+      "tier": 1
+    },
+    {
+      "name": "Ransomware",
+      "aliases": [
+        "ransomware attack",
+        "crypto ransomware",
+        "Win32/Diskcoder.D"
+      ],
+      "wiki": "Ransomware",
+      "tier": 1
+    },
+    {
+      "name": "Hacking",
+      "aliases": [
+        "hacker",
+        "hackers",
+        "hack",
+        "security hacker"
+      ],
+      "wiki": "Security hacker",
+      "tier": 1
+    },
+    {
+      "name": "DDoS",
+      "aliases": [
+        "DDoS attack",
+        "distributed denial of service",
+        "denial of service",
+        "denial-of-service attack",
+        "DoS attack",
+        "DoS",
+        "distributed denial-of-service attack"
+      ],
+      "wiki": "Denial-of-service attack",
+      "tier": 2
+    },
+    {
+      "name": "Spyware",
+      "aliases": [
+        "stalkerware"
+      ],
+      "wiki": "Spyware",
+      "tier": 2
+    },
+    {
+      "name": "Trojan",
+      "aliases": [
+        "trojan horse",
+        "trojan virus",
+        "trojans",
+        "trojan malware"
+      ],
+      "wiki": "Trojan horse (computing)",
+      "tier": 2
+    },
+    {
+      "name": "Social engineering",
+      "aliases": [
+        "social engineering attack",
+        "human hacking"
+      ],
+      "wiki": "Social engineering (security)",
+      "tier": 2
+    },
+    {
+      "name": "Brute force",
+      "aliases": [
+        "brute force attack",
+        "brute forcing",
+        "password brute force",
+        "password guessing"
+      ],
+      "wiki": "Brute-force attack",
+      "tier": 2
+    },
+    {
+      "name": "Worm",
+      "aliases": [
+        "computer worm",
+        "worms",
+        "network worm"
+      ],
+      "wiki": "Computer worm",
+      "tier": 2
+    },
+    {
+      "name": "Identity theft",
+      "aliases": [
+        "identity fraud",
+        "stolen identity",
+        "ID theft"
+      ],
+      "wiki": "Identity theft",
+      "tier": 2
+    },
+    {
+      "name": "Data breach",
+      "aliases": [
+        "data leak",
+        "security breach",
+        "data breaches"
+      ],
+      "wiki": "Data breach",
+      "tier": 2
+    },
+    {
+      "name": "Scams",
+      "aliases": [
+        "scam",
+        "online scam",
+        "internet scam",
+        "scammers",
+        "fraud scheme"
+      ],
+      "wiki": "Scam",
+      "tier": 2
+    },
+    {
+      "name": "Adware",
+      "aliases": [
+        "advertising malware"
+      ],
+      "wiki": "Adware",
+      "tier": null
+    },
+    {
+      "name": "Keylogger",
+      "aliases": [
+        "keystroke logging",
+        "keylogging",
+        "keystroke logger"
+      ],
+      "wiki": "Keystroke logging",
+      "tier": null
+    },
+    {
+      "name": "Rootkit",
+      "aliases": [
+        "kernel rootkit"
+      ],
+      "wiki": "Rootkit",
+      "tier": null
+    },
+    {
+      "name": "Botnet",
+      "aliases": [
+        "bot network",
+        "zombie network"
+      ],
+      "wiki": "Botnet",
+      "tier": null
+    },
+    {
+      "name": "Zombie computer",
+      "aliases": [
+        "zombie",
+        "zombie pc",
+        "bot computer"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Backdoor",
+      "aliases": [
+        "backdoor attack",
+        "backdoor trojan"
+      ],
+      "wiki": "Backdoor (computing)",
+      "tier": null
+    },
+    {
+      "name": "Spear phishing",
+      "aliases": [
+        "targeted phishing",
+        "spearphishing attachment",
+        "spearphishing link"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Whaling",
+      "aliases": [
+        "whaling attack",
+        "whale phishing",
+        "CEO fraud"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Vishing",
+      "aliases": [
+        "voice phishing",
+        "phone phishing",
+        "vishing call",
+        "spearphishing voice"
+      ],
+      "wiki": "Voice phishing",
+      "tier": null
+    },
+    {
+      "name": "Smishing",
+      "aliases": [
+        "SMS phishing",
+        "text message phishing",
+        "text phishing"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Quishing",
+      "aliases": [
+        "QR code phishing",
+        "QR phishing",
+        "malicious QR code"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Angler phishing",
+      "aliases": [
+        "social media phishing"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Clone phishing",
+      "aliases": [
+        "cloned email phishing"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Pharming",
+      "aliases": [
+        "pharming attack"
+      ],
+      "wiki": "Pharming",
+      "tier": null
+    },
+    {
+      "name": "Business email compromise",
+      "aliases": [
+        "BEC",
+        "BEC scam",
+        "email account compromise"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Email spoofing",
+      "aliases": [
+        "spoofed email",
+        "spoof email",
+        "email spoof"
+      ],
+      "wiki": "Email spoofing",
+      "tier": null
+    },
+    {
+      "name": "Spoofing",
+      "aliases": [
+        "spoofing attack",
+        "spoof attack"
+      ],
+      "wiki": "Spoofing attack",
+      "tier": null
+    },
+    {
+      "name": "IP spoofing",
+      "aliases": [
+        "IP address spoofing"
+      ],
+      "wiki": "IP address spoofing",
+      "tier": null
+    },
+    {
+      "name": "MAC spoofing",
+      "aliases": [
+        "MAC address spoofing"
+      ],
+      "wiki": "MAC spoofing",
+      "tier": null
+    },
+    {
+      "name": "DNS spoofing",
+      "aliases": [
+        "DNS cache poisoning",
+        "DNS poisoning",
+        "cache poisoning"
+      ],
+      "wiki": "DNS spoofing",
+      "tier": null
+    },
+    {
+      "name": "ARP spoofing",
+      "aliases": [
+        "ARP poisoning",
+        "ARP cache poisoning"
+      ],
+      "wiki": "ARP spoofing",
+      "tier": null
+    },
+    {
+      "name": "Caller ID spoofing",
+      "aliases": [
+        "phone spoofing",
+        "caller id spoof"
+      ],
+      "wiki": "Caller ID spoofing",
+      "tier": null
+    },
+    {
+      "name": "GPS spoofing",
+      "aliases": [
+        "GNSS spoofing"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Man-in-the-middle attack",
+      "aliases": [
+        "MITM",
+        "man in the middle",
+        "MitM attack",
+        "on-path attack",
+        "adversary-in-the-middle",
+        "AiTM",
+        "machine-in-the-middle",
+        "person-in-the-middle",
+        "monster-in-the-middle"
+      ],
+      "wiki": "Man-in-the-middle attack",
+      "tier": null
+    },
+    {
+      "name": "Man-in-the-browser",
+      "aliases": [
+        "MitB",
+        "man in the browser attack",
+        "Carberp"
+      ],
+      "wiki": "Man-in-the-browser",
+      "tier": null
+    },
+    {
+      "name": "Eavesdropping",
+      "aliases": [
+        "eavesdropping attack",
+        "wiretapping"
+      ],
+      "wiki": "Eavesdropping",
+      "tier": null
+    },
+    {
+      "name": "Packet sniffing",
+      "aliases": [
+        "sniffing",
+        "network sniffing",
+        "packet sniffer",
+        "sniffer"
+      ],
+      "wiki": "Packet analyzer",
+      "tier": null
+    },
+    {
+      "name": "Session hijacking",
+      "aliases": [
+        "cookie hijacking",
+        "session theft",
+        "sidejacking",
+        "cookie theft",
+        "cookie stealing",
+        "stolen cookies",
+        "steal web session cookie"
+      ],
+      "wiki": "Session hijacking",
+      "tier": null
+    },
+    {
+      "name": "Clickjacking",
+      "aliases": [
+        "UI redress attack",
+        "UI redressing",
+        "likejacking"
+      ],
+      "wiki": "Clickjacking",
+      "tier": null
+    },
+    {
+      "name": "Cross-site scripting",
+      "aliases": [
+        "XSS",
+        "XSS attack",
+        "stored XSS",
+        "reflected XSS",
+        "DOM-based XSS"
+      ],
+      "wiki": "Cross-site scripting",
+      "tier": null
+    },
+    {
+      "name": "Cross-site request forgery",
+      "aliases": [
+        "CSRF",
+        "XSRF",
+        "sea surf",
+        "one-click attack",
+        "session riding"
+      ],
+      "wiki": "Cross-site request forgery",
+      "tier": null
+    },
+    {
+      "name": "Server-side request forgery",
+      "aliases": [
+        "SSRF"
+      ],
+      "wiki": "Server-side request forgery",
+      "tier": null
+    },
+    {
+      "name": "XML external entity attack",
+      "aliases": [
+        "XXE",
+        "XXE injection",
+        "XML external entity"
+      ],
+      "wiki": "XML external entity attack",
+      "tier": null
+    },
+    {
+      "name": "SQL injection",
+      "aliases": [
+        "SQLi",
+        "SQL injection attack",
+        "sql inject",
+        "blind SQL injection"
+      ],
+      "wiki": "SQL injection",
+      "tier": null
+    },
+    {
+      "name": "Code injection",
+      "aliases": [
+        "remote code injection"
+      ],
+      "wiki": "Code injection",
+      "tier": null
+    },
+    {
+      "name": "Command injection",
+      "aliases": [
+        "OS command injection",
+        "shell injection"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "LDAP injection",
+      "aliases": [],
+      "wiki": "LDAP injection",
+      "tier": null
+    },
+    {
+      "name": "HTTP header injection",
+      "aliases": [
+        "header injection",
+        "CRLF injection"
+      ],
+      "wiki": "HTTP header injection",
+      "tier": null
+    },
+    {
+      "name": "HTTP response splitting",
+      "aliases": [
+        "response splitting"
+      ],
+      "wiki": "HTTP response splitting",
+      "tier": null
+    },
+    {
+      "name": "HTTP request smuggling",
+      "aliases": [
+        "request smuggling"
+      ],
+      "wiki": "HTTP request smuggling",
+      "tier": null
+    },
+    {
+      "name": "Email injection",
+      "aliases": [],
+      "wiki": "Email injection",
+      "tier": null
+    },
+    {
+      "name": "Insecure deserialization",
+      "aliases": [
+        "deserialization attack",
+        "deserialization vulnerability",
+        "unsafe deserialization"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Broken access control",
+      "aliases": [
+        "access control vulnerability",
+        "broken authorization"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Broken authentication",
+      "aliases": [
+        "identification and authentication failures",
+        "authentication failure"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Cryptographic failures",
+      "aliases": [
+        "sensitive data exposure",
+        "weak encryption"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Security misconfiguration",
+      "aliases": [
+        "misconfiguration",
+        "misconfigured server",
+        "misconfigured cloud storage"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Vulnerable and outdated components",
+      "aliases": [
+        "outdated software",
+        "unpatched software",
+        "using components with known vulnerabilities"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Insecure design",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Software and data integrity failures",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Security logging and monitoring failures",
+      "aliases": [
+        "insufficient logging and monitoring"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Insecure direct object reference",
+      "aliases": [
+        "IDOR"
+      ],
+      "wiki": "Insecure direct object reference",
+      "tier": null
+    },
+    {
+      "name": "Directory traversal",
+      "aliases": [
+        "path traversal",
+        "dot dot slash attack",
+        "directory climbing"
+      ],
+      "wiki": "Path traversal attack",
+      "tier": null
+    },
+    {
+      "name": "File inclusion",
+      "aliases": [
+        "local file inclusion",
+        "remote file inclusion",
+        "LFI",
+        "RFI"
+      ],
+      "wiki": "File inclusion vulnerability",
+      "tier": null
+    },
+    {
+      "name": "Open redirect",
+      "aliases": [
+        "unvalidated redirect",
+        "open redirection"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Mass assignment",
+      "aliases": [],
+      "wiki": "Mass assignment vulnerability",
+      "tier": null
+    },
+    {
+      "name": "Race condition",
+      "aliases": [
+        "TOCTOU",
+        "time-of-check to time-of-use"
+      ],
+      "wiki": "Race condition",
+      "tier": null
+    },
+    {
+      "name": "Buffer overflow",
+      "aliases": [
+        "buffer overrun",
+        "stack overflow attack",
+        "stack buffer overflow",
+        "stack smashing"
+      ],
+      "wiki": "Buffer overflow",
+      "tier": null
+    },
+    {
+      "name": "Heap overflow",
+      "aliases": [
+        "heap spraying",
+        "heap-based buffer overflow"
+      ],
+      "wiki": "Heap overflow",
+      "tier": null
+    },
+    {
+      "name": "Integer overflow",
+      "aliases": [],
+      "wiki": "Integer overflow",
+      "tier": null
+    },
+    {
+      "name": "Format string attack",
+      "aliases": [
+        "format string vulnerability",
+        "uncontrolled format string"
+      ],
+      "wiki": "Uncontrolled format string",
+      "tier": null
+    },
+    {
+      "name": "Use-after-free",
+      "aliases": [
+        "UAF"
+      ],
+      "wiki": "Dangling pointer",
+      "tier": 5
+    },
+    {
+      "name": "Memory corruption",
+      "aliases": [],
+      "wiki": "Memory corruption",
+      "tier": null
+    },
+    {
+      "name": "Return-oriented programming",
+      "aliases": [
+        "ROP",
+        "ROP chain"
+      ],
+      "wiki": "Return-oriented programming",
+      "tier": null
+    },
+    {
+      "name": "Arbitrary code execution",
+      "aliases": [
+        "remote code execution",
+        "RCE"
+      ],
+      "wiki": "Arbitrary code execution",
+      "tier": null
+    },
+    {
+      "name": "Privilege escalation",
+      "aliases": [
+        "privesc",
+        "elevation of privilege",
+        "vertical privilege escalation"
+      ],
+      "wiki": "Privilege escalation",
+      "tier": null
+    },
+    {
+      "name": "Zero-day",
+      "aliases": [
+        "0day",
+        "zero-day exploit",
+        "zero-day attack",
+        "zero-day vulnerability"
+      ],
+      "wiki": "Zero-day vulnerability",
+      "tier": null
+    },
+    {
+      "name": "Exploit",
+      "aliases": [
+        "software exploit",
+        "exploits"
+      ],
+      "wiki": "Exploit (computer security)",
+      "tier": null
+    },
+    {
+      "name": "Exploit kit",
+      "aliases": [
+        "exploit pack"
+      ],
+      "wiki": "Exploit kit",
+      "tier": null
+    },
+    {
+      "name": "Vulnerability",
+      "aliases": [
+        "software vulnerability",
+        "security vulnerability",
+        "security hole"
+      ],
+      "wiki": "Vulnerability (computer security)",
+      "tier": null
+    },
+    {
+      "name": "Software bug",
+      "aliases": [
+        "security bug"
+      ],
+      "wiki": "Software bug",
+      "tier": 5
+    },
+    {
+      "name": "Unpatched vulnerability",
+      "aliases": [
+        "unpatched system",
+        "missing patches"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Default credentials",
+      "aliases": [
+        "default password",
+        "default passwords",
+        "default accounts"
+      ],
+      "wiki": "Default password",
+      "tier": null
+    },
+    {
+      "name": "Weak passwords",
+      "aliases": [
+        "weak password",
+        "easy password",
+        "password reuse"
+      ],
+      "wiki": "Password strength",
+      "tier": 4
+    },
+    {
+      "name": "Credential stuffing",
+      "aliases": [
+        "credential stuffing attack"
+      ],
+      "wiki": "Credential stuffing",
+      "tier": null
+    },
+    {
+      "name": "Password spraying",
+      "aliases": [
+        "password spray",
+        "spray attack"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Dictionary attack",
+      "aliases": [
+        "wordlist attack"
+      ],
+      "wiki": "Dictionary attack",
+      "tier": null
+    },
+    {
+      "name": "Rainbow table attack",
+      "aliases": [
+        "rainbow table",
+        "rainbow tables"
+      ],
+      "wiki": "Rainbow table",
+      "tier": null
+    },
+    {
+      "name": "Password cracking",
+      "aliases": [
+        "cracking passwords"
+      ],
+      "wiki": "Password cracking",
+      "tier": null
+    },
+    {
+      "name": "Pass the hash",
+      "aliases": [
+        "PtH"
+      ],
+      "wiki": "Pass the hash",
+      "tier": null
+    },
+    {
+      "name": "Pass the ticket",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Kerberoasting",
+      "aliases": [
+        "kerberoast"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "AS-REP roasting",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Golden ticket attack",
+      "aliases": [
+        "golden ticket"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Silver ticket attack",
+      "aliases": [
+        "silver ticket"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DCSync",
+      "aliases": [
+        "DCSync attack"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Credential dumping",
+      "aliases": [
+        "OS credential dumping",
+        "LSASS dumping",
+        "password dumping"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Credential harvesting",
+      "aliases": [
+        "credential theft",
+        "password theft",
+        "stolen credentials"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Account takeover",
+      "aliases": [
+        "ATO",
+        "account takeover fraud",
+        "account hijacking",
+        "hijacked account"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "MFA fatigue",
+      "aliases": [
+        "MFA bombing",
+        "push bombing",
+        "MFA fatigue attack",
+        "prompt bombing",
+        "MFA spamming"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "SIM swapping",
+      "aliases": [
+        "SIM swap",
+        "SIM swap scam",
+        "SIM hijacking",
+        "SIM jacking",
+        "port-out scam"
+      ],
+      "wiki": "SIM swap attack",
+      "tier": null
+    },
+    {
+      "name": "Juice jacking",
+      "aliases": [
+        "USB charging attack"
+      ],
+      "wiki": "Juice jacking",
+      "tier": null
+    },
+    {
+      "name": "Evil twin",
+      "aliases": [
+        "evil twin attack",
+        "evil twin access point",
+        "rogue wifi"
+      ],
+      "wiki": "Evil twin (wireless networks)",
+      "tier": null
+    },
+    {
+      "name": "Rogue access point",
+      "aliases": [
+        "rogue AP",
+        "rogue wireless access point"
+      ],
+      "wiki": "Rogue access point",
+      "tier": null
+    },
+    {
+      "name": "War driving",
+      "aliases": [],
+      "wiki": "Wardriving",
+      "tier": null
+    },
+    {
+      "name": "Wardialing",
+      "aliases": [],
+      "wiki": "Wardialing",
+      "tier": null
+    },
+    {
+      "name": "Warchalking",
+      "aliases": [],
+      "wiki": "Warchalking",
+      "tier": null
+    },
+    {
+      "name": "Bluesnarfing",
+      "aliases": [
+        "bluesnarf"
+      ],
+      "wiki": "Bluesnarfing",
+      "tier": null
+    },
+    {
+      "name": "Bluejacking",
+      "aliases": [],
+      "wiki": "Bluejacking",
+      "tier": null
+    },
+    {
+      "name": "Bluebugging",
+      "aliases": [],
+      "wiki": "Bluebugging",
+      "tier": null
+    },
+    {
+      "name": "Deauthentication attack",
+      "aliases": [
+        "deauth attack",
+        "wifi deauth",
+        "Wi-Fi deauthentication"
+      ],
+      "wiki": "Wi-Fi deauthentication attack",
+      "tier": null
+    },
+    {
+      "name": "Jamming",
+      "aliases": [
+        "wifi jamming",
+        "signal jamming",
+        "RF jamming"
+      ],
+      "wiki": "Radio jamming",
+      "tier": 5
+    },
+    {
+      "name": "Replay attack",
+      "aliases": [
+        "playback attack"
+      ],
+      "wiki": "Replay attack",
+      "tier": null
+    },
+    {
+      "name": "Relay attack",
+      "aliases": [
+        "relay theft",
+        "keyless car theft"
+      ],
+      "wiki": "Relay attack",
+      "tier": null
+    },
+    {
+      "name": "Downgrade attack",
+      "aliases": [
+        "version rollback attack",
+        "bidding-down attack"
+      ],
+      "wiki": "Downgrade attack",
+      "tier": null
+    },
+    {
+      "name": "Birthday attack",
+      "aliases": [],
+      "wiki": "Birthday attack",
+      "tier": null
+    },
+    {
+      "name": "Side-channel attack",
+      "aliases": [
+        "side-channel"
+      ],
+      "wiki": "Side-channel attack",
+      "tier": null
+    },
+    {
+      "name": "Timing attack",
+      "aliases": [],
+      "wiki": "Timing attack",
+      "tier": null
+    },
+    {
+      "name": "Power analysis",
+      "aliases": [
+        "differential power analysis",
+        "DPA attack"
+      ],
+      "wiki": "Power analysis",
+      "tier": null
+    },
+    {
+      "name": "Acoustic cryptanalysis",
+      "aliases": [
+        "acoustic side channel"
+      ],
+      "wiki": "Acoustic cryptanalysis",
+      "tier": null
+    },
+    {
+      "name": "Cold boot attack",
+      "aliases": [],
+      "wiki": "Cold boot attack",
+      "tier": null
+    },
+    {
+      "name": "Evil maid attack",
+      "aliases": [
+        "evil maid"
+      ],
+      "wiki": "Evil maid attack",
+      "tier": null
+    },
+    {
+      "name": "Rubber-hose cryptanalysis",
+      "aliases": [
+        "rubber hose attack",
+        "wrench attack"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Known-plaintext attack",
+      "aliases": [],
+      "wiki": "Known-plaintext attack",
+      "tier": null
+    },
+    {
+      "name": "Chosen-plaintext attack",
+      "aliases": [],
+      "wiki": "Chosen-plaintext attack",
+      "tier": null
+    },
+    {
+      "name": "Padding oracle attack",
+      "aliases": [
+        "padding oracle"
+      ],
+      "wiki": "Padding oracle attack",
+      "tier": null
+    },
+    {
+      "name": "Length extension attack",
+      "aliases": [],
+      "wiki": "Length extension attack",
+      "tier": null
+    },
+    {
+      "name": "Collision attack",
+      "aliases": [
+        "hash collision attack"
+      ],
+      "wiki": "Collision attack",
+      "tier": null
+    },
+    {
+      "name": "Meet-in-the-middle attack",
+      "aliases": [],
+      "wiki": "Meet-in-the-middle attack",
+      "tier": null
+    },
+    {
+      "name": "Shoulder surfing",
+      "aliases": [
+        "shoulder surfer"
+      ],
+      "wiki": "Shoulder surfing (computer security)",
+      "tier": null
+    },
+    {
+      "name": "Dumpster diving",
+      "aliases": [],
+      "wiki": "Dumpster diving",
+      "tier": null
+    },
+    {
+      "name": "Tailgating",
+      "aliases": [
+        "piggybacking",
+        "tailgating attack"
+      ],
+      "wiki": "Tailgating",
+      "tier": null
+    },
+    {
+      "name": "Pretexting",
+      "aliases": [
+        "pretext attack"
+      ],
+      "wiki": "Pretexting",
+      "tier": null
+    },
+    {
+      "name": "Baiting",
+      "aliases": [
+        "baiting attack",
+        "USB drop attack",
+        "USB baiting",
+        "dropped USB drive"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Quid pro quo attack",
+      "aliases": [
+        "quid pro quo"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Scareware",
+      "aliases": [
+        "fake antivirus",
+        "rogue antivirus"
+      ],
+      "wiki": "Scareware",
+      "tier": null
+    },
+    {
+      "name": "Rogue security software",
+      "aliases": [
+        "rogueware",
+        "fake security software"
+      ],
+      "wiki": "Rogue security software",
+      "tier": null
+    },
+    {
+      "name": "Tech support scam",
+      "aliases": [
+        "technical support scam",
+        "fake tech support",
+        "tech support fraud"
+      ],
+      "wiki": "Technical support scam",
+      "tier": null
+    },
+    {
+      "name": "Advance-fee scam",
+      "aliases": [
+        "Nigerian prince scam",
+        "419 scam",
+        "advance fee fraud",
+        "Nigerian scam"
+      ],
+      "wiki": "Advance-fee scam",
+      "tier": null
+    },
+    {
+      "name": "Romance scam",
+      "aliases": [
+        "catfishing scam",
+        "sweetheart scam"
+      ],
+      "wiki": "Romance scam",
+      "tier": null
+    },
+    {
+      "name": "Pig butchering scam",
+      "aliases": [
+        "pig butchering",
+        "sha zhu pan"
+      ],
+      "wiki": "Pig butchering scam",
+      "tier": null
+    },
+    {
+      "name": "Sextortion",
+      "aliases": [
+        "sextortion scam",
+        "sextortion email"
+      ],
+      "wiki": "Sextortion",
+      "tier": null
+    },
+    {
+      "name": "Catfishing",
+      "aliases": [
+        "catfish"
+      ],
+      "wiki": "Catfishing",
+      "tier": null
+    },
+    {
+      "name": "Impersonation",
+      "aliases": [
+        "impersonation attack",
+        "executive impersonation"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Deepfake",
+      "aliases": [
+        "deepfakes",
+        "deepfake scam",
+        "voice cloning",
+        "AI voice cloning"
+      ],
+      "wiki": "Deepfake",
+      "tier": null
+    },
+    {
+      "name": "Watering hole attack",
+      "aliases": [
+        "watering hole"
+      ],
+      "wiki": "Watering hole attack",
+      "tier": null
+    },
+    {
+      "name": "Drive-by download",
+      "aliases": [
+        "drive-by attack",
+        "drive-by compromise"
+      ],
+      "wiki": "Drive-by download",
+      "tier": null
+    },
+    {
+      "name": "Malvertising",
+      "aliases": [
+        "malicious advertising",
+        "malicious ads"
+      ],
+      "wiki": "Malvertising",
+      "tier": null
+    },
+    {
+      "name": "Typosquatting",
+      "aliases": [
+        "URL hijacking"
+      ],
+      "wiki": "Typosquatting",
+      "tier": null
+    },
+    {
+      "name": "Cybersquatting",
+      "aliases": [
+        "domain squatting"
+      ],
+      "wiki": "Cybersquatting",
+      "tier": null
+    },
+    {
+      "name": "IDN homograph attack",
+      "aliases": [
+        "homograph attack",
+        "homoglyph attack"
+      ],
+      "wiki": "IDN homograph attack",
+      "tier": null
+    },
+    {
+      "name": "Domain hijacking",
+      "aliases": [
+        "domain theft"
+      ],
+      "wiki": "Domain hijacking",
+      "tier": null
+    },
+    {
+      "name": "DNS hijacking",
+      "aliases": [
+        "DNS redirection"
+      ],
+      "wiki": "DNS hijacking",
+      "tier": null
+    },
+    {
+      "name": "BGP hijacking",
+      "aliases": [
+        "route hijacking",
+        "prefix hijacking",
+        "IP hijacking"
+      ],
+      "wiki": "BGP hijacking",
+      "tier": null
+    },
+    {
+      "name": "DNS tunneling",
+      "aliases": [
+        "DNS tunnelling"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "DNS amplification attack",
+      "aliases": [
+        "DNS amplification",
+        "DNS reflection attack"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "SYN flood",
+      "aliases": [
+        "SYN flooding",
+        "SYN attack"
+      ],
+      "wiki": "SYN flood",
+      "tier": null
+    },
+    {
+      "name": "Ping flood",
+      "aliases": [
+        "ICMP flood"
+      ],
+      "wiki": "Ping flood",
+      "tier": null
+    },
+    {
+      "name": "Ping of death",
+      "aliases": [],
+      "wiki": "Ping of death",
+      "tier": null
+    },
+    {
+      "name": "Smurf attack",
+      "aliases": [],
+      "wiki": "Smurf attack",
+      "tier": null
+    },
+    {
+      "name": "Fraggle attack",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "UDP flood",
+      "aliases": [
+        "UDP flood attack"
+      ],
+      "wiki": "UDP flood attack",
+      "tier": null
+    },
+    {
+      "name": "HTTP flood",
+      "aliases": [
+        "HTTP flood attack",
+        "application layer DDoS"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Slowloris",
+      "aliases": [
+        "slowloris attack"
+      ],
+      "wiki": "Slowloris (cyber attack)",
+      "tier": null
+    },
+    {
+      "name": "LAND attack",
+      "aliases": [
+        "local area network denial"
+      ],
+      "wiki": "LAND",
+      "tier": null
+    },
+    {
+      "name": "Teardrop attack",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Reflection attack",
+      "aliases": [
+        "amplification attack",
+        "reflection amplification"
+      ],
+      "wiki": "Reflection attack",
+      "tier": null
+    },
+    {
+      "name": "Fork bomb",
+      "aliases": [
+        "rabbit virus",
+        "wabbit"
+      ],
+      "wiki": "Fork bomb",
+      "tier": null
+    },
+    {
+      "name": "Zip bomb",
+      "aliases": [
+        "decompression bomb",
+        "zip of death"
+      ],
+      "wiki": "Zip bomb",
+      "tier": null
+    },
+    {
+      "name": "Billion laughs attack",
+      "aliases": [
+        "XML bomb",
+        "billion laughs"
+      ],
+      "wiki": "Billion laughs attack",
+      "tier": null
+    },
+    {
+      "name": "ReDoS",
+      "aliases": [
+        "regular expression denial of service"
+      ],
+      "wiki": "ReDoS",
+      "tier": null
+    },
+    {
+      "name": "Logic bomb",
+      "aliases": [
+        "slag code"
+      ],
+      "wiki": "Logic bomb",
+      "tier": null
+    },
+    {
+      "name": "Time bomb",
+      "aliases": [],
+      "wiki": "Time bomb (software)",
+      "tier": null
+    },
+    {
+      "name": "Email bomb",
+      "aliases": [
+        "email bombing",
+        "mail bomb",
+        "email flooding"
+      ],
+      "wiki": "Email bomb",
+      "tier": null
+    },
+    {
+      "name": "Spam",
+      "aliases": [
+        "spamming",
+        "spam email",
+        "junk mail",
+        "email spam"
+      ],
+      "wiki": "Spamming",
+      "tier": null
+    },
+    {
+      "name": "Spim",
+      "aliases": [
+        "instant messaging spam"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Comment spam",
+      "aliases": [
+        "spamdexing",
+        "search spam"
+      ],
+      "wiki": "Spamdexing",
+      "tier": 5
+    },
+    {
+      "name": "SEO poisoning",
+      "aliases": [
+        "search engine poisoning"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Click fraud",
+      "aliases": [
+        "ad fraud",
+        "click farm"
+      ],
+      "wiki": "Click fraud",
+      "tier": null
+    },
+    {
+      "name": "Cryptojacking",
+      "aliases": [
+        "cryptomining malware",
+        "coin miner",
+        "cryptominer",
+        "malicious cryptomining"
+      ],
+      "wiki": "Cryptojacking",
+      "tier": null
+    },
+    {
+      "name": "Fileless malware",
+      "aliases": [
+        "fileless attack",
+        "memory-resident malware",
+        "living off the land",
+        "LOLBins",
+        "LOTL",
+        "living off the land attack"
+      ],
+      "wiki": "Fileless malware",
+      "tier": null
+    },
+    {
+      "name": "Polymorphic malware",
+      "aliases": [
+        "polymorphic code",
+        "polymorphic virus"
+      ],
+      "wiki": "Polymorphic code",
+      "tier": null
+    },
+    {
+      "name": "Metamorphic malware",
+      "aliases": [
+        "metamorphic code",
+        "metamorphic virus"
+      ],
+      "wiki": "Metamorphic code",
+      "tier": null
+    },
+    {
+      "name": "Macro virus",
+      "aliases": [
+        "macro malware",
+        "malicious macro",
+        "Office macro"
+      ],
+      "wiki": "Macro virus",
+      "tier": null
+    },
+    {
+      "name": "Boot sector virus",
+      "aliases": [
+        "boot virus",
+        "boot sector malware",
+        "MBR virus"
+      ],
+      "wiki": "Boot sector",
+      "tier": 4
+    },
+    {
+      "name": "Bootkit",
+      "aliases": [
+        "bootkits",
+        "MBR rootkit",
+        "UEFI rootkit"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Firmware attack",
+      "aliases": [
+        "firmware malware",
+        "firmware rootkit"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Stealth virus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Multipartite virus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Resident virus",
+      "aliases": [
+        "memory resident virus"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Companion virus",
+      "aliases": [
+        "spawning virus"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cavity virus",
+      "aliases": [
+        "spacefiller virus"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "File infector",
+      "aliases": [
+        "file infector virus",
+        "file virus"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Wiper",
+      "aliases": [
+        "wiper malware",
+        "disk wiper",
+        "disk wipe"
+      ],
+      "wiki": "Wiper (malware)",
+      "tier": null
+    },
+    {
+      "name": "Infostealer",
+      "aliases": [
+        "information stealer",
+        "stealer malware",
+        "password stealer"
+      ],
+      "wiki": "Infostealer",
+      "tier": null
+    },
+    {
+      "name": "Banking trojan",
+      "aliases": [
+        "banking malware",
+        "banker trojan"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Remote access trojan",
+      "aliases": [
+        "RAT",
+        "remote access tool",
+        "remote administration trojan",
+        "remote access tools"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Dropper",
+      "aliases": [
+        "malware dropper"
+      ],
+      "wiki": "Dropper (malware)",
+      "tier": null
+    },
+    {
+      "name": "Downloader",
+      "aliases": [
+        "trojan downloader",
+        "malware loader",
+        "loader malware"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Crimeware",
+      "aliases": [],
+      "wiki": "Crimeware",
+      "tier": null
+    },
+    {
+      "name": "Mobile malware",
+      "aliases": [
+        "phone malware",
+        "Android malware",
+        "mobile virus"
+      ],
+      "wiki": "Mobile malware",
+      "tier": null
+    },
+    {
+      "name": "Linux malware",
+      "aliases": [],
+      "wiki": "Linux malware",
+      "tier": null
+    },
+    {
+      "name": "Mac malware",
+      "aliases": [
+        "macOS malware",
+        "Mac virus"
+      ],
+      "wiki": "MacOS malware",
+      "tier": null
+    },
+    {
+      "name": "Potentially unwanted program",
+      "aliases": [
+        "PUP",
+        "PUA",
+        "potentially unwanted application",
+        "bloatware",
+        "grayware"
+      ],
+      "wiki": "Potentially unwanted program",
+      "tier": null
+    },
+    {
+      "name": "Browser hijacker",
+      "aliases": [
+        "browser hijacking",
+        "homepage hijacker"
+      ],
+      "wiki": "Browser hijacking",
+      "tier": null
+    },
+    {
+      "name": "Malicious browser extension",
+      "aliases": [
+        "rogue browser extension",
+        "malicious extension"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Riskware",
+      "aliases": [],
+      "wiki": "Riskware",
+      "tier": null
+    },
+    {
+      "name": "Dialer",
+      "aliases": [
+        "rogue dialer",
+        "dialer malware"
+      ],
+      "wiki": "Dialer",
+      "tier": null
+    },
+    {
+      "name": "Fleeceware",
+      "aliases": [],
+      "wiki": "Fleeceware",
+      "tier": null
+    },
+    {
+      "name": "Stalkerware app",
+      "aliases": [
+        "spouseware"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Web shell",
+      "aliases": [],
+      "wiki": "Web shell",
+      "tier": null
+    },
+    {
+      "name": "Shellcode",
+      "aliases": [],
+      "wiki": "Shellcode",
+      "tier": null
+    },
+    {
+      "name": "Formjacking",
+      "aliases": [
+        "web skimming",
+        "digital skimming",
+        "Magecart attack"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Form grabbing",
+      "aliases": [
+        "form grabber"
+      ],
+      "wiki": "Form grabbing",
+      "tier": null
+    },
+    {
+      "name": "Card skimming",
+      "aliases": [
+        "skimming",
+        "ATM skimming",
+        "card skimmer",
+        "skimmer"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Carding",
+      "aliases": [
+        "credit card fraud",
+        "carding fraud",
+        "card fraud",
+        "stolen credit cards"
+      ],
+      "wiki": "Carding (fraud)",
+      "tier": null
+    },
+    {
+      "name": "Point-of-sale malware",
+      "aliases": [
+        "POS malware",
+        "RAM scraper"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "ATM jackpotting",
+      "aliases": [
+        "jackpotting",
+        "ATM malware"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Supply chain attack",
+      "aliases": [
+        "software supply chain attack",
+        "third-party attack",
+        "supply chain compromise"
+      ],
+      "wiki": "Supply chain attack",
+      "tier": null
+    },
+    {
+      "name": "Dependency confusion",
+      "aliases": [
+        "dependency confusion attack",
+        "namespace confusion"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Typosquatted package",
+      "aliases": [
+        "malicious package",
+        "package typosquatting",
+        "malicious npm package"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Insider threat",
+      "aliases": [
+        "malicious insider",
+        "insider attack",
+        "disgruntled employee",
+        "rogue employee"
+      ],
+      "wiki": "Insider threat",
+      "tier": null
+    },
+    {
+      "name": "Advanced persistent threat",
+      "aliases": [
+        "APT",
+        "APT group",
+        "advanced persistent threats"
+      ],
+      "wiki": "Advanced persistent threat",
+      "tier": null
+    },
+    {
+      "name": "Nation-state hackers",
+      "aliases": [
+        "state-sponsored hackers",
+        "nation state attack",
+        "nation-state actor",
+        "state-sponsored attack"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Hacktivism",
+      "aliases": [
+        "hacktivist",
+        "hacktivists"
+      ],
+      "wiki": "Hacktivism",
+      "tier": null
+    },
+    {
+      "name": "Script kiddie",
+      "aliases": [
+        "skiddie",
+        "script kiddies"
+      ],
+      "wiki": "Script kiddie",
+      "tier": null
+    },
+    {
+      "name": "Black hat hacker",
+      "aliases": [
+        "black hat",
+        "black hat hackers"
+      ],
+      "wiki": "Black hat (computer security)",
+      "tier": null
+    },
+    {
+      "name": "Grey hat hacker",
+      "aliases": [
+        "grey hat",
+        "gray hat",
+        "gray hat hacker"
+      ],
+      "wiki": "Grey hat",
+      "tier": null
+    },
+    {
+      "name": "Cybercriminals",
+      "aliases": [
+        "cybercrime",
+        "cybercriminal"
+      ],
+      "wiki": "Cybercrime",
+      "tier": null
+    },
+    {
+      "name": "Organized cybercrime",
+      "aliases": [
+        "cybercrime gang",
+        "cybercrime group",
+        "ransomware gang"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Hacker group",
+      "aliases": [
+        "hacking group",
+        "hacker collective"
+      ],
+      "wiki": "Hacker group",
+      "tier": null
+    },
+    {
+      "name": "Cyberterrorism",
+      "aliases": [
+        "cyberterrorist"
+      ],
+      "wiki": "Cyberterrorism",
+      "tier": null
+    },
+    {
+      "name": "Cyberwarfare",
+      "aliases": [
+        "cyber war"
+      ],
+      "wiki": "Cyberwarfare",
+      "tier": null
+    },
+    {
+      "name": "Cyber espionage",
+      "aliases": [
+        "cyber spying",
+        "corporate espionage",
+        "industrial espionage"
+      ],
+      "wiki": "Cyber espionage",
+      "tier": null
+    },
+    {
+      "name": "Cyberattack",
+      "aliases": [
+        "cyberattacks"
+      ],
+      "wiki": "Cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Cyberstalking",
+      "aliases": [
+        "online stalking"
+      ],
+      "wiki": "Cyberstalking",
+      "tier": null
+    },
+    {
+      "name": "Cyberbullying",
+      "aliases": [
+        "online harassment"
+      ],
+      "wiki": "Cyberbullying",
+      "tier": null
+    },
+    {
+      "name": "Doxing",
+      "aliases": [
+        "doxxing",
+        "dox",
+        "doxx"
+      ],
+      "wiki": "Doxing",
+      "tier": null
+    },
+    {
+      "name": "Swatting",
+      "aliases": [],
+      "wiki": "Swatting",
+      "tier": null
+    },
+    {
+      "name": "Trolling",
+      "aliases": [
+        "internet troll"
+      ],
+      "wiki": "Trolling",
+      "tier": 5
+    },
+    {
+      "name": "Disinformation",
+      "aliases": [
+        "disinformation campaign",
+        "fake news",
+        "misinformation",
+        "influence operation"
+      ],
+      "wiki": "Disinformation",
+      "tier": null
+    },
+    {
+      "name": "Information warfare",
+      "aliases": [
+        "info war"
+      ],
+      "wiki": "Information warfare",
+      "tier": null
+    },
+    {
+      "name": "Cyberweapon",
+      "aliases": [],
+      "wiki": "Cyberweapon",
+      "tier": null
+    },
+    {
+      "name": "Website defacement",
+      "aliases": [
+        "defacement",
+        "web defacement",
+        "site defacement"
+      ],
+      "wiki": "Website defacement",
+      "tier": null
+    },
+    {
+      "name": "Data exfiltration",
+      "aliases": [
+        "exfiltration",
+        "data theft",
+        "data exfil"
+      ],
+      "wiki": "Data exfiltration",
+      "tier": null
+    },
+    {
+      "name": "Data scraping",
+      "aliases": [
+        "web scraping",
+        "scraping attack"
+      ],
+      "wiki": "Data scraping",
+      "tier": null
+    },
+    {
+      "name": "Data loss",
+      "aliases": [
+        "data destruction"
+      ],
+      "wiki": "Data loss",
+      "tier": 5
+    },
+    {
+      "name": "Data poisoning",
+      "aliases": [
+        "training data poisoning",
+        "model poisoning",
+        "AI poisoning"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Prompt injection",
+      "aliases": [
+        "prompt injection attack",
+        "indirect prompt injection",
+        "LLM prompt injection"
+      ],
+      "wiki": "Prompt injection",
+      "tier": null
+    },
+    {
+      "name": "Jailbreaking an AI",
+      "aliases": [
+        "AI jailbreak",
+        "LLM jailbreak",
+        "jailbreak prompt"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Adversarial machine learning",
+      "aliases": [
+        "adversarial examples",
+        "adversarial attack",
+        "evasion attack"
+      ],
+      "wiki": "Adversarial machine learning",
+      "tier": null
+    },
+    {
+      "name": "Model inversion attack",
+      "aliases": [
+        "model inversion"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Model stealing",
+      "aliases": [
+        "model extraction attack"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AI-generated phishing",
+      "aliases": [
+        "AI phishing",
+        "AI-powered phishing"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Shadow IT",
+      "aliases": [],
+      "wiki": "Shadow IT",
+      "tier": null
+    },
+    {
+      "name": "Shadow AI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Unsecured IoT devices",
+      "aliases": [
+        "IoT attack",
+        "IoT botnet",
+        "IoT vulnerability"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Cloud misconfiguration",
+      "aliases": [
+        "open S3 bucket",
+        "exposed S3 bucket",
+        "leaky bucket",
+        "misconfigured cloud"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Exposed API",
+      "aliases": [
+        "API attack",
+        "insecure API",
+        "API abuse",
+        "broken object level authorization",
+        "BOLA"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Lateral movement",
+      "aliases": [
+        "lateral movement attack",
+        "pivoting"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Command and control",
+      "aliases": [
+        "C2",
+        "C&C",
+        "C2 server",
+        "command-and-control server"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Domain generation algorithm",
+      "aliases": [
+        "DGA",
+        "domain generation algorithms"
+      ],
+      "wiki": "Domain generation algorithm",
+      "tier": null
+    },
+    {
+      "name": "Fast flux",
+      "aliases": [
+        "fast flux DNS"
+      ],
+      "wiki": "Fast flux",
+      "tier": null
+    },
+    {
+      "name": "Bulletproof hosting",
+      "aliases": [
+        "bulletproof hoster"
+      ],
+      "wiki": "Bulletproof hosting",
+      "tier": null
+    },
+    {
+      "name": "Port scanning",
+      "aliases": [
+        "port scan",
+        "port scanner",
+        "nmap scan"
+      ],
+      "wiki": "Port scanner",
+      "tier": null
+    },
+    {
+      "name": "Network scanning",
+      "aliases": [
+        "ping sweep",
+        "vulnerability scanning",
+        "reconnaissance scan",
+        "active scanning"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Reconnaissance",
+      "aliases": [
+        "recon",
+        "footprinting",
+        "OSINT reconnaissance"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Steganography",
+      "aliases": [
+        "stego",
+        "steganographic malware"
+      ],
+      "wiki": "Steganography",
+      "tier": null
+    },
+    {
+      "name": "Covert channel",
+      "aliases": [],
+      "wiki": "Covert channel",
+      "tier": null
+    },
+    {
+      "name": "Process injection",
+      "aliases": [
+        "DLL injection",
+        "process hollowing",
+        "code cave",
+        "dynamic-link library injection"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "DLL hijacking",
+      "aliases": [
+        "DLL side-loading",
+        "DLL search order hijacking"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Obfuscation",
+      "aliases": [
+        "code obfuscation",
+        "malware obfuscation"
+      ],
+      "wiki": "Obfuscation (software)",
+      "tier": 5
+    },
+    {
+      "name": "Malware packer",
+      "aliases": [
+        "crypter",
+        "packed malware",
+        "software packing"
+      ],
+      "wiki": "Executable compression",
+      "tier": 6
+    },
+    {
+      "name": "Anti-forensics",
+      "aliases": [
+        "anti-computer forensics",
+        "log tampering",
+        "log wiping"
+      ],
+      "wiki": "Anti–computer forensics",
+      "tier": null
+    },
+    {
+      "name": "Timestomping",
+      "aliases": [
+        "timestomp"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ransomware as a service",
+      "aliases": [
+        "RaaS"
+      ],
+      "wiki": "Ransomware as a service",
+      "tier": null
+    },
+    {
+      "name": "Double extortion",
+      "aliases": [
+        "double extortion ransomware",
+        "triple extortion"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Extortion",
+      "aliases": [
+        "cyber extortion",
+        "data extortion"
+      ],
+      "wiki": "Extortion",
+      "tier": 5
+    },
+    {
+      "name": "Malware as a service",
+      "aliases": [
+        "MaaS"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Initial access broker",
+      "aliases": [
+        "IAB",
+        "access broker"
+      ],
+      "wiki": "Initial access broker",
+      "tier": null
+    },
+    {
+      "name": "Dark web marketplace",
+      "aliases": [
+        "darknet market",
+        "dark web",
+        "darknet",
+        "black market forums"
+      ],
+      "wiki": "Darknet market",
+      "tier": 4
+    },
+    {
+      "name": "Hardware trojan",
+      "aliases": [
+        "hardware trojan horse"
+      ],
+      "wiki": "Hardware trojan",
+      "tier": null
+    },
+    {
+      "name": "Hardware backdoor",
+      "aliases": [],
+      "wiki": "Hardware backdoor",
+      "tier": null
+    },
+    {
+      "name": "Hardware keylogger",
+      "aliases": [],
+      "wiki": "Hardware keylogger",
+      "tier": null
+    },
+    {
+      "name": "Rubber Ducky attack",
+      "aliases": [
+        "USB Rubber Ducky",
+        "BadUSB",
+        "malicious USB",
+        "rubber ducky"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Infected USB drive",
+      "aliases": [
+        "USB malware",
+        "infected flash drive",
+        "removable media malware"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Physical theft",
+      "aliases": [
+        "stolen laptop",
+        "device theft",
+        "lost device",
+        "stolen device"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Piggybacking on Wi-Fi",
+      "aliases": [
+        "wifi piggybacking",
+        "wifi leeching"
+      ],
+      "wiki": "Piggybacking (Internet access)",
+      "tier": null
+    },
+    {
+      "name": "Unsecured Wi-Fi",
+      "aliases": [
+        "public wifi",
+        "public Wi-Fi attack",
+        "open wifi",
+        "free wifi"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Pass the cookie",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Token theft",
+      "aliases": [
+        "access token theft",
+        "OAuth token theft"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Consent phishing",
+      "aliases": [
+        "OAuth phishing",
+        "illicit consent grant"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Browser-in-the-browser attack",
+      "aliases": [
+        "BitB",
+        "browser in the browser"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "ClickFix",
+      "aliases": [
+        "fake CAPTCHA",
+        "ClickFix attack"
+      ],
+      "wiki": "ClickFix",
+      "tier": null
+    },
+    {
+      "name": "Callback phishing",
+      "aliases": [
+        "telephone-oriented attack delivery"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "HTML smuggling",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Malicious attachment",
+      "aliases": [
+        "email attachment malware",
+        "infected attachment"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Malicious link",
+      "aliases": [
+        "malicious URL",
+        "bad link",
+        "suspicious link"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "Fake website",
+      "aliases": [
+        "spoofed website",
+        "spoofed URL",
+        "lookalike domain",
+        "fake login page"
+      ],
+      "wiki": "Spoofed URL",
+      "tier": 4
+    },
+    {
+      "name": "Fake app",
+      "aliases": [
+        "fake mobile app",
+        "malicious app",
+        "trojanized app"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Pop-up scam",
+      "aliases": [
+        "fake virus alert",
+        "browser pop-up scam"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Gift card scam",
+      "aliases": [
+        "gift card fraud"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Crypto scam",
+      "aliases": [
+        "cryptocurrency scam",
+        "crypto fraud",
+        "rug pull"
+      ],
+      "wiki": "Cryptocurrency and crime",
+      "tier": 4
+    },
+    {
+      "name": "Lottery scam",
+      "aliases": [
+        "sweepstakes scam",
+        "prize scam"
+      ],
+      "wiki": "Lottery scam",
+      "tier": null
+    },
+    {
+      "name": "Invoice fraud",
+      "aliases": [
+        "fake invoice",
+        "invoice scam"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Payroll diversion",
+      "aliases": [
+        "direct deposit fraud"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Wire fraud",
+      "aliases": [
+        "wire transfer fraud"
+      ],
+      "wiki": "Mail and wire fraud",
+      "tier": 4
+    },
+    {
+      "name": "Online fraud",
+      "aliases": [
+        "internet fraud",
+        "cyber fraud"
+      ],
+      "wiki": "Internet fraud",
+      "tier": null
+    },
+    {
+      "name": "Computer fraud",
+      "aliases": [],
+      "wiki": "Computer fraud",
+      "tier": null
+    },
+    {
+      "name": "Email fraud",
+      "aliases": [
+        "email scam"
+      ],
+      "wiki": "Email fraud",
+      "tier": null
+    },
+    {
+      "name": "Charity scam",
+      "aliases": [
+        "charity fraud"
+      ],
+      "wiki": "Charity fraud",
+      "tier": null
+    },
+    {
+      "name": "Job scam",
+      "aliases": [
+        "employment scam",
+        "fake job offer",
+        "recruitment scam"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Phone scam",
+      "aliases": [
+        "telephone fraud",
+        "robocall scam",
+        "robocalls"
+      ],
+      "wiki": "Phone fraud",
+      "tier": 4
+    },
+    {
+      "name": "Spoofed caller",
+      "aliases": [
+        "neighbor spoofing"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Grandparent scam",
+      "aliases": [
+        "emergency scam"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Toll fraud",
+      "aliases": [
+        "phone toll fraud",
+        "IRSF"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Wangiri",
+      "aliases": [
+        "one ring scam",
+        "missed call scam"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SS7 attack",
+      "aliases": [
+        "SS7 hack",
+        "SS7 exploit"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Cellular interception",
+      "aliases": [
+        "IMSI catcher",
+        "fake cell tower"
+      ],
+      "wiki": "IMSI-catcher",
+      "tier": null
+    },
+    {
+      "name": "Bluetooth attack",
+      "aliases": [
+        "Bluetooth hacking"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "RFID skimming",
+      "aliases": [
+        "RFID cloning",
+        "NFC skimming",
+        "contactless skimming"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Card cloning",
+      "aliases": [
+        "badge cloning",
+        "credit card cloning"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Rowhammer",
+      "aliases": [
+        "rowhammer attack"
+      ],
+      "wiki": "Row hammer",
+      "tier": null
+    },
+    {
+      "name": "Spectre",
+      "aliases": [
+        "Spectre vulnerability"
+      ],
+      "wiki": "Spectre (security vulnerability)",
+      "tier": null
+    },
+    {
+      "name": "Meltdown",
+      "aliases": [
+        "Meltdown vulnerability"
+      ],
+      "wiki": "Meltdown (security vulnerability)",
+      "tier": null
+    },
+    {
+      "name": "Heartbleed",
+      "aliases": [
+        "Heartbleed bug"
+      ],
+      "wiki": "Heartbleed",
+      "tier": null
+    },
+    {
+      "name": "Shellshock",
+      "aliases": [
+        "Bashdoor",
+        "Shellshock bug"
+      ],
+      "wiki": "Shellshock (software bug)",
+      "tier": null
+    },
+    {
+      "name": "Log4Shell",
+      "aliases": [
+        "Log4j vulnerability",
+        "Log4j",
+        "Log4j exploit"
+      ],
+      "wiki": "Log4Shell",
+      "tier": null
+    },
+    {
+      "name": "EternalBlue",
+      "aliases": [],
+      "wiki": "EternalBlue",
+      "tier": null
+    },
+    {
+      "name": "BlueKeep",
+      "aliases": [],
+      "wiki": "BlueKeep",
+      "tier": null
+    },
+    {
+      "name": "POODLE",
+      "aliases": [
+        "POODLE attack"
+      ],
+      "wiki": "POODLE",
+      "tier": null
+    },
+    {
+      "name": "KRACK",
+      "aliases": [
+        "KRACK attack",
+        "key reinstallation attack"
+      ],
+      "wiki": "KRACK",
+      "tier": null
+    },
+    {
+      "name": "DROWN attack",
+      "aliases": [
+        "DROWN"
+      ],
+      "wiki": "DROWN attack",
+      "tier": null
+    },
+    {
+      "name": "BEAST attack",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "CRIME attack",
+      "aliases": [],
+      "wiki": "CRIME",
+      "tier": null
+    },
+    {
+      "name": "BREACH attack",
+      "aliases": [],
+      "wiki": "BREACH",
+      "tier": null
+    },
+    {
+      "name": "Logjam",
+      "aliases": [
+        "logjam attack"
+      ],
+      "wiki": "Logjam (computer security)",
+      "tier": null
+    },
+    {
+      "name": "FREAK",
+      "aliases": [
+        "FREAK attack"
+      ],
+      "wiki": "FREAK",
+      "tier": null
+    },
+    {
+      "name": "Dirty COW",
+      "aliases": [],
+      "wiki": "Dirty COW",
+      "tier": null
+    },
+    {
+      "name": "Dirty Pipe",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "PrintNightmare",
+      "aliases": [],
+      "wiki": "PrintNightmare",
+      "tier": null
+    },
+    {
+      "name": "Zerologon",
+      "aliases": [],
+      "wiki": "Zerologon",
+      "tier": null
+    },
+    {
+      "name": "ProxyShell",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Follina",
+      "aliases": [
+        "Follina vulnerability"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Citrix Bleed",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Stagefright",
+      "aliases": [
+        "Stagefright bug"
+      ],
+      "wiki": "Stagefright (bug)",
+      "tier": null
+    },
+    {
+      "name": "BlueBorne",
+      "aliases": [],
+      "wiki": "BlueBorne (security vulnerability)",
+      "tier": null
+    },
+    {
+      "name": "SMBGhost",
+      "aliases": [],
+      "wiki": "SMBGhost",
+      "tier": null
+    },
+    {
+      "name": "Foreshadow",
+      "aliases": [],
+      "wiki": "Foreshadow",
+      "tier": null
+    },
+    {
+      "name": "XZ Utils backdoor",
+      "aliases": [
+        "xz backdoor",
+        "xz utils"
+      ],
+      "wiki": "XZ Utils backdoor",
+      "tier": null
+    },
+    {
+      "name": "Ghost vulnerability",
+      "aliases": [
+        "GHOST glibc"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Sinkclose",
+      "aliases": [],
+      "wiki": "Sinkclose",
+      "tier": null
+    },
+    {
+      "name": "Downfall",
+      "aliases": [],
+      "wiki": "Downfall (security vulnerability)",
+      "tier": null
+    },
+    {
+      "name": "Retbleed",
+      "aliases": [],
+      "wiki": "Retbleed",
+      "tier": null
+    },
+    {
+      "name": "Thunderspy",
+      "aliases": [],
+      "wiki": "Thunderspy",
+      "tier": null
+    },
+    {
+      "name": "Cloudbleed",
+      "aliases": [],
+      "wiki": "Cloudbleed",
+      "tier": null
+    },
+    {
+      "name": "Badlock",
+      "aliases": [],
+      "wiki": "Badlock",
+      "tier": null
+    },
+    {
+      "name": "Terrapin attack",
+      "aliases": [],
+      "wiki": "Terrapin attack",
+      "tier": null
+    },
+    {
+      "name": "CrowdStrike outage",
+      "aliases": [
+        "CrowdStrike incident",
+        "CrowdStrike update"
+      ],
+      "wiki": "2024 CrowdStrike-related IT outages",
+      "tier": 4
+    },
+    {
+      "name": "WannaCry",
+      "aliases": [
+        "WannaCrypt",
+        "WannaCry ransomware",
+        "WannaCry attack",
+        "WanaCrypt0r",
+        "WanaCry",
+        "WanaCrypt",
+        "WCry"
+      ],
+      "wiki": "WannaCry ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "NotPetya",
+      "aliases": [
+        "NotPetya attack",
+        "ExPetr",
+        "Nyetya"
+      ],
+      "wiki": "2017 Ukraine ransomware attacks",
+      "tier": null
+    },
+    {
+      "name": "Petya",
+      "aliases": [
+        "Petya ransomware",
+        "Diskcoder.C",
+        "GoldenEye",
+        "Petrwrap"
+      ],
+      "wiki": "Petya (malware family)",
+      "tier": null
+    },
+    {
+      "name": "Stuxnet",
+      "aliases": [
+        "Stuxnet worm",
+        "W32.Stuxnet"
+      ],
+      "wiki": "Stuxnet",
+      "tier": null
+    },
+    {
+      "name": "SolarWinds hack",
+      "aliases": [
+        "SolarWinds attack",
+        "SolarWinds breach",
+        "Sunburst",
+        "SolarWinds supply chain attack",
+        "Solorigate"
+      ],
+      "wiki": "2020 United States federal government data breach",
+      "tier": null
+    },
+    {
+      "name": "Colonial Pipeline ransomware attack",
+      "aliases": [
+        "Colonial Pipeline hack",
+        "Colonial Pipeline attack",
+        "Colonial Pipeline"
+      ],
+      "wiki": "Colonial Pipeline ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Equifax breach",
+      "aliases": [
+        "Equifax data breach",
+        "Equifax hack",
+        "2017 Equifax data breach"
+      ],
+      "wiki": "2017 Equifax data breach",
+      "tier": null
+    },
+    {
+      "name": "Target data breach",
+      "aliases": [
+        "Target breach",
+        "Target hack"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Yahoo data breach",
+      "aliases": [
+        "Yahoo breach",
+        "Yahoo hack",
+        "Yahoo data breaches"
+      ],
+      "wiki": "Yahoo data breaches",
+      "tier": null
+    },
+    {
+      "name": "Sony Pictures hack",
+      "aliases": [
+        "Sony hack",
+        "2014 Sony Pictures hack"
+      ],
+      "wiki": "2014 Sony Pictures hack",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Exchange hack",
+      "aliases": [
+        "ProxyLogon",
+        "Exchange Server hack",
+        "Microsoft Exchange Server data breach"
+      ],
+      "wiki": "2021 Microsoft Exchange Server data breach",
+      "tier": null
+    },
+    {
+      "name": "Kaseya ransomware attack",
+      "aliases": [
+        "Kaseya attack",
+        "Kaseya VSA ransomware attack",
+        "Kaseya hack"
+      ],
+      "wiki": "Kaseya VSA ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "MOVEit breach",
+      "aliases": [
+        "MOVEit hack",
+        "MOVEit data breach",
+        "MOVEit"
+      ],
+      "wiki": "2023 MOVEit data breach",
+      "tier": null
+    },
+    {
+      "name": "Change Healthcare ransomware attack",
+      "aliases": [
+        "Change Healthcare hack",
+        "Change Healthcare breach"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "OPM data breach",
+      "aliases": [
+        "OPM hack",
+        "Office of Personnel Management data breach"
+      ],
+      "wiki": "2015 Office of Personnel Management data breach",
+      "tier": null
+    },
+    {
+      "name": "Twitter hack",
+      "aliases": [
+        "2020 Twitter hack",
+        "Twitter account hijacking",
+        "Twitter bitcoin scam"
+      ],
+      "wiki": "2020 Twitter account hijacking",
+      "tier": null
+    },
+    {
+      "name": "PlayStation Network hack",
+      "aliases": [
+        "PSN hack",
+        "PlayStation Network outage",
+        "PSN outage"
+      ],
+      "wiki": "2011 PlayStation Network outage",
+      "tier": null
+    },
+    {
+      "name": "Ashley Madison data breach",
+      "aliases": [
+        "Ashley Madison hack",
+        "Ashley Madison breach"
+      ],
+      "wiki": "Ashley Madison data breach",
+      "tier": null
+    },
+    {
+      "name": "Capital One data breach",
+      "aliases": [
+        "Capital One hack",
+        "Capital One breach"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Marriott data breach",
+      "aliases": [
+        "Marriott hack",
+        "Starwood breach"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "LinkedIn hack",
+      "aliases": [
+        "LinkedIn breach",
+        "LinkedIn data breach"
+      ],
+      "wiki": "2012 LinkedIn hack",
+      "tier": null
+    },
+    {
+      "name": "Facebook data breach",
+      "aliases": [
+        "Facebook leak",
+        "Facebook breach"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Cambridge Analytica scandal",
+      "aliases": [
+        "Cambridge Analytica",
+        "Facebook Cambridge Analytica"
+      ],
+      "wiki": "Facebook–Cambridge Analytica data scandal",
+      "tier": null
+    },
+    {
+      "name": "Home Depot data breach",
+      "aliases": [
+        "Home Depot breach"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Anthem data breach",
+      "aliases": [
+        "Anthem breach",
+        "Anthem hack"
+      ],
+      "wiki": "Anthem medical data breach",
+      "tier": null
+    },
+    {
+      "name": "Uber data breach",
+      "aliases": [
+        "Uber breach",
+        "Uber hack"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "LastPass breach",
+      "aliases": [
+        "LastPass hack",
+        "LastPass data breach"
+      ],
+      "wiki": "2022 LastPass data breach",
+      "tier": null
+    },
+    {
+      "name": "23andMe data breach",
+      "aliases": [
+        "23andMe breach",
+        "23andMe leak"
+      ],
+      "wiki": "23andMe data leak",
+      "tier": 4
+    },
+    {
+      "name": "National Public Data breach",
+      "aliases": [
+        "NPD breach",
+        "National Public Data hack"
+      ],
+      "wiki": "2024 National Public Data breach",
+      "tier": null
+    },
+    {
+      "name": "Snowflake data breach",
+      "aliases": [
+        "Snowflake hack",
+        "Snowflake breach"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Optus data breach",
+      "aliases": [
+        "Optus hack"
+      ],
+      "wiki": "2022 Optus data breach",
+      "tier": null
+    },
+    {
+      "name": "Bangladesh Bank heist",
+      "aliases": [
+        "Bangladesh Bank robbery",
+        "Bangladesh Bank hack",
+        "SWIFT heist"
+      ],
+      "wiki": "Bangladesh Bank robbery",
+      "tier": null
+    },
+    {
+      "name": "Dyn cyberattack",
+      "aliases": [
+        "Dyn DDoS attack",
+        "DDoS attacks on Dyn",
+        "Dyn attack"
+      ],
+      "wiki": "DDoS attacks on Dyn",
+      "tier": null
+    },
+    {
+      "name": "Operation Aurora",
+      "aliases": [
+        "Aurora attack",
+        "Google China hack"
+      ],
+      "wiki": "Operation Aurora",
+      "tier": null
+    },
+    {
+      "name": "Estonia cyberattacks",
+      "aliases": [
+        "2007 cyberattacks on Estonia",
+        "Estonia cyberattack"
+      ],
+      "wiki": "2007 cyberattacks on Estonia",
+      "tier": null
+    },
+    {
+      "name": "Ukraine power grid hack",
+      "aliases": [
+        "2015 Ukraine power grid hack",
+        "Ukraine grid attack"
+      ],
+      "wiki": "2015 Ukraine power grid hack",
+      "tier": null
+    },
+    {
+      "name": "Morris worm",
+      "aliases": [
+        "Morris internet worm",
+        "Great Worm"
+      ],
+      "wiki": "Morris worm",
+      "tier": null
+    },
+    {
+      "name": "ILOVEYOU",
+      "aliases": [
+        "Love Bug",
+        "ILOVEYOU virus",
+        "Love Letter virus"
+      ],
+      "wiki": "ILOVEYOU",
+      "tier": null
+    },
+    {
+      "name": "Melissa virus",
+      "aliases": [
+        "Melissa worm"
+      ],
+      "wiki": "Melissa (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Code Red",
+      "aliases": [
+        "Code Red worm"
+      ],
+      "wiki": "Code Red (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "SQL Slammer",
+      "aliases": [
+        "Slammer",
+        "Sapphire worm",
+        "SQL Slammer worm"
+      ],
+      "wiki": "SQL Slammer",
+      "tier": null
+    },
+    {
+      "name": "Mydoom",
+      "aliases": [
+        "MyDoom worm",
+        "Novarg"
+      ],
+      "wiki": "Mydoom",
+      "tier": null
+    },
+    {
+      "name": "Conficker",
+      "aliases": [
+        "Downadup",
+        "Kido",
+        "Conficker worm"
+      ],
+      "wiki": "Conficker",
+      "tier": null
+    },
+    {
+      "name": "Mirai",
+      "aliases": [
+        "Mirai botnet"
+      ],
+      "wiki": "Mirai (malware)",
+      "tier": null
+    },
+    {
+      "name": "Zeus",
+      "aliases": [
+        "Zbot",
+        "Zeus trojan"
+      ],
+      "wiki": "Zeus (malware)",
+      "tier": null
+    },
+    {
+      "name": "Emotet",
+      "aliases": [
+        "Emotet trojan",
+        "Heodo",
+        "Geodo"
+      ],
+      "wiki": "Emotet",
+      "tier": null
+    },
+    {
+      "name": "TrickBot",
+      "aliases": [
+        "Trickbot trojan",
+        "Totbrick",
+        "TSPY_TRICKLOAD"
+      ],
+      "wiki": "Trickbot",
+      "tier": null
+    },
+    {
+      "name": "CryptoLocker",
+      "aliases": [
+        "CryptoLocker ransomware"
+      ],
+      "wiki": "CryptoLocker",
+      "tier": null
+    },
+    {
+      "name": "Pegasus",
+      "aliases": [
+        "Pegasus spyware",
+        "NSO Pegasus"
+      ],
+      "wiki": "Pegasus (spyware)",
+      "tier": null
+    },
+    {
+      "name": "Flame malware",
+      "aliases": [
+        "Flamer",
+        "sKyWIper"
+      ],
+      "wiki": "Flame (malware)",
+      "tier": null
+    },
+    {
+      "name": "Duqu",
+      "aliases": [],
+      "wiki": "Duqu",
+      "tier": null
+    },
+    {
+      "name": "Brain virus",
+      "aliases": [
+        "Pakistani Brain",
+        "Brain computer virus"
+      ],
+      "wiki": "Brain (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Elk Cloner",
+      "aliases": [],
+      "wiki": "Elk Cloner",
+      "tier": null
+    },
+    {
+      "name": "Creeper virus",
+      "aliases": [
+        "Creeper program"
+      ],
+      "wiki": "Creeper and Reaper",
+      "tier": null
+    },
+    {
+      "name": "CIH",
+      "aliases": [
+        "Chernobyl virus",
+        "Spacefiller"
+      ],
+      "wiki": "CIH (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Michelangelo virus",
+      "aliases": [],
+      "wiki": "Michelangelo (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Jerusalem virus",
+      "aliases": [
+        "Friday the 13th virus"
+      ],
+      "wiki": "Jerusalem (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Storm Worm",
+      "aliases": [
+        "Storm botnet",
+        "Storm Worm trojan"
+      ],
+      "wiki": "Storm Worm",
+      "tier": null
+    },
+    {
+      "name": "Sasser",
+      "aliases": [
+        "Sasser worm"
+      ],
+      "wiki": "Sasser (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Blaster",
+      "aliases": [
+        "Blaster worm",
+        "Lovsan",
+        "MSBlast"
+      ],
+      "wiki": "Blaster (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Nimda",
+      "aliases": [
+        "Nimda worm"
+      ],
+      "wiki": "Nimda",
+      "tier": null
+    },
+    {
+      "name": "Klez",
+      "aliases": [
+        "Klez worm"
+      ],
+      "wiki": "Klez",
+      "tier": null
+    },
+    {
+      "name": "Anna Kournikova virus",
+      "aliases": [
+        "Anna Kournikova worm"
+      ],
+      "wiki": "Anna Kournikova (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Samy worm",
+      "aliases": [
+        "MySpace worm",
+        "Samy is my hero"
+      ],
+      "wiki": "Samy (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Koobface",
+      "aliases": [],
+      "wiki": "Koobface",
+      "tier": null
+    },
+    {
+      "name": "Shamoon",
+      "aliases": [
+        "Disttrack"
+      ],
+      "wiki": "Shamoon",
+      "tier": null
+    },
+    {
+      "name": "Industroyer",
+      "aliases": [
+        "Crashoverride",
+        "Win32/Industroyer"
+      ],
+      "wiki": "Industroyer",
+      "tier": null
+    },
+    {
+      "name": "Triton malware",
+      "aliases": [
+        "Trisis",
+        "HatMan"
+      ],
+      "wiki": "Triton (malware)",
+      "tier": null
+    },
+    {
+      "name": "Locky",
+      "aliases": [
+        "Locky ransomware"
+      ],
+      "wiki": "Locky",
+      "tier": null
+    },
+    {
+      "name": "Ryuk",
+      "aliases": [
+        "Ryuk ransomware"
+      ],
+      "wiki": "Ryuk (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "REvil",
+      "aliases": [
+        "Sodinokibi",
+        "Sodin"
+      ],
+      "wiki": "REvil",
+      "tier": null
+    },
+    {
+      "name": "LockBit",
+      "aliases": [
+        "LockBit ransomware"
+      ],
+      "wiki": "LockBit",
+      "tier": null
+    },
+    {
+      "name": "Conti",
+      "aliases": [
+        "Conti ransomware"
+      ],
+      "wiki": "Conti (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "Maze ransomware",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "DarkSide",
+      "aliases": [
+        "DarkSide ransomware"
+      ],
+      "wiki": "DarkSide (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "BlackCat",
+      "aliases": [
+        "ALPHV",
+        "BlackCat ransomware"
+      ],
+      "wiki": "BlackCat",
+      "tier": null
+    },
+    {
+      "name": "Clop",
+      "aliases": [
+        "Cl0p",
+        "Clop ransomware"
+      ],
+      "wiki": "Clop (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "Akira ransomware",
+      "aliases": [],
+      "wiki": "Akira (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "Black Basta",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Hive ransomware",
+      "aliases": [],
+      "wiki": "Hive (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "Royal ransomware",
+      "aliases": [
+        "BlackSuit ransomware"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Play ransomware",
+      "aliases": [
+        "PlayCrypt"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Rhysida",
+      "aliases": [
+        "Rhysida ransomware"
+      ],
+      "wiki": "Rhysida (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "SamSam",
+      "aliases": [
+        "SamSam ransomware"
+      ],
+      "wiki": "SamSam",
+      "tier": null
+    },
+    {
+      "name": "Bad Rabbit",
+      "aliases": [
+        "Bad Rabbit ransomware"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "GandCrab",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "TeslaCrypt",
+      "aliases": [],
+      "wiki": "TeslaCrypt",
+      "tier": null
+    },
+    {
+      "name": "Jigsaw ransomware",
+      "aliases": [],
+      "wiki": "Jigsaw (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "QakBot",
+      "aliases": [
+        "Qbot",
+        "Pinkslipbot",
+        "QuakBot"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "IcedID",
+      "aliases": [
+        "BokBot"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Dridex",
+      "aliases": [
+        "Bugat",
+        "Cridex",
+        "Manatee Tempest",
+        "DEV-0243",
+        "UNC2165",
+        "Bugat v5"
+      ],
+      "wiki": "Dridex",
+      "tier": null
+    },
+    {
+      "name": "Ursnif",
+      "aliases": [
+        "Gozi",
+        "ISFB"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Cobalt Strike",
+      "aliases": [
+        "Cobalt Strike beacon"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Mimikatz",
+      "aliases": [],
+      "wiki": "Mimikatz",
+      "tier": null
+    },
+    {
+      "name": "PlugX",
+      "aliases": [
+        "Korplug"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Gh0st RAT",
+      "aliases": [
+        "Ghost RAT"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "DarkComet",
+      "aliases": [
+        "DarkComet RAT",
+        "DarkKomet",
+        "Fynloski",
+        "Krademok",
+        "FYNLOS"
+      ],
+      "wiki": "DarkComet",
+      "tier": null
+    },
+    {
+      "name": "njRAT",
+      "aliases": [
+        "Bladabindi"
+      ],
+      "wiki": "NjRAT",
+      "tier": null
+    },
+    {
+      "name": "Agent Tesla",
+      "aliases": [],
+      "wiki": "Agent Tesla",
+      "tier": null
+    },
+    {
+      "name": "RedLine Stealer",
+      "aliases": [
+        "RedLine"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Raccoon Stealer",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Lumma Stealer",
+      "aliases": [
+        "LummaC2"
+      ],
+      "wiki": "Lumma Stealer",
+      "tier": null
+    },
+    {
+      "name": "BlackEnergy",
+      "aliases": [],
+      "wiki": "BlackEnergy",
+      "tier": null
+    },
+    {
+      "name": "Regin",
+      "aliases": [],
+      "wiki": "Regin (malware)",
+      "tier": null
+    },
+    {
+      "name": "Sality",
+      "aliases": [],
+      "wiki": "Sality",
+      "tier": null
+    },
+    {
+      "name": "ZeroAccess",
+      "aliases": [
+        "ZeroAccess botnet",
+        "Sirefef"
+      ],
+      "wiki": "ZeroAccess botnet",
+      "tier": null
+    },
+    {
+      "name": "Necurs",
+      "aliases": [
+        "Necurs botnet"
+      ],
+      "wiki": "Necurs botnet",
+      "tier": null
+    },
+    {
+      "name": "Gameover ZeuS",
+      "aliases": [
+        "GOZ",
+        "P2P Zeus",
+        "Peer-to-Peer ZeuS"
+      ],
+      "wiki": "Gameover ZeuS",
+      "tier": null
+    },
+    {
+      "name": "Olympic Destroyer",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "VPNFilter",
+      "aliases": [],
+      "wiki": "VPNFilter",
+      "tier": null
+    },
+    {
+      "name": "FinFisher",
+      "aliases": [
+        "FinSpy"
+      ],
+      "wiki": "FinFisher",
+      "tier": null
+    },
+    {
+      "name": "Predator spyware",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "BlackLotus",
+      "aliases": [],
+      "wiki": "BlackLotus",
+      "tier": null
+    },
+    {
+      "name": "Pipedream",
+      "aliases": [
+        "Incontroller"
+      ],
+      "wiki": "Pipedream (toolkit)",
+      "tier": null
+    },
+    {
+      "name": "Fancy Bear",
+      "aliases": [
+        "APT28",
+        "Sofacy",
+        "Sednit",
+        "Pawn Storm",
+        "Forest Blizzard",
+        "Sofacy Group",
+        "Tsar Team",
+        "Group 74",
+        "Threat Group-4127",
+        "TG-4127",
+        "JHUHUGIT",
+        "Trojan.Sofacy",
+        "Seduploader",
+        "JKEYSKW",
+        "GAMEFISH",
+        "SofacyCarberp"
+      ],
+      "wiki": "Fancy Bear",
+      "tier": null
+    },
+    {
+      "name": "Cozy Bear",
+      "aliases": [
+        "APT29",
+        "The Dukes",
+        "Nobelium",
+        "Midnight Blizzard",
+        "CozyDuke",
+        "Dark Halo",
+        "UNC2452",
+        "UNC3524",
+        "HAMMERTOSS",
+        "HammerDuke",
+        "NetDuke",
+        "CozyCar",
+        "Cozer",
+        "EuroAPT"
+      ],
+      "wiki": "Cozy Bear",
+      "tier": null
+    },
+    {
+      "name": "Lazarus Group",
+      "aliases": [
+        "Lazarus",
+        "Hidden Cobra",
+        "Guardians of Peace",
+        "Diamond Sleet",
+        "Labyrinth Chollima",
+        "NICKEL GLADSTONE",
+        "Stardust Chollima",
+        "Sapphire Sleet"
+      ],
+      "wiki": "Lazarus Group",
+      "tier": null
+    },
+    {
+      "name": "Sandworm",
+      "aliases": [
+        "Sandworm Team",
+        "Voodoo Bear",
+        "APT44",
+        "Seashell Blizzard",
+        "Telebots",
+        "BlackEnergy (Group)"
+      ],
+      "wiki": "Sandworm (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "Equation Group",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "The Shadow Brokers",
+      "aliases": [
+        "Shadow Brokers"
+      ],
+      "wiki": "The Shadow Brokers",
+      "tier": null
+    },
+    {
+      "name": "Anonymous",
+      "aliases": [
+        "Anonymous hackers",
+        "Anonymous hacker group"
+      ],
+      "wiki": "Anonymous (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "LulzSec",
+      "aliases": [
+        "Lulz Security"
+      ],
+      "wiki": "LulzSec",
+      "tier": null
+    },
+    {
+      "name": "Lapsus$",
+      "aliases": [
+        "DEV-0537",
+        "Strawberry Tempest"
+      ],
+      "wiki": "Lapsus$",
+      "tier": null
+    },
+    {
+      "name": "Scattered Spider",
+      "aliases": [
+        "Octo Tempest",
+        "UNC3944",
+        "0ktapus",
+        "Roasted 0ktapus",
+        "Storm-0875"
+      ],
+      "wiki": "Scattered Spider",
+      "tier": null
+    },
+    {
+      "name": "ShinyHunters",
+      "aliases": [
+        "UNC6240",
+        "Bling Libra"
+      ],
+      "wiki": "ShinyHunters",
+      "tier": null
+    },
+    {
+      "name": "Volt Typhoon",
+      "aliases": [
+        "Vanguard Panda",
+        "Bronze Silhouette",
+        "DEV-0391",
+        "UNC3236",
+        "Insidious Taurus"
+      ],
+      "wiki": "Volt Typhoon",
+      "tier": null
+    },
+    {
+      "name": "Salt Typhoon",
+      "aliases": [
+        "GhostEmperor",
+        "FamousSparrow"
+      ],
+      "wiki": "Salt Typhoon",
+      "tier": null
+    },
+    {
+      "name": "Hafnium",
+      "aliases": [
+        "Silk Typhoon"
+      ],
+      "wiki": "Hafnium (group)",
+      "tier": null
+    },
+    {
+      "name": "APT41",
+      "aliases": [
+        "Double Dragon",
+        "Wicked Panda",
+        "Winnti",
+        "Brass Typhoon"
+      ],
+      "wiki": "Double Dragon (hacking group)",
+      "tier": null
+    },
+    {
+      "name": "APT1",
+      "aliases": [
+        "Comment Crew",
+        "Unit 61398",
+        "PLA Unit 61398",
+        "Comment Panda",
+        "Comment Group"
+      ],
+      "wiki": "PLA Unit 61398",
+      "tier": null
+    },
+    {
+      "name": "APT10",
+      "aliases": [
+        "Red Apollo",
+        "Stone Panda",
+        "menuPass"
+      ],
+      "wiki": "Red Apollo",
+      "tier": null
+    },
+    {
+      "name": "Charming Kitten",
+      "aliases": [
+        "APT35",
+        "Mint Sandstorm",
+        "Magic Hound",
+        "Newscaster",
+        "TA453",
+        "ITG18",
+        "Rocket Kitten",
+        "Flying Kitten"
+      ],
+      "wiki": "Charming Kitten",
+      "tier": null
+    },
+    {
+      "name": "Kimsuky",
+      "aliases": [
+        "APT43",
+        "Velvet Chollima",
+        "Emerald Sleet",
+        "Black Banshee",
+        "TA427"
+      ],
+      "wiki": "Kimsuky",
+      "tier": null
+    },
+    {
+      "name": "OceanLotus",
+      "aliases": [
+        "APT32",
+        "SeaLotus",
+        "Canvas Cyclone",
+        "APT-C-00"
+      ],
+      "wiki": "OceanLotus",
+      "tier": null
+    },
+    {
+      "name": "FIN7",
+      "aliases": [
+        "Carbanak Group",
+        "Carbon Spider",
+        "Sangria Tempest",
+        "ITG14"
+      ],
+      "wiki": "FIN7",
+      "tier": null
+    },
+    {
+      "name": "Carbanak",
+      "aliases": [
+        "Anunak"
+      ],
+      "wiki": "Carbanak",
+      "tier": null
+    },
+    {
+      "name": "Turla",
+      "aliases": [
+        "Venomous Bear",
+        "Snake malware",
+        "Uroburos",
+        "Waterbug",
+        "Secret Blizzard"
+      ],
+      "wiki": "Turla (malware)",
+      "tier": null
+    },
+    {
+      "name": "Wizard Spider",
+      "aliases": [
+        "UNC1878",
+        "Grim Spider",
+        "FIN12",
+        "ITG23",
+        "Periwinkle Tempest",
+        "DEV-0193",
+        "Pistachio Tempest",
+        "DEV-0237"
+      ],
+      "wiki": "Wizard Spider",
+      "tier": null
+    },
+    {
+      "name": "Evil Corp",
+      "aliases": [
+        "Indrik Spider",
+        "Dridex gang"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Gamaredon",
+      "aliases": [
+        "Gamaredon Group",
+        "Primitive Bear",
+        "Aqua Blizzard",
+        "Shuckworm",
+        "DEV-0157"
+      ],
+      "wiki": "Gamaredon",
+      "tier": null
+    },
+    {
+      "name": "Killnet",
+      "aliases": [],
+      "wiki": "Killnet",
+      "tier": null
+    },
+    {
+      "name": "Syrian Electronic Army",
+      "aliases": [
+        "SEA hackers"
+      ],
+      "wiki": "Syrian Electronic Army",
+      "tier": null
+    },
+    {
+      "name": "Lizard Squad",
+      "aliases": [],
+      "wiki": "Lizard Squad",
+      "tier": null
+    },
+    {
+      "name": "Tailored Access Operations",
+      "aliases": [
+        "NSA hackers"
+      ],
+      "wiki": "Tailored Access Operations",
+      "tier": null
+    },
+    {
+      "name": "Legion of Doom",
+      "aliases": [],
+      "wiki": "Legion of Doom (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "Masters of Deception",
+      "aliases": [],
+      "wiki": "Masters of Deception",
+      "tier": null
+    },
+    {
+      "name": "Anonymous Sudan",
+      "aliases": [
+        "Storm-1359"
+      ],
+      "wiki": "Anonymous Sudan",
+      "tier": null
+    },
+    {
+      "name": "BlackByte",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Elderwood Gang",
+      "aliases": [
+        "Beijing Group",
+        "Sneaky Panda"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SideCopy",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Granite Typhoon",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT17",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT3",
+      "aliases": [
+        "Gothic Panda",
+        "UPS Team",
+        "Threat Group-0110",
+        "TG-0110"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mustard Tempest",
+      "aliases": [
+        "DEV-0206",
+        "TA569",
+        "UNC1543"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GCMAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "EXOTIC LILY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA577",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AppleJeus",
+      "aliases": [
+        "Citrine Sleet",
+        "UNC1720",
+        "UNC4736"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "admin@338",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hangover Group",
+      "aliases": [
+        "Dropping Elephant"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Berserk Bear",
+      "aliases": [
+        "Dragonfly",
+        "TG-4192",
+        "Energetic Bear",
+        "Ghost Blizzard"
+      ],
+      "wiki": "Berserk Bear",
+      "tier": null
+    },
+    {
+      "name": "Gorgon Group",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MuddyWater",
+      "aliases": [
+        "Static Kitten",
+        "Mango Sandstorm",
+        "TA450"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Project Sauron",
+      "aliases": [
+        "Remsec",
+        "Backdoor.Remsec"
+      ],
+      "wiki": "Project Sauron",
+      "tier": null
+    },
+    {
+      "name": "FIN6",
+      "aliases": [
+        "Magecart Group 6",
+        "ITG08",
+        "Skeleton Spider",
+        "Camouflage Tempest"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RedEcho",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Storm-1811",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TeamTNT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT-C-43",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT18",
+      "aliases": [
+        "TG-0416",
+        "Dynamite Panda",
+        "Threat Group-0416"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Silent Chollima",
+      "aliases": [
+        "Onyx Sleet"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Crimson Sandstorm",
+      "aliases": [
+        "TA456",
+        "Yellow Liderc"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "T-APT-04",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mustang Panda",
+      "aliases": [
+        "TA416",
+        "STATELY TAURUS",
+        "CAMARO DRAGON",
+        "HIVE0154",
+        "TWILL TYPHOON",
+        "UNC6384"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT31",
+      "aliases": [
+        "Violet Typhoon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT39",
+      "aliases": [
+        "ITG07",
+        "Remix Kitten"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "UNC3886",
+      "aliases": [],
+      "wiki": "UNC3886",
+      "tier": null
+    },
+    {
+      "name": "Contagious Interview",
+      "aliases": [
+        "Gwisin Gang",
+        "DEV#POPPER",
+        "TAG-121"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA2541",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PUNK SPIDER",
+      "aliases": [
+        "Howling Scorpius"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ricochet Chollima",
+      "aliases": [
+        "APT37",
+        "Group123"
+      ],
+      "wiki": "Ricochet Chollima",
+      "tier": null
+    },
+    {
+      "name": "Moses Staff",
+      "aliases": [
+        "DEV-0500",
+        "Marigold Sandstorm"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Helix Kitten",
+      "aliases": [
+        "OilRig",
+        "IRN2",
+        "APT34",
+        "Evasive Serpens",
+        "Hazel Sandstorm",
+        "ITG13",
+        "TA452"
+      ],
+      "wiki": "Helix Kitten",
+      "tier": null
+    },
+    {
+      "name": "Tropic Trooper",
+      "aliases": [
+        "Pirate Panda"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Sea Turtle",
+      "aliases": [
+        "Teal Kurma",
+        "Cosmic Wolf"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Putter Panda",
+      "aliases": [
+        "APT2"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA459",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Aquatic Panda",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Aoqin Dragon",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ferocious Kitten",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "The White Company",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ke3chang",
+      "aliases": [
+        "APT15",
+        "Vixen Panda",
+        "Playful Dragon",
+        "Nylon Typhoon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Saint Bear",
+      "aliases": [
+        "Storm-0587",
+        "TA471",
+        "UAC-0056",
+        "Lorec53"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DarkHydrus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Confucius APT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BlackTech",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT40",
+      "aliases": [
+        "Leviathan",
+        "Kryptonite Panda",
+        "Gingham Typhoon"
+      ],
+      "wiki": "APT40",
+      "tier": null
+    },
+    {
+      "name": "MoustachedBouncer",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Group5",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Blue Mockingbird",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Winter Vivern",
+      "aliases": [
+        "TA473",
+        "UAC-0114"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SilverTerrier",
+      "aliases": [],
+      "wiki": "SilverTerrier",
+      "tier": null
+    },
+    {
+      "name": "Group 88",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Storm-0501",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Poseidon Group",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA505",
+      "aliases": [
+        "Hive0065",
+        "Spandex Tempest"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "T-APT-17",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DarkVishnya",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RedCurl",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT-C-23",
+      "aliases": [
+        "Arid Viper",
+        "Desert Falcon",
+        "TAG-63",
+        "Big Bang APT"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FIN5",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Lotus Blossom",
+      "aliases": [
+        "Spring Dragon",
+        "Raspberry Typhoon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Stealth Falcon",
+      "aliases": [],
+      "wiki": "Stealth Falcon",
+      "tier": null
+    },
+    {
+      "name": "Dark Caracal",
+      "aliases": [],
+      "wiki": "Dark Caracal",
+      "tier": null
+    },
+    {
+      "name": "Cinnamon Tempest",
+      "aliases": [
+        "DEV-0401"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MirrorFace",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Threat Group 2889",
+      "aliases": [
+        "TG-2889"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Silent Librarian",
+      "aliases": [
+        "TA407"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Medusa Group",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA551",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TEMP.Veles",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BackdoorDiplomacy",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Star Blizzard",
+      "aliases": [
+        "Callisto Group",
+        "TA446"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DarkHotel",
+      "aliases": [],
+      "wiki": "DarkHotel",
+      "tier": null
+    },
+    {
+      "name": "Group 72",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TA578",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Deep Panda",
+      "aliases": [
+        "Shell Crew"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ember Bear",
+      "aliases": [
+        "UNC2589",
+        "Bleeding Bear",
+        "DEV-0586",
+        "Cadet Blizzard"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LazyScripter",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Volatile Cedar",
+      "aliases": [
+        "Lebanese Cedar"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ToddyCat",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LuminousMoth",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pink Sandstorm",
+      "aliases": [
+        "Agonizing Serpens"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Water Galura",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT42",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT5",
+      "aliases": [
+        "Mulberry Typhoon",
+        "Keyhole Panda",
+        "UNC2630"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Fox Kitten",
+      "aliases": [
+        "UNC757",
+        "Pioneer Kitten",
+        "Lemon Sandstorm"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Numbered Panda",
+      "aliases": [
+        "APT12"
+      ],
+      "wiki": "Numbered Panda",
+      "tier": null
+    },
+    {
+      "name": "APT-C-36",
+      "aliases": [
+        "Blind Eagle",
+        "TAG-144",
+        "APT-Q-98"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Scarlet Mimic",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Winnti Group",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tonto Team",
+      "aliases": [
+        "Karma Panda"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GOLD SOUTHFIELD",
+      "aliases": [
+        "Pinchy Spider"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "INC Ransom",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Earth Lusca",
+      "aliases": [
+        "TAG-22",
+        "Charcoal Typhoon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FIN4",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Whisper Spider",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Threat Group-1314",
+      "aliases": [
+        "TG-1314"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT16",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BlackOasis",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cobalt Group",
+      "aliases": [
+        "Cobalt Gang",
+        "Cobalt Spider"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CopyKittens",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Velvet Ant",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Transparent Tribe",
+      "aliases": [
+        "APT36",
+        "Mythic Leopard"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "IndigoZebra",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Moonstone Sleet",
+      "aliases": [
+        "Storm-1789"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "VOID MANTICORE",
+      "aliases": [
+        "Karmabelow80",
+        "BANISHED KITTEN",
+        "Red Sandstorm"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT30",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "HEXANE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DragonOK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Evasive Panda",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "WIRTE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Threat Group-3390",
+      "aliases": [
+        "TG-3390",
+        "Emissary Panda",
+        "APT27",
+        "Iron Tiger",
+        "Linen Typhoon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Elfin Team",
+      "aliases": [
+        "APT33",
+        "Peach Sandstorm"
+      ],
+      "wiki": "Elfin Team",
+      "tier": null
+    },
+    {
+      "name": "FIN10",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FIN8",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FIN13",
+      "aliases": [
+        "Elephant Beetle"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "APT19",
+      "aliases": [
+        "C0d0so0",
+        "Codoso Team",
+        "Sunshop Group"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PittyTiger",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Nomadic Octopus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TeamPCP",
+      "aliases": [
+        "DeadCatx3",
+        "SHADOW-WATER-058",
+        "UNC6780"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Storm-2697",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "NIMBUS MANTICORE",
+      "aliases": [
+        "UNC1549",
+        "TA455"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Malware infection of the United States Department of Defense",
+      "aliases": [
+        "2008 malware infection of the United States Department of Defense"
+      ],
+      "wiki": "2008 malware infection of the United States Department of Defense",
+      "tier": null
+    },
+    {
+      "name": "DDoS attacks against South Korea",
+      "aliases": [
+        "2009 DDoS attacks against South Korea"
+      ],
+      "wiki": "2009 DDoS attacks against South Korea",
+      "tier": null
+    },
+    {
+      "name": "Japan–South Korea cyber conflict",
+      "aliases": [
+        "2010 Japan–South Korea cyber conflict"
+      ],
+      "wiki": "2010 Japan–South Korea cyber conflict",
+      "tier": null
+    },
+    {
+      "name": "Cyberattacks on Myanmar",
+      "aliases": [
+        "2010 cyberattacks on Myanmar"
+      ],
+      "wiki": "2010 cyberattacks on Myanmar",
+      "tier": null
+    },
+    {
+      "name": "Canadian government hackings",
+      "aliases": [
+        "2011 Canadian government hackings"
+      ],
+      "wiki": "2011 Canadian government hackings",
+      "tier": null
+    },
+    {
+      "name": "Singapore cyberattacks",
+      "aliases": [
+        "2013 Singapore cyberattacks"
+      ],
+      "wiki": "2013 Singapore cyberattacks",
+      "tier": null
+    },
+    {
+      "name": "South Korea cyberattack",
+      "aliases": [
+        "2013 South Korea cyberattack"
+      ],
+      "wiki": "2013 South Korea cyberattack",
+      "tier": null
+    },
+    {
+      "name": "JPMorgan Chase data breach",
+      "aliases": [
+        "2014 JPMorgan Chase data breach"
+      ],
+      "wiki": "2014 JPMorgan Chase data breach",
+      "tier": null
+    },
+    {
+      "name": "Russian hacker password theft",
+      "aliases": [
+        "2014 Russian hacker password theft"
+      ],
+      "wiki": "2014 Russian hacker password theft",
+      "tier": null
+    },
+    {
+      "name": "TalkTalk data breach",
+      "aliases": [
+        "2015 TalkTalk data breach"
+      ],
+      "wiki": "2015 TalkTalk data breach",
+      "tier": null
+    },
+    {
+      "name": "SWIFT banking hack",
+      "aliases": [
+        "2015–2016 SWIFT banking hack"
+      ],
+      "wiki": "2015–2016 SWIFT banking hack",
+      "tier": null
+    },
+    {
+      "name": "Democratic National Committee email leak",
+      "aliases": [
+        "2016 Democratic National Committee email leak"
+      ],
+      "wiki": "2016 Democratic National Committee email leak",
+      "tier": null
+    },
+    {
+      "name": "Indian bank data breach",
+      "aliases": [
+        "2016 Indian bank data breach"
+      ],
+      "wiki": "2016 Indian bank data breach",
+      "tier": null
+    },
+    {
+      "name": "Kyiv cyberattack",
+      "aliases": [
+        "2016 Kyiv cyberattack"
+      ],
+      "wiki": "2016 Kyiv cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Westminster data breach",
+      "aliases": [
+        "2017 Westminster data breach"
+      ],
+      "wiki": "2017 Westminster data breach",
+      "tier": null
+    },
+    {
+      "name": "SingHealth data breach",
+      "aliases": [
+        "2018 SingHealth data breach"
+      ],
+      "wiki": "2018 SingHealth data breach",
+      "tier": null
+    },
+    {
+      "name": "Baltimore ransomware attack",
+      "aliases": [
+        "2019 Baltimore ransomware attack"
+      ],
+      "wiki": "2019 Baltimore ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Bulgarian Revenue Agency hack",
+      "aliases": [
+        "2019 Bulgarian Revenue Agency hack"
+      ],
+      "wiki": "2019 Bulgarian Revenue Agency hack",
+      "tier": null
+    },
+    {
+      "name": "Cyberattacks on Sri Lanka",
+      "aliases": [
+        "2019 cyberattacks on Sri Lanka",
+        "2020 cyberattacks on Sri Lanka",
+        "2021 cyberattacks on Sri Lanka"
+      ],
+      "wiki": "2019 cyberattacks on Sri Lanka",
+      "tier": null
+    },
+    {
+      "name": "Banco de Oro hack",
+      "aliases": [
+        "2021 Banco de Oro hack"
+      ],
+      "wiki": "2021 Banco de Oro hack",
+      "tier": null
+    },
+    {
+      "name": "Epik data breach",
+      "aliases": [
+        "2021 Epik data breach"
+      ],
+      "wiki": "2021 Epik data breach",
+      "tier": null
+    },
+    {
+      "name": "Iranian fuel cyberattack",
+      "aliases": [
+        "2021 Iranian fuel cyberattack"
+      ],
+      "wiki": "2021 Iranian fuel cyberattack",
+      "tier": null
+    },
+    {
+      "name": "National Rifle Association ransomware attack",
+      "aliases": [
+        "2021 National Rifle Association ransomware attack"
+      ],
+      "wiki": "2021 National Rifle Association ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Costa Rican ransomware attack",
+      "aliases": [
+        "2022 Costa Rican ransomware attack"
+      ],
+      "wiki": "2022 Costa Rican ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "DDoS attacks on Romania",
+      "aliases": [
+        "2022 DDoS attacks on Romania"
+      ],
+      "wiki": "2022 DDoS attacks on Romania",
+      "tier": null
+    },
+    {
+      "name": "Ukraine cyberattacks",
+      "aliases": [
+        "2022 Ukraine cyberattacks",
+        "HermeticWiper",
+        "Trojan.Killdisk",
+        "DriveSlayer"
+      ],
+      "wiki": "2022 Ukraine cyberattacks",
+      "tier": null
+    },
+    {
+      "name": "Capita data breach",
+      "aliases": [
+        "2023 Capita data breach"
+      ],
+      "wiki": "2023 Capita data breach",
+      "tier": null
+    },
+    {
+      "name": "Ukrainian cyberattacks against Russia",
+      "aliases": [
+        "2024 Ukrainian cyberattacks against Russia"
+      ],
+      "wiki": "2024 Ukrainian cyberattacks against Russia",
+      "tier": null
+    },
+    {
+      "name": "WazirX hack",
+      "aliases": [
+        "2024 WazirX hack"
+      ],
+      "wiki": "2024 WazirX hack",
+      "tier": null
+    },
+    {
+      "name": "Cyberattack on Kadokawa and Niconico",
+      "aliases": [
+        "2024 cyberattack on Kadokawa and Niconico"
+      ],
+      "wiki": "2024 cyberattack on Kadokawa and Niconico",
+      "tier": null
+    },
+    {
+      "name": "Paraguay ransomware attack",
+      "aliases": [
+        "2025 Paraguay ransomware attack"
+      ],
+      "wiki": "2025 Paraguay ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Cyberattack on the Polish power grid",
+      "aliases": [
+        "2025 cyberattack on the Polish power grid"
+      ],
+      "wiki": "2025 cyberattack on the Polish power grid",
+      "tier": null
+    },
+    {
+      "name": "ANCPI hack",
+      "aliases": [
+        "2026 ANCPI hack"
+      ],
+      "wiki": "2026 ANCPI hack",
+      "tier": null
+    },
+    {
+      "name": "Canvas data breach",
+      "aliases": [
+        "2026 Canvas data breach"
+      ],
+      "wiki": "2026 Canvas data breach",
+      "tier": null
+    },
+    {
+      "name": "French supermarket refrigerator hack",
+      "aliases": [
+        "2026 French supermarket refrigerator hack"
+      ],
+      "wiki": "2026 French supermarket refrigerator hack",
+      "tier": null
+    },
+    {
+      "name": "Minnesota water system cyberattack",
+      "aliases": [
+        "2026 Minnesota water system cyberattack"
+      ],
+      "wiki": "2026 Minnesota water system cyberattack",
+      "tier": null
+    },
+    {
+      "name": "3ve",
+      "aliases": [],
+      "wiki": "3ve",
+      "tier": null
+    },
+    {
+      "name": "AFX Windows Rootkit 2003",
+      "aliases": [],
+      "wiki": "AFX Windows Rootkit 2003",
+      "tier": null
+    },
+    {
+      "name": "AGI-Plan",
+      "aliases": [],
+      "wiki": "AGI-Plan",
+      "tier": null
+    },
+    {
+      "name": "AIDS trojan",
+      "aliases": [],
+      "wiki": "AIDS (Trojan horse)",
+      "tier": null
+    },
+    {
+      "name": "AOHell",
+      "aliases": [],
+      "wiki": "AOHell",
+      "tier": null
+    },
+    {
+      "name": "Account pre-hijacking",
+      "aliases": [],
+      "wiki": "Account pre-hijacking",
+      "tier": null
+    },
+    {
+      "name": "Acme virus",
+      "aliases": [],
+      "wiki": "Acme (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Agent.AWF",
+      "aliases": [],
+      "wiki": "Agent.AWF",
+      "tier": null
+    },
+    {
+      "name": "Agent.BTZ",
+      "aliases": [],
+      "wiki": "Agent.BTZ",
+      "tier": null
+    },
+    {
+      "name": "Agobot",
+      "aliases": [],
+      "wiki": "Agobot",
+      "tier": null
+    },
+    {
+      "name": "Akbot",
+      "aliases": [],
+      "wiki": "Akbot",
+      "tier": null
+    },
+    {
+      "name": "Alcra",
+      "aliases": [
+        "Alcra worm"
+      ],
+      "wiki": "Alcra (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Alina malware",
+      "aliases": [],
+      "wiki": "Alina (malware)",
+      "tier": null
+    },
+    {
+      "name": "Alureon",
+      "aliases": [],
+      "wiki": "Alureon",
+      "tier": null
+    },
+    {
+      "name": "Ambulance virus",
+      "aliases": [],
+      "wiki": "Ambulance (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Andromeda trojan",
+      "aliases": [],
+      "wiki": "Andromeda (Trojan horse)",
+      "tier": null
+    },
+    {
+      "name": "Annabelle ransomware",
+      "aliases": [],
+      "wiki": "Annabelle (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "Archiveus",
+      "aliases": [],
+      "wiki": "Archiveus",
+      "tier": null
+    },
+    {
+      "name": "Asprox botnet",
+      "aliases": [
+        "Asprox"
+      ],
+      "wiki": "Asprox botnet",
+      "tier": null
+    },
+    {
+      "name": "Atlanta government ransomware attack",
+      "aliases": [],
+      "wiki": "Atlanta government ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Automated threat",
+      "aliases": [],
+      "wiki": "Automated threat",
+      "tier": null
+    },
+    {
+      "name": "Avalanche (phishing group)",
+      "aliases": [],
+      "wiki": "Avalanche (phishing group)",
+      "tier": null
+    },
+    {
+      "name": "BASHLITE",
+      "aliases": [],
+      "wiki": "BASHLITE",
+      "tier": null
+    },
+    {
+      "name": "Backdoor.Win32.IRCBot",
+      "aliases": [],
+      "wiki": "Backdoor.Win32.IRCBot",
+      "tier": null
+    },
+    {
+      "name": "Badbunny",
+      "aliases": [],
+      "wiki": "Badbunny",
+      "tier": null
+    },
+    {
+      "name": "Bagle",
+      "aliases": [
+        "Bagle worm"
+      ],
+      "wiki": "Bagle (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Bangladesh Black Hat Hackers",
+      "aliases": [],
+      "wiki": "Bangladesh Black Hat Hackers",
+      "tier": null
+    },
+    {
+      "name": "Bifrost trojan",
+      "aliases": [],
+      "wiki": "Bifrost (Trojan horse)",
+      "tier": null
+    },
+    {
+      "name": "BlackPOS",
+      "aliases": [],
+      "wiki": "BlackPOS",
+      "tier": null
+    },
+    {
+      "name": "Blended threat",
+      "aliases": [],
+      "wiki": "Blended threat",
+      "tier": null
+    },
+    {
+      "name": "BlueLeaks",
+      "aliases": [],
+      "wiki": "BlueLeaks",
+      "tier": null
+    },
+    {
+      "name": "Bomber virus",
+      "aliases": [],
+      "wiki": "Bomber (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "BonziBuddy",
+      "aliases": [],
+      "wiki": "BonziBuddy",
+      "tier": null
+    },
+    {
+      "name": "BootKitty",
+      "aliases": [],
+      "wiki": "BootKitty",
+      "tier": null
+    },
+    {
+      "name": "Brambul",
+      "aliases": [],
+      "wiki": "Brambul",
+      "tier": null
+    },
+    {
+      "name": "Bredolab botnet",
+      "aliases": [
+        "Bredolab"
+      ],
+      "wiki": "Bredolab botnet",
+      "tier": null
+    },
+    {
+      "name": "BrickerBot",
+      "aliases": [],
+      "wiki": "BrickerBot",
+      "tier": null
+    },
+    {
+      "name": "British Airways data breach",
+      "aliases": [],
+      "wiki": "British Airways data breach",
+      "tier": null
+    },
+    {
+      "name": "British Library cyberattack",
+      "aliases": [],
+      "wiki": "British Library cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Brontok",
+      "aliases": [],
+      "wiki": "Brontok",
+      "tier": null
+    },
+    {
+      "name": "BuluBebek",
+      "aliases": [],
+      "wiki": "BuluBebek",
+      "tier": null
+    },
+    {
+      "name": "Bureau 121",
+      "aliases": [],
+      "wiki": "Bureau 121",
+      "tier": null
+    },
+    {
+      "name": "Byte Bandit",
+      "aliases": [],
+      "wiki": "Byte Bandit",
+      "tier": null
+    },
+    {
+      "name": "Cabir",
+      "aliases": [
+        "Cabir worm"
+      ],
+      "wiki": "Cabir (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Careto malware",
+      "aliases": [],
+      "wiki": "Careto (malware)",
+      "tier": null
+    },
+    {
+      "name": "Carna botnet",
+      "aliases": [
+        "Carna"
+      ],
+      "wiki": "Carna botnet",
+      "tier": null
+    },
+    {
+      "name": "Casino virus",
+      "aliases": [],
+      "wiki": "Casino (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "CenterPOS",
+      "aliases": [],
+      "wiki": "CenterPOS",
+      "tier": null
+    },
+    {
+      "name": "Chaos malware",
+      "aliases": [],
+      "wiki": "Chaos (malware)",
+      "tier": null
+    },
+    {
+      "name": "Christmas Tree EXEC",
+      "aliases": [],
+      "wiki": "Christmas Tree EXEC",
+      "tier": null
+    },
+    {
+      "name": "Citadel malware",
+      "aliases": [],
+      "wiki": "Citadel (malware)",
+      "tier": null
+    },
+    {
+      "name": "Clampi",
+      "aliases": [
+        "Clampi trojan"
+      ],
+      "wiki": "Clampi (Trojan horse)",
+      "tier": null
+    },
+    {
+      "name": "Clickbot.A",
+      "aliases": [],
+      "wiki": "Clickbot.A",
+      "tier": null
+    },
+    {
+      "name": "Code Red II",
+      "aliases": [],
+      "wiki": "Code Red II",
+      "tier": null
+    },
+    {
+      "name": "Collins Aerospace cyberattack",
+      "aliases": [],
+      "wiki": "Collins Aerospace cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Commission on Elections data breach",
+      "aliases": [],
+      "wiki": "Commission on Elections data breach",
+      "tier": null
+    },
+    {
+      "name": "Copy Fail",
+      "aliases": [],
+      "wiki": "Copy Fail",
+      "tier": null
+    },
+    {
+      "name": "Coreflood",
+      "aliases": [],
+      "wiki": "Coreflood",
+      "tier": null
+    },
+    {
+      "name": "CovidLock",
+      "aliases": [],
+      "wiki": "CovidLock",
+      "tier": null
+    },
+    {
+      "name": "Crime Boys",
+      "aliases": [],
+      "wiki": "Crime Boys",
+      "tier": null
+    },
+    {
+      "name": "Cross-site leaks",
+      "aliases": [],
+      "wiki": "Cross-site leaks",
+      "tier": null
+    },
+    {
+      "name": "Cutwail botnet",
+      "aliases": [
+        "Cutwail"
+      ],
+      "wiki": "Cutwail botnet",
+      "tier": null
+    },
+    {
+      "name": "Cyberattack during the Paris G20 Summit",
+      "aliases": [],
+      "wiki": "Cyberattack during the Paris G20 Summit",
+      "tier": null
+    },
+    {
+      "name": "Cyberattacks during the Russo-Georgian War",
+      "aliases": [],
+      "wiki": "Cyberattacks during the Russo-Georgian War",
+      "tier": null
+    },
+    {
+      "name": "Cyclops Blink",
+      "aliases": [],
+      "wiki": "Cyclops Blink",
+      "tier": null
+    },
+    {
+      "name": "DIRIN Leaks",
+      "aliases": [],
+      "wiki": "DIRIN Leaks",
+      "tier": null
+    },
+    {
+      "name": "DNSChanger",
+      "aliases": [],
+      "wiki": "DNSChanger",
+      "tier": null
+    },
+    {
+      "name": "DOM clobbering",
+      "aliases": [],
+      "wiki": "DOM clobbering",
+      "tier": null
+    },
+    {
+      "name": "Daprosy Worm",
+      "aliases": [],
+      "wiki": "Daprosy Worm",
+      "tier": null
+    },
+    {
+      "name": "Dark Basin",
+      "aliases": [],
+      "wiki": "Dark Basin",
+      "tier": null
+    },
+    {
+      "name": "Deface Peru",
+      "aliases": [],
+      "wiki": "Deface Peru",
+      "tier": null
+    },
+    {
+      "name": "Democratic Congressional Campaign Committee cyber attacks",
+      "aliases": [],
+      "wiki": "Democratic Congressional Campaign Committee cyber attacks",
+      "tier": null
+    },
+    {
+      "name": "Democratic National Committee cyber attacks",
+      "aliases": [
+        "DNC hack",
+        "DNC cyberattack"
+      ],
+      "wiki": "Democratic National Committee cyber attacks",
+      "tier": null
+    },
+    {
+      "name": "Dexter malware",
+      "aliases": [],
+      "wiki": "Dexter (malware)",
+      "tier": null
+    },
+    {
+      "name": "Disembowler",
+      "aliases": [],
+      "wiki": "Disembowler",
+      "tier": null
+    },
+    {
+      "name": "Donbot botnet",
+      "aliases": [
+        "Donbot"
+      ],
+      "wiki": "Donbot botnet",
+      "tier": null
+    },
+    {
+      "name": "DoublePulsar",
+      "aliases": [],
+      "wiki": "DoublePulsar",
+      "tier": null
+    },
+    {
+      "name": "Drovorub",
+      "aliases": [],
+      "wiki": "Drovorub",
+      "tier": null
+    },
+    {
+      "name": "Duqu 2.0",
+      "aliases": [],
+      "wiki": "Duqu 2.0",
+      "tier": null
+    },
+    {
+      "name": "EFAIL",
+      "aliases": [],
+      "wiki": "EFAIL",
+      "tier": null
+    },
+    {
+      "name": "EGABTR",
+      "aliases": [],
+      "wiki": "EGABTR",
+      "tier": null
+    },
+    {
+      "name": "EasyJet data breach",
+      "aliases": [],
+      "wiki": "EasyJet data breach",
+      "tier": null
+    },
+    {
+      "name": "Eliza virus",
+      "aliases": [],
+      "wiki": "Eliza (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Emcodec",
+      "aliases": [],
+      "wiki": "Emcodec",
+      "tier": null
+    },
+    {
+      "name": "Esperanto virus",
+      "aliases": [],
+      "wiki": "Esperanto (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "European Medicines Agency data breach",
+      "aliases": [],
+      "wiki": "European Medicines Agency data breach",
+      "tier": null
+    },
+    {
+      "name": "Evide data breach",
+      "aliases": [],
+      "wiki": "Evide data breach",
+      "tier": null
+    },
+    {
+      "name": "Exactis data breach",
+      "aliases": [],
+      "wiki": "Exactis data breach",
+      "tier": null
+    },
+    {
+      "name": "ExploreZip",
+      "aliases": [],
+      "wiki": "ExploreZip",
+      "tier": null
+    },
+    {
+      "name": "FBI MoneyPak ransomware",
+      "aliases": [],
+      "wiki": "FBI MoneyPak ransomware",
+      "tier": null
+    },
+    {
+      "name": "FLocker",
+      "aliases": [],
+      "wiki": "FLocker",
+      "tier": null
+    },
+    {
+      "name": "FORCEDENTRY",
+      "aliases": [],
+      "wiki": "FORCEDENTRY",
+      "tier": null
+    },
+    {
+      "name": "Fast16",
+      "aliases": [],
+      "wiki": "Fast16",
+      "tier": null
+    },
+    {
+      "name": "FastPOS",
+      "aliases": [],
+      "wiki": "FastPOS",
+      "tier": null
+    },
+    {
+      "name": "Father Christmas worm",
+      "aliases": [],
+      "wiki": "Father Christmas (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "February 2010 Australian cyberattacks",
+      "aliases": [],
+      "wiki": "February 2010 Australian cyberattacks",
+      "tier": null
+    },
+    {
+      "name": "Festering Hate",
+      "aliases": [],
+      "wiki": "Festering Hate",
+      "tier": null
+    },
+    {
+      "name": "Festi",
+      "aliases": [],
+      "wiki": "Festi",
+      "tier": null
+    },
+    {
+      "name": "Fun.exe",
+      "aliases": [],
+      "wiki": "Fun.exe",
+      "tier": null
+    },
+    {
+      "name": "GhostNet",
+      "aliases": [
+        "Mydoor",
+        "Moudoor"
+      ],
+      "wiki": "GhostNet",
+      "tier": null
+    },
+    {
+      "name": "Ghostball virus",
+      "aliases": [],
+      "wiki": "Ghostball (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Ghostwriter hacker group",
+      "aliases": [],
+      "wiki": "Ghostwriter (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "Global kOS",
+      "aliases": [],
+      "wiki": "Global kOS",
+      "tier": null
+    },
+    {
+      "name": "GlobalHell",
+      "aliases": [],
+      "wiki": "GlobalHell",
+      "tier": null
+    },
+    {
+      "name": "GnosticPlayers",
+      "aliases": [],
+      "wiki": "GnosticPlayers",
+      "tier": null
+    },
+    {
+      "name": "GoFetch",
+      "aliases": [],
+      "wiki": "GoFetch",
+      "tier": null
+    },
+    {
+      "name": "Graybird",
+      "aliases": [],
+      "wiki": "Graybird",
+      "tier": null
+    },
+    {
+      "name": "Gruel worm",
+      "aliases": [],
+      "wiki": "Gruel (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Grum botnet",
+      "aliases": [
+        "Grum"
+      ],
+      "wiki": "Grum botnet",
+      "tier": null
+    },
+    {
+      "name": "Guacamaya hacktivists",
+      "aliases": [],
+      "wiki": "Guacamaya (hacktivist group)",
+      "tier": null
+    },
+    {
+      "name": "Gumblar",
+      "aliases": [],
+      "wiki": "Gumblar",
+      "tier": null
+    },
+    {
+      "name": "Hare virus",
+      "aliases": [],
+      "wiki": "Hare (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Havex",
+      "aliases": [
+        "Backdoor.Oldrea"
+      ],
+      "wiki": "Havex",
+      "tier": null
+    },
+    {
+      "name": "Health Service Executive ransomware attack",
+      "aliases": [
+        "HSE ransomware attack",
+        "HSE cyberattack"
+      ],
+      "wiki": "Health Service Executive ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Hidden Tear",
+      "aliases": [],
+      "wiki": "Hidden Tear",
+      "tier": null
+    },
+    {
+      "name": "History sniffing",
+      "aliases": [],
+      "wiki": "History sniffing",
+      "tier": null
+    },
+    {
+      "name": "Hupigon",
+      "aliases": [],
+      "wiki": "Hupigon",
+      "tier": null
+    },
+    {
+      "name": "Hybris worm",
+      "aliases": [],
+      "wiki": "Hybris (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "I-Soon leak",
+      "aliases": [],
+      "wiki": "I-Soon leak",
+      "tier": null
+    },
+    {
+      "name": "IRLeaks attack on Iranian banks",
+      "aliases": [],
+      "wiki": "IRLeaks attack on Iranian banks",
+      "tier": null
+    },
+    {
+      "name": "IT Army of Ukraine",
+      "aliases": [],
+      "wiki": "IT Army of Ukraine",
+      "tier": null
+    },
+    {
+      "name": "Indian Cyber Force",
+      "aliases": [],
+      "wiki": "Indian Cyber Force",
+      "tier": null
+    },
+    {
+      "name": "Insanity Zine Corp.",
+      "aliases": [],
+      "wiki": "Insanity Zine Corp.",
+      "tier": null
+    },
+    {
+      "name": "Iranian Cyber Army",
+      "aliases": [],
+      "wiki": "Iranian Cyber Army",
+      "tier": null
+    },
+    {
+      "name": "Islamic State Hacking Division",
+      "aliases": [],
+      "wiki": "Islamic State Hacking Division",
+      "tier": null
+    },
+    {
+      "name": "Ivanti Pulse Connect Secure data breach",
+      "aliases": [],
+      "wiki": "Ivanti Pulse Connect Secure data breach",
+      "tier": null
+    },
+    {
+      "name": "JBS S.A. ransomware attack",
+      "aliases": [],
+      "wiki": "JBS S.A. ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Jaguar Land Rover cyberattack",
+      "aliases": [],
+      "wiki": "Jaguar Land Rover cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Joanap",
+      "aliases": [],
+      "wiki": "Joanap",
+      "tier": null
+    },
+    {
+      "name": "Kak worm",
+      "aliases": [],
+      "wiki": "Kak worm",
+      "tier": null
+    },
+    {
+      "name": "Kama Sutra worm",
+      "aliases": [],
+      "wiki": "Kama Sutra (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Kasidet",
+      "aliases": [],
+      "wiki": "Kasidet",
+      "tier": null
+    },
+    {
+      "name": "KeRanger",
+      "aliases": [],
+      "wiki": "KeRanger",
+      "tier": null
+    },
+    {
+      "name": "Kelihos botnet",
+      "aliases": [
+        "Kelihos"
+      ],
+      "wiki": "Kelihos botnet",
+      "tier": null
+    },
+    {
+      "name": "Kenzero",
+      "aliases": [],
+      "wiki": "Kenzero",
+      "tier": null
+    },
+    {
+      "name": "Kido International cyberattack",
+      "aliases": [],
+      "wiki": "Kido International cyberattack",
+      "tier": null
+    },
+    {
+      "name": "Kirk Ransomware",
+      "aliases": [],
+      "wiki": "Kirk Ransomware",
+      "tier": null
+    },
+    {
+      "name": "Kobalos",
+      "aliases": [],
+      "wiki": "Kobalos (malware)",
+      "tier": null
+    },
+    {
+      "name": "Kr00k",
+      "aliases": [],
+      "wiki": "Kr00k",
+      "tier": null
+    },
+    {
+      "name": "Kraken botnet",
+      "aliases": [],
+      "wiki": "Kraken botnet",
+      "tier": null
+    },
+    {
+      "name": "Kronos malware",
+      "aliases": [],
+      "wiki": "Kronos (malware)",
+      "tier": null
+    },
+    {
+      "name": "Krotten",
+      "aliases": [],
+      "wiki": "Krotten",
+      "tier": null
+    },
+    {
+      "name": "Lamer Exterminator",
+      "aliases": [],
+      "wiki": "Lamer Exterminator",
+      "tier": null
+    },
+    {
+      "name": "Lazy FP state restore",
+      "aliases": [],
+      "wiki": "Lazy FP state restore",
+      "tier": null
+    },
+    {
+      "name": "Leap worm",
+      "aliases": [],
+      "wiki": "Leap (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Lethic botnet",
+      "aliases": [
+        "Lethic"
+      ],
+      "wiki": "Lethic botnet",
+      "tier": null
+    },
+    {
+      "name": "Level Seven hacker group",
+      "aliases": [],
+      "wiki": "Level Seven (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "LightBasin",
+      "aliases": [],
+      "wiki": "LightBasin",
+      "tier": null
+    },
+    {
+      "name": "Linux.Darlloz",
+      "aliases": [],
+      "wiki": "Linux.Darlloz",
+      "tier": null
+    },
+    {
+      "name": "Linux.Wifatch",
+      "aliases": [],
+      "wiki": "Linux.Wifatch",
+      "tier": null
+    },
+    {
+      "name": "LogicLocker",
+      "aliases": [],
+      "wiki": "LogicLocker",
+      "tier": null
+    },
+    {
+      "name": "LogoFAIL",
+      "aliases": [],
+      "wiki": "LogoFAIL",
+      "tier": null
+    },
+    {
+      "name": "Lords of Dharmaraja",
+      "aliases": [],
+      "wiki": "Lords of Dharmaraja",
+      "tier": null
+    },
+    {
+      "name": "LulzRaft",
+      "aliases": [],
+      "wiki": "LulzRaft",
+      "tier": null
+    },
+    {
+      "name": "LulzSecPeru",
+      "aliases": [],
+      "wiki": "LulzSecPeru",
+      "tier": null
+    },
+    {
+      "name": "MP3Concept",
+      "aliases": [],
+      "wiki": "MP3Concept",
+      "tier": null
+    },
+    {
+      "name": "Mahdi malware",
+      "aliases": [],
+      "wiki": "Mahdi (malware)",
+      "tier": null
+    },
+    {
+      "name": "ManageMyHealth data breach",
+      "aliases": [],
+      "wiki": "ManageMyHealth data breach",
+      "tier": null
+    },
+    {
+      "name": "Mariposa botnet",
+      "aliases": [
+        "Mariposa"
+      ],
+      "wiki": "Mariposa botnet",
+      "tier": null
+    },
+    {
+      "name": "Mebroot",
+      "aliases": [],
+      "wiki": "Mebroot",
+      "tier": null
+    },
+    {
+      "name": "Medical device hijack",
+      "aliases": [],
+      "wiki": "Medical device hijack",
+      "tier": null
+    },
+    {
+      "name": "Mega-D botnet",
+      "aliases": [
+        "Mega-D"
+      ],
+      "wiki": "Mega-D botnet",
+      "tier": null
+    },
+    {
+      "name": "Metulji botnet",
+      "aliases": [
+        "Metulji"
+      ],
+      "wiki": "Metulji botnet",
+      "tier": null
+    },
+    {
+      "name": "Microarchitectural Data Sampling",
+      "aliases": [],
+      "wiki": "Microarchitectural Data Sampling",
+      "tier": null
+    },
+    {
+      "name": "MiniPanzer and MegaPanzer",
+      "aliases": [],
+      "wiki": "MiniPanzer and MegaPanzer",
+      "tier": null
+    },
+    {
+      "name": "Mocmex",
+      "aliases": [],
+      "wiki": "Mocmex",
+      "tier": null
+    },
+    {
+      "name": "Moonlight Maze",
+      "aliases": [],
+      "wiki": "Moonlight Maze",
+      "tier": null
+    },
+    {
+      "name": "Mumu worm",
+      "aliases": [],
+      "wiki": "Mumu (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Mylife worm",
+      "aliases": [],
+      "wiki": "Mylife (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "NetTraveler",
+      "aliases": [],
+      "wiki": "NetTraveler",
+      "tier": null
+    },
+    {
+      "name": "Nintendo data leak",
+      "aliases": [],
+      "wiki": "Nintendo data leak",
+      "tier": null
+    },
+    {
+      "name": "Nitol botnet",
+      "aliases": [
+        "Nitol"
+      ],
+      "wiki": "Nitol botnet",
+      "tier": null
+    },
+    {
+      "name": "Nitro hacking attacks",
+      "aliases": [],
+      "wiki": "Nitro hacking attacks",
+      "tier": null
+    },
+    {
+      "name": "NullCrew",
+      "aliases": [],
+      "wiki": "NullCrew",
+      "tier": null
+    },
+    {
+      "name": "OSX.Keydnap",
+      "aliases": [
+        "Keydnap"
+      ],
+      "wiki": "OSX.Keydnap",
+      "tier": null
+    },
+    {
+      "name": "OpIsrael",
+      "aliases": [],
+      "wiki": "OpIsrael",
+      "tier": null
+    },
+    {
+      "name": "Operation Ababil",
+      "aliases": [],
+      "wiki": "Operation Ababil",
+      "tier": null
+    },
+    {
+      "name": "Operation AntiSec",
+      "aliases": [],
+      "wiki": "Operation AntiSec",
+      "tier": null
+    },
+    {
+      "name": "Operation Cleaver",
+      "aliases": [],
+      "wiki": "Operation Cleaver",
+      "tier": null
+    },
+    {
+      "name": "Operation High Roller",
+      "aliases": [],
+      "wiki": "Operation High Roller",
+      "tier": null
+    },
+    {
+      "name": "Operation Newscaster",
+      "aliases": [],
+      "wiki": "Operation Newscaster",
+      "tier": null
+    },
+    {
+      "name": "Operation Olympic Games",
+      "aliases": [],
+      "wiki": "Operation Olympic Games",
+      "tier": null
+    },
+    {
+      "name": "Operation Payback",
+      "aliases": [],
+      "wiki": "Operation Payback",
+      "tier": null
+    },
+    {
+      "name": "Operation Shady RAT",
+      "aliases": [
+        "Shady RAT"
+      ],
+      "wiki": "Operation Shady RAT",
+      "tier": null
+    },
+    {
+      "name": "Operation Socialist",
+      "aliases": [],
+      "wiki": "Operation Socialist",
+      "tier": null
+    },
+    {
+      "name": "Operation Triangulation",
+      "aliases": [],
+      "wiki": "Operation Triangulation",
+      "tier": null
+    },
+    {
+      "name": "P.H.I.R.M.",
+      "aliases": [],
+      "wiki": "P.H.I.R.M.",
+      "tier": null
+    },
+    {
+      "name": "PGPCoder",
+      "aliases": [],
+      "wiki": "PGPCoder",
+      "tier": null
+    },
+    {
+      "name": "PHP2Shell",
+      "aliases": [],
+      "wiki": "PHP2Shell",
+      "tier": null
+    },
+    {
+      "name": "PLATINUM group",
+      "aliases": [],
+      "wiki": "PLATINUM (cybercrime group)",
+      "tier": null
+    },
+    {
+      "name": "Palm OS viruses",
+      "aliases": [],
+      "wiki": "Palm OS viruses",
+      "tier": null
+    },
+    {
+      "name": "PampaLeaks",
+      "aliases": [],
+      "wiki": "PampaLeaks",
+      "tier": null
+    },
+    {
+      "name": "Philadelphia ransomware",
+      "aliases": [],
+      "wiki": "Philadelphia (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "PoisonIvy",
+      "aliases": [
+        "Breut",
+        "Darkmoon"
+      ],
+      "wiki": "PoisonIvy",
+      "tier": null
+    },
+    {
+      "name": "Pranknet",
+      "aliases": [],
+      "wiki": "Pranknet",
+      "tier": null
+    },
+    {
+      "name": "Prime Suspectz",
+      "aliases": [],
+      "wiki": "Prime Suspectz",
+      "tier": null
+    },
+    {
+      "name": "Psyb0t",
+      "aliases": [],
+      "wiki": "Psyb0t",
+      "tier": null
+    },
+    {
+      "name": "PunkeyPOS",
+      "aliases": [],
+      "wiki": "PunkeyPOS",
+      "tier": null
+    },
+    {
+      "name": "ROCA vulnerability",
+      "aliases": [],
+      "wiki": "ROCA vulnerability",
+      "tier": null
+    },
+    {
+      "name": "RSPlug",
+      "aliases": [],
+      "wiki": "RSPlug",
+      "tier": null
+    },
+    {
+      "name": "Ramsay malware",
+      "aliases": [],
+      "wiki": "Ramsay (malware)",
+      "tier": null
+    },
+    {
+      "name": "Red Cross data breach",
+      "aliases": [],
+      "wiki": "Red Cross data breach",
+      "tier": null
+    },
+    {
+      "name": "Red October malware",
+      "aliases": [],
+      "wiki": "Red October (malware)",
+      "tier": null
+    },
+    {
+      "name": "Rensenware",
+      "aliases": [],
+      "wiki": "Rensenware",
+      "tier": null
+    },
+    {
+      "name": "Reptar vulnerability",
+      "aliases": [],
+      "wiki": "Reptar (vulnerability)",
+      "tier": null
+    },
+    {
+      "name": "Rescator",
+      "aliases": [],
+      "wiki": "Rescator",
+      "tier": null
+    },
+    {
+      "name": "Rombertik",
+      "aliases": [],
+      "wiki": "Rombertik",
+      "tier": null
+    },
+    {
+      "name": "Rootpipe",
+      "aliases": [],
+      "wiki": "Rootpipe",
+      "tier": null
+    },
+    {
+      "name": "Russian Business Network",
+      "aliases": [
+        "RBN"
+      ],
+      "wiki": "Russian Business Network",
+      "tier": null
+    },
+    {
+      "name": "Rustock botnet",
+      "aliases": [
+        "Rustock"
+      ],
+      "wiki": "Rustock botnet",
+      "tier": null
+    },
+    {
+      "name": "Sadmind",
+      "aliases": [],
+      "wiki": "Sadmind",
+      "tier": null
+    },
+    {
+      "name": "Santy",
+      "aliases": [],
+      "wiki": "Santy",
+      "tier": null
+    },
+    {
+      "name": "Shadow Network",
+      "aliases": [],
+      "wiki": "Shadow Network",
+      "tier": null
+    },
+    {
+      "name": "ShadowCrew",
+      "aliases": [],
+      "wiki": "ShadowCrew",
+      "tier": null
+    },
+    {
+      "name": "Shanghai police database leak",
+      "aliases": [],
+      "wiki": "Shanghai police database leak",
+      "tier": null
+    },
+    {
+      "name": "Shatter attack",
+      "aliases": [],
+      "wiki": "Shatter attack",
+      "tier": null
+    },
+    {
+      "name": "SigSpoof",
+      "aliases": [],
+      "wiki": "SigSpoof",
+      "tier": null
+    },
+    {
+      "name": "Simile virus",
+      "aliases": [],
+      "wiki": "Simile (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "Sircam",
+      "aliases": [],
+      "wiki": "Sircam",
+      "tier": null
+    },
+    {
+      "name": "Slenfbot",
+      "aliases": [],
+      "wiki": "Slenfbot",
+      "tier": null
+    },
+    {
+      "name": "Sober worm",
+      "aliases": [],
+      "wiki": "Sober (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Sobig",
+      "aliases": [],
+      "wiki": "Sobig",
+      "tier": null
+    },
+    {
+      "name": "Sony BMG copy protection rootkit scandal",
+      "aliases": [
+        "Sony BMG rootkit",
+        "Sony rootkit"
+      ],
+      "wiki": "Sony BMG copy protection rootkit scandal",
+      "tier": null
+    },
+    {
+      "name": "Speculative Store Bypass",
+      "aliases": [],
+      "wiki": "Speculative Store Bypass",
+      "tier": null
+    },
+    {
+      "name": "Srizbi botnet",
+      "aliases": [
+        "Srizbi"
+      ],
+      "wiki": "Srizbi botnet",
+      "tier": null
+    },
+    {
+      "name": "Staog",
+      "aliases": [],
+      "wiki": "Staog",
+      "tier": null
+    },
+    {
+      "name": "Stars virus",
+      "aliases": [],
+      "wiki": "Stars virus",
+      "tier": null
+    },
+    {
+      "name": "Stration",
+      "aliases": [],
+      "wiki": "Stration",
+      "tier": null
+    },
+    {
+      "name": "Surkov leaks",
+      "aliases": [],
+      "wiki": "Surkov leaks",
+      "tier": null
+    },
+    {
+      "name": "Swizzor",
+      "aliases": [],
+      "wiki": "Swizzor",
+      "tier": null
+    },
+    {
+      "name": "Targeted threat",
+      "aliases": [],
+      "wiki": "Targeted threat",
+      "tier": null
+    },
+    {
+      "name": "Thanos ransomware",
+      "aliases": [],
+      "wiki": "Thanos (ransomware)",
+      "tier": null
+    },
+    {
+      "name": "The 414s",
+      "aliases": [],
+      "wiki": "The 414s",
+      "tier": null
+    },
+    {
+      "name": "The Dark Overlord",
+      "aliases": [],
+      "wiki": "The Dark Overlord (hacker group)",
+      "tier": null
+    },
+    {
+      "name": "Tiny Banker",
+      "aliases": [],
+      "wiki": "Tiny Banker",
+      "tier": null
+    },
+    {
+      "name": "Titan Rain",
+      "aliases": [],
+      "wiki": "Titan Rain",
+      "tier": null
+    },
+    {
+      "name": "Titanium malware",
+      "aliases": [],
+      "wiki": "Titanium (malware)",
+      "tier": null
+    },
+    {
+      "name": "Torpig",
+      "aliases": [],
+      "wiki": "Torpig",
+      "tier": null
+    },
+    {
+      "name": "Torrent poisoning",
+      "aliases": [],
+      "wiki": "Torrent poisoning",
+      "tier": null
+    },
+    {
+      "name": "TorrentLocker",
+      "aliases": [],
+      "wiki": "TorrentLocker",
+      "tier": null
+    },
+    {
+      "name": "Toxbot",
+      "aliases": [],
+      "wiki": "Toxbot",
+      "tier": null
+    },
+    {
+      "name": "Transnet ransomware attack",
+      "aliases": [],
+      "wiki": "Transnet ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Twelve Tricks",
+      "aliases": [],
+      "wiki": "Twelve Tricks",
+      "tier": null
+    },
+    {
+      "name": "UGNazi",
+      "aliases": [],
+      "wiki": "UGNazi",
+      "tier": null
+    },
+    {
+      "name": "Ukrainian Cyber Alliance",
+      "aliases": [],
+      "wiki": "Ukrainian Cyber Alliance",
+      "tier": null
+    },
+    {
+      "name": "Upering",
+      "aliases": [],
+      "wiki": "Upering",
+      "tier": null
+    },
+    {
+      "name": "Vastaamo data breach",
+      "aliases": [],
+      "wiki": "Vastaamo data breach",
+      "tier": null
+    },
+    {
+      "name": "Viasat hack",
+      "aliases": [],
+      "wiki": "Viasat hack",
+      "tier": null
+    },
+    {
+      "name": "Vice Society",
+      "aliases": [],
+      "wiki": "Vice Society",
+      "tier": null
+    },
+    {
+      "name": "Vietnamese airports hackings",
+      "aliases": [],
+      "wiki": "Vietnamese airports hackings",
+      "tier": null
+    },
+    {
+      "name": "Virdem",
+      "aliases": [],
+      "wiki": "Virdem",
+      "tier": null
+    },
+    {
+      "name": "Virus Creation Laboratory",
+      "aliases": [],
+      "wiki": "Virus Creation Laboratory",
+      "tier": null
+    },
+    {
+      "name": "Virut",
+      "aliases": [],
+      "wiki": "Virut",
+      "tier": null
+    },
+    {
+      "name": "Voyager worm",
+      "aliases": [],
+      "wiki": "Voyager (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Vulcanbot",
+      "aliases": [],
+      "wiki": "Vulcanbot",
+      "tier": null
+    },
+    {
+      "name": "Vundo",
+      "aliases": [],
+      "wiki": "Vundo",
+      "tier": null
+    },
+    {
+      "name": "WANK worm",
+      "aliases": [],
+      "wiki": "WANK (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "Waikato District Health Board ransomware attack",
+      "aliases": [],
+      "wiki": "Waikato District Health Board ransomware attack",
+      "tier": null
+    },
+    {
+      "name": "Waledac botnet",
+      "aliases": [
+        "Waledac"
+      ],
+      "wiki": "Waledac botnet",
+      "tier": null
+    },
+    {
+      "name": "Web threat",
+      "aliases": [],
+      "wiki": "Web threat",
+      "tier": null
+    },
+    {
+      "name": "Welchia",
+      "aliases": [],
+      "wiki": "Welchia",
+      "tier": null
+    },
+    {
+      "name": "Whale virus",
+      "aliases": [],
+      "wiki": "Whale (computer virus)",
+      "tier": null
+    },
+    {
+      "name": "WhatsApp snooping scandal",
+      "aliases": [],
+      "wiki": "WhatsApp snooping scandal",
+      "tier": null
+    },
+    {
+      "name": "WinShock",
+      "aliases": [],
+      "wiki": "WinShock",
+      "tier": null
+    },
+    {
+      "name": "Witty worm",
+      "aliases": [],
+      "wiki": "Witty (computer worm)",
+      "tier": null
+    },
+    {
+      "name": "World of Hell",
+      "aliases": [],
+      "wiki": "World of Hell",
+      "tier": null
+    },
+    {
+      "name": "X-Agent",
+      "aliases": [
+        "CHOPSTICK",
+        "Backdoor.SofacyX",
+        "SPLM",
+        "webhp"
+      ],
+      "wiki": "X-Agent",
+      "tier": null
+    },
+    {
+      "name": "XDedic",
+      "aliases": [],
+      "wiki": "XDedic",
+      "tier": null
+    },
+    {
+      "name": "Xafecopy",
+      "aliases": [],
+      "wiki": "Xafecopy",
+      "tier": null
+    },
+    {
+      "name": "Yemen Cyber Army",
+      "aliases": [],
+      "wiki": "Yemen Cyber Army",
+      "tier": null
+    },
+    {
+      "name": "Zlob trojan",
+      "aliases": [],
+      "wiki": "Zlob trojan",
+      "tier": null
+    },
+    {
+      "name": "Zmist",
+      "aliases": [],
+      "wiki": "Zmist",
+      "tier": null
+    },
+    {
+      "name": "Zotob",
+      "aliases": [],
+      "wiki": "Zotob",
+      "tier": null
+    },
+    {
+      "name": "RagnarLocker",
+      "aliases": [],
+      "wiki": "RagnarLocker",
+      "tier": null
+    },
+    {
+      "name": "Exploitation for Defense Impairment",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Disk Structure Wipe",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Direct Network Flood",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Email Hiding Rules",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "External Defacement",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OS Exhaustion Flood",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Double File Extension",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Bypass User Account Control",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SMS Pumping",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Application Exhaustion Flood",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compromise Software Dependencies and Development Tools",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Weaken Encryption",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Masquerade File Type",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hide Artifacts",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Taint Shared Content",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Gatekeeper Bypass",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Service Exhaustion Flood",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compromise Hardware Supply Chain",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Replication Through Removable Media",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploit Public-Facing Application",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Steal or Forge Kerberos Tickets",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Credentials from Password Stores",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Thread Execution Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Masquerading",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Application Shimming",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Unsecured Credentials",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Content Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Reflective Code Loading",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Escape to Host",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SSH Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Protocol Tunneling",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Browser Session Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Rogue Domain Controller",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DHCP Spoofing",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Remote Service Session Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Binary Padding",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Input Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Name Resolution Poisoning and SMB Relay",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Junk Code Insertion",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Abuse Elevation Control Mechanism",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Image File Execution Options Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Process Doppelgänging",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Accessibility Features",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Bandwidth Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Clear Windows Event Logs",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Poisoned Pipeline Execution",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Right-to-Left Override",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SVG Smuggling",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Indicator Removal",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Email Forwarding Rule",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Steal or Forge Authentication Certificates",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mark-of-the-Web Bypass",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pre-OS Boot",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compromise Accounts",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Virtualization/Sandbox Evasion",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Financial Theft",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Token Impersonation/Theft",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Port Knocking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LNK Icon Smuggling",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Steal Application Access Token",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Internal Defacement",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cloud Service Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Parent PID Spoofing",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Forge Web Credentials",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Multi-Factor Authentication Request Generation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compromise Host Software Binary",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploitation for Credential Access",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploitation of Remote Services",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Internal Spearphishing",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Registry Run Keys / Startup Folder",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Trusted Relationship",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Account Manipulation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compute Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Data Manipulation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Data Obfuscation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hijack Execution Flow",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploitation for Privilege Escalation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Obfuscated Files or Information",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Forced Authentication",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SID-History Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Data Encrypted for Impact",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Subvert Trust Controls",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Input Capture",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Disable or Modify Tools",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compromise Software Supply Chain",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploitation for Client Execution",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Path Interception by Unquoted Path",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Query Registry",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Endpoint Denial of Service",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "VBA Stomping",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Domain Fronting",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Phishing for Information",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Resource Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hardware Additions",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Network Denial of Service",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Template Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Access Token Manipulation",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Multi-Factor Authentication Interception",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RDP Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Malicious Copy and Paste",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Debugger Evasion",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Space after Filename",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Invisible Unicode",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Disable or Modify System Firewall",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Modify Authentication Process",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Firmware Corruption",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Inhibit System Recovery",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Spearphishing via Service",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dead Drop Resolver",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Disk Content Wipe",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dylib Hijacking",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Exploitation for Stealth",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Steal Application Specific Passwords",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Direct Prompt Injection",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AI Result Poisoning",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Automate CAPTCHA Completion",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AI-Enabled Exfiltration",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    }
+  ]
+}

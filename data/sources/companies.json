@@ -1,0 +1,8288 @@
+{
+  "prompt": "Name a company that hires BIS grads",
+  "sources": [
+    "https://raw.githubusercontent.com/phamleduy04/fortune-500-csv/main/merged_df.csv (Fortune 500 + Fortune 1000 ranks 501-1000, 2024 list scraped from fortune.com)",
+    "https://fortune.com/ranking/fortune500/",
+    "https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue",
+    "https://en.wikipedia.org/wiki/List_of_companies_in_the_Dallas%E2%80%93Fort_Worth_metroplex",
+    "https://en.wikipedia.org/wiki/List_of_companies_in_Dallas",
+    "https://en.wikipedia.org/wiki/List_of_Texas_companies",
+    "https://en.wikipedia.org/wiki/List_of_largest_private_non-governmental_companies_by_revenue",
+    "https://en.wikipedia.org/w/api.php (MediaWiki API: title/redirect resolution, disambiguation checks, short descriptions)",
+    "Curated additions: Big Four, consulting/accounting/staffing firms, global tech, banks, airlines, defense, energy, DFW health systems, U.S. government agencies, DFW sports teams, TCU"
+  ],
+  "answers": [
+    {
+      "name": "Microsoft",
+      "aliases": [
+        "MSFT"
+      ],
+      "wiki": "Microsoft",
+      "tier": 1
+    },
+    {
+      "name": "Google",
+      "aliases": [
+        "Alphabet",
+        "Alphabet Inc",
+        "Google LLC"
+      ],
+      "wiki": "Google",
+      "tier": 1
+    },
+    {
+      "name": "Amazon",
+      "aliases": [
+        "AWS",
+        "Amazon Web Services",
+        "Amazon.com"
+      ],
+      "wiki": "Amazon (company)",
+      "tier": 1
+    },
+    {
+      "name": "Apple",
+      "aliases": [
+        "Apple Inc"
+      ],
+      "wiki": "Apple Inc.",
+      "tier": 1
+    },
+    {
+      "name": "Deloitte",
+      "aliases": [
+        "Deloitte Touche Tohmatsu",
+        "Deloitte Consulting",
+        "Deloitte and Touche"
+      ],
+      "wiki": "Deloitte",
+      "tier": 1
+    },
+    {
+      "name": "PwC",
+      "aliases": [
+        "PricewaterhouseCoopers",
+        "Price Waterhouse",
+        "Strategy&"
+      ],
+      "wiki": "PwC",
+      "tier": 2
+    },
+    {
+      "name": "EY",
+      "aliases": [
+        "Ernst & Young",
+        "EY-Parthenon"
+      ],
+      "wiki": "Ernst & Young",
+      "tier": 2
+    },
+    {
+      "name": "KPMG",
+      "wiki": "KPMG",
+      "tier": 2
+    },
+    {
+      "name": "Accenture",
+      "wiki": "Accenture",
+      "tier": 2
+    },
+    {
+      "name": "IBM",
+      "aliases": [
+        "International Business Machines",
+        "IBM Consulting",
+        "Big Blue"
+      ],
+      "wiki": "IBM",
+      "tier": 2
+    },
+    {
+      "name": "Meta",
+      "aliases": [
+        "Meta Platforms",
+        "Facebook"
+      ],
+      "wiki": "Meta Platforms",
+      "tier": 2
+    },
+    {
+      "name": "Lockheed Martin",
+      "aliases": [
+        "Lockheed"
+      ],
+      "wiki": "Lockheed Martin",
+      "tier": 2
+    },
+    {
+      "name": "American Airlines",
+      "aliases": [
+        "American Airlines Group",
+        "AA",
+        "AAG"
+      ],
+      "wiki": "American Airlines",
+      "tier": 2
+    },
+    {
+      "name": "Salesforce",
+      "aliases": [
+        "Salesforce.com"
+      ],
+      "wiki": "Salesforce",
+      "tier": 2
+    },
+    {
+      "name": "Oracle",
+      "aliases": [
+        "Oracle Corp",
+        "Oracle Corporation"
+      ],
+      "wiki": "Oracle Corporation",
+      "tier": 2
+    },
+    {
+      "name": "JPMorgan Chase",
+      "aliases": [
+        "JPMorgan",
+        "Chase",
+        "Chase Bank",
+        "JPMC"
+      ],
+      "wiki": "JPMorgan Chase",
+      "tier": 2
+    },
+    {
+      "name": "Walmart",
+      "aliases": [
+        "Walmart Inc"
+      ],
+      "wiki": "Walmart",
+      "tier": 2
+    },
+    {
+      "name": "AT&T",
+      "aliases": [
+        "ATT"
+      ],
+      "wiki": "AT&T",
+      "tier": 2
+    },
+    {
+      "name": "Dell Technologies",
+      "aliases": [
+        "Dell"
+      ],
+      "wiki": "Dell Technologies",
+      "tier": 2
+    },
+    {
+      "name": "Tesla",
+      "aliases": [
+        "Tesla Motors",
+        "Tesla, Inc."
+      ],
+      "wiki": "Tesla, Inc.",
+      "tier": 2
+    },
+    {
+      "name": "Bank of America",
+      "aliases": [
+        "BofA",
+        "BoA",
+        "Merrill Lynch",
+        "Merrill"
+      ],
+      "wiki": "Bank of America",
+      "tier": 2
+    },
+    {
+      "name": "Goldman Sachs",
+      "aliases": [
+        "Goldman",
+        "Goldman Sachs Group"
+      ],
+      "wiki": "Goldman Sachs",
+      "tier": 2
+    },
+    {
+      "name": "Nvidia",
+      "wiki": "Nvidia",
+      "tier": 2
+    },
+    {
+      "name": "Southwest Airlines",
+      "aliases": [
+        "Southwest"
+      ],
+      "wiki": "Southwest Airlines",
+      "tier": 2
+    },
+    {
+      "name": "Samsung",
+      "aliases": [
+        "Samsung Electronics"
+      ],
+      "wiki": "Samsung Electronics",
+      "tier": null
+    },
+    {
+      "name": "Sony",
+      "aliases": [
+        "Sony Group"
+      ],
+      "wiki": "Sony",
+      "tier": null
+    },
+    {
+      "name": "SAP",
+      "aliases": [
+        "SAP SE"
+      ],
+      "wiki": "SAP",
+      "tier": null
+    },
+    {
+      "name": "Siemens",
+      "wiki": "Siemens",
+      "tier": null
+    },
+    {
+      "name": "LinkedIn",
+      "wiki": "LinkedIn",
+      "tier": null
+    },
+    {
+      "name": "GitHub",
+      "wiki": "GitHub",
+      "tier": null
+    },
+    {
+      "name": "YouTube",
+      "wiki": "YouTube",
+      "tier": null
+    },
+    {
+      "name": "Infosys",
+      "wiki": "Infosys",
+      "tier": null
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "aliases": [
+        "TCS"
+      ],
+      "wiki": "Tata Consultancy Services",
+      "tier": null
+    },
+    {
+      "name": "Wipro",
+      "wiki": "Wipro",
+      "tier": null
+    },
+    {
+      "name": "HCLTech",
+      "aliases": [
+        "HCL Technologies",
+        "HCL"
+      ],
+      "wiki": "HCLTech",
+      "tier": null
+    },
+    {
+      "name": "Tech Mahindra",
+      "wiki": "Tech Mahindra",
+      "tier": null
+    },
+    {
+      "name": "Capgemini",
+      "wiki": "Capgemini",
+      "tier": null
+    },
+    {
+      "name": "Atos",
+      "wiki": "Atos",
+      "tier": null
+    },
+    {
+      "name": "NTT Data",
+      "wiki": "NTT Data",
+      "tier": null
+    },
+    {
+      "name": "Fujitsu",
+      "wiki": "Fujitsu",
+      "tier": null
+    },
+    {
+      "name": "Hitachi",
+      "wiki": "Hitachi",
+      "tier": null
+    },
+    {
+      "name": "Toshiba",
+      "wiki": "Toshiba",
+      "tier": null
+    },
+    {
+      "name": "Panasonic",
+      "wiki": "Panasonic",
+      "tier": null
+    },
+    {
+      "name": "LG Electronics",
+      "aliases": [
+        "LG"
+      ],
+      "wiki": "LG Electronics",
+      "tier": null
+    },
+    {
+      "name": "Lenovo",
+      "wiki": "Lenovo",
+      "tier": null
+    },
+    {
+      "name": "Huawei",
+      "wiki": "Huawei",
+      "tier": null
+    },
+    {
+      "name": "Alibaba Group",
+      "aliases": [
+        "Alibaba"
+      ],
+      "wiki": "Alibaba Group",
+      "tier": null
+    },
+    {
+      "name": "Tencent",
+      "wiki": "Tencent",
+      "tier": null
+    },
+    {
+      "name": "ByteDance",
+      "aliases": [
+        "TikTok"
+      ],
+      "wiki": "ByteDance",
+      "tier": null
+    },
+    {
+      "name": "Spotify",
+      "wiki": "Spotify",
+      "tier": null
+    },
+    {
+      "name": "Snap Inc.",
+      "aliases": [
+        "Snapchat",
+        "Snap"
+      ],
+      "wiki": "Snap Inc.",
+      "tier": null
+    },
+    {
+      "name": "Pinterest",
+      "wiki": "Pinterest",
+      "tier": null
+    },
+    {
+      "name": "Reddit",
+      "wiki": "Reddit",
+      "tier": null
+    },
+    {
+      "name": "X Corp.",
+      "aliases": [
+        "Twitter"
+      ],
+      "wiki": "X Corp.",
+      "tier": null
+    },
+    {
+      "name": "Zoom",
+      "aliases": [
+        "Zoom Video Communications",
+        "Zoom Communications"
+      ],
+      "wiki": "Zoom Communications",
+      "tier": null
+    },
+    {
+      "name": "Slack",
+      "aliases": [
+        "Slack Technologies"
+      ],
+      "wiki": "Slack Technologies",
+      "tier": null
+    },
+    {
+      "name": "Dropbox",
+      "wiki": "Dropbox",
+      "tier": null
+    },
+    {
+      "name": "Box",
+      "aliases": [
+        "Box, Inc."
+      ],
+      "wiki": "Box, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Atlassian",
+      "aliases": [
+        "Jira"
+      ],
+      "wiki": "Atlassian",
+      "tier": null
+    },
+    {
+      "name": "Shopify",
+      "wiki": "Shopify",
+      "tier": null
+    },
+    {
+      "name": "Stripe",
+      "aliases": [
+        "Stripe, Inc."
+      ],
+      "wiki": "Stripe, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Palantir",
+      "aliases": [
+        "Palantir Technologies"
+      ],
+      "wiki": "Palantir",
+      "tier": null
+    },
+    {
+      "name": "Snowflake",
+      "aliases": [
+        "Snowflake Inc."
+      ],
+      "wiki": "Snowflake Inc.",
+      "tier": null
+    },
+    {
+      "name": "Databricks",
+      "wiki": "Databricks",
+      "tier": null
+    },
+    {
+      "name": "VMware",
+      "wiki": "VMware",
+      "tier": null
+    },
+    {
+      "name": "Red Hat",
+      "wiki": "Red Hat",
+      "tier": null
+    },
+    {
+      "name": "Juniper Networks",
+      "aliases": [
+        "Juniper"
+      ],
+      "wiki": "Juniper Networks",
+      "tier": null
+    },
+    {
+      "name": "Arista Networks",
+      "aliases": [
+        "Arista"
+      ],
+      "wiki": "Arista Networks",
+      "tier": null
+    },
+    {
+      "name": "Palo Alto Networks",
+      "wiki": "Palo Alto Networks",
+      "tier": null
+    },
+    {
+      "name": "CrowdStrike",
+      "wiki": "CrowdStrike",
+      "tier": null
+    },
+    {
+      "name": "Fortinet",
+      "wiki": "Fortinet",
+      "tier": null
+    },
+    {
+      "name": "Zscaler",
+      "wiki": "Zscaler",
+      "tier": null
+    },
+    {
+      "name": "Okta",
+      "aliases": [
+        "Okta, Inc."
+      ],
+      "wiki": "Okta, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Splunk",
+      "wiki": "Splunk",
+      "tier": null
+    },
+    {
+      "name": "Cloudflare",
+      "wiki": "Cloudflare",
+      "tier": null
+    },
+    {
+      "name": "Datadog",
+      "wiki": "Datadog",
+      "tier": null
+    },
+    {
+      "name": "MongoDB",
+      "aliases": [
+        "MongoDB Inc."
+      ],
+      "wiki": "MongoDB Inc.",
+      "tier": null
+    },
+    {
+      "name": "Twilio",
+      "wiki": "Twilio",
+      "tier": null
+    },
+    {
+      "name": "HubSpot",
+      "wiki": "HubSpot",
+      "tier": null
+    },
+    {
+      "name": "Zendesk",
+      "wiki": "Zendesk",
+      "tier": null
+    },
+    {
+      "name": "Autodesk",
+      "wiki": "Autodesk",
+      "tier": null
+    },
+    {
+      "name": "SAS Institute",
+      "aliases": [
+        "SAS"
+      ],
+      "wiki": "SAS Institute",
+      "tier": null
+    },
+    {
+      "name": "Tableau",
+      "aliases": [
+        "Tableau Software"
+      ],
+      "wiki": "Tableau Software",
+      "tier": null
+    },
+    {
+      "name": "Informatica",
+      "wiki": "Informatica",
+      "tier": null
+    },
+    {
+      "name": "Teradata",
+      "wiki": "Teradata",
+      "tier": null
+    },
+    {
+      "name": "Alteryx",
+      "wiki": "Alteryx",
+      "tier": null
+    },
+    {
+      "name": "UiPath",
+      "wiki": "UiPath",
+      "tier": null
+    },
+    {
+      "name": "Workday",
+      "aliases": [
+        "Workday, Inc."
+      ],
+      "wiki": "Workday, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Epic Systems",
+      "aliases": [
+        "Epic"
+      ],
+      "wiki": "Epic Systems",
+      "tier": null
+    },
+    {
+      "name": "Cerner",
+      "aliases": [
+        "Oracle Health"
+      ],
+      "wiki": "Oracle Health",
+      "tier": null
+    },
+    {
+      "name": "Athenahealth",
+      "wiki": "Athenahealth",
+      "tier": null
+    },
+    {
+      "name": "Veeva Systems",
+      "aliases": [
+        "Veeva"
+      ],
+      "wiki": "Veeva Systems",
+      "tier": null
+    },
+    {
+      "name": "OpenAI",
+      "aliases": [
+        "ChatGPT"
+      ],
+      "wiki": "OpenAI",
+      "tier": null
+    },
+    {
+      "name": "Anthropic",
+      "wiki": "Anthropic",
+      "tier": null
+    },
+    {
+      "name": "GlobalFoundries",
+      "wiki": "GlobalFoundries",
+      "tier": null
+    },
+    {
+      "name": "Instacart",
+      "aliases": [
+        "Maplebear"
+      ],
+      "wiki": "Instacart",
+      "tier": null
+    },
+    {
+      "name": "Lyft",
+      "wiki": "Lyft",
+      "tier": null
+    },
+    {
+      "name": "Activision Blizzard",
+      "aliases": [
+        "Activision"
+      ],
+      "wiki": "Activision Blizzard",
+      "tier": null
+    },
+    {
+      "name": "Blizzard Entertainment",
+      "aliases": [
+        "Blizzard"
+      ],
+      "wiki": "Blizzard Entertainment",
+      "tier": null
+    },
+    {
+      "name": "Epic Games",
+      "wiki": "Epic Games",
+      "tier": null
+    },
+    {
+      "name": "Riot Games",
+      "wiki": "Riot Games",
+      "tier": null
+    },
+    {
+      "name": "Valve",
+      "aliases": [
+        "Valve Corporation"
+      ],
+      "wiki": "Valve Corporation",
+      "tier": null
+    },
+    {
+      "name": "Nintendo",
+      "wiki": "Nintendo",
+      "tier": null
+    },
+    {
+      "name": "Ubisoft",
+      "wiki": "Ubisoft",
+      "tier": null
+    },
+    {
+      "name": "Take-Two Interactive",
+      "aliases": [
+        "Take-Two",
+        "Take-Two Interactive Software"
+      ],
+      "wiki": "Take-Two Interactive",
+      "tier": null
+    },
+    {
+      "name": "Rockstar Games",
+      "wiki": "Rockstar Games",
+      "tier": null
+    },
+    {
+      "name": "Bungie",
+      "wiki": "Bungie",
+      "tier": null
+    },
+    {
+      "name": "Unity Technologies",
+      "wiki": "Unity Technologies",
+      "tier": null
+    },
+    {
+      "name": "Roblox",
+      "aliases": [
+        "Roblox Corporation"
+      ],
+      "wiki": "Roblox Corporation",
+      "tier": null
+    },
+    {
+      "name": "Gearbox Software",
+      "aliases": [
+        "Gearbox"
+      ],
+      "wiki": "Gearbox Software",
+      "tier": null
+    },
+    {
+      "name": "id Software",
+      "wiki": "Id Software",
+      "tier": null
+    },
+    {
+      "name": "Aspyr",
+      "wiki": "Aspyr",
+      "tier": null
+    },
+    {
+      "name": "Unisys",
+      "wiki": "Unisys",
+      "tier": null
+    },
+    {
+      "name": "CGI Inc.",
+      "aliases": [
+        "CGI"
+      ],
+      "wiki": "CGI Inc.",
+      "tier": null
+    },
+    {
+      "name": "SAIC",
+      "aliases": [
+        "Science Applications International",
+        "Science Applications International Corporation"
+      ],
+      "wiki": "Science Applications International Corporation",
+      "tier": null
+    },
+    {
+      "name": "CACI",
+      "aliases": [
+        "CACI International"
+      ],
+      "wiki": "CACI",
+      "tier": null
+    },
+    {
+      "name": "Peraton",
+      "wiki": "Peraton",
+      "tier": null
+    },
+    {
+      "name": "General Dynamics Information Technology",
+      "aliases": [
+        "GDIT"
+      ],
+      "wiki": "General Dynamics Information Technology",
+      "tier": null
+    },
+    {
+      "name": "Rackspace",
+      "aliases": [
+        "Rackspace Technology"
+      ],
+      "wiki": "Rackspace Technology",
+      "tier": null
+    },
+    {
+      "name": "Digital Realty",
+      "aliases": [
+        "Digital Realty Trust"
+      ],
+      "wiki": "Digital Realty",
+      "tier": null
+    },
+    {
+      "name": "SHI International",
+      "aliases": [
+        "SHI",
+        "SHI International Corp"
+      ],
+      "wiki": "SHI International Corp",
+      "tier": null
+    },
+    {
+      "name": "World Wide Technology",
+      "aliases": [
+        "WWT"
+      ],
+      "wiki": "World Wide Technology",
+      "tier": null
+    },
+    {
+      "name": "Presidio",
+      "aliases": [
+        "Presidio Inc"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Ingram Micro",
+      "wiki": "Ingram Micro",
+      "tier": null
+    },
+    {
+      "name": "Gartner",
+      "wiki": "Gartner",
+      "tier": null
+    },
+    {
+      "name": "Forrester Research",
+      "aliases": [
+        "Forrester"
+      ],
+      "wiki": "Forrester Research",
+      "tier": null
+    },
+    {
+      "name": "Bloomberg",
+      "aliases": [
+        "Bloomberg LP"
+      ],
+      "wiki": "Bloomberg L.P.",
+      "tier": null
+    },
+    {
+      "name": "Thomson Reuters",
+      "wiki": "Thomson Reuters",
+      "tier": null
+    },
+    {
+      "name": "Moody's",
+      "aliases": [
+        "Moody's Corporation"
+      ],
+      "wiki": "Moody's Corporation",
+      "tier": null
+    },
+    {
+      "name": "Nasdaq",
+      "wiki": "Nasdaq",
+      "tier": null
+    },
+    {
+      "name": "New York Stock Exchange",
+      "aliases": [
+        "NYSE"
+      ],
+      "wiki": "New York Stock Exchange",
+      "tier": null
+    },
+    {
+      "name": "Jack Henry & Associates",
+      "aliases": [
+        "Jack Henry"
+      ],
+      "wiki": "Jack Henry & Associates",
+      "tier": null
+    },
+    {
+      "name": "Paychex",
+      "aliases": [
+        "Paycor"
+      ],
+      "wiki": "Paychex",
+      "tier": null
+    },
+    {
+      "name": "Paycom",
+      "wiki": "Paycom",
+      "tier": null
+    },
+    {
+      "name": "Paylocity",
+      "wiki": "Paylocity",
+      "tier": null
+    },
+    {
+      "name": "Dayforce",
+      "aliases": [
+        "Ceridian"
+      ],
+      "wiki": "Dayforce",
+      "tier": null
+    },
+    {
+      "name": "UKG",
+      "aliases": [
+        "Ultimate Kronos Group",
+        "Kronos"
+      ],
+      "wiki": "UKG",
+      "tier": null
+    },
+    {
+      "name": "Tyler Technologies",
+      "aliases": [
+        "Tyler Tech"
+      ],
+      "wiki": "Tyler Technologies",
+      "tier": null
+    },
+    {
+      "name": "Sabre",
+      "aliases": [
+        "Sabre Holdings",
+        "Sabre Corporation"
+      ],
+      "wiki": "Sabre Corporation",
+      "tier": null
+    },
+    {
+      "name": "Solera",
+      "aliases": [
+        "Solera Holdings"
+      ],
+      "wiki": "Solera Holdings",
+      "tier": null
+    },
+    {
+      "name": "Toast",
+      "aliases": [
+        "Toast, Inc."
+      ],
+      "wiki": "Toast, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Chime",
+      "wiki": "Chime (company)",
+      "tier": null
+    },
+    {
+      "name": "Robinhood",
+      "aliases": [
+        "Robinhood Markets"
+      ],
+      "wiki": "Robinhood Markets",
+      "tier": null
+    },
+    {
+      "name": "Coinbase",
+      "wiki": "Coinbase",
+      "tier": null
+    },
+    {
+      "name": "SoFi",
+      "wiki": "SoFi",
+      "tier": null
+    },
+    {
+      "name": "Affirm",
+      "aliases": [
+        "Affirm Holdings"
+      ],
+      "wiki": "Affirm Holdings",
+      "tier": null
+    },
+    {
+      "name": "Plaid",
+      "aliases": [
+        "Plaid Inc."
+      ],
+      "wiki": "Plaid Inc.",
+      "tier": null
+    },
+    {
+      "name": "Equifax",
+      "wiki": "Equifax",
+      "tier": null
+    },
+    {
+      "name": "TransUnion",
+      "wiki": "TransUnion",
+      "tier": null
+    },
+    {
+      "name": "Experian",
+      "wiki": "Experian",
+      "tier": null
+    },
+    {
+      "name": "EPAM Systems",
+      "aliases": [
+        "EPAM"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Globant",
+      "wiki": "Globant",
+      "tier": null
+    },
+    {
+      "name": "Thoughtworks",
+      "wiki": "Thoughtworks",
+      "tier": null
+    },
+    {
+      "name": "Perficient",
+      "wiki": "Perficient",
+      "tier": null
+    },
+    {
+      "name": "Publicis Sapient",
+      "aliases": [
+        "Sapient"
+      ],
+      "wiki": "Publicis Sapient",
+      "tier": null
+    },
+    {
+      "name": "Avanade",
+      "wiki": "Avanade",
+      "tier": null
+    },
+    {
+      "name": "Etsy",
+      "wiki": "Etsy",
+      "tier": null
+    },
+    {
+      "name": "F5",
+      "aliases": [
+        "F5 Networks",
+        "F5, Inc."
+      ],
+      "wiki": "F5, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Viasat",
+      "wiki": "Viasat (American company)",
+      "tier": null
+    },
+    {
+      "name": "Indeed",
+      "wiki": "Indeed",
+      "tier": null
+    },
+    {
+      "name": "Bumble",
+      "wiki": "Bumble",
+      "tier": null
+    },
+    {
+      "name": "Match Group",
+      "aliases": [
+        "Match.com",
+        "Tinder"
+      ],
+      "wiki": "Match Group",
+      "tier": null
+    },
+    {
+      "name": "Ericsson",
+      "wiki": "Ericsson",
+      "tier": null
+    },
+    {
+      "name": "Nokia",
+      "wiki": "Nokia",
+      "tier": null
+    },
+    {
+      "name": "Siemens Digital Industries Software",
+      "wiki": "Siemens Digital Industries Software",
+      "tier": null
+    },
+    {
+      "name": "Texas Instruments",
+      "aliases": [
+        "TI"
+      ],
+      "wiki": "Texas Instruments",
+      "tier": null
+    },
+    {
+      "name": "McKinsey & Company",
+      "aliases": [
+        "McKinsey"
+      ],
+      "wiki": "McKinsey & Company",
+      "tier": null
+    },
+    {
+      "name": "Boston Consulting Group",
+      "aliases": [
+        "BCG"
+      ],
+      "wiki": "Boston Consulting Group",
+      "tier": null
+    },
+    {
+      "name": "Bain & Company",
+      "aliases": [
+        "Bain"
+      ],
+      "wiki": "Bain & Company",
+      "tier": null
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "aliases": [
+        "Booz Allen",
+        "Booz Allen Hamilton Holding"
+      ],
+      "wiki": "Booz Allen Hamilton",
+      "tier": null
+    },
+    {
+      "name": "Slalom",
+      "aliases": [
+        "Slalom Consulting",
+        "Slalom Inc"
+      ],
+      "wiki": "Slalom Inc",
+      "tier": null
+    },
+    {
+      "name": "Protiviti",
+      "wiki": "Protiviti",
+      "tier": null
+    },
+    {
+      "name": "West Monroe",
+      "aliases": [
+        "West Monroe Partners"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Guidehouse",
+      "aliases": [
+        "Navigant"
+      ],
+      "wiki": "Guidehouse",
+      "tier": null
+    },
+    {
+      "name": "RSM",
+      "aliases": [
+        "RSM US",
+        "RSM International"
+      ],
+      "wiki": "RSM US",
+      "tier": null
+    },
+    {
+      "name": "BDO",
+      "aliases": [
+        "BDO USA",
+        "BDO Global"
+      ],
+      "wiki": "BDO Global",
+      "tier": null
+    },
+    {
+      "name": "Grant Thornton",
+      "aliases": [
+        "Grant Thornton LLP"
+      ],
+      "wiki": "Grant Thornton",
+      "tier": null
+    },
+    {
+      "name": "Crowe",
+      "aliases": [
+        "Crowe LLP",
+        "Crowe Horwath",
+        "Crowe Global"
+      ],
+      "wiki": "Crowe Global",
+      "tier": null
+    },
+    {
+      "name": "Baker Tilly",
+      "aliases": [
+        "Baker Tilly International"
+      ],
+      "wiki": "Baker Tilly International",
+      "tier": null
+    },
+    {
+      "name": "Forvis Mazars",
+      "aliases": [
+        "Forvis",
+        "Mazars",
+        "BKD",
+        "Dixon Hughes Goodman"
+      ],
+      "wiki": "Forvis Mazars",
+      "tier": null
+    },
+    {
+      "name": "CliftonLarsonAllen",
+      "aliases": [
+        "CLA"
+      ],
+      "wiki": "CliftonLarsonAllen",
+      "tier": null
+    },
+    {
+      "name": "Moss Adams",
+      "wiki": "Moss Adams",
+      "tier": null
+    },
+    {
+      "name": "Plante Moran",
+      "wiki": "Plante Moran",
+      "tier": null
+    },
+    {
+      "name": "Kearney",
+      "aliases": [
+        "A.T. Kearney"
+      ],
+      "wiki": "Kearney (consulting firm)",
+      "tier": null
+    },
+    {
+      "name": "Huron Consulting Group",
+      "aliases": [
+        "Huron"
+      ],
+      "wiki": "Huron Consulting Group",
+      "tier": null
+    },
+    {
+      "name": "Alvarez & Marsal",
+      "wiki": "Alvarez and Marsal",
+      "tier": null
+    },
+    {
+      "name": "FTI Consulting",
+      "aliases": [
+        "FTI"
+      ],
+      "wiki": "FTI Consulting",
+      "tier": null
+    },
+    {
+      "name": "Oliver Wyman",
+      "wiki": "Oliver Wyman",
+      "tier": null
+    },
+    {
+      "name": "L.E.K. Consulting",
+      "aliases": [
+        "LEK"
+      ],
+      "wiki": "L.E.K. Consulting",
+      "tier": null
+    },
+    {
+      "name": "Roland Berger",
+      "wiki": "Roland Berger (company)",
+      "tier": null
+    },
+    {
+      "name": "ZS Associates",
+      "aliases": [
+        "ZS"
+      ],
+      "wiki": "ZS Associates",
+      "tier": null
+    },
+    {
+      "name": "Marsh McLennan",
+      "aliases": [
+        "Marsh & McLennan"
+      ],
+      "wiki": "Marsh McLennan",
+      "tier": null
+    },
+    {
+      "name": "Mercer",
+      "wiki": "Mercer (consulting firm)",
+      "tier": null
+    },
+    {
+      "name": "Aon",
+      "aliases": [
+        "Aon plc"
+      ],
+      "wiki": "Aon plc",
+      "tier": null
+    },
+    {
+      "name": "WTW",
+      "aliases": [
+        "Willis Towers Watson"
+      ],
+      "wiki": "Willis Towers Watson",
+      "tier": null
+    },
+    {
+      "name": "Korn Ferry",
+      "wiki": "Korn Ferry",
+      "tier": null
+    },
+    {
+      "name": "Robert Half",
+      "wiki": "Robert Half",
+      "tier": null
+    },
+    {
+      "name": "Insight Global",
+      "wiki": "Insight Global",
+      "tier": null
+    },
+    {
+      "name": "TEKsystems",
+      "aliases": [
+        "Allegis Group"
+      ],
+      "wiki": "Allegis Group",
+      "tier": null
+    },
+    {
+      "name": "Randstad",
+      "aliases": [
+        "Randstad NV"
+      ],
+      "wiki": "Randstad NV",
+      "tier": null
+    },
+    {
+      "name": "Adecco",
+      "wiki": "Adecco",
+      "tier": null
+    },
+    {
+      "name": "Kforce",
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Ryan LLC",
+      "aliases": [
+        "Ryan Tax"
+      ],
+      "wiki": "Ryan LLC",
+      "tier": null
+    },
+    {
+      "name": "Hitachi Consulting",
+      "wiki": "Hitachi Consulting",
+      "tier": null
+    },
+    {
+      "name": "Credera",
+      "aliases": [
+        "Credera Consulting"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Pariveda Solutions",
+      "aliases": [
+        "Pariveda"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Sendero Consulting",
+      "aliases": [
+        "Sendero"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Weaver",
+      "aliases": [
+        "Weaver and Tidwell",
+        "Weaver accounting"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Whitley Penn",
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Citigroup",
+      "aliases": [
+        "Citi",
+        "Citibank"
+      ],
+      "wiki": "Citigroup",
+      "tier": null
+    },
+    {
+      "name": "Wells Fargo",
+      "wiki": "Wells Fargo",
+      "tier": null
+    },
+    {
+      "name": "Morgan Stanley",
+      "aliases": [
+        "E-Trade"
+      ],
+      "wiki": "Morgan Stanley",
+      "tier": null
+    },
+    {
+      "name": "Charles Schwab",
+      "aliases": [
+        "Schwab",
+        "TD Ameritrade",
+        "Charles Schwab Corporation"
+      ],
+      "wiki": "Charles Schwab Corporation",
+      "tier": null
+    },
+    {
+      "name": "Fidelity Investments",
+      "aliases": [
+        "Fidelity"
+      ],
+      "wiki": "Fidelity Investments",
+      "tier": null
+    },
+    {
+      "name": "Vanguard",
+      "aliases": [
+        "Vanguard Group",
+        "The Vanguard Group"
+      ],
+      "wiki": "The Vanguard Group",
+      "tier": null
+    },
+    {
+      "name": "BlackRock",
+      "wiki": "BlackRock",
+      "tier": null
+    },
+    {
+      "name": "State Street",
+      "aliases": [
+        "State Street Corporation"
+      ],
+      "wiki": "State Street Corporation",
+      "tier": null
+    },
+    {
+      "name": "BNY",
+      "aliases": [
+        "BNY Mellon",
+        "Bank of New York Mellon"
+      ],
+      "wiki": "BNY",
+      "tier": null
+    },
+    {
+      "name": "Capital One",
+      "aliases": [
+        "Capital One Financial"
+      ],
+      "wiki": "Capital One",
+      "tier": null
+    },
+    {
+      "name": "U.S. Bank",
+      "aliases": [
+        "U.S. Bancorp"
+      ],
+      "wiki": "U.S. Bancorp",
+      "tier": null
+    },
+    {
+      "name": "PNC",
+      "aliases": [
+        "PNC Bank",
+        "PNC Financial Services",
+        "PNC Financial Services Group"
+      ],
+      "wiki": "PNC Financial Services",
+      "tier": null
+    },
+    {
+      "name": "Truist",
+      "aliases": [
+        "BB&T",
+        "SunTrust",
+        "Truist Financial"
+      ],
+      "wiki": "Truist",
+      "tier": null
+    },
+    {
+      "name": "TD Bank",
+      "wiki": "TD Bank (United States)",
+      "tier": null
+    },
+    {
+      "name": "HSBC",
+      "wiki": "HSBC",
+      "tier": null
+    },
+    {
+      "name": "Barclays",
+      "wiki": "Barclays",
+      "tier": null
+    },
+    {
+      "name": "UBS",
+      "wiki": "UBS",
+      "tier": null
+    },
+    {
+      "name": "Deutsche Bank",
+      "wiki": "Deutsche Bank",
+      "tier": null
+    },
+    {
+      "name": "BBVA",
+      "aliases": [
+        "Banco Bilbao Vizcaya Argentaria"
+      ],
+      "wiki": "Banco Bilbao Vizcaya Argentaria",
+      "tier": null
+    },
+    {
+      "name": "Frost Bank",
+      "aliases": [
+        "Cullen/Frost Bankers",
+        "Frost"
+      ],
+      "wiki": "Frost Bank",
+      "tier": null
+    },
+    {
+      "name": "Comerica",
+      "wiki": "Comerica",
+      "tier": null
+    },
+    {
+      "name": "Texas Capital Bank",
+      "aliases": [
+        "Texas Capital"
+      ],
+      "wiki": "Texas Capital Bank",
+      "tier": null
+    },
+    {
+      "name": "Prosperity Bank",
+      "aliases": [
+        "Prosperity Bancshares"
+      ],
+      "wiki": "Prosperity Bancshares",
+      "tier": null
+    },
+    {
+      "name": "PlainsCapital Bank",
+      "aliases": [
+        "PlainsCapital",
+        "Hilltop Holdings"
+      ],
+      "wiki": "PlainsCapital Bank",
+      "tier": null
+    },
+    {
+      "name": "Navy Federal Credit Union",
+      "aliases": [
+        "Navy Federal"
+      ],
+      "wiki": "Navy Federal Credit Union",
+      "tier": null
+    },
+    {
+      "name": "Lazard",
+      "wiki": "Lazard",
+      "tier": null
+    },
+    {
+      "name": "Evercore",
+      "wiki": "Evercore",
+      "tier": null
+    },
+    {
+      "name": "Houlihan Lokey",
+      "wiki": "Houlihan Lokey",
+      "tier": null
+    },
+    {
+      "name": "Moelis & Company",
+      "aliases": [
+        "Moelis"
+      ],
+      "wiki": "Moelis & Company",
+      "tier": null
+    },
+    {
+      "name": "Citadel",
+      "aliases": [
+        "Citadel LLC"
+      ],
+      "wiki": "Citadel LLC",
+      "tier": null
+    },
+    {
+      "name": "Two Sigma",
+      "wiki": "Two Sigma",
+      "tier": null
+    },
+    {
+      "name": "Bridgewater Associates",
+      "aliases": [
+        "Bridgewater"
+      ],
+      "wiki": "Bridgewater Associates",
+      "tier": null
+    },
+    {
+      "name": "Jane Street",
+      "aliases": [
+        "Jane Street Capital"
+      ],
+      "wiki": "Jane Street Capital",
+      "tier": null
+    },
+    {
+      "name": "TPG",
+      "aliases": [
+        "TPG Capital",
+        "Texas Pacific Group",
+        "TPG Inc."
+      ],
+      "wiki": "TPG Inc.",
+      "tier": null
+    },
+    {
+      "name": "Bain Capital",
+      "wiki": "Bain Capital",
+      "tier": null
+    },
+    {
+      "name": "The Carlyle Group",
+      "aliases": [
+        "Carlyle",
+        "Carlyle Group"
+      ],
+      "wiki": "The Carlyle Group",
+      "tier": null
+    },
+    {
+      "name": "Mr. Cooper",
+      "aliases": [
+        "Mr. Cooper Group",
+        "Nationstar"
+      ],
+      "wiki": "Mr. Cooper Group",
+      "tier": null
+    },
+    {
+      "name": "Federal Reserve Bank of Dallas",
+      "aliases": [
+        "Dallas Fed"
+      ],
+      "wiki": "Federal Reserve Bank of Dallas",
+      "tier": null
+    },
+    {
+      "name": "Federal Reserve",
+      "aliases": [
+        "The Fed",
+        "Federal Reserve Board"
+      ],
+      "wiki": "Federal Reserve",
+      "tier": null
+    },
+    {
+      "name": "Fisher Investments",
+      "wiki": "Fisher Investments",
+      "tier": null
+    },
+    {
+      "name": "GM Financial",
+      "aliases": [
+        "AmeriCredit"
+      ],
+      "wiki": "GM Financial",
+      "tier": null
+    },
+    {
+      "name": "FirstCash",
+      "aliases": [
+        "Cash America",
+        "FirstCash Holdings"
+      ],
+      "wiki": "FirstCash",
+      "tier": null
+    },
+    {
+      "name": "GEICO",
+      "wiki": "GEICO",
+      "tier": null
+    },
+    {
+      "name": "Chubb",
+      "aliases": [
+        "Chubb Limited"
+      ],
+      "wiki": "Chubb Limited",
+      "tier": null
+    },
+    {
+      "name": "Aetna",
+      "wiki": "Aetna",
+      "tier": null
+    },
+    {
+      "name": "Optum",
+      "wiki": "Optum",
+      "tier": null
+    },
+    {
+      "name": "Blue Cross Blue Shield",
+      "aliases": [
+        "BCBS",
+        "Blue Cross Blue Shield Association"
+      ],
+      "wiki": "Blue Cross Blue Shield Association",
+      "tier": null
+    },
+    {
+      "name": "Health Care Service Corporation",
+      "aliases": [
+        "HCSC",
+        "Blue Cross Blue Shield of Texas"
+      ],
+      "wiki": "Health Care Service Corporation",
+      "tier": null
+    },
+    {
+      "name": "Kaiser Permanente",
+      "aliases": [
+        "Kaiser"
+      ],
+      "wiki": "Kaiser Permanente",
+      "tier": null
+    },
+    {
+      "name": "Globe Life",
+      "aliases": [
+        "Torchmark"
+      ],
+      "wiki": "Globe Life",
+      "tier": null
+    },
+    {
+      "name": "Enterprise Holdings",
+      "aliases": [
+        "Enterprise Rent-A-Car",
+        "Enterprise Mobility"
+      ],
+      "wiki": "Enterprise Holdings",
+      "tier": null
+    },
+    {
+      "name": "Delta Air Lines",
+      "aliases": [
+        "Delta"
+      ],
+      "wiki": "Delta Air Lines",
+      "tier": null
+    },
+    {
+      "name": "United Airlines",
+      "aliases": [
+        "United Airlines Holdings",
+        "United"
+      ],
+      "wiki": "United Airlines",
+      "tier": null
+    },
+    {
+      "name": "Alaska Airlines",
+      "aliases": [
+        "Alaska Air Group",
+        "Alaska Air"
+      ],
+      "wiki": "Alaska Airlines",
+      "tier": null
+    },
+    {
+      "name": "JetBlue",
+      "aliases": [
+        "JetBlue Airways"
+      ],
+      "wiki": "JetBlue",
+      "tier": null
+    },
+    {
+      "name": "Spirit Airlines",
+      "wiki": "Spirit Airlines",
+      "tier": null
+    },
+    {
+      "name": "Frontier Airlines",
+      "wiki": "Frontier Airlines",
+      "tier": null
+    },
+    {
+      "name": "Allegiant Air",
+      "aliases": [
+        "Allegiant"
+      ],
+      "wiki": "Allegiant Air",
+      "tier": null
+    },
+    {
+      "name": "Envoy Air",
+      "aliases": [
+        "American Eagle"
+      ],
+      "wiki": "Envoy Air",
+      "tier": null
+    },
+    {
+      "name": "SkyWest",
+      "aliases": [
+        "SkyWest Airlines"
+      ],
+      "wiki": "SkyWest Airlines",
+      "tier": null
+    },
+    {
+      "name": "BNSF Railway",
+      "aliases": [
+        "BNSF",
+        "Burlington Northern Santa Fe"
+      ],
+      "wiki": "BNSF Railway",
+      "tier": null
+    },
+    {
+      "name": "Union Pacific",
+      "aliases": [
+        "Union Pacific Railroad"
+      ],
+      "wiki": "Union Pacific Railroad",
+      "tier": null
+    },
+    {
+      "name": "DHL",
+      "wiki": "DHL",
+      "tier": null
+    },
+    {
+      "name": "Maersk",
+      "wiki": "Maersk",
+      "tier": null
+    },
+    {
+      "name": "UPS",
+      "aliases": [
+        "United Parcel Service"
+      ],
+      "wiki": "United Parcel Service",
+      "tier": null
+    },
+    {
+      "name": "FedEx",
+      "aliases": [
+        "Federal Express"
+      ],
+      "wiki": "FedEx",
+      "tier": null
+    },
+    {
+      "name": "United States Postal Service",
+      "aliases": [
+        "USPS",
+        "Post Office",
+        "US Postal Service"
+      ],
+      "wiki": "United States Postal Service",
+      "tier": null
+    },
+    {
+      "name": "RTX",
+      "aliases": [
+        "Raytheon",
+        "Raytheon Technologies",
+        "Raytheon Company",
+        "RTX Corporation"
+      ],
+      "wiki": "RTX Corporation",
+      "tier": null
+    },
+    {
+      "name": "Collins Aerospace",
+      "wiki": "Collins Aerospace",
+      "tier": null
+    },
+    {
+      "name": "Pratt & Whitney",
+      "wiki": "Pratt & Whitney",
+      "tier": null
+    },
+    {
+      "name": "Bell Textron",
+      "aliases": [
+        "Bell",
+        "Bell Helicopter"
+      ],
+      "wiki": "Bell Textron",
+      "tier": null
+    },
+    {
+      "name": "BAE Systems",
+      "aliases": [
+        "BAE"
+      ],
+      "wiki": "BAE Systems",
+      "tier": null
+    },
+    {
+      "name": "Anduril",
+      "aliases": [
+        "Anduril Industries"
+      ],
+      "wiki": "Anduril Industries",
+      "tier": null
+    },
+    {
+      "name": "Airbus",
+      "wiki": "Airbus",
+      "tier": null
+    },
+    {
+      "name": "Embraer",
+      "wiki": "Embraer",
+      "tier": null
+    },
+    {
+      "name": "GE Aerospace",
+      "aliases": [
+        "General Electric",
+        "GE"
+      ],
+      "wiki": "GE Aerospace",
+      "tier": null
+    },
+    {
+      "name": "GE Vernova",
+      "wiki": "GE Vernova",
+      "tier": null
+    },
+    {
+      "name": "SpaceX",
+      "aliases": [
+        "Space Exploration Technologies"
+      ],
+      "wiki": "SpaceX",
+      "tier": null
+    },
+    {
+      "name": "Blue Origin",
+      "wiki": "Blue Origin",
+      "tier": null
+    },
+    {
+      "name": "Elbit Systems",
+      "aliases": [
+        "Elbit"
+      ],
+      "wiki": "Elbit Systems",
+      "tier": null
+    },
+    {
+      "name": "ExxonMobil",
+      "aliases": [
+        "Exxon",
+        "Mobil"
+      ],
+      "wiki": "ExxonMobil",
+      "tier": null
+    },
+    {
+      "name": "Chevron",
+      "aliases": [
+        "Chevron Corp",
+        "Chevron Corporation"
+      ],
+      "wiki": "Chevron Corporation",
+      "tier": null
+    },
+    {
+      "name": "Shell",
+      "aliases": [
+        "Royal Dutch Shell",
+        "Shell USA",
+        "Shell Oil",
+        "Shell plc"
+      ],
+      "wiki": "Shell plc",
+      "tier": null
+    },
+    {
+      "name": "BP",
+      "aliases": [
+        "British Petroleum"
+      ],
+      "wiki": "BP",
+      "tier": null
+    },
+    {
+      "name": "TotalEnergies",
+      "wiki": "TotalEnergies",
+      "tier": null
+    },
+    {
+      "name": "SLB",
+      "aliases": [
+        "Schlumberger"
+      ],
+      "wiki": "SLB",
+      "tier": null
+    },
+    {
+      "name": "XTO Energy",
+      "aliases": [
+        "XTO"
+      ],
+      "wiki": "XTO Energy",
+      "tier": null
+    },
+    {
+      "name": "Atmos Energy",
+      "aliases": [
+        "Atmos"
+      ],
+      "wiki": "Atmos Energy",
+      "tier": null
+    },
+    {
+      "name": "Oncor",
+      "aliases": [
+        "Oncor Electric Delivery"
+      ],
+      "wiki": "Oncor Electric Delivery",
+      "tier": null
+    },
+    {
+      "name": "Vistra",
+      "aliases": [
+        "Vistra Corp",
+        "Vistra Energy",
+        "TXU Energy",
+        "TXU"
+      ],
+      "wiki": "Vistra Corp.",
+      "tier": null
+    },
+    {
+      "name": "NRG Energy",
+      "aliases": [
+        "NRG",
+        "Reliant Energy"
+      ],
+      "wiki": "NRG Energy",
+      "tier": null
+    },
+    {
+      "name": "ERCOT",
+      "aliases": [
+        "Electric Reliability Council of Texas"
+      ],
+      "wiki": "Electric Reliability Council of Texas",
+      "tier": null
+    },
+    {
+      "name": "Hunt Oil Company",
+      "aliases": [
+        "Hunt Oil"
+      ],
+      "wiki": "Hunt Oil Company",
+      "tier": null
+    },
+    {
+      "name": "Kosmos Energy",
+      "aliases": [
+        "Kosmos"
+      ],
+      "wiki": "Kosmos Energy",
+      "tier": null
+    },
+    {
+      "name": "Matador Resources",
+      "aliases": [
+        "Matador"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Sunoco",
+      "wiki": "Sunoco",
+      "tier": null
+    },
+    {
+      "name": "Expand Energy",
+      "aliases": [
+        "Chesapeake Energy",
+        "Chesapeake"
+      ],
+      "wiki": "Expand Energy",
+      "tier": null
+    },
+    {
+      "name": "Coterra Energy",
+      "aliases": [
+        "Coterra"
+      ],
+      "wiki": "Coterra",
+      "tier": null
+    },
+    {
+      "name": "Citgo",
+      "wiki": "Citgo",
+      "tier": null
+    },
+    {
+      "name": "Baylor Scott & White Health",
+      "aliases": [
+        "Baylor Scott and White",
+        "BSW"
+      ],
+      "wiki": "Baylor Scott & White Health",
+      "tier": null
+    },
+    {
+      "name": "Texas Health Resources",
+      "aliases": [
+        "Texas Health",
+        "THR"
+      ],
+      "wiki": "Texas Health Resources",
+      "tier": null
+    },
+    {
+      "name": "Cook Children's",
+      "aliases": [
+        "Cook Children's Medical Center"
+      ],
+      "wiki": "Cook Children's Medical Center",
+      "tier": null
+    },
+    {
+      "name": "JPS Health Network",
+      "aliases": [
+        "JPS",
+        "John Peter Smith Hospital",
+        "JPS Hospital"
+      ],
+      "wiki": "John Peter Smith Hospital",
+      "tier": null
+    },
+    {
+      "name": "UT Southwestern Medical Center",
+      "aliases": [
+        "UT Southwestern",
+        "UTSW",
+        "University of Texas Southwestern Medical Center"
+      ],
+      "wiki": "University of Texas Southwestern Medical Center",
+      "tier": null
+    },
+    {
+      "name": "Parkland Health",
+      "aliases": [
+        "Parkland",
+        "Parkland Memorial Hospital",
+        "Parkland Hospital"
+      ],
+      "wiki": "Parkland Memorial Hospital",
+      "tier": null
+    },
+    {
+      "name": "Children's Health",
+      "aliases": [
+        "Children's Medical Center Dallas",
+        "Childrens Health Dallas"
+      ],
+      "wiki": "Children's Medical Center Dallas",
+      "tier": null
+    },
+    {
+      "name": "Methodist Health System",
+      "aliases": [
+        "Methodist Dallas",
+        "Methodist Health System Dallas"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Medical City Healthcare",
+      "aliases": [
+        "Medical City",
+        "Medical City Dallas"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Christus Health",
+      "aliases": [
+        "Christus"
+      ],
+      "wiki": "Christus Health",
+      "tier": null
+    },
+    {
+      "name": "Memorial Hermann",
+      "aliases": [
+        "Memorial Hermann Health System"
+      ],
+      "wiki": "Memorial Hermann Health System",
+      "tier": null
+    },
+    {
+      "name": "Houston Methodist",
+      "aliases": [
+        "Houston Methodist Hospital"
+      ],
+      "wiki": "Houston Methodist Hospital",
+      "tier": null
+    },
+    {
+      "name": "MD Anderson Cancer Center",
+      "aliases": [
+        "MD Anderson"
+      ],
+      "wiki": "MD Anderson Cancer Center",
+      "tier": null
+    },
+    {
+      "name": "Mayo Clinic",
+      "aliases": [
+        "Mayo"
+      ],
+      "wiki": "Mayo Clinic",
+      "tier": null
+    },
+    {
+      "name": "Cleveland Clinic",
+      "wiki": "Cleveland Clinic",
+      "tier": null
+    },
+    {
+      "name": "CommonSpirit Health",
+      "aliases": [
+        "CommonSpirit"
+      ],
+      "wiki": "CommonSpirit Health",
+      "tier": null
+    },
+    {
+      "name": "Ascension",
+      "aliases": [
+        "Ascension Health"
+      ],
+      "wiki": "Ascension (healthcare system)",
+      "tier": null
+    },
+    {
+      "name": "Trinity Health",
+      "wiki": "Trinity Health",
+      "tier": null
+    },
+    {
+      "name": "Johns Hopkins Medicine",
+      "aliases": [
+        "Johns Hopkins Hospital",
+        "Johns Hopkins School of Medicine"
+      ],
+      "wiki": "Johns Hopkins School of Medicine",
+      "tier": null
+    },
+    {
+      "name": "Novartis",
+      "wiki": "Novartis",
+      "tier": null
+    },
+    {
+      "name": "Roche",
+      "aliases": [
+        "Hoffmann-La Roche",
+        "Genentech"
+      ],
+      "wiki": "Roche",
+      "tier": null
+    },
+    {
+      "name": "AstraZeneca",
+      "wiki": "AstraZeneca",
+      "tier": null
+    },
+    {
+      "name": "GSK",
+      "aliases": [
+        "GlaxoSmithKline",
+        "GSK plc"
+      ],
+      "wiki": "GSK plc",
+      "tier": null
+    },
+    {
+      "name": "Sanofi",
+      "wiki": "Sanofi",
+      "tier": null
+    },
+    {
+      "name": "Novo Nordisk",
+      "aliases": [
+        "Novo"
+      ],
+      "wiki": "Novo (company)",
+      "tier": null
+    },
+    {
+      "name": "Bayer",
+      "wiki": "Bayer",
+      "tier": null
+    },
+    {
+      "name": "Medtronic",
+      "wiki": "Medtronic",
+      "tier": null
+    },
+    {
+      "name": "Philips",
+      "aliases": [
+        "Royal Philips"
+      ],
+      "wiki": "Philips",
+      "tier": null
+    },
+    {
+      "name": "Alcon",
+      "wiki": "Alcon",
+      "tier": null
+    },
+    {
+      "name": "Galderma",
+      "wiki": "Galderma",
+      "tier": null
+    },
+    {
+      "name": "Moderna",
+      "wiki": "Moderna",
+      "tier": null
+    },
+    {
+      "name": "Labcorp",
+      "aliases": [
+        "Laboratory Corporation of America",
+        "Labcorp Holdings"
+      ],
+      "wiki": "Labcorp",
+      "tier": null
+    },
+    {
+      "name": "Walgreens",
+      "aliases": [
+        "Walgreens Boots Alliance"
+      ],
+      "wiki": "Walgreens",
+      "tier": null
+    },
+    {
+      "name": "Merck",
+      "aliases": [
+        "Merck & Co",
+        "MSD"
+      ],
+      "wiki": "Merck & Co.",
+      "tier": null
+    },
+    {
+      "name": "Eli Lilly",
+      "aliases": [
+        "Lilly",
+        "Eli Lilly and Company"
+      ],
+      "wiki": "Eli Lilly and Company",
+      "tier": null
+    },
+    {
+      "name": "Cencora",
+      "aliases": [
+        "AmerisourceBergen"
+      ],
+      "wiki": "Cencora",
+      "tier": null
+    },
+    {
+      "name": "Organon",
+      "aliases": [
+        "Organon & Co."
+      ],
+      "wiki": "Organon & Co.",
+      "tier": null
+    },
+    {
+      "name": "AMN Healthcare",
+      "aliases": [
+        "AMN Healthcare Services"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Sam's Club",
+      "wiki": "Sam's Club",
+      "tier": null
+    },
+    {
+      "name": "H-E-B",
+      "wiki": "H-E-B",
+      "tier": null
+    },
+    {
+      "name": "Whole Foods Market",
+      "aliases": [
+        "Whole Foods"
+      ],
+      "wiki": "Whole Foods Market",
+      "tier": null
+    },
+    {
+      "name": "Trader Joe's",
+      "wiki": "Trader Joe's",
+      "tier": null
+    },
+    {
+      "name": "JCPenney",
+      "aliases": [
+        "Penney's"
+      ],
+      "wiki": "JCPenney",
+      "tier": null
+    },
+    {
+      "name": "Neiman Marcus",
+      "wiki": "Neiman Marcus",
+      "tier": null
+    },
+    {
+      "name": "GameStop",
+      "wiki": "GameStop",
+      "tier": null
+    },
+    {
+      "name": "Michaels",
+      "aliases": [
+        "Michaels Stores",
+        "The Michaels Companies"
+      ],
+      "wiki": "The Michaels Companies",
+      "tier": null
+    },
+    {
+      "name": "At Home",
+      "wiki": "At Home (store)",
+      "tier": null
+    },
+    {
+      "name": "Pier 1 Imports",
+      "aliases": [
+        "Pier 1"
+      ],
+      "wiki": "Pier 1 Imports",
+      "tier": null
+    },
+    {
+      "name": "RadioShack",
+      "aliases": [
+        "Tandy"
+      ],
+      "wiki": "RadioShack",
+      "tier": null
+    },
+    {
+      "name": "7-Eleven",
+      "aliases": [
+        "Seven Eleven"
+      ],
+      "wiki": "7-Eleven",
+      "tier": null
+    },
+    {
+      "name": "Buc-ee's",
+      "wiki": "Buc-ee's",
+      "tier": null
+    },
+    {
+      "name": "Whataburger",
+      "wiki": "Whataburger",
+      "tier": null
+    },
+    {
+      "name": "Raising Cane's",
+      "aliases": [
+        "Cane's",
+        "Raising Cane's Chicken Fingers"
+      ],
+      "wiki": "Raising Cane's Chicken Fingers",
+      "tier": null
+    },
+    {
+      "name": "Chick-fil-A",
+      "wiki": "Chick-fil-A",
+      "tier": null
+    },
+    {
+      "name": "In-N-Out Burger",
+      "aliases": [
+        "In-N-Out"
+      ],
+      "wiki": "In-N-Out Burger",
+      "tier": null
+    },
+    {
+      "name": "Yum! Brands",
+      "aliases": [
+        "Yum"
+      ],
+      "wiki": "Yum! Brands",
+      "tier": null
+    },
+    {
+      "name": "Pizza Hut",
+      "wiki": "Pizza Hut",
+      "tier": null
+    },
+    {
+      "name": "Taco Bell",
+      "wiki": "Taco Bell",
+      "tier": null
+    },
+    {
+      "name": "KFC",
+      "aliases": [
+        "Kentucky Fried Chicken"
+      ],
+      "wiki": "KFC",
+      "tier": null
+    },
+    {
+      "name": "Domino's",
+      "aliases": [
+        "Domino's Pizza"
+      ],
+      "wiki": "Domino's",
+      "tier": null
+    },
+    {
+      "name": "Papa John's",
+      "wiki": "Papa John's",
+      "tier": null
+    },
+    {
+      "name": "Wingstop",
+      "wiki": "Wingstop",
+      "tier": null
+    },
+    {
+      "name": "Brinker International",
+      "aliases": [
+        "Chili's",
+        "Brinker"
+      ],
+      "wiki": "Brinker International",
+      "tier": null
+    },
+    {
+      "name": "Dave & Buster's",
+      "wiki": "Dave & Buster's",
+      "tier": null
+    },
+    {
+      "name": "Torchy's Tacos",
+      "aliases": [
+        "Torchy's"
+      ],
+      "wiki": "Torchy's Tacos",
+      "tier": null
+    },
+    {
+      "name": "Dickey's Barbecue Pit",
+      "aliases": [
+        "Dickey's"
+      ],
+      "wiki": "Dickey's Barbecue Pit",
+      "tier": null
+    },
+    {
+      "name": "Taco Cabana",
+      "wiki": "Taco Cabana",
+      "tier": null
+    },
+    {
+      "name": "Topgolf",
+      "wiki": "Topgolf",
+      "tier": null
+    },
+    {
+      "name": "Six Flags",
+      "aliases": [
+        "Six Flags Over Texas"
+      ],
+      "wiki": "Six Flags",
+      "tier": null
+    },
+    {
+      "name": "Cinemark",
+      "aliases": [
+        "Cinemark Holdings",
+        "Cinemark Theatres"
+      ],
+      "wiki": "Cinemark Theatres",
+      "tier": null
+    },
+    {
+      "name": "AMC Theatres",
+      "aliases": [
+        "AMC Entertainment",
+        "AMC Entertainment Holdings"
+      ],
+      "wiki": "AMC Theatres",
+      "tier": null
+    },
+    {
+      "name": "Adidas",
+      "wiki": "Adidas",
+      "tier": null
+    },
+    {
+      "name": "Lululemon",
+      "aliases": [
+        "Lululemon Athletica"
+      ],
+      "wiki": "Lululemon",
+      "tier": null
+    },
+    {
+      "name": "Academy Sports + Outdoors",
+      "aliases": [
+        "Academy Sports",
+        "Academy Sports and Outdoors"
+      ],
+      "wiki": "Academy Sports + Outdoors",
+      "tier": null
+    },
+    {
+      "name": "Bass Pro Shops",
+      "aliases": [
+        "Bass Pro"
+      ],
+      "wiki": "Bass Pro Shops",
+      "tier": null
+    },
+    {
+      "name": "Family Dollar",
+      "wiki": "Family Dollar",
+      "tier": null
+    },
+    {
+      "name": "Sally Beauty",
+      "aliases": [
+        "Sally Beauty Holdings"
+      ],
+      "wiki": "Sally Beauty Holdings",
+      "tier": null
+    },
+    {
+      "name": "Sephora",
+      "wiki": "Sephora",
+      "tier": null
+    },
+    {
+      "name": "Victoria's Secret",
+      "wiki": "Victoria's Secret",
+      "tier": null
+    },
+    {
+      "name": "Mary Kay",
+      "wiki": "Mary Kay",
+      "tier": null
+    },
+    {
+      "name": "Half Price Books",
+      "wiki": "Half Price Books",
+      "tier": null
+    },
+    {
+      "name": "Fossil Group",
+      "aliases": [
+        "Fossil"
+      ],
+      "wiki": "Fossil Group",
+      "tier": null
+    },
+    {
+      "name": "Interstate Batteries",
+      "wiki": "Interstate Batteries",
+      "tier": null
+    },
+    {
+      "name": "Dickies",
+      "aliases": [
+        "Williamson-Dickie"
+      ],
+      "wiki": "Dickies",
+      "tier": null
+    },
+    {
+      "name": "Frito-Lay",
+      "wiki": "Frito-Lay",
+      "tier": null
+    },
+    {
+      "name": "Keurig Dr Pepper",
+      "aliases": [
+        "KDP",
+        "Dr Pepper",
+        "Dr Pepper Snapple Group",
+        "Keurig"
+      ],
+      "wiki": "Keurig Dr Pepper",
+      "tier": null
+    },
+    {
+      "name": "Mars",
+      "aliases": [
+        "Mars Incorporated",
+        "Mars Inc."
+      ],
+      "wiki": "Mars Inc.",
+      "tier": null
+    },
+    {
+      "name": "Nestlé",
+      "wiki": "Nestlé",
+      "tier": null
+    },
+    {
+      "name": "Unilever",
+      "wiki": "Unilever",
+      "tier": null
+    },
+    {
+      "name": "Anheuser-Busch",
+      "aliases": [
+        "Budweiser"
+      ],
+      "wiki": "Anheuser-Busch",
+      "tier": null
+    },
+    {
+      "name": "AB InBev",
+      "aliases": [
+        "Anheuser-Busch InBev"
+      ],
+      "wiki": "AB InBev",
+      "tier": null
+    },
+    {
+      "name": "Blue Bell Creameries",
+      "aliases": [
+        "Blue Bell"
+      ],
+      "wiki": "Blue Bell Creameries",
+      "tier": null
+    },
+    {
+      "name": "Ben E. Keith",
+      "aliases": [
+        "Ben E. Keith Company"
+      ],
+      "wiki": "Ben E. Keith Company",
+      "tier": null
+    },
+    {
+      "name": "Southern Glazer's Wine and Spirits",
+      "aliases": [
+        "Southern Glazer's"
+      ],
+      "wiki": "Southern Glazer's Wine and Spirits",
+      "tier": null
+    },
+    {
+      "name": "McLane Company",
+      "aliases": [
+        "McLane"
+      ],
+      "wiki": "McLane Company",
+      "tier": null
+    },
+    {
+      "name": "US Foods",
+      "aliases": [
+        "US Foods Holding"
+      ],
+      "wiki": "US Foods",
+      "tier": null
+    },
+    {
+      "name": "Levi Strauss & Co.",
+      "aliases": [
+        "Levi's",
+        "Levi Strauss"
+      ],
+      "wiki": "Levi Strauss & Co.",
+      "tier": null
+    },
+    {
+      "name": "McCormick & Company",
+      "aliases": [
+        "McCormick"
+      ],
+      "wiki": "McCormick & Company",
+      "tier": null
+    },
+    {
+      "name": "Petco",
+      "wiki": "Petco",
+      "tier": null
+    },
+    {
+      "name": "Rent-A-Center",
+      "aliases": [
+        "Upbound Group",
+        "Upbound"
+      ],
+      "wiki": "Rent-A-Center",
+      "tier": null
+    },
+    {
+      "name": "Zales",
+      "wiki": "Zales",
+      "tier": null
+    },
+    {
+      "name": "Kubota",
+      "wiki": "Kubota",
+      "tier": null
+    },
+    {
+      "name": "Lennox International",
+      "aliases": [
+        "Lennox"
+      ],
+      "wiki": "Lennox International",
+      "tier": null
+    },
+    {
+      "name": "Omni Hotels & Resorts",
+      "aliases": [
+        "Omni Hotels"
+      ],
+      "wiki": "Omni Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "Rosewood Hotels & Resorts",
+      "aliases": [
+        "Rosewood"
+      ],
+      "wiki": "Rosewood Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "Hyatt",
+      "aliases": [
+        "Hyatt Hotels"
+      ],
+      "wiki": "Hyatt",
+      "tier": null
+    },
+    {
+      "name": "IHG Hotels & Resorts",
+      "aliases": [
+        "IHG",
+        "InterContinental Hotels Group"
+      ],
+      "wiki": "IHG Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "Wyndham Hotels & Resorts",
+      "aliases": [
+        "Wyndham"
+      ],
+      "wiki": "Wyndham Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "Choice Hotels",
+      "wiki": "Choice Hotels",
+      "tier": null
+    },
+    {
+      "name": "Hertz",
+      "aliases": [
+        "Hertz Global Holdings",
+        "Hertz Global"
+      ],
+      "wiki": "Hertz Global Holdings",
+      "tier": null
+    },
+    {
+      "name": "Cargill",
+      "wiki": "Cargill",
+      "tier": null
+    },
+    {
+      "name": "Koch",
+      "aliases": [
+        "Koch Industries",
+        "Koch, Inc."
+      ],
+      "wiki": "Koch, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Bechtel",
+      "wiki": "Bechtel",
+      "tier": null
+    },
+    {
+      "name": "Turner Construction",
+      "wiki": "Turner Construction",
+      "tier": null
+    },
+    {
+      "name": "Kiewit",
+      "aliases": [
+        "Peter Kiewit Sons'",
+        "Kiewit Corporation"
+      ],
+      "wiki": "Kiewit Corporation",
+      "tier": null
+    },
+    {
+      "name": "Meijer",
+      "wiki": "Meijer",
+      "tier": null
+    },
+    {
+      "name": "Wegmans",
+      "wiki": "Wegmans",
+      "tier": null
+    },
+    {
+      "name": "Hy-Vee",
+      "wiki": "Hy-Vee",
+      "tier": null
+    },
+    {
+      "name": "Menards",
+      "wiki": "Menards",
+      "tier": null
+    },
+    {
+      "name": "S. C. Johnson & Son",
+      "aliases": [
+        "SC Johnson"
+      ],
+      "wiki": "S. C. Johnson & Son",
+      "tier": null
+    },
+    {
+      "name": "Love's",
+      "aliases": [
+        "Love's Travel Stops"
+      ],
+      "wiki": "Love's",
+      "tier": null
+    },
+    {
+      "name": "QuikTrip",
+      "wiki": "QuikTrip",
+      "tier": null
+    },
+    {
+      "name": "RaceTrac",
+      "wiki": "RaceTrac",
+      "tier": null
+    },
+    {
+      "name": "Wawa",
+      "wiki": "Wawa (company)",
+      "tier": null
+    },
+    {
+      "name": "Sheetz",
+      "wiki": "Sheetz",
+      "tier": null
+    },
+    {
+      "name": "Pilot Flying J",
+      "aliases": [
+        "Flying J"
+      ],
+      "wiki": "Pilot Flying J",
+      "tier": null
+    },
+    {
+      "name": "Cox Enterprises",
+      "aliases": [
+        "Cox Communications",
+        "Cox"
+      ],
+      "wiki": "Cox Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Hearst",
+      "aliases": [
+        "Hearst Corporation",
+        "Hearst Communications"
+      ],
+      "wiki": "Hearst Communications",
+      "tier": null
+    },
+    {
+      "name": "Medline",
+      "aliases": [
+        "Medline Industries",
+        "Medline Inc."
+      ],
+      "wiki": "Medline Inc.",
+      "tier": null
+    },
+    {
+      "name": "Gordon Food Service",
+      "wiki": "Gordon Food Service",
+      "tier": null
+    },
+    {
+      "name": "Reyes Holdings",
+      "wiki": "Reyes Holdings",
+      "tier": null
+    },
+    {
+      "name": "Allied Universal",
+      "wiki": "Allied Universal",
+      "tier": null
+    },
+    {
+      "name": "Inspire Brands",
+      "wiki": "Inspire Brands",
+      "tier": null
+    },
+    {
+      "name": "Subway",
+      "wiki": "Subway (restaurant)",
+      "tier": null
+    },
+    {
+      "name": "Sodexo",
+      "wiki": "Sodexo",
+      "tier": null
+    },
+    {
+      "name": "Compass Group",
+      "wiki": "Compass Group",
+      "tier": null
+    },
+    {
+      "name": "T-Mobile",
+      "aliases": [
+        "T-Mobile US",
+        "Sprint"
+      ],
+      "wiki": "T-Mobile US",
+      "tier": null
+    },
+    {
+      "name": "Verizon",
+      "aliases": [
+        "Verizon Communications"
+      ],
+      "wiki": "Verizon",
+      "tier": null
+    },
+    {
+      "name": "Comcast",
+      "aliases": [
+        "Xfinity",
+        "NBCUniversal Media"
+      ],
+      "wiki": "Comcast",
+      "tier": null
+    },
+    {
+      "name": "NBCUniversal",
+      "aliases": [
+        "NBC"
+      ],
+      "wiki": "NBCUniversal",
+      "tier": null
+    },
+    {
+      "name": "Charter Communications",
+      "aliases": [
+        "Spectrum"
+      ],
+      "wiki": "Charter Communications",
+      "tier": null
+    },
+    {
+      "name": "DirecTV",
+      "wiki": "DirecTV",
+      "tier": null
+    },
+    {
+      "name": "ESPN",
+      "wiki": "ESPN",
+      "tier": null
+    },
+    {
+      "name": "Disney",
+      "aliases": [
+        "Walt Disney",
+        "Walt Disney Company",
+        "The Walt Disney Company"
+      ],
+      "wiki": "The Walt Disney Company",
+      "tier": null
+    },
+    {
+      "name": "Nexstar Media Group",
+      "aliases": [
+        "Nexstar",
+        "Nexstar Media"
+      ],
+      "wiki": "Nexstar Media Group",
+      "tier": null
+    },
+    {
+      "name": "Crunchyroll",
+      "aliases": [
+        "Crunchyroll, LLC"
+      ],
+      "wiki": "Crunchyroll, LLC",
+      "tier": null
+    },
+    {
+      "name": "Toyota",
+      "aliases": [
+        "Toyota Motor North America",
+        "Toyota North America",
+        "Toyota Motor"
+      ],
+      "wiki": "Toyota",
+      "tier": null
+    },
+    {
+      "name": "Honda",
+      "wiki": "Honda",
+      "tier": null
+    },
+    {
+      "name": "Nissan",
+      "wiki": "Nissan",
+      "tier": null
+    },
+    {
+      "name": "Hyundai",
+      "aliases": [
+        "Hyundai Motor",
+        "Hyundai Motor Company"
+      ],
+      "wiki": "Hyundai Motor Company",
+      "tier": null
+    },
+    {
+      "name": "BMW",
+      "wiki": "BMW",
+      "tier": null
+    },
+    {
+      "name": "Mercedes-Benz Group",
+      "aliases": [
+        "Mercedes-Benz",
+        "Daimler"
+      ],
+      "wiki": "Mercedes-Benz Group",
+      "tier": null
+    },
+    {
+      "name": "Volkswagen Group",
+      "aliases": [
+        "Volkswagen",
+        "VW"
+      ],
+      "wiki": "Volkswagen Group",
+      "tier": null
+    },
+    {
+      "name": "Stellantis",
+      "aliases": [
+        "Chrysler",
+        "Fiat Chrysler"
+      ],
+      "wiki": "Stellantis",
+      "tier": null
+    },
+    {
+      "name": "Peterbilt",
+      "wiki": "Peterbilt",
+      "tier": null
+    },
+    {
+      "name": "Trinity Industries",
+      "wiki": "Trinity Industries",
+      "tier": null
+    },
+    {
+      "name": "KBR",
+      "aliases": [
+        "Kellogg Brown & Root",
+        "KBR, Inc."
+      ],
+      "wiki": "KBR, Inc.",
+      "tier": null
+    },
+    {
+      "name": "CBRE",
+      "aliases": [
+        "CBRE Group"
+      ],
+      "wiki": "CBRE Group",
+      "tier": null
+    },
+    {
+      "name": "JLL",
+      "aliases": [
+        "Jones Lang LaSalle"
+      ],
+      "wiki": "JLL (company)",
+      "tier": null
+    },
+    {
+      "name": "Cushman & Wakefield",
+      "wiki": "Cushman & Wakefield",
+      "tier": null
+    },
+    {
+      "name": "Trammell Crow Company",
+      "aliases": [
+        "Trammell Crow"
+      ],
+      "wiki": "Trammell Crow Company",
+      "tier": null
+    },
+    {
+      "name": "Hillwood",
+      "aliases": [
+        "Hillwood Development",
+        "Hillwood Properties"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Flowserve",
+      "wiki": "Flowserve",
+      "tier": null
+    },
+    {
+      "name": "ABB",
+      "wiki": "ABB",
+      "tier": null
+    },
+    {
+      "name": "Schneider Electric",
+      "wiki": "Schneider Electric",
+      "tier": null
+    },
+    {
+      "name": "Johnson Controls",
+      "wiki": "Johnson Controls",
+      "tier": null
+    },
+    {
+      "name": "Trane Technologies",
+      "aliases": [
+        "Trane"
+      ],
+      "wiki": "Trane Technologies",
+      "tier": null
+    },
+    {
+      "name": "BASF",
+      "wiki": "BASF",
+      "tier": null
+    },
+    {
+      "name": "LyondellBasell",
+      "wiki": "LyondellBasell",
+      "tier": null
+    },
+    {
+      "name": "Acme Brick",
+      "wiki": "Acme Brick",
+      "tier": null
+    },
+    {
+      "name": "Primoris",
+      "aliases": [
+        "Primoris Services",
+        "Primoris Services Corporation"
+      ],
+      "wiki": "Primoris Services Corporation",
+      "tier": null
+    },
+    {
+      "name": "NASA",
+      "aliases": [
+        "National Aeronautics and Space Administration",
+        "Johnson Space Center"
+      ],
+      "wiki": "NASA",
+      "tier": null
+    },
+    {
+      "name": "CIA",
+      "aliases": [
+        "Central Intelligence Agency"
+      ],
+      "wiki": "Central Intelligence Agency",
+      "tier": null
+    },
+    {
+      "name": "FBI",
+      "aliases": [
+        "Federal Bureau of Investigation"
+      ],
+      "wiki": "Federal Bureau of Investigation",
+      "tier": null
+    },
+    {
+      "name": "NSA",
+      "aliases": [
+        "National Security Agency"
+      ],
+      "wiki": "National Security Agency",
+      "tier": null
+    },
+    {
+      "name": "U.S. Air Force",
+      "aliases": [
+        "USAF",
+        "Air Force",
+        "United States Air Force"
+      ],
+      "wiki": "United States Air Force",
+      "tier": null
+    },
+    {
+      "name": "U.S. Army",
+      "aliases": [
+        "Army",
+        "United States Army"
+      ],
+      "wiki": "United States Army",
+      "tier": null
+    },
+    {
+      "name": "U.S. Navy",
+      "aliases": [
+        "Navy",
+        "United States Navy"
+      ],
+      "wiki": "United States Navy",
+      "tier": null
+    },
+    {
+      "name": "U.S. Marine Corps",
+      "aliases": [
+        "Marines",
+        "USMC",
+        "United States Marine Corps"
+      ],
+      "wiki": "United States Marine Corps",
+      "tier": null
+    },
+    {
+      "name": "U.S. Space Force",
+      "aliases": [
+        "Space Force",
+        "USSF",
+        "United States Space Force"
+      ],
+      "wiki": "United States Space Force",
+      "tier": null
+    },
+    {
+      "name": "Department of Defense",
+      "aliases": [
+        "DoD",
+        "Pentagon",
+        "Department of War",
+        "United States Department of Defense"
+      ],
+      "wiki": "United States Department of Defense",
+      "tier": null
+    },
+    {
+      "name": "Department of Homeland Security",
+      "aliases": [
+        "DHS",
+        "United States Department of Homeland Security"
+      ],
+      "wiki": "United States Department of Homeland Security",
+      "tier": null
+    },
+    {
+      "name": "IRS",
+      "aliases": [
+        "Internal Revenue Service"
+      ],
+      "wiki": "Internal Revenue Service",
+      "tier": null
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "aliases": [
+        "VA",
+        "Veterans Affairs",
+        "United States Department of Veterans Affairs"
+      ],
+      "wiki": "United States Department of Veterans Affairs",
+      "tier": null
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "aliases": [
+        "Census Bureau",
+        "United States Census Bureau"
+      ],
+      "wiki": "United States Census Bureau",
+      "tier": null
+    },
+    {
+      "name": "Texas Christian University",
+      "aliases": [
+        "TCU",
+        "TCU IT",
+        "TCU Information Technology"
+      ],
+      "wiki": "Texas Christian University",
+      "tier": null
+    },
+    {
+      "name": "Southern Methodist University",
+      "aliases": [
+        "SMU"
+      ],
+      "wiki": "Southern Methodist University",
+      "tier": null
+    },
+    {
+      "name": "University of Texas at Austin",
+      "aliases": [
+        "UT Austin"
+      ],
+      "wiki": "University of Texas at Austin",
+      "tier": null
+    },
+    {
+      "name": "Dallas Cowboys",
+      "aliases": [
+        "Cowboys"
+      ],
+      "wiki": "Dallas Cowboys",
+      "tier": null
+    },
+    {
+      "name": "Texas Rangers",
+      "aliases": [
+        "Rangers"
+      ],
+      "wiki": "Texas Rangers (baseball)",
+      "tier": null
+    },
+    {
+      "name": "Dallas Mavericks",
+      "aliases": [
+        "Mavericks",
+        "Mavs"
+      ],
+      "wiki": "Dallas Mavericks",
+      "tier": null
+    },
+    {
+      "name": "Dallas Stars",
+      "wiki": "Dallas Stars",
+      "tier": null
+    },
+    {
+      "name": "FC Dallas",
+      "wiki": "FC Dallas",
+      "tier": null
+    },
+    {
+      "name": "Houston Astros",
+      "aliases": [
+        "Astros"
+      ],
+      "wiki": "Houston Astros",
+      "tier": null
+    },
+    {
+      "name": "National Football League",
+      "aliases": [
+        "NFL"
+      ],
+      "wiki": "National Football League",
+      "tier": null
+    },
+    {
+      "name": "Major League Baseball",
+      "aliases": [
+        "MLB"
+      ],
+      "wiki": "Major League Baseball",
+      "tier": null
+    },
+    {
+      "name": "National Basketball Association",
+      "aliases": [
+        "NBA"
+      ],
+      "wiki": "National Basketball Association",
+      "tier": null
+    },
+    {
+      "name": "Dallas Fort Worth International Airport",
+      "aliases": [
+        "DFW Airport",
+        "DFW"
+      ],
+      "wiki": "Dallas Fort Worth International Airport",
+      "tier": null
+    },
+    {
+      "name": "City of Fort Worth",
+      "aliases": [
+        "Fort Worth city government"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "UnitedHealth Group",
+      "aliases": [
+        "UnitedHealth"
+      ],
+      "wiki": "UnitedHealth Group",
+      "tier": null
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "wiki": "Berkshire Hathaway",
+      "tier": null
+    },
+    {
+      "name": "CVS Health",
+      "wiki": "CVS Health",
+      "tier": null
+    },
+    {
+      "name": "McKesson",
+      "wiki": "McKesson",
+      "tier": null
+    },
+    {
+      "name": "Costco",
+      "aliases": [
+        "Costco Wholesale"
+      ],
+      "wiki": "Costco",
+      "tier": null
+    },
+    {
+      "name": "Cardinal Health",
+      "wiki": "Cardinal Health",
+      "tier": null
+    },
+    {
+      "name": "Cigna",
+      "aliases": [
+        "The Cigna Group"
+      ],
+      "wiki": "The Cigna Group",
+      "tier": null
+    },
+    {
+      "name": "Ford",
+      "aliases": [
+        "Ford Motor",
+        "Ford Motor Company"
+      ],
+      "wiki": "Ford Motor Company",
+      "tier": null
+    },
+    {
+      "name": "General Motors",
+      "wiki": "General Motors",
+      "tier": null
+    },
+    {
+      "name": "Elevance Health",
+      "wiki": "Elevance Health",
+      "tier": null
+    },
+    {
+      "name": "Centene",
+      "aliases": [
+        "Centene Corporation"
+      ],
+      "wiki": "Centene Corporation",
+      "tier": null
+    },
+    {
+      "name": "Home Depot",
+      "wiki": "Home Depot",
+      "tier": null
+    },
+    {
+      "name": "Marathon Petroleum",
+      "wiki": "Marathon Petroleum",
+      "tier": null
+    },
+    {
+      "name": "Kroger",
+      "wiki": "Kroger",
+      "tier": null
+    },
+    {
+      "name": "Phillips 66",
+      "wiki": "Phillips 66",
+      "tier": null
+    },
+    {
+      "name": "Fannie Mae",
+      "wiki": "Fannie Mae",
+      "tier": null
+    },
+    {
+      "name": "Valero Energy",
+      "wiki": "Valero Energy",
+      "tier": null
+    },
+    {
+      "name": "Freddie Mac",
+      "wiki": "Freddie Mac",
+      "tier": null
+    },
+    {
+      "name": "Target",
+      "aliases": [
+        "Target Corporation"
+      ],
+      "wiki": "Target Corporation",
+      "tier": null
+    },
+    {
+      "name": "Humana",
+      "wiki": "Humana",
+      "tier": null
+    },
+    {
+      "name": "State Farm",
+      "aliases": [
+        "State Farm Insurance"
+      ],
+      "wiki": "State Farm",
+      "tier": null
+    },
+    {
+      "name": "Johnson & Johnson",
+      "wiki": "Johnson & Johnson",
+      "tier": null
+    },
+    {
+      "name": "Archer Daniels Midland",
+      "wiki": "Archer Daniels Midland",
+      "tier": null
+    },
+    {
+      "name": "PepsiCo",
+      "wiki": "PepsiCo",
+      "tier": null
+    },
+    {
+      "name": "Lowe's",
+      "wiki": "Lowe's",
+      "tier": null
+    },
+    {
+      "name": "Procter & Gamble",
+      "wiki": "Procter & Gamble",
+      "tier": null
+    },
+    {
+      "name": "Energy Transfer",
+      "wiki": "Energy Transfer",
+      "tier": null
+    },
+    {
+      "name": "Boeing",
+      "wiki": "Boeing",
+      "tier": null
+    },
+    {
+      "name": "Albertsons",
+      "wiki": "Albertsons",
+      "tier": null
+    },
+    {
+      "name": "Sysco",
+      "wiki": "Sysco",
+      "tier": null
+    },
+    {
+      "name": "American Express",
+      "wiki": "American Express",
+      "tier": null
+    },
+    {
+      "name": "Caterpillar",
+      "aliases": [
+        "Caterpillar Inc."
+      ],
+      "wiki": "Caterpillar Inc.",
+      "tier": null
+    },
+    {
+      "name": "MetLife",
+      "wiki": "MetLife",
+      "tier": null
+    },
+    {
+      "name": "HCA Healthcare",
+      "wiki": "HCA Healthcare",
+      "tier": null
+    },
+    {
+      "name": "Progressive",
+      "aliases": [
+        "The Progressive Corporation",
+        "Progressive Corporation"
+      ],
+      "wiki": "Progressive Corporation",
+      "tier": null
+    },
+    {
+      "name": "John Deere",
+      "aliases": [
+        "Deere"
+      ],
+      "wiki": "John Deere",
+      "tier": null
+    },
+    {
+      "name": "StoneX Group",
+      "aliases": [
+        "StoneX",
+        "StoneX Group Inc."
+      ],
+      "wiki": "StoneX Group Inc.",
+      "tier": null
+    },
+    {
+      "name": "ConocoPhillips",
+      "wiki": "ConocoPhillips",
+      "tier": null
+    },
+    {
+      "name": "Pfizer",
+      "wiki": "Pfizer",
+      "tier": null
+    },
+    {
+      "name": "TD Synnex",
+      "wiki": "TD Synnex",
+      "tier": null
+    },
+    {
+      "name": "Publix",
+      "aliases": [
+        "Publix Super Markets"
+      ],
+      "wiki": "Publix",
+      "tier": null
+    },
+    {
+      "name": "Allstate",
+      "wiki": "Allstate",
+      "tier": null
+    },
+    {
+      "name": "Cisco",
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "wiki": "Cisco",
+      "tier": null
+    },
+    {
+      "name": "Nationwide",
+      "aliases": [
+        "Nationwide Mutual Insurance Company"
+      ],
+      "wiki": "Nationwide Mutual Insurance Company",
+      "tier": null
+    },
+    {
+      "name": "AbbVie",
+      "wiki": "AbbVie",
+      "tier": null
+    },
+    {
+      "name": "New York Life Insurance",
+      "aliases": [
+        "New York Life Insurance Company"
+      ],
+      "wiki": "New York Life Insurance Company",
+      "tier": null
+    },
+    {
+      "name": "Intel",
+      "wiki": "Intel",
+      "tier": null
+    },
+    {
+      "name": "TJX",
+      "wiki": "TJX",
+      "tier": null
+    },
+    {
+      "name": "Prudential Financial",
+      "wiki": "Prudential Financial",
+      "tier": null
+    },
+    {
+      "name": "HP",
+      "aliases": [
+        "HP Inc."
+      ],
+      "wiki": "HP Inc.",
+      "tier": null
+    },
+    {
+      "name": "Performance Food Group",
+      "aliases": [
+        "Performance Food"
+      ],
+      "wiki": "Performance Food Group",
+      "tier": null
+    },
+    {
+      "name": "Tyson Foods",
+      "wiki": "Tyson Foods",
+      "tier": null
+    },
+    {
+      "name": "Liberty Mutual",
+      "aliases": [
+        "Liberty Mutual Insurance Group",
+        "Liberty Mutual Insurance"
+      ],
+      "wiki": "Liberty Mutual",
+      "tier": null
+    },
+    {
+      "name": "Nike",
+      "aliases": [
+        "Nike, Inc."
+      ],
+      "wiki": "Nike, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Enterprise Products Partners",
+      "aliases": [
+        "Enterprise Products"
+      ],
+      "wiki": "Enterprise Products",
+      "tier": null
+    },
+    {
+      "name": "Plains All American",
+      "aliases": [
+        "Plains GP Holdings",
+        "Plains GP",
+        "Plains All American Pipeline"
+      ],
+      "wiki": "Plains All American Pipeline",
+      "tier": null
+    },
+    {
+      "name": "World Kinect",
+      "aliases": [
+        "World Kinect Corporation"
+      ],
+      "wiki": "World Kinect Corporation",
+      "tier": null
+    },
+    {
+      "name": "AIG",
+      "aliases": [
+        "American International Group"
+      ],
+      "wiki": "American International Group",
+      "tier": null
+    },
+    {
+      "name": "Coca-Cola",
+      "aliases": [
+        "The Coca-Cola Company"
+      ],
+      "wiki": "The Coca-Cola Company",
+      "tier": null
+    },
+    {
+      "name": "TIAA",
+      "wiki": "TIAA",
+      "tier": null
+    },
+    {
+      "name": "CHS",
+      "aliases": [
+        "CHS Inc."
+      ],
+      "wiki": "CHS Inc.",
+      "tier": null
+    },
+    {
+      "name": "Bristol-Myers Squibb",
+      "wiki": "Bristol Myers Squibb",
+      "tier": null
+    },
+    {
+      "name": "Dow",
+      "aliases": [
+        "Dow Chemical Company"
+      ],
+      "wiki": "Dow Chemical Company",
+      "tier": null
+    },
+    {
+      "name": "Best Buy",
+      "wiki": "Best Buy",
+      "tier": null
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "wiki": "Thermo Fisher Scientific",
+      "tier": null
+    },
+    {
+      "name": "MassMutual",
+      "aliases": [
+        "Massachusetts Mutual Life Insurance"
+      ],
+      "wiki": "MassMutual",
+      "tier": null
+    },
+    {
+      "name": "USAA",
+      "wiki": "USAA",
+      "tier": null
+    },
+    {
+      "name": "General Dynamics",
+      "wiki": "General Dynamics",
+      "tier": null
+    },
+    {
+      "name": "Travelers",
+      "aliases": [
+        "The Travelers Companies"
+      ],
+      "wiki": "The Travelers Companies",
+      "tier": null
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "wiki": "Warner Bros. Discovery",
+      "tier": null
+    },
+    {
+      "name": "Abbott Laboratories",
+      "wiki": "Abbott Laboratories",
+      "tier": null
+    },
+    {
+      "name": "Northrop Grumman",
+      "wiki": "Northrop Grumman",
+      "tier": null
+    },
+    {
+      "name": "Northwestern Mutual",
+      "wiki": "Northwestern Mutual",
+      "tier": null
+    },
+    {
+      "name": "Dollar General",
+      "wiki": "Dollar General",
+      "tier": null
+    },
+    {
+      "name": "PBF Energy",
+      "wiki": "PBF Energy",
+      "tier": null
+    },
+    {
+      "name": "Uber",
+      "aliases": [
+        "Uber Technologies"
+      ],
+      "wiki": "Uber",
+      "tier": null
+    },
+    {
+      "name": "Honeywell",
+      "aliases": [
+        "Honeywell International"
+      ],
+      "wiki": "Honeywell",
+      "tier": null
+    },
+    {
+      "name": "Mondelez International",
+      "wiki": "Mondelez International",
+      "tier": null
+    },
+    {
+      "name": "Starbucks",
+      "wiki": "Starbucks",
+      "tier": null
+    },
+    {
+      "name": "Qualcomm",
+      "wiki": "Qualcomm",
+      "tier": null
+    },
+    {
+      "name": "Broadcom",
+      "wiki": "Broadcom",
+      "tier": null
+    },
+    {
+      "name": "D.R. Horton",
+      "wiki": "D. R. Horton",
+      "tier": null
+    },
+    {
+      "name": "Philip Morris International",
+      "wiki": "Philip Morris International",
+      "tier": null
+    },
+    {
+      "name": "Paccar",
+      "wiki": "Paccar",
+      "tier": null
+    },
+    {
+      "name": "Nucor",
+      "wiki": "Nucor",
+      "tier": null
+    },
+    {
+      "name": "Jabil",
+      "wiki": "Jabil",
+      "tier": null
+    },
+    {
+      "name": "Lennar",
+      "wiki": "Lennar",
+      "tier": null
+    },
+    {
+      "name": "Molina Healthcare",
+      "wiki": "Molina Healthcare",
+      "tier": null
+    },
+    {
+      "name": "Cummins",
+      "wiki": "Cummins",
+      "tier": null
+    },
+    {
+      "name": "Netflix",
+      "aliases": [
+        "Netflix, Inc."
+      ],
+      "wiki": "Netflix, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Arrow Electronics",
+      "wiki": "Arrow Electronics",
+      "tier": null
+    },
+    {
+      "name": "3M",
+      "wiki": "3M",
+      "tier": null
+    },
+    {
+      "name": "Visa",
+      "aliases": [
+        "Visa Inc."
+      ],
+      "wiki": "Visa Inc.",
+      "tier": null
+    },
+    {
+      "name": "Apollo Global Management",
+      "wiki": "Apollo Global Management",
+      "tier": null
+    },
+    {
+      "name": "HF Sinclair",
+      "wiki": "HF Sinclair",
+      "tier": null
+    },
+    {
+      "name": "Lithia Motors",
+      "wiki": "Lithia Motors",
+      "tier": null
+    },
+    {
+      "name": "CarMax",
+      "wiki": "CarMax",
+      "tier": null
+    },
+    {
+      "name": "Paramount",
+      "aliases": [
+        "Paramount Global",
+        "Skydance"
+      ],
+      "wiki": "Skydance",
+      "tier": null
+    },
+    {
+      "name": "Dollar Tree",
+      "wiki": "Dollar Tree",
+      "tier": null
+    },
+    {
+      "name": "United Natural Foods",
+      "wiki": "United Natural Foods",
+      "tier": null
+    },
+    {
+      "name": "PayPal",
+      "aliases": [
+        "PayPal Holdings"
+      ],
+      "wiki": "PayPal",
+      "tier": null
+    },
+    {
+      "name": "Penske Automotive Group",
+      "aliases": [
+        "Penske Automotive"
+      ],
+      "wiki": "Penske Automotive Group",
+      "tier": null
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "wiki": "Hewlett Packard Enterprise",
+      "tier": null
+    },
+    {
+      "name": "Duke Energy",
+      "wiki": "Duke Energy",
+      "tier": null
+    },
+    {
+      "name": "Occidental Petroleum",
+      "wiki": "Occidental Petroleum",
+      "tier": null
+    },
+    {
+      "name": "Amgen",
+      "wiki": "Amgen",
+      "tier": null
+    },
+    {
+      "name": "NextEra Energy",
+      "wiki": "NextEra Energy",
+      "tier": null
+    },
+    {
+      "name": "Danaher",
+      "aliases": [
+        "Danaher Corporation"
+      ],
+      "wiki": "Danaher Corporation",
+      "tier": null
+    },
+    {
+      "name": "Gilead Sciences",
+      "wiki": "Gilead Sciences",
+      "tier": null
+    },
+    {
+      "name": "AutoNation",
+      "wiki": "AutoNation",
+      "tier": null
+    },
+    {
+      "name": "Kraft Heinz",
+      "wiki": "Kraft Heinz",
+      "tier": null
+    },
+    {
+      "name": "Avnet",
+      "wiki": "Avnet",
+      "tier": null
+    },
+    {
+      "name": "Applied Materials",
+      "wiki": "Applied Materials",
+      "tier": null
+    },
+    {
+      "name": "Baker Hughes",
+      "wiki": "Baker Hughes",
+      "tier": null
+    },
+    {
+      "name": "McDonald's",
+      "wiki": "McDonald's",
+      "tier": null
+    },
+    {
+      "name": "Southern Company",
+      "wiki": "Southern Company",
+      "tier": null
+    },
+    {
+      "name": "Mastercard",
+      "wiki": "Mastercard",
+      "tier": null
+    },
+    {
+      "name": "Constellation Energy",
+      "wiki": "Constellation Energy",
+      "tier": null
+    },
+    {
+      "name": "The Hartford",
+      "aliases": [
+        "Hartford Financial Services Group",
+        "Hartford Financial Services"
+      ],
+      "wiki": "The Hartford",
+      "tier": null
+    },
+    {
+      "name": "PG&E",
+      "aliases": [
+        "Pacific Gas and Electric Company"
+      ],
+      "wiki": "Pacific Gas and Electric Company",
+      "tier": null
+    },
+    {
+      "name": "Coupang",
+      "wiki": "Coupang",
+      "tier": null
+    },
+    {
+      "name": "EOG Resources",
+      "wiki": "EOG Resources",
+      "tier": null
+    },
+    {
+      "name": "Macy's",
+      "wiki": "Macy's",
+      "tier": null
+    },
+    {
+      "name": "Marriott International",
+      "wiki": "Marriott International",
+      "tier": null
+    },
+    {
+      "name": "Lear",
+      "aliases": [
+        "Lear Corporation"
+      ],
+      "wiki": "Lear Corporation",
+      "tier": null
+    },
+    {
+      "name": "Genuine Parts",
+      "aliases": [
+        "Genuine Parts Company"
+      ],
+      "wiki": "Genuine Parts Company",
+      "tier": null
+    },
+    {
+      "name": "Sherwin-Williams",
+      "wiki": "Sherwin-Williams",
+      "tier": null
+    },
+    {
+      "name": "Halliburton",
+      "wiki": "Halliburton",
+      "tier": null
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "wiki": "Freeport-McMoRan",
+      "tier": null
+    },
+    {
+      "name": "Live Nation Entertainment",
+      "wiki": "Live Nation Entertainment",
+      "tier": null
+    },
+    {
+      "name": "AMD",
+      "aliases": [
+        "Advanced Micro Devices"
+      ],
+      "wiki": "AMD",
+      "tier": null
+    },
+    {
+      "name": "First Citizens BancShares",
+      "wiki": "First Citizens BancShares",
+      "tier": null
+    },
+    {
+      "name": "WESCO International",
+      "wiki": "WESCO International",
+      "tier": null
+    },
+    {
+      "name": "Carrier Global",
+      "wiki": "Carrier Global",
+      "tier": null
+    },
+    {
+      "name": "Cleveland-Cliffs",
+      "wiki": "Cleveland-Cliffs",
+      "tier": null
+    },
+    {
+      "name": "Block",
+      "aliases": [
+        "Block, Inc."
+      ],
+      "wiki": "Block, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Exelon",
+      "wiki": "Exelon",
+      "tier": null
+    },
+    {
+      "name": "KKR",
+      "aliases": [
+        "KKR & Co."
+      ],
+      "wiki": "KKR & Co.",
+      "tier": null
+    },
+    {
+      "name": "CDW",
+      "wiki": "CDW",
+      "tier": null
+    },
+    {
+      "name": "Booking Holdings",
+      "aliases": [
+        "Booking"
+      ],
+      "wiki": "Booking Holdings",
+      "tier": null
+    },
+    {
+      "name": "Synchrony",
+      "aliases": [
+        "Synchrony Financial"
+      ],
+      "wiki": "Synchrony Financial",
+      "tier": null
+    },
+    {
+      "name": "Quanta Services",
+      "wiki": "Quanta Services",
+      "tier": null
+    },
+    {
+      "name": "Discover",
+      "aliases": [
+        "Discover Financial Services",
+        "Discover Financial"
+      ],
+      "wiki": "Discover Financial",
+      "tier": null
+    },
+    {
+      "name": "Tenet Healthcare",
+      "wiki": "Tenet Healthcare",
+      "tier": null
+    },
+    {
+      "name": "Altria",
+      "aliases": [
+        "Altria Group"
+      ],
+      "wiki": "Altria",
+      "tier": null
+    },
+    {
+      "name": "Stryker",
+      "aliases": [
+        "Stryker Corporation"
+      ],
+      "wiki": "Stryker Corporation",
+      "tier": null
+    },
+    {
+      "name": "Kimberly-Clark",
+      "wiki": "Kimberly-Clark",
+      "tier": null
+    },
+    {
+      "name": "Waste Management",
+      "aliases": [
+        "Waste Management, Inc."
+      ],
+      "wiki": "Waste Management, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Cheniere Energy",
+      "wiki": "Cheniere Energy",
+      "tier": null
+    },
+    {
+      "name": "Ross Stores",
+      "wiki": "Ross Stores",
+      "tier": null
+    },
+    {
+      "name": "General Mills",
+      "wiki": "General Mills",
+      "tier": null
+    },
+    {
+      "name": "Goodyear Tire & Rubber",
+      "aliases": [
+        "Goodyear Tire and Rubber Company"
+      ],
+      "wiki": "Goodyear Tire and Rubber Company",
+      "tier": null
+    },
+    {
+      "name": "BJ's Wholesale Club",
+      "wiki": "BJ's Wholesale Club",
+      "tier": null
+    },
+    {
+      "name": "GE HealthCare Technologies",
+      "aliases": [
+        "GE HealthCare"
+      ],
+      "wiki": "GE HealthCare",
+      "tier": null
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "wiki": "Colgate-Palmolive",
+      "tier": null
+    },
+    {
+      "name": "Whirlpool",
+      "aliases": [
+        "Whirlpool Corporation"
+      ],
+      "wiki": "Whirlpool Corporation",
+      "tier": null
+    },
+    {
+      "name": "L3Harris Technologies",
+      "aliases": [
+        "L3Harris"
+      ],
+      "wiki": "L3Harris",
+      "tier": null
+    },
+    {
+      "name": "Adobe",
+      "aliases": [
+        "Adobe Inc."
+      ],
+      "wiki": "Adobe Inc.",
+      "tier": null
+    },
+    {
+      "name": "Becton Dickinson",
+      "aliases": [
+        "BD"
+      ],
+      "wiki": "BD (company)",
+      "tier": null
+    },
+    {
+      "name": "Cognizant",
+      "aliases": [
+        "Cognizant Technology Solutions"
+      ],
+      "wiki": "Cognizant",
+      "tier": null
+    },
+    {
+      "name": "Murphy USA",
+      "wiki": "Murphy USA",
+      "tier": null
+    },
+    {
+      "name": "Fiserv",
+      "wiki": "Fiserv",
+      "tier": null
+    },
+    {
+      "name": "Parker-Hannifin",
+      "wiki": "Parker Hannifin",
+      "tier": null
+    },
+    {
+      "name": "American Electric Power",
+      "wiki": "American Electric Power",
+      "tier": null
+    },
+    {
+      "name": "International Paper",
+      "wiki": "International Paper",
+      "tier": null
+    },
+    {
+      "name": "ManpowerGroup",
+      "wiki": "ManpowerGroup",
+      "tier": null
+    },
+    {
+      "name": "Aramark",
+      "wiki": "Aramark",
+      "tier": null
+    },
+    {
+      "name": "Steel Dynamics",
+      "wiki": "Steel Dynamics",
+      "tier": null
+    },
+    {
+      "name": "Aflac",
+      "wiki": "Aflac",
+      "tier": null
+    },
+    {
+      "name": "Reinsurance Group of America",
+      "wiki": "Reinsurance Group of America",
+      "tier": null
+    },
+    {
+      "name": "Emerson Electric",
+      "wiki": "Emerson Electric",
+      "tier": null
+    },
+    {
+      "name": "PPG Industries",
+      "wiki": "PPG Industries",
+      "tier": null
+    },
+    {
+      "name": "U.S. Steel",
+      "aliases": [
+        "United States Steel"
+      ],
+      "wiki": "U.S. Steel",
+      "tier": null
+    },
+    {
+      "name": "ADP",
+      "aliases": [
+        "Automatic Data Processing"
+      ],
+      "wiki": "ADP (company)",
+      "tier": null
+    },
+    {
+      "name": "Group 1 Automotive",
+      "wiki": "Group 1 Automotive",
+      "tier": null
+    },
+    {
+      "name": "Dominion Energy",
+      "wiki": "Dominion Energy",
+      "tier": null
+    },
+    {
+      "name": "Oneok",
+      "wiki": "Oneok",
+      "tier": null
+    },
+    {
+      "name": "C.H. Robinson Worldwide",
+      "aliases": [
+        "C. H. Robinson"
+      ],
+      "wiki": "C. H. Robinson",
+      "tier": null
+    },
+    {
+      "name": "Kohl's",
+      "wiki": "Kohl's",
+      "tier": null
+    },
+    {
+      "name": "AutoZone",
+      "wiki": "AutoZone",
+      "tier": null
+    },
+    {
+      "name": "Lam Research",
+      "wiki": "Lam Research",
+      "tier": null
+    },
+    {
+      "name": "Corteva",
+      "wiki": "Corteva",
+      "tier": null
+    },
+    {
+      "name": "Builders FirstSource",
+      "wiki": "Builders FirstSource",
+      "tier": null
+    },
+    {
+      "name": "Kyndryl Holdings",
+      "aliases": [
+        "Kyndryl"
+      ],
+      "wiki": "Kyndryl",
+      "tier": null
+    },
+    {
+      "name": "EchoStar",
+      "wiki": "EchoStar",
+      "tier": null
+    },
+    {
+      "name": "American Family Insurance Group",
+      "aliases": [
+        "American Family Insurance"
+      ],
+      "wiki": "American Family Insurance",
+      "tier": null
+    },
+    {
+      "name": "Delek US Holdings",
+      "aliases": [
+        "Delek US"
+      ],
+      "wiki": "Delek US",
+      "tier": null
+    },
+    {
+      "name": "Land O'Lakes",
+      "wiki": "Land O'Lakes",
+      "tier": null
+    },
+    {
+      "name": "Sempra",
+      "wiki": "Sempra",
+      "tier": null
+    },
+    {
+      "name": "Global Partners",
+      "wiki": "Global Partners",
+      "tier": null
+    },
+    {
+      "name": "W.W. Grainger",
+      "aliases": [
+        "Grainger"
+      ],
+      "wiki": "W. W. Grainger",
+      "tier": null
+    },
+    {
+      "name": "Jacobs Solutions",
+      "wiki": "Jacobs Solutions",
+      "tier": null
+    },
+    {
+      "name": "Edison International",
+      "wiki": "Edison International",
+      "tier": null
+    },
+    {
+      "name": "MGM Resorts International",
+      "wiki": "MGM Resorts International",
+      "tier": null
+    },
+    {
+      "name": "Guardian Life",
+      "aliases": [
+        "Guardian Life Ins. Co. of America",
+        "The Guardian Life Insurance Company of America"
+      ],
+      "wiki": "The Guardian Life Insurance Company of America",
+      "tier": null
+    },
+    {
+      "name": "Illinois Tool Works",
+      "wiki": "Illinois Tool Works",
+      "tier": null
+    },
+    {
+      "name": "Ameriprise Financial",
+      "wiki": "Ameriprise Financial",
+      "tier": null
+    },
+    {
+      "name": "PulteGroup",
+      "wiki": "PulteGroup",
+      "tier": null
+    },
+    {
+      "name": "Targa Resources",
+      "wiki": "Targa Resources",
+      "tier": null
+    },
+    {
+      "name": "Ally Financial",
+      "wiki": "Ally Financial",
+      "tier": null
+    },
+    {
+      "name": "BorgWarner",
+      "wiki": "BorgWarner",
+      "tier": null
+    },
+    {
+      "name": "Estée Lauder",
+      "aliases": [
+        "Estée Lauder Companies"
+      ],
+      "wiki": "Estée Lauder Companies",
+      "tier": null
+    },
+    {
+      "name": "Loews Corporation",
+      "aliases": [
+        "Loews"
+      ],
+      "wiki": "Loews Corporation",
+      "tier": null
+    },
+    {
+      "name": "O'Reilly Automotive",
+      "aliases": [
+        "O'Reilly Auto Parts"
+      ],
+      "wiki": "O'Reilly Auto Parts",
+      "tier": null
+    },
+    {
+      "name": "Markel Group",
+      "aliases": [
+        "Markel"
+      ],
+      "wiki": "Markel Group",
+      "tier": null
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "wiki": "Stanley Black & Decker",
+      "tier": null
+    },
+    {
+      "name": "Micron Technology",
+      "wiki": "Micron Technology",
+      "tier": null
+    },
+    {
+      "name": "Fluor",
+      "aliases": [
+        "Fluor Corporation"
+      ],
+      "wiki": "Fluor Corporation",
+      "tier": null
+    },
+    {
+      "name": "Leidos Holdings",
+      "aliases": [
+        "Leidos"
+      ],
+      "wiki": "Leidos",
+      "tier": null
+    },
+    {
+      "name": "Viatris",
+      "wiki": "Viatris",
+      "tier": null
+    },
+    {
+      "name": "Kinder Morgan",
+      "wiki": "Kinder Morgan",
+      "tier": null
+    },
+    {
+      "name": "Ecolab",
+      "wiki": "Ecolab",
+      "tier": null
+    },
+    {
+      "name": "Baxter International",
+      "wiki": "Baxter International",
+      "tier": null
+    },
+    {
+      "name": "Devon Energy",
+      "wiki": "Devon Energy",
+      "tier": null
+    },
+    {
+      "name": "Kellanova",
+      "wiki": "Kellanova",
+      "tier": null
+    },
+    {
+      "name": "Farmers Insurance",
+      "aliases": [
+        "Farmers Insurance Exchange",
+        "Farmers Insurance Group"
+      ],
+      "wiki": "Farmers Insurance Group",
+      "tier": null
+    },
+    {
+      "name": "Casey's General Stores",
+      "aliases": [
+        "Casey's"
+      ],
+      "wiki": "Casey's",
+      "tier": null
+    },
+    {
+      "name": "IQVIA Holdings",
+      "aliases": [
+        "IQVIA"
+      ],
+      "wiki": "IQVIA",
+      "tier": null
+    },
+    {
+      "name": "Republic Services",
+      "wiki": "Republic Services",
+      "tier": null
+    },
+    {
+      "name": "Fox Corporation",
+      "aliases": [
+        "Fox"
+      ],
+      "wiki": "Fox Corporation",
+      "tier": null
+    },
+    {
+      "name": "Gap Inc.",
+      "aliases": [
+        "Gap"
+      ],
+      "wiki": "Gap Inc.",
+      "tier": null
+    },
+    {
+      "name": "Reliance, Inc.",
+      "wiki": "Reliance, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Asbury Automotive Group",
+      "aliases": [
+        "Asbury Automotive"
+      ],
+      "wiki": "Asbury Automotive Group",
+      "tier": null
+    },
+    {
+      "name": "Pacific Life",
+      "wiki": "Pacific Life",
+      "tier": null
+    },
+    {
+      "name": "Western & Southern Financial Group",
+      "aliases": [
+        "Western & Southern Financial"
+      ],
+      "wiki": "Western & Southern Financial Group",
+      "tier": null
+    },
+    {
+      "name": "The Andersons",
+      "aliases": [
+        "Andersons"
+      ],
+      "wiki": "The Andersons",
+      "tier": null
+    },
+    {
+      "name": "Nordstrom",
+      "wiki": "Nordstrom",
+      "tier": null
+    },
+    {
+      "name": "Omnicom Group",
+      "aliases": [
+        "Omnicom"
+      ],
+      "wiki": "Omnicom Group",
+      "tier": null
+    },
+    {
+      "name": "FIS",
+      "aliases": [
+        "Fidelity National Information Services"
+      ],
+      "wiki": "FIS (company)",
+      "tier": null
+    },
+    {
+      "name": "Consolidated Edison",
+      "wiki": "Consolidated Edison",
+      "tier": null
+    },
+    {
+      "name": "CSX",
+      "aliases": [
+        "CSX Transportation"
+      ],
+      "wiki": "CSX Transportation",
+      "tier": null
+    },
+    {
+      "name": "AECOM",
+      "wiki": "AECOM",
+      "tier": null
+    },
+    {
+      "name": "Lumen Technologies",
+      "wiki": "Lumen Technologies",
+      "tier": null
+    },
+    {
+      "name": "Tractor Supply",
+      "aliases": [
+        "Tractor Supply Company"
+      ],
+      "wiki": "Tractor Supply Company",
+      "tier": null
+    },
+    {
+      "name": "DXC Technology",
+      "wiki": "DXC Technology",
+      "tier": null
+    },
+    {
+      "name": "AGCO",
+      "wiki": "AGCO",
+      "tier": null
+    },
+    {
+      "name": "Sonic Automotive",
+      "wiki": "Sonic Automotive",
+      "tier": null
+    },
+    {
+      "name": "Intuit",
+      "wiki": "Intuit",
+      "tier": null
+    },
+    {
+      "name": "United Rentals",
+      "wiki": "United Rentals",
+      "tier": null
+    },
+    {
+      "name": "Universal Health Services",
+      "wiki": "Universal Health Services",
+      "tier": null
+    },
+    {
+      "name": "Boston Scientific",
+      "wiki": "Boston Scientific",
+      "tier": null
+    },
+    {
+      "name": "Otis Worldwide",
+      "wiki": "Otis Worldwide",
+      "tier": null
+    },
+    {
+      "name": "Xcel Energy",
+      "wiki": "Xcel Energy",
+      "tier": null
+    },
+    {
+      "name": "Edward Jones",
+      "aliases": [
+        "Edward Jones Investments"
+      ],
+      "wiki": "Edward Jones Investments",
+      "tier": null
+    },
+    {
+      "name": "Ball Corporation",
+      "wiki": "Ball Corporation",
+      "tier": null
+    },
+    {
+      "name": "LKQ",
+      "aliases": [
+        "LKQ Corporation"
+      ],
+      "wiki": "LKQ Corporation",
+      "tier": null
+    },
+    {
+      "name": "Mutual of Omaha",
+      "wiki": "Mutual of Omaha",
+      "tier": null
+    },
+    {
+      "name": "Mosaic",
+      "aliases": [
+        "The Mosaic Company"
+      ],
+      "wiki": "The Mosaic Company",
+      "tier": null
+    },
+    {
+      "name": "Textron",
+      "wiki": "Textron",
+      "tier": null
+    },
+    {
+      "name": "Principal Financial",
+      "aliases": [
+        "Principal Financial Group"
+      ],
+      "wiki": "Principal Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Regeneron Pharmaceuticals",
+      "wiki": "Regeneron Pharmaceuticals",
+      "tier": null
+    },
+    {
+      "name": "Raymond James Financial",
+      "wiki": "Raymond James Financial",
+      "tier": null
+    },
+    {
+      "name": "Dick's Sporting Goods",
+      "wiki": "Dick's Sporting Goods",
+      "tier": null
+    },
+    {
+      "name": "Auto-Owners Insurance",
+      "wiki": "Auto-Owners Insurance",
+      "tier": null
+    },
+    {
+      "name": "Expedia Group",
+      "aliases": [
+        "Expedia"
+      ],
+      "wiki": "Expedia Group",
+      "tier": null
+    },
+    {
+      "name": "J.B. Hunt Transport Services",
+      "aliases": [
+        "J. B. Hunt"
+      ],
+      "wiki": "J. B. Hunt",
+      "tier": null
+    },
+    {
+      "name": "M&T Bank",
+      "wiki": "M&T Bank",
+      "tier": null
+    },
+    {
+      "name": "DTE Energy",
+      "wiki": "DTE Energy",
+      "tier": null
+    },
+    {
+      "name": "AES Corporation",
+      "aliases": [
+        "AES"
+      ],
+      "wiki": "AES Corporation",
+      "tier": null
+    },
+    {
+      "name": "Berry Global Group",
+      "aliases": [
+        "Berry Global"
+      ],
+      "wiki": "Berry Global",
+      "tier": null
+    },
+    {
+      "name": "Fifth Third",
+      "aliases": [
+        "Fifth Third Bancorp",
+        "Fifth Third Bank"
+      ],
+      "wiki": "Fifth Third Bank",
+      "tier": null
+    },
+    {
+      "name": "Air Products",
+      "aliases": [
+        "Air Products & Chemicals"
+      ],
+      "wiki": "Air Products",
+      "tier": null
+    },
+    {
+      "name": "Corning",
+      "aliases": [
+        "Corning Inc."
+      ],
+      "wiki": "Corning Inc.",
+      "tier": null
+    },
+    {
+      "name": "EMCOR Group",
+      "aliases": [
+        "EMCOR"
+      ],
+      "wiki": "Emcor",
+      "tier": null
+    },
+    {
+      "name": "Amphenol",
+      "wiki": "Amphenol",
+      "tier": null
+    },
+    {
+      "name": "Westlake Corporation",
+      "wiki": "Westlake Corporation",
+      "tier": null
+    },
+    {
+      "name": "DuPont",
+      "wiki": "DuPont",
+      "tier": null
+    },
+    {
+      "name": "Liberty Media",
+      "wiki": "Liberty Media",
+      "tier": null
+    },
+    {
+      "name": "S&P Global",
+      "wiki": "S&P Global",
+      "tier": null
+    },
+    {
+      "name": "Community Health Systems",
+      "wiki": "Community Health Systems",
+      "tier": null
+    },
+    {
+      "name": "FirstEnergy",
+      "wiki": "FirstEnergy",
+      "tier": null
+    },
+    {
+      "name": "Unum Group",
+      "aliases": [
+        "Unum"
+      ],
+      "wiki": "Unum",
+      "tier": null
+    },
+    {
+      "name": "Henry Schein",
+      "wiki": "Henry Schein",
+      "tier": null
+    },
+    {
+      "name": "Western Digital",
+      "wiki": "Western Digital",
+      "tier": null
+    },
+    {
+      "name": "Analog Devices",
+      "wiki": "Analog Devices",
+      "tier": null
+    },
+    {
+      "name": "Conagra Brands",
+      "wiki": "Conagra Brands",
+      "tier": null
+    },
+    {
+      "name": "Citizens Financial Group",
+      "aliases": [
+        "Citizens Financial"
+      ],
+      "wiki": "Citizens Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Norfolk Southern",
+      "aliases": [
+        "Norfolk Southern Railway"
+      ],
+      "wiki": "Norfolk Southern Railway",
+      "tier": null
+    },
+    {
+      "name": "Entergy",
+      "wiki": "Entergy",
+      "tier": null
+    },
+    {
+      "name": "W.R. Berkley",
+      "aliases": [
+        "W. R. Berkley Corporation"
+      ],
+      "wiki": "W. R. Berkley Corporation",
+      "tier": null
+    },
+    {
+      "name": "DaVita",
+      "wiki": "DaVita",
+      "tier": null
+    },
+    {
+      "name": "Northern Trust",
+      "wiki": "Northern Trust",
+      "tier": null
+    },
+    {
+      "name": "Hormel Foods",
+      "wiki": "Hormel Foods",
+      "tier": null
+    },
+    {
+      "name": "Crown Holdings",
+      "wiki": "Crown Holdings",
+      "tier": null
+    },
+    {
+      "name": "Avis Budget Group",
+      "aliases": [
+        "Avis Budget"
+      ],
+      "wiki": "Avis Budget Group",
+      "tier": null
+    },
+    {
+      "name": "Wayfair",
+      "wiki": "Wayfair",
+      "tier": null
+    },
+    {
+      "name": "MasTec",
+      "wiki": "MasTec",
+      "tier": null
+    },
+    {
+      "name": "Eversource Energy",
+      "wiki": "Eversource Energy",
+      "tier": null
+    },
+    {
+      "name": "Newmont",
+      "wiki": "Newmont",
+      "tier": null
+    },
+    {
+      "name": "Ryder",
+      "aliases": [
+        "Ryder System"
+      ],
+      "wiki": "Ryder",
+      "tier": null
+    },
+    {
+      "name": "Fidelity National Financial",
+      "wiki": "Fidelity National Financial",
+      "tier": null
+    },
+    {
+      "name": "Molson Coors Beverage",
+      "aliases": [
+        "Molson Coors"
+      ],
+      "wiki": "Molson Coors",
+      "tier": null
+    },
+    {
+      "name": "Caesars Entertainment",
+      "wiki": "Caesars Entertainment",
+      "tier": null
+    },
+    {
+      "name": "Lincoln National",
+      "aliases": [
+        "Lincoln National Corporation"
+      ],
+      "wiki": "Lincoln National Corporation",
+      "tier": null
+    },
+    {
+      "name": "VF",
+      "aliases": [
+        "VF Corporation"
+      ],
+      "wiki": "VF Corporation",
+      "tier": null
+    },
+    {
+      "name": "International Flavors & Fragrances",
+      "wiki": "International Flavors & Fragrances",
+      "tier": null
+    },
+    {
+      "name": "Huntington Ingalls Industries",
+      "wiki": "Huntington Ingalls Industries",
+      "tier": null
+    },
+    {
+      "name": "Advance Auto Parts",
+      "wiki": "Advance Auto Parts",
+      "tier": null
+    },
+    {
+      "name": "Public Service Enterprise Group",
+      "aliases": [
+        "Public Service Enterprise"
+      ],
+      "wiki": "Public Service Enterprise Group",
+      "tier": null
+    },
+    {
+      "name": "Ulta Beauty",
+      "wiki": "Ulta Beauty",
+      "tier": null
+    },
+    {
+      "name": "Hershey",
+      "aliases": [
+        "The Hershey Company"
+      ],
+      "wiki": "The Hershey Company",
+      "tier": null
+    },
+    {
+      "name": "Chewy",
+      "wiki": "Chewy (company)",
+      "tier": null
+    },
+    {
+      "name": "American Tower",
+      "wiki": "American Tower",
+      "tier": null
+    },
+    {
+      "name": "Mohawk Industries",
+      "wiki": "Mohawk Industries",
+      "tier": null
+    },
+    {
+      "name": "Assurant",
+      "wiki": "Assurant",
+      "tier": null
+    },
+    {
+      "name": "Thor Industries",
+      "wiki": "Thor Industries",
+      "tier": null
+    },
+    {
+      "name": "Graybar Electric",
+      "aliases": [
+        "Graybar"
+      ],
+      "wiki": "Graybar",
+      "tier": null
+    },
+    {
+      "name": "Yum China Holdings",
+      "aliases": [
+        "Yum China"
+      ],
+      "wiki": "Yum China",
+      "tier": null
+    },
+    {
+      "name": "Celanese",
+      "wiki": "Celanese",
+      "tier": null
+    },
+    {
+      "name": "QVC Group",
+      "aliases": [
+        "Qurate Retail"
+      ],
+      "wiki": "QVC Group",
+      "tier": null
+    },
+    {
+      "name": "Williams Companies",
+      "wiki": "Williams Companies",
+      "tier": null
+    },
+    {
+      "name": "Interpublic Group",
+      "aliases": [
+        "Interpublic",
+        "The Interpublic Group of Companies"
+      ],
+      "wiki": "The Interpublic Group of Companies",
+      "tier": null
+    },
+    {
+      "name": "Ovintiv",
+      "wiki": "Ovintiv",
+      "tier": null
+    },
+    {
+      "name": "Icahn Enterprises",
+      "wiki": "Icahn Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Huntington Bancshares",
+      "wiki": "Huntington Bancshares",
+      "tier": null
+    },
+    {
+      "name": "Erie Insurance Group",
+      "aliases": [
+        "Erie Insurance"
+      ],
+      "wiki": "Erie Insurance Group",
+      "tier": null
+    },
+    {
+      "name": "Carvana",
+      "wiki": "Carvana",
+      "tier": null
+    },
+    {
+      "name": "Dana Incorporated",
+      "aliases": [
+        "Dana"
+      ],
+      "wiki": "Dana Incorporated",
+      "tier": null
+    },
+    {
+      "name": "Alcoa",
+      "wiki": "Alcoa",
+      "tier": null
+    },
+    {
+      "name": "Equitable",
+      "aliases": [
+        "Equitable Holdings"
+      ],
+      "wiki": "Equitable Holdings",
+      "tier": null
+    },
+    {
+      "name": "KLA",
+      "aliases": [
+        "KLA Corporation"
+      ],
+      "wiki": "KLA Corporation",
+      "tier": null
+    },
+    {
+      "name": "Darden Restaurants",
+      "wiki": "Darden Restaurants",
+      "tier": null
+    },
+    {
+      "name": "Autoliv",
+      "wiki": "Autoliv",
+      "tier": null
+    },
+    {
+      "name": "KeyBank",
+      "aliases": [
+        "KeyCorp"
+      ],
+      "wiki": "KeyBank",
+      "tier": null
+    },
+    {
+      "name": "Las Vegas Sands",
+      "wiki": "Las Vegas Sands",
+      "tier": null
+    },
+    {
+      "name": "Owens & Minor",
+      "aliases": [
+        "Accendra Health"
+      ],
+      "wiki": "Accendra Health",
+      "tier": null
+    },
+    {
+      "name": "Hilton",
+      "aliases": [
+        "Hilton Worldwide"
+      ],
+      "wiki": "Hilton Worldwide",
+      "tier": null
+    },
+    {
+      "name": "eBay",
+      "wiki": "EBay",
+      "tier": null
+    },
+    {
+      "name": "Arthur J. Gallagher",
+      "aliases": [
+        "Arthur J. Gallagher & Co."
+      ],
+      "wiki": "Arthur J. Gallagher & Co.",
+      "tier": null
+    },
+    {
+      "name": "LPL Financial Holdings",
+      "aliases": [
+        "LPL Financial"
+      ],
+      "wiki": "LPL Financial",
+      "tier": null
+    },
+    {
+      "name": "Cincinnati Financial",
+      "wiki": "Cincinnati Financial",
+      "tier": null
+    },
+    {
+      "name": "Toll Brothers",
+      "wiki": "Toll Brothers",
+      "tier": null
+    },
+    {
+      "name": "Motorola Solutions",
+      "wiki": "Motorola Solutions",
+      "tier": null
+    },
+    {
+      "name": "Airbnb",
+      "wiki": "Airbnb",
+      "tier": null
+    },
+    {
+      "name": "Intercontinental Exchange",
+      "wiki": "Intercontinental Exchange",
+      "tier": null
+    },
+    {
+      "name": "News Corp",
+      "wiki": "News Corp",
+      "tier": null
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "wiki": "Chipotle Mexican Grill",
+      "tier": null
+    },
+    {
+      "name": "Vertex Pharmaceuticals",
+      "wiki": "Vertex Pharmaceuticals",
+      "tier": null
+    },
+    {
+      "name": "Biogen",
+      "wiki": "Biogen",
+      "tier": null
+    },
+    {
+      "name": "GXO Logistics",
+      "wiki": "GXO Logistics",
+      "tier": null
+    },
+    {
+      "name": "SpartanNash",
+      "wiki": "SpartanNash",
+      "tier": null
+    },
+    {
+      "name": "Burlington Stores",
+      "wiki": "Burlington Stores (off-price retailer)",
+      "tier": null
+    },
+    {
+      "name": "Thrivent",
+      "aliases": [
+        "Thrivent Financial for Lutherans"
+      ],
+      "wiki": "Thrivent",
+      "tier": null
+    },
+    {
+      "name": "NVR",
+      "aliases": [
+        "NVR, Inc."
+      ],
+      "wiki": "NVR, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Owens Corning",
+      "wiki": "Owens Corning",
+      "tier": null
+    },
+    {
+      "name": "Wabtec",
+      "aliases": [
+        "Westinghouse Air Brake Technologies"
+      ],
+      "wiki": "Wabtec",
+      "tier": null
+    },
+    {
+      "name": "Oshkosh",
+      "aliases": [
+        "Oshkosh Corporation"
+      ],
+      "wiki": "Oshkosh Corporation",
+      "tier": null
+    },
+    {
+      "name": "Global Payments",
+      "wiki": "Global Payments",
+      "tier": null
+    },
+    {
+      "name": "Albemarle",
+      "aliases": [
+        "Albemarle Corporation"
+      ],
+      "wiki": "Albemarle Corporation",
+      "tier": null
+    },
+    {
+      "name": "Seaboard Corporation",
+      "aliases": [
+        "Seaboard"
+      ],
+      "wiki": "Seaboard Corporation",
+      "tier": null
+    },
+    {
+      "name": "Constellation Brands",
+      "wiki": "Constellation Brands",
+      "tier": null
+    },
+    {
+      "name": "Graphic Packaging Holding",
+      "aliases": [
+        "Graphic Packaging"
+      ],
+      "wiki": "Graphic Packaging",
+      "tier": null
+    },
+    {
+      "name": "FM Global",
+      "wiki": "FM (insurance)",
+      "tier": null
+    },
+    {
+      "name": "Campbell's",
+      "wiki": "Campbell's",
+      "tier": null
+    },
+    {
+      "name": "Expeditors International",
+      "aliases": [
+        "Expeditors Intl. of Washington"
+      ],
+      "wiki": "Expeditors International",
+      "tier": null
+    },
+    {
+      "name": "A-Mark Precious Metals",
+      "wiki": "A-Mark Precious Metals",
+      "tier": null
+    },
+    {
+      "name": "Quest Diagnostics",
+      "wiki": "Quest Diagnostics",
+      "tier": null
+    },
+    {
+      "name": "Altice USA",
+      "aliases": [
+        "Optimum Communications"
+      ],
+      "wiki": "Optimum Communications",
+      "tier": null
+    },
+    {
+      "name": "PVH",
+      "aliases": [
+        "PVH Corp."
+      ],
+      "wiki": "PVH Corp.",
+      "tier": null
+    },
+    {
+      "name": "Eastman Chemical",
+      "aliases": [
+        "Eastman Chemical Company"
+      ],
+      "wiki": "Eastman Chemical Company",
+      "tier": null
+    },
+    {
+      "name": "Insight Enterprises",
+      "wiki": "Insight Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Regions Financial",
+      "aliases": [
+        "Regions Financial Corporation"
+      ],
+      "wiki": "Regions Financial Corporation",
+      "tier": null
+    },
+    {
+      "name": "Beacon Roofing Supply",
+      "aliases": [
+        "QXO"
+      ],
+      "wiki": "QXO",
+      "tier": null
+    },
+    {
+      "name": "Rockwell Automation",
+      "wiki": "Rockwell Automation",
+      "tier": null
+    },
+    {
+      "name": "Polaris",
+      "aliases": [
+        "Polaris Inc."
+      ],
+      "wiki": "Polaris Inc.",
+      "tier": null
+    },
+    {
+      "name": "ServiceNow",
+      "wiki": "ServiceNow",
+      "tier": null
+    },
+    {
+      "name": "Sanmina",
+      "aliases": [
+        "Sanmina Corporation"
+      ],
+      "wiki": "Sanmina Corporation",
+      "tier": null
+    },
+    {
+      "name": "UGI Corporation",
+      "aliases": [
+        "UGI"
+      ],
+      "wiki": "UGI Corporation",
+      "tier": null
+    },
+    {
+      "name": "WEC Energy Group",
+      "aliases": [
+        "WEC Energy"
+      ],
+      "wiki": "WEC Energy Group",
+      "tier": null
+    },
+    {
+      "name": "BrightSpring Health Services",
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cintas",
+      "wiki": "Cintas",
+      "tier": null
+    },
+    {
+      "name": "Commercial Metals",
+      "aliases": [
+        "Commercial Metals Company"
+      ],
+      "wiki": "Commercial Metals Company",
+      "tier": null
+    },
+    {
+      "name": "Continental Resources",
+      "wiki": "Continental Resources",
+      "tier": null
+    },
+    {
+      "name": "CenterPoint Energy",
+      "wiki": "CenterPoint Energy",
+      "tier": null
+    },
+    {
+      "name": "NGL Energy Partners",
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DoorDash",
+      "wiki": "DoorDash",
+      "tier": null
+    },
+    {
+      "name": "NOV Inc.",
+      "aliases": [
+        "NOV"
+      ],
+      "wiki": "NOV Inc.",
+      "tier": null
+    },
+    {
+      "name": "Zoetis",
+      "wiki": "Zoetis",
+      "tier": null
+    },
+    {
+      "name": "J.M. Smucker",
+      "aliases": [
+        "The J.M. Smucker Company"
+      ],
+      "wiki": "The J.M. Smucker Company",
+      "tier": null
+    },
+    {
+      "name": "Microchip Technology",
+      "wiki": "Microchip Technology",
+      "tier": null
+    },
+    {
+      "name": "Dover Corporation",
+      "wiki": "Dover Corporation",
+      "tier": null
+    },
+    {
+      "name": "Diamondback Energy",
+      "wiki": "Diamondback Energy",
+      "tier": null
+    },
+    {
+      "name": "Avery Dennison",
+      "wiki": "Avery Dennison",
+      "tier": null
+    },
+    {
+      "name": "PPL Corporation",
+      "aliases": [
+        "PPL"
+      ],
+      "wiki": "PPL Corporation",
+      "tier": null
+    },
+    {
+      "name": "onsemi",
+      "aliases": [
+        "ON Semiconductor"
+      ],
+      "wiki": "Onsemi",
+      "tier": null
+    },
+    {
+      "name": "ARKO",
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Par Pacific Holdings",
+      "aliases": [
+        "Par Pacific"
+      ],
+      "wiki": "Par Pacific Holdings",
+      "tier": null
+    },
+    {
+      "name": "APA Corporation",
+      "aliases": [
+        "APA"
+      ],
+      "wiki": "APA Corporation",
+      "tier": null
+    },
+    {
+      "name": "Equinix",
+      "wiki": "Equinix",
+      "tier": null
+    },
+    {
+      "name": "Flagstar Financial",
+      "aliases": [
+        "Flagstar Bank"
+      ],
+      "wiki": "Flagstar Bank",
+      "tier": null
+    },
+    {
+      "name": "Foot Locker",
+      "wiki": "Foot Locker",
+      "tier": null
+    },
+    {
+      "name": "Ingredion",
+      "wiki": "Ingredion",
+      "tier": null
+    },
+    {
+      "name": "Newell Brands",
+      "wiki": "Newell Brands",
+      "tier": null
+    },
+    {
+      "name": "ABM Industries",
+      "wiki": "ABM Industries",
+      "tier": null
+    },
+    {
+      "name": "Securian Financial Group",
+      "aliases": [
+        "Securian Financial"
+      ],
+      "wiki": "Securian Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Prologis",
+      "wiki": "Prologis",
+      "tier": null
+    },
+    {
+      "name": "Blackstone",
+      "aliases": [
+        "Blackstone Inc."
+      ],
+      "wiki": "Blackstone Inc.",
+      "tier": null
+    },
+    {
+      "name": "Skechers",
+      "aliases": [
+        "Skechers U.S.A."
+      ],
+      "wiki": "Skechers",
+      "tier": null
+    },
+    {
+      "name": "Masco",
+      "wiki": "Masco",
+      "tier": null
+    },
+    {
+      "name": "Rush Enterprises",
+      "wiki": "Rush Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Franklin Templeton",
+      "aliases": [
+        "Franklin Resources"
+      ],
+      "wiki": "Franklin Templeton",
+      "tier": null
+    },
+    {
+      "name": "Office Depot",
+      "aliases": [
+        "ODP"
+      ],
+      "wiki": "Office Depot",
+      "tier": null
+    },
+    {
+      "name": "American Financial Group",
+      "aliases": [
+        "American Financial"
+      ],
+      "wiki": "American Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Packaging Corporation of America",
+      "aliases": [
+        "Packaging Corp. of America"
+      ],
+      "wiki": "Packaging Corporation of America",
+      "tier": null
+    },
+    {
+      "name": "Vulcan Materials",
+      "aliases": [
+        "Vulcan Materials Company"
+      ],
+      "wiki": "Vulcan Materials Company",
+      "tier": null
+    },
+    {
+      "name": "Interactive Brokers Group",
+      "aliases": [
+        "Interactive Brokers"
+      ],
+      "wiki": "Interactive Brokers",
+      "tier": null
+    },
+    {
+      "name": "Williams-Sonoma",
+      "wiki": "Williams Sonoma",
+      "tier": null
+    },
+    {
+      "name": "XPO",
+      "aliases": [
+        "XPO, Inc."
+      ],
+      "wiki": "XPO, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Weyerhaeuser",
+      "wiki": "Weyerhaeuser",
+      "tier": null
+    },
+    {
+      "name": "Genworth Financial",
+      "wiki": "Genworth Financial",
+      "tier": null
+    },
+    {
+      "name": "CMS Energy",
+      "wiki": "CMS Energy",
+      "tier": null
+    },
+    {
+      "name": "Jefferies Financial Group",
+      "aliases": [
+        "Jefferies Financial"
+      ],
+      "wiki": "Jefferies Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Bath & Body Works",
+      "wiki": "Bath & Body Works",
+      "tier": null
+    },
+    {
+      "name": "Electronic Arts",
+      "wiki": "Electronic Arts",
+      "tier": null
+    },
+    {
+      "name": "Taylor Morrison Home",
+      "aliases": [
+        "Taylor Morrison"
+      ],
+      "wiki": "Taylor Morrison",
+      "tier": null
+    },
+    {
+      "name": "Zimmer Biomet Holdings",
+      "aliases": [
+        "Zimmer Biomet"
+      ],
+      "wiki": "Zimmer Biomet",
+      "tier": null
+    },
+    {
+      "name": "Clorox",
+      "wiki": "Clorox",
+      "tier": null
+    },
+    {
+      "name": "Xylem",
+      "aliases": [
+        "Xylem Inc."
+      ],
+      "wiki": "Xylem Inc.",
+      "tier": null
+    },
+    {
+      "name": "Voya Financial",
+      "wiki": "Voya Financial",
+      "tier": null
+    },
+    {
+      "name": "Fastenal",
+      "wiki": "Fastenal",
+      "tier": null
+    },
+    {
+      "name": "Watsco",
+      "wiki": "Watsco",
+      "tier": null
+    },
+    {
+      "name": "Old Republic International",
+      "wiki": "Old Republic International",
+      "tier": null
+    },
+    {
+      "name": "RPM International",
+      "wiki": "RPM International",
+      "tier": null
+    },
+    {
+      "name": "UFP Industries",
+      "wiki": "UFP Industries",
+      "tier": null
+    },
+    {
+      "name": "Ameren",
+      "wiki": "Ameren",
+      "tier": null
+    },
+    {
+      "name": "Knight-Swift",
+      "aliases": [
+        "Knight-Swift Transportation Hldgs.",
+        "Knight-Swift Transportation"
+      ],
+      "wiki": "Knight-Swift",
+      "tier": null
+    },
+    {
+      "name": "Monster Beverage",
+      "wiki": "Monster Beverage",
+      "tier": null
+    },
+    {
+      "name": "Intuitive Surgical",
+      "wiki": "Intuitive Surgical",
+      "tier": null
+    },
+    {
+      "name": "Supermicro",
+      "aliases": [
+        "Super Micro Computer"
+      ],
+      "wiki": "Supermicro",
+      "tier": null
+    },
+    {
+      "name": "Concentrix",
+      "wiki": "Concentrix",
+      "tier": null
+    },
+    {
+      "name": "O-I Glass",
+      "wiki": "O-I Glass",
+      "tier": null
+    },
+    {
+      "name": "Domtar",
+      "wiki": "Domtar",
+      "tier": null
+    },
+    {
+      "name": "CommScope Holding",
+      "aliases": [
+        "CommScope"
+      ],
+      "wiki": "CommScope",
+      "tier": null
+    },
+    {
+      "name": "Post Holdings",
+      "wiki": "Post Holdings",
+      "tier": null
+    },
+    {
+      "name": "Crown Castle",
+      "wiki": "Crown Castle",
+      "tier": null
+    },
+    {
+      "name": "Avantor",
+      "wiki": "Avantor",
+      "tier": null
+    },
+    {
+      "name": "APi Group",
+      "aliases": [
+        "APi"
+      ],
+      "wiki": "APi Group",
+      "tier": null
+    },
+    {
+      "name": "EQT",
+      "aliases": [
+        "EQT Corporation"
+      ],
+      "wiki": "EQT Corporation",
+      "tier": null
+    },
+    {
+      "name": "Xerox Holdings",
+      "aliases": [
+        "Xerox"
+      ],
+      "wiki": "Xerox",
+      "tier": null
+    },
+    {
+      "name": "Ingersoll Rand",
+      "wiki": "Ingersoll Rand",
+      "tier": null
+    },
+    {
+      "name": "Dillard's",
+      "wiki": "Dillard's",
+      "tier": null
+    },
+    {
+      "name": "Martin Marietta Materials",
+      "wiki": "Martin Marietta Materials",
+      "tier": null
+    },
+    {
+      "name": "Vertiv Holdings",
+      "aliases": [
+        "Vertiv"
+      ],
+      "wiki": "Vertiv",
+      "tier": null
+    },
+    {
+      "name": "Boise Cascade",
+      "wiki": "Boise Cascade",
+      "tier": null
+    },
+    {
+      "name": "Sprouts Farmers Market",
+      "wiki": "Sprouts Farmers Market",
+      "tier": null
+    },
+    {
+      "name": "Agilent Technologies",
+      "wiki": "Agilent Technologies",
+      "tier": null
+    },
+    {
+      "name": "Olin Corporation",
+      "aliases": [
+        "Olin"
+      ],
+      "wiki": "Olin Corporation",
+      "tier": null
+    },
+    {
+      "name": "Sonoco Products",
+      "aliases": [
+        "Sonoco"
+      ],
+      "wiki": "Sonoco",
+      "tier": null
+    },
+    {
+      "name": "Core & Main",
+      "wiki": "Core & Main",
+      "tier": null
+    },
+    {
+      "name": "Select Medical Holdings",
+      "aliases": [
+        "Select Medical"
+      ],
+      "wiki": "Select Medical",
+      "tier": null
+    },
+    {
+      "name": "Tapestry",
+      "aliases": [
+        "Tapestry, Inc."
+      ],
+      "wiki": "Tapestry, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Howmet Aerospace",
+      "wiki": "Howmet Aerospace",
+      "tier": null
+    },
+    {
+      "name": "Welltower",
+      "wiki": "Welltower",
+      "tier": null
+    },
+    {
+      "name": "CF Industries Holdings",
+      "aliases": [
+        "CF Industries"
+      ],
+      "wiki": "CF Industries",
+      "tier": null
+    },
+    {
+      "name": "Ametek",
+      "wiki": "Ametek",
+      "tier": null
+    },
+    {
+      "name": "TransDigm Group",
+      "aliases": [
+        "TransDigm"
+      ],
+      "wiki": "TransDigm Group",
+      "tier": null
+    },
+    {
+      "name": "Wynn Resorts",
+      "wiki": "Wynn Resorts",
+      "tier": null
+    },
+    {
+      "name": "Southwestern Energy",
+      "wiki": "Southwestern Energy",
+      "tier": null
+    },
+    {
+      "name": "Amkor Technology",
+      "wiki": "Amkor Technology",
+      "tier": null
+    },
+    {
+      "name": "Insperity",
+      "wiki": "Insperity",
+      "tier": null
+    },
+    {
+      "name": "T. Rowe Price",
+      "wiki": "T. Rowe Price",
+      "tier": null
+    },
+    {
+      "name": "Ralph Lauren",
+      "aliases": [
+        "Ralph Lauren Corporation"
+      ],
+      "wiki": "Ralph Lauren Corporation",
+      "tier": null
+    },
+    {
+      "name": "KB Home",
+      "wiki": "KB Home",
+      "tier": null
+    },
+    {
+      "name": "Brunswick Corporation",
+      "aliases": [
+        "Brunswick"
+      ],
+      "wiki": "Brunswick Corporation",
+      "tier": null
+    },
+    {
+      "name": "NetApp",
+      "wiki": "NetApp",
+      "tier": null
+    },
+    {
+      "name": "Regal Rexnord",
+      "wiki": "Regal Rexnord",
+      "tier": null
+    },
+    {
+      "name": "Camping World Holdings",
+      "aliases": [
+        "Camping World"
+      ],
+      "wiki": "Camping World",
+      "tier": null
+    },
+    {
+      "name": "Huntsman",
+      "aliases": [
+        "Huntsman Corporation"
+      ],
+      "wiki": "Huntsman Corporation",
+      "tier": null
+    },
+    {
+      "name": "Roper Technologies",
+      "wiki": "Roper Technologies",
+      "tier": null
+    },
+    {
+      "name": "Meritage Homes Corporation",
+      "wiki": "Meritage Homes Corporation",
+      "tier": null
+    },
+    {
+      "name": "American Axle",
+      "aliases": [
+        "American Axle & Manufacturing",
+        "Dauch Corporation"
+      ],
+      "wiki": "Dauch Corporation",
+      "tier": null
+    },
+    {
+      "name": "Fortive",
+      "wiki": "Fortive",
+      "tier": null
+    },
+    {
+      "name": "Broadridge Financial Solutions",
+      "wiki": "Broadridge Financial Solutions",
+      "tier": null
+    },
+    {
+      "name": "Spirit AeroSystems Holdings",
+      "aliases": [
+        "Spirit AeroSystems"
+      ],
+      "wiki": "Spirit AeroSystems",
+      "tier": null
+    },
+    {
+      "name": "Warner Music Group",
+      "aliases": [
+        "Warner Music"
+      ],
+      "wiki": "Warner Music Group",
+      "tier": null
+    },
+    {
+      "name": "Chemours",
+      "wiki": "Chemours",
+      "tier": null
+    },
+    {
+      "name": "ADT",
+      "aliases": [
+        "ADT Inc."
+      ],
+      "wiki": "ADT Inc.",
+      "tier": null
+    },
+    {
+      "name": "Edwards Lifesciences",
+      "wiki": "Edwards Lifesciences",
+      "tier": null
+    },
+    {
+      "name": "First American Financial",
+      "aliases": [
+        "First American Financial Corporation"
+      ],
+      "wiki": "First American Financial Corporation",
+      "tier": null
+    },
+    {
+      "name": "Hanover Insurance Group",
+      "aliases": [
+        "Hanover Insurance"
+      ],
+      "wiki": "Hanover Insurance",
+      "tier": null
+    },
+    {
+      "name": "Silgan Holdings",
+      "aliases": [
+        "Silgan"
+      ],
+      "wiki": "Silgan Holdings",
+      "tier": null
+    },
+    {
+      "name": "Under Armour",
+      "wiki": "Under Armour",
+      "tier": null
+    },
+    {
+      "name": "Ingles Markets",
+      "aliases": [
+        "Ingles"
+      ],
+      "wiki": "Ingles",
+      "tier": null
+    },
+    {
+      "name": "Church & Dwight",
+      "wiki": "Church & Dwight",
+      "tier": null
+    },
+    {
+      "name": "Old Dominion Freight Line",
+      "wiki": "Old Dominion Freight Line",
+      "tier": null
+    },
+    {
+      "name": "U-Haul Holding",
+      "aliases": [
+        "U-Haul"
+      ],
+      "wiki": "U-Haul",
+      "tier": null
+    },
+    {
+      "name": "Oscar Health",
+      "wiki": "Oscar Health",
+      "tier": null
+    },
+    {
+      "name": "Synopsys",
+      "wiki": "Synopsys",
+      "tier": null
+    },
+    {
+      "name": "Harley-Davidson",
+      "wiki": "Harley-Davidson",
+      "tier": null
+    },
+    {
+      "name": "Frontier Communications",
+      "wiki": "Frontier Communications",
+      "tier": null
+    },
+    {
+      "name": "Simon Property Group",
+      "aliases": [
+        "Simon Property"
+      ],
+      "wiki": "Simon Property Group",
+      "tier": null
+    },
+    {
+      "name": "Hanesbrands",
+      "wiki": "Hanesbrands",
+      "tier": null
+    },
+    {
+      "name": "Anywhere Real Estate",
+      "wiki": "Anywhere Real Estate",
+      "tier": null
+    },
+    {
+      "name": "Teledyne Technologies",
+      "wiki": "Teledyne Technologies",
+      "tier": null
+    },
+    {
+      "name": "CME Group",
+      "aliases": [
+        "CME"
+      ],
+      "wiki": "CME Group",
+      "tier": null
+    },
+    {
+      "name": "Coty",
+      "wiki": "Coty",
+      "tier": null
+    },
+    {
+      "name": "Pool Corporation",
+      "wiki": "Pool Corporation",
+      "tier": null
+    },
+    {
+      "name": "Evergy",
+      "wiki": "Evergy",
+      "tier": null
+    },
+    {
+      "name": "Marvell Technology",
+      "wiki": "Marvell Technology",
+      "tier": null
+    },
+    {
+      "name": "NiSource",
+      "wiki": "NiSource",
+      "tier": null
+    },
+    {
+      "name": "SS&C Technologies Holdings",
+      "aliases": [
+        "SS&C Technologies"
+      ],
+      "wiki": "SS&C Technologies",
+      "tier": null
+    },
+    {
+      "name": "Schneider National",
+      "wiki": "Schneider National",
+      "tier": null
+    },
+    {
+      "name": "Sealed Air",
+      "wiki": "Sealed Air",
+      "tier": null
+    },
+    {
+      "name": "Iron Mountain",
+      "wiki": "Iron Mountain (company)",
+      "tier": null
+    },
+    {
+      "name": "Keysight Technologies",
+      "aliases": [
+        "Keysight"
+      ],
+      "wiki": "Keysight",
+      "tier": null
+    },
+    {
+      "name": "Parsons Corporation",
+      "aliases": [
+        "Parsons"
+      ],
+      "wiki": "Parsons Corporation",
+      "tier": null
+    },
+    {
+      "name": "Mattel",
+      "wiki": "Mattel",
+      "tier": null
+    },
+    {
+      "name": "Southwest Gas Holdings",
+      "aliases": [
+        "Southwest Gas"
+      ],
+      "wiki": "Southwest Gas",
+      "tier": null
+    },
+    {
+      "name": "Clean Harbors",
+      "wiki": "Clean Harbors",
+      "tier": null
+    },
+    {
+      "name": "Cornerstone Building Brands",
+      "wiki": "Cornerstone Building Brands",
+      "tier": null
+    },
+    {
+      "name": "Hubbell",
+      "aliases": [
+        "Hubbell Incorporated"
+      ],
+      "wiki": "Hubbell Incorporated",
+      "tier": null
+    },
+    {
+      "name": "Lamb Weston Holdings",
+      "aliases": [
+        "Lamb Weston"
+      ],
+      "wiki": "Lamb Weston",
+      "tier": null
+    },
+    {
+      "name": "Penn Mutual",
+      "wiki": "Penn Mutual",
+      "tier": null
+    },
+    {
+      "name": "Landstar System",
+      "wiki": "Landstar System",
+      "tier": null
+    },
+    {
+      "name": "Host Hotels & Resorts",
+      "wiki": "Host Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "American Eagle Outfitters",
+      "wiki": "American Eagle Outfitters",
+      "tier": null
+    },
+    {
+      "name": "Comfort Systems USA",
+      "wiki": "Comfort Systems USA",
+      "tier": null
+    },
+    {
+      "name": "Bread Financial Holdings",
+      "aliases": [
+        "Bread Financial"
+      ],
+      "wiki": "Bread Financial",
+      "tier": null
+    },
+    {
+      "name": "Coherent",
+      "aliases": [
+        "Coherent, Inc."
+      ],
+      "wiki": "Coherent, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Telephone & Data Systems",
+      "wiki": "Telephone and Data Systems",
+      "tier": null
+    },
+    {
+      "name": "Stifel Financial",
+      "aliases": [
+        "Stifel"
+      ],
+      "wiki": "Stifel",
+      "tier": null
+    },
+    {
+      "name": "Urban Outfitters",
+      "wiki": "Urban Outfitters",
+      "tier": null
+    },
+    {
+      "name": "Terex",
+      "wiki": "Terex",
+      "tier": null
+    },
+    {
+      "name": "Ryerson",
+      "aliases": [
+        "Ryerson Holding"
+      ],
+      "wiki": "Ryerson (company)",
+      "tier": null
+    },
+    {
+      "name": "Snap-on",
+      "wiki": "Snap-on",
+      "tier": null
+    },
+    {
+      "name": "Flowers Foods",
+      "wiki": "Flowers Foods",
+      "tier": null
+    },
+    {
+      "name": "First Horizon",
+      "aliases": [
+        "First Horizon Bank"
+      ],
+      "wiki": "First Horizon Bank",
+      "tier": null
+    },
+    {
+      "name": "Hasbro",
+      "wiki": "Hasbro",
+      "tier": null
+    },
+    {
+      "name": "Sentry Insurance Group",
+      "aliases": [
+        "Sentry Insurance"
+      ],
+      "wiki": "Sentry Insurance",
+      "tier": null
+    },
+    {
+      "name": "Ares Management",
+      "wiki": "Ares Management",
+      "tier": null
+    },
+    {
+      "name": "Peabody Energy",
+      "wiki": "Peabody Energy",
+      "tier": null
+    },
+    {
+      "name": "Kemper",
+      "aliases": [
+        "Kemper Corporation"
+      ],
+      "wiki": "Kemper Corporation",
+      "tier": null
+    },
+    {
+      "name": "TelevisaUnivision",
+      "wiki": "TelevisaUnivision",
+      "tier": null
+    },
+    {
+      "name": "Tempur Sealy",
+      "aliases": [
+        "Tempur Sealy International",
+        "Somnigroup International"
+      ],
+      "wiki": "Somnigroup International",
+      "tier": null
+    },
+    {
+      "name": "TriNet Group",
+      "aliases": [
+        "TriNet"
+      ],
+      "wiki": "TriNet",
+      "tier": null
+    },
+    {
+      "name": "Worthington Enterprises",
+      "wiki": "Worthington Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Maximus",
+      "aliases": [
+        "Maximus Inc."
+      ],
+      "wiki": "Maximus Inc.",
+      "tier": null
+    },
+    {
+      "name": "Brink's",
+      "wiki": "Brink's",
+      "tier": null
+    },
+    {
+      "name": "Kelly Services",
+      "wiki": "Kelly Services",
+      "tier": null
+    },
+    {
+      "name": "Puget Sound Energy",
+      "aliases": [
+        "Puget Energy"
+      ],
+      "wiki": "Puget Sound Energy",
+      "tier": null
+    },
+    {
+      "name": "Encompass Health",
+      "wiki": "Encompass Health",
+      "tier": null
+    },
+    {
+      "name": "Skyworks Solutions",
+      "wiki": "Skyworks Solutions",
+      "tier": null
+    },
+    {
+      "name": "Timken",
+      "aliases": [
+        "Timken Company"
+      ],
+      "wiki": "Timken Company",
+      "tier": null
+    },
+    {
+      "name": "Liberty Energy",
+      "wiki": "Liberty Energy",
+      "tier": null
+    },
+    {
+      "name": "Marriott Vacations Worldwide",
+      "wiki": "Marriott Vacations Worldwide",
+      "tier": null
+    },
+    {
+      "name": "Leggett & Platt",
+      "wiki": "Leggett & Platt",
+      "tier": null
+    },
+    {
+      "name": "Weis Markets",
+      "wiki": "Weis Markets",
+      "tier": null
+    },
+    {
+      "name": "Pinnacle West Capital",
+      "wiki": "Pinnacle West Capital",
+      "tier": null
+    },
+    {
+      "name": "Antero Resources",
+      "wiki": "Antero Resources",
+      "tier": null
+    },
+    {
+      "name": "Bloomin' Brands",
+      "wiki": "Bloomin' Brands",
+      "tier": null
+    },
+    {
+      "name": "MDU Resources Group",
+      "aliases": [
+        "MDU Resources"
+      ],
+      "wiki": "MDU Resources",
+      "tier": null
+    },
+    {
+      "name": "Texas Roadhouse",
+      "wiki": "Texas Roadhouse",
+      "tier": null
+    },
+    {
+      "name": "Mercury General",
+      "wiki": "Mercury General",
+      "tier": null
+    },
+    {
+      "name": "Fortune Brands Innovations",
+      "wiki": "Fortune Brands Innovations",
+      "tier": null
+    },
+    {
+      "name": "Zions Bancorporation",
+      "aliases": [
+        "Zions Bancorp."
+      ],
+      "wiki": "Zions Bancorporation",
+      "tier": null
+    },
+    {
+      "name": "JELD-WEN Holding",
+      "aliases": [
+        "JELD-WEN"
+      ],
+      "wiki": "Jeld-Wen",
+      "tier": null
+    },
+    {
+      "name": "Zebra Technologies",
+      "wiki": "Zebra Technologies",
+      "tier": null
+    },
+    {
+      "name": "Toro",
+      "aliases": [
+        "The Toro Company"
+      ],
+      "wiki": "The Toro Company",
+      "tier": null
+    },
+    {
+      "name": "Tetra Tech",
+      "wiki": "Tetra Tech",
+      "tier": null
+    },
+    {
+      "name": "Public Storage",
+      "wiki": "Public Storage",
+      "tier": null
+    },
+    {
+      "name": "Illumina",
+      "aliases": [
+        "Illumina, Inc."
+      ],
+      "wiki": "Illumina, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Ventas",
+      "wiki": "Ventas (company)",
+      "tier": null
+    },
+    {
+      "name": "FMC Corporation",
+      "aliases": [
+        "FMC"
+      ],
+      "wiki": "FMC Corporation",
+      "tier": null
+    },
+    {
+      "name": "ArcBest",
+      "wiki": "ArcBest",
+      "tier": null
+    },
+    {
+      "name": "Rivian Automotive",
+      "aliases": [
+        "Rivian"
+      ],
+      "wiki": "Rivian",
+      "tier": null
+    },
+    {
+      "name": "Elanco Animal Health",
+      "aliases": [
+        "Elanco"
+      ],
+      "wiki": "Elanco",
+      "tier": null
+    },
+    {
+      "name": "Graham Holdings",
+      "wiki": "Graham Holdings",
+      "tier": null
+    },
+    {
+      "name": "Floor & Decor Holdings",
+      "aliases": [
+        "Floor & Decor"
+      ],
+      "wiki": "Floor & Decor",
+      "tier": null
+    },
+    {
+      "name": "Applied Industrial Technologies",
+      "wiki": "Applied Industrial Technologies",
+      "tier": null
+    },
+    {
+      "name": "Ciena",
+      "wiki": "Ciena",
+      "tier": null
+    },
+    {
+      "name": "Country Financial",
+      "wiki": "Country Financial",
+      "tier": null
+    },
+    {
+      "name": "Western Union",
+      "wiki": "Western Union",
+      "tier": null
+    },
+    {
+      "name": "Topgolf Callaway Brands",
+      "aliases": [
+        "Callaway Golf Company"
+      ],
+      "wiki": "Callaway Golf Company",
+      "tier": null
+    },
+    {
+      "name": "Abercrombie & Fitch",
+      "wiki": "Abercrombie & Fitch",
+      "tier": null
+    },
+    {
+      "name": "Catalent",
+      "wiki": "Catalent",
+      "tier": null
+    },
+    {
+      "name": "Brown & Brown",
+      "wiki": "Brown & Brown",
+      "tier": null
+    },
+    {
+      "name": "GoDaddy",
+      "wiki": "GoDaddy",
+      "tier": null
+    },
+    {
+      "name": "American Water Works",
+      "wiki": "American Water Works",
+      "tier": null
+    },
+    {
+      "name": "Brown Forman",
+      "wiki": "Brown-Forman",
+      "tier": null
+    },
+    {
+      "name": "ResMed",
+      "wiki": "ResMed",
+      "tier": null
+    },
+    {
+      "name": "Hub Group",
+      "wiki": "Hub Group",
+      "tier": null
+    },
+    {
+      "name": "Lincoln Electric Holdings",
+      "aliases": [
+        "Lincoln Electric"
+      ],
+      "wiki": "Lincoln Electric",
+      "tier": null
+    },
+    {
+      "name": "NCR Atleos",
+      "wiki": "NCR Atleos",
+      "tier": null
+    },
+    {
+      "name": "Valmont Industries",
+      "wiki": "Valmont Industries",
+      "tier": null
+    },
+    {
+      "name": "ATI",
+      "aliases": [
+        "Allegheny Technologies"
+      ],
+      "wiki": "Allegheny Technologies",
+      "tier": null
+    },
+    {
+      "name": "CNO Financial Group",
+      "aliases": [
+        "CNO Financial"
+      ],
+      "wiki": "CNO Financial Group",
+      "tier": null
+    },
+    {
+      "name": "Patterson-UTI Energy",
+      "aliases": [
+        "Patterson-UTI"
+      ],
+      "wiki": "Patterson-UTI",
+      "tier": null
+    },
+    {
+      "name": "Brighthouse Financial",
+      "wiki": "Brighthouse Financial",
+      "tier": null
+    },
+    {
+      "name": "Service Corporation International",
+      "aliases": [
+        "Service Corp. International"
+      ],
+      "wiki": "Service Corporation International",
+      "tier": null
+    },
+    {
+      "name": "Realty Income",
+      "wiki": "Realty Income",
+      "tier": null
+    },
+    {
+      "name": "Middleby",
+      "wiki": "Middleby",
+      "tier": null
+    },
+    {
+      "name": "Hologic",
+      "wiki": "Hologic",
+      "tier": null
+    },
+    {
+      "name": "Alliant Energy",
+      "wiki": "Alliant Energy",
+      "tier": null
+    },
+    {
+      "name": "Generac Holdings",
+      "aliases": [
+        "Generac"
+      ],
+      "wiki": "Generac",
+      "tier": null
+    },
+    {
+      "name": "MSC Industrial Direct",
+      "wiki": "MSC Industrial Direct",
+      "tier": null
+    },
+    {
+      "name": "Rocket Companies",
+      "wiki": "Rocket Companies",
+      "tier": null
+    },
+    {
+      "name": "East West Bancorp",
+      "wiki": "East West Bancorp",
+      "tier": null
+    },
+    {
+      "name": "Hilton Grand Vacations",
+      "wiki": "Hilton Grand Vacations",
+      "tier": null
+    },
+    {
+      "name": "Grocery Outlet Holding",
+      "aliases": [
+        "Grocery Outlet"
+      ],
+      "wiki": "Grocery Outlet",
+      "tier": null
+    },
+    {
+      "name": "Dentsply Sirona",
+      "wiki": "Dentsply Sirona",
+      "tier": null
+    },
+    {
+      "name": "Crocs",
+      "wiki": "Crocs",
+      "tier": null
+    },
+    {
+      "name": "Spectrum Brands Holdings",
+      "aliases": [
+        "Spectrum Brands"
+      ],
+      "wiki": "Spectrum Brands",
+      "tier": null
+    },
+    {
+      "name": "Visteon",
+      "wiki": "Visteon",
+      "tier": null
+    },
+    {
+      "name": "Acuity Brands",
+      "wiki": "Acuity Brands",
+      "tier": null
+    },
+    {
+      "name": "Webster Financial",
+      "aliases": [
+        "Webster Bank"
+      ],
+      "wiki": "Webster Bank",
+      "tier": null
+    },
+    {
+      "name": "Cabot Corporation",
+      "aliases": [
+        "Cabot"
+      ],
+      "wiki": "Cabot Corporation",
+      "tier": null
+    },
+    {
+      "name": "Chord Energy",
+      "wiki": "Chord Energy",
+      "tier": null
+    },
+    {
+      "name": "Garrett Motion",
+      "wiki": "Garrett Motion",
+      "tier": null
+    },
+    {
+      "name": "Tutor Perini",
+      "wiki": "Tutor Perini",
+      "tier": null
+    },
+    {
+      "name": "Copart",
+      "wiki": "Copart",
+      "tier": null
+    },
+    {
+      "name": "Align Technology",
+      "wiki": "Align Technology",
+      "tier": null
+    },
+    {
+      "name": "A.O. Smith",
+      "wiki": "A. O. Smith",
+      "tier": null
+    },
+    {
+      "name": "NCR Voyix",
+      "wiki": "NCR Voyix",
+      "tier": null
+    },
+    {
+      "name": "Akamai Technologies",
+      "wiki": "Akamai Technologies",
+      "tier": null
+    },
+    {
+      "name": "Trimble",
+      "aliases": [
+        "Trimble Inc."
+      ],
+      "wiki": "Trimble Inc.",
+      "tier": null
+    },
+    {
+      "name": "Medical Mutual of Ohio",
+      "wiki": "Medical Mutual of Ohio",
+      "tier": null
+    },
+    {
+      "name": "Cboe Global Markets",
+      "wiki": "Cboe Global Markets",
+      "tier": null
+    },
+    {
+      "name": "Diebold Nixdorf",
+      "wiki": "Diebold Nixdorf",
+      "tier": null
+    },
+    {
+      "name": "Corpay",
+      "wiki": "Corpay",
+      "tier": null
+    },
+    {
+      "name": "iHeartMedia",
+      "wiki": "IHeartMedia",
+      "tier": null
+    },
+    {
+      "name": "Boyd Gaming",
+      "wiki": "Boyd Gaming",
+      "tier": null
+    },
+    {
+      "name": "Conduent",
+      "wiki": "Conduent",
+      "tier": null
+    },
+    {
+      "name": "Tri Pointe Homes",
+      "wiki": "Tri Pointe Homes",
+      "tier": null
+    },
+    {
+      "name": "EnerSys",
+      "wiki": "EnerSys",
+      "tier": null
+    },
+    {
+      "name": "Incyte",
+      "wiki": "Incyte",
+      "tier": null
+    },
+    {
+      "name": "Century Communities",
+      "wiki": "Century Communities",
+      "tier": null
+    },
+    {
+      "name": "Rithm Capital",
+      "wiki": "Rithm Capital",
+      "tier": null
+    },
+    {
+      "name": "Euronet Worldwide",
+      "wiki": "Euronet Worldwide",
+      "tier": null
+    },
+    {
+      "name": "Hawaiian Electric Industries",
+      "wiki": "Hawaiian Electric Industries",
+      "tier": null
+    },
+    {
+      "name": "DraftKings",
+      "wiki": "DraftKings",
+      "tier": null
+    },
+    {
+      "name": "IDEXX Laboratories",
+      "wiki": "Idexx Laboratories",
+      "tier": null
+    },
+    {
+      "name": "MYR Group",
+      "aliases": [
+        "MYR",
+        "MYR Group Inc."
+      ],
+      "wiki": "MYR Group Inc.",
+      "tier": null
+    },
+    {
+      "name": "Deckers Outdoor",
+      "aliases": [
+        "Deckers Brands"
+      ],
+      "wiki": "Deckers Brands",
+      "tier": null
+    },
+    {
+      "name": "DexCom",
+      "wiki": "Dexcom",
+      "tier": null
+    },
+    {
+      "name": "MKS Instruments",
+      "wiki": "MKS Instruments",
+      "tier": null
+    },
+    {
+      "name": "VICI Properties",
+      "wiki": "Vici Properties",
+      "tier": null
+    },
+    {
+      "name": "The Cooper Companies",
+      "aliases": [
+        "Cooper Cos."
+      ],
+      "wiki": "The Cooper Companies",
+      "tier": null
+    },
+    {
+      "name": "Qorvo",
+      "wiki": "Qorvo",
+      "tier": null
+    },
+    {
+      "name": "Five Below",
+      "wiki": "Five Below",
+      "tier": null
+    },
+    {
+      "name": "TreeHouse Foods",
+      "wiki": "TreeHouse Foods",
+      "tier": null
+    },
+    {
+      "name": "H.B. Fuller",
+      "wiki": "H.B. Fuller",
+      "tier": null
+    },
+    {
+      "name": "Granite Construction",
+      "wiki": "Granite Construction",
+      "tier": null
+    },
+    {
+      "name": "Winnebago Industries",
+      "wiki": "Winnebago Industries",
+      "tier": null
+    },
+    {
+      "name": "AptarGroup",
+      "wiki": "AptarGroup",
+      "tier": null
+    },
+    {
+      "name": "Columbia Sportswear",
+      "wiki": "Columbia Sportswear",
+      "tier": null
+    },
+    {
+      "name": "Roku",
+      "wiki": "Roku",
+      "tier": null
+    },
+    {
+      "name": "H&R Block Group",
+      "aliases": [
+        "H&R Block"
+      ],
+      "wiki": "H&R Block",
+      "tier": null
+    },
+    {
+      "name": "Murphy Oil",
+      "wiki": "Murphy Oil",
+      "tier": null
+    },
+    {
+      "name": "Synovus Financial",
+      "aliases": [
+        "Synovus"
+      ],
+      "wiki": "Synovus",
+      "tier": null
+    },
+    {
+      "name": "Cracker Barrel Old Country Store",
+      "aliases": [
+        "Cracker Barrel"
+      ],
+      "wiki": "Cracker Barrel",
+      "tier": null
+    },
+    {
+      "name": "Cheesecake Factory",
+      "aliases": [
+        "The Cheesecake Factory"
+      ],
+      "wiki": "The Cheesecake Factory",
+      "tier": null
+    },
+    {
+      "name": "CNX Resources",
+      "wiki": "CNX Resources",
+      "tier": null
+    },
+    {
+      "name": "Donaldson",
+      "aliases": [
+        "Donaldson Company"
+      ],
+      "wiki": "Donaldson Company",
+      "tier": null
+    },
+    {
+      "name": "Mueller Industries",
+      "wiki": "Mueller Industries",
+      "tier": null
+    },
+    {
+      "name": "Vishay Intertechnology",
+      "wiki": "Vishay Intertechnology",
+      "tier": null
+    },
+    {
+      "name": "Range Resources",
+      "wiki": "Range Resources",
+      "tier": null
+    },
+    {
+      "name": "Valley National Bancorp",
+      "aliases": [
+        "Valley Bank"
+      ],
+      "wiki": "Valley Bank",
+      "tier": null
+    },
+    {
+      "name": "Gen Digital",
+      "wiki": "Gen Digital",
+      "tier": null
+    },
+    {
+      "name": "Wintrust Financial",
+      "wiki": "Wintrust Financial",
+      "tier": null
+    },
+    {
+      "name": "Moog Inc.",
+      "aliases": [
+        "Moog"
+      ],
+      "wiki": "Moog Inc.",
+      "tier": null
+    },
+    {
+      "name": "First Solar",
+      "wiki": "First Solar",
+      "tier": null
+    },
+    {
+      "name": "Green Plains",
+      "wiki": "Green Plains",
+      "tier": null
+    },
+    {
+      "name": "Werner Enterprises",
+      "wiki": "Werner Enterprises",
+      "tier": null
+    },
+    {
+      "name": "AppLovin",
+      "wiki": "AppLovin",
+      "tier": null
+    },
+    {
+      "name": "ITT Inc.",
+      "aliases": [
+        "ITT"
+      ],
+      "wiki": "ITT Inc.",
+      "tier": null
+    },
+    {
+      "name": "Herc Rentals",
+      "aliases": [
+        "Herc Holdings",
+        "Herc"
+      ],
+      "wiki": "Herc Rentals",
+      "tier": null
+    },
+    {
+      "name": "Gray Television",
+      "aliases": [
+        "Gray Media"
+      ],
+      "wiki": "Gray Media",
+      "tier": null
+    },
+    {
+      "name": "IDEX Corporation",
+      "aliases": [
+        "IDEX"
+      ],
+      "wiki": "IDEX Corporation",
+      "tier": null
+    },
+    {
+      "name": "Pitney Bowes",
+      "wiki": "Pitney Bowes",
+      "tier": null
+    },
+    {
+      "name": "Steelcase",
+      "wiki": "Steelcase",
+      "tier": null
+    },
+    {
+      "name": "Sun Communities",
+      "wiki": "Sun Communities",
+      "tier": null
+    },
+    {
+      "name": "AdaptHealth",
+      "wiki": "AdaptHealth",
+      "tier": null
+    },
+    {
+      "name": "Cal-Maine Foods",
+      "aliases": [
+        "Cal-Maine"
+      ],
+      "wiki": "Cal-Maine",
+      "tier": null
+    },
+    {
+      "name": "Arch Resources",
+      "wiki": "Arch Resources",
+      "tier": null
+    },
+    {
+      "name": "Avient",
+      "aliases": [
+        "Avient Corporation"
+      ],
+      "wiki": "Avient Corporation",
+      "tier": null
+    },
+    {
+      "name": "BlueLinx Holdings",
+      "aliases": [
+        "BlueLinx"
+      ],
+      "wiki": "BlueLinx",
+      "tier": null
+    },
+    {
+      "name": "BOK Financial",
+      "aliases": [
+        "BOK Financial Corporation"
+      ],
+      "wiki": "BOK Financial Corporation",
+      "tier": null
+    },
+    {
+      "name": "Federated Mutual Insurance",
+      "aliases": [
+        "Federated Mutual Insurance Company"
+      ],
+      "wiki": "Federated Mutual Insurance Company",
+      "tier": null
+    },
+    {
+      "name": "G-III Apparel Group",
+      "aliases": [
+        "G-III Apparel"
+      ],
+      "wiki": "G-III Apparel Group",
+      "tier": null
+    },
+    {
+      "name": "Vontier",
+      "wiki": "Vontier",
+      "tier": null
+    },
+    {
+      "name": "Kirby Corporation",
+      "aliases": [
+        "Kirby"
+      ],
+      "wiki": "Kirby Corporation",
+      "tier": null
+    },
+    {
+      "name": "Kaiser Aluminum",
+      "wiki": "Kaiser Aluminum",
+      "tier": null
+    },
+    {
+      "name": "Vista Outdoor",
+      "wiki": "Vista Outdoor",
+      "tier": null
+    },
+    {
+      "name": "Designer Brands",
+      "wiki": "Designer Brands",
+      "tier": null
+    },
+    {
+      "name": "Rollins",
+      "aliases": [
+        "Rollins, Inc."
+      ],
+      "wiki": "Rollins, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Advanced Drainage Systems",
+      "wiki": "Advanced Drainage Systems",
+      "tier": null
+    },
+    {
+      "name": "Allison Transmission Holdings",
+      "aliases": [
+        "Allison Transmission"
+      ],
+      "wiki": "Allison Transmission",
+      "tier": null
+    },
+    {
+      "name": "RH (Restoration Hardware)",
+      "aliases": [
+        "RH"
+      ],
+      "wiki": "RH (company)",
+      "tier": null
+    },
+    {
+      "name": "Brookdale Senior Living",
+      "wiki": "Brookdale Senior Living",
+      "tier": null
+    },
+    {
+      "name": "QuidelOrtho",
+      "wiki": "QuidelOrtho",
+      "tier": null
+    },
+    {
+      "name": "Teleflex",
+      "wiki": "Teleflex",
+      "tier": null
+    },
+    {
+      "name": "HEICO",
+      "wiki": "HEICO",
+      "tier": null
+    },
+    {
+      "name": "Bruker",
+      "wiki": "Bruker",
+      "tier": null
+    },
+    {
+      "name": "Energizer Holdings",
+      "aliases": [
+        "Energizer"
+      ],
+      "wiki": "Energizer",
+      "tier": null
+    },
+    {
+      "name": "Quad",
+      "aliases": [
+        "Quad/Graphics"
+      ],
+      "wiki": "Quad (company)",
+      "tier": null
+    },
+    {
+      "name": "Waters Corporation",
+      "wiki": "Waters Corporation",
+      "tier": null
+    },
+    {
+      "name": "West Pharmaceutical Services",
+      "wiki": "West Pharmaceutical Services",
+      "tier": null
+    },
+    {
+      "name": "Carter's",
+      "wiki": "Carter's",
+      "tier": null
+    },
+    {
+      "name": "Acadia Healthcare",
+      "wiki": "Acadia Healthcare",
+      "tier": null
+    },
+    {
+      "name": "Revvity",
+      "wiki": "Revvity",
+      "tier": null
+    },
+    {
+      "name": "Portland General Electric",
+      "wiki": "Portland General Electric",
+      "tier": null
+    },
+    {
+      "name": "TEGNA",
+      "aliases": [
+        "Tegna Inc."
+      ],
+      "wiki": "Tegna Inc.",
+      "tier": null
+    },
+    {
+      "name": "Light & Wonder",
+      "wiki": "Light & Wonder",
+      "tier": null
+    },
+    {
+      "name": "Vail Resorts",
+      "wiki": "Vail Resorts",
+      "tier": null
+    },
+    {
+      "name": "Radius Recycling",
+      "wiki": "Radius Recycling",
+      "tier": null
+    },
+    {
+      "name": "PennyMac Financial Services",
+      "aliases": [
+        "Pennymac"
+      ],
+      "wiki": "Pennymac",
+      "tier": null
+    },
+    {
+      "name": "Saia",
+      "wiki": "Saia",
+      "tier": null
+    },
+    {
+      "name": "Helmerich & Payne",
+      "wiki": "Helmerich & Payne",
+      "tier": null
+    },
+    {
+      "name": "PC Connection",
+      "wiki": "PC Connection",
+      "tier": null
+    },
+    {
+      "name": "Curtiss-Wright",
+      "wiki": "Curtiss-Wright",
+      "tier": null
+    },
+    {
+      "name": "Sallie Mae",
+      "aliases": [
+        "SLM"
+      ],
+      "wiki": "Sallie Mae",
+      "tier": null
+    },
+    {
+      "name": "Benchmark Electronics",
+      "wiki": "Benchmark Electronics",
+      "tier": null
+    },
+    {
+      "name": "Pure Storage",
+      "aliases": [
+        "Everpure"
+      ],
+      "wiki": "Everpure",
+      "tier": null
+    },
+    {
+      "name": "Caleres",
+      "wiki": "Caleres",
+      "tier": null
+    },
+    {
+      "name": "Primerica",
+      "wiki": "Primerica",
+      "tier": null
+    },
+    {
+      "name": "California Resources",
+      "aliases": [
+        "California Resources Corporation"
+      ],
+      "wiki": "California Resources Corporation",
+      "tier": null
+    },
+    {
+      "name": "Peloton Interactive",
+      "wiki": "Peloton Interactive",
+      "tier": null
+    },
+    {
+      "name": "First National of Nebraska",
+      "wiki": "First National of Nebraska",
+      "tier": null
+    },
+    {
+      "name": "Guess",
+      "wiki": "Guess (company)",
+      "tier": null
+    },
+    {
+      "name": "ESAB",
+      "wiki": "ESAB",
+      "tier": null
+    },
+    {
+      "name": "Amica Mutual Insurance",
+      "wiki": "Amica Mutual Insurance",
+      "tier": null
+    },
+    {
+      "name": "DocuSign",
+      "wiki": "Docusign",
+      "tier": null
+    },
+    {
+      "name": "Titan Machinery",
+      "wiki": "Titan Machinery",
+      "tier": null
+    },
+    {
+      "name": "ModivCare",
+      "wiki": "ModivCare",
+      "tier": null
+    },
+    {
+      "name": "Hovnanian Enterprises",
+      "wiki": "Hovnanian Enterprises",
+      "tier": null
+    },
+    {
+      "name": "Adams Resources & Energy",
+      "wiki": "Adams Resources & Energy",
+      "tier": null
+    },
+    {
+      "name": "Verisk Analytics",
+      "wiki": "Verisk Analytics",
+      "tier": null
+    },
+    {
+      "name": "Hawaiian Airlines",
+      "aliases": [
+        "Hawaiian Holdings",
+        "Hawaiian"
+      ],
+      "wiki": "Hawaiian Airlines",
+      "tier": null
+    },
+    {
+      "name": "AMC Networks",
+      "aliases": [
+        "AMC Global Media"
+      ],
+      "wiki": "AMC Global Media",
+      "tier": null
+    },
+    {
+      "name": "SBA Communications",
+      "wiki": "SBA Communications",
+      "tier": null
+    },
+    {
+      "name": "NewMarket",
+      "aliases": [
+        "NewMarket Corporation"
+      ],
+      "wiki": "NewMarket Corporation",
+      "tier": null
+    },
+    {
+      "name": "Park Hotels & Resorts",
+      "wiki": "Park Hotels & Resorts",
+      "tier": null
+    },
+    {
+      "name": "Alexandria Real Estate Equities",
+      "wiki": "Alexandria Real Estate Equities",
+      "tier": null
+    },
+    {
+      "name": "Griffon",
+      "aliases": [
+        "Griffon Corporation"
+      ],
+      "wiki": "Griffon Corporation",
+      "tier": null
+    },
+    {
+      "name": "Air Lease",
+      "aliases": [
+        "Air Lease Corporation"
+      ],
+      "wiki": "Air Lease Corporation",
+      "tier": null
+    },
+    {
+      "name": "UL Solutions",
+      "aliases": [
+        "UL"
+      ],
+      "wiki": "UL (safety organization)",
+      "tier": null
+    },
+    {
+      "name": "Teradyne",
+      "wiki": "Teradyne",
+      "tier": null
+    },
+    {
+      "name": "OGE Energy",
+      "aliases": [
+        "Oklahoma Gas & Electric"
+      ],
+      "wiki": "Oklahoma Gas & Electric",
+      "tier": null
+    },
+    {
+      "name": "Bio-Rad Laboratories",
+      "wiki": "Bio-Rad Laboratories",
+      "tier": null
+    },
+    {
+      "name": "Spire Inc.",
+      "wiki": "Spire Inc.",
+      "tier": null
+    },
+    {
+      "name": "Gannett",
+      "aliases": [
+        "USA Today Co."
+      ],
+      "wiki": "USA Today Co.",
+      "tier": null
+    },
+    {
+      "name": "Stericycle",
+      "wiki": "Stericycle",
+      "tier": null
+    },
+    {
+      "name": "Extra Space Storage",
+      "wiki": "Extra Space Storage",
+      "tier": null
+    },
+    {
+      "name": "REV Group",
+      "wiki": "REV Group",
+      "tier": null
+    },
+    {
+      "name": "Nordson",
+      "aliases": [
+        "Nordson Corporation"
+      ],
+      "wiki": "Nordson Corporation",
+      "tier": null
+    },
+    {
+      "name": "Valvoline",
+      "wiki": "Valvoline",
+      "tier": null
+    },
+    {
+      "name": "Kontoor Brands",
+      "wiki": "Kontoor Brands",
+      "tier": null
+    },
+    {
+      "name": "Teladoc Health",
+      "wiki": "Teladoc Health",
+      "tier": null
+    },
+    {
+      "name": "Louisiana-Pacific",
+      "wiki": "Louisiana-Pacific",
+      "tier": null
+    },
+    {
+      "name": "Universal Corporation",
+      "wiki": "Universal Corporation",
+      "tier": null
+    },
+    {
+      "name": "Consol Energy",
+      "wiki": "Consol Energy",
+      "tier": null
+    },
+    {
+      "name": "Playtika Holding",
+      "aliases": [
+        "Playtika"
+      ],
+      "wiki": "Playtika",
+      "tier": null
+    },
+    {
+      "name": "Shift4 Payments",
+      "aliases": [
+        "Shift4"
+      ],
+      "wiki": "Shift4",
+      "tier": null
+    },
+    {
+      "name": "Talen Energy",
+      "wiki": "Talen Energy",
+      "tier": null
+    },
+    {
+      "name": "Carpenter Technology",
+      "aliases": [
+        "Carpenter Technology Corporation"
+      ],
+      "wiki": "Carpenter Technology Corporation",
+      "tier": null
+    },
+    {
+      "name": "WEX",
+      "aliases": [
+        "WEX Inc."
+      ],
+      "wiki": "WEX Inc.",
+      "tier": null
+    },
+    {
+      "name": "Old National Bancorp",
+      "aliases": [
+        "Old National Bank"
+      ],
+      "wiki": "Old National Bank",
+      "tier": null
+    },
+    {
+      "name": "Wabash National",
+      "wiki": "Wabash National",
+      "tier": null
+    },
+    {
+      "name": "MSCI",
+      "wiki": "MSCI",
+      "tier": null
+    },
+    {
+      "name": "Stagwell",
+      "wiki": "Stagwell",
+      "tier": null
+    },
+    {
+      "name": "Belden",
+      "aliases": [
+        "Belden Incorporated"
+      ],
+      "wiki": "Belden Incorporated",
+      "tier": null
+    },
+    {
+      "name": "Allegiant Travel",
+      "aliases": [
+        "Allegiant Travel Company"
+      ],
+      "wiki": "Allegiant Travel Company",
+      "tier": null
+    },
+    {
+      "name": "Exact Sciences",
+      "aliases": [
+        "Exact Sciences Corporation"
+      ],
+      "wiki": "Exact Sciences Corporation",
+      "tier": null
+    },
+    {
+      "name": "BWX Technologies",
+      "wiki": "BWX Technologies",
+      "tier": null
+    },
+    {
+      "name": "Clear Channel Outdoor",
+      "aliases": [
+        "Clear Channel Outdoor Hldgs."
+      ],
+      "wiki": "Clear Channel Outdoor",
+      "tier": null
+    }
+  ]
+}

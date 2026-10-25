@@ -91,8 +91,6 @@ async function init() {
 
   $('#event-name').textContent = cfg.event.name;
   $('#event-tagline').textContent = cfg.event.tagline;
-  const select = $('#checkin select');
-  for (const s of cfg.sections) select.append(new Option(s, s));
   $('#hud-blocks').append(...cfg.prompts.map(() => document.createElement('i')));
   $('#timer-ring').style.strokeDasharray = String(2 * Math.PI * 19);
 
@@ -120,10 +118,9 @@ $('#begin').addEventListener('click', () => {
   if (saved) {
     form.first.value = saved.first || '';
     form.last.value = saved.last || '';
-    form.section.value = saved.section || '';
   }
   show('checkin');
-  (form.first.value ? form.section : form.first).focus();
+  form.first.focus();
 });
 
 $('#checkin').addEventListener('submit', (e) => {
@@ -132,9 +129,8 @@ $('#checkin').addEventListener('submit', (e) => {
   const player = {
     first: form.first.value.trim(),
     last: form.last.value.trim(),
-    section: form.section.value,
   };
-  const error = !player.first ? 'Enter your first name.' : !player.last ? 'Enter your last name.' : !player.section ? 'Choose your class section.' : '';
+  const error = !player.first ? 'Enter your first name.' : !player.last ? 'Enter your last name.' : '';
   $('#checkin-error').textContent = error;
   if (error) return;
   save(KEY.player, player);
@@ -296,8 +292,8 @@ async function submit(payload) {
 function showResults(data) {
   show('results');
   world.setBiome(biomeFor(data.miles));
-  const { first, last, section } = data.player;
-  $('#checked-in').textContent = `✓ Checked in · ${first} ${last} · ${section}`;
+  const { first, last } = data.player;
+  $('#checked-in').textContent = `✓ Checked in · ${first} ${last}`;
   $('#final-score').textContent = data.score;
   $('#final-distance').textContent = fmtDist(data.miles);
 

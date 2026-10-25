@@ -1,0 +1,5983 @@
+{
+  "prompt": "Name a programming or query language",
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_programming_languages",
+    "https://en.wikipedia.org/wiki/List_of_programming_languages_by_type",
+    "https://en.wikipedia.org/wiki/List_of_BASIC_dialects",
+    "https://en.wikipedia.org/wiki/Query_language",
+    "https://en.wikipedia.org/wiki/List_of_document_markup_languages",
+    "https://en.wikipedia.org/wiki/Stylesheet_language",
+    "https://en.wikipedia.org/wiki/Esoteric_programming_language",
+    "MediaWiki API (action=parse wikitext; action=query redirects=1 for canonical titles)",
+    "Curated additions: BI/analytics query & formula languages (DAX, Power Query M, KQL, SPL, LookML, SOQL, PromQL, SQL dialects) and markup/data formats"
+  ],
+  "answers": [
+    {
+      "name": "Java",
+      "aliases": [],
+      "wiki": "Java (programming language)",
+      "tier": 1
+    },
+    {
+      "name": "JavaScript",
+      "aliases": [
+        "JS"
+      ],
+      "wiki": "JavaScript",
+      "tier": 1
+    },
+    {
+      "name": "Python",
+      "aliases": [
+        "py",
+        "Python 3"
+      ],
+      "wiki": "Python (programming language)",
+      "tier": 1
+    },
+    {
+      "name": "SQL",
+      "aliases": [
+        "Structured Query Language"
+      ],
+      "wiki": "SQL",
+      "tier": 1
+    },
+    {
+      "name": "C",
+      "aliases": [],
+      "wiki": "C (programming language)",
+      "tier": 2
+    },
+    {
+      "name": "C#",
+      "aliases": [],
+      "wiki": "C Sharp (programming language)",
+      "tier": 2
+    },
+    {
+      "name": "C++",
+      "aliases": [
+        "CPP"
+      ],
+      "wiki": "C++",
+      "tier": 2
+    },
+    {
+      "name": "HTML",
+      "aliases": [
+        "HTML5",
+        "Hypertext Markup Language"
+      ],
+      "wiki": "HTML",
+      "tier": 2
+    },
+    {
+      "name": "R",
+      "aliases": [],
+      "wiki": "R (programming language)",
+      "tier": 2
+    },
+    {
+      "name": "TypeScript",
+      "aliases": [
+        "TS"
+      ],
+      "wiki": "TypeScript",
+      "tier": 2
+    },
+    {
+      "name": "VBA",
+      "aliases": [
+        "Visual Basic for Applications",
+        "Excel VBA",
+        "Macros"
+      ],
+      "wiki": "Visual Basic for Applications",
+      "tier": 2
+    },
+    {
+      "name": "CSS",
+      "aliases": [
+        "Cascading Style Sheets",
+        "CSS3"
+      ],
+      "wiki": "CSS",
+      "tier": 3
+    },
+    {
+      "name": "Excel formulas",
+      "aliases": [
+        "Excel formula language",
+        "Spreadsheet formulas",
+        "Excel functions"
+      ],
+      "wiki": null,
+      "tier": 3
+    },
+    {
+      "name": "MySQL",
+      "aliases": [],
+      "wiki": "MySQL",
+      "tier": 3
+    },
+    {
+      "name": "Power Query M",
+      "aliases": [
+        "M language",
+        "Power Query",
+        "M formula language",
+        "Power Query Formula Language"
+      ],
+      "wiki": "Power Query",
+      "tier": 3
+    },
+    {
+      "name": "Apex",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "JSON",
+      "aliases": [
+        "JavaScript Object Notation"
+      ],
+      "wiki": "JSON",
+      "tier": 4
+    },
+    {
+      "name": "KQL",
+      "aliases": [
+        "Kusto Query Language",
+        "Kusto"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "LaTeX",
+      "aliases": [],
+      "wiki": "LaTeX",
+      "tier": 4
+    },
+    {
+      "name": "Markdown",
+      "aliases": [
+        "MD"
+      ],
+      "wiki": "Markdown",
+      "tier": 4
+    },
+    {
+      "name": "Oracle SQL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "PostgreSQL",
+      "aliases": [
+        "Postgres",
+        "PL/pgSQL",
+        "PostgreSQL SQL"
+      ],
+      "wiki": "PostgreSQL",
+      "tier": 4
+    },
+    {
+      "name": "Regex",
+      "aliases": [
+        "Regular expressions",
+        "Regular expression",
+        "RegExp"
+      ],
+      "wiki": "Regular expression",
+      "tier": 4
+    },
+    {
+      "name": "Spark SQL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "SQLite",
+      "aliases": [],
+      "wiki": "SQLite",
+      "tier": 4
+    },
+    {
+      "name": "XML",
+      "aliases": [
+        "Extensible Markup Language"
+      ],
+      "wiki": "XML",
+      "tier": 4
+    },
+    {
+      "name": "Arduino",
+      "aliases": [
+        "Arduino C"
+      ],
+      "wiki": "Arduino",
+      "tier": 5
+    },
+    {
+      "name": "ASP.NET",
+      "aliases": [
+        "ASP"
+      ],
+      "wiki": "ASP.NET",
+      "tier": 5
+    },
+    {
+      "name": "BigQuery SQL",
+      "aliases": [
+        "GoogleSQL",
+        "Standard SQL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "CQL",
+      "aliases": [
+        "Cassandra Query Language"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Game Maker Language",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "GDScript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "HCL",
+      "aliases": [
+        "HashiCorp Configuration Language",
+        "Terraform"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "HiveQL",
+      "aliases": [
+        "Hive Query Language",
+        "Hive SQL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "HQL",
+      "aliases": [
+        "Hibernate Query Language"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "LookML",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "NoSQL",
+      "aliases": [],
+      "wiki": "NoSQL",
+      "tier": 5
+    },
+    {
+      "name": "PromQL",
+      "aliases": [
+        "Prometheus Query Language"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Sass",
+      "aliases": [
+        "SCSS"
+      ],
+      "wiki": "Sass (style sheet language)",
+      "tier": 5
+    },
+    {
+      "name": "Snowflake SQL",
+      "aliases": [
+        "SnowSQL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SOQL",
+      "aliases": [
+        "Salesforce Object Query Language"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SPL",
+      "aliases": [
+        "Splunk Processing Language",
+        "Search Processing Language",
+        "Splunk SPL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SPSS syntax",
+      "aliases": [
+        "SPSS command syntax"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SVG",
+      "aliases": [
+        "Scalable Vector Graphics"
+      ],
+      "wiki": "SVG",
+      "tier": 5
+    },
+    {
+      "name": "Tableau calculated fields",
+      "aliases": [
+        "Tableau calculation language",
+        "Tableau formulas"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Tailwind CSS",
+      "aliases": [
+        "Tailwind"
+      ],
+      "wiki": "Tailwind CSS",
+      "tier": 5
+    },
+    {
+      "name": "UML",
+      "aliases": [
+        "Unified Modeling Language"
+      ],
+      "wiki": "Unified Modeling Language",
+      "tier": 5
+    },
+    {
+      "name": "UnrealScript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Verse",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Vim script",
+      "aliases": [
+        "VimL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "X++",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "XHTML",
+      "aliases": [],
+      "wiki": "XHTML",
+      "tier": 5
+    },
+    {
+      "name": "YAML",
+      "aliases": [
+        "YML"
+      ],
+      "wiki": "YAML",
+      "tier": 5
+    },
+    {
+      "name": "ABAP CDS",
+      "aliases": [
+        "Core Data Services"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Accent",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Adenine",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AL",
+      "aliases": [
+        "AL language",
+        "Business Central AL"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Analitik",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AQL",
+      "aliases": [
+        "ArangoDB Query Language"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Babbage",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BASICA",
+      "aliases": [
+        "Advanced BASIC",
+        "IBM BASIC"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "batari BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Bicep",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Blitz3D",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BlitzMax",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BlitzPlus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BPMN",
+      "aliases": [
+        "Business Process Model and Notation"
+      ],
+      "wiki": "Business Process Model and Notation",
+      "tier": 6
+    },
+    {
+      "name": "BrightScript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BURP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cangjie",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cayenne",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Chef",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ClojureScript",
+      "aliases": [
+        "CLJS"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CodeQL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Compaq BASIC for OpenVMS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DEC BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dhall",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DHTML",
+      "aliases": [
+        "Dynamic HTML"
+      ],
+      "wiki": "Dynamic HTML",
+      "tier": 6
+    },
+    {
+      "name": "DinkC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dockerfile",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dog",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "EASYTRIEVE PLUS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Elvish",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "es shell",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ESPOL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Fennel",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FFP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Flux",
+      "aliases": [
+        "InfluxQL"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "FUZE BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GOTRAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GraphTalk",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Handlebars",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hare",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "HolyC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "HP BASIC for OpenVMS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Jai",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Janet",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "JASS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Join Java",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "JSON Schema",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Jsonnet",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "KEE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Koka",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "KRYPTON",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Kv",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Lambda calculus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Legoscript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Less",
+      "aliases": [
+        "LESS CSS"
+      ],
+      "wiki": "Less (style sheet language)",
+      "tier": 6
+    },
+    {
+      "name": "Liquid",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LLL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Lobster",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LPC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LSL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Malloy",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MaxScript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mermaid",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Microsoft Level III BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mohol",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Move",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MQL4",
+      "aliases": [
+        "MQL5",
+        "MetaQuotes Language"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mustache",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mystic Programming Language",
+      "aliases": [
+        "MPL"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "N1QL",
+      "aliases": [
+        "SQL++"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "NEWP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Not eXactly C",
+      "aliases": [
+        "NXC"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Not Quite C",
+      "aliases": [
+        "NQC"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Nullsoft Scriptable Install System",
+      "aliases": [
+        "NSIS"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Nushell",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "NWScript",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "NXT-G",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OBASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OBJ2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Objective-C++",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Objective-J",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ObjectLOGO",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Odin",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Office Scripts",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OpenAPI",
+      "aliases": [
+        "Swagger"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pico",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Piet",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pine Script",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pkl",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PL/P",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PortablE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PostCSS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PRQL",
+      "aliases": [
+        "Pipelined Relational Query Language"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pug",
+      "aliases": [
+        "Jade templates"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pyret",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ratfiv",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Razor",
+      "aliases": [
+        "CSHTML"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RDF",
+      "aliases": [
+        "Resource Description Framework"
+      ],
+      "wiki": "Resource Description Framework",
+      "tier": 6
+    },
+    {
+      "name": "Ring",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Roc",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RSL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "S2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SAM BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SAQL",
+      "aliases": [
+        "Salesforce Analytics Query Language"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Serpent",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SGML",
+      "aliases": [
+        "Standard Generalized Markup Language"
+      ],
+      "wiki": "Standard Generalized Markup Language",
+      "tier": 6
+    },
+    {
+      "name": "SIMPOL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SmartBASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Smarty",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ST BASIC (Atari)",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Starlark",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Stylus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TI Extended BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TOML",
+      "aliases": [],
+      "wiki": "TOML",
+      "tier": 6
+    },
+    {
+      "name": "TRS-80 Level II BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Turtle",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Twig",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tymshare SuperBasic",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Unison",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "VAX BASIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Viper",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "VSI BASIC for OpenVMS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Vyper",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Wren",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "XBL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "XC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "XL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "XSL",
+      "aliases": [
+        "Extensible Stylesheet Language"
+      ],
+      "wiki": "XSL",
+      "tier": 6
+    },
+    {
+      "name": "yab",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ZOPL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": ".QL",
+      "aliases": [],
+      "wiki": ".QL",
+      "tier": null
+    },
+    {
+      "name": "@Formula",
+      "aliases": [],
+      "wiki": "Formula language",
+      "tier": null
+    },
+    {
+      "name": "A-0 System",
+      "aliases": [],
+      "wiki": "A-0 System",
+      "tier": null
+    },
+    {
+      "name": "A#",
+      "aliases": [
+        "A.NET"
+      ],
+      "wiki": "A Sharp (.NET)",
+      "tier": null
+    },
+    {
+      "name": "A+",
+      "aliases": [],
+      "wiki": "A+ (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ABAP",
+      "aliases": [],
+      "wiki": "ABAP",
+      "tier": null
+    },
+    {
+      "name": "ABC",
+      "aliases": [],
+      "wiki": "ABC (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ACC",
+      "aliases": [],
+      "wiki": "ACC (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Action!",
+      "aliases": [],
+      "wiki": "Action! (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ActionScript",
+      "aliases": [],
+      "wiki": "ActionScript",
+      "tier": null
+    },
+    {
+      "name": "Actor",
+      "aliases": [],
+      "wiki": "Actor (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Ada",
+      "aliases": [],
+      "wiki": "Ada (programming language)",
+      "tier": null
+    },
+    {
+      "name": "AdvPL",
+      "aliases": [],
+      "wiki": "AdvPL",
+      "tier": null
+    },
+    {
+      "name": "Agda",
+      "aliases": [],
+      "wiki": "Agda (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Agilent VEE",
+      "aliases": [],
+      "wiki": "Keysight VEE",
+      "tier": null
+    },
+    {
+      "name": "Agora",
+      "aliases": [],
+      "wiki": "Agora (programming language)",
+      "tier": null
+    },
+    {
+      "name": "AIMMS",
+      "aliases": [],
+      "wiki": "AIMMS",
+      "tier": null
+    },
+    {
+      "name": "Aldor",
+      "aliases": [],
+      "wiki": "Aldor",
+      "tier": null
+    },
+    {
+      "name": "Alef",
+      "aliases": [],
+      "wiki": "Alef (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Algebraic Logic Functional programming language",
+      "aliases": [
+        "ALF"
+      ],
+      "wiki": "Algebraic Logic Functional programming language",
+      "tier": null
+    },
+    {
+      "name": "ALGOL 58",
+      "aliases": [],
+      "wiki": "ALGOL 58",
+      "tier": null
+    },
+    {
+      "name": "ALGOL 60",
+      "aliases": [],
+      "wiki": "ALGOL 60",
+      "tier": null
+    },
+    {
+      "name": "ALGOL 68",
+      "aliases": [],
+      "wiki": "ALGOL 68",
+      "tier": null
+    },
+    {
+      "name": "ALGOL W",
+      "aliases": [],
+      "wiki": "ALGOL W",
+      "tier": null
+    },
+    {
+      "name": "Alice ML",
+      "aliases": [],
+      "wiki": "Alice (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Alma-0",
+      "aliases": [],
+      "wiki": "Alma-0",
+      "tier": null
+    },
+    {
+      "name": "AlphaBasic",
+      "aliases": [],
+      "wiki": "AlphaBasic",
+      "tier": null
+    },
+    {
+      "name": "Altair BASIC",
+      "aliases": [],
+      "wiki": "Altair BASIC",
+      "tier": null
+    },
+    {
+      "name": "AmbientTalk",
+      "aliases": [],
+      "wiki": "AmbientTalk",
+      "tier": null
+    },
+    {
+      "name": "Amiga BASIC",
+      "aliases": [],
+      "wiki": "Amiga Basic",
+      "tier": null
+    },
+    {
+      "name": "Amiga E",
+      "aliases": [],
+      "wiki": "Amiga E",
+      "tier": null
+    },
+    {
+      "name": "AMOS BASIC",
+      "aliases": [],
+      "wiki": "AMOS (programming language)",
+      "tier": null
+    },
+    {
+      "name": "AMPL",
+      "aliases": [],
+      "wiki": "AMPL",
+      "tier": null
+    },
+    {
+      "name": "AngelScript",
+      "aliases": [],
+      "wiki": "AngelScript",
+      "tier": null
+    },
+    {
+      "name": "APL",
+      "aliases": [],
+      "wiki": "APL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "App Inventor",
+      "aliases": [
+        "MIT App Inventor"
+      ],
+      "wiki": "MIT App Inventor",
+      "tier": null
+    },
+    {
+      "name": "Apple Business BASIC",
+      "aliases": [],
+      "wiki": "Apple Business BASIC",
+      "tier": null
+    },
+    {
+      "name": "AppleScript",
+      "aliases": [],
+      "wiki": "AppleScript",
+      "tier": null
+    },
+    {
+      "name": "Applesoft BASIC",
+      "aliases": [],
+      "wiki": "Applesoft BASIC",
+      "tier": null
+    },
+    {
+      "name": "APT",
+      "aliases": [],
+      "wiki": "APT (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Arc",
+      "aliases": [],
+      "wiki": "Arc (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ARexx",
+      "aliases": [],
+      "wiki": "ARexx",
+      "tier": null
+    },
+    {
+      "name": "Argus",
+      "aliases": [],
+      "wiki": "Argus (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ArkTS",
+      "aliases": [],
+      "wiki": "ArkTS",
+      "tier": null
+    },
+    {
+      "name": "AsciiDoc",
+      "aliases": [],
+      "wiki": "AsciiDoc",
+      "tier": null
+    },
+    {
+      "name": "ASIC",
+      "aliases": [],
+      "wiki": "ASIC programming language",
+      "tier": null
+    },
+    {
+      "name": "Assembly language",
+      "aliases": [
+        "Assembly",
+        "ASM"
+      ],
+      "wiki": "Assembly language",
+      "tier": null
+    },
+    {
+      "name": "AssemblyScript",
+      "aliases": [],
+      "wiki": "AssemblyScript",
+      "tier": null
+    },
+    {
+      "name": "Atari BASIC",
+      "aliases": [],
+      "wiki": "Atari BASIC",
+      "tier": null
+    },
+    {
+      "name": "Atari Microsoft BASIC",
+      "aliases": [],
+      "wiki": "Atari Microsoft BASIC",
+      "tier": null
+    },
+    {
+      "name": "Atom BASIC",
+      "aliases": [],
+      "wiki": "Acorn System BASIC",
+      "tier": null
+    },
+    {
+      "name": "ATS",
+      "aliases": [],
+      "wiki": "ATS (programming language)",
+      "tier": null
+    },
+    {
+      "name": "AutoHotkey",
+      "aliases": [],
+      "wiki": "AutoHotkey",
+      "tier": null
+    },
+    {
+      "name": "AutoIt",
+      "aliases": [],
+      "wiki": "AutoIt",
+      "tier": null
+    },
+    {
+      "name": "AutoLISP",
+      "aliases": [
+        "Visual LISP"
+      ],
+      "wiki": "AutoLISP",
+      "tier": null
+    },
+    {
+      "name": "Averest",
+      "aliases": [],
+      "wiki": "Averest",
+      "tier": null
+    },
+    {
+      "name": "AWK",
+      "aliases": [],
+      "wiki": "AWK",
+      "tier": null
+    },
+    {
+      "name": "Axum",
+      "aliases": [],
+      "wiki": "Axum (programming language)",
+      "tier": null
+    },
+    {
+      "name": "B",
+      "aliases": [],
+      "wiki": "B (programming language)",
+      "tier": null
+    },
+    {
+      "name": "B32 Business Basic",
+      "aliases": [],
+      "wiki": "B32 Business Basic",
+      "tier": null
+    },
+    {
+      "name": "Ballerina",
+      "aliases": [],
+      "wiki": "Ballerina (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Bash",
+      "aliases": [
+        "Bourne Again Shell"
+      ],
+      "wiki": "Bash (Unix shell)",
+      "tier": null
+    },
+    {
+      "name": "BASIC",
+      "aliases": [],
+      "wiki": "BASIC",
+      "tier": null
+    },
+    {
+      "name": "BASIC A+",
+      "aliases": [],
+      "wiki": "BASIC A+",
+      "tier": null
+    },
+    {
+      "name": "BASIC-11",
+      "aliases": [],
+      "wiki": "BASIC-11",
+      "tier": null
+    },
+    {
+      "name": "Basic-256",
+      "aliases": [],
+      "wiki": "Basic-256",
+      "tier": null
+    },
+    {
+      "name": "BASIC-PLUS",
+      "aliases": [],
+      "wiki": "BASIC-PLUS",
+      "tier": null
+    },
+    {
+      "name": "BASIC09",
+      "aliases": [],
+      "wiki": "BASIC09",
+      "tier": null
+    },
+    {
+      "name": "Basic4GL",
+      "aliases": [],
+      "wiki": "Basic4GL",
+      "tier": null
+    },
+    {
+      "name": "BASICODE",
+      "aliases": [],
+      "wiki": "BASICODE",
+      "tier": null
+    },
+    {
+      "name": "Batch",
+      "aliases": [
+        "Batch file",
+        "Batch script"
+      ],
+      "wiki": "Batch file",
+      "tier": null
+    },
+    {
+      "name": "BBC BASIC",
+      "aliases": [],
+      "wiki": "BBC BASIC",
+      "tier": null
+    },
+    {
+      "name": "bc",
+      "aliases": [],
+      "wiki": "Bc (programming language)",
+      "tier": null
+    },
+    {
+      "name": "BCPL",
+      "aliases": [],
+      "wiki": "BCPL",
+      "tier": null
+    },
+    {
+      "name": "BeanShell",
+      "aliases": [],
+      "wiki": "BeanShell",
+      "tier": null
+    },
+    {
+      "name": "Befunge",
+      "aliases": [],
+      "wiki": "Befunge",
+      "tier": null
+    },
+    {
+      "name": "BETA",
+      "aliases": [],
+      "wiki": "BETA (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Beta BASIC",
+      "aliases": [],
+      "wiki": "Beta BASIC",
+      "tier": null
+    },
+    {
+      "name": "BLISS",
+      "aliases": [],
+      "wiki": "BLISS",
+      "tier": null
+    },
+    {
+      "name": "Blitz BASIC",
+      "aliases": [],
+      "wiki": "Blitz BASIC",
+      "tier": null
+    },
+    {
+      "name": "Blockly",
+      "aliases": [],
+      "wiki": "Blockly",
+      "tier": null
+    },
+    {
+      "name": "BlooP",
+      "aliases": [
+        "FlooP",
+        "BlooP and FlooP"
+      ],
+      "wiki": "BlooP and FlooP",
+      "tier": null
+    },
+    {
+      "name": "Boo",
+      "aliases": [],
+      "wiki": "Boo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Boomerang",
+      "aliases": [],
+      "wiki": "Boomerang (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Bosque",
+      "aliases": [],
+      "wiki": "Bosque (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Bourne shell",
+      "aliases": [],
+      "wiki": "Bourne shell",
+      "tier": null
+    },
+    {
+      "name": "Brainfuck",
+      "aliases": [
+        "BF"
+      ],
+      "wiki": "Brainfuck",
+      "tier": null
+    },
+    {
+      "name": "BUGS",
+      "aliases": [
+        "WinBUGS"
+      ],
+      "wiki": "Bayesian inference using Gibbs sampling",
+      "tier": null
+    },
+    {
+      "name": "Business Basic",
+      "aliases": [],
+      "wiki": "Business Basic",
+      "tier": null
+    },
+    {
+      "name": "C minus minus",
+      "aliases": [],
+      "wiki": "C--",
+      "tier": null
+    },
+    {
+      "name": "C Shell",
+      "aliases": [
+        "csh"
+      ],
+      "wiki": "C shell",
+      "tier": null
+    },
+    {
+      "name": "C/AL",
+      "aliases": [],
+      "wiki": "C/AL",
+      "tier": null
+    },
+    {
+      "name": "CA-Realizer",
+      "aliases": [],
+      "wiki": "CA-Realizer",
+      "tier": null
+    },
+    {
+      "name": "Caché ObjectScript",
+      "aliases": [],
+      "wiki": "Caché ObjectScript",
+      "tier": null
+    },
+    {
+      "name": "Calcpad",
+      "aliases": [],
+      "wiki": "Calcpad",
+      "tier": null
+    },
+    {
+      "name": "Caml",
+      "aliases": [],
+      "wiki": "Caml",
+      "tier": null
+    },
+    {
+      "name": "Carbon",
+      "aliases": [],
+      "wiki": "Carbon (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Casio BASIC",
+      "aliases": [],
+      "wiki": "Casio BASIC",
+      "tier": null
+    },
+    {
+      "name": "Catrobat",
+      "aliases": [],
+      "wiki": "Catrobat",
+      "tier": null
+    },
+    {
+      "name": "CBASIC",
+      "aliases": [],
+      "wiki": "CBASIC",
+      "tier": null
+    },
+    {
+      "name": "Cecil",
+      "aliases": [],
+      "wiki": "Cecil (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CEEMAC",
+      "aliases": [],
+      "wiki": "CEEMAC",
+      "tier": null
+    },
+    {
+      "name": "CESIL",
+      "aliases": [],
+      "wiki": "CESIL",
+      "tier": null
+    },
+    {
+      "name": "Céu",
+      "aliases": [],
+      "wiki": "Céu (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Ceylon",
+      "aliases": [],
+      "wiki": "Ceylon (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CFEngine",
+      "aliases": [],
+      "wiki": "CFEngine",
+      "tier": null
+    },
+    {
+      "name": "Ch",
+      "aliases": [],
+      "wiki": "Ch (computer programming)",
+      "tier": null
+    },
+    {
+      "name": "Chapel",
+      "aliases": [],
+      "wiki": "Chapel (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Charm",
+      "aliases": [],
+      "wiki": "Charm (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CHICKEN",
+      "aliases": [],
+      "wiki": "Chicken (Scheme implementation)",
+      "tier": null
+    },
+    {
+      "name": "CHILL",
+      "aliases": [],
+      "wiki": "CHILL",
+      "tier": null
+    },
+    {
+      "name": "Chinese BASIC",
+      "aliases": [],
+      "wiki": "Chinese BASIC",
+      "tier": null
+    },
+    {
+      "name": "CHIP-8",
+      "aliases": [],
+      "wiki": "CHIP-8",
+      "tier": null
+    },
+    {
+      "name": "Chipmunk Basic",
+      "aliases": [],
+      "wiki": "Chipmunk Basic",
+      "tier": null
+    },
+    {
+      "name": "ChucK",
+      "aliases": [],
+      "wiki": "ChucK",
+      "tier": null
+    },
+    {
+      "name": "Cilk",
+      "aliases": [
+        "Cilk Plus"
+      ],
+      "wiki": "Cilk",
+      "tier": null
+    },
+    {
+      "name": "CircuitPython",
+      "aliases": [],
+      "wiki": "CircuitPython",
+      "tier": null
+    },
+    {
+      "name": "Claire",
+      "aliases": [],
+      "wiki": "Claire (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Clarion",
+      "aliases": [],
+      "wiki": "Clarion (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Clean",
+      "aliases": [],
+      "wiki": "Clean (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Clipper",
+      "aliases": [],
+      "wiki": "Clipper (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CLIPS",
+      "aliases": [],
+      "wiki": "CLIPS",
+      "tier": null
+    },
+    {
+      "name": "CLIST",
+      "aliases": [],
+      "wiki": "CLIST",
+      "tier": null
+    },
+    {
+      "name": "Clojure",
+      "aliases": [],
+      "wiki": "Clojure",
+      "tier": null
+    },
+    {
+      "name": "CLU",
+      "aliases": [],
+      "wiki": "CLU (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CMake",
+      "aliases": [],
+      "wiki": "CMake",
+      "tier": null
+    },
+    {
+      "name": "CMS EXEC",
+      "aliases": [
+        "EXEC"
+      ],
+      "wiki": "CMS EXEC",
+      "tier": null
+    },
+    {
+      "name": "CMS-2",
+      "aliases": [],
+      "wiki": "CMS-2",
+      "tier": null
+    },
+    {
+      "name": "COBOL",
+      "aliases": [],
+      "wiki": "COBOL",
+      "tier": null
+    },
+    {
+      "name": "CobolScript",
+      "aliases": [],
+      "wiki": "CobolScript",
+      "tier": null
+    },
+    {
+      "name": "Cobra",
+      "aliases": [],
+      "wiki": "Cobra (programming language)",
+      "tier": null
+    },
+    {
+      "name": "CoffeeScript",
+      "aliases": [],
+      "wiki": "CoffeeScript",
+      "tier": null
+    },
+    {
+      "name": "ColdFusion",
+      "aliases": [],
+      "wiki": "Adobe ColdFusion",
+      "tier": null
+    },
+    {
+      "name": "ColdFusion Markup Language",
+      "aliases": [
+        "CFML"
+      ],
+      "wiki": "ColdFusion Markup Language",
+      "tier": null
+    },
+    {
+      "name": "Color BASIC",
+      "aliases": [],
+      "wiki": "Color BASIC",
+      "tier": null
+    },
+    {
+      "name": "COMAL",
+      "aliases": [],
+      "wiki": "COMAL",
+      "tier": null
+    },
+    {
+      "name": "COMIT",
+      "aliases": [],
+      "wiki": "COMIT",
+      "tier": null
+    },
+    {
+      "name": "Commodore BASIC",
+      "aliases": [],
+      "wiki": "Commodore BASIC",
+      "tier": null
+    },
+    {
+      "name": "Common Intermediate Language",
+      "aliases": [
+        "CIL",
+        "MSIL"
+      ],
+      "wiki": "Common Intermediate Language",
+      "tier": null
+    },
+    {
+      "name": "Common Lisp",
+      "aliases": [],
+      "wiki": "Common Lisp",
+      "tier": null
+    },
+    {
+      "name": "COMPASS",
+      "aliases": [],
+      "wiki": "COMPASS",
+      "tier": null
+    },
+    {
+      "name": "Component Pascal",
+      "aliases": [],
+      "wiki": "Component Pascal",
+      "tier": null
+    },
+    {
+      "name": "COMTRAN",
+      "aliases": [],
+      "wiki": "COMTRAN",
+      "tier": null
+    },
+    {
+      "name": "Concurrent Pascal",
+      "aliases": [],
+      "wiki": "Concurrent Pascal",
+      "tier": null
+    },
+    {
+      "name": "Constraint Handling Rules",
+      "aliases": [
+        "CHR"
+      ],
+      "wiki": "Constraint Handling Rules",
+      "tier": null
+    },
+    {
+      "name": "Contextual Query Language",
+      "aliases": [],
+      "wiki": "Contextual Query Language",
+      "tier": null
+    },
+    {
+      "name": "Control Language",
+      "aliases": [],
+      "wiki": "Control Language",
+      "tier": null
+    },
+    {
+      "name": "CORAL",
+      "aliases": [
+        "Coral 66"
+      ],
+      "wiki": "CORAL",
+      "tier": null
+    },
+    {
+      "name": "CorVision",
+      "aliases": [],
+      "wiki": "CorVision",
+      "tier": null
+    },
+    {
+      "name": "COWSEL",
+      "aliases": [],
+      "wiki": "COWSEL",
+      "tier": null
+    },
+    {
+      "name": "CPL",
+      "aliases": [],
+      "wiki": "CPL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Cryptol",
+      "aliases": [],
+      "wiki": "Cryptol",
+      "tier": null
+    },
+    {
+      "name": "Crystal",
+      "aliases": [],
+      "wiki": "Crystal (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Csound",
+      "aliases": [],
+      "wiki": "Csound",
+      "tier": null
+    },
+    {
+      "name": "CUDA",
+      "aliases": [],
+      "wiki": "CUDA",
+      "tier": null
+    },
+    {
+      "name": "Cuneiform",
+      "aliases": [],
+      "wiki": "Cuneiform (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Curl",
+      "aliases": [],
+      "wiki": "Curl (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Curry",
+      "aliases": [],
+      "wiki": "Curry (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Cybil",
+      "aliases": [],
+      "wiki": "Cybil (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Cyclone",
+      "aliases": [],
+      "wiki": "Cyclone (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Cypher",
+      "aliases": [
+        "Cypher Query Language"
+      ],
+      "wiki": "Cypher (query language)",
+      "tier": null
+    },
+    {
+      "name": "Cython",
+      "aliases": [],
+      "wiki": "Cython",
+      "tier": null
+    },
+    {
+      "name": "D",
+      "aliases": [
+        "dlang"
+      ],
+      "wiki": "D (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Dart",
+      "aliases": [],
+      "wiki": "Dart (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Dartmouth BASIC",
+      "aliases": [],
+      "wiki": "Dartmouth BASIC",
+      "tier": null
+    },
+    {
+      "name": "Darwin",
+      "aliases": [],
+      "wiki": "Darwin (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Data definition language",
+      "aliases": [
+        "DDL"
+      ],
+      "wiki": "Data definition language",
+      "tier": null
+    },
+    {
+      "name": "Data General Business Basic",
+      "aliases": [],
+      "wiki": "Data General Business Basic",
+      "tier": null
+    },
+    {
+      "name": "Data manipulation language",
+      "aliases": [
+        "DML"
+      ],
+      "wiki": "Data manipulation language",
+      "tier": null
+    },
+    {
+      "name": "DataFlex",
+      "aliases": [
+        "Visual DataFlex"
+      ],
+      "wiki": "DataFlex",
+      "tier": null
+    },
+    {
+      "name": "Datalog",
+      "aliases": [],
+      "wiki": "Datalog",
+      "tier": null
+    },
+    {
+      "name": "DATATRIEVE",
+      "aliases": [],
+      "wiki": "DATATRIEVE",
+      "tier": null
+    },
+    {
+      "name": "DAX",
+      "aliases": [
+        "Data Analysis Expressions"
+      ],
+      "wiki": "Data Analysis Expressions",
+      "tier": null
+    },
+    {
+      "name": "dBase",
+      "aliases": [],
+      "wiki": "DBase",
+      "tier": null
+    },
+    {
+      "name": "dc",
+      "aliases": [],
+      "wiki": "Dc (computer program)",
+      "tier": null
+    },
+    {
+      "name": "DCL",
+      "aliases": [
+        "DIGITAL Command Language"
+      ],
+      "wiki": "DIGITAL Command Language",
+      "tier": null
+    },
+    {
+      "name": "Delphi",
+      "aliases": [],
+      "wiki": "Delphi (software)",
+      "tier": null
+    },
+    {
+      "name": "DIBOL",
+      "aliases": [],
+      "wiki": "DIBOL",
+      "tier": null
+    },
+    {
+      "name": "DMX",
+      "aliases": [
+        "Data Mining Extensions"
+      ],
+      "wiki": "Data Mining Extensions",
+      "tier": null
+    },
+    {
+      "name": "Draco",
+      "aliases": [],
+      "wiki": "Draco (programming language)",
+      "tier": null
+    },
+    {
+      "name": "DRAKON",
+      "aliases": [],
+      "wiki": "DRAKON",
+      "tier": null
+    },
+    {
+      "name": "Dylan",
+      "aliases": [],
+      "wiki": "Dylan (programming language)",
+      "tier": null
+    },
+    {
+      "name": "DYNAMO",
+      "aliases": [],
+      "wiki": "DYNAMO (programming language)",
+      "tier": null
+    },
+    {
+      "name": "E",
+      "aliases": [],
+      "wiki": "E (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Ease",
+      "aliases": [],
+      "wiki": "Ease (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Easy Programming Language",
+      "aliases": [],
+      "wiki": "Easy Programming Language",
+      "tier": null
+    },
+    {
+      "name": "ECMAScript",
+      "aliases": [
+        "ES6"
+      ],
+      "wiki": "ECMAScript",
+      "tier": null
+    },
+    {
+      "name": "Edinburgh IMP",
+      "aliases": [],
+      "wiki": "Edinburgh IMP",
+      "tier": null
+    },
+    {
+      "name": "EGL",
+      "aliases": [],
+      "wiki": "EGL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Eiffel",
+      "aliases": [],
+      "wiki": "Eiffel (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ELAN",
+      "aliases": [],
+      "wiki": "ELAN (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Elixir",
+      "aliases": [],
+      "wiki": "Elixir (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Elm",
+      "aliases": [],
+      "wiki": "Elm (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Emacs Lisp",
+      "aliases": [],
+      "wiki": "Emacs Lisp",
+      "tier": null
+    },
+    {
+      "name": "Embedded C",
+      "aliases": [],
+      "wiki": "Embedded C",
+      "tier": null
+    },
+    {
+      "name": "Emerald",
+      "aliases": [],
+      "wiki": "Emerald (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Epigram",
+      "aliases": [],
+      "wiki": "Epigram (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Erlang",
+      "aliases": [],
+      "wiki": "Erlang (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Escher",
+      "aliases": [],
+      "wiki": "Escher (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Esterel",
+      "aliases": [],
+      "wiki": "Esterel",
+      "tier": null
+    },
+    {
+      "name": "Etoys",
+      "aliases": [],
+      "wiki": "Etoys (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Euclid",
+      "aliases": [],
+      "wiki": "Euclid (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Euler",
+      "aliases": [],
+      "wiki": "Euler (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Euphoria",
+      "aliases": [],
+      "wiki": "Euphoria (programming language)",
+      "tier": null
+    },
+    {
+      "name": "EusLisp Robot Programming Language",
+      "aliases": [],
+      "wiki": "EusLisp Robot Programming Language",
+      "tier": null
+    },
+    {
+      "name": "EXEC 2",
+      "aliases": [],
+      "wiki": "EXEC 2",
+      "tier": null
+    },
+    {
+      "name": "Executable UML",
+      "aliases": [],
+      "wiki": "Executable UML",
+      "tier": null
+    },
+    {
+      "name": "Extended Color BASIC",
+      "aliases": [],
+      "wiki": "Extended Color BASIC",
+      "tier": null
+    },
+    {
+      "name": "Ezhil",
+      "aliases": [],
+      "wiki": "Ezhil (programming language)",
+      "tier": null
+    },
+    {
+      "name": "F",
+      "aliases": [],
+      "wiki": "F (programming language)",
+      "tier": null
+    },
+    {
+      "name": "F#",
+      "aliases": [],
+      "wiki": "F Sharp (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Factor",
+      "aliases": [],
+      "wiki": "Factor (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Famicom BASIC",
+      "aliases": [],
+      "wiki": "Family BASIC",
+      "tier": null
+    },
+    {
+      "name": "Fantom",
+      "aliases": [],
+      "wiki": "Fantom (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FAUST",
+      "aliases": [],
+      "wiki": "FAUST (programming language)",
+      "tier": null
+    },
+    {
+      "name": "fish",
+      "aliases": [
+        "friendly interactive shell"
+      ],
+      "wiki": "Fish (Unix shell)",
+      "tier": null
+    },
+    {
+      "name": "Fjölnir",
+      "aliases": [],
+      "wiki": "Fjölnir (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FL",
+      "aliases": [],
+      "wiki": "FL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Flavors",
+      "aliases": [],
+      "wiki": "Flavors (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Flex",
+      "aliases": [],
+      "wiki": "Flex (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Flix",
+      "aliases": [],
+      "wiki": "Flix (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FLOW-MATIC",
+      "aliases": [],
+      "wiki": "FLOW-MATIC",
+      "tier": null
+    },
+    {
+      "name": "FOCAL",
+      "aliases": [],
+      "wiki": "FOCAL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FOCUS",
+      "aliases": [],
+      "wiki": "Focus (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FOIL",
+      "aliases": [],
+      "wiki": "FOIL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FORMAC",
+      "aliases": [],
+      "wiki": "FORMAC",
+      "tier": null
+    },
+    {
+      "name": "Forth",
+      "aliases": [],
+      "wiki": "Forth (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Fortran",
+      "aliases": [],
+      "wiki": "Fortran",
+      "tier": null
+    },
+    {
+      "name": "Fortress",
+      "aliases": [],
+      "wiki": "Fortress (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FoxPro",
+      "aliases": [
+        "FoxBase"
+      ],
+      "wiki": "FoxPro",
+      "tier": null
+    },
+    {
+      "name": "FP",
+      "aliases": [],
+      "wiki": "FP (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FQL",
+      "aliases": [
+        "Facebook Query Language"
+      ],
+      "wiki": "Facebook Query Language",
+      "tier": null
+    },
+    {
+      "name": "Franz Lisp",
+      "aliases": [],
+      "wiki": "Franz Lisp",
+      "tier": null
+    },
+    {
+      "name": "Free Pascal",
+      "aliases": [],
+      "wiki": "Free Pascal",
+      "tier": null
+    },
+    {
+      "name": "FreeBASIC",
+      "aliases": [],
+      "wiki": "FreeBASIC",
+      "tier": null
+    },
+    {
+      "name": "Futhark",
+      "aliases": [],
+      "wiki": "Futhark (programming language)",
+      "tier": null
+    },
+    {
+      "name": "FutureBASIC",
+      "aliases": [],
+      "wiki": "FutureBASIC",
+      "tier": null
+    },
+    {
+      "name": "G-code",
+      "aliases": [],
+      "wiki": "G-code",
+      "tier": null
+    },
+    {
+      "name": "Galaksija BASIC",
+      "aliases": [],
+      "wiki": "Galaksija BASIC",
+      "tier": null
+    },
+    {
+      "name": "Gambas",
+      "aliases": [],
+      "wiki": "Gambas",
+      "tier": null
+    },
+    {
+      "name": "Game Oriented Assembly Lisp",
+      "aliases": [
+        "GOAL"
+      ],
+      "wiki": "Game Oriented Assembly Lisp",
+      "tier": null
+    },
+    {
+      "name": "GAP",
+      "aliases": [],
+      "wiki": "GAP (computer algebra system)",
+      "tier": null
+    },
+    {
+      "name": "General Algebraic Modeling System",
+      "aliases": [
+        "GAMS"
+      ],
+      "wiki": "General algebraic modeling system",
+      "tier": null
+    },
+    {
+      "name": "Geometric Description Language",
+      "aliases": [
+        "GDL"
+      ],
+      "wiki": "Geometric Description Language",
+      "tier": null
+    },
+    {
+      "name": "GEORGE",
+      "aliases": [],
+      "wiki": "GEORGE (programming language)",
+      "tier": null
+    },
+    {
+      "name": "GFA BASIC",
+      "aliases": [],
+      "wiki": "GFA BASIC",
+      "tier": null
+    },
+    {
+      "name": "GLBasic",
+      "aliases": [],
+      "wiki": "GLBasic",
+      "tier": null
+    },
+    {
+      "name": "Gleam",
+      "aliases": [],
+      "wiki": "Gleam (programming language)",
+      "tier": null
+    },
+    {
+      "name": "GNU E",
+      "aliases": [],
+      "wiki": "GNU E",
+      "tier": null
+    },
+    {
+      "name": "GNU Guile",
+      "aliases": [
+        "Guile"
+      ],
+      "wiki": "GNU Guile",
+      "tier": null
+    },
+    {
+      "name": "GNU Octave",
+      "aliases": [
+        "Octave"
+      ],
+      "wiki": "GNU Octave",
+      "tier": null
+    },
+    {
+      "name": "Go",
+      "aliases": [
+        "Golang"
+      ],
+      "wiki": "Go (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Gödel",
+      "aliases": [],
+      "wiki": "Gödel (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Golo",
+      "aliases": [],
+      "wiki": "Golo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Google Apps Script",
+      "aliases": [],
+      "wiki": "Google Apps Script",
+      "tier": null
+    },
+    {
+      "name": "Gosu",
+      "aliases": [],
+      "wiki": "Gosu (programming language)",
+      "tier": null
+    },
+    {
+      "name": "GPSS",
+      "aliases": [
+        "General Purpose Simulation System"
+      ],
+      "wiki": "GPSS",
+      "tier": null
+    },
+    {
+      "name": "GQL",
+      "aliases": [
+        "Graph Query Language"
+      ],
+      "wiki": "Graph Query Language",
+      "tier": null
+    },
+    {
+      "name": "GraphQL",
+      "aliases": [],
+      "wiki": "GraphQL",
+      "tier": null
+    },
+    {
+      "name": "GRASS",
+      "aliases": [],
+      "wiki": "GRASS (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Grasshopper",
+      "aliases": [],
+      "wiki": "Grasshopper 3D",
+      "tier": null
+    },
+    {
+      "name": "Gremlin",
+      "aliases": [],
+      "wiki": "Gremlin (query language)",
+      "tier": null
+    },
+    {
+      "name": "Groff",
+      "aliases": [
+        "troff",
+        "nroff"
+      ],
+      "wiki": "Troff",
+      "tier": null
+    },
+    {
+      "name": "Groovy",
+      "aliases": [
+        "Apache Groovy"
+      ],
+      "wiki": "Apache Groovy",
+      "tier": null
+    },
+    {
+      "name": "GW-BASIC",
+      "aliases": [],
+      "wiki": "GW-BASIC",
+      "tier": null
+    },
+    {
+      "name": "Hack",
+      "aliases": [],
+      "wiki": "Hack (programming language)",
+      "tier": null
+    },
+    {
+      "name": "HAGGIS",
+      "aliases": [],
+      "wiki": "Haggis (programming language)",
+      "tier": null
+    },
+    {
+      "name": "HAL/S",
+      "aliases": [],
+      "wiki": "HAL/S",
+      "tier": null
+    },
+    {
+      "name": "Halide",
+      "aliases": [],
+      "wiki": "Halide (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Hamilton C shell",
+      "aliases": [],
+      "wiki": "Hamilton C shell",
+      "tier": null
+    },
+    {
+      "name": "Haml",
+      "aliases": [],
+      "wiki": "Haml",
+      "tier": null
+    },
+    {
+      "name": "Harbour",
+      "aliases": [],
+      "wiki": "Harbour (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Hartmann pipeline",
+      "aliases": [
+        "CMS Pipelines"
+      ],
+      "wiki": "CMS Pipelines",
+      "tier": null
+    },
+    {
+      "name": "Haskell",
+      "aliases": [],
+      "wiki": "Haskell",
+      "tier": null
+    },
+    {
+      "name": "Haxe",
+      "aliases": [],
+      "wiki": "Haxe",
+      "tier": null
+    },
+    {
+      "name": "Hermes",
+      "aliases": [],
+      "wiki": "Hermes (programming language)",
+      "tier": null
+    },
+    {
+      "name": "High Level Assembly",
+      "aliases": [
+        "HLA"
+      ],
+      "wiki": "High Level Assembly",
+      "tier": null
+    },
+    {
+      "name": "High Level Shader Language",
+      "aliases": [
+        "HLSL",
+        "Cg"
+      ],
+      "wiki": "High-Level Shader Language",
+      "tier": null
+    },
+    {
+      "name": "Hollywood",
+      "aliases": [],
+      "wiki": "Hollywood (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Hop",
+      "aliases": [],
+      "wiki": "Hop (software)",
+      "tier": null
+    },
+    {
+      "name": "Hope",
+      "aliases": [],
+      "wiki": "Hope (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Hopscotch",
+      "aliases": [],
+      "wiki": "Hopscotch (programming language)",
+      "tier": null
+    },
+    {
+      "name": "HP Time-Shared BASIC",
+      "aliases": [],
+      "wiki": "HP Time-Shared BASIC",
+      "tier": null
+    },
+    {
+      "name": "HTSQL",
+      "aliases": [],
+      "wiki": "HTSQL",
+      "tier": null
+    },
+    {
+      "name": "Hume",
+      "aliases": [],
+      "wiki": "Hume (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Hy",
+      "aliases": [],
+      "wiki": "Hy (programming language)",
+      "tier": null
+    },
+    {
+      "name": "HyperTalk",
+      "aliases": [],
+      "wiki": "HyperTalk",
+      "tier": null
+    },
+    {
+      "name": "IBM Basic Assembly Language",
+      "aliases": [
+        "BAL",
+        "HLASM"
+      ],
+      "wiki": "IBM Basic assembly language and successors",
+      "tier": null
+    },
+    {
+      "name": "IBM Informix-4GL",
+      "aliases": [],
+      "wiki": "Informix-4GL",
+      "tier": null
+    },
+    {
+      "name": "Icon",
+      "aliases": [],
+      "wiki": "Icon (programming language)",
+      "tier": null
+    },
+    {
+      "name": "IDL",
+      "aliases": [],
+      "wiki": "IDL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Idris",
+      "aliases": [],
+      "wiki": "Idris (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Inform",
+      "aliases": [],
+      "wiki": "Inform",
+      "tier": null
+    },
+    {
+      "name": "Instruction List",
+      "aliases": [],
+      "wiki": "Instruction list",
+      "tier": null
+    },
+    {
+      "name": "Integer BASIC",
+      "aliases": [],
+      "wiki": "Integer BASIC",
+      "tier": null
+    },
+    {
+      "name": "INTERCAL",
+      "aliases": [],
+      "wiki": "INTERCAL",
+      "tier": null
+    },
+    {
+      "name": "Io",
+      "aliases": [],
+      "wiki": "Io (programming language)",
+      "tier": null
+    },
+    {
+      "name": "IronPython",
+      "aliases": [],
+      "wiki": "IronPython",
+      "tier": null
+    },
+    {
+      "name": "ISBL",
+      "aliases": [],
+      "wiki": "ISBL",
+      "tier": null
+    },
+    {
+      "name": "ISLISP",
+      "aliases": [],
+      "wiki": "ISLISP",
+      "tier": null
+    },
+    {
+      "name": "J",
+      "aliases": [],
+      "wiki": "J (programming language)",
+      "tier": null
+    },
+    {
+      "name": "J#",
+      "aliases": [],
+      "wiki": "Visual J Sharp",
+      "tier": null
+    },
+    {
+      "name": "JADE",
+      "aliases": [],
+      "wiki": "JADE (programming language)",
+      "tier": null
+    },
+    {
+      "name": "JAL",
+      "aliases": [],
+      "wiki": "JAL (compiler)",
+      "tier": null
+    },
+    {
+      "name": "Janus",
+      "aliases": [],
+      "wiki": "Janus (concurrent constraint programming language)",
+      "tier": null
+    },
+    {
+      "name": "Jaql",
+      "aliases": [],
+      "wiki": "Jaql",
+      "tier": null
+    },
+    {
+      "name": "JavaFX Script",
+      "aliases": [],
+      "wiki": "JavaFX Script",
+      "tier": null
+    },
+    {
+      "name": "JCL",
+      "aliases": [
+        "Job Control Language"
+      ],
+      "wiki": "Job Control Language",
+      "tier": null
+    },
+    {
+      "name": "JEAN",
+      "aliases": [],
+      "wiki": "JEAN",
+      "tier": null
+    },
+    {
+      "name": "Jess",
+      "aliases": [],
+      "wiki": "Jess (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Jinja",
+      "aliases": [
+        "Jinja2"
+      ],
+      "wiki": "Jinja (template engine)",
+      "tier": null
+    },
+    {
+      "name": "JOSS",
+      "aliases": [],
+      "wiki": "JOSS",
+      "tier": null
+    },
+    {
+      "name": "Joule",
+      "aliases": [],
+      "wiki": "Joule (programming language)",
+      "tier": null
+    },
+    {
+      "name": "JOVIAL",
+      "aliases": [],
+      "wiki": "JOVIAL",
+      "tier": null
+    },
+    {
+      "name": "Joy",
+      "aliases": [],
+      "wiki": "Joy (programming language)",
+      "tier": null
+    },
+    {
+      "name": "JPQL",
+      "aliases": [
+        "Jakarta Persistence Query Language",
+        "Java Persistence Query Language"
+      ],
+      "wiki": "Jakarta Persistence Query Language",
+      "tier": null
+    },
+    {
+      "name": "jq",
+      "aliases": [],
+      "wiki": "Jq (programming language)",
+      "tier": null
+    },
+    {
+      "name": "JR-BASIC",
+      "aliases": [],
+      "wiki": "JR-BASIC",
+      "tier": null
+    },
+    {
+      "name": "JScript",
+      "aliases": [],
+      "wiki": "JScript",
+      "tier": null
+    },
+    {
+      "name": "JScript .NET",
+      "aliases": [],
+      "wiki": "JScript .NET",
+      "tier": null
+    },
+    {
+      "name": "JSONiq",
+      "aliases": [],
+      "wiki": "JSONiq",
+      "tier": null
+    },
+    {
+      "name": "JSP",
+      "aliases": [
+        "JavaServer Pages"
+      ],
+      "wiki": "Jakarta Server Pages",
+      "tier": null
+    },
+    {
+      "name": "JSX",
+      "aliases": [
+        "JavaScript XML"
+      ],
+      "wiki": "JSX (programming)",
+      "tier": null
+    },
+    {
+      "name": "Julia",
+      "aliases": [],
+      "wiki": "Julia (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Jython",
+      "aliases": [],
+      "wiki": "Jython",
+      "tier": null
+    },
+    {
+      "name": "K",
+      "aliases": [],
+      "wiki": "K (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Kaleidoscope",
+      "aliases": [],
+      "wiki": "Kaleidoscope (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Karel",
+      "aliases": [],
+      "wiki": "Karel (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Kent Recursive Calculator",
+      "aliases": [
+        "KRC"
+      ],
+      "wiki": "Kent Recursive Calculator",
+      "tier": null
+    },
+    {
+      "name": "KiXtart",
+      "aliases": [],
+      "wiki": "KiXtart",
+      "tier": null
+    },
+    {
+      "name": "Klerer-May System",
+      "aliases": [],
+      "wiki": "Klerer–May System",
+      "tier": null
+    },
+    {
+      "name": "Knowledge Interchange Format",
+      "aliases": [
+        "KIF"
+      ],
+      "wiki": "Knowledge Interchange Format",
+      "tier": null
+    },
+    {
+      "name": "Kodu",
+      "aliases": [],
+      "wiki": "Kodu Game Lab",
+      "tier": null
+    },
+    {
+      "name": "Kojo",
+      "aliases": [],
+      "wiki": "Kojo (learning environment)",
+      "tier": null
+    },
+    {
+      "name": "KornShell",
+      "aliases": [
+        "ksh"
+      ],
+      "wiki": "KornShell",
+      "tier": null
+    },
+    {
+      "name": "Kotlin",
+      "aliases": [],
+      "wiki": "Kotlin",
+      "tier": null
+    },
+    {
+      "name": "KRL",
+      "aliases": [],
+      "wiki": "KRL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "KUKA Robot Language",
+      "aliases": [],
+      "wiki": "KUKA Robot Language",
+      "tier": null
+    },
+    {
+      "name": "LabVIEW",
+      "aliases": [],
+      "wiki": "LabVIEW",
+      "tier": null
+    },
+    {
+      "name": "Ladder logic",
+      "aliases": [
+        "Ladder"
+      ],
+      "wiki": "Ladder logic",
+      "tier": null
+    },
+    {
+      "name": "Language H",
+      "aliases": [],
+      "wiki": "Language H",
+      "tier": null
+    },
+    {
+      "name": "LANSA",
+      "aliases": [],
+      "wiki": "LANSA (development environment)",
+      "tier": null
+    },
+    {
+      "name": "Lasso",
+      "aliases": [],
+      "wiki": "Lasso (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LC-3",
+      "aliases": [],
+      "wiki": "Little Computer 3",
+      "tier": null
+    },
+    {
+      "name": "Lean",
+      "aliases": [],
+      "wiki": "Lean (proof assistant)",
+      "tier": null
+    },
+    {
+      "name": "Liberty BASIC",
+      "aliases": [],
+      "wiki": "Liberty BASIC",
+      "tier": null
+    },
+    {
+      "name": "LIL",
+      "aliases": [],
+      "wiki": "Little Implementation Language",
+      "tier": null
+    },
+    {
+      "name": "LilyPond",
+      "aliases": [],
+      "wiki": "LilyPond",
+      "tier": null
+    },
+    {
+      "name": "Limbo",
+      "aliases": [],
+      "wiki": "Limbo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LINC",
+      "aliases": [],
+      "wiki": "LINC 4GL",
+      "tier": null
+    },
+    {
+      "name": "Lingo",
+      "aliases": [],
+      "wiki": "Lingo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LINQ",
+      "aliases": [],
+      "wiki": "Language Integrated Query",
+      "tier": null
+    },
+    {
+      "name": "LIS",
+      "aliases": [],
+      "wiki": "LIS (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LISA",
+      "aliases": [],
+      "wiki": "Language for Instruction Set Architecture",
+      "tier": null
+    },
+    {
+      "name": "Lisp",
+      "aliases": [],
+      "wiki": "Lisp (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Lithe",
+      "aliases": [],
+      "wiki": "Lithe",
+      "tier": null
+    },
+    {
+      "name": "Little b",
+      "aliases": [],
+      "wiki": "Little b (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LiveCode",
+      "aliases": [
+        "Transcript"
+      ],
+      "wiki": "LiveCode",
+      "tier": null
+    },
+    {
+      "name": "LiveScript",
+      "aliases": [],
+      "wiki": "LiveScript (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Locomotive BASIC",
+      "aliases": [],
+      "wiki": "Locomotive BASIC",
+      "tier": null
+    },
+    {
+      "name": "Logo",
+      "aliases": [],
+      "wiki": "Logo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Logtalk",
+      "aliases": [],
+      "wiki": "Logtalk",
+      "tier": null
+    },
+    {
+      "name": "LOLCODE",
+      "aliases": [],
+      "wiki": "LOLCODE",
+      "tier": null
+    },
+    {
+      "name": "LotusScript",
+      "aliases": [],
+      "wiki": "LotusScript",
+      "tier": null
+    },
+    {
+      "name": "LSE",
+      "aliases": [],
+      "wiki": "LSE (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Lua",
+      "aliases": [],
+      "wiki": "Lua",
+      "tier": null
+    },
+    {
+      "name": "Luau",
+      "aliases": [],
+      "wiki": "Luau (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Lucid",
+      "aliases": [],
+      "wiki": "Lucid (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Lustre",
+      "aliases": [],
+      "wiki": "Lustre (programming language)",
+      "tier": null
+    },
+    {
+      "name": "LYaPAS",
+      "aliases": [],
+      "wiki": "LYaPAS",
+      "tier": null
+    },
+    {
+      "name": "Lynx",
+      "aliases": [],
+      "wiki": "Lynx (programming language)",
+      "tier": null
+    },
+    {
+      "name": "M4",
+      "aliases": [],
+      "wiki": "M4 (computer language)",
+      "tier": null
+    },
+    {
+      "name": "MacBASIC",
+      "aliases": [],
+      "wiki": "MacBASIC",
+      "tier": null
+    },
+    {
+      "name": "Machine code",
+      "aliases": [
+        "Machine language"
+      ],
+      "wiki": "Machine code",
+      "tier": null
+    },
+    {
+      "name": "MAD",
+      "aliases": [],
+      "wiki": "MAD (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Magik",
+      "aliases": [],
+      "wiki": "Magik (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Magma",
+      "aliases": [],
+      "wiki": "Magma (computer algebra system)",
+      "tier": null
+    },
+    {
+      "name": "MAI Basic Four Business Basic",
+      "aliases": [],
+      "wiki": "Basic/Four",
+      "tier": null
+    },
+    {
+      "name": "Makefile",
+      "aliases": [
+        "Make"
+      ],
+      "wiki": "Make (software)",
+      "tier": null
+    },
+    {
+      "name": "Malbolge",
+      "aliases": [],
+      "wiki": "Malbolge",
+      "tier": null
+    },
+    {
+      "name": "Mallard BASIC",
+      "aliases": [],
+      "wiki": "Mallard BASIC",
+      "tier": null
+    },
+    {
+      "name": "MapBasic",
+      "aliases": [],
+      "wiki": "MapBasic",
+      "tier": null
+    },
+    {
+      "name": "Maple",
+      "aliases": [],
+      "wiki": "Maple (software)",
+      "tier": null
+    },
+    {
+      "name": "MAPPER",
+      "aliases": [],
+      "wiki": "MAPPER",
+      "tier": null
+    },
+    {
+      "name": "MARK-IV",
+      "aliases": [],
+      "wiki": "Mark IV (software)",
+      "tier": null
+    },
+    {
+      "name": "Mary",
+      "aliases": [],
+      "wiki": "Mary (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MASM",
+      "aliases": [
+        "Microsoft Macro Assembler"
+      ],
+      "wiki": "Microsoft Macro Assembler",
+      "tier": null
+    },
+    {
+      "name": "MATH-MATIC",
+      "aliases": [],
+      "wiki": "MATH-MATIC",
+      "tier": null
+    },
+    {
+      "name": "MathML",
+      "aliases": [],
+      "wiki": "MathML",
+      "tier": null
+    },
+    {
+      "name": "MATLAB",
+      "aliases": [
+        "Matlab language"
+      ],
+      "wiki": "MATLAB",
+      "tier": null
+    },
+    {
+      "name": "Maude system",
+      "aliases": [],
+      "wiki": "Maude system",
+      "tier": null
+    },
+    {
+      "name": "Max",
+      "aliases": [],
+      "wiki": "Max (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Maxima",
+      "aliases": [],
+      "wiki": "Maxima (software)",
+      "tier": null
+    },
+    {
+      "name": "MBASIC",
+      "aliases": [],
+      "wiki": "MBASIC",
+      "tier": null
+    },
+    {
+      "name": "MDL",
+      "aliases": [],
+      "wiki": "MDL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MDX",
+      "aliases": [
+        "Multidimensional Expressions"
+      ],
+      "wiki": "MultiDimensional eXpressions",
+      "tier": null
+    },
+    {
+      "name": "MEL",
+      "aliases": [
+        "Maya Embedded Language"
+      ],
+      "wiki": "Maya Embedded Language",
+      "tier": null
+    },
+    {
+      "name": "Mercury",
+      "aliases": [],
+      "wiki": "Mercury (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Mesa",
+      "aliases": [],
+      "wiki": "Mesa (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MHEG-5",
+      "aliases": [],
+      "wiki": "MHEG-5",
+      "tier": null
+    },
+    {
+      "name": "Microcode",
+      "aliases": [],
+      "wiki": "Microassembler",
+      "tier": null
+    },
+    {
+      "name": "MicroPython",
+      "aliases": [],
+      "wiki": "MicroPython",
+      "tier": null
+    },
+    {
+      "name": "Microsoft BASIC",
+      "aliases": [],
+      "wiki": "Microsoft BASIC",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Small Basic",
+      "aliases": [],
+      "wiki": "Microsoft Small Basic",
+      "tier": null
+    },
+    {
+      "name": "MIIS",
+      "aliases": [],
+      "wiki": "MIIS (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MIMIC",
+      "aliases": [],
+      "wiki": "MIMIC",
+      "tier": null
+    },
+    {
+      "name": "Mirah",
+      "aliases": [],
+      "wiki": "Mirah (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Miranda",
+      "aliases": [],
+      "wiki": "Miranda (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MIVA Script",
+      "aliases": [],
+      "wiki": "MIVA Script",
+      "tier": null
+    },
+    {
+      "name": "ML",
+      "aliases": [],
+      "wiki": "ML (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Mobile BASIC",
+      "aliases": [],
+      "wiki": "Mobile BASIC",
+      "tier": null
+    },
+    {
+      "name": "Model 204",
+      "aliases": [],
+      "wiki": "Model 204",
+      "tier": null
+    },
+    {
+      "name": "Modelica",
+      "aliases": [],
+      "wiki": "Modelica",
+      "tier": null
+    },
+    {
+      "name": "Modula",
+      "aliases": [],
+      "wiki": "Modula",
+      "tier": null
+    },
+    {
+      "name": "Modula-2",
+      "aliases": [],
+      "wiki": "Modula-2",
+      "tier": null
+    },
+    {
+      "name": "Modula-3",
+      "aliases": [],
+      "wiki": "Modula-3",
+      "tier": null
+    },
+    {
+      "name": "Mojo",
+      "aliases": [],
+      "wiki": "Mojo (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MOO",
+      "aliases": [],
+      "wiki": "MOO",
+      "tier": null
+    },
+    {
+      "name": "Mortran",
+      "aliases": [],
+      "wiki": "Mortran",
+      "tier": null
+    },
+    {
+      "name": "Mouse",
+      "aliases": [],
+      "wiki": "Mouse (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MPD",
+      "aliases": [],
+      "wiki": "MPD (programming language)",
+      "tier": null
+    },
+    {
+      "name": "MS BASIC for Macintosh",
+      "aliases": [],
+      "wiki": "MS BASIC for Macintosh",
+      "tier": null
+    },
+    {
+      "name": "MSL",
+      "aliases": [],
+      "wiki": "MIRC scripting language",
+      "tier": null
+    },
+    {
+      "name": "MSX BASIC",
+      "aliases": [],
+      "wiki": "MSX BASIC",
+      "tier": null
+    },
+    {
+      "name": "MUMPS",
+      "aliases": [],
+      "wiki": "MUMPS",
+      "tier": null
+    },
+    {
+      "name": "MuPAD",
+      "aliases": [],
+      "wiki": "MuPAD",
+      "tier": null
+    },
+    {
+      "name": "Napier88",
+      "aliases": [],
+      "wiki": "Napier88",
+      "tier": null
+    },
+    {
+      "name": "NASM",
+      "aliases": [],
+      "wiki": "Netwide Assembler",
+      "tier": null
+    },
+    {
+      "name": "Neko",
+      "aliases": [],
+      "wiki": "NekoVM",
+      "tier": null
+    },
+    {
+      "name": "NELIAC",
+      "aliases": [],
+      "wiki": "NELIAC",
+      "tier": null
+    },
+    {
+      "name": "Nemerle",
+      "aliases": [],
+      "wiki": "Nemerle",
+      "tier": null
+    },
+    {
+      "name": "NESL",
+      "aliases": [],
+      "wiki": "NESL",
+      "tier": null
+    },
+    {
+      "name": "Net.Data",
+      "aliases": [],
+      "wiki": "Net.Data",
+      "tier": null
+    },
+    {
+      "name": "NetLogo",
+      "aliases": [],
+      "wiki": "NetLogo",
+      "tier": null
+    },
+    {
+      "name": "NetRexx",
+      "aliases": [],
+      "wiki": "NetRexx",
+      "tier": null
+    },
+    {
+      "name": "NewLISP",
+      "aliases": [],
+      "wiki": "NewLISP",
+      "tier": null
+    },
+    {
+      "name": "Newspeak",
+      "aliases": [],
+      "wiki": "Newspeak (programming language)",
+      "tier": null
+    },
+    {
+      "name": "NewtonScript",
+      "aliases": [],
+      "wiki": "NewtonScript",
+      "tier": null
+    },
+    {
+      "name": "Nial",
+      "aliases": [],
+      "wiki": "Nial",
+      "tier": null
+    },
+    {
+      "name": "Nim",
+      "aliases": [],
+      "wiki": "Nim (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Nix",
+      "aliases": [],
+      "wiki": "Nix (package manager)",
+      "tier": null
+    },
+    {
+      "name": "Nord Programming Language",
+      "aliases": [
+        "NPL"
+      ],
+      "wiki": "Nord Programming Language",
+      "tier": null
+    },
+    {
+      "name": "NorthStar BASIC",
+      "aliases": [],
+      "wiki": "North Star BASIC",
+      "tier": null
+    },
+    {
+      "name": "NS Basic",
+      "aliases": [],
+      "wiki": "NS Basic",
+      "tier": null
+    },
+    {
+      "name": "Nu",
+      "aliases": [],
+      "wiki": "Nu (programming language)",
+      "tier": null
+    },
+    {
+      "name": "o:XML",
+      "aliases": [],
+      "wiki": "O:XML",
+      "tier": null
+    },
+    {
+      "name": "Oak",
+      "aliases": [],
+      "wiki": "Oak (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Oberon",
+      "aliases": [],
+      "wiki": "Oberon (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Object Lisp",
+      "aliases": [],
+      "wiki": "Object Lisp",
+      "tier": null
+    },
+    {
+      "name": "Object Pascal",
+      "aliases": [],
+      "wiki": "Object Pascal",
+      "tier": null
+    },
+    {
+      "name": "Object Query Language",
+      "aliases": [
+        "OQL"
+      ],
+      "wiki": "Object Query Language",
+      "tier": null
+    },
+    {
+      "name": "Object REXX",
+      "aliases": [],
+      "wiki": "Object REXX",
+      "tier": null
+    },
+    {
+      "name": "Objective-C",
+      "aliases": [
+        "Obj-C"
+      ],
+      "wiki": "Objective-C",
+      "tier": null
+    },
+    {
+      "name": "Obliq",
+      "aliases": [],
+      "wiki": "Obliq",
+      "tier": null
+    },
+    {
+      "name": "OCaml",
+      "aliases": [],
+      "wiki": "OCaml",
+      "tier": null
+    },
+    {
+      "name": "occam",
+      "aliases": [],
+      "wiki": "Occam (programming language)",
+      "tier": null
+    },
+    {
+      "name": "occam-pi",
+      "aliases": [],
+      "wiki": "Occam-π",
+      "tier": null
+    },
+    {
+      "name": "OCL",
+      "aliases": [
+        "Object Constraint Language"
+      ],
+      "wiki": "Object Constraint Language",
+      "tier": null
+    },
+    {
+      "name": "OmniMark",
+      "aliases": [],
+      "wiki": "OmniMark",
+      "tier": null
+    },
+    {
+      "name": "Opa",
+      "aliases": [],
+      "wiki": "Opa (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Opal",
+      "aliases": [],
+      "wiki": "Opal (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Open Programming Language",
+      "aliases": [
+        "OPL"
+      ],
+      "wiki": "Open Programming Language",
+      "tier": null
+    },
+    {
+      "name": "OpenCL",
+      "aliases": [],
+      "wiki": "OpenCL",
+      "tier": null
+    },
+    {
+      "name": "OpenEdge Advanced Business Language",
+      "aliases": [
+        "ABL"
+      ],
+      "wiki": "OpenEdge Advanced Business Language",
+      "tier": null
+    },
+    {
+      "name": "OpenGL Shading Language",
+      "aliases": [
+        "GLSL"
+      ],
+      "wiki": "OpenGL Shading Language",
+      "tier": null
+    },
+    {
+      "name": "OpenQASM",
+      "aliases": [],
+      "wiki": "OpenQASM",
+      "tier": null
+    },
+    {
+      "name": "OPS5",
+      "aliases": [],
+      "wiki": "OPS5",
+      "tier": null
+    },
+    {
+      "name": "OptimJ",
+      "aliases": [],
+      "wiki": "OptimJ",
+      "tier": null
+    },
+    {
+      "name": "Orc",
+      "aliases": [],
+      "wiki": "Orc (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ORCA/Modula-2",
+      "aliases": [],
+      "wiki": "ORCA/Modula-2",
+      "tier": null
+    },
+    {
+      "name": "Oriel",
+      "aliases": [],
+      "wiki": "Oriel (scripting language)",
+      "tier": null
+    },
+    {
+      "name": "Orwell",
+      "aliases": [],
+      "wiki": "Orwell (programming language)",
+      "tier": null
+    },
+    {
+      "name": "OWL",
+      "aliases": [
+        "Web Ontology Language"
+      ],
+      "wiki": "Web Ontology Language",
+      "tier": null
+    },
+    {
+      "name": "Oxygene",
+      "aliases": [],
+      "wiki": "Oxygene (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Oz",
+      "aliases": [],
+      "wiki": "Oz (programming language)",
+      "tier": null
+    },
+    {
+      "name": "P",
+      "aliases": [],
+      "wiki": "P (programming language)",
+      "tier": null
+    },
+    {
+      "name": "P4",
+      "aliases": [],
+      "wiki": "P4 (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ParaSail",
+      "aliases": [],
+      "wiki": "ParaSail (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PARI/GP",
+      "aliases": [],
+      "wiki": "PARI/GP",
+      "tier": null
+    },
+    {
+      "name": "Pascal",
+      "aliases": [],
+      "wiki": "Pascal (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Pascal Script",
+      "aliases": [],
+      "wiki": "Pascal Script",
+      "tier": null
+    },
+    {
+      "name": "PBASIC",
+      "aliases": [],
+      "wiki": "PBASIC",
+      "tier": null
+    },
+    {
+      "name": "PCASTL",
+      "aliases": [],
+      "wiki": "PCASTL",
+      "tier": null
+    },
+    {
+      "name": "PCF",
+      "aliases": [],
+      "wiki": "Programming Computable Functions",
+      "tier": null
+    },
+    {
+      "name": "PDL",
+      "aliases": [],
+      "wiki": "Perl Data Language",
+      "tier": null
+    },
+    {
+      "name": "PEARL",
+      "aliases": [],
+      "wiki": "PEARL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PeopleCode",
+      "aliases": [],
+      "wiki": "PeopleCode",
+      "tier": null
+    },
+    {
+      "name": "Perl",
+      "aliases": [],
+      "wiki": "Perl",
+      "tier": null
+    },
+    {
+      "name": "Pharo",
+      "aliases": [],
+      "wiki": "Pharo",
+      "tier": null
+    },
+    {
+      "name": "PHP",
+      "aliases": [],
+      "wiki": "PHP",
+      "tier": null
+    },
+    {
+      "name": "Picolisp",
+      "aliases": [],
+      "wiki": "PicoLisp",
+      "tier": null
+    },
+    {
+      "name": "Pict",
+      "aliases": [],
+      "wiki": "Pict (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Pig Latin",
+      "aliases": [
+        "Apache Pig"
+      ],
+      "wiki": "Apache Pig",
+      "tier": null
+    },
+    {
+      "name": "Pike",
+      "aliases": [],
+      "wiki": "Pike (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PILOT",
+      "aliases": [],
+      "wiki": "PILOT",
+      "tier": null
+    },
+    {
+      "name": "Pizza",
+      "aliases": [],
+      "wiki": "Pizza (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PL-11",
+      "aliases": [],
+      "wiki": "PL-11",
+      "tier": null
+    },
+    {
+      "name": "PL/0",
+      "aliases": [],
+      "wiki": "PL/0",
+      "tier": null
+    },
+    {
+      "name": "PL/B",
+      "aliases": [],
+      "wiki": "Programming Language for Business",
+      "tier": null
+    },
+    {
+      "name": "PL/C",
+      "aliases": [],
+      "wiki": "PL/C",
+      "tier": null
+    },
+    {
+      "name": "PL/I",
+      "aliases": [],
+      "wiki": "PL/I",
+      "tier": null
+    },
+    {
+      "name": "PL/M",
+      "aliases": [],
+      "wiki": "PL/M",
+      "tier": null
+    },
+    {
+      "name": "PL/S",
+      "aliases": [],
+      "wiki": "IBM PL/S",
+      "tier": null
+    },
+    {
+      "name": "PL/SQL",
+      "aliases": [],
+      "wiki": "PL/SQL",
+      "tier": null
+    },
+    {
+      "name": "PL360",
+      "aliases": [],
+      "wiki": "PL360",
+      "tier": null
+    },
+    {
+      "name": "PLANC",
+      "aliases": [],
+      "wiki": "PLANC",
+      "tier": null
+    },
+    {
+      "name": "Plankalkül",
+      "aliases": [],
+      "wiki": "Plankalkül",
+      "tier": null
+    },
+    {
+      "name": "Planner",
+      "aliases": [],
+      "wiki": "Planner (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PlantUML",
+      "aliases": [],
+      "wiki": "PlantUML",
+      "tier": null
+    },
+    {
+      "name": "PLEX",
+      "aliases": [],
+      "wiki": "PLEX (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PLEXIL",
+      "aliases": [],
+      "wiki": "PLEXIL",
+      "tier": null
+    },
+    {
+      "name": "Plus",
+      "aliases": [],
+      "wiki": "Plus (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Polymorphic Programming Language",
+      "aliases": [
+        "PPL"
+      ],
+      "wiki": "Polymorphic Programming Language",
+      "tier": null
+    },
+    {
+      "name": "Pony",
+      "aliases": [],
+      "wiki": "Pony (programming language)",
+      "tier": null
+    },
+    {
+      "name": "POP-11",
+      "aliases": [],
+      "wiki": "POP-11",
+      "tier": null
+    },
+    {
+      "name": "POP-2",
+      "aliases": [],
+      "wiki": "POP-2",
+      "tier": null
+    },
+    {
+      "name": "PostScript",
+      "aliases": [],
+      "wiki": "PostScript",
+      "tier": null
+    },
+    {
+      "name": "POV-Ray SDL",
+      "aliases": [],
+      "wiki": "POV-Ray",
+      "tier": null
+    },
+    {
+      "name": "Power Fx",
+      "aliases": [
+        "Microsoft Power Fx"
+      ],
+      "wiki": "Microsoft Power Fx",
+      "tier": null
+    },
+    {
+      "name": "PowerBASIC",
+      "aliases": [],
+      "wiki": "PowerBASIC",
+      "tier": null
+    },
+    {
+      "name": "PowerBuilder",
+      "aliases": [],
+      "wiki": "PowerBuilder",
+      "tier": null
+    },
+    {
+      "name": "Powerhouse",
+      "aliases": [],
+      "wiki": "PowerHouse (programming language)",
+      "tier": null
+    },
+    {
+      "name": "PowerShell",
+      "aliases": [
+        "Posh",
+        "PS1"
+      ],
+      "wiki": "PowerShell",
+      "tier": null
+    },
+    {
+      "name": "Pro*C",
+      "aliases": [],
+      "wiki": "Pro*C",
+      "tier": null
+    },
+    {
+      "name": "Processing",
+      "aliases": [],
+      "wiki": "Processing",
+      "tier": null
+    },
+    {
+      "name": "Prograph",
+      "aliases": [],
+      "wiki": "Prograph",
+      "tier": null
+    },
+    {
+      "name": "Project Verona",
+      "aliases": [],
+      "wiki": "Project Verona",
+      "tier": null
+    },
+    {
+      "name": "Prolog",
+      "aliases": [],
+      "wiki": "Prolog",
+      "tier": null
+    },
+    {
+      "name": "PROMAL",
+      "aliases": [],
+      "wiki": "PROMAL",
+      "tier": null
+    },
+    {
+      "name": "Promela",
+      "aliases": [],
+      "wiki": "Promela",
+      "tier": null
+    },
+    {
+      "name": "PROSE modeling language",
+      "aliases": [],
+      "wiki": "PROSE modeling language",
+      "tier": null
+    },
+    {
+      "name": "PROTEL",
+      "aliases": [],
+      "wiki": "Protel",
+      "tier": null
+    },
+    {
+      "name": "Protocol Buffers",
+      "aliases": [
+        "Protobuf"
+      ],
+      "wiki": "Protocol Buffers",
+      "tier": null
+    },
+    {
+      "name": "Pure",
+      "aliases": [],
+      "wiki": "Pure (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Pure Data",
+      "aliases": [],
+      "wiki": "Pure Data",
+      "tier": null
+    },
+    {
+      "name": "PureBasic",
+      "aliases": [],
+      "wiki": "PureBasic",
+      "tier": null
+    },
+    {
+      "name": "PureScript",
+      "aliases": [],
+      "wiki": "PureScript",
+      "tier": null
+    },
+    {
+      "name": "PyPy",
+      "aliases": [],
+      "wiki": "PyPy",
+      "tier": null
+    },
+    {
+      "name": "Q",
+      "aliases": [
+        "kdb+/q"
+      ],
+      "wiki": "Q (programming language from Kx Systems)",
+      "tier": null
+    },
+    {
+      "name": "Q#",
+      "aliases": [],
+      "wiki": "Q Sharp",
+      "tier": null
+    },
+    {
+      "name": "Qalb",
+      "aliases": [],
+      "wiki": "Qalb (programming language)",
+      "tier": null
+    },
+    {
+      "name": "QB64",
+      "aliases": [],
+      "wiki": "QB64",
+      "tier": null
+    },
+    {
+      "name": "QBasic",
+      "aliases": [],
+      "wiki": "QBasic",
+      "tier": null
+    },
+    {
+      "name": "QML",
+      "aliases": [],
+      "wiki": "QML",
+      "tier": null
+    },
+    {
+      "name": "QPL",
+      "aliases": [],
+      "wiki": "Quantum programming",
+      "tier": null
+    },
+    {
+      "name": "QtScript",
+      "aliases": [],
+      "wiki": "QtScript",
+      "tier": null
+    },
+    {
+      "name": "QuakeC",
+      "aliases": [],
+      "wiki": "QuakeC",
+      "tier": null
+    },
+    {
+      "name": "Quantum Computation Language",
+      "aliases": [],
+      "wiki": "Quantum Computation Language",
+      "tier": null
+    },
+    {
+      "name": "QUEL",
+      "aliases": [],
+      "wiki": "QUEL query languages",
+      "tier": null
+    },
+    {
+      "name": "QuickBASIC",
+      "aliases": [],
+      "wiki": "QuickBASIC",
+      "tier": null
+    },
+    {
+      "name": "R++",
+      "aliases": [],
+      "wiki": "R++",
+      "tier": null
+    },
+    {
+      "name": "Racket",
+      "aliases": [],
+      "wiki": "Racket (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Raku",
+      "aliases": [],
+      "wiki": "Raku (programming language)",
+      "tier": null
+    },
+    {
+      "name": "RAPID",
+      "aliases": [],
+      "wiki": "RAPID",
+      "tier": null
+    },
+    {
+      "name": "RapidQ",
+      "aliases": [],
+      "wiki": "RapidQ",
+      "tier": null
+    },
+    {
+      "name": "Rapira",
+      "aliases": [],
+      "wiki": "Rapira",
+      "tier": null
+    },
+    {
+      "name": "Ratfor",
+      "aliases": [],
+      "wiki": "Ratfor",
+      "tier": null
+    },
+    {
+      "name": "rc",
+      "aliases": [],
+      "wiki": "Rc (Unix shell)",
+      "tier": null
+    },
+    {
+      "name": "RDQL",
+      "aliases": [],
+      "wiki": "RDF query language",
+      "tier": null
+    },
+    {
+      "name": "Reason",
+      "aliases": [],
+      "wiki": "Reason (programming language)",
+      "tier": null
+    },
+    {
+      "name": "REBOL",
+      "aliases": [],
+      "wiki": "Rebol",
+      "tier": null
+    },
+    {
+      "name": "Red",
+      "aliases": [],
+      "wiki": "Red (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Redcode",
+      "aliases": [],
+      "wiki": "Core War",
+      "tier": null
+    },
+    {
+      "name": "REFAL",
+      "aliases": [],
+      "wiki": "Refal",
+      "tier": null
+    },
+    {
+      "name": "ReScript",
+      "aliases": [],
+      "wiki": "ReScript",
+      "tier": null
+    },
+    {
+      "name": "reStructuredText",
+      "aliases": [
+        "RST"
+      ],
+      "wiki": "ReStructuredText",
+      "tier": null
+    },
+    {
+      "name": "REXX",
+      "aliases": [],
+      "wiki": "Rexx",
+      "tier": null
+    },
+    {
+      "name": "Rocky Mountain BASIC",
+      "aliases": [
+        "HTBasic"
+      ],
+      "wiki": "Rocky Mountain BASIC",
+      "tier": null
+    },
+    {
+      "name": "Rocq",
+      "aliases": [
+        "Coq"
+      ],
+      "wiki": "Rocq",
+      "tier": null
+    },
+    {
+      "name": "RPG",
+      "aliases": [
+        "IBM RPG",
+        "RPG IV"
+      ],
+      "wiki": "IBM RPG",
+      "tier": null
+    },
+    {
+      "name": "RPL",
+      "aliases": [],
+      "wiki": "RPL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "RTL/2",
+      "aliases": [],
+      "wiki": "RTL/2",
+      "tier": null
+    },
+    {
+      "name": "Ruby",
+      "aliases": [],
+      "wiki": "Ruby (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Rust",
+      "aliases": [
+        "Rustlang"
+      ],
+      "wiki": "Rust (programming language)",
+      "tier": null
+    },
+    {
+      "name": "S",
+      "aliases": [],
+      "wiki": "S (programming language)",
+      "tier": null
+    },
+    {
+      "name": "S-BASIC",
+      "aliases": [],
+      "wiki": "S-BASIC",
+      "tier": null
+    },
+    {
+      "name": "S-Lang",
+      "aliases": [],
+      "wiki": "S-Lang",
+      "tier": null
+    },
+    {
+      "name": "S-PLUS",
+      "aliases": [],
+      "wiki": "S-PLUS",
+      "tier": null
+    },
+    {
+      "name": "S/SL",
+      "aliases": [],
+      "wiki": "S/SL programming language",
+      "tier": null
+    },
+    {
+      "name": "S3",
+      "aliases": [],
+      "wiki": "S3 (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SA-C",
+      "aliases": [],
+      "wiki": "SA-C (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SabreTalk",
+      "aliases": [],
+      "wiki": "SabreTalk",
+      "tier": null
+    },
+    {
+      "name": "SAIL",
+      "aliases": [],
+      "wiki": "SAIL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SAKO",
+      "aliases": [],
+      "wiki": "SAKO (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SAS",
+      "aliases": [
+        "SAS language"
+      ],
+      "wiki": "SAS (software)",
+      "tier": null
+    },
+    {
+      "name": "SASL",
+      "aliases": [],
+      "wiki": "SASL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Sather",
+      "aliases": [],
+      "wiki": "Sather",
+      "tier": null
+    },
+    {
+      "name": "Sawzall",
+      "aliases": [],
+      "wiki": "Sawzall (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SBL",
+      "aliases": [],
+      "wiki": "Superbase (database)",
+      "tier": null
+    },
+    {
+      "name": "Scala",
+      "aliases": [],
+      "wiki": "Scala (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Scheme",
+      "aliases": [],
+      "wiki": "Scheme (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Scilab",
+      "aliases": [],
+      "wiki": "Scilab",
+      "tier": null
+    },
+    {
+      "name": "Scratch",
+      "aliases": [],
+      "wiki": "Scratch (programming language)",
+      "tier": null
+    },
+    {
+      "name": "ScratchJr",
+      "aliases": [],
+      "wiki": "ScratchJr",
+      "tier": null
+    },
+    {
+      "name": "Script.NET",
+      "aliases": [],
+      "wiki": "Script.NET",
+      "tier": null
+    },
+    {
+      "name": "sdlBasic",
+      "aliases": [],
+      "wiki": "SdlBasic",
+      "tier": null
+    },
+    {
+      "name": "sed",
+      "aliases": [],
+      "wiki": "Sed",
+      "tier": null
+    },
+    {
+      "name": "Seed7",
+      "aliases": [],
+      "wiki": "Seed7",
+      "tier": null
+    },
+    {
+      "name": "Self",
+      "aliases": [],
+      "wiki": "Self (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SenseTalk",
+      "aliases": [],
+      "wiki": "SenseTalk",
+      "tier": null
+    },
+    {
+      "name": "SequenceL",
+      "aliases": [],
+      "wiki": "SequenceL",
+      "tier": null
+    },
+    {
+      "name": "SETL",
+      "aliases": [],
+      "wiki": "SETL",
+      "tier": null
+    },
+    {
+      "name": "Shakespeare",
+      "aliases": [
+        "Shakespeare Programming Language"
+      ],
+      "wiki": "Shakespeare Programming Language",
+      "tier": null
+    },
+    {
+      "name": "Short Code",
+      "aliases": [],
+      "wiki": "Short Code (computer language)",
+      "tier": null
+    },
+    {
+      "name": "SIGNAL",
+      "aliases": [],
+      "wiki": "SIGNAL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Simons' BASIC",
+      "aliases": [],
+      "wiki": "Simons' BASIC",
+      "tier": null
+    },
+    {
+      "name": "SiMPLE",
+      "aliases": [],
+      "wiki": "SiMPLE",
+      "tier": null
+    },
+    {
+      "name": "SIMSCRIPT",
+      "aliases": [],
+      "wiki": "SIMSCRIPT",
+      "tier": null
+    },
+    {
+      "name": "Simula",
+      "aliases": [],
+      "wiki": "Simula",
+      "tier": null
+    },
+    {
+      "name": "Simulink",
+      "aliases": [],
+      "wiki": "Simulink",
+      "tier": null
+    },
+    {
+      "name": "Sinclair BASIC",
+      "aliases": [],
+      "wiki": "Sinclair BASIC",
+      "tier": null
+    },
+    {
+      "name": "SISAL",
+      "aliases": [],
+      "wiki": "SISAL",
+      "tier": null
+    },
+    {
+      "name": "SKILL",
+      "aliases": [],
+      "wiki": "Cadence SKILL",
+      "tier": null
+    },
+    {
+      "name": "SLIP",
+      "aliases": [],
+      "wiki": "SLIP (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SMALL",
+      "aliases": [],
+      "wiki": "SMALL",
+      "tier": null
+    },
+    {
+      "name": "SmallBASIC",
+      "aliases": [],
+      "wiki": "SmallBASIC",
+      "tier": null
+    },
+    {
+      "name": "Smalltalk",
+      "aliases": [],
+      "wiki": "Smalltalk",
+      "tier": null
+    },
+    {
+      "name": "SmileBASIC",
+      "aliases": [],
+      "wiki": "Petit Computer",
+      "tier": null
+    },
+    {
+      "name": "Snap!",
+      "aliases": [],
+      "wiki": "Snap! (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SNOBOL",
+      "aliases": [],
+      "wiki": "SNOBOL",
+      "tier": null
+    },
+    {
+      "name": "Snowball",
+      "aliases": [],
+      "wiki": "Snowball (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SOBS",
+      "aliases": [],
+      "wiki": "Southampton BASIC System",
+      "tier": null
+    },
+    {
+      "name": "SOL",
+      "aliases": [],
+      "wiki": "Secure Operations Language",
+      "tier": null
+    },
+    {
+      "name": "Solidity",
+      "aliases": [],
+      "wiki": "Solidity",
+      "tier": null
+    },
+    {
+      "name": "SOPHAEROS",
+      "aliases": [],
+      "wiki": "SOPHAEROS",
+      "tier": null
+    },
+    {
+      "name": "Source",
+      "aliases": [],
+      "wiki": "Source (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SP/k",
+      "aliases": [],
+      "wiki": "SP/k",
+      "tier": null
+    },
+    {
+      "name": "SPARK",
+      "aliases": [],
+      "wiki": "SPARK (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SPARQL",
+      "aliases": [],
+      "wiki": "SPARQL",
+      "tier": null
+    },
+    {
+      "name": "Speakeasy",
+      "aliases": [],
+      "wiki": "Speakeasy (computational environment)",
+      "tier": null
+    },
+    {
+      "name": "Speedcode",
+      "aliases": [],
+      "wiki": "Speedcoding",
+      "tier": null
+    },
+    {
+      "name": "SPIN",
+      "aliases": [],
+      "wiki": "Parallax Propeller",
+      "tier": null
+    },
+    {
+      "name": "SPS",
+      "aliases": [],
+      "wiki": "IBM 1401 Symbolic Programming System",
+      "tier": null
+    },
+    {
+      "name": "SQL/PSM",
+      "aliases": [
+        "SQL Persistent Stored Modules"
+      ],
+      "wiki": "SQL/PSM",
+      "tier": null
+    },
+    {
+      "name": "SQR",
+      "aliases": [],
+      "wiki": "SQR",
+      "tier": null
+    },
+    {
+      "name": "Squeak",
+      "aliases": [],
+      "wiki": "Squeak (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Squirrel",
+      "aliases": [],
+      "wiki": "Squirrel (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SR",
+      "aliases": [],
+      "wiki": "SR (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Stan",
+      "aliases": [],
+      "wiki": "Stan (software)",
+      "tier": null
+    },
+    {
+      "name": "Standard ML",
+      "aliases": [
+        "SML"
+      ],
+      "wiki": "Standard ML",
+      "tier": null
+    },
+    {
+      "name": "Starlogo",
+      "aliases": [],
+      "wiki": "StarLogo",
+      "tier": null
+    },
+    {
+      "name": "StarOffice Basic",
+      "aliases": [],
+      "wiki": "OpenOffice Basic",
+      "tier": null
+    },
+    {
+      "name": "Stata",
+      "aliases": [],
+      "wiki": "Stata",
+      "tier": null
+    },
+    {
+      "name": "Stateflow",
+      "aliases": [],
+      "wiki": "Stateflow",
+      "tier": null
+    },
+    {
+      "name": "STOS BASIC",
+      "aliases": [],
+      "wiki": "STOS BASIC",
+      "tier": null
+    },
+    {
+      "name": "Strand",
+      "aliases": [],
+      "wiki": "Strand (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Strongtalk",
+      "aliases": [],
+      "wiki": "Strongtalk",
+      "tier": null
+    },
+    {
+      "name": "Structured Text",
+      "aliases": [],
+      "wiki": "Structured text",
+      "tier": null
+    },
+    {
+      "name": "Subtext",
+      "aliases": [],
+      "wiki": "Subtext (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SuperBASIC",
+      "aliases": [],
+      "wiki": "SuperBASIC",
+      "tier": null
+    },
+    {
+      "name": "SuperCollider",
+      "aliases": [],
+      "wiki": "SuperCollider",
+      "tier": null
+    },
+    {
+      "name": "Superplan",
+      "aliases": [],
+      "wiki": "Superplan",
+      "tier": null
+    },
+    {
+      "name": "SuperTalk",
+      "aliases": [],
+      "wiki": "SuperTalk",
+      "tier": null
+    },
+    {
+      "name": "Swift",
+      "aliases": [],
+      "wiki": "Swift (programming language)",
+      "tier": null
+    },
+    {
+      "name": "SYCL",
+      "aliases": [],
+      "wiki": "SYCL",
+      "tier": null
+    },
+    {
+      "name": "SYMPL",
+      "aliases": [],
+      "wiki": "SYMPL",
+      "tier": null
+    },
+    {
+      "name": "Systems Programming Language",
+      "aliases": [],
+      "wiki": "Systems Programming Language",
+      "tier": null
+    },
+    {
+      "name": "SystemVerilog",
+      "aliases": [],
+      "wiki": "SystemVerilog",
+      "tier": null
+    },
+    {
+      "name": "T",
+      "aliases": [],
+      "wiki": "T (programming language)",
+      "tier": null
+    },
+    {
+      "name": "TACL",
+      "aliases": [],
+      "wiki": "TACL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Tcl",
+      "aliases": [
+        "Tcl/Tk"
+      ],
+      "wiki": "Tcl (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Tea",
+      "aliases": [],
+      "wiki": "Tea (programming language)",
+      "tier": null
+    },
+    {
+      "name": "TELCOMP",
+      "aliases": [],
+      "wiki": "TELCOMP",
+      "tier": null
+    },
+    {
+      "name": "TeX",
+      "aliases": [],
+      "wiki": "TeX",
+      "tier": null
+    },
+    {
+      "name": "Text Adventure Development System",
+      "aliases": [
+        "TADS"
+      ],
+      "wiki": "Text Adventure Development System",
+      "tier": null
+    },
+    {
+      "name": "Text Editor and Corrector",
+      "aliases": [
+        "TECO"
+      ],
+      "wiki": "TECO (text editor)",
+      "tier": null
+    },
+    {
+      "name": "Text Processing Utility",
+      "aliases": [
+        "TPU"
+      ],
+      "wiki": "DEC Text Processing Utility",
+      "tier": null
+    },
+    {
+      "name": "TI-BASIC",
+      "aliases": [
+        "TI-99/4A BASIC"
+      ],
+      "wiki": "TI-BASIC",
+      "tier": null
+    },
+    {
+      "name": "TIE",
+      "aliases": [
+        "Tensilica Instruction Extension"
+      ],
+      "wiki": "Tensilica",
+      "tier": null
+    },
+    {
+      "name": "Tiny BASIC",
+      "aliases": [],
+      "wiki": "Tiny BASIC",
+      "tier": null
+    },
+    {
+      "name": "TMG",
+      "aliases": [],
+      "wiki": "TMG (language)",
+      "tier": null
+    },
+    {
+      "name": "Tom",
+      "aliases": [],
+      "wiki": "Tom (programming language)",
+      "tier": null
+    },
+    {
+      "name": "TRAC",
+      "aliases": [],
+      "wiki": "TRAC (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Transact-SQL",
+      "aliases": [
+        "T-SQL"
+      ],
+      "wiki": "Transact-SQL",
+      "tier": null
+    },
+    {
+      "name": "Transaction Application Language",
+      "aliases": [
+        "TAL"
+      ],
+      "wiki": "Transaction Application Language",
+      "tier": null
+    },
+    {
+      "name": "TRS-80 Level I BASIC",
+      "aliases": [],
+      "wiki": "Level I BASIC",
+      "tier": null
+    },
+    {
+      "name": "True BASIC",
+      "aliases": [],
+      "wiki": "True BASIC",
+      "tier": null
+    },
+    {
+      "name": "TTCN",
+      "aliases": [],
+      "wiki": "TTCN",
+      "tier": null
+    },
+    {
+      "name": "TTM",
+      "aliases": [],
+      "wiki": "TTM (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Turbo Pascal",
+      "aliases": [],
+      "wiki": "Turbo Pascal",
+      "tier": null
+    },
+    {
+      "name": "Turbo-Basic XL",
+      "aliases": [],
+      "wiki": "Turbo-BASIC XL",
+      "tier": null
+    },
+    {
+      "name": "Turing",
+      "aliases": [],
+      "wiki": "Turing (programming language)",
+      "tier": null
+    },
+    {
+      "name": "TUTOR",
+      "aliases": [],
+      "wiki": "TUTOR",
+      "tier": null
+    },
+    {
+      "name": "TXL",
+      "aliases": [],
+      "wiki": "TXL (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Tynker",
+      "aliases": [],
+      "wiki": "Tynker",
+      "tier": null
+    },
+    {
+      "name": "Typst",
+      "aliases": [],
+      "wiki": "Typst",
+      "tier": null
+    },
+    {
+      "name": "UBASIC",
+      "aliases": [],
+      "wiki": "UBASIC",
+      "tier": null
+    },
+    {
+      "name": "Ubercode",
+      "aliases": [],
+      "wiki": "Ubercode",
+      "tier": null
+    },
+    {
+      "name": "UCSD Pascal",
+      "aliases": [],
+      "wiki": "UCSD Pascal",
+      "tier": null
+    },
+    {
+      "name": "Umple",
+      "aliases": [],
+      "wiki": "Umple",
+      "tier": null
+    },
+    {
+      "name": "Unicon",
+      "aliases": [],
+      "wiki": "Unicon (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Uniface",
+      "aliases": [],
+      "wiki": "Uniface (programming language)",
+      "tier": null
+    },
+    {
+      "name": "UNITY",
+      "aliases": [],
+      "wiki": "UNITY (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Unix shell",
+      "aliases": [
+        "Shell script",
+        "Shell scripting",
+        "sh"
+      ],
+      "wiki": "Unix shell",
+      "tier": null
+    },
+    {
+      "name": "V",
+      "aliases": [
+        "vlang"
+      ],
+      "wiki": "V (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Vala",
+      "aliases": [],
+      "wiki": "Vala (programming language)",
+      "tier": null
+    },
+    {
+      "name": "VB.NET",
+      "aliases": [
+        "Visual Basic .NET"
+      ],
+      "wiki": "Visual Basic (.NET)",
+      "tier": null
+    },
+    {
+      "name": "VBScript",
+      "aliases": [
+        "Visual Basic Script",
+        "VBS",
+        "Visual Basic Scripting Edition"
+      ],
+      "wiki": "VBScript",
+      "tier": null
+    },
+    {
+      "name": "Verilog",
+      "aliases": [],
+      "wiki": "Verilog",
+      "tier": null
+    },
+    {
+      "name": "VHDL",
+      "aliases": [],
+      "wiki": "VHDL",
+      "tier": null
+    },
+    {
+      "name": "Vilnius BASIC",
+      "aliases": [],
+      "wiki": "Vilnius BASIC",
+      "tier": null
+    },
+    {
+      "name": "Visual Basic",
+      "aliases": [
+        "VB",
+        "VB6",
+        "Visual Basic 6",
+        "Classic Visual Basic"
+      ],
+      "wiki": "Visual Basic (classic)",
+      "tier": null
+    },
+    {
+      "name": "Visual C++",
+      "aliases": [
+        "MSVC"
+      ],
+      "wiki": "Microsoft Visual C++",
+      "tier": null
+    },
+    {
+      "name": "Visual DialogScript",
+      "aliases": [],
+      "wiki": "Visual DialogScript",
+      "tier": null
+    },
+    {
+      "name": "Visual FoxPro",
+      "aliases": [],
+      "wiki": "Visual FoxPro",
+      "tier": null
+    },
+    {
+      "name": "Visual J++",
+      "aliases": [
+        "J++"
+      ],
+      "wiki": "Visual J++",
+      "tier": null
+    },
+    {
+      "name": "Visual Objects",
+      "aliases": [],
+      "wiki": "Visual Objects",
+      "tier": null
+    },
+    {
+      "name": "Visual Prolog",
+      "aliases": [],
+      "wiki": "Visual Prolog",
+      "tier": null
+    },
+    {
+      "name": "Visual Test",
+      "aliases": [],
+      "wiki": "Visual Test",
+      "tier": null
+    },
+    {
+      "name": "VRML",
+      "aliases": [],
+      "wiki": "VRML",
+      "tier": null
+    },
+    {
+      "name": "WATFIV",
+      "aliases": [],
+      "wiki": "WATFIV",
+      "tier": null
+    },
+    {
+      "name": "WebAssembly",
+      "aliases": [],
+      "wiki": "WebAssembly",
+      "tier": null
+    },
+    {
+      "name": "WebGPU Shading Language",
+      "aliases": [
+        "WGSL"
+      ],
+      "wiki": "WebGPU Shading Language",
+      "tier": null
+    },
+    {
+      "name": "Whiley",
+      "aliases": [],
+      "wiki": "Whiley (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Whitespace",
+      "aliases": [],
+      "wiki": "Whitespace (programming language)",
+      "tier": null
+    },
+    {
+      "name": "WML",
+      "aliases": [
+        "Wireless Markup Language"
+      ],
+      "wiki": "Wireless Markup Language",
+      "tier": null
+    },
+    {
+      "name": "Wolfram Language",
+      "aliases": [
+        "Wolfram"
+      ],
+      "wiki": "Wolfram Language",
+      "tier": null
+    },
+    {
+      "name": "WordBasic",
+      "aliases": [],
+      "wiki": "WordBASIC",
+      "tier": null
+    },
+    {
+      "name": "WSDL",
+      "aliases": [
+        "Web Services Description Language"
+      ],
+      "wiki": "Web Services Description Language",
+      "tier": null
+    },
+    {
+      "name": "wxBasic",
+      "aliases": [],
+      "wiki": "WxBasic",
+      "tier": null
+    },
+    {
+      "name": "Wyvern",
+      "aliases": [],
+      "wiki": "Wyvern (programming language)",
+      "tier": null
+    },
+    {
+      "name": "X10",
+      "aliases": [],
+      "wiki": "X10 (programming language)",
+      "tier": null
+    },
+    {
+      "name": "XAML",
+      "aliases": [
+        "Extensible Application Markup Language"
+      ],
+      "wiki": "Extensible Application Markup Language",
+      "tier": null
+    },
+    {
+      "name": "XBasic",
+      "aliases": [],
+      "wiki": "XBasic",
+      "tier": null
+    },
+    {
+      "name": "XBLite",
+      "aliases": [],
+      "wiki": "XBLite",
+      "tier": null
+    },
+    {
+      "name": "XML Schema",
+      "aliases": [
+        "XSD"
+      ],
+      "wiki": "XML Schema (W3C)",
+      "tier": null
+    },
+    {
+      "name": "Xod",
+      "aliases": [],
+      "wiki": "XOD (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Xojo",
+      "aliases": [],
+      "wiki": "Xojo",
+      "tier": null
+    },
+    {
+      "name": "XOTcl",
+      "aliases": [],
+      "wiki": "XOTcl",
+      "tier": null
+    },
+    {
+      "name": "XPath",
+      "aliases": [],
+      "wiki": "XPath",
+      "tier": null
+    },
+    {
+      "name": "XPL",
+      "aliases": [],
+      "wiki": "XPL",
+      "tier": null
+    },
+    {
+      "name": "XPL0",
+      "aliases": [],
+      "wiki": "XPL0",
+      "tier": null
+    },
+    {
+      "name": "XQuery",
+      "aliases": [],
+      "wiki": "XQuery",
+      "tier": null
+    },
+    {
+      "name": "XSB",
+      "aliases": [],
+      "wiki": "XSB",
+      "tier": null
+    },
+    {
+      "name": "XSL-FO",
+      "aliases": [],
+      "wiki": "XSL Formatting Objects",
+      "tier": null
+    },
+    {
+      "name": "XSLT",
+      "aliases": [
+        "XSL Transformations"
+      ],
+      "wiki": "XSLT",
+      "tier": null
+    },
+    {
+      "name": "Xtend",
+      "aliases": [],
+      "wiki": "Xtend",
+      "tier": null
+    },
+    {
+      "name": "XUL",
+      "aliases": [],
+      "wiki": "XUL",
+      "tier": null
+    },
+    {
+      "name": "Yabasic",
+      "aliases": [],
+      "wiki": "Yabasic",
+      "tier": null
+    },
+    {
+      "name": "Yorick",
+      "aliases": [],
+      "wiki": "Yorick (programming language)",
+      "tier": null
+    },
+    {
+      "name": "YQL",
+      "aliases": [],
+      "wiki": "Yahoo Query Language",
+      "tier": null
+    },
+    {
+      "name": "Z shell",
+      "aliases": [
+        "zsh"
+      ],
+      "wiki": "Z shell",
+      "tier": null
+    },
+    {
+      "name": "Z++",
+      "aliases": [],
+      "wiki": "Z++",
+      "tier": null
+    },
+    {
+      "name": "ZBasic",
+      "aliases": [],
+      "wiki": "ZBasic",
+      "tier": null
+    },
+    {
+      "name": "Zebra Programming Language",
+      "aliases": [
+        "ZPL2"
+      ],
+      "wiki": "Zebra Programming Language",
+      "tier": null
+    },
+    {
+      "name": "ZetaLisp",
+      "aliases": [],
+      "wiki": "Lisp Machine Lisp",
+      "tier": null
+    },
+    {
+      "name": "Zig",
+      "aliases": [],
+      "wiki": "Zig (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Zonnon",
+      "aliases": [],
+      "wiki": "Zonnon",
+      "tier": null
+    },
+    {
+      "name": "ZPL",
+      "aliases": [],
+      "wiki": "Z-level programming language",
+      "tier": null
+    }
+  ]
+}

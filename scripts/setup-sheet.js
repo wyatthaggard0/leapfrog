@@ -1,11 +1,10 @@
 // One-time (safe to re-run) setup of the attendance Google Sheet:
+//   Attendance  everyone who finished, sorted Last > First, with check-in time
 //   Responses   raw log written by the game
-//   Attendance  everyone, sorted Section > Last > First
-//   <section>   one tab per section from config/game.js
 //   Unmatched   answers that scored 0, for adding aliases later
 // Run: npm run setup-sheet   (reads .env)
 import fs from 'node:fs';
-import { PROMPTS, SECTIONS } from '../config/game.js';
+import { PROMPTS } from '../config/game.js';
 import { HEADERS, RESPONSES_TAB } from '../lib/store.js';
 import { sheets, sheetsConfigured } from '../lib/google.js';
 
@@ -17,7 +16,7 @@ if (!sheetsConfigured()) {
 
 const ATTENDANCE = 'Attendance';
 const UNMATCHED = 'Unmatched';
-const tabs = [RESPONSES_TAB, ATTENDANCE, ...SECTIONS, UNMATCHED];
+const tabs = [ATTENDANCE, RESPONSES_TAB, UNMATCHED];
 
 const meta = await sheets('', { query: { fields: 'sheets.properties' } });
 const existing = new Map(meta.sheets.map((s) => [s.properties.title, s.properties.sheetId]));
@@ -31,26 +30,22 @@ if (missing.length) {
   console.log(`Added tabs: ${missing.join(', ')}`);
 }
 
-const q = (s) => `'${s.replace(/'/g, "''")}'`;
+// One row per student (first finished game), sorted by last name.
 const attendance =
-  `=QUERY(${RESPONSES_TAB}!A2:D, "select D, B, C, min(A) where B is not null group by D, B, C order by D, B, C ` +
-  `label D 'Section', B 'Last Name', C 'First Name', min(A) 'Check-in Time'", 0)`;
-const sectionQuery = (section) =>
-  `=QUERY(${RESPONSES_TAB}!A2:D, "select B, C, min(A) where D = '${section}' group by B, C order by B, C ` +
+  `=QUERY(${RESPONSES_TAB}!A2:C, "select B, C, min(A) where B is not null group by B, C order by B, C ` +
   `label B 'Last Name', C 'First Name', min(A) 'Check-in Time'", 0)`;
-// Answer column F..L, points column T..Z for prompts 1..7.
+// Answers are columns E..K and points S..Y for prompts 1..7.
 const col = (start, i) => String.fromCharCode(start.charCodeAt(0) + i);
-const unmatched = PROMPTS.map(
-  (_, i) =>
-    `=IFERROR(SORT(UNIQUE(FILTER(${RESPONSES_TAB}!${col('F', i)}2:${col('F', i)}, ` +
-    `${RESPONSES_TAB}!${col('T', i)}2:${col('T', i)}=0, ${RESPONSES_TAB}!${col('F', i)}2:${col('F', i)}<>""))), "")`,
-);
+const unmatched = PROMPTS.map((_, i) => {
+  const a = `${RESPONSES_TAB}!${col('E', i)}2:${col('E', i)}`;
+  const p = `${RESPONSES_TAB}!${col('S', i)}2:${col('S', i)}`;
+  return `=IFERROR(SORT(UNIQUE(FILTER(${a}, ${p}=0, ${a}<>""))), "")`;
+});
 
 const data = [
-  { range: `${q(RESPONSES_TAB)}!A1:Z1`, values: [HEADERS] },
-  { range: `${q(ATTENDANCE)}!A1`, values: [[attendance]] },
-  ...SECTIONS.map((s) => ({ range: `${q(s)}!A1`, values: [[sectionQuery(s)]] })),
-  { range: `${q(UNMATCHED)}!A1:G2`, values: [PROMPTS.map((p, i) => `${i + 1}. ${p.text}`), unmatched] },
+  { range: `${ATTENDANCE}!A1`, values: [[attendance]] },
+  { range: `${RESPONSES_TAB}!A1:Y1`, values: [HEADERS] },
+  { range: `${UNMATCHED}!A1:G2`, values: [PROMPTS.map((p, i) => `${i + 1}. ${p.text}`), unmatched] },
 ];
 await sheets('/values:batchUpdate', { method: 'POST', body: { valueInputOption: 'USER_ENTERED', data } });
 

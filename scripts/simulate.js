@@ -1,7 +1,8 @@
 // Load test: sends fake finished games to a running server.
 // Run: npm run simulate -- [count] [baseUrl]    e.g. npm run simulate -- 100 http://localhost:3000
 // Writes real rows, so point it at a test sheet (or local mode) and clear them afterwards.
-import { PROMPTS, SECTIONS } from '../config/game.js';
+import { PROMPTS } from '../config/game.js';
+import { ANSWERS } from '../config/answers/index.js';
 
 const count = Number(process.argv[2]) || 50;
 const base = process.argv[3] || `http://localhost:${process.env.PORT || 3000}`;
@@ -13,7 +14,8 @@ const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 function answerFor(prompt) {
   if (Math.random() < 0.08) return 'idk';
   const tier = Math.random() < 0.55 ? 1 + Math.floor(Math.random() * 2) : 1 + Math.floor(Math.random() * 6);
-  return pick(prompt.tiers[tier]).split('|')[0];
+  const pool = ANSWERS[prompt.slug].answers.filter((a) => a.tier === tier);
+  return pool.length ? pick(pool).name : 'idk';
 }
 
 const started = Date.now();
@@ -26,7 +28,6 @@ const results = await Promise.allSettled(
       body: JSON.stringify({
         first: pick(FIRST),
         last: `${pick(LAST)}${n}`,
-        section: pick(SECTIONS),
         answers: PROMPTS.map(answerFor),
       }),
     });

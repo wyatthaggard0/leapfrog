@@ -1,0 +1,2715 @@
+{
+ "prompt": "Name a career you can go into as a BIS major",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://www.tcu.edu/academics/programs/business-information-systems.php (Career Prospects: Business Analyst, Information Systems, Management Consultant, Project Manager, Business Intelligence Analyst, Systems Developer)",
+  "https://www.neeley.tcu.edu/research-faculty/academic-departments/information-systems-supply-chain-management.php",
+  "https://jobs.tcu.edu/jobs/assistant-associate-full-professor-of-professional-practice-and-director-of-business-information-systems-program-tcu-main-campus-texas-united-states (BIS grads: systems analyst, consultant, BI analyst, project manager)",
+  "https://www.bls.gov/ooh/computer-and-information-technology/home.htm",
+  "https://www.bls.gov/ooh/business-and-financial/home.htm",
+  "https://www.bls.gov/ooh/management/home.htm",
+  "https://www.onetonline.org/find/family?f=15 (O*NET Computer and Mathematical job family)",
+  "Common industry job titles (consulting, tech risk, ERP/SAP, product, agile, cloud, data, security) added by hand"
+ ],
+ "reject": [],
+ "answers": [
+  {
+   "name": "Business Analyst",
+   "aliases": [
+    "business analysis",
+    "it business analyst",
+    "business analytics",
+    "business analyst consultant"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Consultant",
+   "aliases": [
+    "it consultant",
+    "technology consultant",
+    "consulting",
+    "management consultant",
+    "management consulting",
+    "business consultant",
+    "consulting analyst",
+    "technology consulting",
+    "it consulting",
+    "strategy consultant",
+    "big 4 consultant",
+    "big four consultant",
+    "management analyst",
+    "software consultant",
+    "strategy consulting"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Cybersecurity Analyst",
+   "aliases": [
+    "cybersecurity",
+    "cyber security",
+    "information security analyst",
+    "security analyst",
+    "infosec",
+    "information security",
+    "cyber analyst",
+    "cybersecurity specialist",
+    "cyber"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Data Analyst",
+   "aliases": [
+    "data analytics",
+    "data analysis",
+    "analytics",
+    "analytics analyst",
+    "data analytics analyst"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Project Manager",
+   "aliases": [
+    "project management",
+    "it project manager",
+    "technical project manager",
+    "information technology project manager",
+    "project management specialist"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Software Developer",
+   "aliases": [
+    "software engineer",
+    "programmer",
+    "swe",
+    "developer",
+    "software development",
+    "software engineering",
+    "coder",
+    "computer programmer",
+    "application developer",
+    "app developer",
+    "applications developer",
+    "systems developer",
+    "programming",
+    "software dev"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Business Intelligence Analyst",
+   "aliases": [
+    "bi analyst",
+    "business intelligence",
+    "bi",
+    "business intelligence consultant"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Data Scientist",
+   "aliases": [
+    "data science"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Database Administrator",
+   "aliases": [
+    "dba",
+    "database admin",
+    "database management",
+    "database administration"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "IT Auditor",
+   "aliases": [
+    "it audit",
+    "information technology auditor",
+    "it audit associate",
+    "technology auditor",
+    "information systems auditor",
+    "is auditor",
+    "it audit analyst"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "IT Manager",
+   "aliases": [
+    "information technology manager",
+    "computer and information systems manager",
+    "information systems manager",
+    "is manager",
+    "it director",
+    "director of it",
+    "it management",
+    "information technology management"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Product Manager",
+   "aliases": [
+    "product management",
+    "technical product manager",
+    "associate product manager",
+    "apm"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Sales Engineer",
+   "aliases": [
+    "technical sales",
+    "solutions engineer",
+    "presales engineer",
+    "sales engineering",
+    "technical sales engineer",
+    "pre sales engineer"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Systems Analyst",
+   "aliases": [
+    "computer systems analyst",
+    "systems analysis",
+    "it systems analyst",
+    "information systems analyst",
+    "information systems",
+    "is analyst",
+    "system analyst"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Web Developer",
+   "aliases": [
+    "web development",
+    "web dev",
+    "website developer"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Actuary",
+   "aliases": [
+    "actuarial analyst",
+    "actuarial science",
+    "actuarial"
+   ],
+   "tier": 3,
+   "views": 36047
+  },
+  {
+   "name": "AI Engineer",
+   "aliases": [
+    "artificial intelligence engineer",
+    "ai developer",
+    "ai specialist",
+    "generative ai engineer",
+    "artificial intelligence",
+    "ai",
+    "genai engineer"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "BI Developer",
+   "aliases": [
+    "business intelligence developer",
+    "power bi developer",
+    "tableau developer",
+    "bi engineer",
+    "power bi",
+    "tableau"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Business Systems Analyst",
+   "aliases": [
+    "bsa",
+    "business systems analysis",
+    "solutions analyst",
+    "business systems consultant"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Chief Technology Officer",
+   "aliases": [
+    "cto"
+   ],
+   "tier": 3,
+   "views": 18811
+  },
+  {
+   "name": "Cloud Engineer",
+   "aliases": [
+    "cloud computing",
+    "aws engineer",
+    "azure engineer",
+    "cloud developer",
+    "cloud administrator",
+    "cloud"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Data Engineer",
+   "aliases": [
+    "data engineering",
+    "big data engineer",
+    "etl developer",
+    "big data"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "DevOps Engineer",
+   "aliases": [
+    "devops",
+    "devops specialist"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Digital Marketing Specialist",
+   "aliases": [
+    "digital marketing",
+    "digital marketer",
+    "online marketing",
+    "internet marketing",
+    "digital marketing manager"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Entrepreneur",
+   "aliases": [
+    "startup founder",
+    "founder",
+    "small business owner",
+    "startup",
+    "business owner",
+    "tech founder",
+    "entrepreneurship"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "ERP Consultant",
+   "aliases": [
+    "sap consultant",
+    "erp analyst",
+    "erp",
+    "enterprise systems analyst",
+    "oracle consultant",
+    "enterprise resource planning",
+    "erp developer",
+    "sap",
+    "sap analyst",
+    "erp specialist",
+    "enterprise systems consultant"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Front-End Developer",
+   "aliases": [
+    "front end engineer",
+    "frontend engineer",
+    "ui developer",
+    "front end development"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Full-Stack Developer",
+   "aliases": [
+    "full stack engineer",
+    "fullstack",
+    "full stack"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Game Developer",
+   "aliases": [
+    "video game developer",
+    "game programmer",
+    "game development"
+   ],
+   "tier": 3,
+   "views": 50195
+  },
+  {
+   "name": "IT Support Specialist",
+   "aliases": [
+    "help desk",
+    "help desk technician",
+    "technical support",
+    "tech support",
+    "it support",
+    "computer support specialist",
+    "desktop support",
+    "service desk analyst",
+    "it technician",
+    "computer user support specialist",
+    "helpdesk",
+    "help desk analyst",
+    "desktop support technician",
+    "computer technician"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Machine Learning Engineer",
+   "aliases": [
+    "ml engineer",
+    "machine learning",
+    "mle",
+    "machine learning scientist"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Marketing Analyst",
+   "aliases": [
+    "marketing analytics",
+    "digital marketing analyst",
+    "marketing data analyst"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Network Engineer",
+   "aliases": [
+    "network engineering",
+    "networking",
+    "network specialist",
+    "network support specialist",
+    "computer network support specialist"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Operations Analyst",
+   "aliases": [
+    "business operations analyst",
+    "operations analytics",
+    "ops analyst"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Program Manager",
+   "aliases": [
+    "program management",
+    "technical program manager",
+    "tpm",
+    "program director"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "QA Analyst",
+   "aliases": [
+    "quality assurance analyst",
+    "software tester",
+    "qa tester",
+    "qa engineer",
+    "test engineer",
+    "software quality assurance",
+    "qa",
+    "quality assurance",
+    "software testing",
+    "software quality assurance analyst"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Scrum Master",
+   "aliases": [
+    "scrum",
+    "scrum coach"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Solutions Architect",
+   "aliases": [
+    "solution architect",
+    "technical architect",
+    "solutions architecture",
+    "solution architecture"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Supply Chain Analyst",
+   "aliases": [
+    "supply chain analytics",
+    "supply chain",
+    "supply chain consultant",
+    "supply chain planner"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Technology Analyst",
+   "aliases": [
+    "tech analyst",
+    "technology analyst program",
+    "it analyst",
+    "technology associate"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Technology Risk Consultant",
+   "aliases": [
+    "technology risk",
+    "tech risk",
+    "it risk analyst",
+    "technology risk analyst",
+    "it risk",
+    "risk advisory",
+    "it risk management",
+    "technology risk associate",
+    "it risk consultant"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Technology Sales Representative",
+   "aliases": [
+    "tech sales",
+    "software sales",
+    "saas sales",
+    "account executive",
+    "sales development representative",
+    "sdr",
+    "bdr",
+    "business development representative",
+    "it sales",
+    "sales",
+    "sales representative",
+    "technology sales"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "UX Designer",
+   "aliases": [
+    "user experience designer",
+    "ux",
+    "user experience",
+    "ux ui designer",
+    "ui ux designer",
+    "product designer",
+    "interaction designer",
+    "ux design"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Accountant",
+   "aliases": [
+    "auditor",
+    "accounting",
+    "cpa",
+    "certified public accountant",
+    "audit associate",
+    "external auditor",
+    "public accountant",
+    "audit",
+    "staff accountant",
+    "accountants and auditors"
+   ],
+   "tier": 4,
+   "views": 10883
+  },
+  {
+   "name": "Accounting Systems Analyst",
+   "aliases": [
+    "accounting information systems analyst",
+    "financial systems analyst",
+    "ais analyst",
+    "finance systems analyst",
+    "accounting information systems"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Back-End Developer",
+   "aliases": [
+    "backend engineer",
+    "back end engineer",
+    "server side developer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Business Development Manager",
+   "aliases": [
+    "business development",
+    "biz dev",
+    "business development associate"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Chief Executive Officer",
+   "aliases": [
+    "ceo",
+    "top executive",
+    "company president"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Chief Information Officer",
+   "aliases": [
+    "cio"
+   ],
+   "tier": 4,
+   "views": 7294
+  },
+  {
+   "name": "Cloud Architect",
+   "aliases": [
+    "cloud solutions architect",
+    "cloud architecture",
+    "aws solutions architect"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Compliance Officer",
+   "aliases": [
+    "compliance analyst",
+    "compliance",
+    "regulatory compliance analyst",
+    "compliance specialist",
+    "compliance manager",
+    "regulatory compliance"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Computer Systems Engineer",
+   "aliases": [
+    "systems engineer",
+    "computer systems architect",
+    "systems architect",
+    "it systems engineer",
+    "systems engineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "CRM Consultant",
+   "aliases": [
+    "salesforce consultant",
+    "crm analyst",
+    "salesforce",
+    "crm",
+    "crm specialist",
+    "customer relationship management"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Customer Success Manager",
+   "aliases": [
+    "customer success",
+    "csm",
+    "client success manager",
+    "customer success specialist"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Cybersecurity Consultant",
+   "aliases": [
+    "security consultant",
+    "cyber consultant",
+    "cyber risk consultant",
+    "cybersecurity advisory",
+    "cyber risk"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Data Architect",
+   "aliases": [
+    "data architecture"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Data Consultant",
+   "aliases": [
+    "analytics consultant",
+    "data analytics consultant",
+    "data strategy consultant"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Database Developer",
+   "aliases": [
+    "sql developer",
+    "database programmer",
+    "database engineer",
+    "sql"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Demand Planner",
+   "aliases": [
+    "demand planning",
+    "forecasting analyst",
+    "demand forecasting",
+    "demand analyst"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Digital Transformation Consultant",
+   "aliases": [
+    "digital transformation",
+    "digital strategy consultant",
+    "transformation consultant",
+    "digital consultant",
+    "digital strategist"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "E-commerce Manager",
+   "aliases": [
+    "ecommerce specialist",
+    "e commerce",
+    "ecommerce",
+    "ecommerce analyst",
+    "online store manager"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Economist",
+   "aliases": [
+    "economics",
+    "economic analyst",
+    "economic consultant"
+   ],
+   "tier": 4,
+   "views": 6623
+  },
+  {
+   "name": "Engineering Manager",
+   "aliases": [
+    "software engineering manager",
+    "development manager",
+    "architectural and engineering manager",
+    "vp of engineering",
+    "vice president of engineering",
+    "director of engineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Enterprise Architect",
+   "aliases": [
+    "enterprise architecture"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Financial Manager",
+   "aliases": [
+    "finance manager",
+    "controller",
+    "treasurer",
+    "finance director",
+    "financial controller",
+    "financial management"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Fintech Analyst",
+   "aliases": [
+    "fintech",
+    "financial technology analyst",
+    "payments analyst",
+    "financial technology",
+    "fintech product manager"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Health Informatics Specialist",
+   "aliases": [
+    "health informatics",
+    "healthcare informatics",
+    "clinical informatics analyst",
+    "clinical informatics",
+    "informatics specialist"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Healthcare IT Analyst",
+   "aliases": [
+    "healthcare it",
+    "health it",
+    "ehr analyst",
+    "epic analyst",
+    "electronic health records analyst",
+    "clinical systems analyst",
+    "health information technology",
+    "epic consultant",
+    "ehr specialist"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "HRIS Analyst",
+   "aliases": [
+    "hris specialist",
+    "human resources information systems analyst",
+    "hr technology analyst",
+    "hris"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Implementation Consultant",
+   "aliases": [
+    "implementation specialist",
+    "implementation analyst",
+    "software implementation consultant",
+    "implementation manager"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Internal Auditor",
+   "aliases": [
+    "internal audit",
+    "internal audit analyst"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Investment Banker",
+   "aliases": [
+    "investment banking",
+    "ib analyst",
+    "investment banking analyst",
+    "banker"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "IT Specialist",
+   "aliases": [
+    "information technology specialist",
+    "it generalist",
+    "information technology",
+    "it professional",
+    "it"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Logistician",
+   "aliases": [
+    "logistics analyst",
+    "logistics coordinator",
+    "logistics manager",
+    "logistics",
+    "logistics specialist"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Market Research Analyst",
+   "aliases": [
+    "market researcher",
+    "market research",
+    "consumer insights analyst",
+    "market analyst"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Marketing Manager",
+   "aliases": [
+    "marketing",
+    "marketing director",
+    "brand manager",
+    "advertising manager",
+    "promotions manager",
+    "marketing management",
+    "advertising promotions and marketing manager"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Mathematician",
+   "aliases": [
+    "mathematics",
+    "applied mathematician"
+   ],
+   "tier": 4,
+   "views": 13434
+  },
+  {
+   "name": "Mobile App Developer",
+   "aliases": [
+    "mobile developer",
+    "ios developer",
+    "android developer",
+    "mobile app development",
+    "mobile engineer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Network Architect",
+   "aliases": [
+    "computer network architect",
+    "network architecture"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Operations Manager",
+   "aliases": [
+    "business operations manager",
+    "operations management",
+    "ops manager",
+    "director of operations"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Operations Research Analyst",
+   "aliases": [
+    "operations research",
+    "or analyst",
+    "decision scientist",
+    "decision science"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Penetration Tester",
+   "aliases": [
+    "pen tester",
+    "ethical hacker",
+    "pentester",
+    "white hat hacker",
+    "penetration testing",
+    "red team",
+    "ethical hacking",
+    "red teamer",
+    "pen testing"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Process Improvement Analyst",
+   "aliases": [
+    "process analyst",
+    "business process analyst",
+    "continuous improvement analyst",
+    "lean six sigma",
+    "six sigma black belt",
+    "process improvement",
+    "business process management",
+    "six sigma"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Procurement Specialist",
+   "aliases": [
+    "procurement analyst",
+    "purchasing agent",
+    "procurement",
+    "purchasing",
+    "sourcing analyst",
+    "purchasing manager",
+    "strategic sourcing",
+    "procurement manager"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Product Analyst",
+   "aliases": [
+    "product analytics",
+    "product data analyst"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Product Marketing Manager",
+   "aliases": [
+    "product marketing",
+    "pmm",
+    "product marketer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Product Owner",
+   "aliases": [
+    "agile product owner"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Project Coordinator",
+   "aliases": [
+    "project analyst",
+    "project management coordinator",
+    "pmo analyst",
+    "pmo coordinator"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Quantitative Analyst",
+   "aliases": [
+    "quant",
+    "quant analyst",
+    "quantitative finance analyst",
+    "quantitative analysis"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Risk Analyst",
+   "aliases": [
+    "risk management analyst",
+    "enterprise risk analyst",
+    "risk manager",
+    "risk management",
+    "enterprise risk management",
+    "risk consultant"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Security Engineer",
+   "aliases": [
+    "cybersecurity engineer",
+    "information security engineer",
+    "cyber engineer",
+    "cyber security engineer",
+    "security engineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "SOC Analyst",
+   "aliases": [
+    "security operations center analyst",
+    "security operations analyst",
+    "soc",
+    "security operations"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Solutions Consultant",
+   "aliases": [
+    "presales consultant",
+    "solution consultant",
+    "pre sales consultant",
+    "presales",
+    "pre sales"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Supply Chain Manager",
+   "aliases": [
+    "supply chain management",
+    "scm"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Systems Administrator",
+   "aliases": [
+    "sysadmin",
+    "system administrator",
+    "sys admin",
+    "it administrator",
+    "linux administrator",
+    "windows administrator",
+    "systems administration"
+   ],
+   "tier": 4,
+   "views": 7417
+  },
+  {
+   "name": "Technical Recruiter",
+   "aliases": [
+    "it recruiter",
+    "recruiter",
+    "talent acquisition specialist",
+    "tech recruiter",
+    "talent acquisition",
+    "recruiting"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Technical Support Engineer",
+   "aliases": [
+    "support engineer",
+    "application support analyst",
+    "application support engineer",
+    "production support analyst",
+    "application support"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "UI Designer",
+   "aliases": [
+    "user interface designer",
+    "ui design",
+    "visual designer",
+    "web and digital interface designer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Web Administrator",
+   "aliases": [
+    "webmaster",
+    "website administrator",
+    "web admin"
+   ],
+   "tier": 4,
+   "views": 7110
+  },
+  {
+   "name": "Web Designer",
+   "aliases": [
+    "web design",
+    "website designer",
+    "digital designer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Account Manager",
+   "aliases": [
+    "account management",
+    "key account manager",
+    "client account manager",
+    "client manager"
+   ],
+   "tier": 5,
+   "views": 4608
+  },
+  {
+   "name": "Agile Coach",
+   "aliases": [
+    "agile",
+    "agile transformation coach",
+    "agile consultant"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Analytics Engineer",
+   "aliases": [
+    "analytics engineering"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Application Security Engineer",
+   "aliases": [
+    "appsec engineer",
+    "application security",
+    "devsecops engineer",
+    "devsecops",
+    "appsec",
+    "product security engineer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "AR/VR Developer",
+   "aliases": [
+    "virtual reality developer",
+    "augmented reality developer",
+    "mixed reality developer",
+    "xr developer",
+    "vr developer",
+    "ar developer",
+    "virtual reality",
+    "mixed reality",
+    "augmented reality"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Blockchain Developer",
+   "aliases": [
+    "blockchain engineer",
+    "blockchain",
+    "smart contract developer",
+    "web3 developer",
+    "crypto developer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Business Continuity Planner",
+   "aliases": [
+    "business continuity analyst",
+    "disaster recovery analyst",
+    "disaster recovery planner",
+    "bcp",
+    "business continuity",
+    "disaster recovery"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Change Management Consultant",
+   "aliases": [
+    "change manager",
+    "change management",
+    "organizational change consultant",
+    "change management analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Chief Financial Officer",
+   "aliases": [
+    "cfo"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Chief Information Security Officer",
+   "aliases": [
+    "ciso"
+   ],
+   "tier": 5,
+   "views": 4562
+  },
+  {
+   "name": "Chief Operating Officer",
+   "aliases": [
+    "coo"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cloud Consultant",
+   "aliases": [
+    "aws consultant",
+    "azure consultant",
+    "cloud solutions consultant"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cloud Security Engineer",
+   "aliases": [
+    "cloud security",
+    "cloud security architect",
+    "cloud security analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Computer and Information Research Scientist",
+   "aliases": [
+    "computer scientist",
+    "research scientist",
+    "computer research scientist",
+    "computer science researcher"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Customer Experience Analyst",
+   "aliases": [
+    "cx analyst",
+    "customer experience",
+    "voice of customer analyst",
+    "customer insights analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Data Governance Analyst",
+   "aliases": [
+    "data governance",
+    "data steward",
+    "data quality analyst",
+    "data stewardship",
+    "data quality"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Data Visualization Specialist",
+   "aliases": [
+    "data visualization developer",
+    "dashboard developer",
+    "data viz",
+    "data visualization"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Data Warehouse Developer",
+   "aliases": [
+    "data warehousing specialist",
+    "data warehouse architect",
+    "data warehouse engineer",
+    "data warehousing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Database Architect",
+   "aliases": [
+    "database design",
+    "database designer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Delivery Manager",
+   "aliases": [
+    "engagement manager",
+    "delivery lead",
+    "service delivery manager",
+    "it delivery manager"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Digital Forensics Analyst",
+   "aliases": [
+    "computer forensics",
+    "digital forensics investigator",
+    "forensic computer analyst",
+    "cyber forensics",
+    "digital forensics",
+    "computer forensics analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Equity Research Analyst",
+   "aliases": [
+    "equity research",
+    "stock analyst",
+    "securities analyst",
+    "research analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Financial Advisor",
+   "aliases": [
+    "financial planner",
+    "wealth manager",
+    "personal financial advisor",
+    "wealth management",
+    "financial adviser",
+    "wealth advisor"
+   ],
+   "tier": 5,
+   "views": 3383
+  },
+  {
+   "name": "Financial Analyst",
+   "aliases": [
+    "financial analysis",
+    "fpa analyst",
+    "fp and a analyst",
+    "financial planning and analysis",
+    "corporate finance analyst",
+    "fp and a"
+   ],
+   "tier": 5,
+   "views": 2803
+  },
+  {
+   "name": "Forensic Accountant",
+   "aliases": [
+    "forensic accounting",
+    "fraud examiner",
+    "certified fraud examiner"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Fraud Analyst",
+   "aliases": [
+    "fraud detection analyst",
+    "fraud investigator",
+    "anti money laundering analyst",
+    "aml analyst",
+    "financial crimes analyst",
+    "fraud prevention analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Government IT Specialist",
+   "aliases": [
+    "public sector consultant",
+    "federal it specialist",
+    "government consultant",
+    "public sector technology consultant",
+    "govtech"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "GRC Analyst",
+   "aliases": [
+    "governance risk and compliance analyst",
+    "grc",
+    "it compliance analyst",
+    "governance risk and compliance",
+    "grc consultant"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Healthcare Administrator",
+   "aliases": [
+    "health services manager",
+    "medical and health services manager",
+    "hospital administrator",
+    "healthcare manager",
+    "health administration"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Healthcare Data Analyst",
+   "aliases": [
+    "health data analyst",
+    "healthcare analyst",
+    "clinical data analyst",
+    "healthcare analytics"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "HR Manager",
+   "aliases": [
+    "human resources manager",
+    "hr director",
+    "human resource management",
+    "human resources director"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Human Resources Specialist",
+   "aliases": [
+    "hr specialist",
+    "human resources",
+    "hr generalist",
+    "hr",
+    "human resources generalist",
+    "hr business partner"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Identity and Access Management Analyst",
+   "aliases": [
+    "iam analyst",
+    "identity management",
+    "access management analyst",
+    "iam engineer",
+    "identity and access management",
+    "iam"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Incident Responder",
+   "aliases": [
+    "incident response analyst",
+    "csirt analyst",
+    "incident response",
+    "incident handler"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Instructional Designer",
+   "aliases": [
+    "instructional design",
+    "e learning developer",
+    "learning experience designer",
+    "elearning developer",
+    "instructional technologist"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Integration Engineer",
+   "aliases": [
+    "integration developer",
+    "api developer",
+    "middleware developer",
+    "systems integration engineer",
+    "integration specialist",
+    "api engineer",
+    "systems integrator"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Intelligence Analyst",
+   "aliases": [
+    "cia analyst",
+    "government intelligence analyst",
+    "intelligence officer",
+    "nsa analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Inventory Analyst",
+   "aliases": [
+    "inventory control analyst",
+    "inventory manager",
+    "inventory planner",
+    "inventory management",
+    "inventory control"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "IT Operations Manager",
+   "aliases": [
+    "it operations",
+    "infrastructure manager",
+    "it infrastructure manager",
+    "infrastructure engineer",
+    "it infrastructure"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "IT Service Manager",
+   "aliases": [
+    "it service management",
+    "itsm",
+    "itil",
+    "service manager",
+    "itil analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Marketing Technologist",
+   "aliases": [
+    "marketing technology manager",
+    "martech specialist",
+    "marketing operations",
+    "marketing automation specialist",
+    "martech",
+    "marketing operations manager",
+    "marketing technology"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Network Security Engineer",
+   "aliases": [
+    "network security",
+    "firewall engineer",
+    "network security analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "People Analytics Analyst",
+   "aliases": [
+    "people analytics",
+    "hr analytics",
+    "workforce analyst",
+    "hr data analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Platform Engineer",
+   "aliases": [
+    "platform engineering"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Pricing Analyst",
+   "aliases": [
+    "pricing strategy analyst",
+    "pricing manager"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Privacy Analyst",
+   "aliases": [
+    "data privacy analyst",
+    "privacy consultant",
+    "data protection officer",
+    "privacy officer",
+    "dpo",
+    "data privacy",
+    "chief privacy officer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Private Equity Associate",
+   "aliases": [
+    "private equity",
+    "pe associate",
+    "private equity analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Prompt Engineer",
+   "aliases": [
+    "prompt engineering",
+    "ai prompt engineer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Real Estate Analyst",
+   "aliases": [
+    "real estate",
+    "commercial real estate analyst",
+    "real estate investment analyst",
+    "proptech analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Release Manager",
+   "aliases": [
+    "release engineer",
+    "release management"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Revenue Management Analyst",
+   "aliases": [
+    "revenue manager",
+    "revenue management",
+    "yield management analyst",
+    "revenue analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sales Manager",
+   "aliases": [
+    "sales management",
+    "sales director"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Salesforce Administrator",
+   "aliases": [
+    "salesforce admin",
+    "crm administrator"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Salesforce Developer",
+   "aliases": [
+    "salesforce engineer",
+    "apex developer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Security Architect",
+   "aliases": [
+    "cybersecurity architect",
+    "information security architect",
+    "security architecture"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SEO Specialist",
+   "aliases": [
+    "search engine optimization specialist",
+    "seo analyst",
+    "seo",
+    "search engine optimization",
+    "sem specialist"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Site Reliability Engineer",
+   "aliases": [
+    "sre",
+    "site reliability engineering"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Social Media Manager",
+   "aliases": [
+    "social media",
+    "social media marketing",
+    "social media strategist",
+    "social media specialist"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SOX Compliance Analyst",
+   "aliases": [
+    "sox analyst",
+    "sarbanes oxley analyst",
+    "internal controls analyst",
+    "sox",
+    "internal controls",
+    "sox auditor"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sports Data Analyst",
+   "aliases": [
+    "sports analytics",
+    "sports analyst",
+    "sports data scientist"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Statistician",
+   "aliases": [
+    "statistics",
+    "statistical analyst"
+   ],
+   "tier": 5,
+   "views": 3867
+  },
+  {
+   "name": "Tax Associate",
+   "aliases": [
+    "tax accountant",
+    "tax consultant",
+    "tax analyst",
+    "tax advisor"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Technical Account Manager",
+   "aliases": [
+    "tam",
+    "technical account management"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Telecommunications Engineer",
+   "aliases": [
+    "telecom engineer",
+    "telecommunications specialist",
+    "telecommunications engineering specialist",
+    "telecom analyst",
+    "telecommunications"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Test Automation Engineer",
+   "aliases": [
+    "automation tester",
+    "sdet",
+    "software development engineer in test",
+    "test automation",
+    "automation engineer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Threat Intelligence Analyst",
+   "aliases": [
+    "threat intel analyst",
+    "cyber threat intelligence",
+    "threat hunter",
+    "threat intelligence",
+    "threat analyst"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Trader",
+   "aliases": [
+    "stock trader",
+    "algorithmic trader",
+    "quant trader",
+    "trading",
+    "securities trader"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Training and Development Specialist",
+   "aliases": [
+    "corporate trainer",
+    "it trainer",
+    "learning and development specialist",
+    "l and d specialist",
+    "training and development manager",
+    "training specialist",
+    "learning and development",
+    "software trainer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "UX Researcher",
+   "aliases": [
+    "user researcher",
+    "usability analyst",
+    "user research",
+    "usability engineer"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Venture Capitalist",
+   "aliases": [
+    "vc",
+    "venture capital analyst",
+    "venture capital",
+    "vc analyst",
+    "venture capital associate"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Video Game Designer",
+   "aliases": [
+    "game designer",
+    "game design"
+   ],
+   "tier": 5,
+   "views": 4416
+  },
+  {
+   "name": "Vulnerability Analyst",
+   "aliases": [
+    "vulnerability management analyst",
+    "vulnerability assessment analyst",
+    "vulnerability management",
+    "vulnerability researcher"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Web Analytics Specialist",
+   "aliases": [
+    "web analyst",
+    "google analytics specialist",
+    "digital analytics analyst",
+    "web analytics",
+    "digital analytics"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Workday Consultant",
+   "aliases": [
+    "workday analyst",
+    "workday"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Ad Operations Specialist",
+   "aliases": [
+    "ad tech specialist",
+    "programmatic advertising specialist",
+    "ad operations",
+    "ad ops",
+    "adtech",
+    "programmatic advertising"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Agricultural Technology Specialist",
+   "aliases": [
+    "agtech",
+    "precision agriculture specialist",
+    "ag tech",
+    "agriculture technology",
+    "precision agriculture"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "AI Ethicist",
+   "aliases": [
+    "ai ethics specialist",
+    "responsible ai analyst",
+    "ai ethics",
+    "ai governance analyst"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Bioinformatics Analyst",
+   "aliases": [
+    "bioinformatics",
+    "bioinformatician",
+    "bioinformatics technician",
+    "bioinformatics scientist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Biostatistician",
+   "aliases": [
+    "biostatistics"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Budget Analyst",
+   "aliases": [
+    "budget analysis",
+    "budget manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Category Manager",
+   "aliases": [
+    "category management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Channel Manager",
+   "aliases": [
+    "channel sales manager",
+    "partner manager",
+    "alliance manager",
+    "alliances manager",
+    "partnerships manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Chatbot Developer",
+   "aliases": [
+    "conversational ai developer",
+    "chatbot designer",
+    "conversational designer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Chief AI Officer",
+   "aliases": [
+    "caio",
+    "chief artificial intelligence officer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Chief Data Officer",
+   "aliases": [
+    "chief data and analytics officer",
+    "cdao",
+    "chief analytics officer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Chief Digital Officer",
+   "aliases": [
+    "chief digital and information officer",
+    "cdio"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Chief Innovation Officer",
+   "aliases": [
+    "innovation officer",
+    "head of innovation"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Claims Adjuster",
+   "aliases": [
+    "insurance claims adjuster",
+    "claims examiner",
+    "claims analyst",
+    "claims investigator"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Clinical Data Manager",
+   "aliases": [
+    "clinical data management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Compensation Analyst",
+   "aliases": [
+    "compensation and benefits analyst",
+    "benefits analyst",
+    "job analysis specialist",
+    "total rewards analyst",
+    "compensation and benefits manager",
+    "compensation manager",
+    "benefits manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Computer Hardware Engineer",
+   "aliases": [
+    "hardware engineer",
+    "computer engineer",
+    "computer engineering"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Computer Science Teacher",
+   "aliases": [
+    "cs teacher",
+    "technology teacher",
+    "computer teacher",
+    "high school computer science teacher",
+    "stem teacher"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Computer Vision Engineer",
+   "aliases": [
+    "computer vision",
+    "computer vision scientist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Content Strategist",
+   "aliases": [
+    "content strategy",
+    "content manager",
+    "content marketing manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cost Estimator",
+   "aliases": [
+    "cost estimating",
+    "cost analyst",
+    "cost estimation"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Credit Analyst",
+   "aliases": [
+    "credit risk analyst",
+    "underwriting analyst",
+    "credit risk"
+   ],
+   "tier": 6,
+   "views": 434
+  },
+  {
+   "name": "Credit Counselor",
+   "aliases": [
+    "credit counseling",
+    "debt counselor"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cryptographer",
+   "aliases": [
+    "cryptography",
+    "cryptanalyst",
+    "cryptologist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cyber Operations Officer",
+   "aliases": [
+    "army cyber officer",
+    "military cyber officer",
+    "cyber warfare officer",
+    "cyberwarfare officer",
+    "air force cyber officer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cybercrime Investigator",
+   "aliases": [
+    "fbi agent",
+    "fbi special agent",
+    "cybercrime agent",
+    "secret service agent"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Data Center Technician",
+   "aliases": [
+    "data center engineer",
+    "data centre technician",
+    "data center manager",
+    "data center"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Digital Asset Manager",
+   "aliases": [
+    "digital asset management",
+    "dam specialist",
+    "digital asset specialist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Document Management Specialist",
+   "aliases": [
+    "records manager",
+    "records management specialist",
+    "document control specialist",
+    "document controller",
+    "records management",
+    "document management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "E-Discovery Specialist",
+   "aliases": [
+    "ediscovery analyst",
+    "litigation support analyst",
+    "electronic discovery",
+    "ediscovery",
+    "e discovery analyst"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Education Technology Specialist",
+   "aliases": [
+    "edtech specialist",
+    "edtech",
+    "instructional technology specialist",
+    "educational technologist",
+    "education technology"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Embedded Systems Engineer",
+   "aliases": [
+    "embedded software engineer",
+    "firmware engineer",
+    "embedded developer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Emergency Management Director",
+   "aliases": [
+    "emergency manager",
+    "emergency management",
+    "emergency management specialist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Energy Analyst",
+   "aliases": [
+    "energy trading analyst",
+    "energy consultant",
+    "utilities analyst",
+    "energy data analyst"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Esports Manager",
+   "aliases": [
+    "esports",
+    "esports operations manager",
+    "gaming operations manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Event Planner",
+   "aliases": [
+    "meeting planner",
+    "convention planner",
+    "event coordinator",
+    "meeting and event planner",
+    "event manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Facilities Manager",
+   "aliases": [
+    "facility manager",
+    "facilities management",
+    "administrative services manager",
+    "facility management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Financial Examiner",
+   "aliases": [
+    "bank examiner",
+    "bank regulator"
+   ],
+   "tier": 6,
+   "views": 666
+  },
+  {
+   "name": "FinOps Analyst",
+   "aliases": [
+    "finops",
+    "cloud financial analyst",
+    "cloud cost analyst",
+    "finops engineer",
+    "cloud financial management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Fundraiser",
+   "aliases": [
+    "fundraising",
+    "development officer",
+    "fundraising manager",
+    "public relations and fundraising manager",
+    "major gifts officer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Game Tester",
+   "aliases": [
+    "video game tester",
+    "game qa tester",
+    "playtester"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "GIS Analyst",
+   "aliases": [
+    "geographic information systems analyst",
+    "gis specialist",
+    "gis technician",
+    "gis",
+    "geographic information systems technologist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Growth Marketer",
+   "aliases": [
+    "growth hacker",
+    "growth analyst",
+    "growth marketing",
+    "growth hacking"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Industrial Production Manager",
+   "aliases": [
+    "production manager",
+    "plant manager",
+    "manufacturing manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Information Architect",
+   "aliases": [
+    "information architecture"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Information Systems Professor",
+   "aliases": [
+    "professor",
+    "is professor",
+    "business professor",
+    "lecturer",
+    "academia",
+    "professor of information systems",
+    "college professor",
+    "phd in information systems"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Insurance Underwriter",
+   "aliases": [
+    "underwriter",
+    "underwriting"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "IoT Engineer",
+   "aliases": [
+    "internet of things engineer",
+    "iot developer",
+    "internet of things",
+    "iot"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "IT Asset Manager",
+   "aliases": [
+    "it asset management",
+    "software asset manager",
+    "itam",
+    "software asset management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Knowledge Manager",
+   "aliases": [
+    "knowledge management",
+    "knowledge management specialist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Labor Relations Specialist",
+   "aliases": [
+    "labor relations",
+    "employee relations specialist",
+    "labor relations manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Legal Technologist",
+   "aliases": [
+    "legal tech",
+    "legal operations analyst",
+    "legal technology",
+    "legal ops",
+    "legal technology consultant"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Loan Officer",
+   "aliases": [
+    "mortgage loan officer",
+    "lending officer",
+    "loan officer assistant"
+   ],
+   "tier": 6,
+   "views": 1191
+  },
+  {
+   "name": "Low-Code Developer",
+   "aliases": [
+    "power platform developer",
+    "power apps developer",
+    "no code developer",
+    "citizen developer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Mainframe Developer",
+   "aliases": [
+    "cobol developer",
+    "mainframe programmer",
+    "cobol programmer",
+    "mainframe engineer",
+    "cobol"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Malware Analyst",
+   "aliases": [
+    "malware reverse engineer",
+    "reverse engineer",
+    "malware analysis",
+    "malware researcher"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Master Data Management Analyst",
+   "aliases": [
+    "mdm analyst",
+    "master data analyst",
+    "master data specialist",
+    "master data management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "MLOps Engineer",
+   "aliases": [
+    "mlops",
+    "ml platform engineer"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "NetSuite Administrator",
+   "aliases": [
+    "netsuite admin",
+    "netsuite consultant",
+    "netsuite"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Network Administrator",
+   "aliases": [
+    "network admin",
+    "network and computer systems administrator",
+    "network administration"
+   ],
+   "tier": 6,
+   "views": 1956
+  },
+  {
+   "name": "NLP Engineer",
+   "aliases": [
+    "natural language processing engineer",
+    "nlp",
+    "natural language processing"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Nonprofit Technology Manager",
+   "aliases": [
+    "nonprofit it manager",
+    "nonprofit technology",
+    "nonprofit data manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Patent Agent",
+   "aliases": [
+    "patent attorney",
+    "patent examiner",
+    "patent analyst"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Policy Analyst",
+   "aliases": [
+    "technology policy analyst",
+    "public policy analyst",
+    "policy analysis"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Property Appraiser",
+   "aliases": [
+    "real estate appraiser",
+    "appraiser",
+    "property assessor",
+    "appraisal"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Property Manager",
+   "aliases": [
+    "property management",
+    "real estate manager",
+    "community association manager"
+   ],
+   "tier": 6,
+   "views": 1121
+  },
+  {
+   "name": "Quantum Software Engineer",
+   "aliases": [
+    "quantum computing engineer",
+    "quantum programmer",
+    "quantum computing"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Requirements Analyst",
+   "aliases": [
+    "requirements engineer",
+    "requirements engineering"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Revenue Agent",
+   "aliases": [
+    "tax examiner",
+    "irs agent",
+    "tax collector",
+    "irs revenue agent"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "RPA Developer",
+   "aliases": [
+    "robotic process automation developer",
+    "rpa analyst",
+    "automation developer",
+    "uipath developer",
+    "robotic process automation",
+    "rpa"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "SAP Developer",
+   "aliases": [
+    "abap developer",
+    "sap abap developer",
+    "abap"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "ServiceNow Developer",
+   "aliases": [
+    "servicenow administrator",
+    "servicenow admin",
+    "servicenow"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Simulation Analyst",
+   "aliases": [
+    "simulation engineer",
+    "simulation modeler",
+    "digital twin engineer",
+    "simulation modeling"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Software Architect",
+   "aliases": [
+    "application architect",
+    "software architecture"
+   ],
+   "tier": 6,
+   "views": 1869
+  },
+  {
+   "name": "Sports Technology Manager",
+   "aliases": [
+    "sports tech",
+    "sports technology",
+    "athletics technology coordinator"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Storage Administrator",
+   "aliases": [
+    "storage engineer",
+    "backup administrator",
+    "storage architect"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Sustainability Data Analyst",
+   "aliases": [
+    "esg analyst",
+    "esg data analyst",
+    "sustainability analyst",
+    "esg"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Tax Technology Consultant",
+   "aliases": [
+    "tax technology",
+    "tax tech",
+    "tax technology analyst"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Technical Writer",
+   "aliases": [
+    "technical writing",
+    "documentation specialist",
+    "technical communicator"
+   ],
+   "tier": 6,
+   "views": 2607
+  },
+  {
+   "name": "Technology Evangelist",
+   "aliases": [
+    "developer advocate",
+    "developer relations",
+    "devrel",
+    "tech evangelist"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Technology Journalist",
+   "aliases": [
+    "tech journalist",
+    "technology reporter",
+    "tech reporter"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Technology Lawyer",
+   "aliases": [
+    "tech lawyer",
+    "it lawyer",
+    "cyber lawyer",
+    "attorney",
+    "lawyer",
+    "privacy lawyer",
+    "technology attorney"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Transportation Manager",
+   "aliases": [
+    "distribution manager",
+    "warehouse manager",
+    "transportation and distribution manager",
+    "fleet manager"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Treasury Analyst",
+   "aliases": [
+    "treasury",
+    "cash management analyst",
+    "treasury management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Unified Communications Engineer",
+   "aliases": [
+    "voip engineer",
+    "unified communications",
+    "voip"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Vendor Manager",
+   "aliases": [
+    "vendor management",
+    "third party risk analyst",
+    "tprm analyst",
+    "vendor risk analyst",
+    "vendor management analyst",
+    "third party risk management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Virtualization Engineer",
+   "aliases": [
+    "vmware engineer",
+    "virtualization administrator",
+    "virtualization"
+   ],
+   "tier": 6
+  }
+ ]
+}

@@ -1,0 +1,5813 @@
+{
+  "prompt": "Name a data or BI tool",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Business_intelligence_software",
+    "https://en.wikipedia.org/wiki/List_of_reporting_software",
+    "https://en.wikipedia.org/wiki/List_of_relational_database_management_systems",
+    "https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems",
+    "https://db-engines.com/en/ranking (top ~220 systems, fetched 2026-10-25)",
+    "https://en.wikipedia.org/wiki/List_of_statistical_packages",
+    "https://en.wikipedia.org/wiki/Comparison_of_OLAP_servers",
+    "https://en.wikipedia.org/wiki/Online_analytical_processing",
+    "https://en.wikipedia.org/wiki/Extract,_transform,_load",
+    "https://en.wikipedia.org/wiki/NoSQL",
+    "https://en.wikipedia.org/wiki/Graph_database",
+    "https://en.wikipedia.org/wiki/Time_series_database",
+    "https://en.wikipedia.org/wiki/Vector_database",
+    "https://en.wikipedia.org/wiki/Document-oriented_database",
+    "https://en.wikipedia.org/wiki/List_of_in-memory_databases",
+    "https://en.wikipedia.org/wiki/Cloud_database",
+    "https://en.wikipedia.org/wiki/List_of_spreadsheet_software",
+    "https://en.wikipedia.org/wiki/Notebook_interface",
+    "https://en.wikipedia.org/wiki/Workflow_management_system",
+    "Gartner Magic Quadrant for Analytics & BI Platforms vendor lineup (public summaries)",
+    "Curated: well-known ETL/ELT & orchestration tools, data catalogs/governance, Python/R data-science & visualization libraries, cloud data services, AI assistants",
+    "MediaWiki API (action=query redirects=1) to canonicalize/verify every wiki title"
+  ],
+  "answers": [
+    {
+      "name": "Excel",
+      "aliases": [
+        "Microsoft Excel",
+        "MS Excel",
+        "Excel spreadsheet",
+        "XLSX"
+      ],
+      "wiki": "Microsoft Excel",
+      "tier": 1
+    },
+    {
+      "name": "Power BI",
+      "aliases": [
+        "PBI",
+        "Microsoft Power BI",
+        "MS Power BI",
+        "Power BI Desktop",
+        "Power BI Service"
+      ],
+      "wiki": "Microsoft Power BI",
+      "tier": 1
+    },
+    {
+      "name": "Tableau",
+      "aliases": [
+        "Tableau Software",
+        "Tableau Desktop",
+        "Tableau Public",
+        "Tableau Server",
+        "Tableau Cloud",
+        "Tableau Prep"
+      ],
+      "wiki": "Tableau Software",
+      "tier": 1
+    },
+    {
+      "name": "Alteryx",
+      "aliases": [
+        "Alteryx Designer",
+        "Alteryx Analytics"
+      ],
+      "wiki": "Alteryx",
+      "tier": 2
+    },
+    {
+      "name": "Google Sheets",
+      "aliases": [
+        "Sheets",
+        "GSheets",
+        "Google Spreadsheets"
+      ],
+      "wiki": "Google Sheets",
+      "tier": 2
+    },
+    {
+      "name": "Looker",
+      "aliases": [
+        "Google Looker"
+      ],
+      "wiki": "Looker (company)",
+      "tier": 2
+    },
+    {
+      "name": "Microsoft Access",
+      "aliases": [
+        "Access",
+        "MS Access",
+        "Access database"
+      ],
+      "wiki": "Microsoft Access",
+      "tier": 2
+    },
+    {
+      "name": "MySQL",
+      "aliases": [
+        "MySQL Workbench"
+      ],
+      "wiki": "MySQL",
+      "tier": 2
+    },
+    {
+      "name": "Oracle Database",
+      "aliases": [
+        "Oracle",
+        "Oracle DB",
+        "Oracle RDBMS",
+        "Oracle SQL"
+      ],
+      "wiki": "Oracle Database",
+      "tier": 2
+    },
+    {
+      "name": "Python",
+      "aliases": [
+        "Python 3",
+        "py"
+      ],
+      "wiki": "Python (programming language)",
+      "tier": 2
+    },
+    {
+      "name": "R",
+      "aliases": [
+        "RStudio",
+        "R language",
+        "Posit",
+        "RStudio IDE"
+      ],
+      "wiki": "R (programming language)",
+      "tier": 2
+    },
+    {
+      "name": "SAS",
+      "aliases": [
+        "SAS software",
+        "SAS Institute",
+        "SAS Enterprise Guide",
+        "SAS Viya",
+        "SAS Studio"
+      ],
+      "wiki": "SAS (software)",
+      "tier": 2
+    },
+    {
+      "name": "Snowflake",
+      "aliases": [
+        "Snowflake Data Cloud",
+        "Snowflake Computing"
+      ],
+      "wiki": "Snowflake Inc.",
+      "tier": 2
+    },
+    {
+      "name": "SPSS",
+      "aliases": [
+        "IBM SPSS",
+        "SPSS Statistics",
+        "IBM SPSS Statistics"
+      ],
+      "wiki": "SPSS",
+      "tier": 2
+    },
+    {
+      "name": "SQL",
+      "aliases": [
+        "Structured Query Language"
+      ],
+      "wiki": "SQL",
+      "tier": 2
+    },
+    {
+      "name": "SQL Server",
+      "aliases": [
+        "Microsoft SQL Server",
+        "MS SQL Server",
+        "MSSQL",
+        "SSMS",
+        "SQL Server Management Studio"
+      ],
+      "wiki": "Microsoft SQL Server",
+      "tier": 2
+    },
+    {
+      "name": "Amazon Web Services",
+      "aliases": [
+        "AWS"
+      ],
+      "wiki": "Amazon Web Services",
+      "tier": 3
+    },
+    {
+      "name": "BigQuery",
+      "aliases": [
+        "Google BigQuery",
+        "BQ"
+      ],
+      "wiki": "BigQuery",
+      "tier": 3
+    },
+    {
+      "name": "ChatGPT",
+      "aliases": [
+        "ChatGPT Advanced Data Analysis",
+        "Code Interpreter"
+      ],
+      "wiki": "ChatGPT",
+      "tier": 3
+    },
+    {
+      "name": "Google Analytics",
+      "aliases": [
+        "GA4",
+        "GA"
+      ],
+      "wiki": "Google Analytics",
+      "tier": 3
+    },
+    {
+      "name": "Google Cloud Platform",
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ],
+      "wiki": "Google Cloud Platform",
+      "tier": 3
+    },
+    {
+      "name": "Microsoft Azure",
+      "aliases": [
+        "Azure"
+      ],
+      "wiki": "Microsoft Azure",
+      "tier": 3
+    },
+    {
+      "name": "Microsoft Fabric",
+      "aliases": [
+        "Fabric"
+      ],
+      "wiki": "Microsoft Fabric",
+      "tier": 3
+    },
+    {
+      "name": "VBA",
+      "aliases": [
+        "Visual Basic for Applications",
+        "Excel VBA",
+        "Macros"
+      ],
+      "wiki": "Visual Basic for Applications",
+      "tier": 3
+    },
+    {
+      "name": "Adobe Analytics",
+      "aliases": [
+        "Omniture"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Amazon QuickSight",
+      "aliases": [
+        "QuickSight",
+        "AWS QuickSight"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Azure Data Factory",
+      "aliases": [
+        "ADF"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Azure Databricks",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Azure Synapse Analytics",
+      "aliases": [
+        "Azure Synapse",
+        "Synapse",
+        "Azure SQL Data Warehouse"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Capital IQ",
+      "aliases": [
+        "S&P Capital IQ"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Claude",
+      "aliases": [
+        "Anthropic Claude",
+        "Claude AI"
+      ],
+      "wiki": "Claude (AI)",
+      "tier": 4
+    },
+    {
+      "name": "DAX",
+      "aliases": [
+        "Data Analysis Expressions"
+      ],
+      "wiki": "Data Analysis Expressions",
+      "tier": 4
+    },
+    {
+      "name": "dbt",
+      "aliases": [
+        "data build tool",
+        "dbt Core",
+        "dbt Cloud",
+        "dbt Labs"
+      ],
+      "wiki": "Data build tool",
+      "tier": 4
+    },
+    {
+      "name": "Excel PivotTables",
+      "aliases": [
+        "Pivot tables",
+        "PivotTable"
+      ],
+      "wiki": "Pivot table",
+      "tier": 4
+    },
+    {
+      "name": "Fivetran",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Gemini",
+      "aliases": [
+        "Google Gemini",
+        "Bard",
+        "Gemini in Sheets"
+      ],
+      "wiki": "Google Gemini",
+      "tier": 4
+    },
+    {
+      "name": "GraphPad Prism",
+      "aliases": [
+        "Prism",
+        "GraphPad"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Metabase",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Microsoft Copilot",
+      "aliases": [
+        "Copilot",
+        "Copilot in Excel",
+        "Copilot for Power BI",
+        "Bing Chat"
+      ],
+      "wiki": "Microsoft Copilot",
+      "tier": 4
+    },
+    {
+      "name": "QlikView",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Salesforce",
+      "aliases": [
+        "Salesforce Reports"
+      ],
+      "wiki": "Salesforce",
+      "tier": 4
+    },
+    {
+      "name": "SAP",
+      "aliases": [
+        "SAP ERP",
+        "SAP S/4HANA"
+      ],
+      "wiki": "SAP ERP",
+      "tier": 4
+    },
+    {
+      "name": "SAP Analytics Cloud",
+      "aliases": [
+        "SAC"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Seaborn",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Shiny",
+      "aliases": [
+        "R Shiny"
+      ],
+      "wiki": "Shiny (web framework)",
+      "tier": 4
+    },
+    {
+      "name": "Talend",
+      "aliases": [
+        "Talend Open Studio"
+      ],
+      "wiki": null,
+      "tier": 4
+    },
+    {
+      "name": "Adaptive Insights",
+      "aliases": [
+        "Workday Adaptive Planning"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Airbyte",
+      "aliases": [],
+      "wiki": "Airbyte",
+      "tier": 5
+    },
+    {
+      "name": "Alation",
+      "aliases": [],
+      "wiki": "Alation",
+      "tier": 5
+    },
+    {
+      "name": "Amazon Athena",
+      "aliases": [
+        "Athena",
+        "AWS Athena"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Amazon EMR",
+      "aliases": [
+        "EMR",
+        "Elastic MapReduce"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Amazon Kinesis",
+      "aliases": [
+        "Kinesis"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "AMOS",
+      "aliases": [
+        "IBM SPSS Amos"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Amplitude",
+      "aliases": [
+        "Amplitude Analytics"
+      ],
+      "wiki": "Amplitude, Inc.",
+      "tier": 5
+    },
+    {
+      "name": "Analysis ToolPak",
+      "aliases": [
+        "Data Analysis ToolPak",
+        "ToolPak"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Analytic Solver",
+      "aliases": [
+        "XLMiner",
+        "Solver",
+        "Frontline Solver"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Apache Geode",
+      "aliases": [
+        "Geode",
+        "GemFire",
+        "VMware GemFire"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Apache Iceberg",
+      "aliases": [
+        "Iceberg"
+      ],
+      "wiki": "Apache Iceberg",
+      "tier": 5
+    },
+    {
+      "name": "Apache Zeppelin",
+      "aliases": [
+        "Zeppelin"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "AWS Glue",
+      "aliases": [
+        "Glue"
+      ],
+      "wiki": "AWS Glue",
+      "tier": 5
+    },
+    {
+      "name": "Azure Data Lake",
+      "aliases": [
+        "ADLS",
+        "Azure Data Lake Storage"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Azure Data Studio",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Azure Machine Learning",
+      "aliases": [
+        "Azure ML"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Azure Purview",
+      "aliases": [
+        "Microsoft Purview",
+        "Purview"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Bokeh",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Collibra",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "CSV",
+      "aliases": [
+        "Comma-separated values"
+      ],
+      "wiki": "Comma-separated values",
+      "tier": 5
+    },
+    {
+      "name": "Cursor",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Dash",
+      "aliases": [
+        "Plotly Dash"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "DataRobot",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Datawrapper",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Delta Lake",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Denodo",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Dremio",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Einstein GPT",
+      "aliases": [
+        "Salesforce Einstein",
+        "Einstein"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Flourish",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Git",
+      "aliases": [
+        "GitHub",
+        "Git version control"
+      ],
+      "wiki": "Git",
+      "tier": 5
+    },
+    {
+      "name": "Google Cloud Dataflow",
+      "aliases": [
+        "Dataflow"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Google Cloud Firestore",
+      "aliases": [
+        "Firestore",
+        "Cloud Firestore"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Google Cloud SQL",
+      "aliases": [
+        "Cloud SQL"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Hex",
+      "aliases": [
+        "Hex Technologies"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Highcharts",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Hotjar",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "IBM watsonx",
+      "aliases": [
+        "Watson Studio",
+        "watsonx.data",
+        "IBM Watson Studio"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "JSON",
+      "aliases": [],
+      "wiki": "JSON",
+      "tier": 5
+    },
+    {
+      "name": "Julius AI",
+      "aliases": [
+        "Julius"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Matillion",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Microsoft SQL Server Express",
+      "aliases": [
+        "SQL Server Express"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Mode Analytics",
+      "aliases": [
+        "Mode"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Mplus",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Observable",
+      "aliases": [
+        "ObservableHQ"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "OpenOffice Calc",
+      "aliases": [
+        "Apache OpenOffice Calc"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Oracle Analytics Cloud",
+      "aliases": [
+        "OAC",
+        "Oracle Analytics"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Oracle Autonomous Data Warehouse",
+      "aliases": [
+        "ADW",
+        "Oracle Autonomous Database"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Oracle GoldenGate",
+      "aliases": [
+        "GoldenGate"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Pinecone",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "PitchBook",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Polars",
+      "aliases": [],
+      "wiki": "Polars (software)",
+      "tier": 5
+    },
+    {
+      "name": "Power Query M",
+      "aliases": [
+        "M language"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Quarto",
+      "aliases": [],
+      "wiki": "Quarto (software)",
+      "tier": 5
+    },
+    {
+      "name": "Quickbase",
+      "aliases": [],
+      "wiki": "Quickbase",
+      "tier": 5
+    },
+    {
+      "name": "R Markdown",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Redash",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Refinitiv Eikon",
+      "aliases": [
+        "Eikon",
+        "LSEG Workspace",
+        "Refinitiv"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Salesforce CRM Analytics",
+      "aliases": [
+        "Tableau CRM",
+        "Einstein Analytics",
+        "CRM Analytics"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SAP Data Services",
+      "aliases": [
+        "BODS",
+        "BusinessObjects Data Services"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SAP Datasphere",
+      "aliases": [
+        "SAP Data Warehouse Cloud"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "SAS Enterprise Miner",
+      "aliases": [
+        "Enterprise Miner"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Segment",
+      "aliases": [
+        "Twilio Segment"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Sigma Computing",
+      "aliases": [
+        "Sigma"
+      ],
+      "wiki": "Sigma (analytics company)",
+      "tier": 5
+    },
+    {
+      "name": "statsmodels",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Streamlit",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Supabase",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Valkey",
+      "aliases": [],
+      "wiki": "Valkey",
+      "tier": 5
+    },
+    {
+      "name": "Vertex AI",
+      "aliases": [
+        "Google Vertex AI"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "XLSTAT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Yellowfin",
+      "aliases": [
+        "Yellowfin BI"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "Zoho Analytics",
+      "aliases": [
+        "Zoho Reports"
+      ],
+      "wiki": null,
+      "tier": 5
+    },
+    {
+      "name": "@RISK",
+      "aliases": [
+        "Palisade @RISK"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ActiveReports",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Advantage Database Server",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Alibaba Cloud AnalyticDB",
+      "aliases": [
+        "AnalyticDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Alibaba Cloud MaxCompute",
+      "aliases": [
+        "MaxCompute",
+        "ODPS"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Alibaba Cloud PolarDB",
+      "aliases": [
+        "PolarDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AlloyDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Altair",
+      "aliases": [
+        "Vega-Altair"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Altair Monarch",
+      "aliases": [
+        "Monarch",
+        "Datawatch Monarch"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon CloudSearch",
+      "aliases": [
+        "CloudSearch"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "aliases": [
+        "ElastiCache"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon Keyspaces",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon Managed Workflows for Apache Airflow",
+      "aliases": [
+        "MWAA"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon Q",
+      "aliases": [
+        "Q in QuickSight"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amazon Timestream",
+      "aliases": [
+        "Timestream"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Amundsen",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Atlas",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Calcite",
+      "aliases": [
+        "Calcite"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Doris",
+      "aliases": [
+        "Doris"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Flume",
+      "aliases": [
+        "Flume"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache HAWQ",
+      "aliases": [
+        "HAWQ"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Hudi",
+      "aliases": [
+        "Hudi"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Ignite GridGain",
+      "aliases": [
+        "GridGain"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache IoTDB",
+      "aliases": [
+        "IoTDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Ranger",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Apache Tez",
+      "aliases": [
+        "Tez"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Arcadia Data",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Argo Workflows",
+      "aliases": [
+        "Argo"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ataccama",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Atlan",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Atoti",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AtScale",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Autosys",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AWS Data Pipeline",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "AWS Lake Formation",
+      "aliases": [
+        "Lake Formation"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Azure AI Search",
+      "aliases": [
+        "Azure Cognitive Search"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Azure Analysis Services",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Azure Logic Apps",
+      "aliases": [
+        "Logic Apps"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Azure Stream Analytics",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Azure Table Storage",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "BigID",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Blazegraph",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CARTO",
+      "aliases": [
+        "CartoDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Caspio",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Celigo",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Census",
+      "aliases": [
+        "Census Data"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Citus",
+      "aliases": [
+        "Citus Data"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CloverDX",
+      "aliases": [
+        "CloverETL"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Control-M",
+      "aliases": [
+        "BMC Control-M"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Crystal Ball",
+      "aliases": [
+        "Oracle Crystal Ball"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Cube",
+      "aliases": [
+        "Cube.js"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "CyberQuery",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dagster",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "data.table",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "data.world",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Databricks AI/BI Genie",
+      "aliases": [
+        "Genie",
+        "AI/BI Genie"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dataform",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DataGrip",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DataHub",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Datameer",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Datapine",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Debezium",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "deck.gl",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Deepnote",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dgraph",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "DolphinDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Dolt",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Domino Data Lab",
+      "aliases": [
+        "Domino"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ECharts",
+      "aliases": [
+        "Apache ECharts"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Estuary Flow",
+      "aliases": [
+        "Estuary"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "etcd",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Evidence",
+      "aliases": [
+        "Evidence.dev"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Excel Power Map",
+      "aliases": [
+        "3D Maps",
+        "Power Map"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Fauna",
+      "aliases": [
+        "FaunaDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Firebolt",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Flyte",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GBase",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Goal Seek",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Google Cloud Composer",
+      "aliases": [
+        "Cloud Composer"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Google Cloud Dataproc",
+      "aliases": [
+        "Dataproc"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Google Data Catalog",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Google Dataplex",
+      "aliases": [
+        "Dataplex"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Google Public Data Explorer",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Gradio",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "GraphDB",
+      "aliases": [
+        "Ontotext GraphDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Great Expectations",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Grist",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Heap",
+      "aliases": [
+        "Heap Analytics"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "HEAVY.AI",
+      "aliases": [
+        "OmniSci",
+        "MapD",
+        "HeavyDB"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hevo Data",
+      "aliases": [
+        "Hevo"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Hightouch",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Holistics",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "IBM Cloud Pak for Data",
+      "aliases": [
+        "Cloud Pak for Data"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "IBM Db2 Warehouse",
+      "aliases": [
+        "Db2 Warehouse"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Immuta",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Infobright",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Infor Birst",
+      "aliases": [
+        "Birst"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Informatica Axon",
+      "aliases": [
+        "Axon"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Informatica Data Quality",
+      "aliases": [
+        "IDQ"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Integrate.io",
+      "aliases": [
+        "Xplenty"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "jBASE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Jitterbit",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Keboola",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Kepler.gl",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Kestra",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "KeyDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Knack",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Kyvos",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LanceDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Lattice",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Lightdash",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Linter SQL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "LiteDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Luigi",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "m-Power",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "M3DB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Mage",
+      "aliases": [
+        "Mage AI"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Make",
+      "aliases": [
+        "Integromat"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Marimo",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Meilisearch",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Meltano",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Memgraph",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Metaflow",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Microsoft Lists",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Microsoft OneLake",
+      "aliases": [
+        "OneLake"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MLflow",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Modin",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Monte Carlo",
+      "aliases": [
+        "Monte Carlo Data"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Morningstar Direct",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "MotherDuck",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "NebulaGraph",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Neon",
+      "aliases": [
+        "Neon Postgres"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "nteract",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "ObjectBox",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OceanBase",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OpenEdge",
+      "aliases": [
+        "Progress OpenEdge"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "openGauss",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OpenMetadata",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OpenOffice Base",
+      "aliases": [
+        "Apache OpenOffice Base"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "OpenTSDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Oracle Data Integrator",
+      "aliases": [
+        "ODI"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Oracle Discoverer",
+      "aliases": [
+        "Discoverer"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pandas Profiling",
+      "aliases": [
+        "ydata-profiling"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pendo",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "pgvector",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PlanetScale",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Planful",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "PouchDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Power Apps",
+      "aliases": [
+        "Microsoft Power Apps"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Precisely Trillium",
+      "aliases": [
+        "Trillium"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Prefect",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Preset",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Privacera",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Profisee",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Prophet",
+      "aliases": [
+        "Facebook Prophet"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Pyramid Analytics",
+      "aliases": [
+        "Pyramid"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Qdrant",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Qlik Replicate",
+      "aliases": [
+        "Attunity"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RAWGraphs",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Ray",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Reltio",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Resolver One",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Rivery",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Rockset",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Rows",
+      "aliases": [
+        "Rows.com"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "RudderStack",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Rundeck",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SAP Data Intelligence",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SAP Lumira",
+      "aliases": [
+        "Lumira"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SAS Visual Analytics",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Semarchy",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Singer",
+      "aliases": [
+        "Singer.io"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Skyvia",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Snowflake Cortex",
+      "aliases": [
+        "Cortex"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Soda",
+      "aliases": [
+        "Soda Core"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Spring Batch",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SQLBase",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Starburst",
+      "aliases": [
+        "Starburst Galaxy"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Stardog",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "StarRocks",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Stimulsoft Reports",
+      "aliases": [
+        "Stimulsoft"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Stitch",
+      "aliases": [
+        "Stitch Data"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Striim",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "SurrealDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tableau Pulse",
+      "aliases": [
+        "Tableau AI",
+        "Tableau GPT"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tamr",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TDengine",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Telerik Reporting",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tibero",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Tidymodels",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Toucan Toco",
+      "aliases": [
+        "Toucan"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "TypeDB",
+      "aliases": [
+        "Grakn"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Typesense",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Unity Catalog",
+      "aliases": [
+        "Databricks Unity Catalog"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Vaex",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Venngage",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Vespa",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "VictoriaMetrics",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Vitess",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Weaviate",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Weights & Biases",
+      "aliases": [
+        "W&B"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Windward Reports",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Workato",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "WRDS",
+      "aliases": [
+        "Wharton Research Data Services"
+      ],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Yellowbrick",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "Zoho Sheet",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6
+    },
+    {
+      "name": "4th Dimension",
+      "aliases": [
+        "4D"
+      ],
+      "wiki": "4th Dimension (software)",
+      "tier": null
+    },
+    {
+      "name": "Ab Initio",
+      "aliases": [],
+      "wiki": "Ab Initio Software",
+      "tier": null
+    },
+    {
+      "name": "Actian Vector",
+      "aliases": [
+        "Vectorwise"
+      ],
+      "wiki": "Actian Vector",
+      "tier": null
+    },
+    {
+      "name": "Actian Zen",
+      "aliases": [
+        "Pervasive PSQL",
+        "Btrieve"
+      ],
+      "wiki": "Actian Zen",
+      "tier": null
+    },
+    {
+      "name": "Actuate",
+      "aliases": [
+        "OpenText Actuate"
+      ],
+      "wiki": "Actuate Corporation",
+      "tier": null
+    },
+    {
+      "name": "Adabas",
+      "aliases": [],
+      "wiki": "ADABAS",
+      "tier": null
+    },
+    {
+      "name": "Aerospike",
+      "aliases": [],
+      "wiki": "Aerospike (database)",
+      "tier": null
+    },
+    {
+      "name": "Airtable",
+      "aliases": [],
+      "wiki": "Airtable",
+      "tier": null
+    },
+    {
+      "name": "Algolia",
+      "aliases": [],
+      "wiki": "Algolia",
+      "tier": null
+    },
+    {
+      "name": "Alibaba Cloud",
+      "aliases": [
+        "Aliyun"
+      ],
+      "wiki": "Alibaba Cloud",
+      "tier": null
+    },
+    {
+      "name": "AllegroGraph",
+      "aliases": [],
+      "wiki": "AllegroGraph",
+      "tier": null
+    },
+    {
+      "name": "Altibase",
+      "aliases": [],
+      "wiki": "Altibase",
+      "tier": null
+    },
+    {
+      "name": "Amazon Aurora",
+      "aliases": [
+        "Aurora"
+      ],
+      "wiki": "Amazon Aurora",
+      "tier": null
+    },
+    {
+      "name": "Amazon DocumentDB",
+      "aliases": [
+        "DocumentDB"
+      ],
+      "wiki": "Amazon DocumentDB",
+      "tier": null
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "aliases": [
+        "DynamoDB"
+      ],
+      "wiki": "Amazon DynamoDB",
+      "tier": null
+    },
+    {
+      "name": "Amazon Neptune",
+      "aliases": [
+        "Neptune"
+      ],
+      "wiki": "Amazon Neptune",
+      "tier": null
+    },
+    {
+      "name": "Amazon RDS",
+      "aliases": [
+        "RDS",
+        "Relational Database Service"
+      ],
+      "wiki": "Amazon Relational Database Service",
+      "tier": null
+    },
+    {
+      "name": "Amazon Redshift",
+      "aliases": [
+        "Redshift",
+        "AWS Redshift"
+      ],
+      "wiki": "Amazon Redshift",
+      "tier": null
+    },
+    {
+      "name": "Amazon S3",
+      "aliases": [
+        "S3",
+        "AWS S3",
+        "Simple Storage Service"
+      ],
+      "wiki": "Amazon S3",
+      "tier": null
+    },
+    {
+      "name": "Amazon SageMaker",
+      "aliases": [
+        "SageMaker",
+        "AWS SageMaker"
+      ],
+      "wiki": "Amazon SageMaker",
+      "tier": null
+    },
+    {
+      "name": "Amazon SimpleDB",
+      "aliases": [
+        "SimpleDB"
+      ],
+      "wiki": "Amazon SimpleDB",
+      "tier": null
+    },
+    {
+      "name": "Anaconda",
+      "aliases": [
+        "Conda"
+      ],
+      "wiki": "Anaconda (Python distribution)",
+      "tier": null
+    },
+    {
+      "name": "Analyse-it",
+      "aliases": [],
+      "wiki": "Analyse-it",
+      "tier": null
+    },
+    {
+      "name": "Analytica",
+      "aliases": [],
+      "wiki": "Analytica (software)",
+      "tier": null
+    },
+    {
+      "name": "Anaplan",
+      "aliases": [],
+      "wiki": "Anaplan",
+      "tier": null
+    },
+    {
+      "name": "Apache Accumulo",
+      "aliases": [
+        "Accumulo"
+      ],
+      "wiki": "Apache Accumulo",
+      "tier": null
+    },
+    {
+      "name": "Apache Airflow",
+      "aliases": [
+        "Airflow"
+      ],
+      "wiki": "Apache Airflow",
+      "tier": null
+    },
+    {
+      "name": "Apache Arrow",
+      "aliases": [
+        "Arrow"
+      ],
+      "wiki": "Apache Arrow",
+      "tier": null
+    },
+    {
+      "name": "Apache Avro",
+      "aliases": [
+        "Avro"
+      ],
+      "wiki": "Apache Avro",
+      "tier": null
+    },
+    {
+      "name": "Apache Beam",
+      "aliases": [
+        "Beam"
+      ],
+      "wiki": "Apache Beam",
+      "tier": null
+    },
+    {
+      "name": "Apache Camel",
+      "aliases": [
+        "Camel"
+      ],
+      "wiki": "Apache Camel",
+      "tier": null
+    },
+    {
+      "name": "Apache Cassandra",
+      "aliases": [
+        "Cassandra"
+      ],
+      "wiki": "Apache Cassandra",
+      "tier": null
+    },
+    {
+      "name": "Apache CouchDB",
+      "aliases": [
+        "CouchDB"
+      ],
+      "wiki": "Apache CouchDB",
+      "tier": null
+    },
+    {
+      "name": "Apache Derby",
+      "aliases": [
+        "Derby",
+        "Java DB"
+      ],
+      "wiki": "Apache Derby",
+      "tier": null
+    },
+    {
+      "name": "Apache Drill",
+      "aliases": [
+        "Drill"
+      ],
+      "wiki": "Apache Drill",
+      "tier": null
+    },
+    {
+      "name": "Apache Druid",
+      "aliases": [
+        "Druid"
+      ],
+      "wiki": "Apache Druid",
+      "tier": null
+    },
+    {
+      "name": "Apache Flink",
+      "aliases": [
+        "Flink"
+      ],
+      "wiki": "Apache Flink",
+      "tier": null
+    },
+    {
+      "name": "Apache Giraph",
+      "aliases": [
+        "Giraph"
+      ],
+      "wiki": "Apache Giraph",
+      "tier": null
+    },
+    {
+      "name": "Apache Hadoop",
+      "aliases": [
+        "Hadoop",
+        "HDFS"
+      ],
+      "wiki": "Apache Hadoop",
+      "tier": null
+    },
+    {
+      "name": "Apache HBase",
+      "aliases": [
+        "HBase"
+      ],
+      "wiki": "Apache HBase",
+      "tier": null
+    },
+    {
+      "name": "Apache Hive",
+      "aliases": [
+        "Hive"
+      ],
+      "wiki": "Apache Hive",
+      "tier": null
+    },
+    {
+      "name": "Apache Ignite",
+      "aliases": [
+        "Ignite"
+      ],
+      "wiki": "Apache Ignite",
+      "tier": null
+    },
+    {
+      "name": "Apache Impala",
+      "aliases": [
+        "Impala"
+      ],
+      "wiki": "Apache Impala",
+      "tier": null
+    },
+    {
+      "name": "Apache Jackrabbit",
+      "aliases": [
+        "Jackrabbit"
+      ],
+      "wiki": "Apache Jackrabbit",
+      "tier": null
+    },
+    {
+      "name": "Apache Jena",
+      "aliases": [
+        "Jena",
+        "Jena TDB"
+      ],
+      "wiki": "Apache Jena",
+      "tier": null
+    },
+    {
+      "name": "Apache Kafka",
+      "aliases": [
+        "Kafka",
+        "Confluent Kafka"
+      ],
+      "wiki": "Apache Kafka",
+      "tier": null
+    },
+    {
+      "name": "Apache Kudu",
+      "aliases": [
+        "Kudu"
+      ],
+      "wiki": "Apache Kudu",
+      "tier": null
+    },
+    {
+      "name": "Apache Kylin",
+      "aliases": [
+        "Kylin"
+      ],
+      "wiki": "Apache Kylin",
+      "tier": null
+    },
+    {
+      "name": "Apache Lucene",
+      "aliases": [
+        "Lucene"
+      ],
+      "wiki": "Apache Lucene",
+      "tier": null
+    },
+    {
+      "name": "Apache Mahout",
+      "aliases": [
+        "Mahout"
+      ],
+      "wiki": "Apache Mahout",
+      "tier": null
+    },
+    {
+      "name": "Apache NiFi",
+      "aliases": [
+        "NiFi"
+      ],
+      "wiki": "Apache NiFi",
+      "tier": null
+    },
+    {
+      "name": "Apache Oozie",
+      "aliases": [
+        "Oozie"
+      ],
+      "wiki": "Apache Oozie",
+      "tier": null
+    },
+    {
+      "name": "Apache ORC",
+      "aliases": [
+        "ORC"
+      ],
+      "wiki": "Apache ORC",
+      "tier": null
+    },
+    {
+      "name": "Apache Parquet",
+      "aliases": [
+        "Parquet"
+      ],
+      "wiki": "Apache Parquet",
+      "tier": null
+    },
+    {
+      "name": "Apache Phoenix",
+      "aliases": [
+        "Phoenix"
+      ],
+      "wiki": "Apache Phoenix",
+      "tier": null
+    },
+    {
+      "name": "Apache Pig",
+      "aliases": [
+        "Pig"
+      ],
+      "wiki": "Apache Pig",
+      "tier": null
+    },
+    {
+      "name": "Apache Pinot",
+      "aliases": [
+        "Pinot"
+      ],
+      "wiki": "Apache Pinot",
+      "tier": null
+    },
+    {
+      "name": "Apache Solr",
+      "aliases": [
+        "Solr"
+      ],
+      "wiki": "Apache Solr",
+      "tier": null
+    },
+    {
+      "name": "Apache Spark",
+      "aliases": [
+        "Spark",
+        "PySpark",
+        "Spark SQL"
+      ],
+      "wiki": "Apache Spark",
+      "tier": null
+    },
+    {
+      "name": "Apache Sqoop",
+      "aliases": [
+        "Sqoop"
+      ],
+      "wiki": "Sqoop",
+      "tier": null
+    },
+    {
+      "name": "Apache Storm",
+      "aliases": [
+        "Storm"
+      ],
+      "wiki": "Apache Storm",
+      "tier": null
+    },
+    {
+      "name": "Apache Superset",
+      "aliases": [
+        "Superset"
+      ],
+      "wiki": "Apache Superset",
+      "tier": null
+    },
+    {
+      "name": "Apatar",
+      "aliases": [],
+      "wiki": "Apatar",
+      "tier": null
+    },
+    {
+      "name": "Apple Numbers",
+      "aliases": [
+        "Numbers"
+      ],
+      "wiki": "Numbers (spreadsheet)",
+      "tier": null
+    },
+    {
+      "name": "ArangoDB",
+      "aliases": [],
+      "wiki": "ArangoDB",
+      "tier": null
+    },
+    {
+      "name": "ArcGIS",
+      "aliases": [
+        "Esri ArcGIS",
+        "ArcMap",
+        "ArcGIS Pro"
+      ],
+      "wiki": "ArcGIS",
+      "tier": null
+    },
+    {
+      "name": "ASReml",
+      "aliases": [],
+      "wiki": "ASReml",
+      "tier": null
+    },
+    {
+      "name": "ATLAS.ti",
+      "aliases": [],
+      "wiki": "ATLAS.ti",
+      "tier": null
+    },
+    {
+      "name": "Automation Anywhere",
+      "aliases": [],
+      "wiki": "Automation Anywhere",
+      "tier": null
+    },
+    {
+      "name": "Azure Cosmos DB",
+      "aliases": [
+        "Cosmos DB"
+      ],
+      "wiki": "Cosmos DB",
+      "tier": null
+    },
+    {
+      "name": "Azure Data Explorer",
+      "aliases": [
+        "Kusto",
+        "ADX"
+      ],
+      "wiki": "Azure Data Explorer",
+      "tier": null
+    },
+    {
+      "name": "Azure SQL Database",
+      "aliases": [
+        "Azure SQL",
+        "SQL Azure"
+      ],
+      "wiki": "Microsoft Azure SQL Database",
+      "tier": null
+    },
+    {
+      "name": "BaseX",
+      "aliases": [],
+      "wiki": "BaseX",
+      "tier": null
+    },
+    {
+      "name": "Bioconductor",
+      "aliases": [],
+      "wiki": "Bioconductor",
+      "tier": null
+    },
+    {
+      "name": "BIRT",
+      "aliases": [
+        "BIRT Project",
+        "Eclipse BIRT"
+      ],
+      "wiki": "BIRT Project",
+      "tier": null
+    },
+    {
+      "name": "Bloomberg Terminal",
+      "aliases": [
+        "Bloomberg"
+      ],
+      "wiki": "Bloomberg Terminal",
+      "tier": null
+    },
+    {
+      "name": "Blue Prism",
+      "aliases": [],
+      "wiki": "Blue Prism",
+      "tier": null
+    },
+    {
+      "name": "BMDP",
+      "aliases": [],
+      "wiki": "BMDP",
+      "tier": null
+    },
+    {
+      "name": "Board",
+      "aliases": [
+        "BOARD International"
+      ],
+      "wiki": "Board International",
+      "tier": null
+    },
+    {
+      "name": "Boomi",
+      "aliases": [
+        "Dell Boomi"
+      ],
+      "wiki": "Boomi, LP",
+      "tier": null
+    },
+    {
+      "name": "Box",
+      "aliases": [],
+      "wiki": "Box, Inc.",
+      "tier": null
+    },
+    {
+      "name": "Caffe",
+      "aliases": [],
+      "wiki": "Caffe (software)",
+      "tier": null
+    },
+    {
+      "name": "Calligra Sheets",
+      "aliases": [
+        "KSpread"
+      ],
+      "wiki": "Calligra Sheets",
+      "tier": null
+    },
+    {
+      "name": "Camunda",
+      "aliases": [],
+      "wiki": "Camunda",
+      "tier": null
+    },
+    {
+      "name": "Canva",
+      "aliases": [
+        "Canva charts"
+      ],
+      "wiki": "Canva",
+      "tier": null
+    },
+    {
+      "name": "caret",
+      "aliases": [],
+      "wiki": "Caret (software)",
+      "tier": null
+    },
+    {
+      "name": "CatBoost",
+      "aliases": [],
+      "wiki": "CatBoost",
+      "tier": null
+    },
+    {
+      "name": "Chart.js",
+      "aliases": [],
+      "wiki": "Chart.js",
+      "tier": null
+    },
+    {
+      "name": "Chroma",
+      "aliases": [
+        "ChromaDB"
+      ],
+      "wiki": "ChromaDB",
+      "tier": null
+    },
+    {
+      "name": "ClickHouse",
+      "aliases": [],
+      "wiki": "ClickHouse",
+      "tier": null
+    },
+    {
+      "name": "Cloudera",
+      "aliases": [
+        "Cloudera Data Platform",
+        "CDH"
+      ],
+      "wiki": "Cloudera",
+      "tier": null
+    },
+    {
+      "name": "CloudKit",
+      "aliases": [],
+      "wiki": "CloudKit",
+      "tier": null
+    },
+    {
+      "name": "Clustrix",
+      "aliases": [],
+      "wiki": "Clustrix",
+      "tier": null
+    },
+    {
+      "name": "CoCalc",
+      "aliases": [],
+      "wiki": "CoCalc",
+      "tier": null
+    },
+    {
+      "name": "CockroachDB",
+      "aliases": [],
+      "wiki": "CockroachDB",
+      "tier": null
+    },
+    {
+      "name": "Coda",
+      "aliases": [
+        "Coda.io"
+      ],
+      "wiki": "Coda (document editor)",
+      "tier": null
+    },
+    {
+      "name": "Confluent",
+      "aliases": [],
+      "wiki": "Confluent",
+      "tier": null
+    },
+    {
+      "name": "Couchbase",
+      "aliases": [
+        "Couchbase Server"
+      ],
+      "wiki": "Couchbase Server",
+      "tier": null
+    },
+    {
+      "name": "Coveo",
+      "aliases": [],
+      "wiki": "Coveo",
+      "tier": null
+    },
+    {
+      "name": "CrateDB",
+      "aliases": [],
+      "wiki": "CrateDB",
+      "tier": null
+    },
+    {
+      "name": "Cron",
+      "aliases": [],
+      "wiki": "Cron",
+      "tier": null
+    },
+    {
+      "name": "Crystal Reports",
+      "aliases": [
+        "SAP Crystal Reports"
+      ],
+      "wiki": "Crystal Reports",
+      "tier": null
+    },
+    {
+      "name": "CSPro",
+      "aliases": [],
+      "wiki": "CSPro",
+      "tier": null
+    },
+    {
+      "name": "Cubes",
+      "aliases": [
+        "Cubes OLAP"
+      ],
+      "wiki": "Cubes (OLAP server)",
+      "tier": null
+    },
+    {
+      "name": "CUBRID",
+      "aliases": [],
+      "wiki": "CUBRID",
+      "tier": null
+    },
+    {
+      "name": "Cytoscape",
+      "aliases": [],
+      "wiki": "Cytoscape",
+      "tier": null
+    },
+    {
+      "name": "D3.js",
+      "aliases": [
+        "D3",
+        "Data-Driven Documents"
+      ],
+      "wiki": "D3.js",
+      "tier": null
+    },
+    {
+      "name": "Dask",
+      "aliases": [],
+      "wiki": "Dask (software)",
+      "tier": null
+    },
+    {
+      "name": "Databricks",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Databricks SQL"
+      ],
+      "wiki": "Databricks",
+      "tier": null
+    },
+    {
+      "name": "Datadog",
+      "aliases": [],
+      "wiki": "Datadog",
+      "tier": null
+    },
+    {
+      "name": "DataGraph",
+      "aliases": [],
+      "wiki": "DataGraph",
+      "tier": null
+    },
+    {
+      "name": "Dataiku",
+      "aliases": [
+        "Dataiku DSS"
+      ],
+      "wiki": "Dataiku",
+      "tier": null
+    },
+    {
+      "name": "Dataplot",
+      "aliases": [],
+      "wiki": "Dataplot",
+      "tier": null
+    },
+    {
+      "name": "Datarails",
+      "aliases": [],
+      "wiki": "Datarails",
+      "tier": null
+    },
+    {
+      "name": "DataStax",
+      "aliases": [
+        "DataStax Enterprise",
+        "DataStax Astra"
+      ],
+      "wiki": "DataStax",
+      "tier": null
+    },
+    {
+      "name": "Datomic",
+      "aliases": [],
+      "wiki": "Datomic",
+      "tier": null
+    },
+    {
+      "name": "Db4o",
+      "aliases": [],
+      "wiki": "Db4o",
+      "tier": null
+    },
+    {
+      "name": "dBase",
+      "aliases": [],
+      "wiki": "DBase",
+      "tier": null
+    },
+    {
+      "name": "DBeaver",
+      "aliases": [],
+      "wiki": "DBeaver",
+      "tier": null
+    },
+    {
+      "name": "DeepSeek",
+      "aliases": [],
+      "wiki": "DeepSeek",
+      "tier": null
+    },
+    {
+      "name": "Dimensional Insight",
+      "aliases": [
+        "Diver"
+      ],
+      "wiki": "Dimensional Insight",
+      "tier": null
+    },
+    {
+      "name": "Docker",
+      "aliases": [],
+      "wiki": "Docker (software)",
+      "tier": null
+    },
+    {
+      "name": "Domo",
+      "aliases": [
+        "Domo BI"
+      ],
+      "wiki": "Domo, Inc.",
+      "tier": null
+    },
+    {
+      "name": "dplyr",
+      "aliases": [],
+      "wiki": "Dplyr",
+      "tier": null
+    },
+    {
+      "name": "Dropbox",
+      "aliases": [],
+      "wiki": "Dropbox",
+      "tier": null
+    },
+    {
+      "name": "DuckDB",
+      "aliases": [],
+      "wiki": "DuckDB",
+      "tier": null
+    },
+    {
+      "name": "Dundas BI",
+      "aliases": [
+        "Dundas Data Visualization"
+      ],
+      "wiki": "Dundas Data Visualization",
+      "tier": null
+    },
+    {
+      "name": "EDB Postgres",
+      "aliases": [
+        "EnterpriseDB",
+        "EDB"
+      ],
+      "wiki": "EnterpriseDB",
+      "tier": null
+    },
+    {
+      "name": "Ehcache",
+      "aliases": [],
+      "wiki": "Ehcache",
+      "tier": null
+    },
+    {
+      "name": "Elasticsearch",
+      "aliases": [
+        "Elastic",
+        "ELK Stack",
+        "Elastic Stack"
+      ],
+      "wiki": "Elasticsearch",
+      "tier": null
+    },
+    {
+      "name": "ELKI",
+      "aliases": [],
+      "wiki": "ELKI",
+      "tier": null
+    },
+    {
+      "name": "Empress",
+      "aliases": [],
+      "wiki": "Empress Embedded Database",
+      "tier": null
+    },
+    {
+      "name": "Epi Info",
+      "aliases": [],
+      "wiki": "Epi Info",
+      "tier": null
+    },
+    {
+      "name": "ER/Studio",
+      "aliases": [],
+      "wiki": "ER/Studio",
+      "tier": null
+    },
+    {
+      "name": "Erwin",
+      "aliases": [
+        "erwin Data Modeler"
+      ],
+      "wiki": "Erwin Data Modeler",
+      "tier": null
+    },
+    {
+      "name": "EViews",
+      "aliases": [],
+      "wiki": "EViews",
+      "tier": null
+    },
+    {
+      "name": "Exasol",
+      "aliases": [
+        "EXASolution"
+      ],
+      "wiki": "Exasol",
+      "tier": null
+    },
+    {
+      "name": "eXist",
+      "aliases": [
+        "eXist-db"
+      ],
+      "wiki": "EXist",
+      "tier": null
+    },
+    {
+      "name": "eXtremeDB",
+      "aliases": [],
+      "wiki": "EXtremeDB",
+      "tier": null
+    },
+    {
+      "name": "FactSet",
+      "aliases": [],
+      "wiki": "FactSet",
+      "tier": null
+    },
+    {
+      "name": "Faiss",
+      "aliases": [],
+      "wiki": "FAISS",
+      "tier": null
+    },
+    {
+      "name": "FileMaker",
+      "aliases": [
+        "FileMaker Pro",
+        "Claris FileMaker"
+      ],
+      "wiki": "FileMaker",
+      "tier": null
+    },
+    {
+      "name": "Firebase",
+      "aliases": [
+        "Firebase Realtime Database"
+      ],
+      "wiki": "Firebase",
+      "tier": null
+    },
+    {
+      "name": "Firebird",
+      "aliases": [],
+      "wiki": "Firebird (database server)",
+      "tier": null
+    },
+    {
+      "name": "Fityk",
+      "aliases": [],
+      "wiki": "Fityk",
+      "tier": null
+    },
+    {
+      "name": "FoundationDB",
+      "aliases": [],
+      "wiki": "FoundationDB",
+      "tier": null
+    },
+    {
+      "name": "Gapminder",
+      "aliases": [
+        "Gapminder Trendalyzer",
+        "Trendalyzer"
+      ],
+      "wiki": "Gapminder Foundation",
+      "tier": null
+    },
+    {
+      "name": "GAUSS",
+      "aliases": [],
+      "wiki": "GAUSS (software)",
+      "tier": null
+    },
+    {
+      "name": "Gensim",
+      "aliases": [],
+      "wiki": "Gensim",
+      "tier": null
+    },
+    {
+      "name": "GenStat",
+      "aliases": [],
+      "wiki": "Genstat",
+      "tier": null
+    },
+    {
+      "name": "GeoDa",
+      "aliases": [],
+      "wiki": "GeoDa",
+      "tier": null
+    },
+    {
+      "name": "GeoServer",
+      "aliases": [],
+      "wiki": "GeoServer",
+      "tier": null
+    },
+    {
+      "name": "Gephi",
+      "aliases": [],
+      "wiki": "Gephi",
+      "tier": null
+    },
+    {
+      "name": "ggplot2",
+      "aliases": [
+        "ggplot"
+      ],
+      "wiki": "Ggplot2",
+      "tier": null
+    },
+    {
+      "name": "GitHub Copilot",
+      "aliases": [],
+      "wiki": "GitHub Copilot",
+      "tier": null
+    },
+    {
+      "name": "GLIM",
+      "aliases": [],
+      "wiki": "GLIM (software)",
+      "tier": null
+    },
+    {
+      "name": "GNU Octave",
+      "aliases": [
+        "Octave"
+      ],
+      "wiki": "GNU Octave",
+      "tier": null
+    },
+    {
+      "name": "Gnumeric",
+      "aliases": [],
+      "wiki": "Gnumeric",
+      "tier": null
+    },
+    {
+      "name": "GoodData",
+      "aliases": [],
+      "wiki": "GoodData.AI",
+      "tier": null
+    },
+    {
+      "name": "Google Charts",
+      "aliases": [],
+      "wiki": "Google Charts",
+      "tier": null
+    },
+    {
+      "name": "Google Cloud Bigtable",
+      "aliases": [
+        "Bigtable",
+        "Cloud Bigtable"
+      ],
+      "wiki": "Bigtable",
+      "tier": null
+    },
+    {
+      "name": "Google Cloud Datastore",
+      "aliases": [
+        "Datastore"
+      ],
+      "wiki": "Google Cloud Datastore",
+      "tier": null
+    },
+    {
+      "name": "Google Cloud Spanner",
+      "aliases": [
+        "Spanner",
+        "Cloud Spanner"
+      ],
+      "wiki": "Spanner (database)",
+      "tier": null
+    },
+    {
+      "name": "Google Cloud Storage",
+      "aliases": [
+        "GCS"
+      ],
+      "wiki": "Google Cloud Storage",
+      "tier": null
+    },
+    {
+      "name": "Google Colab",
+      "aliases": [
+        "Colab",
+        "Google Colaboratory"
+      ],
+      "wiki": "Google Colab",
+      "tier": null
+    },
+    {
+      "name": "Google Drive",
+      "aliases": [],
+      "wiki": "Google Drive",
+      "tier": null
+    },
+    {
+      "name": "Google Forms",
+      "aliases": [],
+      "wiki": "Google Forms",
+      "tier": null
+    },
+    {
+      "name": "Google Fusion Tables",
+      "aliases": [
+        "Fusion Tables"
+      ],
+      "wiki": "Google Fusion Tables",
+      "tier": null
+    },
+    {
+      "name": "Google Trends",
+      "aliases": [],
+      "wiki": "Google Trends",
+      "tier": null
+    },
+    {
+      "name": "Grafana",
+      "aliases": [],
+      "wiki": "Grafana",
+      "tier": null
+    },
+    {
+      "name": "Graphite",
+      "aliases": [],
+      "wiki": "Graphite (software)",
+      "tier": null
+    },
+    {
+      "name": "Graphviz",
+      "aliases": [],
+      "wiki": "Graphviz",
+      "tier": null
+    },
+    {
+      "name": "Greenplum",
+      "aliases": [],
+      "wiki": "Greenplum",
+      "tier": null
+    },
+    {
+      "name": "gretl",
+      "aliases": [],
+      "wiki": "Gretl",
+      "tier": null
+    },
+    {
+      "name": "Grok",
+      "aliases": [],
+      "wiki": "Grok (chatbot)",
+      "tier": null
+    },
+    {
+      "name": "GT.M",
+      "aliases": [],
+      "wiki": "GT.M",
+      "tier": null
+    },
+    {
+      "name": "H2",
+      "aliases": [
+        "H2 Database"
+      ],
+      "wiki": "H2 Database Engine",
+      "tier": null
+    },
+    {
+      "name": "H2O",
+      "aliases": [
+        "H2O.ai"
+      ],
+      "wiki": "H2O (software)",
+      "tier": null
+    },
+    {
+      "name": "Hazelcast",
+      "aliases": [],
+      "wiki": "Hazelcast",
+      "tier": null
+    },
+    {
+      "name": "HeidiSQL",
+      "aliases": [],
+      "wiki": "HeidiSQL",
+      "tier": null
+    },
+    {
+      "name": "Hortonworks",
+      "aliases": [],
+      "wiki": "Hortonworks",
+      "tier": null
+    },
+    {
+      "name": "HSQLDB",
+      "aliases": [
+        "HyperSQL"
+      ],
+      "wiki": "HSQLDB",
+      "tier": null
+    },
+    {
+      "name": "HubSpot",
+      "aliases": [],
+      "wiki": "HubSpot",
+      "tier": null
+    },
+    {
+      "name": "Hugging Face",
+      "aliases": [
+        "Transformers"
+      ],
+      "wiki": "Hugging Face",
+      "tier": null
+    },
+    {
+      "name": "IBM Cloud",
+      "aliases": [],
+      "wiki": "IBM Cloud",
+      "tier": null
+    },
+    {
+      "name": "IBM Cloudant",
+      "aliases": [
+        "Cloudant"
+      ],
+      "wiki": "Cloudant",
+      "tier": null
+    },
+    {
+      "name": "IBM Cognos",
+      "aliases": [
+        "Cognos",
+        "Cognos Analytics"
+      ],
+      "wiki": "Cognos",
+      "tier": null
+    },
+    {
+      "name": "IBM DataStage",
+      "aliases": [
+        "DataStage",
+        "InfoSphere DataStage"
+      ],
+      "wiki": "IBM InfoSphere DataStage",
+      "tier": null
+    },
+    {
+      "name": "IBM Db2",
+      "aliases": [
+        "Db2"
+      ],
+      "wiki": "IBM Db2",
+      "tier": null
+    },
+    {
+      "name": "IBM Planning Analytics",
+      "aliases": [
+        "TM1",
+        "Cognos TM1"
+      ],
+      "wiki": "IBM Planning Analytics",
+      "tier": null
+    },
+    {
+      "name": "IBM Watson",
+      "aliases": [
+        "Watson"
+      ],
+      "wiki": "IBM Watson",
+      "tier": null
+    },
+    {
+      "name": "IDMS",
+      "aliases": [
+        "CA IDMS"
+      ],
+      "wiki": "IDMS",
+      "tier": null
+    },
+    {
+      "name": "Igor Pro",
+      "aliases": [],
+      "wiki": "IGOR Pro",
+      "tier": null
+    },
+    {
+      "name": "IMS",
+      "aliases": [
+        "IBM IMS",
+        "Information Management System"
+      ],
+      "wiki": "IBM Information Management System",
+      "tier": null
+    },
+    {
+      "name": "InetSoft",
+      "aliases": [
+        "StyleBI"
+      ],
+      "wiki": "InetSoft",
+      "tier": null
+    },
+    {
+      "name": "Infinispan",
+      "aliases": [],
+      "wiki": "Infinispan",
+      "tier": null
+    },
+    {
+      "name": "InfluxDB",
+      "aliases": [],
+      "wiki": "InfluxDB",
+      "tier": null
+    },
+    {
+      "name": "Infogram",
+      "aliases": [],
+      "wiki": "Infogram",
+      "tier": null
+    },
+    {
+      "name": "Informatica",
+      "aliases": [
+        "Informatica PowerCenter",
+        "PowerCenter",
+        "IICS",
+        "Informatica Cloud"
+      ],
+      "wiki": "Informatica",
+      "tier": null
+    },
+    {
+      "name": "Information Builders",
+      "aliases": [
+        "WebFOCUS",
+        "ibi"
+      ],
+      "wiki": "Information Builders",
+      "tier": null
+    },
+    {
+      "name": "Informix",
+      "aliases": [
+        "IBM Informix"
+      ],
+      "wiki": "Informix",
+      "tier": null
+    },
+    {
+      "name": "InfoZoom",
+      "aliases": [],
+      "wiki": "InfoZoom",
+      "tier": null
+    },
+    {
+      "name": "Ingres",
+      "aliases": [],
+      "wiki": "Ingres (database)",
+      "tier": null
+    },
+    {
+      "name": "InterBase",
+      "aliases": [],
+      "wiki": "InterBase",
+      "tier": null
+    },
+    {
+      "name": "InterSystems IRIS",
+      "aliases": [
+        "IRIS",
+        "InterSystems Caché",
+        "Caché"
+      ],
+      "wiki": "InterSystems Caché",
+      "tier": null
+    },
+    {
+      "name": "JAGS",
+      "aliases": [
+        "Just another Gibbs sampler"
+      ],
+      "wiki": "Just another Gibbs sampler",
+      "tier": null
+    },
+    {
+      "name": "jamovi",
+      "aliases": [],
+      "wiki": "Jamovi",
+      "tier": null
+    },
+    {
+      "name": "JanusGraph",
+      "aliases": [],
+      "wiki": "JanusGraph",
+      "tier": null
+    },
+    {
+      "name": "JASP",
+      "aliases": [],
+      "wiki": "JASP",
+      "tier": null
+    },
+    {
+      "name": "JasperReports",
+      "aliases": [
+        "Jaspersoft",
+        "JasperSoft BI"
+      ],
+      "wiki": "JasperReports",
+      "tier": null
+    },
+    {
+      "name": "JAX",
+      "aliases": [],
+      "wiki": "JAX (software)",
+      "tier": null
+    },
+    {
+      "name": "Jedox",
+      "aliases": [
+        "Palo"
+      ],
+      "wiki": "Palo (OLAP database)",
+      "tier": null
+    },
+    {
+      "name": "Jenkins",
+      "aliases": [],
+      "wiki": "Jenkins (software)",
+      "tier": null
+    },
+    {
+      "name": "Jira",
+      "aliases": [],
+      "wiki": "Jira (software)",
+      "tier": null
+    },
+    {
+      "name": "JMP",
+      "aliases": [
+        "SAS JMP"
+      ],
+      "wiki": "JMP (statistical software)",
+      "tier": null
+    },
+    {
+      "name": "Julia",
+      "aliases": [],
+      "wiki": "Julia (programming language)",
+      "tier": null
+    },
+    {
+      "name": "Jupyter",
+      "aliases": [
+        "Jupyter Notebook",
+        "Jupyter Notebooks",
+        "JupyterLab",
+        "IPython",
+        "Project Jupyter"
+      ],
+      "wiki": "Project Jupyter",
+      "tier": null
+    },
+    {
+      "name": "Kaggle",
+      "aliases": [
+        "Kaggle Notebooks"
+      ],
+      "wiki": "Kaggle",
+      "tier": null
+    },
+    {
+      "name": "Kdb+",
+      "aliases": [
+        "kdb",
+        "KX",
+        "kdb+/q"
+      ],
+      "wiki": "Kdb+",
+      "tier": null
+    },
+    {
+      "name": "Keras",
+      "aliases": [],
+      "wiki": "Keras",
+      "tier": null
+    },
+    {
+      "name": "Kibana",
+      "aliases": [],
+      "wiki": "Kibana",
+      "tier": null
+    },
+    {
+      "name": "Kinetica",
+      "aliases": [
+        "GPUdb"
+      ],
+      "wiki": "Kinetica (software)",
+      "tier": null
+    },
+    {
+      "name": "Klipfolio",
+      "aliases": [],
+      "wiki": "Klipfolio Inc.",
+      "tier": null
+    },
+    {
+      "name": "KNIME",
+      "aliases": [
+        "KNIME Analytics Platform"
+      ],
+      "wiki": "KNIME",
+      "tier": null
+    },
+    {
+      "name": "Kubeflow",
+      "aliases": [],
+      "wiki": "Kubeflow",
+      "tier": null
+    },
+    {
+      "name": "Kubernetes",
+      "aliases": [
+        "K8s"
+      ],
+      "wiki": "Kubernetes",
+      "tier": null
+    },
+    {
+      "name": "LabPlot",
+      "aliases": [],
+      "wiki": "LabPlot",
+      "tier": null
+    },
+    {
+      "name": "LangChain",
+      "aliases": [],
+      "wiki": "LangChain",
+      "tier": null
+    },
+    {
+      "name": "Leaflet",
+      "aliases": [],
+      "wiki": "Leaflet (software)",
+      "tier": null
+    },
+    {
+      "name": "LevelDB",
+      "aliases": [],
+      "wiki": "LevelDB",
+      "tier": null
+    },
+    {
+      "name": "LibreOffice Base",
+      "aliases": [],
+      "wiki": "LibreOffice Base",
+      "tier": null
+    },
+    {
+      "name": "LibreOffice Calc",
+      "aliases": [
+        "Calc"
+      ],
+      "wiki": "LibreOffice Calc",
+      "tier": null
+    },
+    {
+      "name": "LIBSVM",
+      "aliases": [],
+      "wiki": "LIBSVM",
+      "tier": null
+    },
+    {
+      "name": "LightGBM",
+      "aliases": [],
+      "wiki": "LightGBM",
+      "tier": null
+    },
+    {
+      "name": "LIMDEP",
+      "aliases": [],
+      "wiki": "LIMDEP",
+      "tier": null
+    },
+    {
+      "name": "LISREL",
+      "aliases": [],
+      "wiki": "LISREL",
+      "tier": null
+    },
+    {
+      "name": "List & Label",
+      "aliases": [],
+      "wiki": "List & Label",
+      "tier": null
+    },
+    {
+      "name": "Llama",
+      "aliases": [
+        "Meta Llama"
+      ],
+      "wiki": "Llama (language model)",
+      "tier": null
+    },
+    {
+      "name": "LlamaIndex",
+      "aliases": [],
+      "wiki": "LlamaIndex",
+      "tier": null
+    },
+    {
+      "name": "LMDB",
+      "aliases": [],
+      "wiki": "Lightning Memory-Mapped Database",
+      "tier": null
+    },
+    {
+      "name": "Logi Analytics",
+      "aliases": [
+        "Logi",
+        "Logi Symphony"
+      ],
+      "wiki": "Logi Analytics",
+      "tier": null
+    },
+    {
+      "name": "Looker Studio",
+      "aliases": [
+        "Google Data Studio",
+        "Data Studio",
+        "Google Looker Studio"
+      ],
+      "wiki": "Data Studio",
+      "tier": null
+    },
+    {
+      "name": "Lotus 1-2-3",
+      "aliases": [
+        "Lotus"
+      ],
+      "wiki": "Lotus 1-2-3",
+      "tier": null
+    },
+    {
+      "name": "Lotus Improv",
+      "aliases": [],
+      "wiki": "Lotus Improv",
+      "tier": null
+    },
+    {
+      "name": "Lucidchart",
+      "aliases": [],
+      "wiki": "Lucidchart",
+      "tier": null
+    },
+    {
+      "name": "Mapbox",
+      "aliases": [],
+      "wiki": "Mapbox",
+      "tier": null
+    },
+    {
+      "name": "Maple",
+      "aliases": [],
+      "wiki": "Maple (software)",
+      "tier": null
+    },
+    {
+      "name": "MapR",
+      "aliases": [
+        "HPE Ezmeral Data Fabric"
+      ],
+      "wiki": "MapR",
+      "tier": null
+    },
+    {
+      "name": "MariaDB",
+      "aliases": [],
+      "wiki": "MariaDB",
+      "tier": null
+    },
+    {
+      "name": "MarkLogic",
+      "aliases": [],
+      "wiki": "MarkLogic",
+      "tier": null
+    },
+    {
+      "name": "Mathcad",
+      "aliases": [
+        "PTC Mathcad"
+      ],
+      "wiki": "Mathcad",
+      "tier": null
+    },
+    {
+      "name": "Mathematica",
+      "aliases": [
+        "Wolfram Mathematica"
+      ],
+      "wiki": "Wolfram Mathematica",
+      "tier": null
+    },
+    {
+      "name": "MATLAB",
+      "aliases": [],
+      "wiki": "MATLAB",
+      "tier": null
+    },
+    {
+      "name": "Matomo",
+      "aliases": [
+        "Piwik"
+      ],
+      "wiki": "Matomo (software)",
+      "tier": null
+    },
+    {
+      "name": "Matplotlib",
+      "aliases": [
+        "pyplot"
+      ],
+      "wiki": "Matplotlib",
+      "tier": null
+    },
+    {
+      "name": "MAXQDA",
+      "aliases": [],
+      "wiki": "MAXQDA",
+      "tier": null
+    },
+    {
+      "name": "MedCalc",
+      "aliases": [],
+      "wiki": "MedCalc",
+      "tier": null
+    },
+    {
+      "name": "Memcached",
+      "aliases": [],
+      "wiki": "Memcached",
+      "tier": null
+    },
+    {
+      "name": "Microfit",
+      "aliases": [],
+      "wiki": "Microfit",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Cognitive Toolkit",
+      "aliases": [
+        "CNTK"
+      ],
+      "wiki": "Microsoft Cognitive Toolkit",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Dynamics 365",
+      "aliases": [
+        "Dynamics 365",
+        "Dynamics"
+      ],
+      "wiki": "Microsoft Dynamics 365",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Forms",
+      "aliases": [],
+      "wiki": "Microsoft Forms",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Power Platform",
+      "aliases": [
+        "Power Platform"
+      ],
+      "wiki": "Microsoft Power Platform",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Project",
+      "aliases": [],
+      "wiki": "Microsoft Project",
+      "tier": null
+    },
+    {
+      "name": "Microsoft SQL Server Compact",
+      "aliases": [
+        "SQL Server Compact",
+        "SQL CE"
+      ],
+      "wiki": "SQL Server Compact",
+      "tier": null
+    },
+    {
+      "name": "Microsoft Works",
+      "aliases": [],
+      "wiki": "Microsoft Works",
+      "tier": null
+    },
+    {
+      "name": "MicroStrategy",
+      "aliases": [
+        "Strategy",
+        "MicroStrategy ONE"
+      ],
+      "wiki": "MicroStrategy",
+      "tier": null
+    },
+    {
+      "name": "Milvus",
+      "aliases": [],
+      "wiki": "Milvus (vector database)",
+      "tier": null
+    },
+    {
+      "name": "Mimer SQL",
+      "aliases": [],
+      "wiki": "Mimer SQL",
+      "tier": null
+    },
+    {
+      "name": "Minitab",
+      "aliases": [],
+      "wiki": "Minitab",
+      "tier": null
+    },
+    {
+      "name": "Miro",
+      "aliases": [],
+      "wiki": "Miro (collaboration platform)",
+      "tier": null
+    },
+    {
+      "name": "Mistral AI",
+      "aliases": [
+        "Mistral",
+        "Le Chat"
+      ],
+      "wiki": "Mistral AI",
+      "tier": null
+    },
+    {
+      "name": "Mixpanel",
+      "aliases": [],
+      "wiki": "Mixpanel",
+      "tier": null
+    },
+    {
+      "name": "mlpack",
+      "aliases": [],
+      "wiki": "Mlpack",
+      "tier": null
+    },
+    {
+      "name": "MLwiN",
+      "aliases": [],
+      "wiki": "MLwiN",
+      "tier": null
+    },
+    {
+      "name": "Mnesia",
+      "aliases": [],
+      "wiki": "Mnesia",
+      "tier": null
+    },
+    {
+      "name": "Model 204",
+      "aliases": [],
+      "wiki": "Model 204",
+      "tier": null
+    },
+    {
+      "name": "Mondrian",
+      "aliases": [
+        "Mondrian OLAP"
+      ],
+      "wiki": "Mondrian OLAP server",
+      "tier": null
+    },
+    {
+      "name": "Mondrian Interactive",
+      "aliases": [],
+      "wiki": "Mondrian (software)",
+      "tier": null
+    },
+    {
+      "name": "MonetDB",
+      "aliases": [],
+      "wiki": "MonetDB",
+      "tier": null
+    },
+    {
+      "name": "MongoDB",
+      "aliases": [
+        "Mongo",
+        "MongoDB Atlas"
+      ],
+      "wiki": "MongoDB",
+      "tier": null
+    },
+    {
+      "name": "mSQL",
+      "aliases": [
+        "Mini SQL"
+      ],
+      "wiki": "MSQL",
+      "tier": null
+    },
+    {
+      "name": "MuleSoft",
+      "aliases": [
+        "Mule",
+        "Anypoint Platform"
+      ],
+      "wiki": "MuleSoft",
+      "tier": null
+    },
+    {
+      "name": "Multiplan",
+      "aliases": [],
+      "wiki": "Multiplan",
+      "tier": null
+    },
+    {
+      "name": "MXNet",
+      "aliases": [
+        "Apache MXNet"
+      ],
+      "wiki": "Apache MXNet",
+      "tier": null
+    },
+    {
+      "name": "Navicat",
+      "aliases": [],
+      "wiki": "Navicat",
+      "tier": null
+    },
+    {
+      "name": "NCSS",
+      "aliases": [],
+      "wiki": "NCSS (statistical software)",
+      "tier": null
+    },
+    {
+      "name": "Neo4j",
+      "aliases": [],
+      "wiki": "Neo4j",
+      "tier": null
+    },
+    {
+      "name": "Netezza",
+      "aliases": [
+        "IBM Netezza"
+      ],
+      "wiki": "Netezza",
+      "tier": null
+    },
+    {
+      "name": "Neural Designer",
+      "aliases": [],
+      "wiki": "Neural Designer",
+      "tier": null
+    },
+    {
+      "name": "New Relic",
+      "aliases": [],
+      "wiki": "New Relic",
+      "tier": null
+    },
+    {
+      "name": "NexusDB",
+      "aliases": [],
+      "wiki": "NexusDB",
+      "tier": null
+    },
+    {
+      "name": "NLOGIT",
+      "aliases": [],
+      "wiki": "NLOGIT",
+      "tier": null
+    },
+    {
+      "name": "NLTK",
+      "aliases": [
+        "Natural Language Toolkit"
+      ],
+      "wiki": "Natural Language Toolkit",
+      "tier": null
+    },
+    {
+      "name": "NonStop SQL",
+      "aliases": [
+        "HPE NonStop SQL"
+      ],
+      "wiki": "NonStop SQL",
+      "tier": null
+    },
+    {
+      "name": "Notion",
+      "aliases": [
+        "Notion databases"
+      ],
+      "wiki": "Notion (productivity software)",
+      "tier": null
+    },
+    {
+      "name": "nQuery",
+      "aliases": [],
+      "wiki": "NQuery Sample Size Software",
+      "tier": null
+    },
+    {
+      "name": "NumPy",
+      "aliases": [],
+      "wiki": "NumPy",
+      "tier": null
+    },
+    {
+      "name": "NuoDB",
+      "aliases": [],
+      "wiki": "NuoDB",
+      "tier": null
+    },
+    {
+      "name": "NVivo",
+      "aliases": [],
+      "wiki": "NVivo",
+      "tier": null
+    },
+    {
+      "name": "OBIEE",
+      "aliases": [
+        "Oracle Business Intelligence",
+        "Oracle BI"
+      ],
+      "wiki": "Oracle Business Intelligence Suite Enterprise Edition",
+      "tier": null
+    },
+    {
+      "name": "ObjectStore",
+      "aliases": [],
+      "wiki": "ObjectStore",
+      "tier": null
+    },
+    {
+      "name": "Omnis Studio",
+      "aliases": [
+        "Omnis"
+      ],
+      "wiki": "Omnis Studio",
+      "tier": null
+    },
+    {
+      "name": "OneDrive",
+      "aliases": [],
+      "wiki": "OneDrive",
+      "tier": null
+    },
+    {
+      "name": "OneTrust",
+      "aliases": [],
+      "wiki": "OneTrust",
+      "tier": null
+    },
+    {
+      "name": "OnlyOffice",
+      "aliases": [],
+      "wiki": "OnlyOffice",
+      "tier": null
+    },
+    {
+      "name": "OpenBUGS",
+      "aliases": [],
+      "wiki": "OpenBUGS",
+      "tier": null
+    },
+    {
+      "name": "OpenCV",
+      "aliases": [],
+      "wiki": "OpenCV",
+      "tier": null
+    },
+    {
+      "name": "OpenEpi",
+      "aliases": [],
+      "wiki": "OpenEpi",
+      "tier": null
+    },
+    {
+      "name": "OpenNN",
+      "aliases": [],
+      "wiki": "OpenNN",
+      "tier": null
+    },
+    {
+      "name": "OpenRefine",
+      "aliases": [
+        "Google Refine"
+      ],
+      "wiki": "OpenRefine",
+      "tier": null
+    },
+    {
+      "name": "OpenSearch",
+      "aliases": [
+        "Amazon OpenSearch"
+      ],
+      "wiki": "OpenSearch (software)",
+      "tier": null
+    },
+    {
+      "name": "Oracle Berkeley DB",
+      "aliases": [
+        "Berkeley DB"
+      ],
+      "wiki": "Berkeley DB",
+      "tier": null
+    },
+    {
+      "name": "Oracle Cloud",
+      "aliases": [
+        "OCI",
+        "Oracle Cloud Infrastructure"
+      ],
+      "wiki": "Oracle Cloud",
+      "tier": null
+    },
+    {
+      "name": "Oracle Coherence",
+      "aliases": [
+        "Coherence"
+      ],
+      "wiki": "Oracle Coherence",
+      "tier": null
+    },
+    {
+      "name": "Oracle Essbase",
+      "aliases": [
+        "Essbase"
+      ],
+      "wiki": "Essbase",
+      "tier": null
+    },
+    {
+      "name": "Oracle Exadata",
+      "aliases": [
+        "Exadata"
+      ],
+      "wiki": "Oracle Exadata",
+      "tier": null
+    },
+    {
+      "name": "Oracle Hyperion",
+      "aliases": [
+        "Hyperion"
+      ],
+      "wiki": "Hyperion Solutions",
+      "tier": null
+    },
+    {
+      "name": "Oracle NetSuite",
+      "aliases": [
+        "NetSuite"
+      ],
+      "wiki": "NetSuite",
+      "tier": null
+    },
+    {
+      "name": "Oracle NoSQL Database",
+      "aliases": [
+        "Oracle NoSQL"
+      ],
+      "wiki": "Oracle NoSQL Database",
+      "tier": null
+    },
+    {
+      "name": "Oracle Rdb",
+      "aliases": [],
+      "wiki": "Oracle Rdb",
+      "tier": null
+    },
+    {
+      "name": "Oracle Reports",
+      "aliases": [],
+      "wiki": "Oracle Reports",
+      "tier": null
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "aliases": [
+        "SQL Developer"
+      ],
+      "wiki": "Oracle SQL Developer",
+      "tier": null
+    },
+    {
+      "name": "Oracle TimesTen",
+      "aliases": [
+        "TimesTen"
+      ],
+      "wiki": "TimesTen",
+      "tier": null
+    },
+    {
+      "name": "Orange",
+      "aliases": [
+        "Orange Data Mining"
+      ],
+      "wiki": "Orange (software)",
+      "tier": null
+    },
+    {
+      "name": "Org-mode",
+      "aliases": [],
+      "wiki": "Org-mode",
+      "tier": null
+    },
+    {
+      "name": "OrientDB",
+      "aliases": [],
+      "wiki": "OrientDB",
+      "tier": null
+    },
+    {
+      "name": "Origin",
+      "aliases": [
+        "OriginPro"
+      ],
+      "wiki": "Origin (data analysis software)",
+      "tier": null
+    },
+    {
+      "name": "Palantir Foundry",
+      "aliases": [
+        "Foundry",
+        "Palantir"
+      ],
+      "wiki": "Palantir",
+      "tier": null
+    },
+    {
+      "name": "pandas",
+      "aliases": [
+        "Python pandas"
+      ],
+      "wiki": "Pandas (software)",
+      "tier": null
+    },
+    {
+      "name": "Panorama Necto",
+      "aliases": [
+        "Panorama Software"
+      ],
+      "wiki": "Panorama Software",
+      "tier": null
+    },
+    {
+      "name": "Paradox",
+      "aliases": [],
+      "wiki": "Paradox (database)",
+      "tier": null
+    },
+    {
+      "name": "ParaView",
+      "aliases": [],
+      "wiki": "ParaView",
+      "tier": null
+    },
+    {
+      "name": "PASS",
+      "aliases": [],
+      "wiki": "PASS Sample Size Software",
+      "tier": null
+    },
+    {
+      "name": "Pentaho",
+      "aliases": [
+        "Pentaho Data Integration",
+        "Kettle",
+        "PDI"
+      ],
+      "wiki": "Pentaho",
+      "tier": null
+    },
+    {
+      "name": "Percona Server",
+      "aliases": [
+        "Percona"
+      ],
+      "wiki": "Percona Server for MySQL",
+      "tier": null
+    },
+    {
+      "name": "PerformancePoint Server",
+      "aliases": [
+        "PerformancePoint"
+      ],
+      "wiki": "Microsoft Office PerformancePoint Server",
+      "tier": null
+    },
+    {
+      "name": "Perl Data Language",
+      "aliases": [
+        "PDL"
+      ],
+      "wiki": "Perl Data Language",
+      "tier": null
+    },
+    {
+      "name": "Perplexity",
+      "aliases": [
+        "Perplexity AI"
+      ],
+      "wiki": "Perplexity AI",
+      "tier": null
+    },
+    {
+      "name": "phpMyAdmin",
+      "aliases": [],
+      "wiki": "PhpMyAdmin",
+      "tier": null
+    },
+    {
+      "name": "Piktochart",
+      "aliases": [],
+      "wiki": "Piktochart",
+      "tier": null
+    },
+    {
+      "name": "PL/SQL",
+      "aliases": [],
+      "wiki": "PL/SQL",
+      "tier": null
+    },
+    {
+      "name": "Ploticus",
+      "aliases": [],
+      "wiki": "Ploticus",
+      "tier": null
+    },
+    {
+      "name": "Plotly",
+      "aliases": [
+        "plotly.py",
+        "Plotly Express"
+      ],
+      "wiki": "Plotly",
+      "tier": null
+    },
+    {
+      "name": "PolyAnalyst",
+      "aliases": [],
+      "wiki": "PolyAnalyst",
+      "tier": null
+    },
+    {
+      "name": "Polyhedra",
+      "aliases": [],
+      "wiki": "Polyhedra (software)",
+      "tier": null
+    },
+    {
+      "name": "PostGIS",
+      "aliases": [],
+      "wiki": "PostGIS",
+      "tier": null
+    },
+    {
+      "name": "PostgreSQL",
+      "aliases": [
+        "Postgres",
+        "psql",
+        "pgAdmin"
+      ],
+      "wiki": "PostgreSQL",
+      "tier": null
+    },
+    {
+      "name": "Power Automate",
+      "aliases": [
+        "Microsoft Flow",
+        "Microsoft Power Automate"
+      ],
+      "wiki": "Microsoft Power Automate",
+      "tier": null
+    },
+    {
+      "name": "Power Pivot",
+      "aliases": [],
+      "wiki": "Power Pivot",
+      "tier": null
+    },
+    {
+      "name": "Power Query",
+      "aliases": [
+        "Get & Transform"
+      ],
+      "wiki": "Power Query",
+      "tier": null
+    },
+    {
+      "name": "Presto",
+      "aliases": [
+        "PrestoDB"
+      ],
+      "wiki": "Presto (SQL query engine)",
+      "tier": null
+    },
+    {
+      "name": "ProClarity",
+      "aliases": [],
+      "wiki": "ProClarity",
+      "tier": null
+    },
+    {
+      "name": "Prometheus",
+      "aliases": [],
+      "wiki": "Prometheus (software)",
+      "tier": null
+    },
+    {
+      "name": "PSPP",
+      "aliases": [],
+      "wiki": "PSPP",
+      "tier": null
+    },
+    {
+      "name": "PyCharm",
+      "aliases": [],
+      "wiki": "PyCharm",
+      "tier": null
+    },
+    {
+      "name": "PyMC",
+      "aliases": [
+        "PyMC3"
+      ],
+      "wiki": "PyMC",
+      "tier": null
+    },
+    {
+      "name": "Pyspread",
+      "aliases": [],
+      "wiki": "Pyspread",
+      "tier": null
+    },
+    {
+      "name": "PyTorch",
+      "aliases": [
+        "Torch"
+      ],
+      "wiki": "PyTorch",
+      "tier": null
+    },
+    {
+      "name": "QGIS",
+      "aliases": [],
+      "wiki": "QGIS",
+      "tier": null
+    },
+    {
+      "name": "Qlik Sense",
+      "aliases": [
+        "Qlik",
+        "Qlik Cloud"
+      ],
+      "wiki": "Qlik",
+      "tier": null
+    },
+    {
+      "name": "Qlucore",
+      "aliases": [],
+      "wiki": "Qlucore",
+      "tier": null
+    },
+    {
+      "name": "Qualtrics",
+      "aliases": [
+        "Qualtrics XM"
+      ],
+      "wiki": "Qualtrics",
+      "tier": null
+    },
+    {
+      "name": "Quattro Pro",
+      "aliases": [],
+      "wiki": "Quattro Pro",
+      "tier": null
+    },
+    {
+      "name": "QuestDB",
+      "aliases": [],
+      "wiki": "QuestDB",
+      "tier": null
+    },
+    {
+      "name": "R Commander",
+      "aliases": [
+        "Rcmdr"
+      ],
+      "wiki": "R Commander",
+      "tier": null
+    },
+    {
+      "name": "R:Base",
+      "aliases": [],
+      "wiki": "R:Base",
+      "tier": null
+    },
+    {
+      "name": "RapidMiner",
+      "aliases": [
+        "Altair RapidMiner"
+      ],
+      "wiki": "RapidMiner",
+      "tier": null
+    },
+    {
+      "name": "RATS",
+      "aliases": [
+        "Regression Analysis of Time Series"
+      ],
+      "wiki": "RATS (software)",
+      "tier": null
+    },
+    {
+      "name": "Rattle",
+      "aliases": [],
+      "wiki": "Rattle GUI",
+      "tier": null
+    },
+    {
+      "name": "RavenDB",
+      "aliases": [],
+      "wiki": "RavenDB",
+      "tier": null
+    },
+    {
+      "name": "Realm",
+      "aliases": [
+        "MongoDB Realm"
+      ],
+      "wiki": "Realm (database)",
+      "tier": null
+    },
+    {
+      "name": "Redis",
+      "aliases": [
+        "Redis Enterprise"
+      ],
+      "wiki": "Redis",
+      "tier": null
+    },
+    {
+      "name": "RethinkDB",
+      "aliases": [],
+      "wiki": "RethinkDB",
+      "tier": null
+    },
+    {
+      "name": "Revolution Analytics",
+      "aliases": [
+        "Revolution R",
+        "Microsoft R Server"
+      ],
+      "wiki": "Revolution Analytics",
+      "tier": null
+    },
+    {
+      "name": "Riak",
+      "aliases": [
+        "Riak KV"
+      ],
+      "wiki": "Riak",
+      "tier": null
+    },
+    {
+      "name": "Roambi",
+      "aliases": [],
+      "wiki": "Roambi",
+      "tier": null
+    },
+    {
+      "name": "RocksDB",
+      "aliases": [],
+      "wiki": "RocksDB",
+      "tier": null
+    },
+    {
+      "name": "ROOT",
+      "aliases": [
+        "CERN ROOT"
+      ],
+      "wiki": "ROOT",
+      "tier": null
+    },
+    {
+      "name": "RRDtool",
+      "aliases": [],
+      "wiki": "RRDtool",
+      "tier": null
+    },
+    {
+      "name": "S-PLUS",
+      "aliases": [],
+      "wiki": "S-PLUS",
+      "tier": null
+    },
+    {
+      "name": "SageMath",
+      "aliases": [
+        "Sage"
+      ],
+      "wiki": "SageMath",
+      "tier": null
+    },
+    {
+      "name": "SAP ASE",
+      "aliases": [
+        "Sybase",
+        "Sybase ASE",
+        "Adaptive Server Enterprise",
+        "SAP Adaptive Server"
+      ],
+      "wiki": "Adaptive Server Enterprise",
+      "tier": null
+    },
+    {
+      "name": "SAP BusinessObjects",
+      "aliases": [
+        "BusinessObjects",
+        "BOBJ",
+        "SAP BO"
+      ],
+      "wiki": "BusinessObjects",
+      "tier": null
+    },
+    {
+      "name": "SAP BW",
+      "aliases": [
+        "SAP NetWeaver BW",
+        "SAP Business Warehouse",
+        "BW/4HANA"
+      ],
+      "wiki": "SAP NetWeaver Business Warehouse",
+      "tier": null
+    },
+    {
+      "name": "SAP HANA",
+      "aliases": [
+        "HANA"
+      ],
+      "wiki": "SAP HANA",
+      "tier": null
+    },
+    {
+      "name": "SAP IQ",
+      "aliases": [
+        "Sybase IQ"
+      ],
+      "wiki": "SAP IQ",
+      "tier": null
+    },
+    {
+      "name": "SAP MaxDB",
+      "aliases": [
+        "MaxDB"
+      ],
+      "wiki": "MaxDB",
+      "tier": null
+    },
+    {
+      "name": "SAP PowerDesigner",
+      "aliases": [
+        "PowerDesigner"
+      ],
+      "wiki": "PowerDesigner",
+      "tier": null
+    },
+    {
+      "name": "SAP SQL Anywhere",
+      "aliases": [
+        "SQL Anywhere"
+      ],
+      "wiki": "SQL Anywhere",
+      "tier": null
+    },
+    {
+      "name": "scikit-learn",
+      "aliases": [
+        "sklearn",
+        "Scikit"
+      ],
+      "wiki": "Scikit-learn",
+      "tier": null
+    },
+    {
+      "name": "Scilab",
+      "aliases": [],
+      "wiki": "Scilab",
+      "tier": null
+    },
+    {
+      "name": "SciPy",
+      "aliases": [],
+      "wiki": "SciPy",
+      "tier": null
+    },
+    {
+      "name": "ScyllaDB",
+      "aliases": [
+        "Scylla"
+      ],
+      "wiki": "ScyllaDB",
+      "tier": null
+    },
+    {
+      "name": "Sedna",
+      "aliases": [],
+      "wiki": "Sedna (database)",
+      "tier": null
+    },
+    {
+      "name": "ServiceNow",
+      "aliases": [],
+      "wiki": "ServiceNow",
+      "tier": null
+    },
+    {
+      "name": "SharePoint",
+      "aliases": [
+        "SharePoint Lists"
+      ],
+      "wiki": "SharePoint",
+      "tier": null
+    },
+    {
+      "name": "SHAZAM",
+      "aliases": [],
+      "wiki": "Shazam (econometrics software)",
+      "tier": null
+    },
+    {
+      "name": "Shogun",
+      "aliases": [],
+      "wiki": "Shogun (toolbox)",
+      "tier": null
+    },
+    {
+      "name": "SigmaPlot",
+      "aliases": [],
+      "wiki": "SigmaPlot",
+      "tier": null
+    },
+    {
+      "name": "SigmaStat",
+      "aliases": [],
+      "wiki": "SigmaStat",
+      "tier": null
+    },
+    {
+      "name": "SingleStore",
+      "aliases": [
+        "MemSQL"
+      ],
+      "wiki": "SingleStore",
+      "tier": null
+    },
+    {
+      "name": "Sisense",
+      "aliases": [],
+      "wiki": "Sisense",
+      "tier": null
+    },
+    {
+      "name": "SmartPLS",
+      "aliases": [],
+      "wiki": "SmartPLS",
+      "tier": null
+    },
+    {
+      "name": "Smartsheet",
+      "aliases": [],
+      "wiki": "Smartsheet",
+      "tier": null
+    },
+    {
+      "name": "SnapLogic",
+      "aliases": [],
+      "wiki": "SnapLogic",
+      "tier": null
+    },
+    {
+      "name": "SOFA Statistics",
+      "aliases": [],
+      "wiki": "SOFA Statistics",
+      "tier": null
+    },
+    {
+      "name": "solidDB",
+      "aliases": [],
+      "wiki": "SolidDB",
+      "tier": null
+    },
+    {
+      "name": "spaCy",
+      "aliases": [],
+      "wiki": "SpaCy",
+      "tier": null
+    },
+    {
+      "name": "SpatiaLite",
+      "aliases": [],
+      "wiki": "SpatiaLite",
+      "tier": null
+    },
+    {
+      "name": "Speakeasy",
+      "aliases": [],
+      "wiki": "Speakeasy (computational environment)",
+      "tier": null
+    },
+    {
+      "name": "Sphinx",
+      "aliases": [
+        "Sphinx Search"
+      ],
+      "wiki": "Sphinx (search engine)",
+      "tier": null
+    },
+    {
+      "name": "Splunk",
+      "aliases": [
+        "Splunk Enterprise"
+      ],
+      "wiki": "Splunk",
+      "tier": null
+    },
+    {
+      "name": "Spotfire",
+      "aliases": [
+        "TIBCO Spotfire"
+      ],
+      "wiki": "Spotfire",
+      "tier": null
+    },
+    {
+      "name": "SPSS Modeler",
+      "aliases": [
+        "IBM SPSS Modeler",
+        "Clementine"
+      ],
+      "wiki": "SPSS Modeler",
+      "tier": null
+    },
+    {
+      "name": "Spyder",
+      "aliases": [],
+      "wiki": "Spyder (software)",
+      "tier": null
+    },
+    {
+      "name": "SQL Server Analysis Services",
+      "aliases": [
+        "SSAS",
+        "Analysis Services",
+        "Microsoft Analysis Services"
+      ],
+      "wiki": "Microsoft Analysis Services",
+      "tier": null
+    },
+    {
+      "name": "SQL Server Integration Services",
+      "aliases": [
+        "SSIS",
+        "Integration Services"
+      ],
+      "wiki": "SQL Server Integration Services",
+      "tier": null
+    },
+    {
+      "name": "SQL Server Reporting Services",
+      "aliases": [
+        "SSRS",
+        "Reporting Services"
+      ],
+      "wiki": "SQL Server Reporting Services",
+      "tier": null
+    },
+    {
+      "name": "SQLite",
+      "aliases": [],
+      "wiki": "SQLite",
+      "tier": null
+    },
+    {
+      "name": "SQream DB",
+      "aliases": [
+        "SQream"
+      ],
+      "wiki": "SQream DB",
+      "tier": null
+    },
+    {
+      "name": "Stan",
+      "aliases": [],
+      "wiki": "Stan (software)",
+      "tier": null
+    },
+    {
+      "name": "Stata",
+      "aliases": [],
+      "wiki": "Stata",
+      "tier": null
+    },
+    {
+      "name": "StatCrunch",
+      "aliases": [],
+      "wiki": "StatCrunch",
+      "tier": null
+    },
+    {
+      "name": "Statgraphics",
+      "aliases": [],
+      "wiki": "Statgraphics",
+      "tier": null
+    },
+    {
+      "name": "Statista",
+      "aliases": [],
+      "wiki": "Statista",
+      "tier": null
+    },
+    {
+      "name": "Statistica",
+      "aliases": [
+        "TIBCO Statistica"
+      ],
+      "wiki": "Statistica",
+      "tier": null
+    },
+    {
+      "name": "StatsDirect",
+      "aliases": [],
+      "wiki": "StatsDirect",
+      "tier": null
+    },
+    {
+      "name": "StatXact",
+      "aliases": [],
+      "wiki": "StatXact",
+      "tier": null
+    },
+    {
+      "name": "SUDAAN",
+      "aliases": [],
+      "wiki": "SUDAAN",
+      "tier": null
+    },
+    {
+      "name": "SuperCalc",
+      "aliases": [],
+      "wiki": "SuperCalc",
+      "tier": null
+    },
+    {
+      "name": "SurveyMonkey",
+      "aliases": [],
+      "wiki": "SurveyMonkey",
+      "tier": null
+    },
+    {
+      "name": "Syncsort",
+      "aliases": [
+        "Precisely"
+      ],
+      "wiki": "Precisely (company)",
+      "tier": null
+    },
+    {
+      "name": "SYSTAT",
+      "aliases": [],
+      "wiki": "SYSTAT (statistics package)",
+      "tier": null
+    },
+    {
+      "name": "T-SQL",
+      "aliases": [
+        "Transact-SQL"
+      ],
+      "wiki": "Transact-SQL",
+      "tier": null
+    },
+    {
+      "name": "Tarantool",
+      "aliases": [],
+      "wiki": "Tarantool",
+      "tier": null
+    },
+    {
+      "name": "TARGIT",
+      "aliases": [],
+      "wiki": "Targit (company)",
+      "tier": null
+    },
+    {
+      "name": "TensorFlow",
+      "aliases": [],
+      "wiki": "TensorFlow",
+      "tier": null
+    },
+    {
+      "name": "Teradata",
+      "aliases": [
+        "Teradata Vantage"
+      ],
+      "wiki": "Teradata",
+      "tier": null
+    },
+    {
+      "name": "TerminusDB",
+      "aliases": [],
+      "wiki": "TerminusDB",
+      "tier": null
+    },
+    {
+      "name": "Terraform",
+      "aliases": [],
+      "wiki": "Terraform (software)",
+      "tier": null
+    },
+    {
+      "name": "The Unscrambler",
+      "aliases": [
+        "Unscrambler"
+      ],
+      "wiki": "The Unscrambler",
+      "tier": null
+    },
+    {
+      "name": "Theano",
+      "aliases": [],
+      "wiki": "Theano (software)",
+      "tier": null
+    },
+    {
+      "name": "ThoughtSpot",
+      "aliases": [],
+      "wiki": "ThoughtSpot",
+      "tier": null
+    },
+    {
+      "name": "TIBCO",
+      "aliases": [
+        "TIBCO Software",
+        "TIBCO BusinessWorks"
+      ],
+      "wiki": "TIBCO Software",
+      "tier": null
+    },
+    {
+      "name": "TiDB",
+      "aliases": [],
+      "wiki": "TiDB",
+      "tier": null
+    },
+    {
+      "name": "tidyverse",
+      "aliases": [],
+      "wiki": "Tidyverse",
+      "tier": null
+    },
+    {
+      "name": "TigerGraph",
+      "aliases": [],
+      "wiki": "TigerGraph",
+      "tier": null
+    },
+    {
+      "name": "TimescaleDB",
+      "aliases": [
+        "Timescale"
+      ],
+      "wiki": "TimescaleDB",
+      "tier": null
+    },
+    {
+      "name": "Toad",
+      "aliases": [
+        "Toad for Oracle"
+      ],
+      "wiki": "Toad (software)",
+      "tier": null
+    },
+    {
+      "name": "TOPCAT",
+      "aliases": [],
+      "wiki": "TOPCAT (software)",
+      "tier": null
+    },
+    {
+      "name": "Trifacta",
+      "aliases": [
+        "Alteryx Designer Cloud",
+        "Google Dataprep"
+      ],
+      "wiki": "Trifacta",
+      "tier": null
+    },
+    {
+      "name": "Trino",
+      "aliases": [
+        "PrestoSQL"
+      ],
+      "wiki": "Trino (SQL query engine)",
+      "tier": null
+    },
+    {
+      "name": "UiPath",
+      "aliases": [],
+      "wiki": "UiPath",
+      "tier": null
+    },
+    {
+      "name": "UniVerse",
+      "aliases": [
+        "UniData",
+        "Rocket U2"
+      ],
+      "wiki": "Rocket U2",
+      "tier": null
+    },
+    {
+      "name": "Varonis",
+      "aliases": [],
+      "wiki": "Varonis Systems",
+      "tier": null
+    },
+    {
+      "name": "Vega-Lite",
+      "aliases": [
+        "Vega"
+      ],
+      "wiki": "Vega and Vega-Lite visualisation grammars",
+      "tier": null
+    },
+    {
+      "name": "Vertica",
+      "aliases": [
+        "HP Vertica"
+      ],
+      "wiki": "Vertica",
+      "tier": null
+    },
+    {
+      "name": "Virtuoso",
+      "aliases": [
+        "OpenLink Virtuoso"
+      ],
+      "wiki": "Virtuoso Universal Server",
+      "tier": null
+    },
+    {
+      "name": "VisiCalc",
+      "aliases": [],
+      "wiki": "VisiCalc",
+      "tier": null
+    },
+    {
+      "name": "Visio",
+      "aliases": [
+        "Microsoft Visio"
+      ],
+      "wiki": "Microsoft Visio",
+      "tier": null
+    },
+    {
+      "name": "Visual FoxPro",
+      "aliases": [
+        "FoxPro"
+      ],
+      "wiki": "Visual FoxPro",
+      "tier": null
+    },
+    {
+      "name": "Visual Studio Code",
+      "aliases": [
+        "VS Code"
+      ],
+      "wiki": "Visual Studio Code",
+      "tier": null
+    },
+    {
+      "name": "VoltDB",
+      "aliases": [],
+      "wiki": "VoltDB",
+      "tier": null
+    },
+    {
+      "name": "VTK",
+      "aliases": [
+        "Visualization Toolkit"
+      ],
+      "wiki": "VTK",
+      "tier": null
+    },
+    {
+      "name": "WarpPLS",
+      "aliases": [],
+      "wiki": "WarpPLS",
+      "tier": null
+    },
+    {
+      "name": "Weka",
+      "aliases": [],
+      "wiki": "Weka (software)",
+      "tier": null
+    },
+    {
+      "name": "WinBUGS",
+      "aliases": [],
+      "wiki": "WinBUGS",
+      "tier": null
+    },
+    {
+      "name": "Wolfram Alpha",
+      "aliases": [],
+      "wiki": "WolframAlpha",
+      "tier": null
+    },
+    {
+      "name": "Wolfram Language",
+      "aliases": [],
+      "wiki": "Wolfram Language",
+      "tier": null
+    },
+    {
+      "name": "Workday",
+      "aliases": [],
+      "wiki": "Workday, Inc.",
+      "tier": null
+    },
+    {
+      "name": "World Programming System",
+      "aliases": [
+        "WPS Analytics"
+      ],
+      "wiki": "World Programming System",
+      "tier": null
+    },
+    {
+      "name": "WPS Spreadsheets",
+      "aliases": [
+        "WPS Office"
+      ],
+      "wiki": "WPS Office",
+      "tier": null
+    },
+    {
+      "name": "X-13ARIMA-SEATS",
+      "aliases": [
+        "X-13"
+      ],
+      "wiki": "X-13ARIMA-SEATS",
+      "tier": null
+    },
+    {
+      "name": "Xapian",
+      "aliases": [],
+      "wiki": "Xapian",
+      "tier": null
+    },
+    {
+      "name": "XGBoost",
+      "aliases": [],
+      "wiki": "XGBoost",
+      "tier": null
+    },
+    {
+      "name": "XLfit",
+      "aliases": [],
+      "wiki": "XLfit",
+      "tier": null
+    },
+    {
+      "name": "XploRe",
+      "aliases": [],
+      "wiki": "XploRe",
+      "tier": null
+    },
+    {
+      "name": "YugabyteDB",
+      "aliases": [
+        "Yugabyte"
+      ],
+      "wiki": "YugabyteDB",
+      "tier": null
+    },
+    {
+      "name": "Zapier",
+      "aliases": [],
+      "wiki": "Zapier",
+      "tier": null
+    },
+    {
+      "name": "ZODB",
+      "aliases": [],
+      "wiki": "Zope Object Database",
+      "tier": null
+    },
+    {
+      "name": "Zoomdata",
+      "aliases": [],
+      "wiki": "Zoomdata",
+      "tier": null
+    }
+  ]
+}

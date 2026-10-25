@@ -1,0 +1,2517 @@
+{
+ "prompt": "Name an Excel function",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188",
+  "https://support.microsoft.com/en-us/office/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb"
+ ],
+ "reject": [],
+ "answers": [
+  {
+   "name": "AVERAGE",
+   "aliases": [
+    "avg"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "COUNT",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "IF",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "MAX",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "MIN",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "SUM",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "VLOOKUP",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "AND",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "CONCAT",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "CONCATENATE",
+   "aliases": [
+    "concatenation"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "COUNTA",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "COUNTIF",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "COUNTIFS",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "IFERROR",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "INDEX",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "LEFT",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "LEN",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "LOWER",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "MATCH",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "NOW",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "OR",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "RIGHT",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "ROUND",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "SUMIF",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "SUMIFS",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "TODAY",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "TRIM",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "UPPER",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "XLOOKUP",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "ABS",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "AVERAGEA",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "AVERAGEIF",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "AVERAGEIFS",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "COUNTBLANK",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "DATE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "DATEDIF",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "DAY",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "DAYS",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "EDATE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "EOMONTH",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "FALSE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "FILTER",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "FIND",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "HLOOKUP",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "HOUR",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "IFS",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "INDEX MATCH",
+   "aliases": [
+    "index and match"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "INT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "IRR",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "ISBLANK",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "ISERROR",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "LARGE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "LOOKUP",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "MEDIAN",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "MID",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "MINUTE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "MODE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "MONTH",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "NETWORKDAYS",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "NOT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "NPV",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "PI",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "PMT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "PRODUCT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "PROPER",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "RAND",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "RANDBETWEEN",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "RANK",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "REPLACE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "ROUNDDOWN",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "ROUNDUP",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SEARCH",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SECOND",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SMALL",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SORT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "STDEV",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "STDEV.P",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "STDEV.S",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SUBSTITUTE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "SUMPRODUCT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "TEXT",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "TEXTJOIN",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "TIME",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "TRUE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "UNIQUE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "VALUE",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "VAR",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "WEEKDAY",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "WORKDAY",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "YEAR",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "ADDRESS",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "AGGREGATE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CEILING",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CHAR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CHOOSE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CLEAN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CODE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "COLUMN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "COLUMNS",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "COMBIN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "CORREL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "DATEVALUE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "DB",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "DDB",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "DOLLAR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "EFFECT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "EVEN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "EXACT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "EXP",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FACT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FIXED",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FLOOR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FORECAST",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FORECAST.LINEAR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FREQUENCY",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "FV",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "GCD",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "GEOMEAN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "GETPIVOTDATA",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "GROUPBY",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "HYPERLINK",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "IFNA",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "IMAGE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "INDIRECT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "INTERCEPT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "IPMT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ISEVEN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ISNA",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ISNUMBER",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ISODD",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ISTEXT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LCM",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LET",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LOG",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LOG10",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MAXIFS",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MINIFS",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MIRR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MOD",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MODE.SNGL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "MROUND",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "NA",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "NETWORKDAYS.INTL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "NORM.DIST",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "NORM.INV",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "NPER",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ODD",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "OFFSET",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PERCENTILE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PERCENTILE.INC",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PERCENTOF",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PERMUT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PIVOTBY",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "POWER",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PPMT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "PV",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "QUARTILE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "QUARTILE.INC",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "QUOTIENT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "RANDARRAY",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "RANK.EQ",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "RATE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "REPT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ROW",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ROWS",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "RSQ",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SEQUENCE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SIGN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SLN",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SLOPE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SORTBY",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SQRT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SUBTOTAL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SWITCH",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "SYD",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "T.TEST",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TEXTAFTER",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TEXTBEFORE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TEXTSPLIT",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TRANSPOSE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TRIMRANGE",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "TRUNC",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "VAR.P",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "VAR.S",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "WEEKNUM",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "WORKDAY.INTL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "XIRR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "XMATCH",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "XNPV",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "XOR",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "YEARFRAC",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "ACCRINT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ACCRINTM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ACOS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ACOSH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ACOT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ACOTH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "AREAS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ARRAYTOTEXT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ASIN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ASINH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ATAN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ATAN2",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ATANH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "AVEDEV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BASE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BETA.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BETA.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BINOM.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BINOM.DIST.RANGE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BINOM.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BYCOL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BYROW",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CEILING.MATH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CEILING.PRECISE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHISQ.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHISQ.DIST.RT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHISQ.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHISQ.INV.RT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHISQ.TEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHOOSECOLS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CHOOSEROWS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COMBINA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CONFIDENCE.NORM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CONFIDENCE.T",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CONVERT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COSH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COTH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPDAYBS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPDAYS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPDAYSNC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPNCD",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPNUM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COUPPCD",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COVARIANCE.P",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "COVARIANCE.S",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CSC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CSCH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CUMIPMT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "CUMPRINC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DAVERAGE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DAYS360",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DCOUNT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DCOUNTA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DECIMAL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DEGREES",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DETECTLANGUAGE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DEVSQ",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DGET",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DISC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DMAX",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DMIN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DOLLARDE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DOLLARFR",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DPRODUCT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DROP",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DSTDEV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DSTDEVP",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DSUM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DURATION",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DVAR",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DVARP",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ERROR.TYPE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "EXPAND",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "EXPON.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "F.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "F.DIST.RT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "F.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "F.INV.RT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "F.TEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FACTDOUBLE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FINDB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FISHER",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FISHERINV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FLOOR.MATH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FLOOR.PRECISE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FORECAST.ETS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FORECAST.ETS.CONFINT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FORECAST.ETS.SEASONALITY",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FORECAST.ETS.STAT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FORMULATEXT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "FVSCHEDULE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GAMMA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GAMMA.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GAMMA.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GAUSS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GROWTH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "HARMEAN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "HSTACK",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "HYPGEOM.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "INTRATE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISERR",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISFORMULA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISLOGICAL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISNONTEXT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISO.CEILING",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISOMITTED",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISOWEEKNUM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISPMT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "ISREF",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "KURT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LEFTB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LENB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LINEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LOGEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LOGNORM.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LOGNORM.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MAKEARRAY",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MAP",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MAXA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MDETERM",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MDURATION",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MIDB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MINA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MINVERSE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MMULT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MODE.MULT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MULTINOMIAL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "MUNIT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "N",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "NEGBINOM.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "NOMINAL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "NORM.S.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "NORM.S.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "NUMBERVALUE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PDURATION",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PEARSON",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PERCENTILE.EXC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PERCENTRANK",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PERCENTRANK.EXC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PERCENTRANK.INC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PERMUTATIONA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PHI",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "POISSON.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PRICE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PRICEDISC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PRICEMAT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "PROB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "QUARTILE.EXC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "RADIANS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "RANK.AVG",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "RECEIVED",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "REDUCE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "REGEXEXTRACT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "REGEXREPLACE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "REGEXTEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "REPLACEB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "RIGHTB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "RRI",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SCAN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SEARCHB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SEC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SECH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SHEET",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SHEETS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SIN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SINH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SKEW",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SKEW.P",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "STANDARDIZE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "STDEVA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "STDEVPA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "STEYX",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "STOCKHISTORY",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SUMSQ",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SUMX2MY2",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SUMX2PY2",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "SUMXMY2",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T.DIST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T.DIST.2T",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T.DIST.RT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T.INV",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "T.INV.2T",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TAKE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TAN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TANH",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TBILLEQ",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TBILLPRICE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TBILLYIELD",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TIMEVALUE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TOCOL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TOROW",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TRANSLATE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TREND",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TRIMMEAN",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "TYPE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "UNICHAR",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "UNICODE",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "VALUETOTEXT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "VARA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "VARPA",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "VDB",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "VSTACK",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "WRAPCOLS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "WRAPROWS",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "YIELD",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "YIELDDISC",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "YIELDMAT",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Z.TEST",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "AMORDEGRC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "AMORLINC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ARABIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ASC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BAHTTEXT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BESSELI",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BESSELJ",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BESSELK",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BESSELY",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BIN2DEC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BIN2HEX",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BIN2OCT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BITAND",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BITLSHIFT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BITOR",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BITRSHIFT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BITXOR",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CALL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CELL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CHIDIST",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CHIINV",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CHITEST",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "COMPLEX",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CONFIDENCE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "COVAR",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CRITBINOM",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBEKPIMEMBER",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBEMEMBER",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBEMEMBERPROPERTY",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBERANKEDMEMBER",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBESET",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBESETCOUNT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CUBEVALUE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DBCS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DEC2BIN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DEC2HEX",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DEC2OCT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DELTA",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ENCODEURL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ERF",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ERF.PRECISE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ERFC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ERFC.PRECISE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "EUROCONVERT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FILTERXML",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "GAMMALN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "GAMMALN.PRECISE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "GESTEP",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "HEX2BIN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "HEX2DEC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "HEX2OCT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMABS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMAGINARY",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMARGUMENT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCONJUGATE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCOS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCOSH",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCOT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCSC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMCSCH",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMDIV",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMEXP",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMLN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMLOG10",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMLOG2",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMPOWER",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMPRODUCT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMREAL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSEC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSECH",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSIN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSINH",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSQRT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSUB",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMSUM",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IMTAN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "INFO",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "JIS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LAMBDA",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LOGINV",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OCT2BIN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OCT2DEC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OCT2HEX",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ODDFPRICE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ODDFYIELD",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ODDLPRICE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ODDLYIELD",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PHONETIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "POISSON",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "REGISTER.ID",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ROMAN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "RTD",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SERIESSUM",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SQRTPI",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "WEBSERVICE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "WEIBULL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "WEIBULL.DIST",
+   "aliases": [],
+   "tier": 6
+  }
+ ]
+}

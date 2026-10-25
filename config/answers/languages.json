@@ -1,0 +1,5803 @@
+{
+ "prompt": "Name a programming or query language",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_programming_languages",
+  "https://en.wikipedia.org/wiki/List_of_programming_languages_by_type",
+  "https://en.wikipedia.org/wiki/List_of_BASIC_dialects",
+  "https://en.wikipedia.org/wiki/Query_language",
+  "https://en.wikipedia.org/wiki/List_of_document_markup_languages",
+  "https://en.wikipedia.org/wiki/Stylesheet_language",
+  "https://en.wikipedia.org/wiki/Esoteric_programming_language",
+  "MediaWiki API (action=parse wikitext; action=query redirects=1 for canonical titles)",
+  "Curated additions: BI/analytics query & formula languages (DAX, Power Query M, KQL, SPL, LookML, SOQL, PromQL, SQL dialects) and markup/data formats"
+ ],
+ "reject": [],
+ "answers": [
+  {
+   "name": "Java",
+   "aliases": [],
+   "tier": 1
+  },
+  {
+   "name": "JavaScript",
+   "aliases": [
+    "JS"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Python",
+   "aliases": [
+    "py",
+    "Python 3"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "SQL",
+   "aliases": [
+    "Structured Query Language",
+    "sequel",
+    "structured query language"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "C",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "C#",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "C++",
+   "aliases": [
+    "CPP"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "HTML",
+   "aliases": [
+    "HTML5",
+    "Hypertext Markup Language"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "R",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "TypeScript",
+   "aliases": [
+    "TS"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "VBA",
+   "aliases": [
+    "Visual Basic for Applications",
+    "Excel VBA",
+    "Macros"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Ada",
+   "aliases": [],
+   "tier": 3,
+   "views": 23928
+  },
+  {
+   "name": "APL",
+   "aliases": [],
+   "tier": 3,
+   "views": 12418
+  },
+  {
+   "name": "Assembly language",
+   "aliases": [
+    "Assembly",
+    "ASM"
+   ],
+   "tier": 3,
+   "views": 64972
+  },
+  {
+   "name": "AutoHotkey",
+   "aliases": [],
+   "tier": 3,
+   "views": 10691
+  },
+  {
+   "name": "AWK",
+   "aliases": [],
+   "tier": 3,
+   "views": 10184
+  },
+  {
+   "name": "B",
+   "aliases": [],
+   "tier": 3,
+   "views": 17207
+  },
+  {
+   "name": "Bash",
+   "aliases": [
+    "Bourne Again Shell"
+   ],
+   "tier": 3,
+   "views": 47513
+  },
+  {
+   "name": "BASIC",
+   "aliases": [],
+   "tier": 3,
+   "views": 28380
+  },
+  {
+   "name": "Batch",
+   "aliases": [
+    "Batch file",
+    "Batch script"
+   ],
+   "tier": 3,
+   "views": 9499
+  },
+  {
+   "name": "Bourne shell",
+   "aliases": [],
+   "tier": 3,
+   "views": 11531
+  },
+  {
+   "name": "Brainfuck",
+   "aliases": [
+    "BF"
+   ],
+   "tier": 3,
+   "views": 36234
+  },
+  {
+   "name": "C minus minus",
+   "aliases": [],
+   "tier": 3,
+   "views": 7162
+  },
+  {
+   "name": "CHIP-8",
+   "aliases": [],
+   "tier": 3,
+   "views": 10814
+  },
+  {
+   "name": "Clojure",
+   "aliases": [],
+   "tier": 3,
+   "views": 10079
+  },
+  {
+   "name": "CMake",
+   "aliases": [],
+   "tier": 3,
+   "views": 7408
+  },
+  {
+   "name": "COBOL",
+   "aliases": [],
+   "tier": 3,
+   "views": 39315
+  },
+  {
+   "name": "ColdFusion",
+   "aliases": [],
+   "tier": 3,
+   "views": 7341
+  },
+  {
+   "name": "Common Lisp",
+   "aliases": [],
+   "tier": 3,
+   "views": 10929
+  },
+  {
+   "name": "CSS",
+   "aliases": [
+    "Cascading Style Sheets",
+    "CSS3"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "CUDA",
+   "aliases": [],
+   "tier": 3,
+   "views": 42545
+  },
+  {
+   "name": "D",
+   "aliases": [
+    "dlang"
+   ],
+   "tier": 3,
+   "views": 12718
+  },
+  {
+   "name": "Dart",
+   "aliases": [],
+   "tier": 3,
+   "views": 12767
+  },
+  {
+   "name": "Datalog",
+   "aliases": [],
+   "tier": 3,
+   "views": 8112
+  },
+  {
+   "name": "Delphi",
+   "aliases": [],
+   "tier": 3,
+   "views": 14410
+  },
+  {
+   "name": "ECMAScript",
+   "aliases": [
+    "ES6"
+   ],
+   "tier": 3,
+   "views": 12899
+  },
+  {
+   "name": "Elixir",
+   "aliases": [],
+   "tier": 3,
+   "views": 12474
+  },
+  {
+   "name": "Erlang",
+   "aliases": [],
+   "tier": 3,
+   "views": 16237
+  },
+  {
+   "name": "Excel formulas",
+   "aliases": [
+    "Excel formula language",
+    "Spreadsheet formulas",
+    "Excel functions"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "F#",
+   "aliases": [],
+   "tier": 3,
+   "views": 30690
+  },
+  {
+   "name": "Forth",
+   "aliases": [],
+   "tier": 3,
+   "views": 13088
+  },
+  {
+   "name": "Fortran",
+   "aliases": [],
+   "tier": 3,
+   "views": 40805
+  },
+  {
+   "name": "G-code",
+   "aliases": [],
+   "tier": 3,
+   "views": 9815
+  },
+  {
+   "name": "Go",
+   "aliases": [
+    "Golang"
+   ],
+   "tier": 3,
+   "views": 73098
+  },
+  {
+   "name": "Google Apps Script",
+   "aliases": [],
+   "tier": 3,
+   "views": 12449
+  },
+  {
+   "name": "GraphQL",
+   "aliases": [],
+   "tier": 3,
+   "views": 8505
+  },
+  {
+   "name": "Groovy",
+   "aliases": [
+    "Apache Groovy"
+   ],
+   "tier": 3,
+   "views": 7177
+  },
+  {
+   "name": "Hack",
+   "aliases": [],
+   "tier": 3,
+   "views": 7588
+  },
+  {
+   "name": "Haskell",
+   "aliases": [],
+   "tier": 3,
+   "views": 23905
+  },
+  {
+   "name": "Julia",
+   "aliases": [],
+   "tier": 3,
+   "views": 20830
+  },
+  {
+   "name": "KornShell",
+   "aliases": [
+    "ksh"
+   ],
+   "tier": 3,
+   "views": 10736
+  },
+  {
+   "name": "Kotlin",
+   "aliases": [],
+   "tier": 3,
+   "views": 21939
+  },
+  {
+   "name": "Ladder logic",
+   "aliases": [
+    "Ladder"
+   ],
+   "tier": 3,
+   "views": 8160
+  },
+  {
+   "name": "Lean",
+   "aliases": [],
+   "tier": 3,
+   "views": 124500
+  },
+  {
+   "name": "Lisp",
+   "aliases": [],
+   "tier": 3,
+   "views": 44909
+  },
+  {
+   "name": "Logo",
+   "aliases": [],
+   "tier": 3,
+   "views": 11677
+  },
+  {
+   "name": "Lua",
+   "aliases": [],
+   "tier": 3,
+   "views": 29460
+  },
+  {
+   "name": "Luau",
+   "aliases": [],
+   "tier": 3,
+   "views": 8140
+  },
+  {
+   "name": "Machine code",
+   "aliases": [
+    "Machine language"
+   ],
+   "tier": 3,
+   "views": 17946
+  },
+  {
+   "name": "Makefile",
+   "aliases": [
+    "Make"
+   ],
+   "tier": 3,
+   "views": 13655
+  },
+  {
+   "name": "Malbolge",
+   "aliases": [],
+   "tier": 3,
+   "views": 14130
+  },
+  {
+   "name": "MATLAB",
+   "aliases": [
+    "Matlab language"
+   ],
+   "tier": 3,
+   "views": 23951
+  },
+  {
+   "name": "ML",
+   "aliases": [],
+   "tier": 3,
+   "views": 9185
+  },
+  {
+   "name": "Mojo",
+   "aliases": [],
+   "tier": 3,
+   "views": 13282
+  },
+  {
+   "name": "MySQL",
+   "aliases": [],
+   "tier": 3
+  },
+  {
+   "name": "Nim",
+   "aliases": [],
+   "tier": 3,
+   "views": 7203
+  },
+  {
+   "name": "Nix",
+   "aliases": [],
+   "tier": 3,
+   "views": 12842
+  },
+  {
+   "name": "Objective-C",
+   "aliases": [
+    "Obj-C"
+   ],
+   "tier": 3,
+   "views": 15963
+  },
+  {
+   "name": "OCaml",
+   "aliases": [],
+   "tier": 3,
+   "views": 22667
+  },
+  {
+   "name": "OpenCL",
+   "aliases": [],
+   "tier": 3,
+   "views": 8395
+  },
+  {
+   "name": "OWL",
+   "aliases": [
+    "Web Ontology Language"
+   ],
+   "tier": 3,
+   "views": 9448
+  },
+  {
+   "name": "Pascal",
+   "aliases": [],
+   "tier": 3,
+   "views": 23721
+  },
+  {
+   "name": "Perl",
+   "aliases": [],
+   "tier": 3,
+   "views": 29019
+  },
+  {
+   "name": "PHP",
+   "aliases": [],
+   "tier": 3,
+   "views": 259703
+  },
+  {
+   "name": "PL/I",
+   "aliases": [],
+   "tier": 3,
+   "views": 15554
+  },
+  {
+   "name": "PostScript",
+   "aliases": [],
+   "tier": 3,
+   "views": 9716
+  },
+  {
+   "name": "Power Query M",
+   "aliases": [
+    "M language",
+    "Power Query",
+    "M formula language",
+    "Power Query Formula Language"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "PowerShell",
+   "aliases": [
+    "Posh",
+    "PS1"
+   ],
+   "tier": 3,
+   "views": 24611
+  },
+  {
+   "name": "Processing",
+   "aliases": [],
+   "tier": 3,
+   "views": 8644
+  },
+  {
+   "name": "Prolog",
+   "aliases": [],
+   "tier": 3,
+   "views": 17315
+  },
+  {
+   "name": "Protocol Buffers",
+   "aliases": [
+    "Protobuf"
+   ],
+   "tier": 3,
+   "views": 10510
+  },
+  {
+   "name": "reStructuredText",
+   "aliases": [
+    "RST"
+   ],
+   "tier": 3,
+   "views": 7869
+  },
+  {
+   "name": "Rocq",
+   "aliases": [
+    "Coq"
+   ],
+   "tier": 3,
+   "views": 14107
+  },
+  {
+   "name": "Ruby",
+   "aliases": [],
+   "tier": 3,
+   "views": 29833
+  },
+  {
+   "name": "Rust",
+   "aliases": [
+    "Rustlang"
+   ],
+   "tier": 3,
+   "views": 176278
+  },
+  {
+   "name": "SAS",
+   "aliases": [
+    "SAS language"
+   ],
+   "tier": 3,
+   "views": 11812
+  },
+  {
+   "name": "Scala",
+   "aliases": [],
+   "tier": 3,
+   "views": 17740
+  },
+  {
+   "name": "Scheme",
+   "aliases": [],
+   "tier": 3,
+   "views": 11920
+  },
+  {
+   "name": "Scratch",
+   "aliases": [],
+   "tier": 3,
+   "views": 62786
+  },
+  {
+   "name": "sed",
+   "aliases": [],
+   "tier": 3,
+   "views": 7940
+  },
+  {
+   "name": "Smalltalk",
+   "aliases": [],
+   "tier": 3,
+   "views": 16643
+  },
+  {
+   "name": "SNOBOL",
+   "aliases": [],
+   "tier": 3,
+   "views": 47798
+  },
+  {
+   "name": "SPARQL",
+   "aliases": [],
+   "tier": 3,
+   "views": 7014
+  },
+  {
+   "name": "Swift",
+   "aliases": [],
+   "tier": 3,
+   "views": 26775
+  },
+  {
+   "name": "Tcl",
+   "aliases": [
+    "Tcl/Tk"
+   ],
+   "tier": 3,
+   "views": 11563
+  },
+  {
+   "name": "TeX",
+   "aliases": [],
+   "tier": 3,
+   "views": 22416
+  },
+  {
+   "name": "VB.NET",
+   "aliases": [
+    "Visual Basic .NET"
+   ],
+   "tier": 3,
+   "views": 9813
+  },
+  {
+   "name": "Verilog",
+   "aliases": [],
+   "tier": 3,
+   "views": 14195
+  },
+  {
+   "name": "VHDL",
+   "aliases": [],
+   "tier": 3,
+   "views": 12233
+  },
+  {
+   "name": "Visual Basic",
+   "aliases": [
+    "VB",
+    "VB6",
+    "Visual Basic 6",
+    "Classic Visual Basic"
+   ],
+   "tier": 3,
+   "views": 12117
+  },
+  {
+   "name": "Visual C++",
+   "aliases": [
+    "MSVC"
+   ],
+   "tier": 3,
+   "views": 10835
+  },
+  {
+   "name": "WebAssembly",
+   "aliases": [],
+   "tier": 3,
+   "views": 25125
+  },
+  {
+   "name": "Whitespace",
+   "aliases": [],
+   "tier": 3,
+   "views": 7468
+  },
+  {
+   "name": "Z shell",
+   "aliases": [
+    "zsh"
+   ],
+   "tier": 3,
+   "views": 10313
+  },
+  {
+   "name": "Zig",
+   "aliases": [],
+   "tier": 3,
+   "views": 23066
+  },
+  {
+   "name": "A-0 System",
+   "aliases": [],
+   "tier": 4,
+   "views": 1682
+  },
+  {
+   "name": "A+",
+   "aliases": [],
+   "tier": 4,
+   "views": 1584
+  },
+  {
+   "name": "ABAP",
+   "aliases": [],
+   "tier": 4,
+   "views": 5186
+  },
+  {
+   "name": "ABC",
+   "aliases": [],
+   "tier": 4,
+   "views": 3789
+  },
+  {
+   "name": "ActionScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 5323
+  },
+  {
+   "name": "Agda",
+   "aliases": [],
+   "tier": 4,
+   "views": 4472
+  },
+  {
+   "name": "ALGOL 58",
+   "aliases": [],
+   "tier": 4,
+   "views": 2209
+  },
+  {
+   "name": "ALGOL 60",
+   "aliases": [],
+   "tier": 4,
+   "views": 5281
+  },
+  {
+   "name": "ALGOL 68",
+   "aliases": [],
+   "tier": 4,
+   "views": 3694
+  },
+  {
+   "name": "Altair BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 3304
+  },
+  {
+   "name": "AMPL",
+   "aliases": [],
+   "tier": 4,
+   "views": 1671
+  },
+  {
+   "name": "AngelScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 1756
+  },
+  {
+   "name": "Apex",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "App Inventor",
+   "aliases": [
+    "MIT App Inventor"
+   ],
+   "tier": 4,
+   "views": 5703
+  },
+  {
+   "name": "AppleScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 5072
+  },
+  {
+   "name": "Applesoft BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1760
+  },
+  {
+   "name": "Arc",
+   "aliases": [],
+   "tier": 4,
+   "views": 2565
+  },
+  {
+   "name": "ArkTS",
+   "aliases": [],
+   "tier": 4,
+   "views": 2004
+  },
+  {
+   "name": "AsciiDoc",
+   "aliases": [],
+   "tier": 4,
+   "views": 2812
+  },
+  {
+   "name": "AssemblyScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 1909
+  },
+  {
+   "name": "Atari BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1333
+  },
+  {
+   "name": "ATS",
+   "aliases": [],
+   "tier": 4,
+   "views": 1636
+  },
+  {
+   "name": "AutoIt",
+   "aliases": [],
+   "tier": 4,
+   "views": 1464
+  },
+  {
+   "name": "AutoLISP",
+   "aliases": [
+    "Visual LISP"
+   ],
+   "tier": 4,
+   "views": 1887
+  },
+  {
+   "name": "BBC BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2305
+  },
+  {
+   "name": "bc",
+   "aliases": [],
+   "tier": 4,
+   "views": 2098
+  },
+  {
+   "name": "BCPL",
+   "aliases": [],
+   "tier": 4,
+   "views": 5882
+  },
+  {
+   "name": "Befunge",
+   "aliases": [],
+   "tier": 4,
+   "views": 2555
+  },
+  {
+   "name": "BLISS",
+   "aliases": [],
+   "tier": 4,
+   "views": 1398
+  },
+  {
+   "name": "Blitz BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1825
+  },
+  {
+   "name": "Blockly",
+   "aliases": [],
+   "tier": 4,
+   "views": 2115
+  },
+  {
+   "name": "Boo",
+   "aliases": [],
+   "tier": 4,
+   "views": 1574
+  },
+  {
+   "name": "C Shell",
+   "aliases": [
+    "csh"
+   ],
+   "tier": 4,
+   "views": 3900
+  },
+  {
+   "name": "Caml",
+   "aliases": [],
+   "tier": 4,
+   "views": 2739
+  },
+  {
+   "name": "Carbon",
+   "aliases": [],
+   "tier": 4,
+   "views": 5789
+  },
+  {
+   "name": "Ch",
+   "aliases": [],
+   "tier": 4,
+   "views": 1541
+  },
+  {
+   "name": "CHICKEN",
+   "aliases": [],
+   "tier": 4,
+   "views": 1370
+  },
+  {
+   "name": "CircuitPython",
+   "aliases": [],
+   "tier": 4,
+   "views": 1414
+  },
+  {
+   "name": "Clean",
+   "aliases": [],
+   "tier": 4,
+   "views": 1470
+  },
+  {
+   "name": "Clipper",
+   "aliases": [],
+   "tier": 4,
+   "views": 3173
+  },
+  {
+   "name": "CLU",
+   "aliases": [],
+   "tier": 4,
+   "views": 1732
+  },
+  {
+   "name": "Cobra",
+   "aliases": [],
+   "tier": 4,
+   "views": 1253
+  },
+  {
+   "name": "CoffeeScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 3743
+  },
+  {
+   "name": "ColdFusion Markup Language",
+   "aliases": [
+    "CFML"
+   ],
+   "tier": 4,
+   "views": 1839
+  },
+  {
+   "name": "Commodore BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2509
+  },
+  {
+   "name": "Common Intermediate Language",
+   "aliases": [
+    "CIL",
+    "MSIL"
+   ],
+   "tier": 4,
+   "views": 3760
+  },
+  {
+   "name": "CPL",
+   "aliases": [],
+   "tier": 4,
+   "views": 1673
+  },
+  {
+   "name": "Crystal",
+   "aliases": [],
+   "tier": 4,
+   "views": 3640
+  },
+  {
+   "name": "Curl",
+   "aliases": [],
+   "tier": 4,
+   "views": 1627
+  },
+  {
+   "name": "Cyclone",
+   "aliases": [],
+   "tier": 4,
+   "views": 1321
+  },
+  {
+   "name": "Cypher",
+   "aliases": [
+    "Cypher Query Language"
+   ],
+   "tier": 4,
+   "views": 2086
+  },
+  {
+   "name": "Cython",
+   "aliases": [],
+   "tier": 4,
+   "views": 5196
+  },
+  {
+   "name": "Dartmouth BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1310
+  },
+  {
+   "name": "Data definition language",
+   "aliases": [
+    "DDL"
+   ],
+   "tier": 4,
+   "views": 5003
+  },
+  {
+   "name": "Data manipulation language",
+   "aliases": [
+    "DML"
+   ],
+   "tier": 4,
+   "views": 2331
+  },
+  {
+   "name": "dBase",
+   "aliases": [],
+   "tier": 4,
+   "views": 6090
+  },
+  {
+   "name": "dc",
+   "aliases": [],
+   "tier": 4,
+   "views": 1717
+  },
+  {
+   "name": "DRAKON",
+   "aliases": [],
+   "tier": 4,
+   "views": 2407
+  },
+  {
+   "name": "Dylan",
+   "aliases": [],
+   "tier": 4,
+   "views": 1756
+  },
+  {
+   "name": "E",
+   "aliases": [],
+   "tier": 4,
+   "views": 2218
+  },
+  {
+   "name": "Eiffel",
+   "aliases": [],
+   "tier": 4,
+   "views": 4157
+  },
+  {
+   "name": "Elm",
+   "aliases": [],
+   "tier": 4,
+   "views": 4362
+  },
+  {
+   "name": "Emacs Lisp",
+   "aliases": [],
+   "tier": 4,
+   "views": 2877
+  },
+  {
+   "name": "F",
+   "aliases": [],
+   "tier": 4,
+   "views": 1994
+  },
+  {
+   "name": "Factor",
+   "aliases": [],
+   "tier": 4,
+   "views": 1337
+  },
+  {
+   "name": "Famicom BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2292
+  },
+  {
+   "name": "fish",
+   "aliases": [
+    "friendly interactive shell"
+   ],
+   "tier": 4,
+   "views": 3360
+  },
+  {
+   "name": "FLOW-MATIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 3677
+  },
+  {
+   "name": "FoxPro",
+   "aliases": [
+    "FoxBase"
+   ],
+   "tier": 4,
+   "views": 6307
+  },
+  {
+   "name": "Free Pascal",
+   "aliases": [],
+   "tier": 4,
+   "views": 3626
+  },
+  {
+   "name": "FreeBASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1608
+  },
+  {
+   "name": "Gambas",
+   "aliases": [],
+   "tier": 4,
+   "views": 1606
+  },
+  {
+   "name": "Game Oriented Assembly Lisp",
+   "aliases": [
+    "GOAL"
+   ],
+   "tier": 4,
+   "views": 2124
+  },
+  {
+   "name": "General Algebraic Modeling System",
+   "aliases": [
+    "GAMS"
+   ],
+   "tier": 4,
+   "views": 2503
+  },
+  {
+   "name": "Gleam",
+   "aliases": [],
+   "tier": 4,
+   "views": 6127
+  },
+  {
+   "name": "GNU Guile",
+   "aliases": [
+    "Guile"
+   ],
+   "tier": 4,
+   "views": 3525
+  },
+  {
+   "name": "GNU Octave",
+   "aliases": [
+    "Octave"
+   ],
+   "tier": 4,
+   "views": 6150
+  },
+  {
+   "name": "GQL",
+   "aliases": [
+    "Graph Query Language"
+   ],
+   "tier": 4,
+   "views": 2869
+  },
+  {
+   "name": "Grasshopper",
+   "aliases": [],
+   "tier": 4,
+   "views": 2924
+  },
+  {
+   "name": "Groff",
+   "aliases": [
+    "troff",
+    "nroff"
+   ],
+   "tier": 4,
+   "views": 2576
+  },
+  {
+   "name": "GW-BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2832
+  },
+  {
+   "name": "Haxe",
+   "aliases": [],
+   "tier": 4,
+   "views": 3517
+  },
+  {
+   "name": "High Level Shader Language",
+   "aliases": [
+    "HLSL",
+    "Cg"
+   ],
+   "tier": 4,
+   "views": 3190
+  },
+  {
+   "name": "Hy",
+   "aliases": [],
+   "tier": 4,
+   "views": 1590
+  },
+  {
+   "name": "HyperTalk",
+   "aliases": [],
+   "tier": 4,
+   "views": 1900
+  },
+  {
+   "name": "IDL",
+   "aliases": [],
+   "tier": 4,
+   "views": 2566
+  },
+  {
+   "name": "Idris",
+   "aliases": [],
+   "tier": 4,
+   "views": 3081
+  },
+  {
+   "name": "Inform",
+   "aliases": [],
+   "tier": 4,
+   "views": 1790
+  },
+  {
+   "name": "Integer BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1342
+  },
+  {
+   "name": "INTERCAL",
+   "aliases": [],
+   "tier": 4,
+   "views": 5160
+  },
+  {
+   "name": "IronPython",
+   "aliases": [],
+   "tier": 4,
+   "views": 1624
+  },
+  {
+   "name": "J",
+   "aliases": [],
+   "tier": 4,
+   "views": 5509
+  },
+  {
+   "name": "J#",
+   "aliases": [],
+   "tier": 4,
+   "views": 1244
+  },
+  {
+   "name": "JCL",
+   "aliases": [
+    "Job Control Language"
+   ],
+   "tier": 4,
+   "views": 2160
+  },
+  {
+   "name": "Jinja",
+   "aliases": [
+    "Jinja2"
+   ],
+   "tier": 4,
+   "views": 5781
+  },
+  {
+   "name": "JOVIAL",
+   "aliases": [],
+   "tier": 4,
+   "views": 2213
+  },
+  {
+   "name": "Joy",
+   "aliases": [],
+   "tier": 4,
+   "views": 1631
+  },
+  {
+   "name": "jq",
+   "aliases": [],
+   "tier": 4,
+   "views": 2727
+  },
+  {
+   "name": "JScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 2619
+  },
+  {
+   "name": "JSON",
+   "aliases": [
+    "JavaScript Object Notation"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "JSP",
+   "aliases": [
+    "JavaServer Pages"
+   ],
+   "tier": 4,
+   "views": 3190
+  },
+  {
+   "name": "Jython",
+   "aliases": [],
+   "tier": 4,
+   "views": 2028
+  },
+  {
+   "name": "K",
+   "aliases": [],
+   "tier": 4,
+   "views": 3216
+  },
+  {
+   "name": "Karel",
+   "aliases": [],
+   "tier": 4,
+   "views": 1944
+  },
+  {
+   "name": "KiXtart",
+   "aliases": [],
+   "tier": 4,
+   "views": 2543
+  },
+  {
+   "name": "KQL",
+   "aliases": [
+    "Kusto Query Language",
+    "Kusto"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "LabVIEW",
+   "aliases": [],
+   "tier": 4,
+   "views": 5539
+  },
+  {
+   "name": "LaTeX",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "LC-3",
+   "aliases": [],
+   "tier": 4,
+   "views": 2650
+  },
+  {
+   "name": "LilyPond",
+   "aliases": [],
+   "tier": 4,
+   "views": 4609
+  },
+  {
+   "name": "Limbo",
+   "aliases": [],
+   "tier": 4,
+   "views": 1898
+  },
+  {
+   "name": "Lingo",
+   "aliases": [],
+   "tier": 4,
+   "views": 1255
+  },
+  {
+   "name": "LINQ",
+   "aliases": [],
+   "tier": 4,
+   "views": 1958
+  },
+  {
+   "name": "LOLCODE",
+   "aliases": [],
+   "tier": 4,
+   "views": 3990
+  },
+  {
+   "name": "M4",
+   "aliases": [],
+   "tier": 4,
+   "views": 2873
+  },
+  {
+   "name": "Maple",
+   "aliases": [],
+   "tier": 4,
+   "views": 3953
+  },
+  {
+   "name": "Markdown",
+   "aliases": [
+    "MD"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "MASM",
+   "aliases": [
+    "Microsoft Macro Assembler"
+   ],
+   "tier": 4,
+   "views": 1786
+  },
+  {
+   "name": "MathML",
+   "aliases": [],
+   "tier": 4,
+   "views": 3379
+  },
+  {
+   "name": "Maxima",
+   "aliases": [],
+   "tier": 4,
+   "views": 2483
+  },
+  {
+   "name": "Mercury",
+   "aliases": [],
+   "tier": 4,
+   "views": 1847
+  },
+  {
+   "name": "MicroPython",
+   "aliases": [],
+   "tier": 4,
+   "views": 3371
+  },
+  {
+   "name": "Microsoft BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 3659
+  },
+  {
+   "name": "Microsoft Small Basic",
+   "aliases": [],
+   "tier": 4,
+   "views": 1305
+  },
+  {
+   "name": "Miranda",
+   "aliases": [],
+   "tier": 4,
+   "views": 1780
+  },
+  {
+   "name": "Modelica",
+   "aliases": [],
+   "tier": 4,
+   "views": 1880
+  },
+  {
+   "name": "Modula-2",
+   "aliases": [],
+   "tier": 4,
+   "views": 2775
+  },
+  {
+   "name": "Modula-3",
+   "aliases": [],
+   "tier": 4,
+   "views": 1567
+  },
+  {
+   "name": "MOO",
+   "aliases": [],
+   "tier": 4,
+   "views": 2830
+  },
+  {
+   "name": "MUMPS",
+   "aliases": [],
+   "tier": 4,
+   "views": 6093
+  },
+  {
+   "name": "NASM",
+   "aliases": [],
+   "tier": 4,
+   "views": 2364
+  },
+  {
+   "name": "NetLogo",
+   "aliases": [],
+   "tier": 4,
+   "views": 1577
+  },
+  {
+   "name": "Oberon",
+   "aliases": [],
+   "tier": 4,
+   "views": 3572
+  },
+  {
+   "name": "Object Pascal",
+   "aliases": [],
+   "tier": 4,
+   "views": 4004
+  },
+  {
+   "name": "occam",
+   "aliases": [],
+   "tier": 4,
+   "views": 1389
+  },
+  {
+   "name": "OpenEdge Advanced Business Language",
+   "aliases": [
+    "ABL"
+   ],
+   "tier": 4,
+   "views": 1714
+  },
+  {
+   "name": "OpenGL Shading Language",
+   "aliases": [
+    "GLSL"
+   ],
+   "tier": 4,
+   "views": 5393
+  },
+  {
+   "name": "Oracle SQL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "P",
+   "aliases": [],
+   "tier": 4,
+   "views": 1469
+  },
+  {
+   "name": "P4",
+   "aliases": [],
+   "tier": 4,
+   "views": 1315
+  },
+  {
+   "name": "Pharo",
+   "aliases": [],
+   "tier": 4,
+   "views": 1340
+  },
+  {
+   "name": "PL/0",
+   "aliases": [],
+   "tier": 4,
+   "views": 1879
+  },
+  {
+   "name": "PL/M",
+   "aliases": [],
+   "tier": 4,
+   "views": 2457
+  },
+  {
+   "name": "PL/SQL",
+   "aliases": [],
+   "tier": 4,
+   "views": 3491
+  },
+  {
+   "name": "Plankalkül",
+   "aliases": [],
+   "tier": 4,
+   "views": 4853
+  },
+  {
+   "name": "PlantUML",
+   "aliases": [],
+   "tier": 4,
+   "views": 3741
+  },
+  {
+   "name": "POP-2",
+   "aliases": [],
+   "tier": 4,
+   "views": 1312
+  },
+  {
+   "name": "PostgreSQL",
+   "aliases": [
+    "Postgres",
+    "PL/pgSQL",
+    "PostgreSQL SQL"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "POV-Ray SDL",
+   "aliases": [],
+   "tier": 4,
+   "views": 4250
+  },
+  {
+   "name": "PowerBuilder",
+   "aliases": [],
+   "tier": 4,
+   "views": 2909
+  },
+  {
+   "name": "Pure Data",
+   "aliases": [],
+   "tier": 4,
+   "views": 3942
+  },
+  {
+   "name": "PureScript",
+   "aliases": [],
+   "tier": 4,
+   "views": 1631
+  },
+  {
+   "name": "PyPy",
+   "aliases": [],
+   "tier": 4,
+   "views": 4138
+  },
+  {
+   "name": "Q",
+   "aliases": [
+    "kdb+/q"
+   ],
+   "tier": 4,
+   "views": 3840
+  },
+  {
+   "name": "Q#",
+   "aliases": [],
+   "tier": 4,
+   "views": 1750
+  },
+  {
+   "name": "QB64",
+   "aliases": [],
+   "tier": 4,
+   "views": 1542
+  },
+  {
+   "name": "QBasic",
+   "aliases": [],
+   "tier": 4,
+   "views": 5787
+  },
+  {
+   "name": "QML",
+   "aliases": [],
+   "tier": 4,
+   "views": 5902
+  },
+  {
+   "name": "QPL",
+   "aliases": [],
+   "tier": 4,
+   "views": 2672
+  },
+  {
+   "name": "QuakeC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1460
+  },
+  {
+   "name": "QuickBASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2409
+  },
+  {
+   "name": "Racket",
+   "aliases": [],
+   "tier": 4,
+   "views": 6776
+  },
+  {
+   "name": "Raku",
+   "aliases": [],
+   "tier": 4,
+   "views": 5451
+  },
+  {
+   "name": "REBOL",
+   "aliases": [],
+   "tier": 4,
+   "views": 1370
+  },
+  {
+   "name": "Red",
+   "aliases": [],
+   "tier": 4,
+   "views": 1360
+  },
+  {
+   "name": "Redcode",
+   "aliases": [],
+   "tier": 4,
+   "views": 5039
+  },
+  {
+   "name": "Regex",
+   "aliases": [
+    "Regular expressions",
+    "Regular expression",
+    "RegExp"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "REXX",
+   "aliases": [],
+   "tier": 4,
+   "views": 2400
+  },
+  {
+   "name": "RPG",
+   "aliases": [
+    "IBM RPG",
+    "RPG IV"
+   ],
+   "tier": 4,
+   "views": 3731
+  },
+  {
+   "name": "RPL",
+   "aliases": [],
+   "tier": 4,
+   "views": 1565
+  },
+  {
+   "name": "S",
+   "aliases": [],
+   "tier": 4,
+   "views": 5241
+  },
+  {
+   "name": "SBL",
+   "aliases": [],
+   "tier": 4,
+   "views": 1953
+  },
+  {
+   "name": "Scilab",
+   "aliases": [],
+   "tier": 4,
+   "views": 2322
+  },
+  {
+   "name": "ScratchJr",
+   "aliases": [],
+   "tier": 4,
+   "views": 3614
+  },
+  {
+   "name": "Self",
+   "aliases": [],
+   "tier": 4,
+   "views": 2017
+  },
+  {
+   "name": "Shakespeare",
+   "aliases": [
+    "Shakespeare Programming Language"
+   ],
+   "tier": 4,
+   "views": 3991
+  },
+  {
+   "name": "Simula",
+   "aliases": [],
+   "tier": 4,
+   "views": 5164
+  },
+  {
+   "name": "Simulink",
+   "aliases": [],
+   "tier": 4,
+   "views": 3950
+  },
+  {
+   "name": "Sinclair BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1666
+  },
+  {
+   "name": "SmileBASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 2406
+  },
+  {
+   "name": "Snap!",
+   "aliases": [],
+   "tier": 4,
+   "views": 2309
+  },
+  {
+   "name": "Solidity",
+   "aliases": [],
+   "tier": 4,
+   "views": 2696
+  },
+  {
+   "name": "SPARK",
+   "aliases": [],
+   "tier": 4,
+   "views": 4934
+  },
+  {
+   "name": "Spark SQL",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "Speedcode",
+   "aliases": [],
+   "tier": 4,
+   "views": 2402
+  },
+  {
+   "name": "SQLite",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "Squeak",
+   "aliases": [],
+   "tier": 4,
+   "views": 2534
+  },
+  {
+   "name": "Squirrel",
+   "aliases": [],
+   "tier": 4,
+   "views": 1983
+  },
+  {
+   "name": "Stan",
+   "aliases": [],
+   "tier": 4,
+   "views": 1503
+  },
+  {
+   "name": "Standard ML",
+   "aliases": [
+    "SML"
+   ],
+   "tier": 4,
+   "views": 5844
+  },
+  {
+   "name": "Stata",
+   "aliases": [],
+   "tier": 4,
+   "views": 5366
+  },
+  {
+   "name": "Structured Text",
+   "aliases": [],
+   "tier": 4,
+   "views": 3416
+  },
+  {
+   "name": "SuperCollider",
+   "aliases": [],
+   "tier": 4,
+   "views": 2028
+  },
+  {
+   "name": "SYCL",
+   "aliases": [],
+   "tier": 4,
+   "views": 2304
+  },
+  {
+   "name": "SystemVerilog",
+   "aliases": [],
+   "tier": 4,
+   "views": 5947
+  },
+  {
+   "name": "Text Editor and Corrector",
+   "aliases": [
+    "TECO"
+   ],
+   "tier": 4,
+   "views": 1639
+  },
+  {
+   "name": "TI-BASIC",
+   "aliases": [
+    "TI-99/4A BASIC"
+   ],
+   "tier": 4,
+   "views": 2425
+  },
+  {
+   "name": "TIE",
+   "aliases": [
+    "Tensilica Instruction Extension"
+   ],
+   "tier": 4,
+   "views": 3516
+  },
+  {
+   "name": "Tiny BASIC",
+   "aliases": [],
+   "tier": 4,
+   "views": 1876
+  },
+  {
+   "name": "Transact-SQL",
+   "aliases": [
+    "T-SQL"
+   ],
+   "tier": 4,
+   "views": 2493
+  },
+  {
+   "name": "Turbo Pascal",
+   "aliases": [],
+   "tier": 4,
+   "views": 7004
+  },
+  {
+   "name": "Typst",
+   "aliases": [],
+   "tier": 4,
+   "views": 6751
+  },
+  {
+   "name": "UCSD Pascal",
+   "aliases": [],
+   "tier": 4,
+   "views": 1544
+  },
+  {
+   "name": "Unix shell",
+   "aliases": [
+    "Shell script",
+    "Shell scripting",
+    "sh"
+   ],
+   "tier": 4,
+   "views": 6927
+  },
+  {
+   "name": "V",
+   "aliases": [
+    "vlang"
+   ],
+   "tier": 4,
+   "views": 6011
+  },
+  {
+   "name": "Vala",
+   "aliases": [],
+   "tier": 4,
+   "views": 3680
+  },
+  {
+   "name": "VBScript",
+   "aliases": [
+    "Visual Basic Script",
+    "VBS",
+    "Visual Basic Scripting Edition"
+   ],
+   "tier": 4,
+   "views": 5808
+  },
+  {
+   "name": "Visual FoxPro",
+   "aliases": [],
+   "tier": 4,
+   "views": 5929
+  },
+  {
+   "name": "Visual J++",
+   "aliases": [
+    "J++"
+   ],
+   "tier": 4,
+   "views": 1847
+  },
+  {
+   "name": "VRML",
+   "aliases": [],
+   "tier": 4,
+   "views": 3108
+  },
+  {
+   "name": "WebGPU Shading Language",
+   "aliases": [
+    "WGSL"
+   ],
+   "tier": 4,
+   "views": 1673
+  },
+  {
+   "name": "Wolfram Language",
+   "aliases": [
+    "Wolfram"
+   ],
+   "tier": 4,
+   "views": 4729
+  },
+  {
+   "name": "WSDL",
+   "aliases": [
+    "Web Services Description Language"
+   ],
+   "tier": 4,
+   "views": 2968
+  },
+  {
+   "name": "XAML",
+   "aliases": [
+    "Extensible Application Markup Language"
+   ],
+   "tier": 4,
+   "views": 1786
+  },
+  {
+   "name": "XML",
+   "aliases": [
+    "Extensible Markup Language"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "XML Schema",
+   "aliases": [
+    "XSD"
+   ],
+   "tier": 4,
+   "views": 2783
+  },
+  {
+   "name": "XPath",
+   "aliases": [],
+   "tier": 4,
+   "views": 4697
+  },
+  {
+   "name": "XQuery",
+   "aliases": [],
+   "tier": 4,
+   "views": 1607
+  },
+  {
+   "name": "XSLT",
+   "aliases": [
+    "XSL Transformations"
+   ],
+   "tier": 4,
+   "views": 5554
+  },
+  {
+   "name": "XUL",
+   "aliases": [],
+   "tier": 4,
+   "views": 2230
+  },
+  {
+   "name": "Zebra Programming Language",
+   "aliases": [
+    "ZPL2"
+   ],
+   "tier": 4,
+   "views": 1313
+  },
+  {
+   "name": ".QL",
+   "aliases": [],
+   "tier": 5,
+   "views": 635
+  },
+  {
+   "name": "A#",
+   "aliases": [
+    "A.NET"
+   ],
+   "tier": 5,
+   "views": 839
+  },
+  {
+   "name": "Action!",
+   "aliases": [],
+   "tier": 5,
+   "views": 566
+  },
+  {
+   "name": "AIMMS",
+   "aliases": [],
+   "tier": 5,
+   "views": 500
+  },
+  {
+   "name": "Alef",
+   "aliases": [],
+   "tier": 5,
+   "views": 1134
+  },
+  {
+   "name": "ALGOL W",
+   "aliases": [],
+   "tier": 5,
+   "views": 1013
+  },
+  {
+   "name": "Alice ML",
+   "aliases": [],
+   "tier": 5,
+   "views": 590
+  },
+  {
+   "name": "Amiga E",
+   "aliases": [],
+   "tier": 5,
+   "views": 416
+  },
+  {
+   "name": "AMOS BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 1120
+  },
+  {
+   "name": "APT",
+   "aliases": [],
+   "tier": 5,
+   "views": 609
+  },
+  {
+   "name": "Arduino",
+   "aliases": [
+    "Arduino C"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "ARexx",
+   "aliases": [],
+   "tier": 5,
+   "views": 498
+  },
+  {
+   "name": "ASP.NET",
+   "aliases": [
+    "ASP"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Axum",
+   "aliases": [],
+   "tier": 5,
+   "views": 373
+  },
+  {
+   "name": "Ballerina",
+   "aliases": [],
+   "tier": 5,
+   "views": 948
+  },
+  {
+   "name": "Basic-256",
+   "aliases": [],
+   "tier": 5,
+   "views": 448
+  },
+  {
+   "name": "BASIC-PLUS",
+   "aliases": [],
+   "tier": 5,
+   "views": 416
+  },
+  {
+   "name": "BASICODE",
+   "aliases": [],
+   "tier": 5,
+   "views": 471
+  },
+  {
+   "name": "BeanShell",
+   "aliases": [],
+   "tier": 5,
+   "views": 650
+  },
+  {
+   "name": "BETA",
+   "aliases": [],
+   "tier": 5,
+   "views": 422
+  },
+  {
+   "name": "BigQuery SQL",
+   "aliases": [
+    "GoogleSQL",
+    "Standard SQL"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "BlooP",
+   "aliases": [
+    "FlooP",
+    "BlooP and FlooP"
+   ],
+   "tier": 5,
+   "views": 900
+  },
+  {
+   "name": "Bosque",
+   "aliases": [],
+   "tier": 5,
+   "views": 570
+  },
+  {
+   "name": "C/AL",
+   "aliases": [],
+   "tier": 5,
+   "views": 869
+  },
+  {
+   "name": "Caché ObjectScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 458
+  },
+  {
+   "name": "Calcpad",
+   "aliases": [],
+   "tier": 5,
+   "views": 864
+  },
+  {
+   "name": "Casio BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 1019
+  },
+  {
+   "name": "Catrobat",
+   "aliases": [],
+   "tier": 5,
+   "views": 428
+  },
+  {
+   "name": "CBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 389
+  },
+  {
+   "name": "Ceylon",
+   "aliases": [],
+   "tier": 5,
+   "views": 768
+  },
+  {
+   "name": "CFEngine",
+   "aliases": [],
+   "tier": 5,
+   "views": 995
+  },
+  {
+   "name": "Chapel",
+   "aliases": [],
+   "tier": 5,
+   "views": 1121
+  },
+  {
+   "name": "CHILL",
+   "aliases": [],
+   "tier": 5,
+   "views": 649
+  },
+  {
+   "name": "Chinese BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 443
+  },
+  {
+   "name": "ChucK",
+   "aliases": [],
+   "tier": 5,
+   "views": 998
+  },
+  {
+   "name": "Cilk",
+   "aliases": [
+    "Cilk Plus"
+   ],
+   "tier": 5,
+   "views": 985
+  },
+  {
+   "name": "Clarion",
+   "aliases": [],
+   "tier": 5,
+   "views": 1019
+  },
+  {
+   "name": "CLIPS",
+   "aliases": [],
+   "tier": 5,
+   "views": 1186
+  },
+  {
+   "name": "CMS-2",
+   "aliases": [],
+   "tier": 5,
+   "views": 361
+  },
+  {
+   "name": "Color BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 432
+  },
+  {
+   "name": "COMAL",
+   "aliases": [],
+   "tier": 5,
+   "views": 836
+  },
+  {
+   "name": "Component Pascal",
+   "aliases": [],
+   "tier": 5,
+   "views": 561
+  },
+  {
+   "name": "COMTRAN",
+   "aliases": [],
+   "tier": 5,
+   "views": 458
+  },
+  {
+   "name": "Constraint Handling Rules",
+   "aliases": [
+    "CHR"
+   ],
+   "tier": 5,
+   "views": 404
+  },
+  {
+   "name": "Contextual Query Language",
+   "aliases": [],
+   "tier": 5,
+   "views": 479
+  },
+  {
+   "name": "Control Language",
+   "aliases": [],
+   "tier": 5,
+   "views": 661
+  },
+  {
+   "name": "CORAL",
+   "aliases": [
+    "Coral 66"
+   ],
+   "tier": 5,
+   "views": 405
+  },
+  {
+   "name": "CQL",
+   "aliases": [
+    "Cassandra Query Language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Csound",
+   "aliases": [],
+   "tier": 5,
+   "views": 1170
+  },
+  {
+   "name": "Cuneiform",
+   "aliases": [],
+   "tier": 5,
+   "views": 611
+  },
+  {
+   "name": "Curry",
+   "aliases": [],
+   "tier": 5,
+   "views": 1180
+  },
+  {
+   "name": "DataFlex",
+   "aliases": [
+    "Visual DataFlex"
+   ],
+   "tier": 5,
+   "views": 603
+  },
+  {
+   "name": "DAX",
+   "aliases": [
+    "Data Analysis Expressions"
+   ],
+   "tier": 5,
+   "views": 886
+  },
+  {
+   "name": "DCL",
+   "aliases": [
+    "DIGITAL Command Language"
+   ],
+   "tier": 5,
+   "views": 921
+  },
+  {
+   "name": "DYNAMO",
+   "aliases": [],
+   "tier": 5,
+   "views": 516
+  },
+  {
+   "name": "Easy Programming Language",
+   "aliases": [],
+   "tier": 5,
+   "views": 965
+  },
+  {
+   "name": "EGL",
+   "aliases": [],
+   "tier": 5,
+   "views": 470
+  },
+  {
+   "name": "Embedded C",
+   "aliases": [],
+   "tier": 5,
+   "views": 1087
+  },
+  {
+   "name": "Epigram",
+   "aliases": [],
+   "tier": 5,
+   "views": 686
+  },
+  {
+   "name": "Esterel",
+   "aliases": [],
+   "tier": 5,
+   "views": 783
+  },
+  {
+   "name": "Etoys",
+   "aliases": [],
+   "tier": 5,
+   "views": 637
+  },
+  {
+   "name": "Euler",
+   "aliases": [],
+   "tier": 5,
+   "views": 449
+  },
+  {
+   "name": "Euphoria",
+   "aliases": [],
+   "tier": 5,
+   "views": 565
+  },
+  {
+   "name": "Executable UML",
+   "aliases": [],
+   "tier": 5,
+   "views": 600
+  },
+  {
+   "name": "Ezhil",
+   "aliases": [],
+   "tier": 5,
+   "views": 638
+  },
+  {
+   "name": "Fantom",
+   "aliases": [],
+   "tier": 5,
+   "views": 560
+  },
+  {
+   "name": "FAUST",
+   "aliases": [],
+   "tier": 5,
+   "views": 680
+  },
+  {
+   "name": "Flavors",
+   "aliases": [],
+   "tier": 5,
+   "views": 438
+  },
+  {
+   "name": "Flix",
+   "aliases": [],
+   "tier": 5,
+   "views": 586
+  },
+  {
+   "name": "FOCAL",
+   "aliases": [],
+   "tier": 5,
+   "views": 1015
+  },
+  {
+   "name": "Fortress",
+   "aliases": [],
+   "tier": 5,
+   "views": 848
+  },
+  {
+   "name": "FP",
+   "aliases": [],
+   "tier": 5,
+   "views": 960
+  },
+  {
+   "name": "Franz Lisp",
+   "aliases": [],
+   "tier": 5,
+   "views": 445
+  },
+  {
+   "name": "Futhark",
+   "aliases": [],
+   "tier": 5,
+   "views": 1042
+  },
+  {
+   "name": "Game Maker Language",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GAP",
+   "aliases": [],
+   "tier": 5,
+   "views": 821
+  },
+  {
+   "name": "GDScript",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "GFA BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 586
+  },
+  {
+   "name": "Gosu",
+   "aliases": [],
+   "tier": 5,
+   "views": 1222
+  },
+  {
+   "name": "GPSS",
+   "aliases": [
+    "General Purpose Simulation System"
+   ],
+   "tier": 5,
+   "views": 715
+  },
+  {
+   "name": "GRASS",
+   "aliases": [],
+   "tier": 5,
+   "views": 446
+  },
+  {
+   "name": "Gremlin",
+   "aliases": [],
+   "tier": 5,
+   "views": 634
+  },
+  {
+   "name": "HAL/S",
+   "aliases": [],
+   "tier": 5,
+   "views": 1101
+  },
+  {
+   "name": "Halide",
+   "aliases": [],
+   "tier": 5,
+   "views": 562
+  },
+  {
+   "name": "Hamilton C shell",
+   "aliases": [],
+   "tier": 5,
+   "views": 547
+  },
+  {
+   "name": "Haml",
+   "aliases": [],
+   "tier": 5,
+   "views": 404
+  },
+  {
+   "name": "Harbour",
+   "aliases": [],
+   "tier": 5,
+   "views": 863
+  },
+  {
+   "name": "HCL",
+   "aliases": [
+    "HashiCorp Configuration Language",
+    "Terraform"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Hermes",
+   "aliases": [],
+   "tier": 5,
+   "views": 467
+  },
+  {
+   "name": "High Level Assembly",
+   "aliases": [
+    "HLA"
+   ],
+   "tier": 5,
+   "views": 976
+  },
+  {
+   "name": "HiveQL",
+   "aliases": [
+    "Hive Query Language",
+    "Hive SQL"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Hollywood",
+   "aliases": [],
+   "tier": 5,
+   "views": 481
+  },
+  {
+   "name": "Hope",
+   "aliases": [],
+   "tier": 5,
+   "views": 778
+  },
+  {
+   "name": "HP Time-Shared BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 510
+  },
+  {
+   "name": "HQL",
+   "aliases": [
+    "Hibernate Query Language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "IBM Basic Assembly Language",
+   "aliases": [
+    "BAL",
+    "HLASM"
+   ],
+   "tier": 5,
+   "views": 602
+  },
+  {
+   "name": "IBM Informix-4GL",
+   "aliases": [],
+   "tier": 5,
+   "views": 487
+  },
+  {
+   "name": "Icon",
+   "aliases": [],
+   "tier": 5,
+   "views": 1105
+  },
+  {
+   "name": "Instruction List",
+   "aliases": [],
+   "tier": 5,
+   "views": 904
+  },
+  {
+   "name": "Io",
+   "aliases": [],
+   "tier": 5,
+   "views": 1213
+  },
+  {
+   "name": "ISLISP",
+   "aliases": [],
+   "tier": 5,
+   "views": 685
+  },
+  {
+   "name": "JADE",
+   "aliases": [],
+   "tier": 5,
+   "views": 727
+  },
+  {
+   "name": "Jess",
+   "aliases": [],
+   "tier": 5,
+   "views": 532
+  },
+  {
+   "name": "JOSS",
+   "aliases": [],
+   "tier": 5,
+   "views": 1120
+  },
+  {
+   "name": "JScript .NET",
+   "aliases": [],
+   "tier": 5,
+   "views": 544
+  },
+  {
+   "name": "JSX",
+   "aliases": [
+    "JavaScript XML"
+   ],
+   "tier": 5,
+   "views": 1062
+  },
+  {
+   "name": "Knowledge Interchange Format",
+   "aliases": [
+    "KIF"
+   ],
+   "tier": 5,
+   "views": 439
+  },
+  {
+   "name": "Kodu",
+   "aliases": [],
+   "tier": 5,
+   "views": 1081
+  },
+  {
+   "name": "Kojo",
+   "aliases": [],
+   "tier": 5,
+   "views": 444
+  },
+  {
+   "name": "Lasso",
+   "aliases": [],
+   "tier": 5,
+   "views": 945
+  },
+  {
+   "name": "Liberty BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 387
+  },
+  {
+   "name": "LiveCode",
+   "aliases": [
+    "Transcript"
+   ],
+   "tier": 5,
+   "views": 905
+  },
+  {
+   "name": "LiveScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 578
+  },
+  {
+   "name": "Locomotive BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 694
+  },
+  {
+   "name": "Logtalk",
+   "aliases": [],
+   "tier": 5,
+   "views": 386
+  },
+  {
+   "name": "LookML",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "LotusScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 406
+  },
+  {
+   "name": "Lucid",
+   "aliases": [],
+   "tier": 5,
+   "views": 437
+  },
+  {
+   "name": "Lustre",
+   "aliases": [],
+   "tier": 5,
+   "views": 768
+  },
+  {
+   "name": "MacBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 360
+  },
+  {
+   "name": "MAD",
+   "aliases": [],
+   "tier": 5,
+   "views": 721
+  },
+  {
+   "name": "Magik",
+   "aliases": [],
+   "tier": 5,
+   "views": 844
+  },
+  {
+   "name": "Magma",
+   "aliases": [],
+   "tier": 5,
+   "views": 786
+  },
+  {
+   "name": "MAPPER",
+   "aliases": [],
+   "tier": 5,
+   "views": 467
+  },
+  {
+   "name": "Maude system",
+   "aliases": [],
+   "tier": 5,
+   "views": 572
+  },
+  {
+   "name": "Max",
+   "aliases": [],
+   "tier": 5,
+   "views": 1141
+  },
+  {
+   "name": "MBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 398
+  },
+  {
+   "name": "MDL",
+   "aliases": [],
+   "tier": 5,
+   "views": 688
+  },
+  {
+   "name": "MDX",
+   "aliases": [
+    "Multidimensional Expressions"
+   ],
+   "tier": 5,
+   "views": 985
+  },
+  {
+   "name": "MEL",
+   "aliases": [
+    "Maya Embedded Language"
+   ],
+   "tier": 5,
+   "views": 540
+  },
+  {
+   "name": "Mesa",
+   "aliases": [],
+   "tier": 5,
+   "views": 1119
+  },
+  {
+   "name": "MHEG-5",
+   "aliases": [],
+   "tier": 5,
+   "views": 481
+  },
+  {
+   "name": "Model 204",
+   "aliases": [],
+   "tier": 5,
+   "views": 439
+  },
+  {
+   "name": "Modula",
+   "aliases": [],
+   "tier": 5,
+   "views": 823
+  },
+  {
+   "name": "MSL",
+   "aliases": [],
+   "tier": 5,
+   "views": 588
+  },
+  {
+   "name": "MSX BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 891
+  },
+  {
+   "name": "MuPAD",
+   "aliases": [],
+   "tier": 5,
+   "views": 418
+  },
+  {
+   "name": "Neko",
+   "aliases": [],
+   "tier": 5,
+   "views": 404
+  },
+  {
+   "name": "Nemerle",
+   "aliases": [],
+   "tier": 5,
+   "views": 594
+  },
+  {
+   "name": "NewLISP",
+   "aliases": [],
+   "tier": 5,
+   "views": 672
+  },
+  {
+   "name": "Newspeak",
+   "aliases": [],
+   "tier": 5,
+   "views": 842
+  },
+  {
+   "name": "NewtonScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 421
+  },
+  {
+   "name": "NoSQL",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Nu",
+   "aliases": [],
+   "tier": 5,
+   "views": 563
+  },
+  {
+   "name": "Oak",
+   "aliases": [],
+   "tier": 5,
+   "views": 786
+  },
+  {
+   "name": "Object Query Language",
+   "aliases": [
+    "OQL"
+   ],
+   "tier": 5,
+   "views": 424
+  },
+  {
+   "name": "Object REXX",
+   "aliases": [],
+   "tier": 5,
+   "views": 683
+  },
+  {
+   "name": "OCL",
+   "aliases": [
+    "Object Constraint Language"
+   ],
+   "tier": 5,
+   "views": 1130
+  },
+  {
+   "name": "Opa",
+   "aliases": [],
+   "tier": 5,
+   "views": 779
+  },
+  {
+   "name": "Open Programming Language",
+   "aliases": [
+    "OPL"
+   ],
+   "tier": 5,
+   "views": 986
+  },
+  {
+   "name": "OpenQASM",
+   "aliases": [],
+   "tier": 5,
+   "views": 1108
+  },
+  {
+   "name": "OPS5",
+   "aliases": [],
+   "tier": 5,
+   "views": 551
+  },
+  {
+   "name": "Oxygene",
+   "aliases": [],
+   "tier": 5,
+   "views": 834
+  },
+  {
+   "name": "Oz",
+   "aliases": [],
+   "tier": 5,
+   "views": 1055
+  },
+  {
+   "name": "ParaSail",
+   "aliases": [],
+   "tier": 5,
+   "views": 420
+  },
+  {
+   "name": "PARI/GP",
+   "aliases": [],
+   "tier": 5,
+   "views": 809
+  },
+  {
+   "name": "Pascal Script",
+   "aliases": [],
+   "tier": 5,
+   "views": 417
+  },
+  {
+   "name": "PCF",
+   "aliases": [],
+   "tier": 5,
+   "views": 411
+  },
+  {
+   "name": "PEARL",
+   "aliases": [],
+   "tier": 5,
+   "views": 945
+  },
+  {
+   "name": "Picolisp",
+   "aliases": [],
+   "tier": 5,
+   "views": 588
+  },
+  {
+   "name": "Pig Latin",
+   "aliases": [
+    "Apache Pig"
+   ],
+   "tier": 5,
+   "views": 1186
+  },
+  {
+   "name": "Pike",
+   "aliases": [],
+   "tier": 5,
+   "views": 743
+  },
+  {
+   "name": "PILOT",
+   "aliases": [],
+   "tier": 5,
+   "views": 417
+  },
+  {
+   "name": "Pizza",
+   "aliases": [],
+   "tier": 5,
+   "views": 534
+  },
+  {
+   "name": "PL/C",
+   "aliases": [],
+   "tier": 5,
+   "views": 600
+  },
+  {
+   "name": "Planner",
+   "aliases": [],
+   "tier": 5,
+   "views": 739
+  },
+  {
+   "name": "PLEX",
+   "aliases": [],
+   "tier": 5,
+   "views": 644
+  },
+  {
+   "name": "Pony",
+   "aliases": [],
+   "tier": 5,
+   "views": 1131
+  },
+  {
+   "name": "POP-11",
+   "aliases": [],
+   "tier": 5,
+   "views": 578
+  },
+  {
+   "name": "Power Fx",
+   "aliases": [
+    "Microsoft Power Fx"
+   ],
+   "tier": 5,
+   "views": 1187
+  },
+  {
+   "name": "PowerBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 1181
+  },
+  {
+   "name": "Pro*C",
+   "aliases": [],
+   "tier": 5,
+   "views": 567
+  },
+  {
+   "name": "Prograph",
+   "aliases": [],
+   "tier": 5,
+   "views": 494
+  },
+  {
+   "name": "Project Verona",
+   "aliases": [],
+   "tier": 5,
+   "views": 957
+  },
+  {
+   "name": "Promela",
+   "aliases": [],
+   "tier": 5,
+   "views": 510
+  },
+  {
+   "name": "PromQL",
+   "aliases": [
+    "Prometheus Query Language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Pure",
+   "aliases": [],
+   "tier": 5,
+   "views": 609
+  },
+  {
+   "name": "PureBasic",
+   "aliases": [],
+   "tier": 5,
+   "views": 999
+  },
+  {
+   "name": "Qalb",
+   "aliases": [],
+   "tier": 5,
+   "views": 989
+  },
+  {
+   "name": "QtScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 728
+  },
+  {
+   "name": "QUEL",
+   "aliases": [],
+   "tier": 5,
+   "views": 1011
+  },
+  {
+   "name": "RAPID",
+   "aliases": [],
+   "tier": 5,
+   "views": 498
+  },
+  {
+   "name": "Rapira",
+   "aliases": [],
+   "tier": 5,
+   "views": 459
+  },
+  {
+   "name": "Ratfor",
+   "aliases": [],
+   "tier": 5,
+   "views": 777
+  },
+  {
+   "name": "rc",
+   "aliases": [],
+   "tier": 5,
+   "views": 1204
+  },
+  {
+   "name": "RDQL",
+   "aliases": [],
+   "tier": 5,
+   "views": 548
+  },
+  {
+   "name": "Reason",
+   "aliases": [],
+   "tier": 5,
+   "views": 1174
+  },
+  {
+   "name": "REFAL",
+   "aliases": [],
+   "tier": 5,
+   "views": 684
+  },
+  {
+   "name": "ReScript",
+   "aliases": [],
+   "tier": 5,
+   "views": 990
+  },
+  {
+   "name": "S-Lang",
+   "aliases": [],
+   "tier": 5,
+   "views": 823
+  },
+  {
+   "name": "S-PLUS",
+   "aliases": [],
+   "tier": 5,
+   "views": 793
+  },
+  {
+   "name": "SAIL",
+   "aliases": [],
+   "tier": 5,
+   "views": 373
+  },
+  {
+   "name": "Sass",
+   "aliases": [
+    "SCSS"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sather",
+   "aliases": [],
+   "tier": 5,
+   "views": 472
+  },
+  {
+   "name": "Sawzall",
+   "aliases": [],
+   "tier": 5,
+   "views": 813
+  },
+  {
+   "name": "Script.NET",
+   "aliases": [],
+   "tier": 5,
+   "views": 587
+  },
+  {
+   "name": "Seed7",
+   "aliases": [],
+   "tier": 5,
+   "views": 425
+  },
+  {
+   "name": "SETL",
+   "aliases": [],
+   "tier": 5,
+   "views": 872
+  },
+  {
+   "name": "Short Code",
+   "aliases": [],
+   "tier": 5,
+   "views": 851
+  },
+  {
+   "name": "SIGNAL",
+   "aliases": [],
+   "tier": 5,
+   "views": 362
+  },
+  {
+   "name": "Simons' BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 653
+  },
+  {
+   "name": "SIMSCRIPT",
+   "aliases": [],
+   "tier": 5,
+   "views": 565
+  },
+  {
+   "name": "SKILL",
+   "aliases": [],
+   "tier": 5,
+   "views": 551
+  },
+  {
+   "name": "SLIP",
+   "aliases": [],
+   "tier": 5,
+   "views": 1189
+  },
+  {
+   "name": "SmallBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 439
+  },
+  {
+   "name": "Snowflake SQL",
+   "aliases": [
+    "SnowSQL"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SOQL",
+   "aliases": [
+    "Salesforce Object Query Language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Speakeasy",
+   "aliases": [],
+   "tier": 5,
+   "views": 397
+  },
+  {
+   "name": "SPIN",
+   "aliases": [],
+   "tier": 5,
+   "views": 1078
+  },
+  {
+   "name": "SPL",
+   "aliases": [
+    "Splunk Processing Language",
+    "Search Processing Language",
+    "Splunk SPL"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SPSS syntax",
+   "aliases": [
+    "SPSS command syntax"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SQL/PSM",
+   "aliases": [
+    "SQL Persistent Stored Modules"
+   ],
+   "tier": 5,
+   "views": 374
+  },
+  {
+   "name": "SQR",
+   "aliases": [],
+   "tier": 5,
+   "views": 686
+  },
+  {
+   "name": "Starlogo",
+   "aliases": [],
+   "tier": 5,
+   "views": 636
+  },
+  {
+   "name": "StarOffice Basic",
+   "aliases": [],
+   "tier": 5,
+   "views": 444
+  },
+  {
+   "name": "Stateflow",
+   "aliases": [],
+   "tier": 5,
+   "views": 459
+  },
+  {
+   "name": "STOS BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 558
+  },
+  {
+   "name": "Strongtalk",
+   "aliases": [],
+   "tier": 5,
+   "views": 536
+  },
+  {
+   "name": "SuperBASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 360
+  },
+  {
+   "name": "Superplan",
+   "aliases": [],
+   "tier": 5,
+   "views": 466
+  },
+  {
+   "name": "SVG",
+   "aliases": [
+    "Scalable Vector Graphics"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "T",
+   "aliases": [],
+   "tier": 5,
+   "views": 996
+  },
+  {
+   "name": "Tableau calculated fields",
+   "aliases": [
+    "Tableau calculation language",
+    "Tableau formulas"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Tailwind CSS",
+   "aliases": [
+    "Tailwind"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "TMG",
+   "aliases": [],
+   "tier": 5,
+   "views": 632
+  },
+  {
+   "name": "Transaction Application Language",
+   "aliases": [
+    "TAL"
+   ],
+   "tier": 5,
+   "views": 539
+  },
+  {
+   "name": "True BASIC",
+   "aliases": [],
+   "tier": 5,
+   "views": 651
+  },
+  {
+   "name": "Turing",
+   "aliases": [],
+   "tier": 5,
+   "views": 1069
+  },
+  {
+   "name": "Tynker",
+   "aliases": [],
+   "tier": 5,
+   "views": 961
+  },
+  {
+   "name": "UML",
+   "aliases": [
+    "Unified Modeling Language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Unicon",
+   "aliases": [],
+   "tier": 5,
+   "views": 411
+  },
+  {
+   "name": "Uniface",
+   "aliases": [],
+   "tier": 5,
+   "views": 646
+  },
+  {
+   "name": "UNITY",
+   "aliases": [],
+   "tier": 5,
+   "views": 363
+  },
+  {
+   "name": "UnrealScript",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Verse",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Vim script",
+   "aliases": [
+    "VimL"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Visual Objects",
+   "aliases": [],
+   "tier": 5,
+   "views": 480
+  },
+  {
+   "name": "Visual Prolog",
+   "aliases": [],
+   "tier": 5,
+   "views": 766
+  },
+  {
+   "name": "WATFIV",
+   "aliases": [],
+   "tier": 5,
+   "views": 461
+  },
+  {
+   "name": "WML",
+   "aliases": [
+    "Wireless Markup Language"
+   ],
+   "tier": 5,
+   "views": 1085
+  },
+  {
+   "name": "X++",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "X10",
+   "aliases": [],
+   "tier": 5,
+   "views": 404
+  },
+  {
+   "name": "XHTML",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Xojo",
+   "aliases": [],
+   "tier": 5,
+   "views": 1201
+  },
+  {
+   "name": "XPL",
+   "aliases": [],
+   "tier": 5,
+   "views": 630
+  },
+  {
+   "name": "XSL-FO",
+   "aliases": [],
+   "tier": 5,
+   "views": 849
+  },
+  {
+   "name": "Yabasic",
+   "aliases": [],
+   "tier": 5,
+   "views": 859
+  },
+  {
+   "name": "YAML",
+   "aliases": [
+    "YML"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Yorick",
+   "aliases": [],
+   "tier": 5,
+   "views": 430
+  },
+  {
+   "name": "Z++",
+   "aliases": [],
+   "tier": 5,
+   "views": 577
+  },
+  {
+   "name": "ZetaLisp",
+   "aliases": [],
+   "tier": 5,
+   "views": 715
+  },
+  {
+   "name": "@Formula",
+   "aliases": [],
+   "tier": 6,
+   "views": 140
+  },
+  {
+   "name": "ABAP CDS",
+   "aliases": [
+    "Core Data Services"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "ACC",
+   "aliases": [],
+   "tier": 6,
+   "views": 194
+  },
+  {
+   "name": "Accent",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Actor",
+   "aliases": [],
+   "tier": 6,
+   "views": 246
+  },
+  {
+   "name": "Adenine",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "AdvPL",
+   "aliases": [],
+   "tier": 6,
+   "views": 150
+  },
+  {
+   "name": "Agilent VEE",
+   "aliases": [],
+   "tier": 6,
+   "views": 348
+  },
+  {
+   "name": "Agora",
+   "aliases": [],
+   "tier": 6,
+   "views": 265
+  },
+  {
+   "name": "AL",
+   "aliases": [
+    "AL language",
+    "Business Central AL"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Aldor",
+   "aliases": [],
+   "tier": 6,
+   "views": 277
+  },
+  {
+   "name": "Algebraic Logic Functional programming language",
+   "aliases": [
+    "ALF"
+   ],
+   "tier": 6,
+   "views": 323
+  },
+  {
+   "name": "Alma-0",
+   "aliases": [],
+   "tier": 6,
+   "views": 214
+  },
+  {
+   "name": "AlphaBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 127
+  },
+  {
+   "name": "AmbientTalk",
+   "aliases": [],
+   "tier": 6,
+   "views": 185
+  },
+  {
+   "name": "Amiga BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 336
+  },
+  {
+   "name": "Analitik",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Apple Business BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 169
+  },
+  {
+   "name": "AQL",
+   "aliases": [
+    "ArangoDB Query Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Argus",
+   "aliases": [],
+   "tier": 6,
+   "views": 306
+  },
+  {
+   "name": "ASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 246
+  },
+  {
+   "name": "Atari Microsoft BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 259
+  },
+  {
+   "name": "Atom BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 160
+  },
+  {
+   "name": "Averest",
+   "aliases": [],
+   "tier": 6,
+   "views": 139
+  },
+  {
+   "name": "B32 Business Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 85
+  },
+  {
+   "name": "Babbage",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BASIC A+",
+   "aliases": [],
+   "tier": 6,
+   "views": 111
+  },
+  {
+   "name": "BASIC-11",
+   "aliases": [],
+   "tier": 6,
+   "views": 100
+  },
+  {
+   "name": "BASIC09",
+   "aliases": [],
+   "tier": 6,
+   "views": 228
+  },
+  {
+   "name": "Basic4GL",
+   "aliases": [],
+   "tier": 6,
+   "views": 194
+  },
+  {
+   "name": "BASICA",
+   "aliases": [
+    "Advanced BASIC",
+    "IBM BASIC"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "batari BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Beta BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 245
+  },
+  {
+   "name": "Bicep",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Blitz3D",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BlitzMax",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BlitzPlus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Boomerang",
+   "aliases": [],
+   "tier": 6,
+   "views": 186
+  },
+  {
+   "name": "BPMN",
+   "aliases": [
+    "Business Process Model and Notation"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "BrightScript",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BUGS",
+   "aliases": [
+    "WinBUGS"
+   ],
+   "tier": 6,
+   "views": 218
+  },
+  {
+   "name": "BURP",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Business Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 266
+  },
+  {
+   "name": "CA-Realizer",
+   "aliases": [],
+   "tier": 6,
+   "views": 128
+  },
+  {
+   "name": "Cangjie",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Cayenne",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Cecil",
+   "aliases": [],
+   "tier": 6,
+   "views": 355
+  },
+  {
+   "name": "CEEMAC",
+   "aliases": [],
+   "tier": 6,
+   "views": 50
+  },
+  {
+   "name": "CESIL",
+   "aliases": [],
+   "tier": 6,
+   "views": 226
+  },
+  {
+   "name": "Céu",
+   "aliases": [],
+   "tier": 6,
+   "views": 193
+  },
+  {
+   "name": "Charm",
+   "aliases": [],
+   "tier": 6,
+   "views": 124
+  },
+  {
+   "name": "Chef",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Chipmunk Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 245
+  },
+  {
+   "name": "Claire",
+   "aliases": [],
+   "tier": 6,
+   "views": 313
+  },
+  {
+   "name": "CLIST",
+   "aliases": [],
+   "tier": 6,
+   "views": 222
+  },
+  {
+   "name": "ClojureScript",
+   "aliases": [
+    "CLJS"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "CMS EXEC",
+   "aliases": [
+    "EXEC"
+   ],
+   "tier": 6,
+   "views": 125
+  },
+  {
+   "name": "CobolScript",
+   "aliases": [],
+   "tier": 6,
+   "views": 268
+  },
+  {
+   "name": "CodeQL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "COMIT",
+   "aliases": [],
+   "tier": 6,
+   "views": 273
+  },
+  {
+   "name": "Compaq BASIC for OpenVMS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "COMPASS",
+   "aliases": [],
+   "tier": 6,
+   "views": 187
+  },
+  {
+   "name": "Concurrent Pascal",
+   "aliases": [],
+   "tier": 6,
+   "views": 308
+  },
+  {
+   "name": "CorVision",
+   "aliases": [],
+   "tier": 6,
+   "views": 111
+  },
+  {
+   "name": "COWSEL",
+   "aliases": [],
+   "tier": 6,
+   "views": 265
+  },
+  {
+   "name": "Cryptol",
+   "aliases": [],
+   "tier": 6,
+   "views": 279
+  },
+  {
+   "name": "CUE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Cybil",
+   "aliases": [],
+   "tier": 6,
+   "views": 106
+  },
+  {
+   "name": "Darwin",
+   "aliases": [],
+   "tier": 6,
+   "views": 226
+  },
+  {
+   "name": "Data General Business Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 171
+  },
+  {
+   "name": "DATATRIEVE",
+   "aliases": [],
+   "tier": 6,
+   "views": 176
+  },
+  {
+   "name": "DEC BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Dhall",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DHTML",
+   "aliases": [
+    "Dynamic HTML"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "DIBOL",
+   "aliases": [],
+   "tier": 6,
+   "views": 321
+  },
+  {
+   "name": "DinkC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DMX",
+   "aliases": [
+    "Data Mining Extensions"
+   ],
+   "tier": 6,
+   "views": 136
+  },
+  {
+   "name": "Dockerfile",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Dog",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Draco",
+   "aliases": [],
+   "tier": 6,
+   "views": 157
+  },
+  {
+   "name": "Ease",
+   "aliases": [],
+   "tier": 6,
+   "views": 175
+  },
+  {
+   "name": "EASYTRIEVE PLUS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Edinburgh IMP",
+   "aliases": [],
+   "tier": 6,
+   "views": 270
+  },
+  {
+   "name": "ELAN",
+   "aliases": [],
+   "tier": 6,
+   "views": 194
+  },
+  {
+   "name": "Elvish",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Emerald",
+   "aliases": [],
+   "tier": 6,
+   "views": 327
+  },
+  {
+   "name": "es shell",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Escher",
+   "aliases": [],
+   "tier": 6,
+   "views": 166
+  },
+  {
+   "name": "ESPOL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Euclid",
+   "aliases": [],
+   "tier": 6,
+   "views": 207
+  },
+  {
+   "name": "EusLisp Robot Programming Language",
+   "aliases": [],
+   "tier": 6,
+   "views": 77
+  },
+  {
+   "name": "EXEC 2",
+   "aliases": [],
+   "tier": 6,
+   "views": 147
+  },
+  {
+   "name": "Extended Color BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 110
+  },
+  {
+   "name": "Fennel",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FFP",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Fjölnir",
+   "aliases": [],
+   "tier": 6,
+   "views": 309
+  },
+  {
+   "name": "FL",
+   "aliases": [],
+   "tier": 6,
+   "views": 340
+  },
+  {
+   "name": "Flex",
+   "aliases": [],
+   "tier": 6,
+   "views": 46
+  },
+  {
+   "name": "Flux",
+   "aliases": [
+    "InfluxQL"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "FOCUS",
+   "aliases": [],
+   "tier": 6,
+   "views": 53
+  },
+  {
+   "name": "FOIL",
+   "aliases": [],
+   "tier": 6,
+   "views": 74
+  },
+  {
+   "name": "FORMAC",
+   "aliases": [],
+   "tier": 6,
+   "views": 216
+  },
+  {
+   "name": "FQL",
+   "aliases": [
+    "Facebook Query Language"
+   ],
+   "tier": 6,
+   "views": 350
+  },
+  {
+   "name": "FutureBASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 326
+  },
+  {
+   "name": "FUZE BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Galaksija BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 90
+  },
+  {
+   "name": "Geometric Description Language",
+   "aliases": [
+    "GDL"
+   ],
+   "tier": 6,
+   "views": 147
+  },
+  {
+   "name": "GEORGE",
+   "aliases": [],
+   "tier": 6,
+   "views": 271
+  },
+  {
+   "name": "GLBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 229
+  },
+  {
+   "name": "GNU E",
+   "aliases": [],
+   "tier": 6,
+   "views": 133
+  },
+  {
+   "name": "Gödel",
+   "aliases": [],
+   "tier": 6,
+   "views": 356
+  },
+  {
+   "name": "Golo",
+   "aliases": [],
+   "tier": 6,
+   "views": 135
+  },
+  {
+   "name": "GOTRAN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "GraphTalk",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "HAGGIS",
+   "aliases": [],
+   "tier": 6,
+   "views": 223
+  },
+  {
+   "name": "Handlebars",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hare",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hartmann pipeline",
+   "aliases": [
+    "CMS Pipelines"
+   ],
+   "tier": 6,
+   "views": 239
+  },
+  {
+   "name": "HolyC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hop",
+   "aliases": [],
+   "tier": 6,
+   "views": 159
+  },
+  {
+   "name": "Hopscotch",
+   "aliases": [],
+   "tier": 6,
+   "views": 321
+  },
+  {
+   "name": "HP BASIC for OpenVMS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "HTSQL",
+   "aliases": [],
+   "tier": 6,
+   "views": 83
+  },
+  {
+   "name": "Hume",
+   "aliases": [],
+   "tier": 6,
+   "views": 295
+  },
+  {
+   "name": "ISBL",
+   "aliases": [],
+   "tier": 6,
+   "views": 139
+  },
+  {
+   "name": "Jai",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "JAL",
+   "aliases": [],
+   "tier": 6,
+   "views": 129
+  },
+  {
+   "name": "Janet",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Janus",
+   "aliases": [],
+   "tier": 6,
+   "views": 164
+  },
+  {
+   "name": "Jaql",
+   "aliases": [],
+   "tier": 6,
+   "views": 195
+  },
+  {
+   "name": "JASS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "JavaFX Script",
+   "aliases": [],
+   "tier": 6,
+   "views": 328
+  },
+  {
+   "name": "JEAN",
+   "aliases": [],
+   "tier": 6,
+   "views": 104
+  },
+  {
+   "name": "Join Java",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Joule",
+   "aliases": [],
+   "tier": 6,
+   "views": 271
+  },
+  {
+   "name": "JPQL",
+   "aliases": [
+    "Jakarta Persistence Query Language",
+    "Java Persistence Query Language"
+   ],
+   "tier": 6,
+   "views": 290
+  },
+  {
+   "name": "JR-BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 95
+  },
+  {
+   "name": "JSON Schema",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "JSONiq",
+   "aliases": [],
+   "tier": 6,
+   "views": 259
+  },
+  {
+   "name": "Jsonnet",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Kaleidoscope",
+   "aliases": [],
+   "tier": 6,
+   "views": 218
+  },
+  {
+   "name": "KEE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Kent Recursive Calculator",
+   "aliases": [
+    "KRC"
+   ],
+   "tier": 6,
+   "views": 195
+  },
+  {
+   "name": "Klerer-May System",
+   "aliases": [],
+   "tier": 6,
+   "views": 35
+  },
+  {
+   "name": "Koka",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "KRL",
+   "aliases": [],
+   "tier": 6,
+   "views": 198
+  },
+  {
+   "name": "KRYPTON",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "KUKA Robot Language",
+   "aliases": [],
+   "tier": 6,
+   "views": 324
+  },
+  {
+   "name": "Kv",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Lambda calculus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Language H",
+   "aliases": [],
+   "tier": 6,
+   "views": 279
+  },
+  {
+   "name": "LANSA",
+   "aliases": [],
+   "tier": 6,
+   "views": 306
+  },
+  {
+   "name": "Legoscript",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Less",
+   "aliases": [
+    "LESS CSS"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "LIL",
+   "aliases": [],
+   "tier": 6,
+   "views": 83
+  },
+  {
+   "name": "LINC",
+   "aliases": [],
+   "tier": 6,
+   "views": 265
+  },
+  {
+   "name": "Liquid",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LIS",
+   "aliases": [],
+   "tier": 6,
+   "views": 137
+  },
+  {
+   "name": "LISA",
+   "aliases": [],
+   "tier": 6,
+   "views": 133
+  },
+  {
+   "name": "Lithe",
+   "aliases": [],
+   "tier": 6,
+   "views": 280
+  },
+  {
+   "name": "Little b",
+   "aliases": [],
+   "tier": 6,
+   "views": 148
+  },
+  {
+   "name": "LLL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Lobster",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LPC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LSE",
+   "aliases": [],
+   "tier": 6,
+   "views": 296
+  },
+  {
+   "name": "LSL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LYaPAS",
+   "aliases": [],
+   "tier": 6,
+   "views": 118
+  },
+  {
+   "name": "Lynx",
+   "aliases": [],
+   "tier": 6,
+   "views": 197
+  },
+  {
+   "name": "MAI Basic Four Business Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 324
+  },
+  {
+   "name": "Mallard BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 248
+  },
+  {
+   "name": "Malloy",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "MapBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 137
+  },
+  {
+   "name": "MARK-IV",
+   "aliases": [],
+   "tier": 6,
+   "views": 189
+  },
+  {
+   "name": "Mary",
+   "aliases": [],
+   "tier": 6,
+   "views": 201
+  },
+  {
+   "name": "MATH-MATIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 271
+  },
+  {
+   "name": "MaxScript",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mermaid",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Microcode",
+   "aliases": [],
+   "tier": 6,
+   "views": 200
+  },
+  {
+   "name": "Microsoft Level III BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "MIIS",
+   "aliases": [],
+   "tier": 6,
+   "views": 208
+  },
+  {
+   "name": "MIMIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 185
+  },
+  {
+   "name": "Mirah",
+   "aliases": [],
+   "tier": 6,
+   "views": 199
+  },
+  {
+   "name": "MIVA Script",
+   "aliases": [],
+   "tier": 6,
+   "views": 109
+  },
+  {
+   "name": "Mobile BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "Mohol",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mortran",
+   "aliases": [],
+   "tier": 6,
+   "views": 178
+  },
+  {
+   "name": "Mouse",
+   "aliases": [],
+   "tier": 6,
+   "views": 307
+  },
+  {
+   "name": "Move",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "MPD",
+   "aliases": [],
+   "tier": 6,
+   "views": 82
+  },
+  {
+   "name": "MQL4",
+   "aliases": [
+    "MQL5",
+    "MetaQuotes Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "MS BASIC for Macintosh",
+   "aliases": [],
+   "tier": 6,
+   "views": 127
+  },
+  {
+   "name": "Mustache",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mystic Programming Language",
+   "aliases": [
+    "MPL"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "N1QL",
+   "aliases": [
+    "SQL++"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Napier88",
+   "aliases": [],
+   "tier": 6,
+   "views": 250
+  },
+  {
+   "name": "NELIAC",
+   "aliases": [],
+   "tier": 6,
+   "views": 144
+  },
+  {
+   "name": "NESL",
+   "aliases": [],
+   "tier": 6,
+   "views": 190
+  },
+  {
+   "name": "Net.Data",
+   "aliases": [],
+   "tier": 6,
+   "views": 44
+  },
+  {
+   "name": "NetRexx",
+   "aliases": [],
+   "tier": 6,
+   "views": 246
+  },
+  {
+   "name": "NEWP",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Nial",
+   "aliases": [],
+   "tier": 6,
+   "views": 278
+  },
+  {
+   "name": "Nord Programming Language",
+   "aliases": [
+    "NPL"
+   ],
+   "tier": 6,
+   "views": 116
+  },
+  {
+   "name": "NorthStar BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 145
+  },
+  {
+   "name": "Not eXactly C",
+   "aliases": [
+    "NXC"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Not Quite C",
+   "aliases": [
+    "NQC"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "NS Basic",
+   "aliases": [],
+   "tier": 6,
+   "views": 283
+  },
+  {
+   "name": "Nullsoft Scriptable Install System",
+   "aliases": [
+    "NSIS"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Nushell",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "NWScript",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "NXT-G",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "o:XML",
+   "aliases": [],
+   "tier": 6,
+   "views": 93
+  },
+  {
+   "name": "OBASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OBJ2",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Object Lisp",
+   "aliases": [],
+   "tier": 6,
+   "views": 77
+  },
+  {
+   "name": "Objective-C++",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Objective-J",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ObjectLOGO",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Obliq",
+   "aliases": [],
+   "tier": 6,
+   "views": 179
+  },
+  {
+   "name": "occam-pi",
+   "aliases": [],
+   "tier": 6,
+   "views": 214
+  },
+  {
+   "name": "Odin",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Office Scripts",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OmniMark",
+   "aliases": [],
+   "tier": 6,
+   "views": 209
+  },
+  {
+   "name": "Opal",
+   "aliases": [],
+   "tier": 6,
+   "views": 308
+  },
+  {
+   "name": "OpenAPI",
+   "aliases": [
+    "Swagger"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "OptimJ",
+   "aliases": [],
+   "tier": 6,
+   "views": 134
+  },
+  {
+   "name": "Orc",
+   "aliases": [],
+   "tier": 6,
+   "views": 213
+  },
+  {
+   "name": "ORCA/Modula-2",
+   "aliases": [],
+   "tier": 6,
+   "views": 67
+  },
+  {
+   "name": "Oriel",
+   "aliases": [],
+   "tier": 6,
+   "views": 84
+  },
+  {
+   "name": "Orwell",
+   "aliases": [],
+   "tier": 6,
+   "views": 317
+  },
+  {
+   "name": "PBASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 256
+  },
+  {
+   "name": "PCASTL",
+   "aliases": [],
+   "tier": 6,
+   "views": 91
+  },
+  {
+   "name": "PDL",
+   "aliases": [],
+   "tier": 6,
+   "views": 359
+  },
+  {
+   "name": "PeopleCode",
+   "aliases": [],
+   "tier": 6,
+   "views": 208
+  },
+  {
+   "name": "Pico",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pict",
+   "aliases": [],
+   "tier": 6,
+   "views": 133
+  },
+  {
+   "name": "Piet",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pine Script",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pkl",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PL-11",
+   "aliases": [],
+   "tier": 6,
+   "views": 175
+  },
+  {
+   "name": "PL/B",
+   "aliases": [],
+   "tier": 6,
+   "views": 341
+  },
+  {
+   "name": "PL/P",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PL/S",
+   "aliases": [],
+   "tier": 6,
+   "views": 339
+  },
+  {
+   "name": "PL360",
+   "aliases": [],
+   "tier": 6,
+   "views": 343
+  },
+  {
+   "name": "PLANC",
+   "aliases": [],
+   "tier": 6,
+   "views": 128
+  },
+  {
+   "name": "PLEXIL",
+   "aliases": [],
+   "tier": 6,
+   "views": 184
+  },
+  {
+   "name": "Plus",
+   "aliases": [],
+   "tier": 6,
+   "views": 200
+  },
+  {
+   "name": "Polymorphic Programming Language",
+   "aliases": [
+    "PPL"
+   ],
+   "tier": 6,
+   "views": 283
+  },
+  {
+   "name": "PortablE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PostCSS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Powerhouse",
+   "aliases": [],
+   "tier": 6,
+   "views": 218
+  },
+  {
+   "name": "PROMAL",
+   "aliases": [],
+   "tier": 6,
+   "views": 155
+  },
+  {
+   "name": "PROSE modeling language",
+   "aliases": [],
+   "tier": 6,
+   "views": 125
+  },
+  {
+   "name": "PROTEL",
+   "aliases": [],
+   "tier": 6,
+   "views": 257
+  },
+  {
+   "name": "PRQL",
+   "aliases": [
+    "Pipelined Relational Query Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Pug",
+   "aliases": [
+    "Jade templates"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Pyret",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Quantum Computation Language",
+   "aliases": [],
+   "tier": 6,
+   "views": 267
+  },
+  {
+   "name": "R++",
+   "aliases": [],
+   "tier": 6,
+   "views": 304
+  },
+  {
+   "name": "RapidQ",
+   "aliases": [],
+   "tier": 6,
+   "views": 233
+  },
+  {
+   "name": "Ratfiv",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Razor",
+   "aliases": [
+    "CSHTML"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "RDF",
+   "aliases": [
+    "Resource Description Framework"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Ring",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Roc",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Rocky Mountain BASIC",
+   "aliases": [
+    "HTBasic"
+   ],
+   "tier": 6,
+   "views": 323
+  },
+  {
+   "name": "RSL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "RTL/2",
+   "aliases": [],
+   "tier": 6,
+   "views": 132
+  },
+  {
+   "name": "S-BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 90
+  },
+  {
+   "name": "S/SL",
+   "aliases": [],
+   "tier": 6,
+   "views": 131
+  },
+  {
+   "name": "S2",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "S3",
+   "aliases": [],
+   "tier": 6,
+   "views": 225
+  },
+  {
+   "name": "SA-C",
+   "aliases": [],
+   "tier": 6,
+   "views": 152
+  },
+  {
+   "name": "SabreTalk",
+   "aliases": [],
+   "tier": 6,
+   "views": 141
+  },
+  {
+   "name": "SAKO",
+   "aliases": [],
+   "tier": 6,
+   "views": 244
+  },
+  {
+   "name": "SAM BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SAQL",
+   "aliases": [
+    "Salesforce Analytics Query Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "SASL",
+   "aliases": [],
+   "tier": 6,
+   "views": 266
+  },
+  {
+   "name": "sdlBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 183
+  },
+  {
+   "name": "SenseTalk",
+   "aliases": [],
+   "tier": 6,
+   "views": 212
+  },
+  {
+   "name": "SequenceL",
+   "aliases": [],
+   "tier": 6,
+   "views": 263
+  },
+  {
+   "name": "Serpent",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SGML",
+   "aliases": [
+    "Standard Generalized Markup Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "SiMPLE",
+   "aliases": [],
+   "tier": 6,
+   "views": 172
+  },
+  {
+   "name": "SIMPOL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SISAL",
+   "aliases": [],
+   "tier": 6,
+   "views": 339
+  },
+  {
+   "name": "SMALL",
+   "aliases": [],
+   "tier": 6,
+   "views": 141
+  },
+  {
+   "name": "SmartBASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Smarty",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Snowball",
+   "aliases": [],
+   "tier": 6,
+   "views": 317
+  },
+  {
+   "name": "SOBS",
+   "aliases": [],
+   "tier": 6,
+   "views": 58
+  },
+  {
+   "name": "SOL",
+   "aliases": [],
+   "tier": 6,
+   "views": 251
+  },
+  {
+   "name": "SOPHAEROS",
+   "aliases": [],
+   "tier": 6,
+   "views": 29
+  },
+  {
+   "name": "Source",
+   "aliases": [],
+   "tier": 6,
+   "views": 282
+  },
+  {
+   "name": "SP/k",
+   "aliases": [],
+   "tier": 6,
+   "views": 131
+  },
+  {
+   "name": "SPS",
+   "aliases": [],
+   "tier": 6,
+   "views": 145
+  },
+  {
+   "name": "SR",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "ST BASIC (Atari)",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Starlark",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Strand",
+   "aliases": [],
+   "tier": 6,
+   "views": 135
+  },
+  {
+   "name": "Stylus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Subtext",
+   "aliases": [],
+   "tier": 6,
+   "views": 179
+  },
+  {
+   "name": "SuperTalk",
+   "aliases": [],
+   "tier": 6,
+   "views": 124
+  },
+  {
+   "name": "SYMPL",
+   "aliases": [],
+   "tier": 6,
+   "views": 141
+  },
+  {
+   "name": "Systems Programming Language",
+   "aliases": [],
+   "tier": 6,
+   "views": 316
+  },
+  {
+   "name": "TACL",
+   "aliases": [],
+   "tier": 6,
+   "views": 289
+  },
+  {
+   "name": "Tea",
+   "aliases": [],
+   "tier": 6,
+   "views": 328
+  },
+  {
+   "name": "TELCOMP",
+   "aliases": [],
+   "tier": 6,
+   "views": 107
+  },
+  {
+   "name": "Text Adventure Development System",
+   "aliases": [
+    "TADS"
+   ],
+   "tier": 6,
+   "views": 305
+  },
+  {
+   "name": "Text Processing Utility",
+   "aliases": [
+    "TPU"
+   ],
+   "tier": 6,
+   "views": 98
+  },
+  {
+   "name": "TI Extended BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Tom",
+   "aliases": [],
+   "tier": 6,
+   "views": 106
+  },
+  {
+   "name": "TOML",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TRAC",
+   "aliases": [],
+   "tier": 6,
+   "views": 316
+  },
+  {
+   "name": "TRS-80 Level I BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 335
+  },
+  {
+   "name": "TRS-80 Level II BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TTCN",
+   "aliases": [],
+   "tier": 6,
+   "views": 182
+  },
+  {
+   "name": "TTM",
+   "aliases": [],
+   "tier": 6,
+   "views": 180
+  },
+  {
+   "name": "Turbo-Basic XL",
+   "aliases": [],
+   "tier": 6,
+   "views": 192
+  },
+  {
+   "name": "Turtle",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TUTOR",
+   "aliases": [],
+   "tier": 6,
+   "views": 323
+  },
+  {
+   "name": "Twig",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TXL",
+   "aliases": [],
+   "tier": 6,
+   "views": 277
+  },
+  {
+   "name": "Tymshare SuperBasic",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "UBASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 187
+  },
+  {
+   "name": "Ubercode",
+   "aliases": [],
+   "tier": 6,
+   "views": 133
+  },
+  {
+   "name": "Umple",
+   "aliases": [],
+   "tier": 6,
+   "views": 320
+  },
+  {
+   "name": "Unison",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "VAX BASIC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Vilnius BASIC",
+   "aliases": [],
+   "tier": 6,
+   "views": 220
+  },
+  {
+   "name": "Viper",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Visual DialogScript",
+   "aliases": [],
+   "tier": 6,
+   "views": 87
+  },
+  {
+   "name": "Visual Test",
+   "aliases": [],
+   "tier": 6,
+   "views": 72
+  },
+  {
+   "name": "VSI BASIC for OpenVMS",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Vyper",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Whiley",
+   "aliases": [],
+   "tier": 6,
+   "views": 239
+  },
+  {
+   "name": "WordBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 168
+  },
+  {
+   "name": "Wren",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "wxBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 169
+  },
+  {
+   "name": "Wyvern",
+   "aliases": [],
+   "tier": 6,
+   "views": 156
+  },
+  {
+   "name": "XBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 254
+  },
+  {
+   "name": "XBL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "XBLite",
+   "aliases": [],
+   "tier": 6,
+   "views": 133
+  },
+  {
+   "name": "XC",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "XL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Xod",
+   "aliases": [],
+   "tier": 6,
+   "views": 278
+  },
+  {
+   "name": "XOTcl",
+   "aliases": [],
+   "tier": 6,
+   "views": 79
+  },
+  {
+   "name": "XPL0",
+   "aliases": [],
+   "tier": 6,
+   "views": 97
+  },
+  {
+   "name": "XSB",
+   "aliases": [],
+   "tier": 6,
+   "views": 267
+  },
+  {
+   "name": "XSL",
+   "aliases": [
+    "Extensible Stylesheet Language"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Xtend",
+   "aliases": [],
+   "tier": 6,
+   "views": 287
+  },
+  {
+   "name": "yab",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "YQL",
+   "aliases": [],
+   "tier": 6,
+   "views": 322
+  },
+  {
+   "name": "ZBasic",
+   "aliases": [],
+   "tier": 6,
+   "views": 164
+  },
+  {
+   "name": "Zonnon",
+   "aliases": [],
+   "tier": 6,
+   "views": 354
+  },
+  {
+   "name": "ZOPL",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ZPL",
+   "aliases": [],
+   "tier": 6,
+   "views": 295
+  }
+ ]
+}

@@ -1,0 +1,1459 @@
+{
+ "prompt": "Name a major you could double with BIS",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://www.tcu.edu/academics/programs/index.php",
+  "https://www.tcu.edu/academics/programs/index.json (TCU program finder data; all programs with bachelor degrees)",
+  "https://www.tcu.edu/academics/programs/business-information-systems.php",
+  "https://www.neeley.tcu.edu/degrees-programs/undergraduate/major-in-business.php",
+  "Common US undergraduate majors (other universities) added by hand: MIS-adjacent, engineering, analytics, cybersecurity, AI, hospitality, etc."
+ ],
+ "reject": [
+  "business information systems",
+  "information systems",
+  "management information systems",
+  "computer information systems",
+  "bis",
+  "mis",
+  "cis",
+  "information system"
+ ],
+ "answers": [
+  {
+   "name": "Accounting",
+   "aliases": [
+    "accountancy",
+    "acct",
+    "accounting major"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Finance",
+   "aliases": [
+    "corporate finance major",
+    "financial management major"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Marketing",
+   "aliases": [
+    "mktg",
+    "digital marketing",
+    "marketing management"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Computer Science",
+   "aliases": [
+    "cs",
+    "comp sci",
+    "compsci",
+    "cosc",
+    "computing"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Economics",
+   "aliases": [
+    "econ",
+    "business economics",
+    "econ major"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Entrepreneurship",
+   "aliases": [
+    "entrepreneurship and innovation",
+    "e and i",
+    "innovation and entrepreneurship"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Management",
+   "aliases": [
+    "management and leadership",
+    "business management",
+    "mgmt",
+    "leadership and management"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Supply Chain Management",
+   "aliases": [
+    "scm",
+    "supply chain",
+    "supply and value chain management",
+    "logistics",
+    "logistics and supply chain management",
+    "supply chain and logistics"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Accounting Information Systems",
+   "aliases": [
+    "ais"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Actuarial Science",
+   "aliases": [
+    "actuarial",
+    "actuarial studies"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Artificial Intelligence",
+   "aliases": [
+    "ai",
+    "machine learning"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Business Analytics",
+   "aliases": [
+    "analytics",
+    "data analytics",
+    "busa"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Cybersecurity",
+   "aliases": [
+    "cyber",
+    "information security",
+    "infosec"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Data Science",
+   "aliases": [
+    "data sci",
+    "data analytics and data science"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Digital Culture and Data Analytics",
+   "aliases": [
+    "dcda",
+    "digital culture"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Economics & Mathematics",
+   "aliases": [
+    "math econ",
+    "mathematical economics",
+    "economics and math"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Fintech",
+   "aliases": [
+    "financial technology"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "General Business",
+   "aliases": [
+    "business administration",
+    "bba",
+    "business",
+    "general business administration"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Human Resource Management",
+   "aliases": [
+    "hr",
+    "hrm",
+    "human resources",
+    "human resources management"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Information Technology",
+   "aliases": [
+    "it",
+    "computer information technology",
+    "cit",
+    "info tech",
+    "information technology management"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "International Business",
+   "aliases": [
+    "global business",
+    "ib",
+    "intl business"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "International Economics",
+   "aliases": [
+    "global economics"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Mathematics",
+   "aliases": [
+    "math",
+    "maths",
+    "mathematics major"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Operations Management",
+   "aliases": [
+    "operations",
+    "operations and supply chain management"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Professional Sales",
+   "aliases": [
+    "sales",
+    "consultative sales",
+    "sales management"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Project Management",
+   "aliases": [
+    "project mgmt"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Real Estate",
+   "aliases": [
+    "finance with real estate",
+    "real estate finance"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Risk Management & Insurance",
+   "aliases": [
+    "risk management",
+    "insurance",
+    "rmi",
+    "insurance and risk management"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Software Engineering",
+   "aliases": [
+    "software engineer",
+    "swe major"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Statistics",
+   "aliases": [
+    "stats",
+    "stat",
+    "statistical science"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Advertising",
+   "aliases": [
+    "advertising and public relations"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Aerospace Engineering",
+   "aliases": [
+    "aero",
+    "aeronautical engineering",
+    "aerospace"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Applied Mathematics",
+   "aliases": [
+    "applied math"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Biomedical Engineering",
+   "aliases": [
+    "bme",
+    "bioengineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Chemical Engineering",
+   "aliases": [
+    "cheme",
+    "chem e"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Cinema and Media Studies",
+   "aliases": [
+    "media studies",
+    "cinema studies"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Civil Engineering",
+   "aliases": [
+    "civil",
+    "civil e"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Communication Studies",
+   "aliases": [
+    "communications",
+    "comm studies",
+    "comm",
+    "communication"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Computer Engineering",
+   "aliases": [
+    "compe",
+    "comp e",
+    "cpe"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Criminology & Criminal Justice",
+   "aliases": [
+    "criminal justice",
+    "criminology",
+    "cj",
+    "crim"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Design Studies",
+   "aliases": [
+    "design"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Digital Media",
+   "aliases": [
+    "new media",
+    "interactive media",
+    "digital media arts"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Electrical Engineering",
+   "aliases": [
+    "ee",
+    "electrical and computer engineering",
+    "ece"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Energy Management",
+   "aliases": [
+    "energy and business",
+    "energy business",
+    "energy commerce"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Engineering",
+   "aliases": [
+    "general engineering",
+    "engineering science"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Film, Television and Digital Media",
+   "aliases": [
+    "film",
+    "ftdm",
+    "film studies",
+    "tv",
+    "television",
+    "film and television",
+    "film and digital media"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Financial Engineering",
+   "aliases": [
+    "quantitative finance",
+    "computational finance"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Game Design",
+   "aliases": [
+    "video game design",
+    "game development",
+    "game design and development"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Graphic Design",
+   "aliases": [
+    "graphic arts",
+    "visual communication design"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Health Care Administration",
+   "aliases": [
+    "healthcare management",
+    "health administration",
+    "health services administration"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Health Informatics",
+   "aliases": [
+    "healthcare informatics",
+    "health information management"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Hospitality Management",
+   "aliases": [
+    "hospitality",
+    "hotel management",
+    "hotel and restaurant management",
+    "tourism"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Human-Computer Interaction",
+   "aliases": [
+    "hci"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Industrial Design",
+   "aliases": [
+    "product design"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Industrial Engineering",
+   "aliases": [
+    "ie",
+    "industrial and systems engineering",
+    "ise",
+    "industrial and operations engineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Information Science",
+   "aliases": [
+    "informatics",
+    "library and information science",
+    "info sci"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "International Relations",
+   "aliases": [
+    "ir",
+    "international affairs",
+    "international studies",
+    "global studies"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Journalism",
+   "aliases": [
+    "broadcast journalism",
+    "multimedia journalism"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Mechanical Engineering",
+   "aliases": [
+    "mech e",
+    "meche",
+    "mechanical"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Operations Research",
+   "aliases": [
+    "operations research and engineering"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Petroleum Engineering",
+   "aliases": [
+    "petroleum",
+    "pete"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Political Science",
+   "aliases": [
+    "poli sci",
+    "polisci",
+    "government",
+    "politics",
+    "polysci"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Psychology",
+   "aliases": [
+    "psych",
+    "psyc"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Public Administration",
+   "aliases": [
+    "public management"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Public Policy",
+   "aliases": [
+    "policy"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Public Relations",
+   "aliases": [
+    "pr"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Sport Management",
+   "aliases": [
+    "sports management",
+    "sports business",
+    "sport business"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Sports Broadcasting",
+   "aliases": [
+    "sports media",
+    "sports journalism"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Strategic Communication",
+   "aliases": [
+    "strat comm",
+    "stratcomm",
+    "strategic communications",
+    "strat com"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Systems Engineering",
+   "aliases": [
+    "systems engineer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "UX Design",
+   "aliases": [
+    "user experience design",
+    "ux",
+    "user experience",
+    "ui ux design"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "African American Studies",
+   "aliases": [
+    "africana studies",
+    "african american and africana studies",
+    "black studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Agribusiness",
+   "aliases": [
+    "agricultural business",
+    "agricultural economics",
+    "ag business",
+    "ag econ"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Anthropology",
+   "aliases": [
+    "anthro"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Arabic",
+   "aliases": [
+    "arabic studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Architecture",
+   "aliases": [
+    "arch"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Asian Studies",
+   "aliases": [
+    "east asian studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Biochemistry",
+   "aliases": [
+    "biochem"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Bioinformatics",
+   "aliases": [
+    "computational biology"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Biology",
+   "aliases": [
+    "bio",
+    "biological sciences"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Biomedical Sciences",
+   "aliases": [
+    "biomedical science",
+    "biomed"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Chemistry",
+   "aliases": [
+    "chem"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Child Development",
+   "aliases": [
+    "child and family development",
+    "human development and family studies",
+    "hdfs"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Chinese",
+   "aliases": [
+    "mandarin",
+    "chinese language"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cognitive Science",
+   "aliases": [
+    "cog sci",
+    "cogsci"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Comparative Race and Ethnic Studies",
+   "aliases": [
+    "ethnic studies",
+    "cres",
+    "race and ethnic studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Construction Management",
+   "aliases": [
+    "construction science"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Creative Writing",
+   "aliases": [
+    "fiction writing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Early Childhood Education",
+   "aliases": [
+    "early childhood 6th grade education",
+    "elementary education",
+    "ec 6",
+    "early childhood"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Earth Systems Science",
+   "aliases": [
+    "earth science",
+    "earth sciences"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Educational Studies",
+   "aliases": [
+    "education",
+    "teaching"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "English",
+   "aliases": [
+    "english literature",
+    "literature",
+    "english lit"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Environmental Science",
+   "aliases": [
+    "environmental studies",
+    "env sci",
+    "enviro"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Event Management",
+   "aliases": [
+    "event planning"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "French",
+   "aliases": [
+    "french studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "General Studies",
+   "aliases": [
+    "bgs",
+    "interdisciplinary studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Geography",
+   "aliases": [
+    "geog",
+    "gis"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Geology",
+   "aliases": [
+    "geoscience",
+    "geosciences"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "German",
+   "aliases": [
+    "german studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Health & Fitness",
+   "aliases": [
+    "fitness"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Health Sciences",
+   "aliases": [
+    "health science"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "History",
+   "aliases": [
+    "hist"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Interdisciplinary Inquiry",
+   "aliases": [
+    "interdisciplinary inquiry major"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Italian",
+   "aliases": [
+    "italian studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Japanese",
+   "aliases": [
+    "japanese studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Kinesiology",
+   "aliases": [
+    "kin",
+    "exercise science",
+    "exercise physiology"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Latin American Studies",
+   "aliases": [
+    "latin american and latinx studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Legal Studies",
+   "aliases": [
+    "pre law",
+    "prelaw",
+    "business law",
+    "paralegal studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Liberal Arts",
+   "aliases": [
+    "liberal studies",
+    "humanities"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Linguistics",
+   "aliases": [
+    "ling"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Middle School Education",
+   "aliases": [
+    "middle grades education"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Modern Language Studies",
+   "aliases": [
+    "modern languages",
+    "foreign languages",
+    "languages",
+    "world languages"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Movement Science",
+   "aliases": [
+    "human movement science"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Music Business",
+   "aliases": [
+    "music industry",
+    "music management"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Neuroscience",
+   "aliases": [
+    "neuro"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Nonprofit Management",
+   "aliases": [
+    "nonprofit leadership",
+    "nonprofit"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Philosophy",
+   "aliases": [
+    "phil",
+    "philo"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Philosophy, Politics and Economics",
+   "aliases": [
+    "ppe",
+    "political economy"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Physics",
+   "aliases": [
+    "phys"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Public Health",
+   "aliases": [
+    "community health",
+    "global health"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Robotics",
+   "aliases": [
+    "robotics engineering"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Russian",
+   "aliases": [
+    "russian studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Secondary Education",
+   "aliases": [
+    "high school education"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Social Work",
+   "aliases": [
+    "bsw"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sociology",
+   "aliases": [
+    "socio"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Spanish",
+   "aliases": [
+    "spanish and hispanic studies",
+    "hispanic studies",
+    "espanol"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sustainability",
+   "aliases": [
+    "sustainable business",
+    "sustainability studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Urban Studies",
+   "aliases": [
+    "urban planning",
+    "city planning"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Women & Gender Studies",
+   "aliases": [
+    "gender studies",
+    "womens studies",
+    "wgst",
+    "womens and gender studies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Writing and Rhetoric",
+   "aliases": [
+    "rhetoric",
+    "writing studies",
+    "rhetoric and composition"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Animal Science",
+   "aliases": [
+    "animal sciences",
+    "equine science"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Animation",
+   "aliases": [
+    "3d animation"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Archaeology",
+   "aliases": [
+    "archeology"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Art Education",
+   "aliases": [
+    "art ed"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Art History",
+   "aliases": [
+    "history of art"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Astronomy",
+   "aliases": [
+    "astrophysics",
+    "astronomy and physics",
+    "astronomy & physics"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Athletic Training",
+   "aliases": [
+    "sports medicine"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Audio Engineering",
+   "aliases": [
+    "sound engineering",
+    "audio production",
+    "music production"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Brass",
+   "aliases": [
+    "trumpet",
+    "trombone",
+    "french horn",
+    "tuba"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Classics",
+   "aliases": [
+    "classical studies",
+    "latin",
+    "ancient greek",
+    "classical civilization"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Dance",
+   "aliases": [
+    "ballet",
+    "modern dance"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Dietetics",
+   "aliases": [
+    "dietitian"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Fashion Design",
+   "aliases": [
+    "apparel design"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Fashion Merchandising",
+   "aliases": [
+    "fashion",
+    "retail merchandising",
+    "merchandising",
+    "apparel merchandising"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Food Management",
+   "aliases": [
+    "food service management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Forensic Science",
+   "aliases": [
+    "forensics"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Interior Design",
+   "aliases": [
+    "interior architecture"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Marine Biology",
+   "aliases": [
+    "marine science"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Meteorology",
+   "aliases": [
+    "atmospheric science",
+    "atmospheric sciences"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Middle East Studies",
+   "aliases": [
+    "middle eastern studies"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Military Science",
+   "aliases": [
+    "rotc",
+    "aerospace studies"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Music",
+   "aliases": [
+    "music major"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Music Education",
+   "aliases": [
+    "music ed"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Music Performance",
+   "aliases": [
+    "instrumental performance",
+    "performance major"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Music Theory & Composition",
+   "aliases": [
+    "music composition",
+    "composition",
+    "music theory"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Nursing",
+   "aliases": [
+    "bsn",
+    "nursing major"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Nutrition",
+   "aliases": [
+    "nutritional sciences"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Percussion",
+   "aliases": [
+    "percussion performance"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Photography",
+   "aliases": [
+    "photo"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Physical Education",
+   "aliases": [
+    "pe",
+    "phys ed"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Piano",
+   "aliases": [
+    "piano performance"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Piano Pedagogy",
+   "aliases": [
+    "piano teaching"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Portuguese",
+   "aliases": [
+    "portuguese studies"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Professional Aviation",
+   "aliases": [
+    "aviation",
+    "aviation management"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Ranch Management",
+   "aliases": [
+    "ranch",
+    "ranching"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Religion",
+   "aliases": [
+    "religious studies",
+    "theology",
+    "divinity"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Special Education",
+   "aliases": [
+    "sped"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Speech, Language & Hearing Sciences",
+   "aliases": [
+    "speech pathology",
+    "communication sciences and disorders",
+    "csd",
+    "speech language pathology",
+    "audiology"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Strings",
+   "aliases": [
+    "violin",
+    "viola",
+    "cello",
+    "string performance"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Studio Art",
+   "aliases": [
+    "fine arts",
+    "fine art",
+    "art",
+    "bfa"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Theatre",
+   "aliases": [
+    "theater",
+    "drama",
+    "acting",
+    "musical theatre",
+    "musical theater"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Voice",
+   "aliases": [
+    "vocal performance",
+    "opera"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Woodwinds",
+   "aliases": [
+    "flute",
+    "clarinet",
+    "oboe",
+    "bassoon",
+    "saxophone"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Youth Advocacy and Educational Studies",
+   "aliases": [
+    "youth advocacy"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Zoology",
+   "aliases": [
+    "zoo science"
+   ],
+   "tier": 6
+  }
+ ]
+}

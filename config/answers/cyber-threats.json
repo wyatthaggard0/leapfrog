@@ -1,0 +1,7726 @@
+{
+ "prompt": "Name a cybersecurity threat",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Template:Malware",
+  "https://en.wikipedia.org/wiki/Template:Information_security",
+  "https://en.wikipedia.org/wiki/Template:Botnets",
+  "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2000s",
+  "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2010s",
+  "https://en.wikipedia.org/wiki/Template:Hacking_in_the_2020s",
+  "https://en.wikipedia.org/wiki/List_of_computer_worms",
+  "https://en.wikipedia.org/wiki/Timeline_of_computer_viruses_and_worms",
+  "https://en.wikipedia.org/wiki/List_of_trojan_horses",
+  "https://en.wikipedia.org/wiki/List_of_cyberattacks",
+  "https://en.wikipedia.org/wiki/List_of_security_hacking_incidents",
+  "https://en.wikipedia.org/wiki/Ransomware",
+  "https://en.wikipedia.org/wiki/Social_engineering_(security)",
+  "https://en.wikipedia.org/wiki/Cyberattack",
+  "https://en.wikipedia.org/wiki/Computer_security",
+  "https://en.wikipedia.org/w/api.php (prop=links, prop=categories, redirects — link harvesting, category filtering, title verification)",
+  "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json (MITRE ATT&CK Enterprise: techniques, intrusion-sets/groups, software)",
+  "https://owasp.org/Top10/ (OWASP Top 10 2021 categories)",
+  "https://capec.mitre.org/ (CAPEC common attack pattern names)"
+ ],
+ "reject": [],
+ "answers": [
+  {
+   "name": "Hacking",
+   "aliases": [
+    "hacker",
+    "hackers",
+    "hack",
+    "security hacker"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Malware",
+   "aliases": [
+    "malicious software"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Phishing",
+   "aliases": [
+    "phish",
+    "phishing attack",
+    "phishing email",
+    "phishing scam",
+    "phishing emails"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Ransomware",
+   "aliases": [
+    "ransomware attack",
+    "crypto ransomware",
+    "Win32/Diskcoder.D"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Virus",
+   "aliases": [
+    "computer virus",
+    "viruses",
+    "virus attack"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Brute force",
+   "aliases": [
+    "brute force attack",
+    "brute forcing",
+    "password brute force",
+    "password guessing"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Data breach",
+   "aliases": [
+    "data leak",
+    "security breach",
+    "data breaches"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "DDoS",
+   "aliases": [
+    "DDoS attack",
+    "distributed denial of service",
+    "denial of service",
+    "denial-of-service attack",
+    "DoS attack",
+    "DoS",
+    "distributed denial-of-service attack"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Identity theft",
+   "aliases": [
+    "identity fraud",
+    "stolen identity",
+    "ID theft"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Scams",
+   "aliases": [
+    "scam",
+    "online scam",
+    "internet scam",
+    "scammers",
+    "fraud scheme"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Social engineering",
+   "aliases": [
+    "social engineering attack",
+    "human hacking"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Spyware",
+   "aliases": [
+    "stalkerware"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Trojan",
+   "aliases": [
+    "trojan horse",
+    "trojan virus",
+    "trojans",
+    "trojan malware"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Worm",
+   "aliases": [
+    "computer worm",
+    "worms",
+    "network worm"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Account takeover",
+   "aliases": [
+    "ATO",
+    "account takeover fraud",
+    "account hijacking",
+    "hijacked account"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Advance-fee scam",
+   "aliases": [
+    "Nigerian prince scam",
+    "419 scam",
+    "advance fee fraud",
+    "Nigerian scam"
+   ],
+   "tier": 3,
+   "views": 13996
+  },
+  {
+   "name": "Advanced persistent threat",
+   "aliases": [
+    "APT",
+    "APT group",
+    "advanced persistent threats"
+   ],
+   "tier": 3,
+   "views": 11540
+  },
+  {
+   "name": "Anonymous",
+   "aliases": [
+    "Anonymous hackers",
+    "Anonymous hacker group"
+   ],
+   "tier": 3,
+   "views": 63151
+  },
+  {
+   "name": "AOHell",
+   "aliases": [],
+   "tier": 3,
+   "views": 30664
+  },
+  {
+   "name": "Arbitrary code execution",
+   "aliases": [
+    "remote code execution",
+    "RCE"
+   ],
+   "tier": 3,
+   "views": 11431
+  },
+  {
+   "name": "Ashley Madison data breach",
+   "aliases": [
+    "Ashley Madison hack",
+    "Ashley Madison breach"
+   ],
+   "tier": 3,
+   "views": 12858
+  },
+  {
+   "name": "Backdoor",
+   "aliases": [
+    "backdoor attack",
+    "backdoor trojan"
+   ],
+   "tier": 3,
+   "views": 8831
+  },
+  {
+   "name": "Banking trojan",
+   "aliases": [
+    "banking malware",
+    "banker trojan"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Billion laughs attack",
+   "aliases": [
+    "XML bomb",
+    "billion laughs"
+   ],
+   "tier": 3,
+   "views": 7885
+  },
+  {
+   "name": "Birthday attack",
+   "aliases": [],
+   "tier": 3,
+   "views": 8773
+  },
+  {
+   "name": "BonziBuddy",
+   "aliases": [],
+   "tier": 3,
+   "views": 24757
+  },
+  {
+   "name": "Botnet",
+   "aliases": [
+    "bot network",
+    "zombie network"
+   ],
+   "tier": 3,
+   "views": 44339
+  },
+  {
+   "name": "Brain virus",
+   "aliases": [
+    "Pakistani Brain",
+    "Brain computer virus"
+   ],
+   "tier": 3,
+   "views": 9032
+  },
+  {
+   "name": "Buffer overflow",
+   "aliases": [
+    "buffer overrun",
+    "stack overflow attack",
+    "stack buffer overflow",
+    "stack smashing"
+   ],
+   "tier": 3,
+   "views": 7887
+  },
+  {
+   "name": "Business email compromise",
+   "aliases": [
+    "BEC",
+    "BEC scam",
+    "email account compromise"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Cambridge Analytica scandal",
+   "aliases": [
+    "Cambridge Analytica",
+    "Facebook Cambridge Analytica"
+   ],
+   "tier": 3,
+   "views": 49437
+  },
+  {
+   "name": "Canvas data breach",
+   "aliases": [
+    "2026 Canvas data breach"
+   ],
+   "tier": 3,
+   "views": 16472
+  },
+  {
+   "name": "Carding",
+   "aliases": [
+    "credit card fraud",
+    "carding fraud",
+    "card fraud",
+    "stolen credit cards"
+   ],
+   "tier": 3,
+   "views": 8825
+  },
+  {
+   "name": "Catfishing",
+   "aliases": [
+    "catfish"
+   ],
+   "tier": 3,
+   "views": 26542
+  },
+  {
+   "name": "Cellular interception",
+   "aliases": [
+    "IMSI catcher",
+    "fake cell tower"
+   ],
+   "tier": 3,
+   "views": 8102
+  },
+  {
+   "name": "ClickFix",
+   "aliases": [
+    "fake CAPTCHA",
+    "ClickFix attack"
+   ],
+   "tier": 3,
+   "views": 20789
+  },
+  {
+   "name": "Code injection",
+   "aliases": [
+    "remote code injection"
+   ],
+   "tier": 3,
+   "views": 101631
+  },
+  {
+   "name": "Colonial Pipeline ransomware attack",
+   "aliases": [
+    "Colonial Pipeline hack",
+    "Colonial Pipeline attack",
+    "Colonial Pipeline"
+   ],
+   "tier": 3,
+   "views": 11381
+  },
+  {
+   "name": "Cross-site request forgery",
+   "aliases": [
+    "CSRF",
+    "XSRF",
+    "sea surf",
+    "one-click attack",
+    "session riding"
+   ],
+   "tier": 3,
+   "views": 112821
+  },
+  {
+   "name": "Cross-site scripting",
+   "aliases": [
+    "XSS",
+    "XSS attack",
+    "stored XSS",
+    "reflected XSS",
+    "DOM-based XSS"
+   ],
+   "tier": 3,
+   "views": 120687
+  },
+  {
+   "name": "Cyberattack",
+   "aliases": [
+    "cyberattacks"
+   ],
+   "tier": 3,
+   "views": 10729
+  },
+  {
+   "name": "Cyberbullying",
+   "aliases": [
+    "online harassment"
+   ],
+   "tier": 3,
+   "views": 16993
+  },
+  {
+   "name": "Cybercriminals",
+   "aliases": [
+    "cybercrime",
+    "cybercriminal"
+   ],
+   "tier": 3,
+   "views": 30139
+  },
+  {
+   "name": "Cyberwarfare",
+   "aliases": [
+    "cyber war"
+   ],
+   "tier": 3,
+   "views": 8320
+  },
+  {
+   "name": "Deepfake",
+   "aliases": [
+    "deepfakes",
+    "deepfake scam",
+    "voice cloning",
+    "AI voice cloning"
+   ],
+   "tier": 3,
+   "views": 62167
+  },
+  {
+   "name": "Disinformation",
+   "aliases": [
+    "disinformation campaign",
+    "fake news",
+    "misinformation",
+    "influence operation"
+   ],
+   "tier": 3,
+   "views": 10074
+  },
+  {
+   "name": "Doxing",
+   "aliases": [
+    "doxxing",
+    "dox",
+    "doxx"
+   ],
+   "tier": 3,
+   "views": 55870
+  },
+  {
+   "name": "Eavesdropping",
+   "aliases": [
+    "eavesdropping attack",
+    "wiretapping"
+   ],
+   "tier": 3,
+   "views": 9195
+  },
+  {
+   "name": "Equifax breach",
+   "aliases": [
+    "Equifax data breach",
+    "Equifax hack",
+    "2017 Equifax data breach"
+   ],
+   "tier": 3,
+   "views": 9165
+  },
+  {
+   "name": "EternalBlue",
+   "aliases": [],
+   "tier": 3,
+   "views": 18466
+  },
+  {
+   "name": "Fancy Bear",
+   "aliases": [
+    "APT28",
+    "Sofacy",
+    "Sednit",
+    "Pawn Storm",
+    "Forest Blizzard",
+    "Sofacy Group",
+    "Tsar Team",
+    "Group 74",
+    "Threat Group-4127",
+    "TG-4127",
+    "JHUHUGIT",
+    "Trojan.Sofacy",
+    "Seduploader",
+    "JKEYSKW",
+    "GAMEFISH",
+    "SofacyCarberp"
+   ],
+   "tier": 3,
+   "views": 7699
+  },
+  {
+   "name": "Fork bomb",
+   "aliases": [
+    "rabbit virus",
+    "wabbit"
+   ],
+   "tier": 3,
+   "views": 16118
+  },
+  {
+   "name": "French supermarket refrigerator hack",
+   "aliases": [
+    "2026 French supermarket refrigerator hack"
+   ],
+   "tier": 3,
+   "views": 24961
+  },
+  {
+   "name": "Hacktivism",
+   "aliases": [
+    "hacktivist",
+    "hacktivists"
+   ],
+   "tier": 3,
+   "views": 9335
+  },
+  {
+   "name": "Heartbleed",
+   "aliases": [
+    "Heartbleed bug"
+   ],
+   "tier": 3,
+   "views": 24790
+  },
+  {
+   "name": "IDN homograph attack",
+   "aliases": [
+    "homograph attack",
+    "homoglyph attack"
+   ],
+   "tier": 3,
+   "views": 10307
+  },
+  {
+   "name": "ILOVEYOU",
+   "aliases": [
+    "Love Bug",
+    "ILOVEYOU virus",
+    "Love Letter virus"
+   ],
+   "tier": 3,
+   "views": 35417
+  },
+  {
+   "name": "Integer overflow",
+   "aliases": [],
+   "tier": 3,
+   "views": 13876
+  },
+  {
+   "name": "Jaguar Land Rover cyberattack",
+   "aliases": [],
+   "tier": 3,
+   "views": 8647
+  },
+  {
+   "name": "Lapsus$",
+   "aliases": [
+    "DEV-0537",
+    "Strawberry Tempest"
+   ],
+   "tier": 3,
+   "views": 19249
+  },
+  {
+   "name": "Lazarus Group",
+   "aliases": [
+    "Lazarus",
+    "Hidden Cobra",
+    "Guardians of Peace",
+    "Diamond Sleet",
+    "Labyrinth Chollima",
+    "NICKEL GLADSTONE",
+    "Stardust Chollima",
+    "Sapphire Sleet"
+   ],
+   "tier": 3,
+   "views": 26267
+  },
+  {
+   "name": "LulzSec",
+   "aliases": [
+    "Lulz Security"
+   ],
+   "tier": 3,
+   "views": 14150
+  },
+  {
+   "name": "Malicious attachment",
+   "aliases": [
+    "email attachment malware",
+    "infected attachment"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Malicious link",
+   "aliases": [
+    "malicious URL",
+    "bad link",
+    "suspicious link"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Man-in-the-middle attack",
+   "aliases": [
+    "MITM",
+    "man in the middle",
+    "MitM attack",
+    "on-path attack",
+    "adversary-in-the-middle",
+    "AiTM",
+    "machine-in-the-middle",
+    "person-in-the-middle",
+    "monster-in-the-middle"
+   ],
+   "tier": 3,
+   "views": 28487
+  },
+  {
+   "name": "Mirai",
+   "aliases": [
+    "Mirai botnet"
+   ],
+   "tier": 3,
+   "views": 10880
+  },
+  {
+   "name": "Morris worm",
+   "aliases": [
+    "Morris internet worm",
+    "Great Worm"
+   ],
+   "tier": 3,
+   "views": 21907
+  },
+  {
+   "name": "Nation-state hackers",
+   "aliases": [
+    "state-sponsored hackers",
+    "nation state attack",
+    "nation-state actor",
+    "state-sponsored attack"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Nintendo data leak",
+   "aliases": [],
+   "tier": 3,
+   "views": 9170
+  },
+  {
+   "name": "Pegasus",
+   "aliases": [
+    "Pegasus spyware",
+    "NSO Pegasus"
+   ],
+   "tier": 3,
+   "views": 61766
+  },
+  {
+   "name": "Petya",
+   "aliases": [
+    "Petya ransomware",
+    "Diskcoder.C",
+    "GoldenEye",
+    "Petrwrap"
+   ],
+   "tier": 3,
+   "views": 9741
+  },
+  {
+   "name": "PHP2Shell",
+   "aliases": [],
+   "tier": 3,
+   "views": 468587
+  },
+  {
+   "name": "Pig butchering scam",
+   "aliases": [
+    "pig butchering",
+    "sha zhu pan"
+   ],
+   "tier": 3,
+   "views": 28031
+  },
+  {
+   "name": "Port scanning",
+   "aliases": [
+    "port scan",
+    "port scanner",
+    "nmap scan"
+   ],
+   "tier": 3,
+   "views": 7862
+  },
+  {
+   "name": "Prompt injection",
+   "aliases": [
+    "prompt injection attack",
+    "indirect prompt injection",
+    "LLM prompt injection"
+   ],
+   "tier": 3,
+   "views": 14810
+  },
+  {
+   "name": "Race condition",
+   "aliases": [
+    "TOCTOU",
+    "time-of-check to time-of-use"
+   ],
+   "tier": 3,
+   "views": 15533
+  },
+  {
+   "name": "Rainbow table attack",
+   "aliases": [
+    "rainbow table",
+    "rainbow tables"
+   ],
+   "tier": 3,
+   "views": 26392
+  },
+  {
+   "name": "Remote access trojan",
+   "aliases": [
+    "RAT",
+    "remote access tool",
+    "remote administration trojan",
+    "remote access tools"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Replay attack",
+   "aliases": [
+    "playback attack"
+   ],
+   "tier": 3,
+   "views": 8208
+  },
+  {
+   "name": "Rhysida",
+   "aliases": [
+    "Rhysida ransomware"
+   ],
+   "tier": 3,
+   "views": 22143
+  },
+  {
+   "name": "Rootkit",
+   "aliases": [
+    "kernel rootkit"
+   ],
+   "tier": 3,
+   "views": 21643
+  },
+  {
+   "name": "Salt Typhoon",
+   "aliases": [
+    "GhostEmperor",
+    "FamousSparrow"
+   ],
+   "tier": 3,
+   "views": 7750
+  },
+  {
+   "name": "Scattered Spider",
+   "aliases": [
+    "Octo Tempest",
+    "UNC3944",
+    "0ktapus",
+    "Roasted 0ktapus",
+    "Storm-0875"
+   ],
+   "tier": 3,
+   "views": 9143
+  },
+  {
+   "name": "Server-side request forgery",
+   "aliases": [
+    "SSRF"
+   ],
+   "tier": 3,
+   "views": 20445
+  },
+  {
+   "name": "Sextortion",
+   "aliases": [
+    "sextortion scam",
+    "sextortion email"
+   ],
+   "tier": 3,
+   "views": 18428
+  },
+  {
+   "name": "ShinyHunters",
+   "aliases": [
+    "UNC6240",
+    "Bling Libra"
+   ],
+   "tier": 3,
+   "views": 129945
+  },
+  {
+   "name": "SIM swapping",
+   "aliases": [
+    "SIM swap",
+    "SIM swap scam",
+    "SIM hijacking",
+    "SIM jacking",
+    "port-out scam"
+   ],
+   "tier": 3,
+   "views": 7976
+  },
+  {
+   "name": "Smishing",
+   "aliases": [
+    "SMS phishing",
+    "text message phishing",
+    "text phishing"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Sony BMG copy protection rootkit scandal",
+   "aliases": [
+    "Sony BMG rootkit",
+    "Sony rootkit"
+   ],
+   "tier": 3,
+   "views": 11810
+  },
+  {
+   "name": "Sony Pictures hack",
+   "aliases": [
+    "Sony hack",
+    "2014 Sony Pictures hack"
+   ],
+   "tier": 3,
+   "views": 15620
+  },
+  {
+   "name": "Spam",
+   "aliases": [
+    "spamming",
+    "spam email",
+    "junk mail",
+    "email spam"
+   ],
+   "tier": 3,
+   "views": 29599
+  },
+  {
+   "name": "Spear phishing",
+   "aliases": [
+    "targeted phishing",
+    "spearphishing attachment",
+    "spearphishing link"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "Spectre",
+   "aliases": [
+    "Spectre vulnerability"
+   ],
+   "tier": 3,
+   "views": 10233
+  },
+  {
+   "name": "SQL injection",
+   "aliases": [
+    "SQLi",
+    "SQL injection attack",
+    "sql inject",
+    "blind SQL injection"
+   ],
+   "tier": 3,
+   "views": 32091
+  },
+  {
+   "name": "Steganography",
+   "aliases": [
+    "stego",
+    "steganographic malware"
+   ],
+   "tier": 3,
+   "views": 32863
+  },
+  {
+   "name": "Swatting",
+   "aliases": [],
+   "tier": 3,
+   "views": 29287
+  },
+  {
+   "name": "Tailored Access Operations",
+   "aliases": [
+    "NSA hackers"
+   ],
+   "tier": 3,
+   "views": 10083
+  },
+  {
+   "name": "The Shadow Brokers",
+   "aliases": [
+    "Shadow Brokers"
+   ],
+   "tier": 3,
+   "views": 10841
+  },
+  {
+   "name": "Twitter hack",
+   "aliases": [
+    "2020 Twitter hack",
+    "Twitter account hijacking",
+    "Twitter bitcoin scam"
+   ],
+   "tier": 3,
+   "views": 8420
+  },
+  {
+   "name": "Unsecured Wi-Fi",
+   "aliases": [
+    "public wifi",
+    "public Wi-Fi attack",
+    "open wifi",
+    "free wifi"
+   ],
+   "tier": 3
+  },
+  {
+   "name": "XZ Utils backdoor",
+   "aliases": [
+    "xz backdoor",
+    "xz utils"
+   ],
+   "tier": 3,
+   "views": 34676
+  },
+  {
+   "name": "Zero-day",
+   "aliases": [
+    "0day",
+    "zero-day exploit",
+    "zero-day attack",
+    "zero-day vulnerability"
+   ],
+   "tier": 3,
+   "views": 36107
+  },
+  {
+   "name": "Zip bomb",
+   "aliases": [
+    "decompression bomb",
+    "zip of death"
+   ],
+   "tier": 3,
+   "views": 31311
+  },
+  {
+   "name": "23andMe data breach",
+   "aliases": [
+    "23andMe breach",
+    "23andMe leak"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Adversarial machine learning",
+   "aliases": [
+    "adversarial examples",
+    "adversarial attack",
+    "evasion attack"
+   ],
+   "tier": 4,
+   "views": 5861
+  },
+  {
+   "name": "Adware",
+   "aliases": [
+    "advertising malware"
+   ],
+   "tier": 4,
+   "views": 4764
+  },
+  {
+   "name": "Agent.BTZ",
+   "aliases": [],
+   "tier": 4,
+   "views": 2060
+  },
+  {
+   "name": "Agobot",
+   "aliases": [],
+   "tier": 4,
+   "views": 1911
+  },
+  {
+   "name": "AIDS trojan",
+   "aliases": [],
+   "tier": 4,
+   "views": 2591
+  },
+  {
+   "name": "Akira ransomware",
+   "aliases": [],
+   "tier": 4,
+   "views": 3361
+  },
+  {
+   "name": "Anna Kournikova virus",
+   "aliases": [
+    "Anna Kournikova worm"
+   ],
+   "tier": 4,
+   "views": 2756
+  },
+  {
+   "name": "Anonymous Sudan",
+   "aliases": [
+    "Storm-1359"
+   ],
+   "tier": 4,
+   "views": 1781
+  },
+  {
+   "name": "APT1",
+   "aliases": [
+    "Comment Crew",
+    "Unit 61398",
+    "PLA Unit 61398",
+    "Comment Panda",
+    "Comment Group"
+   ],
+   "tier": 4,
+   "views": 3270
+  },
+  {
+   "name": "ARP spoofing",
+   "aliases": [
+    "ARP poisoning",
+    "ARP cache poisoning"
+   ],
+   "tier": 4,
+   "views": 5168
+  },
+  {
+   "name": "Asprox botnet",
+   "aliases": [
+    "Asprox"
+   ],
+   "tier": 4,
+   "views": 2805
+  },
+  {
+   "name": "ATM jackpotting",
+   "aliases": [
+    "jackpotting",
+    "ATM malware"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Baiting",
+   "aliases": [
+    "baiting attack",
+    "USB drop attack",
+    "USB baiting",
+    "dropped USB drive"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Bangladesh Bank heist",
+   "aliases": [
+    "Bangladesh Bank robbery",
+    "Bangladesh Bank hack",
+    "SWIFT heist"
+   ],
+   "tier": 4,
+   "views": 7321
+  },
+  {
+   "name": "BGP hijacking",
+   "aliases": [
+    "route hijacking",
+    "prefix hijacking",
+    "IP hijacking"
+   ],
+   "tier": 4,
+   "views": 2314
+  },
+  {
+   "name": "Black hat hacker",
+   "aliases": [
+    "black hat",
+    "black hat hackers"
+   ],
+   "tier": 4,
+   "views": 7305
+  },
+  {
+   "name": "Blaster",
+   "aliases": [
+    "Blaster worm",
+    "Lovsan",
+    "MSBlast"
+   ],
+   "tier": 4,
+   "views": 4695
+  },
+  {
+   "name": "BlueKeep",
+   "aliases": [],
+   "tier": 4,
+   "views": 2299
+  },
+  {
+   "name": "Boot sector virus",
+   "aliases": [
+    "boot virus",
+    "boot sector malware",
+    "MBR virus"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Bootkit",
+   "aliases": [
+    "bootkits",
+    "MBR rootkit",
+    "UEFI rootkit"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "BREACH attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 2123
+  },
+  {
+   "name": "BrickerBot",
+   "aliases": [],
+   "tier": 4,
+   "views": 7134
+  },
+  {
+   "name": "British Airways data breach",
+   "aliases": [],
+   "tier": 4,
+   "views": 1881
+  },
+  {
+   "name": "British Library cyberattack",
+   "aliases": [],
+   "tier": 4,
+   "views": 2768
+  },
+  {
+   "name": "Broken access control",
+   "aliases": [
+    "access control vulnerability",
+    "broken authorization"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Broken authentication",
+   "aliases": [
+    "identification and authentication failures",
+    "authentication failure"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Browser hijacker",
+   "aliases": [
+    "browser hijacking",
+    "homepage hijacker"
+   ],
+   "tier": 4,
+   "views": 1755
+  },
+  {
+   "name": "Bulletproof hosting",
+   "aliases": [
+    "bulletproof hoster"
+   ],
+   "tier": 4,
+   "views": 2321
+  },
+  {
+   "name": "Bureau 121",
+   "aliases": [],
+   "tier": 4,
+   "views": 2622
+  },
+  {
+   "name": "Caller ID spoofing",
+   "aliases": [
+    "phone spoofing",
+    "caller id spoof"
+   ],
+   "tier": 4,
+   "views": 6647
+  },
+  {
+   "name": "Capital One data breach",
+   "aliases": [
+    "Capital One hack",
+    "Capital One breach"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Carbanak",
+   "aliases": [
+    "Anunak"
+   ],
+   "tier": 4,
+   "views": 1768
+  },
+  {
+   "name": "Card skimming",
+   "aliases": [
+    "skimming",
+    "ATM skimming",
+    "card skimmer",
+    "skimmer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Change Healthcare ransomware attack",
+   "aliases": [
+    "Change Healthcare hack",
+    "Change Healthcare breach"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Chosen-plaintext attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 1823
+  },
+  {
+   "name": "CIH",
+   "aliases": [
+    "Chernobyl virus",
+    "Spacefiller"
+   ],
+   "tier": 4,
+   "views": 4485
+  },
+  {
+   "name": "Click fraud",
+   "aliases": [
+    "ad fraud",
+    "click farm"
+   ],
+   "tier": 4,
+   "views": 2200
+  },
+  {
+   "name": "Clickjacking",
+   "aliases": [
+    "UI redress attack",
+    "UI redressing",
+    "likejacking"
+   ],
+   "tier": 4,
+   "views": 6106
+  },
+  {
+   "name": "Clop",
+   "aliases": [
+    "Cl0p",
+    "Clop ransomware"
+   ],
+   "tier": 4,
+   "views": 3187
+  },
+  {
+   "name": "Cloud misconfiguration",
+   "aliases": [
+    "open S3 bucket",
+    "exposed S3 bucket",
+    "leaky bucket",
+    "misconfigured cloud"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Cobalt Strike",
+   "aliases": [
+    "Cobalt Strike beacon"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Code Red",
+   "aliases": [
+    "Code Red worm"
+   ],
+   "tier": 4,
+   "views": 5335
+  },
+  {
+   "name": "Cold boot attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 5523
+  },
+  {
+   "name": "Collision attack",
+   "aliases": [
+    "hash collision attack"
+   ],
+   "tier": 4,
+   "views": 2816
+  },
+  {
+   "name": "Command and control",
+   "aliases": [
+    "C2",
+    "C&C",
+    "C2 server",
+    "command-and-control server"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Command injection",
+   "aliases": [
+    "OS command injection",
+    "shell injection"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Conficker",
+   "aliases": [
+    "Downadup",
+    "Kido",
+    "Conficker worm"
+   ],
+   "tier": 4,
+   "views": 4669
+  },
+  {
+   "name": "Conti",
+   "aliases": [
+    "Conti ransomware"
+   ],
+   "tier": 4,
+   "views": 5028
+  },
+  {
+   "name": "Copy Fail",
+   "aliases": [],
+   "tier": 4,
+   "views": 3616
+  },
+  {
+   "name": "Cozy Bear",
+   "aliases": [
+    "APT29",
+    "The Dukes",
+    "Nobelium",
+    "Midnight Blizzard",
+    "CozyDuke",
+    "Dark Halo",
+    "UNC2452",
+    "UNC3524",
+    "HAMMERTOSS",
+    "HammerDuke",
+    "NetDuke",
+    "CozyCar",
+    "Cozer",
+    "EuroAPT"
+   ],
+   "tier": 4,
+   "views": 5933
+  },
+  {
+   "name": "Credential dumping",
+   "aliases": [
+    "OS credential dumping",
+    "LSASS dumping",
+    "password dumping"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Credential harvesting",
+   "aliases": [
+    "credential theft",
+    "password theft",
+    "stolen credentials"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Credential stuffing",
+   "aliases": [
+    "credential stuffing attack"
+   ],
+   "tier": 4,
+   "views": 6626
+  },
+  {
+   "name": "Creeper virus",
+   "aliases": [
+    "Creeper program"
+   ],
+   "tier": 4,
+   "views": 4084
+  },
+  {
+   "name": "CRIME attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 4607
+  },
+  {
+   "name": "CrowdStrike outage",
+   "aliases": [
+    "CrowdStrike incident",
+    "CrowdStrike update"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Crypto scam",
+   "aliases": [
+    "cryptocurrency scam",
+    "crypto fraud",
+    "rug pull"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "CryptoLocker",
+   "aliases": [
+    "CryptoLocker ransomware"
+   ],
+   "tier": 4,
+   "views": 2926
+  },
+  {
+   "name": "Cybersquatting",
+   "aliases": [
+    "domain squatting"
+   ],
+   "tier": 4,
+   "views": 6443
+  },
+  {
+   "name": "Cyberstalking",
+   "aliases": [
+    "online stalking"
+   ],
+   "tier": 4,
+   "views": 5662
+  },
+  {
+   "name": "Cyberterrorism",
+   "aliases": [
+    "cyberterrorist"
+   ],
+   "tier": 4,
+   "views": 3298
+  },
+  {
+   "name": "Dark web marketplace",
+   "aliases": [
+    "darknet market",
+    "dark web",
+    "darknet",
+    "black market forums"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "DarkSide",
+   "aliases": [
+    "DarkSide ransomware"
+   ],
+   "tier": 4,
+   "views": 2719
+  },
+  {
+   "name": "Data poisoning",
+   "aliases": [
+    "training data poisoning",
+    "model poisoning",
+    "AI poisoning"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Data scraping",
+   "aliases": [
+    "web scraping",
+    "scraping attack"
+   ],
+   "tier": 4,
+   "views": 3903
+  },
+  {
+   "name": "Deauthentication attack",
+   "aliases": [
+    "deauth attack",
+    "wifi deauth",
+    "Wi-Fi deauthentication"
+   ],
+   "tier": 4,
+   "views": 4047
+  },
+  {
+   "name": "Democratic National Committee email leak",
+   "aliases": [
+    "2016 Democratic National Committee email leak"
+   ],
+   "tier": 4,
+   "views": 5830
+  },
+  {
+   "name": "Dependency confusion",
+   "aliases": [
+    "dependency confusion attack",
+    "namespace confusion"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Dictionary attack",
+   "aliases": [
+    "wordlist attack"
+   ],
+   "tier": 4,
+   "views": 3599
+  },
+  {
+   "name": "Dirty COW",
+   "aliases": [],
+   "tier": 4,
+   "views": 1848
+  },
+  {
+   "name": "DNS amplification attack",
+   "aliases": [
+    "DNS amplification",
+    "DNS reflection attack"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "DNS hijacking",
+   "aliases": [
+    "DNS redirection"
+   ],
+   "tier": 4,
+   "views": 4315
+  },
+  {
+   "name": "DNS spoofing",
+   "aliases": [
+    "DNS cache poisoning",
+    "DNS poisoning",
+    "cache poisoning"
+   ],
+   "tier": 4,
+   "views": 3657
+  },
+  {
+   "name": "DNS tunneling",
+   "aliases": [
+    "DNS tunnelling"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Double extortion",
+   "aliases": [
+    "double extortion ransomware",
+    "triple extortion"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Drive-by download",
+   "aliases": [
+    "drive-by attack",
+    "drive-by compromise"
+   ],
+   "tier": 4,
+   "views": 2897
+  },
+  {
+   "name": "Dropper",
+   "aliases": [
+    "malware dropper"
+   ],
+   "tier": 4,
+   "views": 1572
+  },
+  {
+   "name": "Dumpster diving",
+   "aliases": [],
+   "tier": 4,
+   "views": 3854
+  },
+  {
+   "name": "Duqu",
+   "aliases": [],
+   "tier": 4,
+   "views": 1812
+  },
+  {
+   "name": "Dyn cyberattack",
+   "aliases": [
+    "Dyn DDoS attack",
+    "DDoS attacks on Dyn",
+    "Dyn attack"
+   ],
+   "tier": 4,
+   "views": 5825
+  },
+  {
+   "name": "Elk Cloner",
+   "aliases": [],
+   "tier": 4,
+   "views": 2234
+  },
+  {
+   "name": "Email bomb",
+   "aliases": [
+    "email bombing",
+    "mail bomb",
+    "email flooding"
+   ],
+   "tier": 4,
+   "views": 2927
+  },
+  {
+   "name": "Email spoofing",
+   "aliases": [
+    "spoofed email",
+    "spoof email",
+    "email spoof"
+   ],
+   "tier": 4,
+   "views": 5095
+  },
+  {
+   "name": "Emotet",
+   "aliases": [
+    "Emotet trojan",
+    "Heodo",
+    "Geodo"
+   ],
+   "tier": 4,
+   "views": 1680
+  },
+  {
+   "name": "Equation Group",
+   "aliases": [],
+   "tier": 4
+  },
+  {
+   "name": "Estonia cyberattacks",
+   "aliases": [
+    "2007 cyberattacks on Estonia",
+    "Estonia cyberattack"
+   ],
+   "tier": 4,
+   "views": 2714
+  },
+  {
+   "name": "Evil maid attack",
+   "aliases": [
+    "evil maid"
+   ],
+   "tier": 4,
+   "views": 3259
+  },
+  {
+   "name": "Evil twin",
+   "aliases": [
+    "evil twin attack",
+    "evil twin access point",
+    "rogue wifi"
+   ],
+   "tier": 4,
+   "views": 2697
+  },
+  {
+   "name": "Exploit",
+   "aliases": [
+    "software exploit",
+    "exploits"
+   ],
+   "tier": 4,
+   "views": 7149
+  },
+  {
+   "name": "Facebook data breach",
+   "aliases": [
+    "Facebook leak",
+    "Facebook breach"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Fake app",
+   "aliases": [
+    "fake mobile app",
+    "malicious app",
+    "trojanized app"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Fake website",
+   "aliases": [
+    "spoofed website",
+    "spoofed URL",
+    "lookalike domain",
+    "fake login page"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Fast16",
+   "aliases": [],
+   "tier": 4,
+   "views": 1682
+  },
+  {
+   "name": "File inclusion",
+   "aliases": [
+    "local file inclusion",
+    "remote file inclusion",
+    "LFI",
+    "RFI"
+   ],
+   "tier": 4,
+   "views": 2638
+  },
+  {
+   "name": "FinFisher",
+   "aliases": [
+    "FinSpy"
+   ],
+   "tier": 4,
+   "views": 1701
+  },
+  {
+   "name": "Flame malware",
+   "aliases": [
+    "Flamer",
+    "sKyWIper"
+   ],
+   "tier": 4,
+   "views": 3600
+  },
+  {
+   "name": "FORCEDENTRY",
+   "aliases": [],
+   "tier": 4,
+   "views": 2963
+  },
+  {
+   "name": "Formjacking",
+   "aliases": [
+    "web skimming",
+    "digital skimming",
+    "Magecart attack"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Gameover ZeuS",
+   "aliases": [
+    "GOZ",
+    "P2P Zeus",
+    "Peer-to-Peer ZeuS"
+   ],
+   "tier": 4,
+   "views": 2086
+  },
+  {
+   "name": "GhostNet",
+   "aliases": [
+    "Mydoor",
+    "Moudoor"
+   ],
+   "tier": 4,
+   "views": 2092
+  },
+  {
+   "name": "Gift card scam",
+   "aliases": [
+    "gift card fraud"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Grandparent scam",
+   "aliases": [
+    "emergency scam"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Grey hat hacker",
+   "aliases": [
+    "grey hat",
+    "gray hat",
+    "gray hat hacker"
+   ],
+   "tier": 4,
+   "views": 7165
+  },
+  {
+   "name": "Hacker group",
+   "aliases": [
+    "hacking group",
+    "hacker collective"
+   ],
+   "tier": 4,
+   "views": 1521
+  },
+  {
+   "name": "Health Service Executive ransomware attack",
+   "aliases": [
+    "HSE ransomware attack",
+    "HSE cyberattack"
+   ],
+   "tier": 4,
+   "views": 2212
+  },
+  {
+   "name": "HTTP request smuggling",
+   "aliases": [
+    "request smuggling"
+   ],
+   "tier": 4,
+   "views": 1980
+  },
+  {
+   "name": "Infected USB drive",
+   "aliases": [
+    "USB malware",
+    "infected flash drive",
+    "removable media malware"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Information warfare",
+   "aliases": [
+    "info war"
+   ],
+   "tier": 4,
+   "views": 4811
+  },
+  {
+   "name": "Infostealer",
+   "aliases": [
+    "information stealer",
+    "stealer malware",
+    "password stealer"
+   ],
+   "tier": 4,
+   "views": 3833
+  },
+  {
+   "name": "Insecure deserialization",
+   "aliases": [
+    "deserialization attack",
+    "deserialization vulnerability",
+    "unsafe deserialization"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Invoice fraud",
+   "aliases": [
+    "fake invoice",
+    "invoice scam"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "IP spoofing",
+   "aliases": [
+    "IP address spoofing"
+   ],
+   "tier": 4,
+   "views": 2903
+  },
+  {
+   "name": "Job scam",
+   "aliases": [
+    "employment scam",
+    "fake job offer",
+    "recruitment scam"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Juice jacking",
+   "aliases": [
+    "USB charging attack"
+   ],
+   "tier": 4,
+   "views": 4435
+  },
+  {
+   "name": "Kaseya ransomware attack",
+   "aliases": [
+    "Kaseya attack",
+    "Kaseya VSA ransomware attack",
+    "Kaseya hack"
+   ],
+   "tier": 4,
+   "views": 1773
+  },
+  {
+   "name": "Keylogger",
+   "aliases": [
+    "keystroke logging",
+    "keylogging",
+    "keystroke logger"
+   ],
+   "tier": 4,
+   "views": 5956
+  },
+  {
+   "name": "Known-plaintext attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 5191
+  },
+  {
+   "name": "LastPass breach",
+   "aliases": [
+    "LastPass hack",
+    "LastPass data breach"
+   ],
+   "tier": 4,
+   "views": 2789
+  },
+  {
+   "name": "Lateral movement",
+   "aliases": [
+    "lateral movement attack",
+    "pivoting"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Length extension attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 3032
+  },
+  {
+   "name": "LinkedIn hack",
+   "aliases": [
+    "LinkedIn breach",
+    "LinkedIn data breach"
+   ],
+   "tier": 4,
+   "views": 1667
+  },
+  {
+   "name": "Linux malware",
+   "aliases": [],
+   "tier": 4,
+   "views": 2924
+  },
+  {
+   "name": "Lizard Squad",
+   "aliases": [],
+   "tier": 4,
+   "views": 6155
+  },
+  {
+   "name": "LockBit",
+   "aliases": [
+    "LockBit ransomware"
+   ],
+   "tier": 4,
+   "views": 6025
+  },
+  {
+   "name": "Logic bomb",
+   "aliases": [
+    "slag code"
+   ],
+   "tier": 4,
+   "views": 4114
+  },
+  {
+   "name": "Lumma Stealer",
+   "aliases": [
+    "LummaC2"
+   ],
+   "tier": 4,
+   "views": 2318
+  },
+  {
+   "name": "MAC spoofing",
+   "aliases": [
+    "MAC address spoofing"
+   ],
+   "tier": 4,
+   "views": 2623
+  },
+  {
+   "name": "Malvertising",
+   "aliases": [
+    "malicious advertising",
+    "malicious ads"
+   ],
+   "tier": 4,
+   "views": 4572
+  },
+  {
+   "name": "Malware infection of the United States Department of Defense",
+   "aliases": [
+    "2008 malware infection of the United States Department of Defense"
+   ],
+   "tier": 4,
+   "views": 1718
+  },
+  {
+   "name": "Meet-in-the-middle attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 1800
+  },
+  {
+   "name": "Melissa virus",
+   "aliases": [
+    "Melissa worm"
+   ],
+   "tier": 4,
+   "views": 3921
+  },
+  {
+   "name": "Meltdown",
+   "aliases": [
+    "Meltdown vulnerability"
+   ],
+   "tier": 4,
+   "views": 7288
+  },
+  {
+   "name": "MFA fatigue",
+   "aliases": [
+    "MFA bombing",
+    "push bombing",
+    "MFA fatigue attack",
+    "prompt bombing",
+    "MFA spamming"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Michelangelo virus",
+   "aliases": [],
+   "tier": 4,
+   "views": 1775
+  },
+  {
+   "name": "Mimikatz",
+   "aliases": [],
+   "tier": 4,
+   "views": 2124
+  },
+  {
+   "name": "Minnesota water system cyberattack",
+   "aliases": [
+    "2026 Minnesota water system cyberattack"
+   ],
+   "tier": 4,
+   "views": 3001
+  },
+  {
+   "name": "MOVEit breach",
+   "aliases": [
+    "MOVEit hack",
+    "MOVEit data breach",
+    "MOVEit"
+   ],
+   "tier": 4,
+   "views": 2957
+  },
+  {
+   "name": "Mydoom",
+   "aliases": [
+    "MyDoom worm",
+    "Novarg"
+   ],
+   "tier": 4,
+   "views": 6819
+  },
+  {
+   "name": "National Public Data breach",
+   "aliases": [
+    "NPD breach",
+    "National Public Data hack"
+   ],
+   "tier": 4,
+   "views": 2731
+  },
+  {
+   "name": "Nimda",
+   "aliases": [
+    "Nimda worm"
+   ],
+   "tier": 4,
+   "views": 1623
+  },
+  {
+   "name": "NotPetya",
+   "aliases": [
+    "NotPetya attack",
+    "ExPetr",
+    "Nyetya"
+   ],
+   "tier": 4,
+   "views": 4182
+  },
+  {
+   "name": "Online fraud",
+   "aliases": [
+    "internet fraud",
+    "cyber fraud"
+   ],
+   "tier": 4,
+   "views": 2782
+  },
+  {
+   "name": "Operation AntiSec",
+   "aliases": [],
+   "tier": 4,
+   "views": 1540
+  },
+  {
+   "name": "Operation Aurora",
+   "aliases": [
+    "Aurora attack",
+    "Google China hack"
+   ],
+   "tier": 4,
+   "views": 4478
+  },
+  {
+   "name": "Operation Olympic Games",
+   "aliases": [],
+   "tier": 4,
+   "views": 5810
+  },
+  {
+   "name": "Operation Payback",
+   "aliases": [],
+   "tier": 4,
+   "views": 2339
+  },
+  {
+   "name": "Operation Triangulation",
+   "aliases": [],
+   "tier": 4,
+   "views": 1491
+  },
+  {
+   "name": "OPM data breach",
+   "aliases": [
+    "OPM hack",
+    "Office of Personnel Management data breach"
+   ],
+   "tier": 4,
+   "views": 7089
+  },
+  {
+   "name": "Optus data breach",
+   "aliases": [
+    "Optus hack"
+   ],
+   "tier": 4,
+   "views": 1588
+  },
+  {
+   "name": "Packet sniffing",
+   "aliases": [
+    "sniffing",
+    "network sniffing",
+    "packet sniffer",
+    "sniffer"
+   ],
+   "tier": 4,
+   "views": 3495
+  },
+  {
+   "name": "Padding oracle attack",
+   "aliases": [
+    "padding oracle"
+   ],
+   "tier": 4,
+   "views": 6844
+  },
+  {
+   "name": "Pass the hash",
+   "aliases": [
+    "PtH"
+   ],
+   "tier": 4,
+   "views": 1540
+  },
+  {
+   "name": "Password cracking",
+   "aliases": [
+    "cracking passwords"
+   ],
+   "tier": 4,
+   "views": 6058
+  },
+  {
+   "name": "Password spraying",
+   "aliases": [
+    "password spray",
+    "spray attack"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Phone scam",
+   "aliases": [
+    "telephone fraud",
+    "robocall scam",
+    "robocalls"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Ping of death",
+   "aliases": [],
+   "tier": 4,
+   "views": 2344
+  },
+  {
+   "name": "PlayStation Network hack",
+   "aliases": [
+    "PSN hack",
+    "PlayStation Network outage",
+    "PSN outage"
+   ],
+   "tier": 4,
+   "views": 7063
+  },
+  {
+   "name": "Point-of-sale malware",
+   "aliases": [
+    "POS malware",
+    "RAM scraper"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Polymorphic malware",
+   "aliases": [
+    "polymorphic code",
+    "polymorphic virus"
+   ],
+   "tier": 4,
+   "views": 1478
+  },
+  {
+   "name": "POODLE",
+   "aliases": [
+    "POODLE attack"
+   ],
+   "tier": 4,
+   "views": 3942
+  },
+  {
+   "name": "Pop-up scam",
+   "aliases": [
+    "fake virus alert",
+    "browser pop-up scam"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Potentially unwanted program",
+   "aliases": [
+    "PUP",
+    "PUA",
+    "potentially unwanted application",
+    "bloatware",
+    "grayware"
+   ],
+   "tier": 4,
+   "views": 2105
+  },
+  {
+   "name": "Power analysis",
+   "aliases": [
+    "differential power analysis",
+    "DPA attack"
+   ],
+   "tier": 4,
+   "views": 1805
+  },
+  {
+   "name": "Pranknet",
+   "aliases": [],
+   "tier": 4,
+   "views": 1532
+  },
+  {
+   "name": "Pretexting",
+   "aliases": [
+    "pretext attack"
+   ],
+   "tier": 4,
+   "views": 2368
+  },
+  {
+   "name": "PrintNightmare",
+   "aliases": [],
+   "tier": 4,
+   "views": 2434
+  },
+  {
+   "name": "Privilege escalation",
+   "aliases": [
+    "privesc",
+    "elevation of privilege",
+    "vertical privilege escalation"
+   ],
+   "tier": 4,
+   "views": 4561
+  },
+  {
+   "name": "Quishing",
+   "aliases": [
+    "QR code phishing",
+    "QR phishing",
+    "malicious QR code"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Ransomware as a service",
+   "aliases": [
+    "RaaS"
+   ],
+   "tier": 4,
+   "views": 1554
+  },
+  {
+   "name": "ReDoS",
+   "aliases": [
+    "regular expression denial of service"
+   ],
+   "tier": 4,
+   "views": 3535
+  },
+  {
+   "name": "Relay attack",
+   "aliases": [
+    "relay theft",
+    "keyless car theft"
+   ],
+   "tier": 4,
+   "views": 1533
+  },
+  {
+   "name": "Rensenware",
+   "aliases": [],
+   "tier": 4,
+   "views": 4447
+  },
+  {
+   "name": "Return-oriented programming",
+   "aliases": [
+    "ROP",
+    "ROP chain"
+   ],
+   "tier": 4,
+   "views": 5544
+  },
+  {
+   "name": "REvil",
+   "aliases": [
+    "Sodinokibi",
+    "Sodin"
+   ],
+   "tier": 4,
+   "views": 2129
+  },
+  {
+   "name": "Rogue security software",
+   "aliases": [
+    "rogueware",
+    "fake security software"
+   ],
+   "tier": 4,
+   "views": 1522
+  },
+  {
+   "name": "Romance scam",
+   "aliases": [
+    "catfishing scam",
+    "sweetheart scam"
+   ],
+   "tier": 4,
+   "views": 5995
+  },
+  {
+   "name": "Rowhammer",
+   "aliases": [
+    "rowhammer attack"
+   ],
+   "tier": 4,
+   "views": 5795
+  },
+  {
+   "name": "Rubber Ducky attack",
+   "aliases": [
+    "USB Rubber Ducky",
+    "BadUSB",
+    "malicious USB",
+    "rubber ducky"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Ryuk",
+   "aliases": [
+    "Ryuk ransomware"
+   ],
+   "tier": 4,
+   "views": 2742
+  },
+  {
+   "name": "Sality",
+   "aliases": [],
+   "tier": 4,
+   "views": 1513
+  },
+  {
+   "name": "SamSam",
+   "aliases": [
+    "SamSam ransomware"
+   ],
+   "tier": 4,
+   "views": 1867
+  },
+  {
+   "name": "Samy worm",
+   "aliases": [
+    "MySpace worm",
+    "Samy is my hero"
+   ],
+   "tier": 4,
+   "views": 3549
+  },
+  {
+   "name": "Sandworm",
+   "aliases": [
+    "Sandworm Team",
+    "Voodoo Bear",
+    "APT44",
+    "Seashell Blizzard",
+    "Telebots",
+    "BlackEnergy (Group)"
+   ],
+   "tier": 4,
+   "views": 4806
+  },
+  {
+   "name": "Sasser",
+   "aliases": [
+    "Sasser worm"
+   ],
+   "tier": 4,
+   "views": 2564
+  },
+  {
+   "name": "Scareware",
+   "aliases": [
+    "fake antivirus",
+    "rogue antivirus"
+   ],
+   "tier": 4,
+   "views": 5230
+  },
+  {
+   "name": "Script kiddie",
+   "aliases": [
+    "skiddie",
+    "script kiddies"
+   ],
+   "tier": 4,
+   "views": 7580
+  },
+  {
+   "name": "Security misconfiguration",
+   "aliases": [
+    "misconfiguration",
+    "misconfigured server",
+    "misconfigured cloud storage"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "SEO poisoning",
+   "aliases": [
+    "search engine poisoning"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Session hijacking",
+   "aliases": [
+    "cookie hijacking",
+    "session theft",
+    "sidejacking",
+    "cookie theft",
+    "cookie stealing",
+    "stolen cookies",
+    "steal web session cookie"
+   ],
+   "tier": 4,
+   "views": 4304
+  },
+  {
+   "name": "Shadow IT",
+   "aliases": [],
+   "tier": 4,
+   "views": 4086
+  },
+  {
+   "name": "ShadowCrew",
+   "aliases": [],
+   "tier": 4,
+   "views": 2164
+  },
+  {
+   "name": "Shamoon",
+   "aliases": [
+    "Disttrack"
+   ],
+   "tier": 4,
+   "views": 3165
+  },
+  {
+   "name": "Shellcode",
+   "aliases": [],
+   "tier": 4,
+   "views": 2147
+  },
+  {
+   "name": "Shellshock",
+   "aliases": [
+    "Bashdoor",
+    "Shellshock bug"
+   ],
+   "tier": 4,
+   "views": 6462
+  },
+  {
+   "name": "Shoulder surfing",
+   "aliases": [
+    "shoulder surfer"
+   ],
+   "tier": 4,
+   "views": 3027
+  },
+  {
+   "name": "Side-channel attack",
+   "aliases": [
+    "side-channel"
+   ],
+   "tier": 4,
+   "views": 6927
+  },
+  {
+   "name": "Slowloris",
+   "aliases": [
+    "slowloris attack"
+   ],
+   "tier": 4,
+   "views": 2832
+  },
+  {
+   "name": "Smurf attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 2157
+  },
+  {
+   "name": "Spoofing",
+   "aliases": [
+    "spoofing attack",
+    "spoof attack"
+   ],
+   "tier": 4,
+   "views": 5535
+  },
+  {
+   "name": "SQL Slammer",
+   "aliases": [
+    "Slammer",
+    "Sapphire worm",
+    "SQL Slammer worm"
+   ],
+   "tier": 4,
+   "views": 3327
+  },
+  {
+   "name": "Supply chain attack",
+   "aliases": [
+    "software supply chain attack",
+    "third-party attack",
+    "supply chain compromise"
+   ],
+   "tier": 4,
+   "views": 5440
+  },
+  {
+   "name": "SYN flood",
+   "aliases": [
+    "SYN flooding",
+    "SYN attack"
+   ],
+   "tier": 4,
+   "views": 2867
+  },
+  {
+   "name": "Tailgating",
+   "aliases": [
+    "piggybacking",
+    "tailgating attack"
+   ],
+   "tier": 4,
+   "views": 6635
+  },
+  {
+   "name": "TalkTalk data breach",
+   "aliases": [
+    "2015 TalkTalk data breach"
+   ],
+   "tier": 4,
+   "views": 1711
+  },
+  {
+   "name": "Target data breach",
+   "aliases": [
+    "Target breach",
+    "Target hack"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Tech support scam",
+   "aliases": [
+    "technical support scam",
+    "fake tech support",
+    "tech support fraud"
+   ],
+   "tier": 4,
+   "views": 2894
+  },
+  {
+   "name": "Timing attack",
+   "aliases": [],
+   "tier": 4,
+   "views": 7012
+  },
+  {
+   "name": "Tiny Banker",
+   "aliases": [],
+   "tier": 4,
+   "views": 1497
+  },
+  {
+   "name": "Triton malware",
+   "aliases": [
+    "Trisis",
+    "HatMan"
+   ],
+   "tier": 4,
+   "views": 1641
+  },
+  {
+   "name": "Typosquatting",
+   "aliases": [
+    "URL hijacking"
+   ],
+   "tier": 4,
+   "views": 7209
+  },
+  {
+   "name": "Ukraine power grid hack",
+   "aliases": [
+    "2015 Ukraine power grid hack",
+    "Ukraine grid attack"
+   ],
+   "tier": 4,
+   "views": 3098
+  },
+  {
+   "name": "Unpatched vulnerability",
+   "aliases": [
+    "unpatched system",
+    "missing patches"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Vastaamo data breach",
+   "aliases": [],
+   "tier": 4,
+   "views": 4980
+  },
+  {
+   "name": "Viasat hack",
+   "aliases": [],
+   "tier": 4,
+   "views": 2695
+  },
+  {
+   "name": "Vishing",
+   "aliases": [
+    "voice phishing",
+    "phone phishing",
+    "vishing call",
+    "spearphishing voice"
+   ],
+   "tier": 4,
+   "views": 4054
+  },
+  {
+   "name": "Volt Typhoon",
+   "aliases": [
+    "Vanguard Panda",
+    "Bronze Silhouette",
+    "DEV-0391",
+    "UNC3236",
+    "Insidious Taurus"
+   ],
+   "tier": 4,
+   "views": 3568
+  },
+  {
+   "name": "Vulnerability",
+   "aliases": [
+    "software vulnerability",
+    "security vulnerability",
+    "security hole"
+   ],
+   "tier": 4,
+   "views": 6360
+  },
+  {
+   "name": "War driving",
+   "aliases": [],
+   "tier": 4,
+   "views": 6531
+  },
+  {
+   "name": "Wardialing",
+   "aliases": [],
+   "tier": 4,
+   "views": 4605
+  },
+  {
+   "name": "Watering hole attack",
+   "aliases": [
+    "watering hole"
+   ],
+   "tier": 4,
+   "views": 2789
+  },
+  {
+   "name": "WazirX hack",
+   "aliases": [
+    "2024 WazirX hack"
+   ],
+   "tier": 4,
+   "views": 1489
+  },
+  {
+   "name": "Weak passwords",
+   "aliases": [
+    "weak password",
+    "easy password",
+    "password reuse"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Web shell",
+   "aliases": [],
+   "tier": 4,
+   "views": 2068
+  },
+  {
+   "name": "Website defacement",
+   "aliases": [
+    "defacement",
+    "web defacement",
+    "site defacement"
+   ],
+   "tier": 4,
+   "views": 2053
+  },
+  {
+   "name": "Welchia",
+   "aliases": [],
+   "tier": 4,
+   "views": 5097
+  },
+  {
+   "name": "Whaling",
+   "aliases": [
+    "whaling attack",
+    "whale phishing",
+    "CEO fraud"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Wiper",
+   "aliases": [
+    "wiper malware",
+    "disk wiper",
+    "disk wipe"
+   ],
+   "tier": 4,
+   "views": 1651
+  },
+  {
+   "name": "Wire fraud",
+   "aliases": [
+    "wire transfer fraud"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Wizard Spider",
+   "aliases": [
+    "UNC1878",
+    "Grim Spider",
+    "FIN12",
+    "ITG23",
+    "Periwinkle Tempest",
+    "DEV-0193",
+    "Pistachio Tempest",
+    "DEV-0237"
+   ],
+   "tier": 4,
+   "views": 2604
+  },
+  {
+   "name": "XML external entity attack",
+   "aliases": [
+    "XXE",
+    "XXE injection",
+    "XML external entity"
+   ],
+   "tier": 4,
+   "views": 2498
+  },
+  {
+   "name": "Yahoo data breach",
+   "aliases": [
+    "Yahoo breach",
+    "Yahoo hack",
+    "Yahoo data breaches"
+   ],
+   "tier": 4,
+   "views": 3860
+  },
+  {
+   "name": "Zeus",
+   "aliases": [
+    "Zbot",
+    "Zeus trojan"
+   ],
+   "tier": 4,
+   "views": 3881
+  },
+  {
+   "name": "Zombie computer",
+   "aliases": [
+    "zombie",
+    "zombie pc",
+    "bot computer"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Acoustic cryptanalysis",
+   "aliases": [
+    "acoustic side channel"
+   ],
+   "tier": 5,
+   "views": 889
+  },
+  {
+   "name": "Agent Tesla",
+   "aliases": [],
+   "tier": 5,
+   "views": 757
+  },
+  {
+   "name": "AI-generated phishing",
+   "aliases": [
+    "AI phishing",
+    "AI-powered phishing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Alureon",
+   "aliases": [],
+   "tier": 5,
+   "views": 1353
+  },
+  {
+   "name": "Angler phishing",
+   "aliases": [
+    "social media phishing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Anthem data breach",
+   "aliases": [
+    "Anthem breach",
+    "Anthem hack"
+   ],
+   "tier": 5,
+   "views": 801
+  },
+  {
+   "name": "Anti-forensics",
+   "aliases": [
+    "anti-computer forensics",
+    "log tampering",
+    "log wiping"
+   ],
+   "tier": 5,
+   "views": 574
+  },
+  {
+   "name": "APT10",
+   "aliases": [
+    "Red Apollo",
+    "Stone Panda",
+    "menuPass"
+   ],
+   "tier": 5,
+   "views": 903
+  },
+  {
+   "name": "APT40",
+   "aliases": [
+    "Leviathan",
+    "Kryptonite Panda",
+    "Gingham Typhoon"
+   ],
+   "tier": 5,
+   "views": 794
+  },
+  {
+   "name": "APT41",
+   "aliases": [
+    "Double Dragon",
+    "Wicked Panda",
+    "Winnti",
+    "Brass Typhoon"
+   ],
+   "tier": 5,
+   "views": 973
+  },
+  {
+   "name": "Atlanta government ransomware attack",
+   "aliases": [],
+   "tier": 5,
+   "views": 824
+  },
+  {
+   "name": "Avalanche (phishing group)",
+   "aliases": [],
+   "tier": 5,
+   "views": 608
+  },
+  {
+   "name": "Bad Rabbit",
+   "aliases": [
+    "Bad Rabbit ransomware"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Badbunny",
+   "aliases": [],
+   "tier": 5,
+   "views": 543
+  },
+  {
+   "name": "Bagle",
+   "aliases": [
+    "Bagle worm"
+   ],
+   "tier": 5,
+   "views": 436
+  },
+  {
+   "name": "Baltimore ransomware attack",
+   "aliases": [
+    "2019 Baltimore ransomware attack"
+   ],
+   "tier": 5,
+   "views": 1154
+  },
+  {
+   "name": "Banco de Oro hack",
+   "aliases": [
+    "2021 Banco de Oro hack"
+   ],
+   "tier": 5,
+   "views": 476
+  },
+  {
+   "name": "Bangladesh Black Hat Hackers",
+   "aliases": [],
+   "tier": 5,
+   "views": 437
+  },
+  {
+   "name": "BASHLITE",
+   "aliases": [],
+   "tier": 5,
+   "views": 534
+  },
+  {
+   "name": "BEAST attack",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Berserk Bear",
+   "aliases": [
+    "Dragonfly",
+    "TG-4192",
+    "Energetic Bear",
+    "Ghost Blizzard"
+   ],
+   "tier": 5,
+   "views": 1023
+  },
+  {
+   "name": "Black Basta",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "BlackCat",
+   "aliases": [
+    "ALPHV",
+    "BlackCat ransomware"
+   ],
+   "tier": 5,
+   "views": 1359
+  },
+  {
+   "name": "BlackEnergy",
+   "aliases": [],
+   "tier": 5,
+   "views": 1414
+  },
+  {
+   "name": "BlackLotus",
+   "aliases": [],
+   "tier": 5,
+   "views": 963
+  },
+  {
+   "name": "BlueBorne",
+   "aliases": [],
+   "tier": 5,
+   "views": 1280
+  },
+  {
+   "name": "Bluebugging",
+   "aliases": [],
+   "tier": 5,
+   "views": 591
+  },
+  {
+   "name": "Bluejacking",
+   "aliases": [],
+   "tier": 5,
+   "views": 1140
+  },
+  {
+   "name": "BlueLeaks",
+   "aliases": [],
+   "tier": 5,
+   "views": 1342
+  },
+  {
+   "name": "Bluesnarfing",
+   "aliases": [
+    "bluesnarf"
+   ],
+   "tier": 5,
+   "views": 1216
+  },
+  {
+   "name": "Bluetooth attack",
+   "aliases": [
+    "Bluetooth hacking"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "BootKitty",
+   "aliases": [],
+   "tier": 5,
+   "views": 442
+  },
+  {
+   "name": "Brontok",
+   "aliases": [],
+   "tier": 5,
+   "views": 485
+  },
+  {
+   "name": "Browser-in-the-browser attack",
+   "aliases": [
+    "BitB",
+    "browser in the browser"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cabir",
+   "aliases": [
+    "Cabir worm"
+   ],
+   "tier": 5,
+   "views": 435
+  },
+  {
+   "name": "Callback phishing",
+   "aliases": [
+    "telephone-oriented attack delivery"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Capita data breach",
+   "aliases": [
+    "2023 Capita data breach"
+   ],
+   "tier": 5,
+   "views": 463
+  },
+  {
+   "name": "Card cloning",
+   "aliases": [
+    "badge cloning",
+    "credit card cloning"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Carna botnet",
+   "aliases": [
+    "Carna"
+   ],
+   "tier": 5,
+   "views": 602
+  },
+  {
+   "name": "Charity scam",
+   "aliases": [
+    "charity fraud"
+   ],
+   "tier": 5,
+   "views": 893
+  },
+  {
+   "name": "Charming Kitten",
+   "aliases": [
+    "APT35",
+    "Mint Sandstorm",
+    "Magic Hound",
+    "Newscaster",
+    "TA453",
+    "ITG18",
+    "Rocket Kitten",
+    "Flying Kitten"
+   ],
+   "tier": 5,
+   "views": 1365
+  },
+  {
+   "name": "Christmas Tree EXEC",
+   "aliases": [],
+   "tier": 5,
+   "views": 1036
+  },
+  {
+   "name": "Citrix Bleed",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Clampi",
+   "aliases": [
+    "Clampi trojan"
+   ],
+   "tier": 5,
+   "views": 575
+  },
+  {
+   "name": "Clone phishing",
+   "aliases": [
+    "cloned email phishing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cloudbleed",
+   "aliases": [],
+   "tier": 5,
+   "views": 814
+  },
+  {
+   "name": "Collins Aerospace cyberattack",
+   "aliases": [],
+   "tier": 5,
+   "views": 1240
+  },
+  {
+   "name": "Comment spam",
+   "aliases": [
+    "spamdexing",
+    "search spam"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Commission on Elections data breach",
+   "aliases": [],
+   "tier": 5,
+   "views": 1067
+  },
+  {
+   "name": "Computer fraud",
+   "aliases": [],
+   "tier": 5,
+   "views": 701
+  },
+  {
+   "name": "Consent phishing",
+   "aliases": [
+    "OAuth phishing",
+    "illicit consent grant"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Costa Rican ransomware attack",
+   "aliases": [
+    "2022 Costa Rican ransomware attack"
+   ],
+   "tier": 5,
+   "views": 915
+  },
+  {
+   "name": "Covert channel",
+   "aliases": [],
+   "tier": 5,
+   "views": 1185
+  },
+  {
+   "name": "CovidLock",
+   "aliases": [],
+   "tier": 5,
+   "views": 531
+  },
+  {
+   "name": "Crimeware",
+   "aliases": [],
+   "tier": 5,
+   "views": 597
+  },
+  {
+   "name": "Cross-site leaks",
+   "aliases": [],
+   "tier": 5,
+   "views": 529
+  },
+  {
+   "name": "Cryptographic failures",
+   "aliases": [
+    "sensitive data exposure",
+    "weak encryption"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Cryptojacking",
+   "aliases": [
+    "cryptomining malware",
+    "coin miner",
+    "cryptominer",
+    "malicious cryptomining"
+   ],
+   "tier": 5,
+   "views": 1446
+  },
+  {
+   "name": "Cyber espionage",
+   "aliases": [
+    "cyber spying",
+    "corporate espionage",
+    "industrial espionage"
+   ],
+   "tier": 5,
+   "views": 1214
+  },
+  {
+   "name": "Cyberattack on Kadokawa and Niconico",
+   "aliases": [
+    "2024 cyberattack on Kadokawa and Niconico"
+   ],
+   "tier": 5,
+   "views": 1272
+  },
+  {
+   "name": "Cyberattack on the Polish power grid",
+   "aliases": [
+    "2025 cyberattack on the Polish power grid"
+   ],
+   "tier": 5,
+   "views": 626
+  },
+  {
+   "name": "Cyberweapon",
+   "aliases": [],
+   "tier": 5,
+   "views": 1334
+  },
+  {
+   "name": "Dark Basin",
+   "aliases": [],
+   "tier": 5,
+   "views": 470
+  },
+  {
+   "name": "DarkComet",
+   "aliases": [
+    "DarkComet RAT",
+    "DarkKomet",
+    "Fynloski",
+    "Krademok",
+    "FYNLOS"
+   ],
+   "tier": 5,
+   "views": 936
+  },
+  {
+   "name": "DarkHotel",
+   "aliases": [],
+   "tier": 5,
+   "views": 781
+  },
+  {
+   "name": "Data exfiltration",
+   "aliases": [
+    "exfiltration",
+    "data theft",
+    "data exfil"
+   ],
+   "tier": 5,
+   "views": 1089
+  },
+  {
+   "name": "Data loss",
+   "aliases": [
+    "data destruction"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Deface Peru",
+   "aliases": [],
+   "tier": 5,
+   "views": 491
+  },
+  {
+   "name": "Default credentials",
+   "aliases": [
+    "default password",
+    "default passwords",
+    "default accounts"
+   ],
+   "tier": 5,
+   "views": 905
+  },
+  {
+   "name": "Democratic National Committee cyber attacks",
+   "aliases": [
+    "DNC hack",
+    "DNC cyberattack"
+   ],
+   "tier": 5,
+   "views": 1305
+  },
+  {
+   "name": "Dialer",
+   "aliases": [
+    "rogue dialer",
+    "dialer malware"
+   ],
+   "tier": 5,
+   "views": 748
+  },
+  {
+   "name": "Directory traversal",
+   "aliases": [
+    "path traversal",
+    "dot dot slash attack",
+    "directory climbing"
+   ],
+   "tier": 5,
+   "views": 530
+  },
+  {
+   "name": "Dirty Pipe",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "DLL hijacking",
+   "aliases": [
+    "DLL side-loading",
+    "DLL search order hijacking"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "DNSChanger",
+   "aliases": [],
+   "tier": 5,
+   "views": 585
+  },
+  {
+   "name": "DOM clobbering",
+   "aliases": [],
+   "tier": 5,
+   "views": 431
+  },
+  {
+   "name": "Domain generation algorithm",
+   "aliases": [
+    "DGA",
+    "domain generation algorithms"
+   ],
+   "tier": 5,
+   "views": 1222
+  },
+  {
+   "name": "Domain hijacking",
+   "aliases": [
+    "domain theft"
+   ],
+   "tier": 5,
+   "views": 1112
+  },
+  {
+   "name": "DoublePulsar",
+   "aliases": [],
+   "tier": 5,
+   "views": 1358
+  },
+  {
+   "name": "Downfall",
+   "aliases": [],
+   "tier": 5,
+   "views": 561
+  },
+  {
+   "name": "Downgrade attack",
+   "aliases": [
+    "version rollback attack",
+    "bidding-down attack"
+   ],
+   "tier": 5,
+   "views": 1427
+  },
+  {
+   "name": "Downloader",
+   "aliases": [
+    "trojan downloader",
+    "malware loader",
+    "loader malware"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Dridex",
+   "aliases": [
+    "Bugat",
+    "Cridex",
+    "Manatee Tempest",
+    "DEV-0243",
+    "UNC2165",
+    "Bugat v5"
+   ],
+   "tier": 5,
+   "views": 1099
+  },
+  {
+   "name": "DROWN attack",
+   "aliases": [
+    "DROWN"
+   ],
+   "tier": 5,
+   "views": 559
+  },
+  {
+   "name": "Duqu 2.0",
+   "aliases": [],
+   "tier": 5,
+   "views": 441
+  },
+  {
+   "name": "EasyJet data breach",
+   "aliases": [],
+   "tier": 5,
+   "views": 545
+  },
+  {
+   "name": "Email fraud",
+   "aliases": [
+    "email scam"
+   ],
+   "tier": 5,
+   "views": 889
+  },
+  {
+   "name": "Epik data breach",
+   "aliases": [
+    "2021 Epik data breach"
+   ],
+   "tier": 5,
+   "views": 642
+  },
+  {
+   "name": "Evil Corp",
+   "aliases": [
+    "Indrik Spider",
+    "Dridex gang"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Exploit kit",
+   "aliases": [
+    "exploit pack"
+   ],
+   "tier": 5,
+   "views": 557
+  },
+  {
+   "name": "Exposed API",
+   "aliases": [
+    "API attack",
+    "insecure API",
+    "API abuse",
+    "broken object level authorization",
+    "BOLA"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Extortion",
+   "aliases": [
+    "cyber extortion",
+    "data extortion"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Fast flux",
+   "aliases": [
+    "fast flux DNS"
+   ],
+   "tier": 5,
+   "views": 917
+  },
+  {
+   "name": "Father Christmas worm",
+   "aliases": [],
+   "tier": 5,
+   "views": 571
+  },
+  {
+   "name": "FBI MoneyPak ransomware",
+   "aliases": [],
+   "tier": 5,
+   "views": 437
+  },
+  {
+   "name": "February 2010 Australian cyberattacks",
+   "aliases": [],
+   "tier": 5,
+   "views": 1084
+  },
+  {
+   "name": "File infector",
+   "aliases": [
+    "file infector virus",
+    "file virus"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Fileless malware",
+   "aliases": [
+    "fileless attack",
+    "memory-resident malware",
+    "living off the land",
+    "LOLBins",
+    "LOTL",
+    "living off the land attack"
+   ],
+   "tier": 5,
+   "views": 913
+  },
+  {
+   "name": "FIN7",
+   "aliases": [
+    "Carbanak Group",
+    "Carbon Spider",
+    "Sangria Tempest",
+    "ITG14"
+   ],
+   "tier": 5,
+   "views": 950
+  },
+  {
+   "name": "Firmware attack",
+   "aliases": [
+    "firmware malware",
+    "firmware rootkit"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Follina",
+   "aliases": [
+    "Follina vulnerability"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Foreshadow",
+   "aliases": [],
+   "tier": 5,
+   "views": 616
+  },
+  {
+   "name": "Format string attack",
+   "aliases": [
+    "format string vulnerability",
+    "uncontrolled format string"
+   ],
+   "tier": 5,
+   "views": 573
+  },
+  {
+   "name": "FREAK",
+   "aliases": [
+    "FREAK attack"
+   ],
+   "tier": 5,
+   "views": 689
+  },
+  {
+   "name": "GandCrab",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Gh0st RAT",
+   "aliases": [
+    "Ghost RAT"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Ghostwriter hacker group",
+   "aliases": [],
+   "tier": 5,
+   "views": 490
+  },
+  {
+   "name": "GlobalHell",
+   "aliases": [],
+   "tier": 5,
+   "views": 634
+  },
+  {
+   "name": "GoFetch",
+   "aliases": [],
+   "tier": 5,
+   "views": 711
+  },
+  {
+   "name": "Golden ticket attack",
+   "aliases": [
+    "golden ticket"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "GPS spoofing",
+   "aliases": [
+    "GNSS spoofing"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Gruel worm",
+   "aliases": [],
+   "tier": 5,
+   "views": 419
+  },
+  {
+   "name": "Guacamaya hacktivists",
+   "aliases": [],
+   "tier": 5,
+   "views": 618
+  },
+  {
+   "name": "Hafnium",
+   "aliases": [
+    "Silk Typhoon"
+   ],
+   "tier": 5,
+   "views": 778
+  },
+  {
+   "name": "Hardware backdoor",
+   "aliases": [],
+   "tier": 5,
+   "views": 1444
+  },
+  {
+   "name": "Hardware keylogger",
+   "aliases": [],
+   "tier": 5,
+   "views": 810
+  },
+  {
+   "name": "Hardware trojan",
+   "aliases": [
+    "hardware trojan horse"
+   ],
+   "tier": 5,
+   "views": 445
+  },
+  {
+   "name": "Havex",
+   "aliases": [
+    "Backdoor.Oldrea"
+   ],
+   "tier": 5,
+   "views": 550
+  },
+  {
+   "name": "Heap overflow",
+   "aliases": [
+    "heap spraying",
+    "heap-based buffer overflow"
+   ],
+   "tier": 5,
+   "views": 1165
+  },
+  {
+   "name": "Hive ransomware",
+   "aliases": [],
+   "tier": 5,
+   "views": 955
+  },
+  {
+   "name": "Home Depot data breach",
+   "aliases": [
+    "Home Depot breach"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "HTML smuggling",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "HTTP flood",
+   "aliases": [
+    "HTTP flood attack",
+    "application layer DDoS"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "HTTP header injection",
+   "aliases": [
+    "header injection",
+    "CRLF injection"
+   ],
+   "tier": 5,
+   "views": 1144
+  },
+  {
+   "name": "HTTP response splitting",
+   "aliases": [
+    "response splitting"
+   ],
+   "tier": 5,
+   "views": 991
+  },
+  {
+   "name": "I-Soon leak",
+   "aliases": [],
+   "tier": 5,
+   "views": 1151
+  },
+  {
+   "name": "IcedID",
+   "aliases": [
+    "BokBot"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Impersonation",
+   "aliases": [
+    "impersonation attack",
+    "executive impersonation"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Indian Cyber Force",
+   "aliases": [],
+   "tier": 5,
+   "views": 1005
+  },
+  {
+   "name": "Industroyer",
+   "aliases": [
+    "Crashoverride",
+    "Win32/Industroyer"
+   ],
+   "tier": 5,
+   "views": 1197
+  },
+  {
+   "name": "Initial access broker",
+   "aliases": [
+    "IAB",
+    "access broker"
+   ],
+   "tier": 5,
+   "views": 458
+  },
+  {
+   "name": "Insecure design",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Insecure direct object reference",
+   "aliases": [
+    "IDOR"
+   ],
+   "tier": 5,
+   "views": 1362
+  },
+  {
+   "name": "Insider threat",
+   "aliases": [
+    "malicious insider",
+    "insider attack",
+    "disgruntled employee",
+    "rogue employee"
+   ],
+   "tier": 5,
+   "views": 1047
+  },
+  {
+   "name": "Iranian Cyber Army",
+   "aliases": [],
+   "tier": 5,
+   "views": 573
+  },
+  {
+   "name": "IRLeaks attack on Iranian banks",
+   "aliases": [],
+   "tier": 5,
+   "views": 472
+  },
+  {
+   "name": "Islamic State Hacking Division",
+   "aliases": [],
+   "tier": 5,
+   "views": 690
+  },
+  {
+   "name": "IT Army of Ukraine",
+   "aliases": [],
+   "tier": 5,
+   "views": 1338
+  },
+  {
+   "name": "Jailbreaking an AI",
+   "aliases": [
+    "AI jailbreak",
+    "LLM jailbreak",
+    "jailbreak prompt"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Jamming",
+   "aliases": [
+    "wifi jamming",
+    "signal jamming",
+    "RF jamming"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "JBS S.A. ransomware attack",
+   "aliases": [],
+   "tier": 5,
+   "views": 1155
+  },
+  {
+   "name": "Jerusalem virus",
+   "aliases": [
+    "Friday the 13th virus"
+   ],
+   "tier": 5,
+   "views": 945
+  },
+  {
+   "name": "Jigsaw ransomware",
+   "aliases": [],
+   "tier": 5,
+   "views": 764
+  },
+  {
+   "name": "JPMorgan Chase data breach",
+   "aliases": [
+    "2014 JPMorgan Chase data breach"
+   ],
+   "tier": 5,
+   "views": 1095
+  },
+  {
+   "name": "Kerberoasting",
+   "aliases": [
+    "kerberoast"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Kido International cyberattack",
+   "aliases": [],
+   "tier": 5,
+   "views": 416
+  },
+  {
+   "name": "Killnet",
+   "aliases": [],
+   "tier": 5,
+   "views": 1420
+  },
+  {
+   "name": "Kimsuky",
+   "aliases": [
+    "APT43",
+    "Velvet Chollima",
+    "Emerald Sleet",
+    "Black Banshee",
+    "TA427"
+   ],
+   "tier": 5,
+   "views": 1081
+  },
+  {
+   "name": "Kirk Ransomware",
+   "aliases": [],
+   "tier": 5,
+   "views": 1189
+  },
+  {
+   "name": "Klez",
+   "aliases": [
+    "Klez worm"
+   ],
+   "tier": 5,
+   "views": 676
+  },
+  {
+   "name": "Koobface",
+   "aliases": [],
+   "tier": 5,
+   "views": 1159
+  },
+  {
+   "name": "KRACK",
+   "aliases": [
+    "KRACK attack",
+    "key reinstallation attack"
+   ],
+   "tier": 5,
+   "views": 1389
+  },
+  {
+   "name": "Kronos malware",
+   "aliases": [],
+   "tier": 5,
+   "views": 1048
+  },
+  {
+   "name": "Kyiv cyberattack",
+   "aliases": [
+    "2016 Kyiv cyberattack"
+   ],
+   "tier": 5,
+   "views": 474
+  },
+  {
+   "name": "Lamer Exterminator",
+   "aliases": [],
+   "tier": 5,
+   "views": 695
+  },
+  {
+   "name": "LAND attack",
+   "aliases": [
+    "local area network denial"
+   ],
+   "tier": 5,
+   "views": 458
+  },
+  {
+   "name": "Legion of Doom",
+   "aliases": [],
+   "tier": 5,
+   "views": 937
+  },
+  {
+   "name": "Locky",
+   "aliases": [
+    "Locky ransomware"
+   ],
+   "tier": 5,
+   "views": 882
+  },
+  {
+   "name": "Log4Shell",
+   "aliases": [
+    "Log4j vulnerability",
+    "Log4j",
+    "Log4j exploit"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Logjam",
+   "aliases": [
+    "logjam attack"
+   ],
+   "tier": 5,
+   "views": 1152
+  },
+  {
+   "name": "LogoFAIL",
+   "aliases": [],
+   "tier": 5,
+   "views": 782
+  },
+  {
+   "name": "Lottery scam",
+   "aliases": [
+    "sweepstakes scam",
+    "prize scam"
+   ],
+   "tier": 5,
+   "views": 1198
+  },
+  {
+   "name": "Mac malware",
+   "aliases": [
+    "macOS malware",
+    "Mac virus"
+   ],
+   "tier": 5,
+   "views": 702
+  },
+  {
+   "name": "Macro virus",
+   "aliases": [
+    "macro malware",
+    "malicious macro",
+    "Office macro"
+   ],
+   "tier": 5,
+   "views": 1149
+  },
+  {
+   "name": "Malicious browser extension",
+   "aliases": [
+    "rogue browser extension",
+    "malicious extension"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Malware as a service",
+   "aliases": [
+    "MaaS"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Man-in-the-browser",
+   "aliases": [
+    "MitB",
+    "man in the browser attack",
+    "Carberp"
+   ],
+   "tier": 5,
+   "views": 1235
+  },
+  {
+   "name": "ManageMyHealth data breach",
+   "aliases": [],
+   "tier": 5,
+   "views": 604
+  },
+  {
+   "name": "Mariposa botnet",
+   "aliases": [
+    "Mariposa"
+   ],
+   "tier": 5,
+   "views": 430
+  },
+  {
+   "name": "Marriott data breach",
+   "aliases": [
+    "Marriott hack",
+    "Starwood breach"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Masters of Deception",
+   "aliases": [],
+   "tier": 5,
+   "views": 1196
+  },
+  {
+   "name": "Maze ransomware",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Memory corruption",
+   "aliases": [],
+   "tier": 5,
+   "views": 738
+  },
+  {
+   "name": "Metamorphic malware",
+   "aliases": [
+    "metamorphic code",
+    "metamorphic virus"
+   ],
+   "tier": 5,
+   "views": 574
+  },
+  {
+   "name": "Microarchitectural Data Sampling",
+   "aliases": [],
+   "tier": 5,
+   "views": 489
+  },
+  {
+   "name": "Microsoft Exchange hack",
+   "aliases": [
+    "ProxyLogon",
+    "Exchange Server hack",
+    "Microsoft Exchange Server data breach"
+   ],
+   "tier": 5,
+   "views": 1272
+  },
+  {
+   "name": "MiniPanzer and MegaPanzer",
+   "aliases": [],
+   "tier": 5,
+   "views": 879
+  },
+  {
+   "name": "Mobile malware",
+   "aliases": [
+    "phone malware",
+    "Android malware",
+    "mobile virus"
+   ],
+   "tier": 5,
+   "views": 1140
+  },
+  {
+   "name": "Moonlight Maze",
+   "aliases": [],
+   "tier": 5,
+   "views": 1048
+  },
+  {
+   "name": "Network scanning",
+   "aliases": [
+    "ping sweep",
+    "vulnerability scanning",
+    "reconnaissance scan",
+    "active scanning"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "njRAT",
+   "aliases": [
+    "Bladabindi"
+   ],
+   "tier": 5,
+   "views": 1293
+  },
+  {
+   "name": "Obfuscation",
+   "aliases": [
+    "code obfuscation",
+    "malware obfuscation"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "OceanLotus",
+   "aliases": [
+    "APT32",
+    "SeaLotus",
+    "Canvas Cyclone",
+    "APT-C-00"
+   ],
+   "tier": 5,
+   "views": 672
+  },
+  {
+   "name": "Olympic Destroyer",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Open redirect",
+   "aliases": [
+    "unvalidated redirect",
+    "open redirection"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Operation Ababil",
+   "aliases": [],
+   "tier": 5,
+   "views": 756
+  },
+  {
+   "name": "Operation Shady RAT",
+   "aliases": [
+    "Shady RAT"
+   ],
+   "tier": 5,
+   "views": 967
+  },
+  {
+   "name": "Operation Socialist",
+   "aliases": [],
+   "tier": 5,
+   "views": 723
+  },
+  {
+   "name": "OpIsrael",
+   "aliases": [],
+   "tier": 5,
+   "views": 418
+  },
+  {
+   "name": "Organized cybercrime",
+   "aliases": [
+    "cybercrime gang",
+    "cybercrime group",
+    "ransomware gang"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "PampaLeaks",
+   "aliases": [],
+   "tier": 5,
+   "views": 498
+  },
+  {
+   "name": "Pass the ticket",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Payroll diversion",
+   "aliases": [
+    "direct deposit fraud"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Pharming",
+   "aliases": [
+    "pharming attack"
+   ],
+   "tier": 5,
+   "views": 1313
+  },
+  {
+   "name": "Physical theft",
+   "aliases": [
+    "stolen laptop",
+    "device theft",
+    "lost device",
+    "stolen device"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Piggybacking on Wi-Fi",
+   "aliases": [
+    "wifi piggybacking",
+    "wifi leeching"
+   ],
+   "tier": 5,
+   "views": 573
+  },
+  {
+   "name": "Ping flood",
+   "aliases": [
+    "ICMP flood"
+   ],
+   "tier": 5,
+   "views": 588
+  },
+  {
+   "name": "Pipedream",
+   "aliases": [
+    "Incontroller"
+   ],
+   "tier": 5,
+   "views": 531
+  },
+  {
+   "name": "PLATINUM group",
+   "aliases": [],
+   "tier": 5,
+   "views": 432
+  },
+  {
+   "name": "Play ransomware",
+   "aliases": [
+    "PlayCrypt"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "PlugX",
+   "aliases": [
+    "Korplug"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Predator spyware",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Process injection",
+   "aliases": [
+    "DLL injection",
+    "process hollowing",
+    "code cave",
+    "dynamic-link library injection"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "ProxyShell",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "QakBot",
+   "aliases": [
+    "Qbot",
+    "Pinkslipbot",
+    "QuakBot"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Quid pro quo attack",
+   "aliases": [
+    "quid pro quo"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Raccoon Stealer",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Reconnaissance",
+   "aliases": [
+    "recon",
+    "footprinting",
+    "OSINT reconnaissance"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Red October malware",
+   "aliases": [],
+   "tier": 5,
+   "views": 768
+  },
+  {
+   "name": "RedLine Stealer",
+   "aliases": [
+    "RedLine"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Reflection attack",
+   "aliases": [
+    "amplification attack",
+    "reflection amplification"
+   ],
+   "tier": 5,
+   "views": 661
+  },
+  {
+   "name": "Regin",
+   "aliases": [],
+   "tier": 5,
+   "views": 947
+  },
+  {
+   "name": "Rescator",
+   "aliases": [],
+   "tier": 5,
+   "views": 564
+  },
+  {
+   "name": "Retbleed",
+   "aliases": [],
+   "tier": 5,
+   "views": 665
+  },
+  {
+   "name": "RFID skimming",
+   "aliases": [
+    "RFID cloning",
+    "NFC skimming",
+    "contactless skimming"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Ricochet Chollima",
+   "aliases": [
+    "APT37",
+    "Group123"
+   ],
+   "tier": 5,
+   "views": 477
+  },
+  {
+   "name": "ROCA vulnerability",
+   "aliases": [],
+   "tier": 5,
+   "views": 1446
+  },
+  {
+   "name": "Rogue access point",
+   "aliases": [
+    "rogue AP",
+    "rogue wireless access point"
+   ],
+   "tier": 5,
+   "views": 1077
+  },
+  {
+   "name": "Royal ransomware",
+   "aliases": [
+    "BlackSuit ransomware"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Rubber-hose cryptanalysis",
+   "aliases": [
+    "rubber hose attack",
+    "wrench attack"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Russian Business Network",
+   "aliases": [
+    "RBN"
+   ],
+   "tier": 5,
+   "views": 701
+  },
+  {
+   "name": "Shadow AI",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Shadow Network",
+   "aliases": [],
+   "tier": 5,
+   "views": 529
+  },
+  {
+   "name": "Shanghai police database leak",
+   "aliases": [],
+   "tier": 5,
+   "views": 991
+  },
+  {
+   "name": "Shatter attack",
+   "aliases": [],
+   "tier": 5,
+   "views": 478
+  },
+  {
+   "name": "Simile virus",
+   "aliases": [],
+   "tier": 5,
+   "views": 602
+  },
+  {
+   "name": "SingHealth data breach",
+   "aliases": [
+    "2018 SingHealth data breach"
+   ],
+   "tier": 5,
+   "views": 967
+  },
+  {
+   "name": "Sinkclose",
+   "aliases": [],
+   "tier": 5,
+   "views": 602
+  },
+  {
+   "name": "SMBGhost",
+   "aliases": [],
+   "tier": 5,
+   "views": 535
+  },
+  {
+   "name": "Snowflake data breach",
+   "aliases": [
+    "Snowflake hack",
+    "Snowflake breach"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Sobig",
+   "aliases": [],
+   "tier": 5,
+   "views": 912
+  },
+  {
+   "name": "Software bug",
+   "aliases": [
+    "security bug"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SolarWinds hack",
+   "aliases": [
+    "SolarWinds attack",
+    "SolarWinds breach",
+    "Sunburst",
+    "SolarWinds supply chain attack",
+    "Solorigate"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "South Korea cyberattack",
+   "aliases": [
+    "2013 South Korea cyberattack"
+   ],
+   "tier": 5,
+   "views": 938
+  },
+  {
+   "name": "Speculative Store Bypass",
+   "aliases": [],
+   "tier": 5,
+   "views": 434
+  },
+  {
+   "name": "Spim",
+   "aliases": [
+    "instant messaging spam"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "SS7 attack",
+   "aliases": [
+    "SS7 hack",
+    "SS7 exploit"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Stagefright",
+   "aliases": [
+    "Stagefright bug"
+   ],
+   "tier": 5,
+   "views": 1294
+  },
+  {
+   "name": "Stalkerware app",
+   "aliases": [
+    "spouseware"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Stars virus",
+   "aliases": [],
+   "tier": 5,
+   "views": 471
+  },
+  {
+   "name": "Stealth virus",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Storm Worm",
+   "aliases": [
+    "Storm botnet",
+    "Storm Worm trojan"
+   ],
+   "tier": 5,
+   "views": 533
+  },
+  {
+   "name": "Stuxnet",
+   "aliases": [
+    "Stuxnet worm",
+    "W32.Stuxnet"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Surkov leaks",
+   "aliases": [],
+   "tier": 5,
+   "views": 1398
+  },
+  {
+   "name": "SWIFT banking hack",
+   "aliases": [
+    "2015–2016 SWIFT banking hack"
+   ],
+   "tier": 5,
+   "views": 830
+  },
+  {
+   "name": "Syrian Electronic Army",
+   "aliases": [
+    "SEA hackers"
+   ],
+   "tier": 5,
+   "views": 1364
+  },
+  {
+   "name": "Terrapin attack",
+   "aliases": [],
+   "tier": 5,
+   "views": 1293
+  },
+  {
+   "name": "The 414s",
+   "aliases": [],
+   "tier": 5,
+   "views": 1414
+  },
+  {
+   "name": "The Dark Overlord",
+   "aliases": [],
+   "tier": 5,
+   "views": 485
+  },
+  {
+   "name": "Time bomb",
+   "aliases": [],
+   "tier": 5,
+   "views": 1251
+  },
+  {
+   "name": "Titan Rain",
+   "aliases": [],
+   "tier": 5,
+   "views": 1201
+  },
+  {
+   "name": "Titanium malware",
+   "aliases": [],
+   "tier": 5,
+   "views": 599
+  },
+  {
+   "name": "Token theft",
+   "aliases": [
+    "access token theft",
+    "OAuth token theft"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Torpig",
+   "aliases": [],
+   "tier": 5,
+   "views": 584
+  },
+  {
+   "name": "Torrent poisoning",
+   "aliases": [],
+   "tier": 5,
+   "views": 1040
+  },
+  {
+   "name": "TrickBot",
+   "aliases": [
+    "Trickbot trojan",
+    "Totbrick",
+    "TSPY_TRICKLOAD"
+   ],
+   "tier": 5,
+   "views": 895
+  },
+  {
+   "name": "Trolling",
+   "aliases": [
+    "internet troll"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Turla",
+   "aliases": [
+    "Venomous Bear",
+    "Snake malware",
+    "Uroburos",
+    "Waterbug",
+    "Secret Blizzard"
+   ],
+   "tier": 5,
+   "views": 717
+  },
+  {
+   "name": "Typosquatted package",
+   "aliases": [
+    "malicious package",
+    "package typosquatting",
+    "malicious npm package"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Uber data breach",
+   "aliases": [
+    "Uber breach",
+    "Uber hack"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "UDP flood",
+   "aliases": [
+    "UDP flood attack"
+   ],
+   "tier": 5,
+   "views": 814
+  },
+  {
+   "name": "UGNazi",
+   "aliases": [],
+   "tier": 5,
+   "views": 1250
+  },
+  {
+   "name": "Ukraine cyberattacks",
+   "aliases": [
+    "2022 Ukraine cyberattacks",
+    "HermeticWiper",
+    "Trojan.Killdisk",
+    "DriveSlayer"
+   ],
+   "tier": 5,
+   "views": 907
+  },
+  {
+   "name": "Ukrainian cyberattacks against Russia",
+   "aliases": [
+    "2024 Ukrainian cyberattacks against Russia"
+   ],
+   "tier": 5,
+   "views": 686
+  },
+  {
+   "name": "UNC3886",
+   "aliases": [],
+   "tier": 5,
+   "views": 1011
+  },
+  {
+   "name": "Unsecured IoT devices",
+   "aliases": [
+    "IoT attack",
+    "IoT botnet",
+    "IoT vulnerability"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Ursnif",
+   "aliases": [
+    "Gozi",
+    "ISFB"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Use-after-free",
+   "aliases": [
+    "UAF"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Vice Society",
+   "aliases": [],
+   "tier": 5,
+   "views": 540
+  },
+  {
+   "name": "VPNFilter",
+   "aliases": [],
+   "tier": 5,
+   "views": 563
+  },
+  {
+   "name": "Vulnerable and outdated components",
+   "aliases": [
+    "outdated software",
+    "unpatched software",
+    "using components with known vulnerabilities"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Vundo",
+   "aliases": [],
+   "tier": 5,
+   "views": 457
+  },
+  {
+   "name": "Wangiri",
+   "aliases": [
+    "one ring scam",
+    "missed call scam"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "WANK worm",
+   "aliases": [],
+   "tier": 5,
+   "views": 1135
+  },
+  {
+   "name": "WannaCry",
+   "aliases": [
+    "WannaCrypt",
+    "WannaCry ransomware",
+    "WannaCry attack",
+    "WanaCrypt0r",
+    "WanaCry",
+    "WanaCrypt",
+    "WCry"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Warchalking",
+   "aliases": [],
+   "tier": 5,
+   "views": 911
+  },
+  {
+   "name": "WhatsApp snooping scandal",
+   "aliases": [],
+   "tier": 5,
+   "views": 1455
+  },
+  {
+   "name": "XDedic",
+   "aliases": [],
+   "tier": 5,
+   "views": 486
+  },
+  {
+   "name": "ZeroAccess",
+   "aliases": [
+    "ZeroAccess botnet",
+    "Sirefef"
+   ],
+   "tier": 5,
+   "views": 431
+  },
+  {
+   "name": "3ve",
+   "aliases": [],
+   "tier": 6,
+   "views": 198
+  },
+  {
+   "name": "Abuse Elevation Control Mechanism",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Access Token Manipulation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Accessibility Features",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Account Manipulation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Account pre-hijacking",
+   "aliases": [],
+   "tier": 6,
+   "views": 334
+  },
+  {
+   "name": "Acme virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 160
+  },
+  {
+   "name": "admin@338",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "AFX Windows Rootkit 2003",
+   "aliases": [],
+   "tier": 6,
+   "views": 104
+  },
+  {
+   "name": "Agent.AWF",
+   "aliases": [],
+   "tier": 6,
+   "views": 101
+  },
+  {
+   "name": "AGI-Plan",
+   "aliases": [],
+   "tier": 6,
+   "views": 67
+  },
+  {
+   "name": "AI Result Poisoning",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "AI-Enabled Exfiltration",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Akbot",
+   "aliases": [],
+   "tier": 6,
+   "views": 119
+  },
+  {
+   "name": "Alcra",
+   "aliases": [
+    "Alcra worm"
+   ],
+   "tier": 6,
+   "views": 47
+  },
+  {
+   "name": "Alina malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 101
+  },
+  {
+   "name": "Ambulance virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 175
+  },
+  {
+   "name": "ANCPI hack",
+   "aliases": [
+    "2026 ANCPI hack"
+   ],
+   "tier": 6,
+   "views": 377
+  },
+  {
+   "name": "Andromeda trojan",
+   "aliases": [],
+   "tier": 6,
+   "views": 98
+  },
+  {
+   "name": "Annabelle ransomware",
+   "aliases": [],
+   "tier": 6,
+   "views": 370
+  },
+  {
+   "name": "Aoqin Dragon",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "AppleJeus",
+   "aliases": [
+    "Citrine Sleet",
+    "UNC1720",
+    "UNC4736"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Application Exhaustion Flood",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Application Shimming",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT-C-23",
+   "aliases": [
+    "Arid Viper",
+    "Desert Falcon",
+    "TAG-63",
+    "Big Bang APT"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT-C-36",
+   "aliases": [
+    "Blind Eagle",
+    "TAG-144",
+    "APT-Q-98"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT-C-43",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT16",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT17",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT18",
+   "aliases": [
+    "TG-0416",
+    "Dynamite Panda",
+    "Threat Group-0416"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT19",
+   "aliases": [
+    "C0d0so0",
+    "Codoso Team",
+    "Sunshop Group"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT3",
+   "aliases": [
+    "Gothic Panda",
+    "UPS Team",
+    "Threat Group-0110",
+    "TG-0110"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT30",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT31",
+   "aliases": [
+    "Violet Typhoon"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT39",
+   "aliases": [
+    "ITG07",
+    "Remix Kitten"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "APT42",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "APT5",
+   "aliases": [
+    "Mulberry Typhoon",
+    "Keyhole Panda",
+    "UNC2630"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Aquatic Panda",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Archiveus",
+   "aliases": [],
+   "tier": 6,
+   "views": 113
+  },
+  {
+   "name": "AS-REP roasting",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Automate CAPTCHA Completion",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Automated threat",
+   "aliases": [],
+   "tier": 6,
+   "views": 186
+  },
+  {
+   "name": "Backdoor.Win32.IRCBot",
+   "aliases": [],
+   "tier": 6,
+   "views": 117
+  },
+  {
+   "name": "BackdoorDiplomacy",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Badlock",
+   "aliases": [],
+   "tier": 6,
+   "views": 151
+  },
+  {
+   "name": "Bandwidth Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Bifrost trojan",
+   "aliases": [],
+   "tier": 6,
+   "views": 391
+  },
+  {
+   "name": "Binary Padding",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BlackByte",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BlackOasis",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "BlackPOS",
+   "aliases": [],
+   "tier": 6,
+   "views": 345
+  },
+  {
+   "name": "BlackTech",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Blended threat",
+   "aliases": [],
+   "tier": 6,
+   "views": 151
+  },
+  {
+   "name": "Blue Mockingbird",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Bomber virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 197
+  },
+  {
+   "name": "Brambul",
+   "aliases": [],
+   "tier": 6,
+   "views": 75
+  },
+  {
+   "name": "Bredolab botnet",
+   "aliases": [
+    "Bredolab"
+   ],
+   "tier": 6,
+   "views": 136
+  },
+  {
+   "name": "BRONZE BUTLER",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Browser Session Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Bulgarian Revenue Agency hack",
+   "aliases": [
+    "2019 Bulgarian Revenue Agency hack"
+   ],
+   "tier": 6,
+   "views": 195
+  },
+  {
+   "name": "BuluBebek",
+   "aliases": [],
+   "tier": 6,
+   "views": 69
+  },
+  {
+   "name": "Bypass User Account Control",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Byte Bandit",
+   "aliases": [],
+   "tier": 6,
+   "views": 276
+  },
+  {
+   "name": "Canadian government hackings",
+   "aliases": [
+    "2011 Canadian government hackings"
+   ],
+   "tier": 6,
+   "views": 115
+  },
+  {
+   "name": "Careto malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 209
+  },
+  {
+   "name": "Casino virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 373
+  },
+  {
+   "name": "Cavity virus",
+   "aliases": [
+    "spacefiller virus"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "CenterPOS",
+   "aliases": [],
+   "tier": 6,
+   "views": 73
+  },
+  {
+   "name": "Chaos malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 216
+  },
+  {
+   "name": "Cinnamon Tempest",
+   "aliases": [
+    "DEV-0401"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Citadel malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 208
+  },
+  {
+   "name": "Clear Windows Event Logs",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Clickbot.A",
+   "aliases": [],
+   "tier": 6,
+   "views": 116
+  },
+  {
+   "name": "Cloud Service Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Cobalt Group",
+   "aliases": [
+    "Cobalt Gang",
+    "Cobalt Spider"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Code Red II",
+   "aliases": [],
+   "tier": 6,
+   "views": 388
+  },
+  {
+   "name": "Companion virus",
+   "aliases": [
+    "spawning virus"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Compromise Accounts",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Compromise Hardware Supply Chain",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Compromise Host Software Binary",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Compromise Software Dependencies and Development Tools",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Compromise Software Supply Chain",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Compute Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Confucius APT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Contagious Interview",
+   "aliases": [
+    "Gwisin Gang",
+    "DEV#POPPER",
+    "TAG-121"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Content Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "CopyKittens",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Coreflood",
+   "aliases": [],
+   "tier": 6,
+   "views": 154
+  },
+  {
+   "name": "Credentials from Password Stores",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Crime Boys",
+   "aliases": [],
+   "tier": 6,
+   "views": 160
+  },
+  {
+   "name": "Crimson Sandstorm",
+   "aliases": [
+    "TA456",
+    "Yellow Liderc"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cutwail botnet",
+   "aliases": [
+    "Cutwail"
+   ],
+   "tier": 6,
+   "views": 177
+  },
+  {
+   "name": "Cyberattack during the Paris G20 Summit",
+   "aliases": [],
+   "tier": 6,
+   "views": 64
+  },
+  {
+   "name": "Cyberattacks during the Russo-Georgian War",
+   "aliases": [],
+   "tier": 6,
+   "views": 378
+  },
+  {
+   "name": "Cyberattacks on Myanmar",
+   "aliases": [
+    "2010 cyberattacks on Myanmar"
+   ],
+   "tier": 6,
+   "views": 37
+  },
+  {
+   "name": "Cyberattacks on Sri Lanka",
+   "aliases": [
+    "2019 cyberattacks on Sri Lanka",
+    "2020 cyberattacks on Sri Lanka",
+    "2021 cyberattacks on Sri Lanka"
+   ],
+   "tier": 6,
+   "views": 135
+  },
+  {
+   "name": "Cyclops Blink",
+   "aliases": [],
+   "tier": 6,
+   "views": 324
+  },
+  {
+   "name": "Daprosy Worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 139
+  },
+  {
+   "name": "Dark Caracal",
+   "aliases": [],
+   "tier": 6,
+   "views": 352
+  },
+  {
+   "name": "DarkHydrus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DarkVishnya",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Data Encrypted for Impact",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Data Manipulation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Data Obfuscation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DCSync",
+   "aliases": [
+    "DCSync attack"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "DDoS attacks against South Korea",
+   "aliases": [
+    "2009 DDoS attacks against South Korea"
+   ],
+   "tier": 6,
+   "views": 364
+  },
+  {
+   "name": "DDoS attacks on Romania",
+   "aliases": [
+    "2022 DDoS attacks on Romania"
+   ],
+   "tier": 6,
+   "views": 230
+  },
+  {
+   "name": "Dead Drop Resolver",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Debugger Evasion",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Deep Panda",
+   "aliases": [
+    "Shell Crew"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Democratic Congressional Campaign Committee cyber attacks",
+   "aliases": [],
+   "tier": 6,
+   "views": 117
+  },
+  {
+   "name": "Dexter malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 189
+  },
+  {
+   "name": "DHCP Spoofing",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Direct Network Flood",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Direct Prompt Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DIRIN Leaks",
+   "aliases": [],
+   "tier": 6,
+   "views": 128
+  },
+  {
+   "name": "Disable or Modify System Firewall",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Disable or Modify Tools",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Disembowler",
+   "aliases": [],
+   "tier": 6,
+   "views": 301
+  },
+  {
+   "name": "Disk Content Wipe",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Disk Structure Wipe",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Domain Fronting",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Donbot botnet",
+   "aliases": [
+    "Donbot"
+   ],
+   "tier": 6,
+   "views": 67
+  },
+  {
+   "name": "Double File Extension",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "DragonOK",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Drovorub",
+   "aliases": [],
+   "tier": 6,
+   "views": 161
+  },
+  {
+   "name": "Dylib Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Earth Lusca",
+   "aliases": [
+    "TAG-22",
+    "Charcoal Typhoon"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "EFAIL",
+   "aliases": [],
+   "tier": 6,
+   "views": 327
+  },
+  {
+   "name": "EGABTR",
+   "aliases": [],
+   "tier": 6,
+   "views": 99
+  },
+  {
+   "name": "Elderwood Gang",
+   "aliases": [
+    "Beijing Group",
+    "Sneaky Panda"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Elfin Team",
+   "aliases": [
+    "APT33",
+    "Peach Sandstorm"
+   ],
+   "tier": 6,
+   "views": 339
+  },
+  {
+   "name": "Eliza virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 138
+  },
+  {
+   "name": "Email Forwarding Rule",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Email Hiding Rules",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Email injection",
+   "aliases": [],
+   "tier": 6,
+   "views": 147
+  },
+  {
+   "name": "Ember Bear",
+   "aliases": [
+    "UNC2589",
+    "Bleeding Bear",
+    "DEV-0586",
+    "Cadet Blizzard"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Emcodec",
+   "aliases": [],
+   "tier": 6,
+   "views": 100
+  },
+  {
+   "name": "Endpoint Denial of Service",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Escape to Host",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Esperanto virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 356
+  },
+  {
+   "name": "European Medicines Agency data breach",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "Evasive Panda",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Evide data breach",
+   "aliases": [],
+   "tier": 6,
+   "views": 193
+  },
+  {
+   "name": "Exactis data breach",
+   "aliases": [],
+   "tier": 6,
+   "views": 357
+  },
+  {
+   "name": "EXOTIC LILY",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploit Public-Facing Application",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation for Client Execution",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation for Credential Access",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation for Defense Impairment",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation for Privilege Escalation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation for Stealth",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Exploitation of Remote Services",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "ExploreZip",
+   "aliases": [],
+   "tier": 6,
+   "views": 334
+  },
+  {
+   "name": "External Defacement",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FastPOS",
+   "aliases": [],
+   "tier": 6,
+   "views": 88
+  },
+  {
+   "name": "Ferocious Kitten",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Festering Hate",
+   "aliases": [],
+   "tier": 6,
+   "views": 405
+  },
+  {
+   "name": "Festi",
+   "aliases": [],
+   "tier": 6,
+   "views": 84
+  },
+  {
+   "name": "FIN10",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FIN13",
+   "aliases": [
+    "Elephant Beetle"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "FIN4",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FIN5",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "FIN6",
+   "aliases": [
+    "Magecart Group 6",
+    "ITG08",
+    "Skeleton Spider",
+    "Camouflage Tempest"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "FIN8",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Financial Theft",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Firmware Corruption",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Fleeceware",
+   "aliases": [],
+   "tier": 6,
+   "views": 167
+  },
+  {
+   "name": "FLocker",
+   "aliases": [],
+   "tier": 6,
+   "views": 128
+  },
+  {
+   "name": "Forced Authentication",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Forge Web Credentials",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Form grabbing",
+   "aliases": [
+    "form grabber"
+   ],
+   "tier": 6,
+   "views": 228
+  },
+  {
+   "name": "Fox Kitten",
+   "aliases": [
+    "UNC757",
+    "Pioneer Kitten",
+    "Lemon Sandstorm"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Fraggle attack",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Fun.exe",
+   "aliases": [],
+   "tier": 6,
+   "views": 287
+  },
+  {
+   "name": "Gamaredon",
+   "aliases": [
+    "Gamaredon Group",
+    "Primitive Bear",
+    "Aqua Blizzard",
+    "Shuckworm",
+    "DEV-0157"
+   ],
+   "tier": 6,
+   "views": 315
+  },
+  {
+   "name": "Gatekeeper Bypass",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "GCMAN",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Ghost vulnerability",
+   "aliases": [
+    "GHOST glibc"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Ghostball virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 175
+  },
+  {
+   "name": "Global kOS",
+   "aliases": [],
+   "tier": 6,
+   "views": 136
+  },
+  {
+   "name": "GnosticPlayers",
+   "aliases": [],
+   "tier": 6,
+   "views": 411
+  },
+  {
+   "name": "GOLD SOUTHFIELD",
+   "aliases": [
+    "Pinchy Spider"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Gorgon Group",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Granite Typhoon",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Graybird",
+   "aliases": [],
+   "tier": 6,
+   "views": 197
+  },
+  {
+   "name": "Group 72",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Group 88",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Group5",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Grum botnet",
+   "aliases": [
+    "Grum"
+   ],
+   "tier": 6,
+   "views": 208
+  },
+  {
+   "name": "Gumblar",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "Hangover Group",
+   "aliases": [
+    "Dropping Elephant"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Hardware Additions",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hare virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 154
+  },
+  {
+   "name": "Helix Kitten",
+   "aliases": [
+    "OilRig",
+    "IRN2",
+    "APT34",
+    "Evasive Serpens",
+    "Hazel Sandstorm",
+    "ITG13",
+    "TA452"
+   ],
+   "tier": 6,
+   "views": 353
+  },
+  {
+   "name": "HEXANE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hidden Tear",
+   "aliases": [],
+   "tier": 6,
+   "views": 175
+  },
+  {
+   "name": "Hide Artifacts",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Hijack Execution Flow",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "History sniffing",
+   "aliases": [],
+   "tier": 6,
+   "views": 316
+  },
+  {
+   "name": "Hupigon",
+   "aliases": [],
+   "tier": 6,
+   "views": 95
+  },
+  {
+   "name": "Hybris worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 131
+  },
+  {
+   "name": "Image File Execution Options Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "INC Ransom",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Indian bank data breach",
+   "aliases": [
+    "2016 Indian bank data breach"
+   ],
+   "tier": 6,
+   "views": 223
+  },
+  {
+   "name": "Indicator Removal",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "IndigoZebra",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Inhibit System Recovery",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Input Capture",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Input Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Insanity Zine Corp.",
+   "aliases": [],
+   "tier": 6,
+   "views": 64
+  },
+  {
+   "name": "Internal Defacement",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Internal Spearphishing",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Invisible Unicode",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Iranian fuel cyberattack",
+   "aliases": [
+    "2021 Iranian fuel cyberattack"
+   ],
+   "tier": 6,
+   "views": 221
+  },
+  {
+   "name": "Ivanti Pulse Connect Secure data breach",
+   "aliases": [],
+   "tier": 6,
+   "views": 260
+  },
+  {
+   "name": "Japan–South Korea cyber conflict",
+   "aliases": [
+    "2010 Japan–South Korea cyber conflict"
+   ],
+   "tier": 6,
+   "views": 202
+  },
+  {
+   "name": "Joanap",
+   "aliases": [],
+   "tier": 6,
+   "views": 87
+  },
+  {
+   "name": "Junk Code Insertion",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Kak worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 244
+  },
+  {
+   "name": "Kama Sutra worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 196
+  },
+  {
+   "name": "Kasidet",
+   "aliases": [],
+   "tier": 6,
+   "views": 78
+  },
+  {
+   "name": "Ke3chang",
+   "aliases": [
+    "APT15",
+    "Vixen Panda",
+    "Playful Dragon",
+    "Nylon Typhoon"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Kelihos botnet",
+   "aliases": [
+    "Kelihos"
+   ],
+   "tier": 6,
+   "views": 333
+  },
+  {
+   "name": "Kenzero",
+   "aliases": [],
+   "tier": 6,
+   "views": 114
+  },
+  {
+   "name": "KeRanger",
+   "aliases": [],
+   "tier": 6,
+   "views": 394
+  },
+  {
+   "name": "Kobalos",
+   "aliases": [],
+   "tier": 6,
+   "views": 29
+  },
+  {
+   "name": "Kr00k",
+   "aliases": [],
+   "tier": 6,
+   "views": 247
+  },
+  {
+   "name": "Kraken botnet",
+   "aliases": [],
+   "tier": 6,
+   "views": 159
+  },
+  {
+   "name": "Krotten",
+   "aliases": [],
+   "tier": 6,
+   "views": 164
+  },
+  {
+   "name": "Lazy FP state restore",
+   "aliases": [],
+   "tier": 6,
+   "views": 254
+  },
+  {
+   "name": "LazyScripter",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LDAP injection",
+   "aliases": [],
+   "tier": 6,
+   "views": 282
+  },
+  {
+   "name": "Leap worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 186
+  },
+  {
+   "name": "Lethic botnet",
+   "aliases": [
+    "Lethic"
+   ],
+   "tier": 6,
+   "views": 60
+  },
+  {
+   "name": "Level Seven hacker group",
+   "aliases": [],
+   "tier": 6,
+   "views": 200
+  },
+  {
+   "name": "LightBasin",
+   "aliases": [],
+   "tier": 6,
+   "views": 263
+  },
+  {
+   "name": "Linux.Darlloz",
+   "aliases": [],
+   "tier": 6,
+   "views": 184
+  },
+  {
+   "name": "Linux.Wifatch",
+   "aliases": [],
+   "tier": 6,
+   "views": 318
+  },
+  {
+   "name": "LNK Icon Smuggling",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "LogicLocker",
+   "aliases": [],
+   "tier": 6,
+   "views": 141
+  },
+  {
+   "name": "Lords of Dharmaraja",
+   "aliases": [],
+   "tier": 6,
+   "views": 178
+  },
+  {
+   "name": "Lotus Blossom",
+   "aliases": [
+    "Spring Dragon",
+    "Raspberry Typhoon"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "LulzRaft",
+   "aliases": [],
+   "tier": 6,
+   "views": 354
+  },
+  {
+   "name": "LulzSecPeru",
+   "aliases": [],
+   "tier": 6,
+   "views": 37
+  },
+  {
+   "name": "LuminousMoth",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mahdi malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 262
+  },
+  {
+   "name": "Malicious Copy and Paste",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Malware packer",
+   "aliases": [
+    "crypter",
+    "packed malware",
+    "software packing"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Mark-of-the-Web Bypass",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Masquerade File Type",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Masquerading",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mass assignment",
+   "aliases": [],
+   "tier": 6,
+   "views": 360
+  },
+  {
+   "name": "Mebroot",
+   "aliases": [],
+   "tier": 6,
+   "views": 132
+  },
+  {
+   "name": "Medical device hijack",
+   "aliases": [],
+   "tier": 6,
+   "views": 274
+  },
+  {
+   "name": "Medusa Group",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mega-D botnet",
+   "aliases": [
+    "Mega-D"
+   ],
+   "tier": 6,
+   "views": 146
+  },
+  {
+   "name": "Metulji botnet",
+   "aliases": [
+    "Metulji"
+   ],
+   "tier": 6,
+   "views": 109
+  },
+  {
+   "name": "MirrorFace",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mocmex",
+   "aliases": [],
+   "tier": 6,
+   "views": 132
+  },
+  {
+   "name": "Model inversion attack",
+   "aliases": [
+    "model inversion"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Model stealing",
+   "aliases": [
+    "model extraction attack"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Modify Authentication Process",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Moonstone Sleet",
+   "aliases": [
+    "Storm-1789"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Moses Staff",
+   "aliases": [
+    "DEV-0500",
+    "Marigold Sandstorm"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "MoustachedBouncer",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "MP3Concept",
+   "aliases": [],
+   "tier": 6,
+   "views": 101
+  },
+  {
+   "name": "MuddyWater",
+   "aliases": [
+    "Static Kitten",
+    "Mango Sandstorm",
+    "TA450"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Multi-Factor Authentication Interception",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Multi-Factor Authentication Request Generation",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Multipartite virus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Mumu worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 150
+  },
+  {
+   "name": "Mustang Panda",
+   "aliases": [
+    "TA416",
+    "STATELY TAURUS",
+    "CAMARO DRAGON",
+    "HIVE0154",
+    "TWILL TYPHOON",
+    "UNC6384"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Mustard Tempest",
+   "aliases": [
+    "DEV-0206",
+    "TA569",
+    "UNC1543"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Mylife worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 201
+  },
+  {
+   "name": "Name Resolution Poisoning and SMB Relay",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "National Rifle Association ransomware attack",
+   "aliases": [
+    "2021 National Rifle Association ransomware attack"
+   ],
+   "tier": 6,
+   "views": 141
+  },
+  {
+   "name": "Necurs",
+   "aliases": [
+    "Necurs botnet"
+   ],
+   "tier": 6,
+   "views": 296
+  },
+  {
+   "name": "NetTraveler",
+   "aliases": [],
+   "tier": 6,
+   "views": 100
+  },
+  {
+   "name": "Network Denial of Service",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "NIMBUS MANTICORE",
+   "aliases": [
+    "UNC1549",
+    "TA455"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Nitol botnet",
+   "aliases": [
+    "Nitol"
+   ],
+   "tier": 6,
+   "views": 109
+  },
+  {
+   "name": "Nitro hacking attacks",
+   "aliases": [],
+   "tier": 6,
+   "views": 71
+  },
+  {
+   "name": "Nomadic Octopus",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "NullCrew",
+   "aliases": [],
+   "tier": 6,
+   "views": 239
+  },
+  {
+   "name": "Numbered Panda",
+   "aliases": [
+    "APT12"
+   ],
+   "tier": 6,
+   "views": 317
+  },
+  {
+   "name": "Obfuscated Files or Information",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Operation Cleaver",
+   "aliases": [],
+   "tier": 6,
+   "views": 174
+  },
+  {
+   "name": "Operation High Roller",
+   "aliases": [],
+   "tier": 6,
+   "views": 347
+  },
+  {
+   "name": "Operation Newscaster",
+   "aliases": [],
+   "tier": 6,
+   "views": 164
+  },
+  {
+   "name": "OS Exhaustion Flood",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "OSX.Keydnap",
+   "aliases": [
+    "Keydnap"
+   ],
+   "tier": 6,
+   "views": 92
+  },
+  {
+   "name": "P.H.I.R.M.",
+   "aliases": [],
+   "tier": 6,
+   "views": 102
+  },
+  {
+   "name": "Palm OS viruses",
+   "aliases": [],
+   "tier": 6,
+   "views": 134
+  },
+  {
+   "name": "Paraguay ransomware attack",
+   "aliases": [
+    "2025 Paraguay ransomware attack"
+   ],
+   "tier": 6,
+   "views": 281
+  },
+  {
+   "name": "Parent PID Spoofing",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pass the cookie",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Path Interception by Unquoted Path",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PGPCoder",
+   "aliases": [],
+   "tier": 6,
+   "views": 170
+  },
+  {
+   "name": "Philadelphia ransomware",
+   "aliases": [],
+   "tier": 6,
+   "views": 165
+  },
+  {
+   "name": "Phishing for Information",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pink Sandstorm",
+   "aliases": [
+    "Agonizing Serpens"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "PittyTiger",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Poisoned Pipeline Execution",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "PoisonIvy",
+   "aliases": [
+    "Breut",
+    "Darkmoon"
+   ],
+   "tier": 6,
+   "views": 212
+  },
+  {
+   "name": "Port Knocking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Poseidon Group",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Pre-OS Boot",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Prime Suspectz",
+   "aliases": [],
+   "tier": 6,
+   "views": 69
+  },
+  {
+   "name": "Process Doppelgänging",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Project Sauron",
+   "aliases": [
+    "Remsec",
+    "Backdoor.Remsec"
+   ],
+   "tier": 6,
+   "views": 360
+  },
+  {
+   "name": "Protocol Tunneling",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Psyb0t",
+   "aliases": [],
+   "tier": 6,
+   "views": 211
+  },
+  {
+   "name": "PUNK SPIDER",
+   "aliases": [
+    "Howling Scorpius"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "PunkeyPOS",
+   "aliases": [],
+   "tier": 6,
+   "views": 70
+  },
+  {
+   "name": "Putter Panda",
+   "aliases": [
+    "APT2"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Query Registry",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "RagnarLocker",
+   "aliases": [],
+   "tier": 6,
+   "views": 260
+  },
+  {
+   "name": "Ramsay malware",
+   "aliases": [],
+   "tier": 6,
+   "views": 82
+  },
+  {
+   "name": "RDP Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Red Cross data breach",
+   "aliases": [],
+   "tier": 6,
+   "views": 376
+  },
+  {
+   "name": "RedCurl",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "RedEcho",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Reflective Code Loading",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Registry Run Keys / Startup Folder",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Remote Service Session Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Replication Through Removable Media",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Reptar vulnerability",
+   "aliases": [],
+   "tier": 6,
+   "views": 196
+  },
+  {
+   "name": "Resident virus",
+   "aliases": [
+    "memory resident virus"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Resource Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Right-to-Left Override",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Riskware",
+   "aliases": [],
+   "tier": 6,
+   "views": 383
+  },
+  {
+   "name": "Rogue Domain Controller",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Rombertik",
+   "aliases": [],
+   "tier": 6,
+   "views": 163
+  },
+  {
+   "name": "Rootpipe",
+   "aliases": [],
+   "tier": 6,
+   "views": 179
+  },
+  {
+   "name": "RSPlug",
+   "aliases": [],
+   "tier": 6,
+   "views": 91
+  },
+  {
+   "name": "Russian hacker password theft",
+   "aliases": [
+    "2014 Russian hacker password theft"
+   ],
+   "tier": 6,
+   "views": 137
+  },
+  {
+   "name": "Rustock botnet",
+   "aliases": [
+    "Rustock"
+   ],
+   "tier": 6,
+   "views": 281
+  },
+  {
+   "name": "Sadmind",
+   "aliases": [],
+   "tier": 6,
+   "views": 127
+  },
+  {
+   "name": "Saint Bear",
+   "aliases": [
+    "Storm-0587",
+    "TA471",
+    "UAC-0056",
+    "Lorec53"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Santy",
+   "aliases": [],
+   "tier": 6,
+   "views": 330
+  },
+  {
+   "name": "Scarlet Mimic",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Sea Turtle",
+   "aliases": [
+    "Teal Kurma",
+    "Cosmic Wolf"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Security logging and monitoring failures",
+   "aliases": [
+    "insufficient logging and monitoring"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Service Exhaustion Flood",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SID-History Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SideCopy",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SigSpoof",
+   "aliases": [],
+   "tier": 6,
+   "views": 130
+  },
+  {
+   "name": "Silent Chollima",
+   "aliases": [
+    "Onyx Sleet"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Silent Librarian",
+   "aliases": [
+    "TA407"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Silver ticket attack",
+   "aliases": [
+    "silver ticket"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "SilverTerrier",
+   "aliases": [],
+   "tier": 6,
+   "views": 63
+  },
+  {
+   "name": "Singapore cyberattacks",
+   "aliases": [
+    "2013 Singapore cyberattacks"
+   ],
+   "tier": 6,
+   "views": 306
+  },
+  {
+   "name": "Sircam",
+   "aliases": [],
+   "tier": 6,
+   "views": 230
+  },
+  {
+   "name": "Slenfbot",
+   "aliases": [],
+   "tier": 6,
+   "views": 104
+  },
+  {
+   "name": "SMS Pumping",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Sober worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "Software and data integrity failures",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Space after Filename",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Spearphishing via Service",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Spoofed caller",
+   "aliases": [
+    "neighbor spoofing"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Srizbi botnet",
+   "aliases": [
+    "Srizbi"
+   ],
+   "tier": 6,
+   "views": 414
+  },
+  {
+   "name": "SSH Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Staog",
+   "aliases": [],
+   "tier": 6,
+   "views": 286
+  },
+  {
+   "name": "Star Blizzard",
+   "aliases": [
+    "Callisto Group",
+    "TA446"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Steal Application Access Token",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Steal Application Specific Passwords",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Steal or Forge Authentication Certificates",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Steal or Forge Kerberos Tickets",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Stealth Falcon",
+   "aliases": [],
+   "tier": 6,
+   "views": 267
+  },
+  {
+   "name": "Storm-0501",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Storm-1811",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Storm-2697",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Stration",
+   "aliases": [],
+   "tier": 6,
+   "views": 192
+  },
+  {
+   "name": "Subvert Trust Controls",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "SVG Smuggling",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Swizzor",
+   "aliases": [],
+   "tier": 6,
+   "views": 78
+  },
+  {
+   "name": "T-APT-04",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "T-APT-17",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TA2541",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TA459",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TA505",
+   "aliases": [
+    "Hive0065",
+    "Spandex Tempest"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "TA551",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TA577",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TA578",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Taint Shared Content",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Targeted threat",
+   "aliases": [],
+   "tier": 6,
+   "views": 207
+  },
+  {
+   "name": "TeamPCP",
+   "aliases": [
+    "DeadCatx3",
+    "SHADOW-WATER-058",
+    "UNC6780"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "TeamTNT",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Teardrop attack",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TEMP.Veles",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Template Injection",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "TeslaCrypt",
+   "aliases": [],
+   "tier": 6,
+   "views": 377
+  },
+  {
+   "name": "Thanos ransomware",
+   "aliases": [],
+   "tier": 6,
+   "views": 161
+  },
+  {
+   "name": "The White Company",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Thread Execution Hijacking",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Threat Group 2889",
+   "aliases": [
+    "TG-2889"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Threat Group-1314",
+   "aliases": [
+    "TG-1314"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Threat Group-3390",
+   "aliases": [
+    "TG-3390",
+    "Emissary Panda",
+    "APT27",
+    "Iron Tiger",
+    "Linen Typhoon"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Thunderspy",
+   "aliases": [],
+   "tier": 6,
+   "views": 382
+  },
+  {
+   "name": "Timestomping",
+   "aliases": [
+    "timestomp"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "ToddyCat",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Token Impersonation/Theft",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Toll fraud",
+   "aliases": [
+    "phone toll fraud",
+    "IRSF"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Tonto Team",
+   "aliases": [
+    "Karma Panda"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "TorrentLocker",
+   "aliases": [],
+   "tier": 6,
+   "views": 105
+  },
+  {
+   "name": "Toxbot",
+   "aliases": [],
+   "tier": 6,
+   "views": 33
+  },
+  {
+   "name": "Transnet ransomware attack",
+   "aliases": [],
+   "tier": 6,
+   "views": 309
+  },
+  {
+   "name": "Transparent Tribe",
+   "aliases": [
+    "APT36",
+    "Mythic Leopard"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Tropic Trooper",
+   "aliases": [
+    "Pirate Panda"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Trusted Relationship",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Twelve Tricks",
+   "aliases": [],
+   "tier": 6,
+   "views": 99
+  },
+  {
+   "name": "Ukrainian Cyber Alliance",
+   "aliases": [],
+   "tier": 6,
+   "views": 324
+  },
+  {
+   "name": "Unsecured Credentials",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Upering",
+   "aliases": [],
+   "tier": 6,
+   "views": 17
+  },
+  {
+   "name": "VBA Stomping",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Velvet Ant",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Vietnamese airports hackings",
+   "aliases": [],
+   "tier": 6,
+   "views": 156
+  },
+  {
+   "name": "Virdem",
+   "aliases": [],
+   "tier": 6,
+   "views": 145
+  },
+  {
+   "name": "Virtualization/Sandbox Evasion",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Virus Creation Laboratory",
+   "aliases": [],
+   "tier": 6,
+   "views": 192
+  },
+  {
+   "name": "Virut",
+   "aliases": [],
+   "tier": 6,
+   "views": 306
+  },
+  {
+   "name": "VOID MANTICORE",
+   "aliases": [
+    "Karmabelow80",
+    "BANISHED KITTEN",
+    "Red Sandstorm"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Volatile Cedar",
+   "aliases": [
+    "Lebanese Cedar"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Voyager worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 52
+  },
+  {
+   "name": "Vulcanbot",
+   "aliases": [],
+   "tier": 6,
+   "views": 122
+  },
+  {
+   "name": "Waikato District Health Board ransomware attack",
+   "aliases": [],
+   "tier": 6,
+   "views": 325
+  },
+  {
+   "name": "Waledac botnet",
+   "aliases": [
+    "Waledac"
+   ],
+   "tier": 6,
+   "views": 216
+  },
+  {
+   "name": "Water Galura",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Weaken Encryption",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Web threat",
+   "aliases": [],
+   "tier": 6,
+   "views": 327
+  },
+  {
+   "name": "Westminster data breach",
+   "aliases": [
+    "2017 Westminster data breach"
+   ],
+   "tier": 6,
+   "views": 132
+  },
+  {
+   "name": "Whale virus",
+   "aliases": [],
+   "tier": 6,
+   "views": 171
+  },
+  {
+   "name": "Whisper Spider",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Winnti Group",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "WinShock",
+   "aliases": [],
+   "tier": 6,
+   "views": 130
+  },
+  {
+   "name": "Winter Vivern",
+   "aliases": [
+    "TA473",
+    "UAC-0114"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "WIRTE",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Witty worm",
+   "aliases": [],
+   "tier": 6,
+   "views": 185
+  },
+  {
+   "name": "World of Hell",
+   "aliases": [],
+   "tier": 6,
+   "views": 390
+  },
+  {
+   "name": "X-Agent",
+   "aliases": [
+    "CHOPSTICK",
+    "Backdoor.SofacyX",
+    "SPLM",
+    "webhp"
+   ],
+   "tier": 6,
+   "views": 353
+  },
+  {
+   "name": "Xafecopy",
+   "aliases": [],
+   "tier": 6,
+   "views": 126
+  },
+  {
+   "name": "Yemen Cyber Army",
+   "aliases": [],
+   "tier": 6,
+   "views": 260
+  },
+  {
+   "name": "Zerologon",
+   "aliases": [],
+   "tier": 6,
+   "views": 395
+  },
+  {
+   "name": "Zlob trojan",
+   "aliases": [],
+   "tier": 6,
+   "views": 302
+  },
+  {
+   "name": "Zmist",
+   "aliases": [],
+   "tier": 6,
+   "views": 140
+  },
+  {
+   "name": "Zotob",
+   "aliases": [],
+   "tier": 6,
+   "views": 200
+  }
+ ]
+}

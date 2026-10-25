@@ -1,0 +1,3540 @@
+{
+  "prompt": "Name an Excel function",
+  "sources": [
+    "https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188",
+    "https://support.microsoft.com/en-us/office/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb"
+  ],
+  "answers": [
+    {
+      "name": "AVERAGE",
+      "aliases": [
+        "avg"
+      ],
+      "wiki": null,
+      "tier": 1,
+      "category": "Statistical"
+    },
+    {
+      "name": "COUNT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 1,
+      "category": "Statistical"
+    },
+    {
+      "name": "IF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 1,
+      "category": "Logical"
+    },
+    {
+      "name": "MAX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 1,
+      "category": "Statistical"
+    },
+    {
+      "name": "MIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 1,
+      "category": "Statistical"
+    },
+    {
+      "name": "SUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 1,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "VLOOKUP",
+      "aliases": [
+        "v lookup"
+      ],
+      "wiki": null,
+      "tier": 1,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "AND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Logical"
+    },
+    {
+      "name": "CONCAT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "CONCATENATE",
+      "aliases": [
+        "concatenation"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "COUNTA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Statistical"
+    },
+    {
+      "name": "COUNTIF",
+      "aliases": [
+        "count if"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Statistical"
+    },
+    {
+      "name": "COUNTIFS",
+      "aliases": [
+        "count ifs"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Statistical"
+    },
+    {
+      "name": "IFERROR",
+      "aliases": [
+        "if error"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Logical"
+    },
+    {
+      "name": "INDEX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "LEFT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "LEN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "LOWER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "MATCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "NOW",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Date and time"
+    },
+    {
+      "name": "OR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Logical"
+    },
+    {
+      "name": "RIGHT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "ROUND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUMIF",
+      "aliases": [
+        "sum if"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUMIFS",
+      "aliases": [
+        "sum ifs"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "TODAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Date and time"
+    },
+    {
+      "name": "TRIM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "UPPER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 2,
+      "category": "Text"
+    },
+    {
+      "name": "XLOOKUP",
+      "aliases": [
+        "x lookup"
+      ],
+      "wiki": null,
+      "tier": 2,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "ABS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "AVERAGEA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "AVERAGEIF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "AVERAGEIFS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "COUNTBLANK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "DATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "DATEDIF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "DAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "DAYS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "EDATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "EOMONTH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "FALSE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Logical"
+    },
+    {
+      "name": "FILTER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "FIND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "HLOOKUP",
+      "aliases": [
+        "h lookup"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "HOUR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "IFS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Logical"
+    },
+    {
+      "name": "INDEX MATCH",
+      "aliases": [
+        "index and match",
+        "index/match"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference (combination)"
+    },
+    {
+      "name": "INT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "IRR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Financial"
+    },
+    {
+      "name": "ISBLANK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Information"
+    },
+    {
+      "name": "ISERROR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Information"
+    },
+    {
+      "name": "LARGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "LOOKUP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "MEDIAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "MID",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "MINUTE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "MODE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Compatibility"
+    },
+    {
+      "name": "MONTH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "NETWORKDAYS",
+      "aliases": [
+        "network days"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "NOT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Logical"
+    },
+    {
+      "name": "NPV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Financial"
+    },
+    {
+      "name": "PI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "PMT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Financial"
+    },
+    {
+      "name": "PRODUCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "PROPER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "RAND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RANDBETWEEN",
+      "aliases": [
+        "rand between"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RANK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Compatibility"
+    },
+    {
+      "name": "REPLACE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "ROUNDDOWN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ROUNDUP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SEARCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "SECOND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "SMALL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "SORT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "STDEV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Compatibility"
+    },
+    {
+      "name": "STDEV.P",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "STDEV.S",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Statistical"
+    },
+    {
+      "name": "SUBSTITUTE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "SUMPRODUCT",
+      "aliases": [
+        "sum product"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "TEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "TEXTJOIN",
+      "aliases": [
+        "text join"
+      ],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "TIME",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "TRUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Logical"
+    },
+    {
+      "name": "UNIQUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "VALUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Text"
+    },
+    {
+      "name": "VAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Compatibility"
+    },
+    {
+      "name": "WEEKDAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "WORKDAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "YEAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 3,
+      "category": "Date and time"
+    },
+    {
+      "name": "ADDRESS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "AGGREGATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CEILING",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Compatibility"
+    },
+    {
+      "name": "CHAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "CHOOSE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "CLEAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "CODE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "COLUMN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "COLUMNS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "COMBIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CORREL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "DATEVALUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Date and time"
+    },
+    {
+      "name": "DB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "DDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "DOLLAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "EFFECT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "EVEN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "EXACT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "EXP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "FACT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "FIXED",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "FLOOR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Compatibility"
+    },
+    {
+      "name": "FORECAST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "FORECAST.LINEAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "FREQUENCY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "FV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "GCD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "GEOMEAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "GETPIVOTDATA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "GROUPBY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "HYPERLINK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "IFNA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Logical"
+    },
+    {
+      "name": "IMAGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "INDIRECT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "INTERCEPT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "IPMT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "ISEVEN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "ISNA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "ISNUMBER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "ISODD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "ISTEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "LCM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "LET",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Logical"
+    },
+    {
+      "name": "LN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "LOG",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "LOG10",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MAXIFS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "MINIFS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "MIRR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "MOD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MODE.SNGL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "MROUND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "NA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Information"
+    },
+    {
+      "name": "NETWORKDAYS.INTL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Date and time"
+    },
+    {
+      "name": "NORM.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "NORM.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Compatibility"
+    },
+    {
+      "name": "NPER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "ODD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "OFFSET",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "PERCENTILE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Compatibility"
+    },
+    {
+      "name": "PERCENTILE.INC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "PERCENTOF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "PERMUT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "PIVOTBY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "POWER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "PPMT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "PV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "QUARTILE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Compatibility"
+    },
+    {
+      "name": "QUARTILE.INC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "QUOTIENT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RANDARRAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RANK.EQ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "RATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "REPT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "ROW",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "ROWS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "RSQ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "SEQUENCE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SIGN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SLN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "SLOPE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "SORTBY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "SQRT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUBTOTAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SWITCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Logical"
+    },
+    {
+      "name": "SYD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "T.TEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "TEXTAFTER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "TEXTBEFORE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "TEXTSPLIT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Text"
+    },
+    {
+      "name": "TRANSPOSE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "TRIMRANGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "TRUNC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "VAR.P",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "VAR.S",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Statistical"
+    },
+    {
+      "name": "WEEKNUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Date and time"
+    },
+    {
+      "name": "WORKDAY.INTL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Date and time"
+    },
+    {
+      "name": "XIRR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "XMATCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "XNPV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Financial"
+    },
+    {
+      "name": "XOR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Logical"
+    },
+    {
+      "name": "YEARFRAC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 4,
+      "category": "Date and time"
+    },
+    {
+      "name": "ACCRINT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "ACCRINTM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "ACOS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ACOSH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ACOT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ACOTH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "AREAS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "ARRAYTOTEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "ASIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ASINH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ATAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ATAN2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ATANH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "AVEDEV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BASE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "BETA.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BETA.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BINOM.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BINOM.DIST.RANGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BINOM.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "BYCOL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "BYROW",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "CEILING.MATH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CEILING.PRECISE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CHISQ.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CHISQ.DIST.RT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CHISQ.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CHISQ.INV.RT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CHISQ.TEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CHOOSECOLS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "CHOOSEROWS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "COMBINA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CONFIDENCE.NORM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CONFIDENCE.T",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CONVERT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Engineering"
+    },
+    {
+      "name": "COS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "COSH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "COT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "COTH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "COUPDAYBS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COUPDAYS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COUPDAYSNC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COUPNCD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COUPNUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COUPPCD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "COVARIANCE.P",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "COVARIANCE.S",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "CSC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CSCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "CUMIPMT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "CUMPRINC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "DAVERAGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DAYS360",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Date and time"
+    },
+    {
+      "name": "DCOUNT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DCOUNTA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DECIMAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "DEGREES",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "DETECTLANGUAGE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "DEVSQ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "DGET",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DISC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "DMAX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DMIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DOLLARDE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "DOLLARFR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "DPRODUCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DROP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "DSTDEV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DSTDEVP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DSUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DURATION",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "DVAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "DVARP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Database"
+    },
+    {
+      "name": "ERROR.TYPE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "EXPAND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "EXPON.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "F.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "F.DIST.RT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "F.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "F.INV.RT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "F.TEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FACTDOUBLE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "FINDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "FISHER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FISHERINV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FLOOR.MATH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "FLOOR.PRECISE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "FORECAST.ETS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FORECAST.ETS.CONFINT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FORECAST.ETS.SEASONALITY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FORECAST.ETS.STAT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "FORMULATEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "FVSCHEDULE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "GAMMA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "GAMMA.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "GAMMA.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "GAUSS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "GROWTH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "HARMEAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "HSTACK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "HYPGEOM.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "INTRATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "ISERR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "ISFORMULA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "ISLOGICAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "ISNONTEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "ISO.CEILING",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ISOMITTED",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "ISOWEEKNUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Date and time"
+    },
+    {
+      "name": "ISPMT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "ISREF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "KURT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "LAMBDA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "LEFTB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "LENB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "LINEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "LOGEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "LOGNORM.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "LOGNORM.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "MAKEARRAY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "MAP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "MAXA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "MDETERM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MDURATION",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "MIDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "MINA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "MINVERSE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MMULT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MODE.MULT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "MULTINOMIAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "MUNIT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "N",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "NEGBINOM.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "NOMINAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "NORM.S.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "NORM.S.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "NUMBERVALUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "PDURATION",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "PEARSON",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PERCENTILE.EXC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PERCENTRANK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Compatibility"
+    },
+    {
+      "name": "PERCENTRANK.EXC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PERCENTRANK.INC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PERMUTATIONA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PHI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "POISSON.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "PRICE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "PRICEDISC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "PRICEMAT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "PROB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "QUARTILE.EXC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "RADIANS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RANK.AVG",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "RECEIVED",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "REDUCE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "REGEXEXTRACT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "REGEXREPLACE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "REGEXTEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "REPLACEB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "RIGHTB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "ROMAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "RRI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "SCAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Logical"
+    },
+    {
+      "name": "SEARCHB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "SEC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SECH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SHEET",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "SHEETS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "SIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SINH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SKEW",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "SKEW.P",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "STANDARDIZE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "STDEVA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "STDEVPA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "STEYX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "STOCKHISTORY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "SUMSQ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUMX2MY2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUMX2PY2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SUMXMY2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "T",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "T.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "T.DIST.2T",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "T.DIST.RT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "T.INV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "T.INV.2T",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "TAKE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "TAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "TANH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "TBILLEQ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "TBILLPRICE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "TBILLYIELD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "TIMEVALUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Date and time"
+    },
+    {
+      "name": "TOCOL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "TOROW",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "TRANSLATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "TREND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "TRIMMEAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "TYPE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Information"
+    },
+    {
+      "name": "UNICHAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "UNICODE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "VALUETOTEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Text"
+    },
+    {
+      "name": "VARA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "VARPA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "VDB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "VSTACK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "WRAPCOLS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "WRAPROWS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "YIELD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "YIELDDISC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "YIELDMAT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Financial"
+    },
+    {
+      "name": "Z.TEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 5,
+      "category": "Statistical"
+    },
+    {
+      "name": "AMORDEGRC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "AMORLINC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "ARABIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "ASC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Text"
+    },
+    {
+      "name": "BAHTTEXT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Text"
+    },
+    {
+      "name": "BESSELI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BESSELJ",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BESSELK",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BESSELY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BIN2DEC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BIN2HEX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BIN2OCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BITAND",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BITLSHIFT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BITOR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BITRSHIFT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "BITXOR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "CALL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Add-in and Automation"
+    },
+    {
+      "name": "CELL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Information"
+    },
+    {
+      "name": "CHIDIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "CHIINV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "CHITEST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "COMPLEX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "CONFIDENCE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "COVAR",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "CRITBINOM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "CUBEKPIMEMBER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBEMEMBER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBEMEMBERPROPERTY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBERANKEDMEMBER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBESET",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBESETCOUNT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "CUBEVALUE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Cube"
+    },
+    {
+      "name": "DBCS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Text"
+    },
+    {
+      "name": "DEC2BIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "DEC2HEX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "DEC2OCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "DELTA",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "ENCODEURL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Web"
+    },
+    {
+      "name": "ERF",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "ERF.PRECISE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "ERFC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "ERFC.PRECISE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "EUROCONVERT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Add-in and Automation"
+    },
+    {
+      "name": "FILTERXML",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Web"
+    },
+    {
+      "name": "GAMMALN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Statistical"
+    },
+    {
+      "name": "GAMMALN.PRECISE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Statistical"
+    },
+    {
+      "name": "GESTEP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "HEX2BIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "HEX2DEC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "HEX2OCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMABS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMAGINARY",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMARGUMENT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCONJUGATE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCOS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCOSH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCOT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCSC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMCSCH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMDIV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMEXP",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMLN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMLOG10",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMLOG2",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMPOWER",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMPRODUCT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMREAL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSEC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSECH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSINH",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSQRT",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSUB",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMSUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "IMTAN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "INFO",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Information"
+    },
+    {
+      "name": "JIS",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Text"
+    },
+    {
+      "name": "LOGINV",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "OCT2BIN",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "OCT2DEC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "OCT2HEX",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Engineering"
+    },
+    {
+      "name": "ODDFPRICE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "ODDFYIELD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "ODDLPRICE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "ODDLYIELD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Financial"
+    },
+    {
+      "name": "PHONETIC",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Text"
+    },
+    {
+      "name": "POISSON",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "REGISTER.ID",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Add-in and Automation"
+    },
+    {
+      "name": "RTD",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Lookup and reference"
+    },
+    {
+      "name": "SERIESSUM",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "SQRTPI",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Math and trigonometry"
+    },
+    {
+      "name": "WEBSERVICE",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Web"
+    },
+    {
+      "name": "WEIBULL",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Compatibility"
+    },
+    {
+      "name": "WEIBULL.DIST",
+      "aliases": [],
+      "wiki": null,
+      "tier": 6,
+      "category": "Statistical"
+    }
+  ]
+}

@@ -1,0 +1,8928 @@
+{
+ "prompt": "Name a company that hires BIS grads",
+ "generated": "2026-10-25",
+ "sources": [
+  "https://raw.githubusercontent.com/phamleduy04/fortune-500-csv/main/merged_df.csv (Fortune 500 + Fortune 1000 ranks 501-1000, 2024 list scraped from fortune.com)",
+  "https://fortune.com/ranking/fortune500/",
+  "https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue",
+  "https://en.wikipedia.org/wiki/List_of_companies_in_the_Dallas%E2%80%93Fort_Worth_metroplex",
+  "https://en.wikipedia.org/wiki/List_of_companies_in_Dallas",
+  "https://en.wikipedia.org/wiki/List_of_Texas_companies",
+  "https://en.wikipedia.org/wiki/List_of_largest_private_non-governmental_companies_by_revenue",
+  "https://en.wikipedia.org/w/api.php (MediaWiki API: title/redirect resolution, disambiguation checks, short descriptions)",
+  "Curated additions: Big Four, consulting/accounting/staffing firms, global tech, banks, airlines, defense, energy, DFW health systems, U.S. government agencies, DFW sports teams, TCU"
+ ],
+ "reject": [],
+ "answers": [
+  {
+   "name": "Amazon",
+   "aliases": [
+    "AWS",
+    "Amazon Web Services",
+    "Amazon.com"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Apple",
+   "aliases": [
+    "Apple Inc"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Deloitte",
+   "aliases": [
+    "Deloitte Touche Tohmatsu",
+    "Deloitte Consulting",
+    "Deloitte and Touche"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Google",
+   "aliases": [
+    "Alphabet",
+    "Alphabet Inc",
+    "Google LLC"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Microsoft",
+   "aliases": [
+    "MSFT"
+   ],
+   "tier": 1
+  },
+  {
+   "name": "Accenture",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "American Airlines",
+   "aliases": [
+    "American Airlines Group",
+    "AA",
+    "AAG"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "AT&T",
+   "aliases": [
+    "ATT"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Bank of America",
+   "aliases": [
+    "BofA",
+    "BoA",
+    "Merrill Lynch",
+    "Merrill"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Dell Technologies",
+   "aliases": [
+    "Dell"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "EY",
+   "aliases": [
+    "Ernst & Young",
+    "EY-Parthenon"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Goldman Sachs",
+   "aliases": [
+    "Goldman",
+    "Goldman Sachs Group"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "IBM",
+   "aliases": [
+    "International Business Machines",
+    "IBM Consulting",
+    "Big Blue"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "JPMorgan Chase",
+   "aliases": [
+    "JPMorgan",
+    "Chase",
+    "Chase Bank",
+    "JPMC"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "KPMG",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "Lockheed Martin",
+   "aliases": [
+    "Lockheed"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Meta",
+   "aliases": [
+    "Meta Platforms",
+    "Facebook"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Nvidia",
+   "aliases": [],
+   "tier": 2
+  },
+  {
+   "name": "Oracle",
+   "aliases": [
+    "Oracle Corp",
+    "Oracle Corporation"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "PwC",
+   "aliases": [
+    "PricewaterhouseCoopers",
+    "Price Waterhouse",
+    "Strategy&"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Salesforce",
+   "aliases": [
+    "Salesforce.com"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Southwest Airlines",
+   "aliases": [
+    "Southwest"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Tesla",
+   "aliases": [
+    "Tesla Motors",
+    "Tesla, Inc."
+   ],
+   "tier": 2
+  },
+  {
+   "name": "Walmart",
+   "aliases": [
+    "Walmart Inc"
+   ],
+   "tier": 2
+  },
+  {
+   "name": "7-Eleven",
+   "aliases": [
+    "Seven Eleven"
+   ],
+   "tier": 3,
+   "views": 112789
+  },
+  {
+   "name": "Activision Blizzard",
+   "aliases": [
+    "Activision"
+   ],
+   "tier": 3,
+   "views": 55611
+  },
+  {
+   "name": "Adidas",
+   "aliases": [],
+   "tier": 3,
+   "views": 120035
+  },
+  {
+   "name": "Adobe",
+   "aliases": [
+    "Adobe Inc."
+   ],
+   "tier": 3,
+   "views": 57731
+  },
+  {
+   "name": "Airbnb",
+   "aliases": [],
+   "tier": 3,
+   "views": 78249
+  },
+  {
+   "name": "Airbus",
+   "aliases": [],
+   "tier": 3,
+   "views": 134448
+  },
+  {
+   "name": "Akamai Technologies",
+   "aliases": [],
+   "tier": 3,
+   "views": 55585
+  },
+  {
+   "name": "Alaska Airlines",
+   "aliases": [
+    "Alaska Air Group",
+    "Alaska Air"
+   ],
+   "tier": 3,
+   "views": 68047
+  },
+  {
+   "name": "Alibaba Group",
+   "aliases": [
+    "Alibaba"
+   ],
+   "tier": 3,
+   "views": 69558
+  },
+  {
+   "name": "AMD",
+   "aliases": [
+    "Advanced Micro Devices"
+   ],
+   "tier": 3,
+   "views": 85833
+  },
+  {
+   "name": "American Express",
+   "aliases": [],
+   "tier": 3,
+   "views": 66873
+  },
+  {
+   "name": "Anduril",
+   "aliases": [
+    "Anduril Industries"
+   ],
+   "tier": 3,
+   "views": 152826
+  },
+  {
+   "name": "Anthropic",
+   "aliases": [],
+   "tier": 3,
+   "views": 534152
+  },
+  {
+   "name": "Apollo Global Management",
+   "aliases": [],
+   "tier": 3,
+   "views": 77870
+  },
+  {
+   "name": "BAE Systems",
+   "aliases": [
+    "BAE"
+   ],
+   "tier": 3,
+   "views": 68944
+  },
+  {
+   "name": "Barclays",
+   "aliases": [],
+   "tier": 3,
+   "views": 55364
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "aliases": [],
+   "tier": 3,
+   "views": 165581
+  },
+  {
+   "name": "BlackRock",
+   "aliases": [],
+   "tier": 3,
+   "views": 200297
+  },
+  {
+   "name": "Blackstone",
+   "aliases": [
+    "Blackstone Inc."
+   ],
+   "tier": 3,
+   "views": 78949
+  },
+  {
+   "name": "Blizzard Entertainment",
+   "aliases": [
+    "Blizzard"
+   ],
+   "tier": 3,
+   "views": 74900
+  },
+  {
+   "name": "BMW",
+   "aliases": [],
+   "tier": 3,
+   "views": 157531
+  },
+  {
+   "name": "Boeing",
+   "aliases": [],
+   "tier": 3,
+   "views": 119780
+  },
+  {
+   "name": "BP",
+   "aliases": [
+    "British Petroleum"
+   ],
+   "tier": 3,
+   "views": 81819
+  },
+  {
+   "name": "Broadcom",
+   "aliases": [],
+   "tier": 3,
+   "views": 53695
+  },
+  {
+   "name": "Bungie",
+   "aliases": [],
+   "tier": 3,
+   "views": 62265
+  },
+  {
+   "name": "ByteDance",
+   "aliases": [
+    "TikTok"
+   ],
+   "tier": 3,
+   "views": 67681
+  },
+  {
+   "name": "Capital One",
+   "aliases": [
+    "Capital One Financial"
+   ],
+   "tier": 3,
+   "views": 53435
+  },
+  {
+   "name": "Chevron",
+   "aliases": [
+    "Chevron Corp",
+    "Chevron Corporation"
+   ],
+   "tier": 3,
+   "views": 55303
+  },
+  {
+   "name": "Chipotle Mexican Grill",
+   "aliases": [],
+   "tier": 3,
+   "views": 60886
+  },
+  {
+   "name": "Cisco",
+   "aliases": [
+    "Cisco Systems"
+   ],
+   "tier": 3,
+   "views": 55153
+  },
+  {
+   "name": "Cloudflare",
+   "aliases": [],
+   "tier": 3,
+   "views": 90356
+  },
+  {
+   "name": "Coca-Cola",
+   "aliases": [
+    "The Coca-Cola Company"
+   ],
+   "tier": 3,
+   "views": 84491
+  },
+  {
+   "name": "Comcast",
+   "aliases": [
+    "Xfinity",
+    "NBCUniversal Media"
+   ],
+   "tier": 3,
+   "views": 80372
+  },
+  {
+   "name": "Costco",
+   "aliases": [
+    "Costco Wholesale"
+   ],
+   "tier": 3,
+   "views": 129322
+  },
+  {
+   "name": "Dallas Mavericks",
+   "aliases": [
+    "Mavericks",
+    "Mavs"
+   ],
+   "tier": 3,
+   "views": 61333
+  },
+  {
+   "name": "Databricks",
+   "aliases": [],
+   "tier": 3,
+   "views": 55619
+  },
+  {
+   "name": "Delta Air Lines",
+   "aliases": [
+    "Delta"
+   ],
+   "tier": 3,
+   "views": 138889
+  },
+  {
+   "name": "Department of Defense",
+   "aliases": [
+    "DoD",
+    "Pentagon",
+    "Department of War",
+    "United States Department of Defense"
+   ],
+   "tier": 3,
+   "views": 149801
+  },
+  {
+   "name": "Department of Homeland Security",
+   "aliases": [
+    "DHS",
+    "United States Department of Homeland Security"
+   ],
+   "tier": 3,
+   "views": 72796
+  },
+  {
+   "name": "DHL",
+   "aliases": [],
+   "tier": 3,
+   "views": 55646
+  },
+  {
+   "name": "Disney",
+   "aliases": [
+    "Walt Disney",
+    "Walt Disney Company",
+    "The Walt Disney Company"
+   ],
+   "tier": 3,
+   "views": 208813
+  },
+  {
+   "name": "DuPont",
+   "aliases": [],
+   "tier": 3,
+   "views": 58139
+  },
+  {
+   "name": "eBay",
+   "aliases": [],
+   "tier": 3,
+   "views": 114496
+  },
+  {
+   "name": "Electronic Arts",
+   "aliases": [],
+   "tier": 3,
+   "views": 117365
+  },
+  {
+   "name": "Eli Lilly",
+   "aliases": [
+    "Lilly",
+    "Eli Lilly and Company"
+   ],
+   "tier": 3,
+   "views": 69404
+  },
+  {
+   "name": "Epic Games",
+   "aliases": [],
+   "tier": 3,
+   "views": 89122
+  },
+  {
+   "name": "ESPN",
+   "aliases": [],
+   "tier": 3,
+   "views": 77735
+  },
+  {
+   "name": "ExxonMobil",
+   "aliases": [
+    "Exxon",
+    "Mobil"
+   ],
+   "tier": 3,
+   "views": 65672
+  },
+  {
+   "name": "Federal Reserve",
+   "aliases": [
+    "The Fed",
+    "Federal Reserve Board"
+   ],
+   "tier": 3,
+   "views": 66930
+  },
+  {
+   "name": "Ford",
+   "aliases": [
+    "Ford Motor",
+    "Ford Motor Company"
+   ],
+   "tier": 3,
+   "views": 140851
+  },
+  {
+   "name": "Fox Corporation",
+   "aliases": [
+    "Fox"
+   ],
+   "tier": 3,
+   "views": 63156
+  },
+  {
+   "name": "General Motors",
+   "aliases": [],
+   "tier": 3,
+   "views": 135193
+  },
+  {
+   "name": "GitHub",
+   "aliases": [],
+   "tier": 3,
+   "views": 254636
+  },
+  {
+   "name": "Hasbro",
+   "aliases": [],
+   "tier": 3,
+   "views": 71730
+  },
+  {
+   "name": "Hershey",
+   "aliases": [
+    "The Hershey Company"
+   ],
+   "tier": 3,
+   "views": 53915
+  },
+  {
+   "name": "Home Depot",
+   "aliases": [],
+   "tier": 3,
+   "views": 77466
+  },
+  {
+   "name": "Honda",
+   "aliases": [],
+   "tier": 3,
+   "views": 88499
+  },
+  {
+   "name": "Houston Astros",
+   "aliases": [
+    "Astros"
+   ],
+   "tier": 3,
+   "views": 73211
+  },
+  {
+   "name": "HSBC",
+   "aliases": [],
+   "tier": 3,
+   "views": 92361
+  },
+  {
+   "name": "Huawei",
+   "aliases": [],
+   "tier": 3,
+   "views": 61571
+  },
+  {
+   "name": "Hyundai",
+   "aliases": [
+    "Hyundai Motor",
+    "Hyundai Motor Company"
+   ],
+   "tier": 3,
+   "views": 80084
+  },
+  {
+   "name": "In-N-Out Burger",
+   "aliases": [
+    "In-N-Out"
+   ],
+   "tier": 3,
+   "views": 62853
+  },
+  {
+   "name": "Infosys",
+   "aliases": [],
+   "tier": 3,
+   "views": 67523
+  },
+  {
+   "name": "Intel",
+   "aliases": [],
+   "tier": 3,
+   "views": 71274
+  },
+  {
+   "name": "Jane Street",
+   "aliases": [
+    "Jane Street Capital"
+   ],
+   "tier": 3,
+   "views": 69667
+  },
+  {
+   "name": "JetBlue",
+   "aliases": [
+    "JetBlue Airways"
+   ],
+   "tier": 3,
+   "views": 59044
+  },
+  {
+   "name": "Keurig Dr Pepper",
+   "aliases": [
+    "KDP",
+    "Dr Pepper",
+    "Dr Pepper Snapple Group",
+    "Keurig"
+   ],
+   "tier": 3,
+   "views": 53818
+  },
+  {
+   "name": "KFC",
+   "aliases": [
+    "Kentucky Fried Chicken"
+   ],
+   "tier": 3,
+   "views": 101330
+  },
+  {
+   "name": "Kraft Heinz",
+   "aliases": [],
+   "tier": 3,
+   "views": 60818
+  },
+  {
+   "name": "Kroger",
+   "aliases": [],
+   "tier": 3,
+   "views": 56974
+  },
+  {
+   "name": "Lenovo",
+   "aliases": [],
+   "tier": 3,
+   "views": 71168
+  },
+  {
+   "name": "LinkedIn",
+   "aliases": [],
+   "tier": 3,
+   "views": 224463
+  },
+  {
+   "name": "Lowe's",
+   "aliases": [],
+   "tier": 3,
+   "views": 69862
+  },
+  {
+   "name": "Lululemon",
+   "aliases": [
+    "Lululemon Athletica"
+   ],
+   "tier": 3,
+   "views": 80885
+  },
+  {
+   "name": "Major League Baseball",
+   "aliases": [
+    "MLB"
+   ],
+   "tier": 3,
+   "views": 230881
+  },
+  {
+   "name": "Mars",
+   "aliases": [
+    "Mars Incorporated",
+    "Mars Inc."
+   ],
+   "tier": 3,
+   "views": 78645
+  },
+  {
+   "name": "Marsh McLennan",
+   "aliases": [
+    "Marsh & McLennan"
+   ],
+   "tier": 3,
+   "views": 58009
+  },
+  {
+   "name": "Mattel",
+   "aliases": [],
+   "tier": 3,
+   "views": 71088
+  },
+  {
+   "name": "McDonald's",
+   "aliases": [],
+   "tier": 3,
+   "views": 214050
+  },
+  {
+   "name": "McKinsey & Company",
+   "aliases": [
+    "McKinsey"
+   ],
+   "tier": 3,
+   "views": 57603
+  },
+  {
+   "name": "Micron Technology",
+   "aliases": [],
+   "tier": 3,
+   "views": 72206
+  },
+  {
+   "name": "Mondelez International",
+   "aliases": [],
+   "tier": 3,
+   "views": 69092
+  },
+  {
+   "name": "Morgan Stanley",
+   "aliases": [
+    "E-Trade"
+   ],
+   "tier": 3,
+   "views": 78381
+  },
+  {
+   "name": "Nasdaq",
+   "aliases": [],
+   "tier": 3,
+   "views": 88005
+  },
+  {
+   "name": "National Basketball Association",
+   "aliases": [
+    "NBA"
+   ],
+   "tier": 3,
+   "views": 206423
+  },
+  {
+   "name": "National Football League",
+   "aliases": [
+    "NFL"
+   ],
+   "tier": 3,
+   "views": 401626
+  },
+  {
+   "name": "NBCUniversal",
+   "aliases": [
+    "NBC"
+   ],
+   "tier": 3,
+   "views": 94810
+  },
+  {
+   "name": "Nestlé",
+   "aliases": [],
+   "tier": 3,
+   "views": 120331
+  },
+  {
+   "name": "New York Stock Exchange",
+   "aliases": [
+    "NYSE"
+   ],
+   "tier": 3,
+   "views": 64118
+  },
+  {
+   "name": "Nike",
+   "aliases": [
+    "Nike, Inc."
+   ],
+   "tier": 3,
+   "views": 151637
+  },
+  {
+   "name": "Nintendo",
+   "aliases": [],
+   "tier": 3,
+   "views": 187970
+  },
+  {
+   "name": "Nissan",
+   "aliases": [],
+   "tier": 3,
+   "views": 73313
+  },
+  {
+   "name": "Nokia",
+   "aliases": [],
+   "tier": 3,
+   "views": 106814
+  },
+  {
+   "name": "Northrop Grumman",
+   "aliases": [],
+   "tier": 3,
+   "views": 70386
+  },
+  {
+   "name": "OpenAI",
+   "aliases": [
+    "ChatGPT"
+   ],
+   "tier": 3,
+   "views": 531890
+  },
+  {
+   "name": "Palantir",
+   "aliases": [
+    "Palantir Technologies"
+   ],
+   "tier": 3,
+   "views": 218861
+  },
+  {
+   "name": "Panasonic",
+   "aliases": [],
+   "tier": 3,
+   "views": 68838
+  },
+  {
+   "name": "PayPal",
+   "aliases": [
+    "PayPal Holdings"
+   ],
+   "tier": 3,
+   "views": 119725
+  },
+  {
+   "name": "PepsiCo",
+   "aliases": [],
+   "tier": 3,
+   "views": 94235
+  },
+  {
+   "name": "Philips",
+   "aliases": [
+    "Royal Philips"
+   ],
+   "tier": 3,
+   "views": 74621
+  },
+  {
+   "name": "Pinterest",
+   "aliases": [],
+   "tier": 3,
+   "views": 166984
+  },
+  {
+   "name": "Pizza Hut",
+   "aliases": [],
+   "tier": 3,
+   "views": 56334
+  },
+  {
+   "name": "Procter & Gamble",
+   "aliases": [],
+   "tier": 3,
+   "views": 80015
+  },
+  {
+   "name": "Qualcomm",
+   "aliases": [],
+   "tier": 3,
+   "views": 57810
+  },
+  {
+   "name": "Reddit",
+   "aliases": [],
+   "tier": 3,
+   "views": 358191
+  },
+  {
+   "name": "Rivian Automotive",
+   "aliases": [
+    "Rivian"
+   ],
+   "tier": 3,
+   "views": 90163
+  },
+  {
+   "name": "Rockstar Games",
+   "aliases": [],
+   "tier": 3,
+   "views": 300585
+  },
+  {
+   "name": "RTX",
+   "aliases": [
+    "Raytheon",
+    "Raytheon Technologies",
+    "Raytheon Company",
+    "RTX Corporation"
+   ],
+   "tier": 3,
+   "views": 61724
+  },
+  {
+   "name": "Samsung",
+   "aliases": [
+    "Samsung Electronics"
+   ],
+   "tier": 3,
+   "views": 70780
+  },
+  {
+   "name": "SAP",
+   "aliases": [
+    "SAP SE"
+   ],
+   "tier": 3,
+   "views": 63684
+  },
+  {
+   "name": "Shell",
+   "aliases": [
+    "Royal Dutch Shell",
+    "Shell USA",
+    "Shell Oil",
+    "Shell plc"
+   ],
+   "tier": 3,
+   "views": 70842
+  },
+  {
+   "name": "Shopify",
+   "aliases": [],
+   "tier": 3,
+   "views": 54886
+  },
+  {
+   "name": "Siemens",
+   "aliases": [],
+   "tier": 3,
+   "views": 71603
+  },
+  {
+   "name": "Six Flags",
+   "aliases": [
+    "Six Flags Over Texas"
+   ],
+   "tier": 3,
+   "views": 80988
+  },
+  {
+   "name": "Sony",
+   "aliases": [
+    "Sony Group"
+   ],
+   "tier": 3,
+   "views": 133679
+  },
+  {
+   "name": "Southern Methodist University",
+   "aliases": [
+    "SMU"
+   ],
+   "tier": 3,
+   "views": 55193
+  },
+  {
+   "name": "Spirit Airlines",
+   "aliases": [],
+   "tier": 3,
+   "views": 70174
+  },
+  {
+   "name": "Spotify",
+   "aliases": [],
+   "tier": 3,
+   "views": 149664
+  },
+  {
+   "name": "Starbucks",
+   "aliases": [],
+   "tier": 3,
+   "views": 123221
+  },
+  {
+   "name": "Stellantis",
+   "aliases": [
+    "Chrysler",
+    "Fiat Chrysler"
+   ],
+   "tier": 3,
+   "views": 204207
+  },
+  {
+   "name": "Stripe",
+   "aliases": [
+    "Stripe, Inc."
+   ],
+   "tier": 3,
+   "views": 64286
+  },
+  {
+   "name": "Taco Bell",
+   "aliases": [],
+   "tier": 3,
+   "views": 65955
+  },
+  {
+   "name": "Take-Two Interactive",
+   "aliases": [
+    "Take-Two",
+    "Take-Two Interactive Software"
+   ],
+   "tier": 3,
+   "views": 129031
+  },
+  {
+   "name": "Target",
+   "aliases": [
+    "Target Corporation"
+   ],
+   "tier": 3,
+   "views": 81343
+  },
+  {
+   "name": "Tencent",
+   "aliases": [],
+   "tier": 3,
+   "views": 99077
+  },
+  {
+   "name": "Toyota",
+   "aliases": [
+    "Toyota Motor North America",
+    "Toyota North America",
+    "Toyota Motor"
+   ],
+   "tier": 3,
+   "views": 141481
+  },
+  {
+   "name": "Trader Joe's",
+   "aliases": [],
+   "tier": 3,
+   "views": 74480
+  },
+  {
+   "name": "U.S. Air Force",
+   "aliases": [
+    "USAF",
+    "Air Force",
+    "United States Air Force"
+   ],
+   "tier": 3,
+   "views": 155447
+  },
+  {
+   "name": "U.S. Army",
+   "aliases": [
+    "Army",
+    "United States Army"
+   ],
+   "tier": 3,
+   "views": 183915
+  },
+  {
+   "name": "U.S. Marine Corps",
+   "aliases": [
+    "Marines",
+    "USMC",
+    "United States Marine Corps"
+   ],
+   "tier": 3,
+   "views": 175201
+  },
+  {
+   "name": "U.S. Navy",
+   "aliases": [
+    "Navy",
+    "United States Navy"
+   ],
+   "tier": 3,
+   "views": 176117
+  },
+  {
+   "name": "U.S. Space Force",
+   "aliases": [
+    "Space Force",
+    "USSF",
+    "United States Space Force"
+   ],
+   "tier": 3,
+   "views": 136639
+  },
+  {
+   "name": "Uber",
+   "aliases": [
+    "Uber Technologies"
+   ],
+   "tier": 3,
+   "views": 92068
+  },
+  {
+   "name": "Ubisoft",
+   "aliases": [],
+   "tier": 3,
+   "views": 71829
+  },
+  {
+   "name": "Unilever",
+   "aliases": [],
+   "tier": 3,
+   "views": 76666
+  },
+  {
+   "name": "United Airlines",
+   "aliases": [
+    "United Airlines Holdings",
+    "United"
+   ],
+   "tier": 3,
+   "views": 164300
+  },
+  {
+   "name": "United States Postal Service",
+   "aliases": [
+    "USPS",
+    "Post Office",
+    "US Postal Service"
+   ],
+   "tier": 3,
+   "views": 54832
+  },
+  {
+   "name": "University of Texas at Austin",
+   "aliases": [
+    "UT Austin"
+   ],
+   "tier": 3,
+   "views": 79177
+  },
+  {
+   "name": "Valve",
+   "aliases": [
+    "Valve Corporation"
+   ],
+   "tier": 3,
+   "views": 142537
+  },
+  {
+   "name": "Vanguard",
+   "aliases": [
+    "Vanguard Group",
+    "The Vanguard Group"
+   ],
+   "tier": 3,
+   "views": 77245
+  },
+  {
+   "name": "Victoria's Secret",
+   "aliases": [],
+   "tier": 3,
+   "views": 98076
+  },
+  {
+   "name": "Volkswagen Group",
+   "aliases": [
+    "Volkswagen",
+    "VW"
+   ],
+   "tier": 3,
+   "views": 108385
+  },
+  {
+   "name": "Warner Bros. Discovery",
+   "aliases": [],
+   "tier": 3,
+   "views": 239896
+  },
+  {
+   "name": "Wells Fargo",
+   "aliases": [],
+   "tier": 3,
+   "views": 67141
+  },
+  {
+   "name": "YouTube",
+   "aliases": [],
+   "tier": 3,
+   "views": 2289684
+  },
+  {
+   "name": "Yum! Brands",
+   "aliases": [
+    "Yum"
+   ],
+   "tier": 3,
+   "views": 72826
+  },
+  {
+   "name": "3M",
+   "aliases": [],
+   "tier": 4,
+   "views": 40899
+  },
+  {
+   "name": "AB InBev",
+   "aliases": [
+    "Anheuser-Busch InBev"
+   ],
+   "tier": 4,
+   "views": 32143
+  },
+  {
+   "name": "ABB",
+   "aliases": [],
+   "tier": 4,
+   "views": 39840
+  },
+  {
+   "name": "Abbott Laboratories",
+   "aliases": [],
+   "tier": 4,
+   "views": 32429
+  },
+  {
+   "name": "AbbVie",
+   "aliases": [],
+   "tier": 4,
+   "views": 31486
+  },
+  {
+   "name": "Abercrombie & Fitch",
+   "aliases": [],
+   "tier": 4,
+   "views": 36643
+  },
+  {
+   "name": "ADP",
+   "aliases": [
+    "Automatic Data Processing"
+   ],
+   "tier": 4,
+   "views": 19386
+  },
+  {
+   "name": "AECOM",
+   "aliases": [],
+   "tier": 4,
+   "views": 22358
+  },
+  {
+   "name": "AIG",
+   "aliases": [
+    "American International Group"
+   ],
+   "tier": 4,
+   "views": 28311
+  },
+  {
+   "name": "Albertsons",
+   "aliases": [],
+   "tier": 4,
+   "views": 32151
+  },
+  {
+   "name": "Alcoa",
+   "aliases": [],
+   "tier": 4,
+   "views": 14804
+  },
+  {
+   "name": "Allegiant Air",
+   "aliases": [
+    "Allegiant"
+   ],
+   "tier": 4,
+   "views": 45592
+  },
+  {
+   "name": "Ally Financial",
+   "aliases": [],
+   "tier": 4,
+   "views": 13857
+  },
+  {
+   "name": "Altria",
+   "aliases": [
+    "Altria Group"
+   ],
+   "tier": 4,
+   "views": 22094
+  },
+  {
+   "name": "AMC Networks",
+   "aliases": [
+    "AMC Global Media"
+   ],
+   "tier": 4,
+   "views": 15954
+  },
+  {
+   "name": "AMC Theatres",
+   "aliases": [
+    "AMC Entertainment",
+    "AMC Entertainment Holdings"
+   ],
+   "tier": 4,
+   "views": 29289
+  },
+  {
+   "name": "American Eagle Outfitters",
+   "aliases": [],
+   "tier": 4,
+   "views": 27993
+  },
+  {
+   "name": "Amgen",
+   "aliases": [],
+   "tier": 4,
+   "views": 19462
+  },
+  {
+   "name": "Analog Devices",
+   "aliases": [],
+   "tier": 4,
+   "views": 14246
+  },
+  {
+   "name": "Anheuser-Busch",
+   "aliases": [
+    "Budweiser"
+   ],
+   "tier": 4,
+   "views": 36090
+  },
+  {
+   "name": "Aon",
+   "aliases": [
+    "Aon plc"
+   ],
+   "tier": 4,
+   "views": 23120
+  },
+  {
+   "name": "Applied Materials",
+   "aliases": [],
+   "tier": 4,
+   "views": 19559
+  },
+  {
+   "name": "AppLovin",
+   "aliases": [],
+   "tier": 4,
+   "views": 18546
+  },
+  {
+   "name": "Archer Daniels Midland",
+   "aliases": [],
+   "tier": 4,
+   "views": 18818
+  },
+  {
+   "name": "Ares Management",
+   "aliases": [],
+   "tier": 4,
+   "views": 17884
+  },
+  {
+   "name": "Arista Networks",
+   "aliases": [
+    "Arista"
+   ],
+   "tier": 4,
+   "views": 13938
+  },
+  {
+   "name": "Aspyr",
+   "aliases": [],
+   "tier": 4,
+   "views": 14772
+  },
+  {
+   "name": "AstraZeneca",
+   "aliases": [],
+   "tier": 4,
+   "views": 24616
+  },
+  {
+   "name": "Atlassian",
+   "aliases": [
+    "Jira"
+   ],
+   "tier": 4,
+   "views": 43709
+  },
+  {
+   "name": "Autodesk",
+   "aliases": [],
+   "tier": 4,
+   "views": 27588
+  },
+  {
+   "name": "Bain & Company",
+   "aliases": [
+    "Bain"
+   ],
+   "tier": 4,
+   "views": 24346
+  },
+  {
+   "name": "Bain Capital",
+   "aliases": [],
+   "tier": 4,
+   "views": 34451
+  },
+  {
+   "name": "Baker Hughes",
+   "aliases": [],
+   "tier": 4,
+   "views": 17822
+  },
+  {
+   "name": "Ball Corporation",
+   "aliases": [],
+   "tier": 4,
+   "views": 17091
+  },
+  {
+   "name": "BASF",
+   "aliases": [],
+   "tier": 4,
+   "views": 32300
+  },
+  {
+   "name": "Bass Pro Shops",
+   "aliases": [
+    "Bass Pro"
+   ],
+   "tier": 4,
+   "views": 21946
+  },
+  {
+   "name": "Bayer",
+   "aliases": [],
+   "tier": 4,
+   "views": 44021
+  },
+  {
+   "name": "Bechtel",
+   "aliases": [],
+   "tier": 4,
+   "views": 27919
+  },
+  {
+   "name": "Best Buy",
+   "aliases": [],
+   "tier": 4,
+   "views": 40083
+  },
+  {
+   "name": "BJ's Wholesale Club",
+   "aliases": [],
+   "tier": 4,
+   "views": 26049
+  },
+  {
+   "name": "Block",
+   "aliases": [
+    "Block, Inc."
+   ],
+   "tier": 4,
+   "views": 38978
+  },
+  {
+   "name": "Bloomberg",
+   "aliases": [
+    "Bloomberg LP"
+   ],
+   "tier": 4,
+   "views": 47448
+  },
+  {
+   "name": "Blue Cross Blue Shield",
+   "aliases": [
+    "BCBS",
+    "Blue Cross Blue Shield Association"
+   ],
+   "tier": 4,
+   "views": 17331
+  },
+  {
+   "name": "Blue Origin",
+   "aliases": [],
+   "tier": 4,
+   "views": 44267
+  },
+  {
+   "name": "BNSF Railway",
+   "aliases": [
+    "BNSF",
+    "Burlington Northern Santa Fe"
+   ],
+   "tier": 4,
+   "views": 35409
+  },
+  {
+   "name": "BNY",
+   "aliases": [
+    "BNY Mellon",
+    "Bank of New York Mellon"
+   ],
+   "tier": 4,
+   "views": 24199
+  },
+  {
+   "name": "Booking Holdings",
+   "aliases": [
+    "Booking"
+   ],
+   "tier": 4,
+   "views": 18154
+  },
+  {
+   "name": "Booz Allen Hamilton",
+   "aliases": [
+    "Booz Allen",
+    "Booz Allen Hamilton Holding"
+   ],
+   "tier": 4,
+   "views": 34037
+  },
+  {
+   "name": "Boston Consulting Group",
+   "aliases": [
+    "BCG"
+   ],
+   "tier": 4,
+   "views": 28237
+  },
+  {
+   "name": "Bridgewater Associates",
+   "aliases": [
+    "Bridgewater"
+   ],
+   "tier": 4,
+   "views": 22730
+  },
+  {
+   "name": "Bristol-Myers Squibb",
+   "aliases": [],
+   "tier": 4,
+   "views": 15470
+  },
+  {
+   "name": "Bumble",
+   "aliases": [],
+   "tier": 4,
+   "views": 28373
+  },
+  {
+   "name": "Campbell's",
+   "aliases": [],
+   "tier": 4,
+   "views": 18202
+  },
+  {
+   "name": "Capgemini",
+   "aliases": [],
+   "tier": 4,
+   "views": 34520
+  },
+  {
+   "name": "Cargill",
+   "aliases": [],
+   "tier": 4,
+   "views": 46876
+  },
+  {
+   "name": "Carrier Global",
+   "aliases": [],
+   "tier": 4,
+   "views": 17699
+  },
+  {
+   "name": "Casey's General Stores",
+   "aliases": [
+    "Casey's"
+   ],
+   "tier": 4,
+   "views": 14645
+  },
+  {
+   "name": "Caterpillar",
+   "aliases": [
+    "Caterpillar Inc."
+   ],
+   "tier": 4,
+   "views": 50650
+  },
+  {
+   "name": "CBRE",
+   "aliases": [
+    "CBRE Group"
+   ],
+   "tier": 4,
+   "views": 26971
+  },
+  {
+   "name": "CGI Inc.",
+   "aliases": [
+    "CGI"
+   ],
+   "tier": 4,
+   "views": 14634
+  },
+  {
+   "name": "Charles Schwab",
+   "aliases": [
+    "Schwab",
+    "TD Ameritrade",
+    "Charles Schwab Corporation"
+   ],
+   "tier": 4,
+   "views": 29858
+  },
+  {
+   "name": "Charter Communications",
+   "aliases": [
+    "Spectrum"
+   ],
+   "tier": 4,
+   "views": 33443
+  },
+  {
+   "name": "Cheesecake Factory",
+   "aliases": [
+    "The Cheesecake Factory"
+   ],
+   "tier": 4,
+   "views": 23425
+  },
+  {
+   "name": "Chewy",
+   "aliases": [],
+   "tier": 4,
+   "views": 15266
+  },
+  {
+   "name": "Chime",
+   "aliases": [],
+   "tier": 4,
+   "views": 14404
+  },
+  {
+   "name": "Choice Hotels",
+   "aliases": [],
+   "tier": 4,
+   "views": 15413
+  },
+  {
+   "name": "Chubb",
+   "aliases": [
+    "Chubb Limited"
+   ],
+   "tier": 4,
+   "views": 16008
+  },
+  {
+   "name": "Citadel",
+   "aliases": [
+    "Citadel LLC"
+   ],
+   "tier": 4,
+   "views": 43065
+  },
+  {
+   "name": "Citigroup",
+   "aliases": [
+    "Citi",
+    "Citibank"
+   ],
+   "tier": 4,
+   "views": 47342
+  },
+  {
+   "name": "Cleveland Clinic",
+   "aliases": [],
+   "tier": 4,
+   "views": 22548
+  },
+  {
+   "name": "Cleveland-Cliffs",
+   "aliases": [],
+   "tier": 4,
+   "views": 20935
+  },
+  {
+   "name": "CME Group",
+   "aliases": [
+    "CME"
+   ],
+   "tier": 4,
+   "views": 14195
+  },
+  {
+   "name": "Cognizant",
+   "aliases": [
+    "Cognizant Technology Solutions"
+   ],
+   "tier": 4,
+   "views": 52567
+  },
+  {
+   "name": "Coinbase",
+   "aliases": [],
+   "tier": 4,
+   "views": 32024
+  },
+  {
+   "name": "Colgate-Palmolive",
+   "aliases": [],
+   "tier": 4,
+   "views": 24676
+  },
+  {
+   "name": "Collins Aerospace",
+   "aliases": [],
+   "tier": 4,
+   "views": 18899
+  },
+  {
+   "name": "Columbia Sportswear",
+   "aliases": [],
+   "tier": 4,
+   "views": 14265
+  },
+  {
+   "name": "Conagra Brands",
+   "aliases": [],
+   "tier": 4,
+   "views": 15062
+  },
+  {
+   "name": "ConocoPhillips",
+   "aliases": [],
+   "tier": 4,
+   "views": 15042
+  },
+  {
+   "name": "Corning",
+   "aliases": [
+    "Corning Inc."
+   ],
+   "tier": 4,
+   "views": 22015
+  },
+  {
+   "name": "Coupang",
+   "aliases": [],
+   "tier": 4,
+   "views": 20008
+  },
+  {
+   "name": "Cox Enterprises",
+   "aliases": [
+    "Cox Communications",
+    "Cox"
+   ],
+   "tier": 4,
+   "views": 30573
+  },
+  {
+   "name": "Cracker Barrel Old Country Store",
+   "aliases": [
+    "Cracker Barrel"
+   ],
+   "tier": 4,
+   "views": 23435
+  },
+  {
+   "name": "Credera",
+   "aliases": [
+    "Credera Consulting"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Crocs",
+   "aliases": [],
+   "tier": 4,
+   "views": 35960
+  },
+  {
+   "name": "CrowdStrike",
+   "aliases": [],
+   "tier": 4,
+   "views": 36380
+  },
+  {
+   "name": "CSX",
+   "aliases": [
+    "CSX Transportation"
+   ],
+   "tier": 4,
+   "views": 24095
+  },
+  {
+   "name": "Cummins",
+   "aliases": [],
+   "tier": 4,
+   "views": 28942
+  },
+  {
+   "name": "Curtiss-Wright",
+   "aliases": [],
+   "tier": 4,
+   "views": 14989
+  },
+  {
+   "name": "CVS Health",
+   "aliases": [],
+   "tier": 4,
+   "views": 22768
+  },
+  {
+   "name": "Dallas Fort Worth International Airport",
+   "aliases": [
+    "DFW Airport",
+    "DFW"
+   ],
+   "tier": 4,
+   "views": 50432
+  },
+  {
+   "name": "Dallas Stars",
+   "aliases": [],
+   "tier": 4,
+   "views": 33010
+  },
+  {
+   "name": "Danaher",
+   "aliases": [
+    "Danaher Corporation"
+   ],
+   "tier": 4,
+   "views": 19570
+  },
+  {
+   "name": "Darden Restaurants",
+   "aliases": [],
+   "tier": 4,
+   "views": 21725
+  },
+  {
+   "name": "Datadog",
+   "aliases": [],
+   "tier": 4,
+   "views": 17778
+  },
+  {
+   "name": "Deckers Outdoor",
+   "aliases": [
+    "Deckers Brands"
+   ],
+   "tier": 4,
+   "views": 17111
+  },
+  {
+   "name": "Department of Veterans Affairs",
+   "aliases": [
+    "VA",
+    "Veterans Affairs",
+    "United States Department of Veterans Affairs"
+   ],
+   "tier": 4,
+   "views": 19752
+  },
+  {
+   "name": "Deutsche Bank",
+   "aliases": [],
+   "tier": 4,
+   "views": 34435
+  },
+  {
+   "name": "Dick's Sporting Goods",
+   "aliases": [],
+   "tier": 4,
+   "views": 25288
+  },
+  {
+   "name": "Dillard's",
+   "aliases": [],
+   "tier": 4,
+   "views": 15162
+  },
+  {
+   "name": "DirecTV",
+   "aliases": [],
+   "tier": 4,
+   "views": 20805
+  },
+  {
+   "name": "Dollar General",
+   "aliases": [],
+   "tier": 4,
+   "views": 22735
+  },
+  {
+   "name": "Dollar Tree",
+   "aliases": [],
+   "tier": 4,
+   "views": 19561
+  },
+  {
+   "name": "Domino's",
+   "aliases": [
+    "Domino's Pizza"
+   ],
+   "tier": 4,
+   "views": 40873
+  },
+  {
+   "name": "DoorDash",
+   "aliases": [],
+   "tier": 4,
+   "views": 51698
+  },
+  {
+   "name": "Dow",
+   "aliases": [
+    "Dow Chemical Company"
+   ],
+   "tier": 4,
+   "views": 28458
+  },
+  {
+   "name": "DraftKings",
+   "aliases": [],
+   "tier": 4,
+   "views": 26562
+  },
+  {
+   "name": "Dropbox",
+   "aliases": [],
+   "tier": 4,
+   "views": 27316
+  },
+  {
+   "name": "Duke Energy",
+   "aliases": [],
+   "tier": 4,
+   "views": 14344
+  },
+  {
+   "name": "DXC Technology",
+   "aliases": [],
+   "tier": 4,
+   "views": 16987
+  },
+  {
+   "name": "Elbit Systems",
+   "aliases": [
+    "Elbit"
+   ],
+   "tier": 4,
+   "views": 27464
+  },
+  {
+   "name": "Embraer",
+   "aliases": [],
+   "tier": 4,
+   "views": 52537
+  },
+  {
+   "name": "Emerson Electric",
+   "aliases": [],
+   "tier": 4,
+   "views": 15214
+  },
+  {
+   "name": "EPAM Systems",
+   "aliases": [
+    "EPAM"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Epic Systems",
+   "aliases": [
+    "Epic"
+   ],
+   "tier": 4,
+   "views": 35829
+  },
+  {
+   "name": "Ericsson",
+   "aliases": [],
+   "tier": 4,
+   "views": 27954
+  },
+  {
+   "name": "Estée Lauder",
+   "aliases": [
+    "Estée Lauder Companies"
+   ],
+   "tier": 4,
+   "views": 25708
+  },
+  {
+   "name": "Etsy",
+   "aliases": [],
+   "tier": 4,
+   "views": 39927
+  },
+  {
+   "name": "Expedia Group",
+   "aliases": [
+    "Expedia"
+   ],
+   "tier": 4,
+   "views": 24297
+  },
+  {
+   "name": "Fannie Mae",
+   "aliases": [],
+   "tier": 4,
+   "views": 25740
+  },
+  {
+   "name": "FC Dallas",
+   "aliases": [],
+   "tier": 4,
+   "views": 20927
+  },
+  {
+   "name": "FedEx",
+   "aliases": [
+    "Federal Express"
+   ],
+   "tier": 4,
+   "views": 48896
+  },
+  {
+   "name": "Fidelity Investments",
+   "aliases": [
+    "Fidelity"
+   ],
+   "tier": 4,
+   "views": 49193
+  },
+  {
+   "name": "Fifth Third",
+   "aliases": [
+    "Fifth Third Bancorp",
+    "Fifth Third Bank"
+   ],
+   "tier": 4,
+   "views": 39149
+  },
+  {
+   "name": "FIS",
+   "aliases": [
+    "Fidelity National Information Services"
+   ],
+   "tier": 4,
+   "views": 14363
+  },
+  {
+   "name": "Fiserv",
+   "aliases": [],
+   "tier": 4,
+   "views": 14493
+  },
+  {
+   "name": "Foot Locker",
+   "aliases": [],
+   "tier": 4,
+   "views": 15777
+  },
+  {
+   "name": "Fortinet",
+   "aliases": [],
+   "tier": 4,
+   "views": 14577
+  },
+  {
+   "name": "Fossil Group",
+   "aliases": [
+    "Fossil"
+   ],
+   "tier": 4,
+   "views": 13913
+  },
+  {
+   "name": "Freddie Mac",
+   "aliases": [],
+   "tier": 4,
+   "views": 16764
+  },
+  {
+   "name": "Frito-Lay",
+   "aliases": [],
+   "tier": 4,
+   "views": 33998
+  },
+  {
+   "name": "Frontier Airlines",
+   "aliases": [],
+   "tier": 4,
+   "views": 48694
+  },
+  {
+   "name": "Fujitsu",
+   "aliases": [],
+   "tier": 4,
+   "views": 20459
+  },
+  {
+   "name": "GameStop",
+   "aliases": [],
+   "tier": 4,
+   "views": 33532
+  },
+  {
+   "name": "Gap Inc.",
+   "aliases": [
+    "Gap"
+   ],
+   "tier": 4,
+   "views": 28126
+  },
+  {
+   "name": "Gartner",
+   "aliases": [],
+   "tier": 4,
+   "views": 15655
+  },
+  {
+   "name": "GE Aerospace",
+   "aliases": [
+    "General Electric",
+    "GE"
+   ],
+   "tier": 4,
+   "views": 32563
+  },
+  {
+   "name": "GE HealthCare Technologies",
+   "aliases": [
+    "GE HealthCare"
+   ],
+   "tier": 4,
+   "views": 21296
+  },
+  {
+   "name": "GE Vernova",
+   "aliases": [],
+   "tier": 4,
+   "views": 39932
+  },
+  {
+   "name": "Gearbox Software",
+   "aliases": [
+    "Gearbox"
+   ],
+   "tier": 4,
+   "views": 20329
+  },
+  {
+   "name": "GEICO",
+   "aliases": [],
+   "tier": 4,
+   "views": 21715
+  },
+  {
+   "name": "General Dynamics",
+   "aliases": [],
+   "tier": 4,
+   "views": 49850
+  },
+  {
+   "name": "General Mills",
+   "aliases": [],
+   "tier": 4,
+   "views": 32930
+  },
+  {
+   "name": "Gilead Sciences",
+   "aliases": [],
+   "tier": 4,
+   "views": 15333
+  },
+  {
+   "name": "GlobalFoundries",
+   "aliases": [],
+   "tier": 4,
+   "views": 21867
+  },
+  {
+   "name": "GoDaddy",
+   "aliases": [],
+   "tier": 4,
+   "views": 24382
+  },
+  {
+   "name": "Goodyear Tire & Rubber",
+   "aliases": [
+    "Goodyear Tire and Rubber Company"
+   ],
+   "tier": 4,
+   "views": 27230
+  },
+  {
+   "name": "GSK",
+   "aliases": [
+    "GlaxoSmithKline",
+    "GSK plc"
+   ],
+   "tier": 4,
+   "views": 23519
+  },
+  {
+   "name": "Guess",
+   "aliases": [],
+   "tier": 4,
+   "views": 15286
+  },
+  {
+   "name": "H-E-B",
+   "aliases": [],
+   "tier": 4,
+   "views": 37897
+  },
+  {
+   "name": "Halliburton",
+   "aliases": [],
+   "tier": 4,
+   "views": 30866
+  },
+  {
+   "name": "Harley-Davidson",
+   "aliases": [],
+   "tier": 4,
+   "views": 53044
+  },
+  {
+   "name": "Hawaiian Airlines",
+   "aliases": [
+    "Hawaiian Holdings",
+    "Hawaiian"
+   ],
+   "tier": 4,
+   "views": 33479
+  },
+  {
+   "name": "HCA Healthcare",
+   "aliases": [],
+   "tier": 4,
+   "views": 19307
+  },
+  {
+   "name": "HCLTech",
+   "aliases": [
+    "HCL Technologies",
+    "HCL"
+   ],
+   "tier": 4,
+   "views": 38907
+  },
+  {
+   "name": "Hearst",
+   "aliases": [
+    "Hearst Corporation",
+    "Hearst Communications"
+   ],
+   "tier": 4,
+   "views": 25957
+  },
+  {
+   "name": "Hewlett Packard Enterprise",
+   "aliases": [],
+   "tier": 4,
+   "views": 32966
+  },
+  {
+   "name": "Hillwood",
+   "aliases": [
+    "Hillwood Development",
+    "Hillwood Properties"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Hilton",
+   "aliases": [
+    "Hilton Worldwide"
+   ],
+   "tier": 4,
+   "views": 29406
+  },
+  {
+   "name": "Hitachi",
+   "aliases": [],
+   "tier": 4,
+   "views": 42743
+  },
+  {
+   "name": "Honeywell",
+   "aliases": [
+    "Honeywell International"
+   ],
+   "tier": 4,
+   "views": 43578
+  },
+  {
+   "name": "HP",
+   "aliases": [
+    "HP Inc."
+   ],
+   "tier": 4,
+   "views": 45699
+  },
+  {
+   "name": "HubSpot",
+   "aliases": [],
+   "tier": 4,
+   "views": 23369
+  },
+  {
+   "name": "Huntington Ingalls Industries",
+   "aliases": [],
+   "tier": 4,
+   "views": 18363
+  },
+  {
+   "name": "Hyatt",
+   "aliases": [
+    "Hyatt Hotels"
+   ],
+   "tier": 4,
+   "views": 40263
+  },
+  {
+   "name": "id Software",
+   "aliases": [],
+   "tier": 4,
+   "views": 39790
+  },
+  {
+   "name": "iHeartMedia",
+   "aliases": [],
+   "tier": 4,
+   "views": 14767
+  },
+  {
+   "name": "IHG Hotels & Resorts",
+   "aliases": [
+    "IHG",
+    "InterContinental Hotels Group"
+   ],
+   "tier": 4,
+   "views": 31647
+  },
+  {
+   "name": "Indeed",
+   "aliases": [],
+   "tier": 4,
+   "views": 17575
+  },
+  {
+   "name": "Inspire Brands",
+   "aliases": [],
+   "tier": 4,
+   "views": 23350
+  },
+  {
+   "name": "Instacart",
+   "aliases": [
+    "Maplebear"
+   ],
+   "tier": 4,
+   "views": 22405
+  },
+  {
+   "name": "Interactive Brokers Group",
+   "aliases": [
+    "Interactive Brokers"
+   ],
+   "tier": 4,
+   "views": 27326
+  },
+  {
+   "name": "Intercontinental Exchange",
+   "aliases": [],
+   "tier": 4,
+   "views": 20725
+  },
+  {
+   "name": "Intuit",
+   "aliases": [],
+   "tier": 4,
+   "views": 21016
+  },
+  {
+   "name": "IQVIA Holdings",
+   "aliases": [
+    "IQVIA"
+   ],
+   "tier": 4,
+   "views": 14026
+  },
+  {
+   "name": "IRS",
+   "aliases": [
+    "Internal Revenue Service"
+   ],
+   "tier": 4,
+   "views": 33521
+  },
+  {
+   "name": "J.M. Smucker",
+   "aliases": [
+    "The J.M. Smucker Company"
+   ],
+   "tier": 4,
+   "views": 16069
+  },
+  {
+   "name": "JCPenney",
+   "aliases": [
+    "Penney's"
+   ],
+   "tier": 4,
+   "views": 42955
+  },
+  {
+   "name": "JLL",
+   "aliases": [
+    "Jones Lang LaSalle"
+   ],
+   "tier": 4,
+   "views": 20488
+  },
+  {
+   "name": "John Deere",
+   "aliases": [
+    "Deere"
+   ],
+   "tier": 4,
+   "views": 44256
+  },
+  {
+   "name": "Johnson & Johnson",
+   "aliases": [],
+   "tier": 4,
+   "views": 50588
+  },
+  {
+   "name": "Johnson Controls",
+   "aliases": [],
+   "tier": 4,
+   "views": 19606
+  },
+  {
+   "name": "Kaiser Permanente",
+   "aliases": [
+    "Kaiser"
+   ],
+   "tier": 4,
+   "views": 34040
+  },
+  {
+   "name": "Kellanova",
+   "aliases": [],
+   "tier": 4,
+   "views": 24373
+  },
+  {
+   "name": "Kimberly-Clark",
+   "aliases": [],
+   "tier": 4,
+   "views": 20267
+  },
+  {
+   "name": "KKR",
+   "aliases": [
+    "KKR & Co."
+   ],
+   "tier": 4,
+   "views": 42936
+  },
+  {
+   "name": "Koch",
+   "aliases": [
+    "Koch Industries",
+    "Koch, Inc."
+   ],
+   "tier": 4,
+   "views": 30981
+  },
+  {
+   "name": "Kohl's",
+   "aliases": [],
+   "tier": 4,
+   "views": 16634
+  },
+  {
+   "name": "L3Harris Technologies",
+   "aliases": [
+    "L3Harris"
+   ],
+   "tier": 4,
+   "views": 32755
+  },
+  {
+   "name": "Lam Research",
+   "aliases": [],
+   "tier": 4,
+   "views": 24310
+  },
+  {
+   "name": "Las Vegas Sands",
+   "aliases": [],
+   "tier": 4,
+   "views": 20759
+  },
+  {
+   "name": "Lazard",
+   "aliases": [],
+   "tier": 4,
+   "views": 14757
+  },
+  {
+   "name": "Leidos Holdings",
+   "aliases": [
+    "Leidos"
+   ],
+   "tier": 4,
+   "views": 15712
+  },
+  {
+   "name": "Levi Strauss & Co.",
+   "aliases": [
+    "Levi's",
+    "Levi Strauss"
+   ],
+   "tier": 4,
+   "views": 36880
+  },
+  {
+   "name": "LG Electronics",
+   "aliases": [
+    "LG"
+   ],
+   "tier": 4,
+   "views": 32600
+  },
+  {
+   "name": "Liberty Media",
+   "aliases": [],
+   "tier": 4,
+   "views": 24954
+  },
+  {
+   "name": "Liberty Mutual",
+   "aliases": [
+    "Liberty Mutual Insurance Group",
+    "Liberty Mutual Insurance"
+   ],
+   "tier": 4,
+   "views": 14805
+  },
+  {
+   "name": "Live Nation Entertainment",
+   "aliases": [],
+   "tier": 4,
+   "views": 29726
+  },
+  {
+   "name": "Loews Corporation",
+   "aliases": [
+    "Loews"
+   ],
+   "tier": 4,
+   "views": 26754
+  },
+  {
+   "name": "Lumen Technologies",
+   "aliases": [],
+   "tier": 4,
+   "views": 22577
+  },
+  {
+   "name": "Lyft",
+   "aliases": [],
+   "tier": 4,
+   "views": 21947
+  },
+  {
+   "name": "M&T Bank",
+   "aliases": [],
+   "tier": 4,
+   "views": 15158
+  },
+  {
+   "name": "Macy's",
+   "aliases": [],
+   "tier": 4,
+   "views": 36897
+  },
+  {
+   "name": "Maersk",
+   "aliases": [],
+   "tier": 4,
+   "views": 39785
+  },
+  {
+   "name": "Marathon Petroleum",
+   "aliases": [],
+   "tier": 4,
+   "views": 14155
+  },
+  {
+   "name": "Marriott International",
+   "aliases": [],
+   "tier": 4,
+   "views": 53119
+  },
+  {
+   "name": "Marvell Technology",
+   "aliases": [],
+   "tier": 4,
+   "views": 22636
+  },
+  {
+   "name": "Mastercard",
+   "aliases": [],
+   "tier": 4,
+   "views": 38392
+  },
+  {
+   "name": "Match Group",
+   "aliases": [
+    "Match.com",
+    "Tinder"
+   ],
+   "tier": 4,
+   "views": 24954
+  },
+  {
+   "name": "Mayo Clinic",
+   "aliases": [
+    "Mayo"
+   ],
+   "tier": 4,
+   "views": 51855
+  },
+  {
+   "name": "McCormick & Company",
+   "aliases": [
+    "McCormick"
+   ],
+   "tier": 4,
+   "views": 32309
+  },
+  {
+   "name": "Medical City Healthcare",
+   "aliases": [
+    "Medical City",
+    "Medical City Dallas"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Medtronic",
+   "aliases": [],
+   "tier": 4,
+   "views": 22245
+  },
+  {
+   "name": "Meijer",
+   "aliases": [],
+   "tier": 4,
+   "views": 26489
+  },
+  {
+   "name": "Menards",
+   "aliases": [],
+   "tier": 4,
+   "views": 19695
+  },
+  {
+   "name": "Mercedes-Benz Group",
+   "aliases": [
+    "Mercedes-Benz",
+    "Daimler"
+   ],
+   "tier": 4,
+   "views": 49675
+  },
+  {
+   "name": "Merck",
+   "aliases": [
+    "Merck & Co",
+    "MSD"
+   ],
+   "tier": 4,
+   "views": 27637
+  },
+  {
+   "name": "Methodist Health System",
+   "aliases": [
+    "Methodist Dallas",
+    "Methodist Health System Dallas"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "MetLife",
+   "aliases": [],
+   "tier": 4,
+   "views": 17816
+  },
+  {
+   "name": "MGM Resorts International",
+   "aliases": [],
+   "tier": 4,
+   "views": 23418
+  },
+  {
+   "name": "Moderna",
+   "aliases": [],
+   "tier": 4,
+   "views": 18568
+  },
+  {
+   "name": "Molina Healthcare",
+   "aliases": [],
+   "tier": 4,
+   "views": 17194
+  },
+  {
+   "name": "Molson Coors Beverage",
+   "aliases": [
+    "Molson Coors"
+   ],
+   "tier": 4,
+   "views": 25413
+  },
+  {
+   "name": "Monster Beverage",
+   "aliases": [],
+   "tier": 4,
+   "views": 20802
+  },
+  {
+   "name": "Motorola Solutions",
+   "aliases": [],
+   "tier": 4,
+   "views": 20451
+  },
+  {
+   "name": "MSCI",
+   "aliases": [],
+   "tier": 4,
+   "views": 21050
+  },
+  {
+   "name": "Neiman Marcus",
+   "aliases": [],
+   "tier": 4,
+   "views": 19424
+  },
+  {
+   "name": "Netflix",
+   "aliases": [
+    "Netflix, Inc."
+   ],
+   "tier": 4,
+   "views": 42787
+  },
+  {
+   "name": "Newell Brands",
+   "aliases": [],
+   "tier": 4,
+   "views": 14368
+  },
+  {
+   "name": "News Corp",
+   "aliases": [],
+   "tier": 4,
+   "views": 34001
+  },
+  {
+   "name": "Nexstar Media Group",
+   "aliases": [
+    "Nexstar",
+    "Nexstar Media"
+   ],
+   "tier": 4,
+   "views": 29846
+  },
+  {
+   "name": "NextEra Energy",
+   "aliases": [],
+   "tier": 4,
+   "views": 14114
+  },
+  {
+   "name": "Nordstrom",
+   "aliases": [],
+   "tier": 4,
+   "views": 28227
+  },
+  {
+   "name": "Norfolk Southern",
+   "aliases": [
+    "Norfolk Southern Railway"
+   ],
+   "tier": 4,
+   "views": 22229
+  },
+  {
+   "name": "Novartis",
+   "aliases": [],
+   "tier": 4,
+   "views": 28758
+  },
+  {
+   "name": "Novo Nordisk",
+   "aliases": [
+    "Novo"
+   ],
+   "tier": 4,
+   "views": 20928
+  },
+  {
+   "name": "Occidental Petroleum",
+   "aliases": [],
+   "tier": 4,
+   "views": 17410
+  },
+  {
+   "name": "Okta",
+   "aliases": [
+    "Okta, Inc."
+   ],
+   "tier": 4,
+   "views": 18490
+  },
+  {
+   "name": "Omnicom Group",
+   "aliases": [
+    "Omnicom"
+   ],
+   "tier": 4,
+   "views": 18434
+  },
+  {
+   "name": "Optum",
+   "aliases": [],
+   "tier": 4,
+   "views": 17166
+  },
+  {
+   "name": "Oshkosh",
+   "aliases": [
+    "Oshkosh Corporation"
+   ],
+   "tier": 4,
+   "views": 22058
+  },
+  {
+   "name": "Otis Worldwide",
+   "aliases": [],
+   "tier": 4,
+   "views": 16190
+  },
+  {
+   "name": "Paccar",
+   "aliases": [],
+   "tier": 4,
+   "views": 21058
+  },
+  {
+   "name": "Palo Alto Networks",
+   "aliases": [],
+   "tier": 4,
+   "views": 33345
+  },
+  {
+   "name": "Papa John's",
+   "aliases": [],
+   "tier": 4,
+   "views": 38613
+  },
+  {
+   "name": "Paramount",
+   "aliases": [
+    "Paramount Global",
+    "Skydance"
+   ],
+   "tier": 4,
+   "views": 34476
+  },
+  {
+   "name": "Peterbilt",
+   "aliases": [],
+   "tier": 4,
+   "views": 24021
+  },
+  {
+   "name": "Pfizer",
+   "aliases": [],
+   "tier": 4,
+   "views": 37290
+  },
+  {
+   "name": "PG&E",
+   "aliases": [
+    "Pacific Gas and Electric Company"
+   ],
+   "tier": 4,
+   "views": 18021
+  },
+  {
+   "name": "Philip Morris International",
+   "aliases": [],
+   "tier": 4,
+   "views": 46201
+  },
+  {
+   "name": "Phillips 66",
+   "aliases": [],
+   "tier": 4,
+   "views": 16581
+  },
+  {
+   "name": "PNC",
+   "aliases": [
+    "PNC Bank",
+    "PNC Financial Services",
+    "PNC Financial Services Group"
+   ],
+   "tier": 4,
+   "views": 24945
+  },
+  {
+   "name": "PPG Industries",
+   "aliases": [],
+   "tier": 4,
+   "views": 21557
+  },
+  {
+   "name": "Pratt & Whitney",
+   "aliases": [],
+   "tier": 4,
+   "views": 38420
+  },
+  {
+   "name": "Progressive",
+   "aliases": [
+    "The Progressive Corporation",
+    "Progressive Corporation"
+   ],
+   "tier": 4,
+   "views": 14258
+  },
+  {
+   "name": "Publix",
+   "aliases": [
+    "Publix Super Markets"
+   ],
+   "tier": 4,
+   "views": 28135
+  },
+  {
+   "name": "RadioShack",
+   "aliases": [
+    "Tandy"
+   ],
+   "tier": 4,
+   "views": 25171
+  },
+  {
+   "name": "Ralph Lauren",
+   "aliases": [
+    "Ralph Lauren Corporation"
+   ],
+   "tier": 4,
+   "views": 26221
+  },
+  {
+   "name": "Red Hat",
+   "aliases": [],
+   "tier": 4,
+   "views": 29336
+  },
+  {
+   "name": "Riot Games",
+   "aliases": [],
+   "tier": 4,
+   "views": 53172
+  },
+  {
+   "name": "Robinhood",
+   "aliases": [
+    "Robinhood Markets"
+   ],
+   "tier": 4,
+   "views": 31355
+  },
+  {
+   "name": "Roblox",
+   "aliases": [
+    "Roblox Corporation"
+   ],
+   "tier": 4,
+   "views": 46535
+  },
+  {
+   "name": "Roche",
+   "aliases": [
+    "Hoffmann-La Roche",
+    "Genentech"
+   ],
+   "tier": 4,
+   "views": 26971
+  },
+  {
+   "name": "Roku",
+   "aliases": [],
+   "tier": 4,
+   "views": 30212
+  },
+  {
+   "name": "Ross Stores",
+   "aliases": [],
+   "tier": 4,
+   "views": 22356
+  },
+  {
+   "name": "S. C. Johnson & Son",
+   "aliases": [
+    "SC Johnson"
+   ],
+   "tier": 4,
+   "views": 14292
+  },
+  {
+   "name": "S&P Global",
+   "aliases": [],
+   "tier": 4,
+   "views": 21640
+  },
+  {
+   "name": "Sam's Club",
+   "aliases": [],
+   "tier": 4,
+   "views": 37904
+  },
+  {
+   "name": "Sanofi",
+   "aliases": [],
+   "tier": 4,
+   "views": 21938
+  },
+  {
+   "name": "Schneider Electric",
+   "aliases": [],
+   "tier": 4,
+   "views": 43023
+  },
+  {
+   "name": "Sephora",
+   "aliases": [],
+   "tier": 4,
+   "views": 36563
+  },
+  {
+   "name": "ServiceNow",
+   "aliases": [],
+   "tier": 4,
+   "views": 36483
+  },
+  {
+   "name": "Sheetz",
+   "aliases": [],
+   "tier": 4,
+   "views": 15833
+  },
+  {
+   "name": "Sherwin-Williams",
+   "aliases": [],
+   "tier": 4,
+   "views": 16280
+  },
+  {
+   "name": "Simon Property Group",
+   "aliases": [
+    "Simon Property"
+   ],
+   "tier": 4,
+   "views": 16016
+  },
+  {
+   "name": "Skechers",
+   "aliases": [
+    "Skechers U.S.A."
+   ],
+   "tier": 4,
+   "views": 27853
+  },
+  {
+   "name": "SkyWest",
+   "aliases": [
+    "SkyWest Airlines"
+   ],
+   "tier": 4,
+   "views": 25218
+  },
+  {
+   "name": "SLB",
+   "aliases": [
+    "Schlumberger"
+   ],
+   "tier": 4,
+   "views": 20335
+  },
+  {
+   "name": "Snap Inc.",
+   "aliases": [
+    "Snapchat",
+    "Snap"
+   ],
+   "tier": 4,
+   "views": 29292
+  },
+  {
+   "name": "Snowflake",
+   "aliases": [
+    "Snowflake Inc."
+   ],
+   "tier": 4,
+   "views": 39754
+  },
+  {
+   "name": "SoFi",
+   "aliases": [],
+   "tier": 4,
+   "views": 27992
+  },
+  {
+   "name": "Sprouts Farmers Market",
+   "aliases": [],
+   "tier": 4,
+   "views": 14834
+  },
+  {
+   "name": "Stanley Black & Decker",
+   "aliases": [],
+   "tier": 4,
+   "views": 18079
+  },
+  {
+   "name": "State Farm",
+   "aliases": [
+    "State Farm Insurance"
+   ],
+   "tier": 4,
+   "views": 19262
+  },
+  {
+   "name": "State Street",
+   "aliases": [
+    "State Street Corporation"
+   ],
+   "tier": 4,
+   "views": 33140
+  },
+  {
+   "name": "Stryker",
+   "aliases": [
+    "Stryker Corporation"
+   ],
+   "tier": 4,
+   "views": 15649
+  },
+  {
+   "name": "Subway",
+   "aliases": [],
+   "tier": 4,
+   "views": 48000
+  },
+  {
+   "name": "Supermicro",
+   "aliases": [
+    "Super Micro Computer"
+   ],
+   "tier": 4,
+   "views": 14868
+  },
+  {
+   "name": "Synopsys",
+   "aliases": [],
+   "tier": 4,
+   "views": 15904
+  },
+  {
+   "name": "Sysco",
+   "aliases": [],
+   "tier": 4,
+   "views": 21369
+  },
+  {
+   "name": "T-Mobile",
+   "aliases": [
+    "T-Mobile US",
+    "Sprint"
+   ],
+   "tier": 4,
+   "views": 50433
+  },
+  {
+   "name": "Tata Consultancy Services",
+   "aliases": [
+    "TCS"
+   ],
+   "tier": 4,
+   "views": 49924
+  },
+  {
+   "name": "TD Bank",
+   "aliases": [],
+   "tier": 4,
+   "views": 14810
+  },
+  {
+   "name": "Tech Mahindra",
+   "aliases": [],
+   "tier": 4,
+   "views": 14952
+  },
+  {
+   "name": "Texas Instruments",
+   "aliases": [
+    "TI"
+   ],
+   "tier": 4,
+   "views": 42723
+  },
+  {
+   "name": "Texas Roadhouse",
+   "aliases": [],
+   "tier": 4,
+   "views": 27032
+  },
+  {
+   "name": "Textron",
+   "aliases": [],
+   "tier": 4,
+   "views": 17386
+  },
+  {
+   "name": "The Carlyle Group",
+   "aliases": [
+    "Carlyle",
+    "Carlyle Group"
+   ],
+   "tier": 4,
+   "views": 34113
+  },
+  {
+   "name": "Thermo Fisher Scientific",
+   "aliases": [],
+   "tier": 4,
+   "views": 24715
+  },
+  {
+   "name": "Thomson Reuters",
+   "aliases": [],
+   "tier": 4,
+   "views": 30711
+  },
+  {
+   "name": "TIAA",
+   "aliases": [],
+   "tier": 4,
+   "views": 14074
+  },
+  {
+   "name": "TJX",
+   "aliases": [],
+   "tier": 4,
+   "views": 22358
+  },
+  {
+   "name": "Topgolf Callaway Brands",
+   "aliases": [
+    "Callaway Golf Company"
+   ],
+   "tier": 4,
+   "views": 14159
+  },
+  {
+   "name": "Toshiba",
+   "aliases": [],
+   "tier": 4,
+   "views": 30629
+  },
+  {
+   "name": "TotalEnergies",
+   "aliases": [],
+   "tier": 4,
+   "views": 29556
+  },
+  {
+   "name": "TPG",
+   "aliases": [
+    "TPG Capital",
+    "Texas Pacific Group",
+    "TPG Inc."
+   ],
+   "tier": 4,
+   "views": 20705
+  },
+  {
+   "name": "Truist",
+   "aliases": [
+    "BB&T",
+    "SunTrust",
+    "Truist Financial"
+   ],
+   "tier": 4,
+   "views": 19360
+  },
+  {
+   "name": "Twilio",
+   "aliases": [],
+   "tier": 4,
+   "views": 16117
+  },
+  {
+   "name": "Tyson Foods",
+   "aliases": [],
+   "tier": 4,
+   "views": 21921
+  },
+  {
+   "name": "U.S. Bank",
+   "aliases": [
+    "U.S. Bancorp"
+   ],
+   "tier": 4,
+   "views": 21696
+  },
+  {
+   "name": "U.S. Census Bureau",
+   "aliases": [
+    "Census Bureau",
+    "United States Census Bureau"
+   ],
+   "tier": 4,
+   "views": 39314
+  },
+  {
+   "name": "U.S. Steel",
+   "aliases": [
+    "United States Steel"
+   ],
+   "tier": 4,
+   "views": 35013
+  },
+  {
+   "name": "UBS",
+   "aliases": [],
+   "tier": 4,
+   "views": 48982
+  },
+  {
+   "name": "UKG",
+   "aliases": [
+    "Ultimate Kronos Group",
+    "Kronos"
+   ],
+   "tier": 4,
+   "views": 14684
+  },
+  {
+   "name": "Under Armour",
+   "aliases": [],
+   "tier": 4,
+   "views": 29747
+  },
+  {
+   "name": "Union Pacific",
+   "aliases": [
+    "Union Pacific Railroad"
+   ],
+   "tier": 4,
+   "views": 36524
+  },
+  {
+   "name": "UnitedHealth Group",
+   "aliases": [
+    "UnitedHealth"
+   ],
+   "tier": 4,
+   "views": 49860
+  },
+  {
+   "name": "Unity Technologies",
+   "aliases": [],
+   "tier": 4,
+   "views": 20334
+  },
+  {
+   "name": "UPS",
+   "aliases": [
+    "United Parcel Service"
+   ],
+   "tier": 4,
+   "views": 41731
+  },
+  {
+   "name": "USAA",
+   "aliases": [],
+   "tier": 4,
+   "views": 19385
+  },
+  {
+   "name": "Verizon",
+   "aliases": [
+    "Verizon Communications"
+   ],
+   "tier": 4,
+   "views": 43713
+  },
+  {
+   "name": "Vertiv Holdings",
+   "aliases": [
+    "Vertiv"
+   ],
+   "tier": 4,
+   "views": 14399
+  },
+  {
+   "name": "VF",
+   "aliases": [
+    "VF Corporation"
+   ],
+   "tier": 4,
+   "views": 24308
+  },
+  {
+   "name": "VICI Properties",
+   "aliases": [],
+   "tier": 4,
+   "views": 15805
+  },
+  {
+   "name": "Visa",
+   "aliases": [
+    "Visa Inc."
+   ],
+   "tier": 4,
+   "views": 43294
+  },
+  {
+   "name": "VMware",
+   "aliases": [],
+   "tier": 4,
+   "views": 31842
+  },
+  {
+   "name": "Walgreens",
+   "aliases": [
+    "Walgreens Boots Alliance"
+   ],
+   "tier": 4,
+   "views": 33137
+  },
+  {
+   "name": "Warner Music Group",
+   "aliases": [
+    "Warner Music"
+   ],
+   "tier": 4,
+   "views": 47850
+  },
+  {
+   "name": "Wawa",
+   "aliases": [],
+   "tier": 4,
+   "views": 35304
+  },
+  {
+   "name": "Wayfair",
+   "aliases": [],
+   "tier": 4,
+   "views": 21771
+  },
+  {
+   "name": "Wegmans",
+   "aliases": [],
+   "tier": 4,
+   "views": 25336
+  },
+  {
+   "name": "West Monroe",
+   "aliases": [
+    "West Monroe Partners"
+   ],
+   "tier": 4
+  },
+  {
+   "name": "Western Digital",
+   "aliases": [],
+   "tier": 4,
+   "views": 18391
+  },
+  {
+   "name": "Western Union",
+   "aliases": [],
+   "tier": 4,
+   "views": 22478
+  },
+  {
+   "name": "Whirlpool",
+   "aliases": [
+    "Whirlpool Corporation"
+   ],
+   "tier": 4,
+   "views": 25944
+  },
+  {
+   "name": "Whole Foods Market",
+   "aliases": [
+    "Whole Foods"
+   ],
+   "tier": 4,
+   "views": 30565
+  },
+  {
+   "name": "Wingstop",
+   "aliases": [],
+   "tier": 4,
+   "views": 28582
+  },
+  {
+   "name": "Wipro",
+   "aliases": [],
+   "tier": 4,
+   "views": 35933
+  },
+  {
+   "name": "Workday",
+   "aliases": [
+    "Workday, Inc."
+   ],
+   "tier": 4,
+   "views": 26245
+  },
+  {
+   "name": "World Wide Technology",
+   "aliases": [
+    "WWT"
+   ],
+   "tier": 4,
+   "views": 13847
+  },
+  {
+   "name": "WTW",
+   "aliases": [
+    "Willis Towers Watson"
+   ],
+   "tier": 4,
+   "views": 22705
+  },
+  {
+   "name": "Wyndham Hotels & Resorts",
+   "aliases": [
+    "Wyndham"
+   ],
+   "tier": 4,
+   "views": 17954
+  },
+  {
+   "name": "X Corp.",
+   "aliases": [
+    "Twitter"
+   ],
+   "tier": 4,
+   "views": 49432
+  },
+  {
+   "name": "Xerox Holdings",
+   "aliases": [
+    "Xerox"
+   ],
+   "tier": 4,
+   "views": 32308
+  },
+  {
+   "name": "Zendesk",
+   "aliases": [],
+   "tier": 4,
+   "views": 15565
+  },
+  {
+   "name": "Zoom",
+   "aliases": [
+    "Zoom Video Communications",
+    "Zoom Communications"
+   ],
+   "tier": 4,
+   "views": 18221
+  },
+  {
+   "name": "Zscaler",
+   "aliases": [],
+   "tier": 4,
+   "views": 16080
+  },
+  {
+   "name": "A.O. Smith",
+   "aliases": [],
+   "tier": 5,
+   "views": 6323
+  },
+  {
+   "name": "ABM Industries",
+   "aliases": [],
+   "tier": 5,
+   "views": 6810
+  },
+  {
+   "name": "Academy Sports + Outdoors",
+   "aliases": [
+    "Academy Sports",
+    "Academy Sports and Outdoors"
+   ],
+   "tier": 5,
+   "views": 5484
+  },
+  {
+   "name": "Adecco",
+   "aliases": [],
+   "tier": 5,
+   "views": 5182
+  },
+  {
+   "name": "ADT",
+   "aliases": [
+    "ADT Inc."
+   ],
+   "tier": 5,
+   "views": 8909
+  },
+  {
+   "name": "Advance Auto Parts",
+   "aliases": [],
+   "tier": 5,
+   "views": 5933
+  },
+  {
+   "name": "AES Corporation",
+   "aliases": [
+    "AES"
+   ],
+   "tier": 5,
+   "views": 7949
+  },
+  {
+   "name": "Aetna",
+   "aliases": [],
+   "tier": 5,
+   "views": 13184
+  },
+  {
+   "name": "Affirm",
+   "aliases": [
+    "Affirm Holdings"
+   ],
+   "tier": 5,
+   "views": 11737
+  },
+  {
+   "name": "Aflac",
+   "aliases": [],
+   "tier": 5,
+   "views": 9723
+  },
+  {
+   "name": "AGCO",
+   "aliases": [],
+   "tier": 5,
+   "views": 11520
+  },
+  {
+   "name": "Agilent Technologies",
+   "aliases": [],
+   "tier": 5,
+   "views": 11370
+  },
+  {
+   "name": "Albemarle",
+   "aliases": [
+    "Albemarle Corporation"
+   ],
+   "tier": 5,
+   "views": 4778
+  },
+  {
+   "name": "Alcon",
+   "aliases": [],
+   "tier": 5,
+   "views": 8402
+  },
+  {
+   "name": "Align Technology",
+   "aliases": [],
+   "tier": 5,
+   "views": 5288
+  },
+  {
+   "name": "Allied Universal",
+   "aliases": [],
+   "tier": 5,
+   "views": 11183
+  },
+  {
+   "name": "Allison Transmission Holdings",
+   "aliases": [
+    "Allison Transmission"
+   ],
+   "tier": 5,
+   "views": 7563
+  },
+  {
+   "name": "Allstate",
+   "aliases": [],
+   "tier": 5,
+   "views": 13420
+  },
+  {
+   "name": "Alteryx",
+   "aliases": [],
+   "tier": 5,
+   "views": 6125
+  },
+  {
+   "name": "Altice USA",
+   "aliases": [
+    "Optimum Communications"
+   ],
+   "tier": 5,
+   "views": 6126
+  },
+  {
+   "name": "Alvarez & Marsal",
+   "aliases": [],
+   "tier": 5,
+   "views": 12714
+  },
+  {
+   "name": "American Electric Power",
+   "aliases": [],
+   "tier": 5,
+   "views": 9129
+  },
+  {
+   "name": "American Family Insurance Group",
+   "aliases": [
+    "American Family Insurance"
+   ],
+   "tier": 5,
+   "views": 5731
+  },
+  {
+   "name": "American Tower",
+   "aliases": [],
+   "tier": 5,
+   "views": 5204
+  },
+  {
+   "name": "Ameriprise Financial",
+   "aliases": [],
+   "tier": 5,
+   "views": 8352
+  },
+  {
+   "name": "Ametek",
+   "aliases": [],
+   "tier": 5,
+   "views": 6390
+  },
+  {
+   "name": "AMN Healthcare",
+   "aliases": [
+    "AMN Healthcare Services"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Amphenol",
+   "aliases": [],
+   "tier": 5,
+   "views": 9632
+  },
+  {
+   "name": "Aramark",
+   "aliases": [],
+   "tier": 5,
+   "views": 10659
+  },
+  {
+   "name": "Arrow Electronics",
+   "aliases": [],
+   "tier": 5,
+   "views": 7682
+  },
+  {
+   "name": "Arthur J. Gallagher",
+   "aliases": [
+    "Arthur J. Gallagher & Co."
+   ],
+   "tier": 5,
+   "views": 11121
+  },
+  {
+   "name": "Ascension",
+   "aliases": [
+    "Ascension Health"
+   ],
+   "tier": 5,
+   "views": 6267
+  },
+  {
+   "name": "Athenahealth",
+   "aliases": [],
+   "tier": 5,
+   "views": 6119
+  },
+  {
+   "name": "Atos",
+   "aliases": [],
+   "tier": 5,
+   "views": 8162
+  },
+  {
+   "name": "AutoNation",
+   "aliases": [],
+   "tier": 5,
+   "views": 6010
+  },
+  {
+   "name": "AutoZone",
+   "aliases": [],
+   "tier": 5,
+   "views": 10539
+  },
+  {
+   "name": "Avery Dennison",
+   "aliases": [],
+   "tier": 5,
+   "views": 5731
+  },
+  {
+   "name": "Avis Budget Group",
+   "aliases": [
+    "Avis Budget"
+   ],
+   "tier": 5,
+   "views": 7109
+  },
+  {
+   "name": "Avnet",
+   "aliases": [],
+   "tier": 5,
+   "views": 5257
+  },
+  {
+   "name": "Baker Tilly",
+   "aliases": [
+    "Baker Tilly International"
+   ],
+   "tier": 5,
+   "views": 4923
+  },
+  {
+   "name": "Bath & Body Works",
+   "aliases": [],
+   "tier": 5,
+   "views": 12694
+  },
+  {
+   "name": "Baxter International",
+   "aliases": [],
+   "tier": 5,
+   "views": 9318
+  },
+  {
+   "name": "Baylor Scott & White Health",
+   "aliases": [
+    "Baylor Scott and White",
+    "BSW"
+   ],
+   "tier": 5,
+   "views": 4783
+  },
+  {
+   "name": "BBVA",
+   "aliases": [
+    "Banco Bilbao Vizcaya Argentaria"
+   ],
+   "tier": 5,
+   "views": 12608
+  },
+  {
+   "name": "BDO",
+   "aliases": [
+    "BDO USA",
+    "BDO Global"
+   ],
+   "tier": 5,
+   "views": 12390
+  },
+  {
+   "name": "Becton Dickinson",
+   "aliases": [
+    "BD"
+   ],
+   "tier": 5,
+   "views": 11972
+  },
+  {
+   "name": "Bell Textron",
+   "aliases": [
+    "Bell",
+    "Bell Helicopter"
+   ],
+   "tier": 5,
+   "views": 11937
+  },
+  {
+   "name": "Biogen",
+   "aliases": [],
+   "tier": 5,
+   "views": 6163
+  },
+  {
+   "name": "Bloomin' Brands",
+   "aliases": [],
+   "tier": 5,
+   "views": 6942
+  },
+  {
+   "name": "Blue Bell Creameries",
+   "aliases": [
+    "Blue Bell"
+   ],
+   "tier": 5,
+   "views": 7378
+  },
+  {
+   "name": "BorgWarner",
+   "aliases": [],
+   "tier": 5,
+   "views": 11670
+  },
+  {
+   "name": "Boston Scientific",
+   "aliases": [],
+   "tier": 5,
+   "views": 12930
+  },
+  {
+   "name": "Box",
+   "aliases": [
+    "Box, Inc."
+   ],
+   "tier": 5,
+   "views": 9258
+  },
+  {
+   "name": "Boyd Gaming",
+   "aliases": [],
+   "tier": 5,
+   "views": 6256
+  },
+  {
+   "name": "Brink's",
+   "aliases": [],
+   "tier": 5,
+   "views": 9512
+  },
+  {
+   "name": "Brinker International",
+   "aliases": [
+    "Chili's",
+    "Brinker"
+   ],
+   "tier": 5,
+   "views": 11556
+  },
+  {
+   "name": "Broadridge Financial Solutions",
+   "aliases": [],
+   "tier": 5,
+   "views": 5863
+  },
+  {
+   "name": "Brown Forman",
+   "aliases": [],
+   "tier": 5,
+   "views": 10007
+  },
+  {
+   "name": "Brunswick Corporation",
+   "aliases": [
+    "Brunswick"
+   ],
+   "tier": 5,
+   "views": 8912
+  },
+  {
+   "name": "Burlington Stores",
+   "aliases": [],
+   "tier": 5,
+   "views": 4919
+  },
+  {
+   "name": "BWX Technologies",
+   "aliases": [],
+   "tier": 5,
+   "views": 6193
+  },
+  {
+   "name": "C.H. Robinson Worldwide",
+   "aliases": [
+    "C. H. Robinson"
+   ],
+   "tier": 5,
+   "views": 6041
+  },
+  {
+   "name": "CACI",
+   "aliases": [
+    "CACI International"
+   ],
+   "tier": 5,
+   "views": 10794
+  },
+  {
+   "name": "Caesars Entertainment",
+   "aliases": [],
+   "tier": 5,
+   "views": 12493
+  },
+  {
+   "name": "Camping World Holdings",
+   "aliases": [
+    "Camping World"
+   ],
+   "tier": 5,
+   "views": 4982
+  },
+  {
+   "name": "Cardinal Health",
+   "aliases": [],
+   "tier": 5,
+   "views": 7669
+  },
+  {
+   "name": "CarMax",
+   "aliases": [],
+   "tier": 5,
+   "views": 7431
+  },
+  {
+   "name": "Carter's",
+   "aliases": [],
+   "tier": 5,
+   "views": 4949
+  },
+  {
+   "name": "Carvana",
+   "aliases": [],
+   "tier": 5,
+   "views": 13653
+  },
+  {
+   "name": "Cboe Global Markets",
+   "aliases": [],
+   "tier": 5,
+   "views": 8520
+  },
+  {
+   "name": "CDW",
+   "aliases": [],
+   "tier": 5,
+   "views": 6855
+  },
+  {
+   "name": "Celanese",
+   "aliases": [],
+   "tier": 5,
+   "views": 5526
+  },
+  {
+   "name": "Cencora",
+   "aliases": [
+    "AmerisourceBergen"
+   ],
+   "tier": 5,
+   "views": 12146
+  },
+  {
+   "name": "Centene",
+   "aliases": [
+    "Centene Corporation"
+   ],
+   "tier": 5,
+   "views": 11021
+  },
+  {
+   "name": "CenterPoint Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 4897
+  },
+  {
+   "name": "Cerner",
+   "aliases": [
+    "Oracle Health"
+   ],
+   "tier": 5,
+   "views": 8130
+  },
+  {
+   "name": "Chemours",
+   "aliases": [],
+   "tier": 5,
+   "views": 6869
+  },
+  {
+   "name": "Chick-fil-A",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Church & Dwight",
+   "aliases": [],
+   "tier": 5,
+   "views": 9297
+  },
+  {
+   "name": "Ciena",
+   "aliases": [],
+   "tier": 5,
+   "views": 6656
+  },
+  {
+   "name": "Cigna",
+   "aliases": [
+    "The Cigna Group"
+   ],
+   "tier": 5,
+   "views": 8710
+  },
+  {
+   "name": "Cinemark",
+   "aliases": [
+    "Cinemark Holdings",
+    "Cinemark Theatres"
+   ],
+   "tier": 5,
+   "views": 8754
+  },
+  {
+   "name": "Cintas",
+   "aliases": [],
+   "tier": 5,
+   "views": 11161
+  },
+  {
+   "name": "Citgo",
+   "aliases": [],
+   "tier": 5,
+   "views": 11010
+  },
+  {
+   "name": "Citizens Financial Group",
+   "aliases": [
+    "Citizens Financial"
+   ],
+   "tier": 5,
+   "views": 10186
+  },
+  {
+   "name": "City of Fort Worth",
+   "aliases": [
+    "Fort Worth city government"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Clorox",
+   "aliases": [],
+   "tier": 5,
+   "views": 11900
+  },
+  {
+   "name": "Comerica",
+   "aliases": [],
+   "tier": 5,
+   "views": 13092
+  },
+  {
+   "name": "CommonSpirit Health",
+   "aliases": [
+    "CommonSpirit"
+   ],
+   "tier": 5,
+   "views": 9521
+  },
+  {
+   "name": "CommScope Holding",
+   "aliases": [
+    "CommScope"
+   ],
+   "tier": 5,
+   "views": 5595
+  },
+  {
+   "name": "Compass Group",
+   "aliases": [],
+   "tier": 5,
+   "views": 12769
+  },
+  {
+   "name": "Concentrix",
+   "aliases": [],
+   "tier": 5,
+   "views": 12175
+  },
+  {
+   "name": "Consolidated Edison",
+   "aliases": [],
+   "tier": 5,
+   "views": 12584
+  },
+  {
+   "name": "Constellation Brands",
+   "aliases": [],
+   "tier": 5,
+   "views": 11523
+  },
+  {
+   "name": "Constellation Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 13624
+  },
+  {
+   "name": "Copart",
+   "aliases": [],
+   "tier": 5,
+   "views": 8996
+  },
+  {
+   "name": "Corteva",
+   "aliases": [],
+   "tier": 5,
+   "views": 11066
+  },
+  {
+   "name": "Coty",
+   "aliases": [],
+   "tier": 5,
+   "views": 11525
+  },
+  {
+   "name": "Crunchyroll",
+   "aliases": [
+    "Crunchyroll, LLC"
+   ],
+   "tier": 5,
+   "views": 12286
+  },
+  {
+   "name": "Cushman & Wakefield",
+   "aliases": [],
+   "tier": 5,
+   "views": 9840
+  },
+  {
+   "name": "D.R. Horton",
+   "aliases": [],
+   "tier": 5,
+   "views": 6135
+  },
+  {
+   "name": "Dana Incorporated",
+   "aliases": [
+    "Dana"
+   ],
+   "tier": 5,
+   "views": 6232
+  },
+  {
+   "name": "Dave & Buster's",
+   "aliases": [],
+   "tier": 5,
+   "views": 12390
+  },
+  {
+   "name": "DaVita",
+   "aliases": [],
+   "tier": 5,
+   "views": 5438
+  },
+  {
+   "name": "Dayforce",
+   "aliases": [
+    "Ceridian"
+   ],
+   "tier": 5,
+   "views": 8255
+  },
+  {
+   "name": "Devon Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 4858
+  },
+  {
+   "name": "DexCom",
+   "aliases": [],
+   "tier": 5,
+   "views": 7401
+  },
+  {
+   "name": "Dickies",
+   "aliases": [
+    "Williamson-Dickie"
+   ],
+   "tier": 5,
+   "views": 9526
+  },
+  {
+   "name": "Diebold Nixdorf",
+   "aliases": [],
+   "tier": 5,
+   "views": 4740
+  },
+  {
+   "name": "Digital Realty",
+   "aliases": [
+    "Digital Realty Trust"
+   ],
+   "tier": 5,
+   "views": 6529
+  },
+  {
+   "name": "Discover",
+   "aliases": [
+    "Discover Financial Services",
+    "Discover Financial"
+   ],
+   "tier": 5,
+   "views": 8987
+  },
+  {
+   "name": "DocuSign",
+   "aliases": [],
+   "tier": 5,
+   "views": 12902
+  },
+  {
+   "name": "Dominion Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 8874
+  },
+  {
+   "name": "DTE Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 6465
+  },
+  {
+   "name": "Eastman Chemical",
+   "aliases": [
+    "Eastman Chemical Company"
+   ],
+   "tier": 5,
+   "views": 7456
+  },
+  {
+   "name": "EchoStar",
+   "aliases": [],
+   "tier": 5,
+   "views": 10151
+  },
+  {
+   "name": "Ecolab",
+   "aliases": [],
+   "tier": 5,
+   "views": 10451
+  },
+  {
+   "name": "Edward Jones",
+   "aliases": [
+    "Edward Jones Investments"
+   ],
+   "tier": 5,
+   "views": 8089
+  },
+  {
+   "name": "Edwards Lifesciences",
+   "aliases": [],
+   "tier": 5,
+   "views": 5025
+  },
+  {
+   "name": "Elevance Health",
+   "aliases": [],
+   "tier": 5,
+   "views": 12336
+  },
+  {
+   "name": "Energizer Holdings",
+   "aliases": [
+    "Energizer"
+   ],
+   "tier": 5,
+   "views": 9368
+  },
+  {
+   "name": "Energy Transfer",
+   "aliases": [],
+   "tier": 5,
+   "views": 5020
+  },
+  {
+   "name": "Enterprise Holdings",
+   "aliases": [
+    "Enterprise Rent-A-Car",
+    "Enterprise Mobility"
+   ],
+   "tier": 5,
+   "views": 8644
+  },
+  {
+   "name": "Envoy Air",
+   "aliases": [
+    "American Eagle"
+   ],
+   "tier": 5,
+   "views": 9958
+  },
+  {
+   "name": "Equifax",
+   "aliases": [],
+   "tier": 5,
+   "views": 12605
+  },
+  {
+   "name": "Equinix",
+   "aliases": [],
+   "tier": 5,
+   "views": 13462
+  },
+  {
+   "name": "Equitable",
+   "aliases": [
+    "Equitable Holdings"
+   ],
+   "tier": 5,
+   "views": 4641
+  },
+  {
+   "name": "ERCOT",
+   "aliases": [
+    "Electric Reliability Council of Texas"
+   ],
+   "tier": 5,
+   "views": 5014
+  },
+  {
+   "name": "Evercore",
+   "aliases": [],
+   "tier": 5,
+   "views": 8694
+  },
+  {
+   "name": "Exelon",
+   "aliases": [],
+   "tier": 5,
+   "views": 7371
+  },
+  {
+   "name": "Experian",
+   "aliases": [],
+   "tier": 5,
+   "views": 13414
+  },
+  {
+   "name": "F5",
+   "aliases": [
+    "F5 Networks",
+    "F5, Inc."
+   ],
+   "tier": 5,
+   "views": 9515
+  },
+  {
+   "name": "Family Dollar",
+   "aliases": [],
+   "tier": 5,
+   "views": 8545
+  },
+  {
+   "name": "Farmers Insurance",
+   "aliases": [
+    "Farmers Insurance Exchange",
+    "Farmers Insurance Group"
+   ],
+   "tier": 5,
+   "views": 10227
+  },
+  {
+   "name": "Fastenal",
+   "aliases": [],
+   "tier": 5,
+   "views": 5907
+  },
+  {
+   "name": "Fidelity National Financial",
+   "aliases": [],
+   "tier": 5,
+   "views": 4954
+  },
+  {
+   "name": "First Citizens BancShares",
+   "aliases": [],
+   "tier": 5,
+   "views": 7631
+  },
+  {
+   "name": "First Solar",
+   "aliases": [],
+   "tier": 5,
+   "views": 5420
+  },
+  {
+   "name": "FirstEnergy",
+   "aliases": [],
+   "tier": 5,
+   "views": 7827
+  },
+  {
+   "name": "Fisher Investments",
+   "aliases": [],
+   "tier": 5,
+   "views": 6724
+  },
+  {
+   "name": "Five Below",
+   "aliases": [],
+   "tier": 5,
+   "views": 12980
+  },
+  {
+   "name": "Flagstar Financial",
+   "aliases": [
+    "Flagstar Bank"
+   ],
+   "tier": 5,
+   "views": 4851
+  },
+  {
+   "name": "Flowers Foods",
+   "aliases": [],
+   "tier": 5,
+   "views": 7178
+  },
+  {
+   "name": "Fluor",
+   "aliases": [
+    "Fluor Corporation"
+   ],
+   "tier": 5,
+   "views": 8825
+  },
+  {
+   "name": "FMC Corporation",
+   "aliases": [
+    "FMC"
+   ],
+   "tier": 5,
+   "views": 9326
+  },
+  {
+   "name": "Fortive",
+   "aliases": [],
+   "tier": 5,
+   "views": 4847
+  },
+  {
+   "name": "Forvis Mazars",
+   "aliases": [
+    "Forvis",
+    "Mazars",
+    "BKD",
+    "Dixon Hughes Goodman"
+   ],
+   "tier": 5,
+   "views": 7799
+  },
+  {
+   "name": "Franklin Templeton",
+   "aliases": [
+    "Franklin Resources"
+   ],
+   "tier": 5,
+   "views": 11100
+  },
+  {
+   "name": "Freeport-McMoRan",
+   "aliases": [],
+   "tier": 5,
+   "views": 10577
+  },
+  {
+   "name": "Frontier Communications",
+   "aliases": [],
+   "tier": 5,
+   "views": 8174
+  },
+  {
+   "name": "FTI Consulting",
+   "aliases": [
+    "FTI"
+   ],
+   "tier": 5,
+   "views": 6890
+  },
+  {
+   "name": "Galderma",
+   "aliases": [],
+   "tier": 5,
+   "views": 6743
+  },
+  {
+   "name": "Gannett",
+   "aliases": [
+    "USA Today Co."
+   ],
+   "tier": 5,
+   "views": 9197
+  },
+  {
+   "name": "Gen Digital",
+   "aliases": [],
+   "tier": 5,
+   "views": 12351
+  },
+  {
+   "name": "Generac Holdings",
+   "aliases": [
+    "Generac"
+   ],
+   "tier": 5,
+   "views": 5948
+  },
+  {
+   "name": "Genuine Parts",
+   "aliases": [
+    "Genuine Parts Company"
+   ],
+   "tier": 5,
+   "views": 5045
+  },
+  {
+   "name": "Global Payments",
+   "aliases": [],
+   "tier": 5,
+   "views": 7318
+  },
+  {
+   "name": "Grant Thornton",
+   "aliases": [
+    "Grant Thornton LLP"
+   ],
+   "tier": 5,
+   "views": 12741
+  },
+  {
+   "name": "Gray Television",
+   "aliases": [
+    "Gray Media"
+   ],
+   "tier": 5,
+   "views": 11276
+  },
+  {
+   "name": "Grocery Outlet Holding",
+   "aliases": [
+    "Grocery Outlet"
+   ],
+   "tier": 5,
+   "views": 8746
+  },
+  {
+   "name": "GXO Logistics",
+   "aliases": [],
+   "tier": 5,
+   "views": 6499
+  },
+  {
+   "name": "H&R Block Group",
+   "aliases": [
+    "H&R Block"
+   ],
+   "tier": 5,
+   "views": 6897
+  },
+  {
+   "name": "Hertz",
+   "aliases": [
+    "Hertz Global Holdings",
+    "Hertz Global"
+   ],
+   "tier": 5,
+   "views": 13322
+  },
+  {
+   "name": "HF Sinclair",
+   "aliases": [],
+   "tier": 5,
+   "views": 5584
+  },
+  {
+   "name": "Hormel Foods",
+   "aliases": [],
+   "tier": 5,
+   "views": 12018
+  },
+  {
+   "name": "Houlihan Lokey",
+   "aliases": [],
+   "tier": 5,
+   "views": 7787
+  },
+  {
+   "name": "Howmet Aerospace",
+   "aliases": [],
+   "tier": 5,
+   "views": 7665
+  },
+  {
+   "name": "Humana",
+   "aliases": [],
+   "tier": 5,
+   "views": 11668
+  },
+  {
+   "name": "Huntington Bancshares",
+   "aliases": [],
+   "tier": 5,
+   "views": 12160
+  },
+  {
+   "name": "Huntsman",
+   "aliases": [
+    "Huntsman Corporation"
+   ],
+   "tier": 5,
+   "views": 4996
+  },
+  {
+   "name": "Hy-Vee",
+   "aliases": [],
+   "tier": 5,
+   "views": 12830
+  },
+  {
+   "name": "Icahn Enterprises",
+   "aliases": [],
+   "tier": 5,
+   "views": 5848
+  },
+  {
+   "name": "Illinois Tool Works",
+   "aliases": [],
+   "tier": 5,
+   "views": 5493
+  },
+  {
+   "name": "Illumina",
+   "aliases": [
+    "Illumina, Inc."
+   ],
+   "tier": 5,
+   "views": 6438
+  },
+  {
+   "name": "Informatica",
+   "aliases": [],
+   "tier": 5,
+   "views": 5670
+  },
+  {
+   "name": "Ingersoll Rand",
+   "aliases": [],
+   "tier": 5,
+   "views": 10347
+  },
+  {
+   "name": "Ingles Markets",
+   "aliases": [
+    "Ingles"
+   ],
+   "tier": 5,
+   "views": 5625
+  },
+  {
+   "name": "Ingram Micro",
+   "aliases": [],
+   "tier": 5,
+   "views": 7572
+  },
+  {
+   "name": "International Flavors & Fragrances",
+   "aliases": [],
+   "tier": 5,
+   "views": 6857
+  },
+  {
+   "name": "International Paper",
+   "aliases": [],
+   "tier": 5,
+   "views": 6663
+  },
+  {
+   "name": "Interpublic Group",
+   "aliases": [
+    "Interpublic",
+    "The Interpublic Group of Companies"
+   ],
+   "tier": 5,
+   "views": 5939
+  },
+  {
+   "name": "Intuitive Surgical",
+   "aliases": [],
+   "tier": 5,
+   "views": 10646
+  },
+  {
+   "name": "Iron Mountain",
+   "aliases": [],
+   "tier": 5,
+   "views": 11329
+  },
+  {
+   "name": "ITT Inc.",
+   "aliases": [
+    "ITT"
+   ],
+   "tier": 5,
+   "views": 9468
+  },
+  {
+   "name": "J.B. Hunt Transport Services",
+   "aliases": [
+    "J. B. Hunt"
+   ],
+   "tier": 5,
+   "views": 6737
+  },
+  {
+   "name": "Jabil",
+   "aliases": [],
+   "tier": 5,
+   "views": 9970
+  },
+  {
+   "name": "Jacobs Solutions",
+   "aliases": [],
+   "tier": 5,
+   "views": 11216
+  },
+  {
+   "name": "Johns Hopkins Medicine",
+   "aliases": [
+    "Johns Hopkins Hospital",
+    "Johns Hopkins School of Medicine"
+   ],
+   "tier": 5,
+   "views": 6486
+  },
+  {
+   "name": "Juniper Networks",
+   "aliases": [
+    "Juniper"
+   ],
+   "tier": 5,
+   "views": 11846
+  },
+  {
+   "name": "KBR",
+   "aliases": [
+    "Kellogg Brown & Root",
+    "KBR, Inc."
+   ],
+   "tier": 5,
+   "views": 12271
+  },
+  {
+   "name": "Kearney",
+   "aliases": [
+    "A.T. Kearney"
+   ],
+   "tier": 5,
+   "views": 6120
+  },
+  {
+   "name": "KeyBank",
+   "aliases": [
+    "KeyCorp"
+   ],
+   "tier": 5,
+   "views": 8504
+  },
+  {
+   "name": "Keysight Technologies",
+   "aliases": [
+    "Keysight"
+   ],
+   "tier": 5,
+   "views": 9247
+  },
+  {
+   "name": "Kforce",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Kiewit",
+   "aliases": [
+    "Peter Kiewit Sons'",
+    "Kiewit Corporation"
+   ],
+   "tier": 5,
+   "views": 11247
+  },
+  {
+   "name": "Kinder Morgan",
+   "aliases": [],
+   "tier": 5,
+   "views": 5462
+  },
+  {
+   "name": "KLA",
+   "aliases": [
+    "KLA Corporation"
+   ],
+   "tier": 5,
+   "views": 11251
+  },
+  {
+   "name": "Kontoor Brands",
+   "aliases": [],
+   "tier": 5,
+   "views": 8060
+  },
+  {
+   "name": "Korn Ferry",
+   "aliases": [],
+   "tier": 5,
+   "views": 9453
+  },
+  {
+   "name": "Kubota",
+   "aliases": [],
+   "tier": 5,
+   "views": 12619
+  },
+  {
+   "name": "Kyndryl Holdings",
+   "aliases": [
+    "Kyndryl"
+   ],
+   "tier": 5,
+   "views": 11681
+  },
+  {
+   "name": "Labcorp",
+   "aliases": [
+    "Laboratory Corporation of America",
+    "Labcorp Holdings"
+   ],
+   "tier": 5,
+   "views": 8988
+  },
+  {
+   "name": "Land O'Lakes",
+   "aliases": [],
+   "tier": 5,
+   "views": 7376
+  },
+  {
+   "name": "Lennar",
+   "aliases": [],
+   "tier": 5,
+   "views": 9663
+  },
+  {
+   "name": "Light & Wonder",
+   "aliases": [],
+   "tier": 5,
+   "views": 6149
+  },
+  {
+   "name": "Lithia Motors",
+   "aliases": [],
+   "tier": 5,
+   "views": 6067
+  },
+  {
+   "name": "Love's",
+   "aliases": [
+    "Love's Travel Stops"
+   ],
+   "tier": 5,
+   "views": 9621
+  },
+  {
+   "name": "LPL Financial Holdings",
+   "aliases": [
+    "LPL Financial"
+   ],
+   "tier": 5,
+   "views": 10350
+  },
+  {
+   "name": "LyondellBasell",
+   "aliases": [],
+   "tier": 5,
+   "views": 6671
+  },
+  {
+   "name": "Mary Kay",
+   "aliases": [],
+   "tier": 5,
+   "views": 11527
+  },
+  {
+   "name": "MassMutual",
+   "aliases": [
+    "Massachusetts Mutual Life Insurance"
+   ],
+   "tier": 5,
+   "views": 5088
+  },
+  {
+   "name": "MasTec",
+   "aliases": [],
+   "tier": 5,
+   "views": 5986
+  },
+  {
+   "name": "Matador Resources",
+   "aliases": [
+    "Matador"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "McKesson",
+   "aliases": [],
+   "tier": 5,
+   "views": 10030
+  },
+  {
+   "name": "MD Anderson Cancer Center",
+   "aliases": [
+    "MD Anderson"
+   ],
+   "tier": 5,
+   "views": 11846
+  },
+  {
+   "name": "Medline",
+   "aliases": [
+    "Medline Industries",
+    "Medline Inc."
+   ],
+   "tier": 5,
+   "views": 4875
+  },
+  {
+   "name": "Mercer",
+   "aliases": [],
+   "tier": 5,
+   "views": 9487
+  },
+  {
+   "name": "Microchip Technology",
+   "aliases": [],
+   "tier": 5,
+   "views": 10261
+  },
+  {
+   "name": "Moelis & Company",
+   "aliases": [
+    "Moelis"
+   ],
+   "tier": 5,
+   "views": 6466
+  },
+  {
+   "name": "MongoDB",
+   "aliases": [
+    "MongoDB Inc."
+   ],
+   "tier": 5,
+   "views": 8774
+  },
+  {
+   "name": "Moody's",
+   "aliases": [
+    "Moody's Corporation"
+   ],
+   "tier": 5,
+   "views": 9080
+  },
+  {
+   "name": "Moog Inc.",
+   "aliases": [
+    "Moog"
+   ],
+   "tier": 5,
+   "views": 10027
+  },
+  {
+   "name": "Mosaic",
+   "aliases": [
+    "The Mosaic Company"
+   ],
+   "tier": 5,
+   "views": 7018
+  },
+  {
+   "name": "Murphy USA",
+   "aliases": [],
+   "tier": 5,
+   "views": 5126
+  },
+  {
+   "name": "Mutual of Omaha",
+   "aliases": [],
+   "tier": 5,
+   "views": 6276
+  },
+  {
+   "name": "Nationwide",
+   "aliases": [
+    "Nationwide Mutual Insurance Company"
+   ],
+   "tier": 5,
+   "views": 8423
+  },
+  {
+   "name": "Navy Federal Credit Union",
+   "aliases": [
+    "Navy Federal"
+   ],
+   "tier": 5,
+   "views": 11062
+  },
+  {
+   "name": "NCR Voyix",
+   "aliases": [],
+   "tier": 5,
+   "views": 10545
+  },
+  {
+   "name": "NetApp",
+   "aliases": [],
+   "tier": 5,
+   "views": 9744
+  },
+  {
+   "name": "New York Life Insurance",
+   "aliases": [
+    "New York Life Insurance Company"
+   ],
+   "tier": 5,
+   "views": 8968
+  },
+  {
+   "name": "Newmont",
+   "aliases": [],
+   "tier": 5,
+   "views": 6405
+  },
+  {
+   "name": "Northern Trust",
+   "aliases": [],
+   "tier": 5,
+   "views": 11193
+  },
+  {
+   "name": "Northwestern Mutual",
+   "aliases": [],
+   "tier": 5,
+   "views": 7413
+  },
+  {
+   "name": "NOV Inc.",
+   "aliases": [
+    "NOV"
+   ],
+   "tier": 5,
+   "views": 5736
+  },
+  {
+   "name": "NRG Energy",
+   "aliases": [
+    "NRG",
+    "Reliant Energy"
+   ],
+   "tier": 5,
+   "views": 8275
+  },
+  {
+   "name": "NTT Data",
+   "aliases": [],
+   "tier": 5,
+   "views": 13440
+  },
+  {
+   "name": "Nucor",
+   "aliases": [],
+   "tier": 5,
+   "views": 12129
+  },
+  {
+   "name": "O'Reilly Automotive",
+   "aliases": [
+    "O'Reilly Auto Parts"
+   ],
+   "tier": 5,
+   "views": 10951
+  },
+  {
+   "name": "Office Depot",
+   "aliases": [
+    "ODP"
+   ],
+   "tier": 5,
+   "views": 7321
+  },
+  {
+   "name": "Olin Corporation",
+   "aliases": [
+    "Olin"
+   ],
+   "tier": 5,
+   "views": 7155
+  },
+  {
+   "name": "Oliver Wyman",
+   "aliases": [],
+   "tier": 5,
+   "views": 12043
+  },
+  {
+   "name": "Omni Hotels & Resorts",
+   "aliases": [
+    "Omni Hotels"
+   ],
+   "tier": 5,
+   "views": 7037
+  },
+  {
+   "name": "onsemi",
+   "aliases": [
+    "ON Semiconductor"
+   ],
+   "tier": 5,
+   "views": 7722
+  },
+  {
+   "name": "Oscar Health",
+   "aliases": [],
+   "tier": 5,
+   "views": 11694
+  },
+  {
+   "name": "Owens Corning",
+   "aliases": [],
+   "tier": 5,
+   "views": 6792
+  },
+  {
+   "name": "Pariveda Solutions",
+   "aliases": [
+    "Pariveda"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Parker-Hannifin",
+   "aliases": [],
+   "tier": 5,
+   "views": 13302
+  },
+  {
+   "name": "Parkland Health",
+   "aliases": [
+    "Parkland",
+    "Parkland Memorial Hospital",
+    "Parkland Hospital"
+   ],
+   "tier": 5,
+   "views": 7328
+  },
+  {
+   "name": "Parsons Corporation",
+   "aliases": [
+    "Parsons"
+   ],
+   "tier": 5,
+   "views": 6590
+  },
+  {
+   "name": "Paychex",
+   "aliases": [
+    "Paycor"
+   ],
+   "tier": 5,
+   "views": 6556
+  },
+  {
+   "name": "Peloton Interactive",
+   "aliases": [],
+   "tier": 5,
+   "views": 7778
+  },
+  {
+   "name": "Peraton",
+   "aliases": [],
+   "tier": 5,
+   "views": 5505
+  },
+  {
+   "name": "Petco",
+   "aliases": [],
+   "tier": 5,
+   "views": 8196
+  },
+  {
+   "name": "Pier 1 Imports",
+   "aliases": [
+    "Pier 1"
+   ],
+   "tier": 5,
+   "views": 7448
+  },
+  {
+   "name": "Pilot Flying J",
+   "aliases": [
+    "Flying J"
+   ],
+   "tier": 5,
+   "views": 11399
+  },
+  {
+   "name": "Pitney Bowes",
+   "aliases": [],
+   "tier": 5,
+   "views": 5309
+  },
+  {
+   "name": "Plaid",
+   "aliases": [
+    "Plaid Inc."
+   ],
+   "tier": 5,
+   "views": 10716
+  },
+  {
+   "name": "Polaris",
+   "aliases": [
+    "Polaris Inc."
+   ],
+   "tier": 5,
+   "views": 11659
+  },
+  {
+   "name": "Post Holdings",
+   "aliases": [],
+   "tier": 5,
+   "views": 6187
+  },
+  {
+   "name": "PPL Corporation",
+   "aliases": [
+    "PPL"
+   ],
+   "tier": 5,
+   "views": 8033
+  },
+  {
+   "name": "Presidio",
+   "aliases": [
+    "Presidio Inc"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Primerica",
+   "aliases": [],
+   "tier": 5,
+   "views": 9020
+  },
+  {
+   "name": "Principal Financial",
+   "aliases": [
+    "Principal Financial Group"
+   ],
+   "tier": 5,
+   "views": 5813
+  },
+  {
+   "name": "Prologis",
+   "aliases": [],
+   "tier": 5,
+   "views": 7589
+  },
+  {
+   "name": "Protiviti",
+   "aliases": [],
+   "tier": 5,
+   "views": 4986
+  },
+  {
+   "name": "Prudential Financial",
+   "aliases": [],
+   "tier": 5,
+   "views": 12186
+  },
+  {
+   "name": "Publicis Sapient",
+   "aliases": [
+    "Sapient"
+   ],
+   "tier": 5,
+   "views": 4816
+  },
+  {
+   "name": "PulteGroup",
+   "aliases": [],
+   "tier": 5,
+   "views": 4825
+  },
+  {
+   "name": "Pure Storage",
+   "aliases": [
+    "Everpure"
+   ],
+   "tier": 5,
+   "views": 13548
+  },
+  {
+   "name": "PVH",
+   "aliases": [
+    "PVH Corp."
+   ],
+   "tier": 5,
+   "views": 9407
+  },
+  {
+   "name": "Qorvo",
+   "aliases": [],
+   "tier": 5,
+   "views": 5515
+  },
+  {
+   "name": "Quanta Services",
+   "aliases": [],
+   "tier": 5,
+   "views": 7442
+  },
+  {
+   "name": "Quest Diagnostics",
+   "aliases": [],
+   "tier": 5,
+   "views": 8743
+  },
+  {
+   "name": "QuikTrip",
+   "aliases": [],
+   "tier": 5,
+   "views": 13722
+  },
+  {
+   "name": "RaceTrac",
+   "aliases": [],
+   "tier": 5,
+   "views": 6144
+  },
+  {
+   "name": "Randstad",
+   "aliases": [
+    "Randstad NV"
+   ],
+   "tier": 5,
+   "views": 6298
+  },
+  {
+   "name": "Raymond James Financial",
+   "aliases": [],
+   "tier": 5,
+   "views": 10430
+  },
+  {
+   "name": "Regeneron Pharmaceuticals",
+   "aliases": [],
+   "tier": 5,
+   "views": 10531
+  },
+  {
+   "name": "Regions Financial",
+   "aliases": [
+    "Regions Financial Corporation"
+   ],
+   "tier": 5,
+   "views": 6121
+  },
+  {
+   "name": "Republic Services",
+   "aliases": [],
+   "tier": 5,
+   "views": 7326
+  },
+  {
+   "name": "Reyes Holdings",
+   "aliases": [],
+   "tier": 5,
+   "views": 6390
+  },
+  {
+   "name": "RH (Restoration Hardware)",
+   "aliases": [
+    "RH"
+   ],
+   "tier": 5,
+   "views": 8293
+  },
+  {
+   "name": "Robert Half",
+   "aliases": [],
+   "tier": 5,
+   "views": 4752
+  },
+  {
+   "name": "Rocket Companies",
+   "aliases": [],
+   "tier": 5,
+   "views": 6224
+  },
+  {
+   "name": "Rockwell Automation",
+   "aliases": [],
+   "tier": 5,
+   "views": 12135
+  },
+  {
+   "name": "Roper Technologies",
+   "aliases": [],
+   "tier": 5,
+   "views": 5240
+  },
+  {
+   "name": "Rosewood Hotels & Resorts",
+   "aliases": [
+    "Rosewood"
+   ],
+   "tier": 5,
+   "views": 10397
+  },
+  {
+   "name": "RSM",
+   "aliases": [
+    "RSM US",
+    "RSM International"
+   ],
+   "tier": 5,
+   "views": 4970
+  },
+  {
+   "name": "Ryder",
+   "aliases": [
+    "Ryder System"
+   ],
+   "tier": 5,
+   "views": 9474
+  },
+  {
+   "name": "Sabre",
+   "aliases": [
+    "Sabre Holdings",
+    "Sabre Corporation"
+   ],
+   "tier": 5,
+   "views": 5422
+  },
+  {
+   "name": "SAIC",
+   "aliases": [
+    "Science Applications International",
+    "Science Applications International Corporation"
+   ],
+   "tier": 5,
+   "views": 6816
+  },
+  {
+   "name": "Sallie Mae",
+   "aliases": [
+    "SLM"
+   ],
+   "tier": 5,
+   "views": 8038
+  },
+  {
+   "name": "SAS Institute",
+   "aliases": [
+    "SAS"
+   ],
+   "tier": 5,
+   "views": 11139
+  },
+  {
+   "name": "SHI International",
+   "aliases": [
+    "SHI",
+    "SHI International Corp"
+   ],
+   "tier": 5,
+   "views": 6710
+  },
+  {
+   "name": "Skyworks Solutions",
+   "aliases": [],
+   "tier": 5,
+   "views": 6037
+  },
+  {
+   "name": "Slack",
+   "aliases": [
+    "Slack Technologies"
+   ],
+   "tier": 5,
+   "views": 13443
+  },
+  {
+   "name": "Snap-on",
+   "aliases": [],
+   "tier": 5,
+   "views": 11100
+  },
+  {
+   "name": "Sodexo",
+   "aliases": [],
+   "tier": 5,
+   "views": 11855
+  },
+  {
+   "name": "Southern Company",
+   "aliases": [],
+   "tier": 5,
+   "views": 11258
+  },
+  {
+   "name": "SpaceX",
+   "aliases": [
+    "Space Exploration Technologies"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Spectrum Brands Holdings",
+   "aliases": [
+    "Spectrum Brands"
+   ],
+   "tier": 5,
+   "views": 5806
+  },
+  {
+   "name": "Spirit AeroSystems Holdings",
+   "aliases": [
+    "Spirit AeroSystems"
+   ],
+   "tier": 5,
+   "views": 8213
+  },
+  {
+   "name": "Splunk",
+   "aliases": [],
+   "tier": 5,
+   "views": 11907
+  },
+  {
+   "name": "SS&C Technologies Holdings",
+   "aliases": [
+    "SS&C Technologies"
+   ],
+   "tier": 5,
+   "views": 6293
+  },
+  {
+   "name": "Steelcase",
+   "aliases": [],
+   "tier": 5,
+   "views": 4703
+  },
+  {
+   "name": "Stifel Financial",
+   "aliases": [
+    "Stifel"
+   ],
+   "tier": 5,
+   "views": 6029
+  },
+  {
+   "name": "StoneX Group",
+   "aliases": [
+    "StoneX",
+    "StoneX Group Inc."
+   ],
+   "tier": 5,
+   "views": 6830
+  },
+  {
+   "name": "Sunoco",
+   "aliases": [],
+   "tier": 5,
+   "views": 12827
+  },
+  {
+   "name": "Synchrony",
+   "aliases": [
+    "Synchrony Financial"
+   ],
+   "tier": 5,
+   "views": 9051
+  },
+  {
+   "name": "T. Rowe Price",
+   "aliases": [],
+   "tier": 5,
+   "views": 11090
+  },
+  {
+   "name": "Tableau",
+   "aliases": [
+    "Tableau Software"
+   ],
+   "tier": 5,
+   "views": 11847
+  },
+  {
+   "name": "Tapestry",
+   "aliases": [
+    "Tapestry, Inc."
+   ],
+   "tier": 5,
+   "views": 7800
+  },
+  {
+   "name": "TD Synnex",
+   "aliases": [],
+   "tier": 5,
+   "views": 5216
+  },
+  {
+   "name": "TEGNA",
+   "aliases": [
+    "Tegna Inc."
+   ],
+   "tier": 5,
+   "views": 9459
+  },
+  {
+   "name": "TEKsystems",
+   "aliases": [
+    "Allegis Group"
+   ],
+   "tier": 5,
+   "views": 4844
+  },
+  {
+   "name": "Teledyne Technologies",
+   "aliases": [],
+   "tier": 5,
+   "views": 12211
+  },
+  {
+   "name": "TelevisaUnivision",
+   "aliases": [],
+   "tier": 5,
+   "views": 10270
+  },
+  {
+   "name": "Tenet Healthcare",
+   "aliases": [],
+   "tier": 5,
+   "views": 4901
+  },
+  {
+   "name": "Teradyne",
+   "aliases": [],
+   "tier": 5,
+   "views": 6435
+  },
+  {
+   "name": "Terex",
+   "aliases": [],
+   "tier": 5,
+   "views": 5600
+  },
+  {
+   "name": "The Hartford",
+   "aliases": [
+    "Hartford Financial Services Group",
+    "Hartford Financial Services"
+   ],
+   "tier": 5,
+   "views": 8734
+  },
+  {
+   "name": "Thoughtworks",
+   "aliases": [],
+   "tier": 5,
+   "views": 7883
+  },
+  {
+   "name": "Thrivent",
+   "aliases": [
+    "Thrivent Financial for Lutherans"
+   ],
+   "tier": 5,
+   "views": 4976
+  },
+  {
+   "name": "Timken",
+   "aliases": [
+    "Timken Company"
+   ],
+   "tier": 5,
+   "views": 5658
+  },
+  {
+   "name": "Toast",
+   "aliases": [
+    "Toast, Inc."
+   ],
+   "tier": 5,
+   "views": 7983
+  },
+  {
+   "name": "Topgolf",
+   "aliases": [],
+   "tier": 5,
+   "views": 8948
+  },
+  {
+   "name": "Toro",
+   "aliases": [
+    "The Toro Company"
+   ],
+   "tier": 5,
+   "views": 4985
+  },
+  {
+   "name": "Tractor Supply",
+   "aliases": [
+    "Tractor Supply Company"
+   ],
+   "tier": 5,
+   "views": 8732
+  },
+  {
+   "name": "Trane Technologies",
+   "aliases": [
+    "Trane"
+   ],
+   "tier": 5,
+   "views": 8528
+  },
+  {
+   "name": "TransUnion",
+   "aliases": [],
+   "tier": 5,
+   "views": 8708
+  },
+  {
+   "name": "Travelers",
+   "aliases": [
+    "The Travelers Companies"
+   ],
+   "tier": 5,
+   "views": 10498
+  },
+  {
+   "name": "Trimble",
+   "aliases": [
+    "Trimble Inc."
+   ],
+   "tier": 5,
+   "views": 8245
+  },
+  {
+   "name": "Turner Construction",
+   "aliases": [],
+   "tier": 5,
+   "views": 12075
+  },
+  {
+   "name": "Two Sigma",
+   "aliases": [],
+   "tier": 5,
+   "views": 13257
+  },
+  {
+   "name": "Tyler Technologies",
+   "aliases": [
+    "Tyler Tech"
+   ],
+   "tier": 5,
+   "views": 5156
+  },
+  {
+   "name": "U-Haul Holding",
+   "aliases": [
+    "U-Haul"
+   ],
+   "tier": 5,
+   "views": 9979
+  },
+  {
+   "name": "UiPath",
+   "aliases": [],
+   "tier": 5,
+   "views": 13738
+  },
+  {
+   "name": "UL Solutions",
+   "aliases": [
+    "UL"
+   ],
+   "tier": 5,
+   "views": 12750
+  },
+  {
+   "name": "Ulta Beauty",
+   "aliases": [],
+   "tier": 5,
+   "views": 12619
+  },
+  {
+   "name": "Unisys",
+   "aliases": [],
+   "tier": 5,
+   "views": 10277
+  },
+  {
+   "name": "United Natural Foods",
+   "aliases": [],
+   "tier": 5,
+   "views": 5328
+  },
+  {
+   "name": "Universal Health Services",
+   "aliases": [],
+   "tier": 5,
+   "views": 11530
+  },
+  {
+   "name": "Urban Outfitters",
+   "aliases": [],
+   "tier": 5,
+   "views": 11709
+  },
+  {
+   "name": "US Foods",
+   "aliases": [
+    "US Foods Holding"
+   ],
+   "tier": 5,
+   "views": 5894
+  },
+  {
+   "name": "Vail Resorts",
+   "aliases": [],
+   "tier": 5,
+   "views": 5949
+  },
+  {
+   "name": "Valero Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 11826
+  },
+  {
+   "name": "Valvoline",
+   "aliases": [],
+   "tier": 5,
+   "views": 8888
+  },
+  {
+   "name": "Veeva Systems",
+   "aliases": [
+    "Veeva"
+   ],
+   "tier": 5,
+   "views": 10107
+  },
+  {
+   "name": "Vertex Pharmaceuticals",
+   "aliases": [],
+   "tier": 5,
+   "views": 9826
+  },
+  {
+   "name": "Viasat",
+   "aliases": [],
+   "tier": 5,
+   "views": 9397
+  },
+  {
+   "name": "Viatris",
+   "aliases": [],
+   "tier": 5,
+   "views": 10318
+  },
+  {
+   "name": "Vishay Intertechnology",
+   "aliases": [],
+   "tier": 5,
+   "views": 5469
+  },
+  {
+   "name": "Vistra",
+   "aliases": [
+    "Vistra Corp",
+    "Vistra Energy",
+    "TXU Energy",
+    "TXU"
+   ],
+   "tier": 5,
+   "views": 9406
+  },
+  {
+   "name": "W.W. Grainger",
+   "aliases": [
+    "Grainger"
+   ],
+   "tier": 5,
+   "views": 12092
+  },
+  {
+   "name": "Wabtec",
+   "aliases": [
+    "Westinghouse Air Brake Technologies"
+   ],
+   "tier": 5,
+   "views": 13480
+  },
+  {
+   "name": "Waste Management",
+   "aliases": [
+    "Waste Management, Inc."
+   ],
+   "tier": 5,
+   "views": 12245
+  },
+  {
+   "name": "Waters Corporation",
+   "aliases": [],
+   "tier": 5,
+   "views": 5737
+  },
+  {
+   "name": "Weaver",
+   "aliases": [
+    "Weaver and Tidwell",
+    "Weaver accounting"
+   ],
+   "tier": 5
+  },
+  {
+   "name": "Weis Markets",
+   "aliases": [],
+   "tier": 5,
+   "views": 6668
+  },
+  {
+   "name": "Welltower",
+   "aliases": [],
+   "tier": 5,
+   "views": 8403
+  },
+  {
+   "name": "WESCO International",
+   "aliases": [],
+   "tier": 5,
+   "views": 4957
+  },
+  {
+   "name": "Weyerhaeuser",
+   "aliases": [],
+   "tier": 5,
+   "views": 11605
+  },
+  {
+   "name": "Whitley Penn",
+   "aliases": [],
+   "tier": 5
+  },
+  {
+   "name": "Williams Companies",
+   "aliases": [],
+   "tier": 5,
+   "views": 6068
+  },
+  {
+   "name": "Winnebago Industries",
+   "aliases": [],
+   "tier": 5,
+   "views": 8064
+  },
+  {
+   "name": "Wynn Resorts",
+   "aliases": [],
+   "tier": 5,
+   "views": 12425
+  },
+  {
+   "name": "Xcel Energy",
+   "aliases": [],
+   "tier": 5,
+   "views": 6914
+  },
+  {
+   "name": "XPO",
+   "aliases": [
+    "XPO, Inc."
+   ],
+   "tier": 5,
+   "views": 7669
+  },
+  {
+   "name": "XTO Energy",
+   "aliases": [
+    "XTO"
+   ],
+   "tier": 5,
+   "views": 4648
+  },
+  {
+   "name": "Xylem",
+   "aliases": [
+    "Xylem Inc."
+   ],
+   "tier": 5,
+   "views": 5765
+  },
+  {
+   "name": "Yum China Holdings",
+   "aliases": [
+    "Yum China"
+   ],
+   "tier": 5,
+   "views": 7329
+  },
+  {
+   "name": "Zebra Technologies",
+   "aliases": [],
+   "tier": 5,
+   "views": 7374
+  },
+  {
+   "name": "Zimmer Biomet Holdings",
+   "aliases": [
+    "Zimmer Biomet"
+   ],
+   "tier": 5,
+   "views": 5334
+  },
+  {
+   "name": "Zions Bancorporation",
+   "aliases": [
+    "Zions Bancorp."
+   ],
+   "tier": 5,
+   "views": 5185
+  },
+  {
+   "name": "Zoetis",
+   "aliases": [],
+   "tier": 5,
+   "views": 5774
+  },
+  {
+   "name": "ZS Associates",
+   "aliases": [
+    "ZS"
+   ],
+   "tier": 5,
+   "views": 8896
+  },
+  {
+   "name": "A-Mark Precious Metals",
+   "aliases": [],
+   "tier": 6,
+   "views": 1042
+  },
+  {
+   "name": "Acadia Healthcare",
+   "aliases": [],
+   "tier": 6,
+   "views": 4107
+  },
+  {
+   "name": "Acme Brick",
+   "aliases": [],
+   "tier": 6,
+   "views": 2146
+  },
+  {
+   "name": "Acuity Brands",
+   "aliases": [],
+   "tier": 6,
+   "views": 2902
+  },
+  {
+   "name": "Adams Resources & Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 733
+  },
+  {
+   "name": "AdaptHealth",
+   "aliases": [],
+   "tier": 6,
+   "views": 532
+  },
+  {
+   "name": "Advanced Drainage Systems",
+   "aliases": [],
+   "tier": 6,
+   "views": 1379
+  },
+  {
+   "name": "Air Lease",
+   "aliases": [
+    "Air Lease Corporation"
+   ],
+   "tier": 6,
+   "views": 3624
+  },
+  {
+   "name": "Air Products",
+   "aliases": [
+    "Air Products & Chemicals"
+   ],
+   "tier": 6,
+   "views": 3831
+  },
+  {
+   "name": "Alexandria Real Estate Equities",
+   "aliases": [],
+   "tier": 6,
+   "views": 1438
+  },
+  {
+   "name": "Allegiant Travel",
+   "aliases": [
+    "Allegiant Travel Company"
+   ],
+   "tier": 6,
+   "views": 4087
+  },
+  {
+   "name": "Alliant Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2084
+  },
+  {
+   "name": "Ameren",
+   "aliases": [],
+   "tier": 6,
+   "views": 4401
+  },
+  {
+   "name": "American Axle",
+   "aliases": [
+    "American Axle & Manufacturing",
+    "Dauch Corporation"
+   ],
+   "tier": 6,
+   "views": 2977
+  },
+  {
+   "name": "American Financial Group",
+   "aliases": [
+    "American Financial"
+   ],
+   "tier": 6,
+   "views": 3371
+  },
+  {
+   "name": "American Water Works",
+   "aliases": [],
+   "tier": 6,
+   "views": 3259
+  },
+  {
+   "name": "Amica Mutual Insurance",
+   "aliases": [],
+   "tier": 6,
+   "views": 2827
+  },
+  {
+   "name": "Amkor Technology",
+   "aliases": [],
+   "tier": 6,
+   "views": 3987
+  },
+  {
+   "name": "Antero Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 1169
+  },
+  {
+   "name": "Anywhere Real Estate",
+   "aliases": [],
+   "tier": 6,
+   "views": 3297
+  },
+  {
+   "name": "APA Corporation",
+   "aliases": [
+    "APA"
+   ],
+   "tier": 6,
+   "views": 2864
+  },
+  {
+   "name": "APi Group",
+   "aliases": [
+    "APi"
+   ],
+   "tier": 6,
+   "views": 691
+  },
+  {
+   "name": "Applied Industrial Technologies",
+   "aliases": [],
+   "tier": 6,
+   "views": 1354
+  },
+  {
+   "name": "AptarGroup",
+   "aliases": [],
+   "tier": 6,
+   "views": 2748
+  },
+  {
+   "name": "ArcBest",
+   "aliases": [],
+   "tier": 6,
+   "views": 1557
+  },
+  {
+   "name": "Arch Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 752
+  },
+  {
+   "name": "ARKO",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Asbury Automotive Group",
+   "aliases": [
+    "Asbury Automotive"
+   ],
+   "tier": 6,
+   "views": 2009
+  },
+  {
+   "name": "Assurant",
+   "aliases": [],
+   "tier": 6,
+   "views": 3340
+  },
+  {
+   "name": "At Home",
+   "aliases": [],
+   "tier": 6,
+   "views": 4389
+  },
+  {
+   "name": "ATI",
+   "aliases": [
+    "Allegheny Technologies"
+   ],
+   "tier": 6,
+   "views": 3611
+  },
+  {
+   "name": "Atmos Energy",
+   "aliases": [
+    "Atmos"
+   ],
+   "tier": 6,
+   "views": 2803
+  },
+  {
+   "name": "Auto-Owners Insurance",
+   "aliases": [],
+   "tier": 6,
+   "views": 2583
+  },
+  {
+   "name": "Autoliv",
+   "aliases": [],
+   "tier": 6,
+   "views": 2577
+  },
+  {
+   "name": "Avanade",
+   "aliases": [],
+   "tier": 6,
+   "views": 4586
+  },
+  {
+   "name": "Avantor",
+   "aliases": [],
+   "tier": 6,
+   "views": 3456
+  },
+  {
+   "name": "Avient",
+   "aliases": [
+    "Avient Corporation"
+   ],
+   "tier": 6,
+   "views": 2176
+  },
+  {
+   "name": "Beacon Roofing Supply",
+   "aliases": [
+    "QXO"
+   ],
+   "tier": 6,
+   "views": 4317
+  },
+  {
+   "name": "Belden",
+   "aliases": [
+    "Belden Incorporated"
+   ],
+   "tier": 6,
+   "views": 2780
+  },
+  {
+   "name": "Ben E. Keith",
+   "aliases": [
+    "Ben E. Keith Company"
+   ],
+   "tier": 6,
+   "views": 1678
+  },
+  {
+   "name": "Benchmark Electronics",
+   "aliases": [],
+   "tier": 6,
+   "views": 1290
+  },
+  {
+   "name": "Berry Global Group",
+   "aliases": [
+    "Berry Global"
+   ],
+   "tier": 6,
+   "views": 3952
+  },
+  {
+   "name": "Bio-Rad Laboratories",
+   "aliases": [],
+   "tier": 6,
+   "views": 3607
+  },
+  {
+   "name": "BlueLinx Holdings",
+   "aliases": [
+    "BlueLinx"
+   ],
+   "tier": 6,
+   "views": 508
+  },
+  {
+   "name": "Boise Cascade",
+   "aliases": [],
+   "tier": 6,
+   "views": 2071
+  },
+  {
+   "name": "BOK Financial",
+   "aliases": [
+    "BOK Financial Corporation"
+   ],
+   "tier": 6,
+   "views": 4160
+  },
+  {
+   "name": "Bread Financial Holdings",
+   "aliases": [
+    "Bread Financial"
+   ],
+   "tier": 6,
+   "views": 3871
+  },
+  {
+   "name": "Brighthouse Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 2277
+  },
+  {
+   "name": "BrightSpring Health Services",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Brookdale Senior Living",
+   "aliases": [],
+   "tier": 6,
+   "views": 1518
+  },
+  {
+   "name": "Brown & Brown",
+   "aliases": [],
+   "tier": 6,
+   "views": 3970
+  },
+  {
+   "name": "Bruker",
+   "aliases": [],
+   "tier": 6,
+   "views": 4444
+  },
+  {
+   "name": "Buc-ee's",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Builders FirstSource",
+   "aliases": [],
+   "tier": 6,
+   "views": 2436
+  },
+  {
+   "name": "Cabot Corporation",
+   "aliases": [
+    "Cabot"
+   ],
+   "tier": 6,
+   "views": 2287
+  },
+  {
+   "name": "Cal-Maine Foods",
+   "aliases": [
+    "Cal-Maine"
+   ],
+   "tier": 6,
+   "views": 1821
+  },
+  {
+   "name": "Caleres",
+   "aliases": [],
+   "tier": 6,
+   "views": 3977
+  },
+  {
+   "name": "California Resources",
+   "aliases": [
+    "California Resources Corporation"
+   ],
+   "tier": 6,
+   "views": 1011
+  },
+  {
+   "name": "Carpenter Technology",
+   "aliases": [
+    "Carpenter Technology Corporation"
+   ],
+   "tier": 6,
+   "views": 2348
+  },
+  {
+   "name": "Catalent",
+   "aliases": [],
+   "tier": 6,
+   "views": 3824
+  },
+  {
+   "name": "Century Communities",
+   "aliases": [],
+   "tier": 6,
+   "views": 800
+  },
+  {
+   "name": "CF Industries Holdings",
+   "aliases": [
+    "CF Industries"
+   ],
+   "tier": 6,
+   "views": 2691
+  },
+  {
+   "name": "Cheniere Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 3259
+  },
+  {
+   "name": "Children's Health",
+   "aliases": [
+    "Children's Medical Center Dallas",
+    "Childrens Health Dallas"
+   ],
+   "tier": 6,
+   "views": 762
+  },
+  {
+   "name": "Chord Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 1244
+  },
+  {
+   "name": "Christus Health",
+   "aliases": [
+    "Christus"
+   ],
+   "tier": 6,
+   "views": 1767
+  },
+  {
+   "name": "CHS",
+   "aliases": [
+    "CHS Inc."
+   ],
+   "tier": 6,
+   "views": 3741
+  },
+  {
+   "name": "CIA",
+   "aliases": [
+    "Central Intelligence Agency"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Cincinnati Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 1701
+  },
+  {
+   "name": "Clean Harbors",
+   "aliases": [],
+   "tier": 6,
+   "views": 3176
+  },
+  {
+   "name": "Clear Channel Outdoor",
+   "aliases": [
+    "Clear Channel Outdoor Hldgs."
+   ],
+   "tier": 6,
+   "views": 3176
+  },
+  {
+   "name": "CliftonLarsonAllen",
+   "aliases": [
+    "CLA"
+   ],
+   "tier": 6,
+   "views": 2191
+  },
+  {
+   "name": "CMS Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2189
+  },
+  {
+   "name": "CNO Financial Group",
+   "aliases": [
+    "CNO Financial"
+   ],
+   "tier": 6,
+   "views": 2030
+  },
+  {
+   "name": "CNX Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 972
+  },
+  {
+   "name": "Coherent",
+   "aliases": [
+    "Coherent, Inc."
+   ],
+   "tier": 6,
+   "views": 3299
+  },
+  {
+   "name": "Comfort Systems USA",
+   "aliases": [],
+   "tier": 6,
+   "views": 2876
+  },
+  {
+   "name": "Commercial Metals",
+   "aliases": [
+    "Commercial Metals Company"
+   ],
+   "tier": 6,
+   "views": 2049
+  },
+  {
+   "name": "Community Health Systems",
+   "aliases": [],
+   "tier": 6,
+   "views": 3557
+  },
+  {
+   "name": "Conduent",
+   "aliases": [],
+   "tier": 6,
+   "views": 4632
+  },
+  {
+   "name": "Consol Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 1241
+  },
+  {
+   "name": "Continental Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 4108
+  },
+  {
+   "name": "Cook Children's",
+   "aliases": [
+    "Cook Children's Medical Center"
+   ],
+   "tier": 6,
+   "views": 1047
+  },
+  {
+   "name": "Core & Main",
+   "aliases": [],
+   "tier": 6,
+   "views": 1282
+  },
+  {
+   "name": "Cornerstone Building Brands",
+   "aliases": [],
+   "tier": 6,
+   "views": 972
+  },
+  {
+   "name": "Corpay",
+   "aliases": [],
+   "tier": 6,
+   "views": 4301
+  },
+  {
+   "name": "Coterra Energy",
+   "aliases": [
+    "Coterra"
+   ],
+   "tier": 6,
+   "views": 1289
+  },
+  {
+   "name": "Country Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 1763
+  },
+  {
+   "name": "Crowe",
+   "aliases": [
+    "Crowe LLP",
+    "Crowe Horwath",
+    "Crowe Global"
+   ],
+   "tier": 6,
+   "views": 3282
+  },
+  {
+   "name": "Crown Castle",
+   "aliases": [],
+   "tier": 6,
+   "views": 3714
+  },
+  {
+   "name": "Crown Holdings",
+   "aliases": [],
+   "tier": 6,
+   "views": 3110
+  },
+  {
+   "name": "Dallas Cowboys",
+   "aliases": [
+    "Cowboys"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Delek US Holdings",
+   "aliases": [
+    "Delek US"
+   ],
+   "tier": 6,
+   "views": 2431
+  },
+  {
+   "name": "Dentsply Sirona",
+   "aliases": [],
+   "tier": 6,
+   "views": 2666
+  },
+  {
+   "name": "Designer Brands",
+   "aliases": [],
+   "tier": 6,
+   "views": 3647
+  },
+  {
+   "name": "Diamondback Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2790
+  },
+  {
+   "name": "Dickey's Barbecue Pit",
+   "aliases": [
+    "Dickey's"
+   ],
+   "tier": 6,
+   "views": 2132
+  },
+  {
+   "name": "Domtar",
+   "aliases": [],
+   "tier": 6,
+   "views": 3339
+  },
+  {
+   "name": "Donaldson",
+   "aliases": [
+    "Donaldson Company"
+   ],
+   "tier": 6,
+   "views": 2379
+  },
+  {
+   "name": "Dover Corporation",
+   "aliases": [],
+   "tier": 6,
+   "views": 4237
+  },
+  {
+   "name": "East West Bancorp",
+   "aliases": [],
+   "tier": 6,
+   "views": 1165
+  },
+  {
+   "name": "Edison International",
+   "aliases": [],
+   "tier": 6,
+   "views": 3385
+  },
+  {
+   "name": "Elanco Animal Health",
+   "aliases": [
+    "Elanco"
+   ],
+   "tier": 6,
+   "views": 3983
+  },
+  {
+   "name": "EMCOR Group",
+   "aliases": [
+    "EMCOR"
+   ],
+   "tier": 6,
+   "views": 3222
+  },
+  {
+   "name": "Encompass Health",
+   "aliases": [],
+   "tier": 6,
+   "views": 3409
+  },
+  {
+   "name": "EnerSys",
+   "aliases": [],
+   "tier": 6,
+   "views": 1708
+  },
+  {
+   "name": "Entergy",
+   "aliases": [],
+   "tier": 6,
+   "views": 4048
+  },
+  {
+   "name": "Enterprise Products Partners",
+   "aliases": [
+    "Enterprise Products"
+   ],
+   "tier": 6,
+   "views": 3531
+  },
+  {
+   "name": "EOG Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 4095
+  },
+  {
+   "name": "EQT",
+   "aliases": [
+    "EQT Corporation"
+   ],
+   "tier": 6,
+   "views": 3714
+  },
+  {
+   "name": "Erie Insurance Group",
+   "aliases": [
+    "Erie Insurance"
+   ],
+   "tier": 6,
+   "views": 3371
+  },
+  {
+   "name": "ESAB",
+   "aliases": [],
+   "tier": 6,
+   "views": 3176
+  },
+  {
+   "name": "Euronet Worldwide",
+   "aliases": [],
+   "tier": 6,
+   "views": 3157
+  },
+  {
+   "name": "Evergy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2354
+  },
+  {
+   "name": "Eversource Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 4528
+  },
+  {
+   "name": "Exact Sciences",
+   "aliases": [
+    "Exact Sciences Corporation"
+   ],
+   "tier": 6,
+   "views": 3717
+  },
+  {
+   "name": "Expand Energy",
+   "aliases": [
+    "Chesapeake Energy",
+    "Chesapeake"
+   ],
+   "tier": 6,
+   "views": 3637
+  },
+  {
+   "name": "Expeditors International",
+   "aliases": [
+    "Expeditors Intl. of Washington"
+   ],
+   "tier": 6,
+   "views": 3257
+  },
+  {
+   "name": "Extra Space Storage",
+   "aliases": [],
+   "tier": 6,
+   "views": 2281
+  },
+  {
+   "name": "FBI",
+   "aliases": [
+    "Federal Bureau of Investigation"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Federal Reserve Bank of Dallas",
+   "aliases": [
+    "Dallas Fed"
+   ],
+   "tier": 6,
+   "views": 1810
+  },
+  {
+   "name": "Federated Mutual Insurance",
+   "aliases": [
+    "Federated Mutual Insurance Company"
+   ],
+   "tier": 6,
+   "views": 897
+  },
+  {
+   "name": "First American Financial",
+   "aliases": [
+    "First American Financial Corporation"
+   ],
+   "tier": 6,
+   "views": 2769
+  },
+  {
+   "name": "First Horizon",
+   "aliases": [
+    "First Horizon Bank"
+   ],
+   "tier": 6,
+   "views": 4298
+  },
+  {
+   "name": "First National of Nebraska",
+   "aliases": [],
+   "tier": 6,
+   "views": 966
+  },
+  {
+   "name": "FirstCash",
+   "aliases": [
+    "Cash America",
+    "FirstCash Holdings"
+   ],
+   "tier": 6,
+   "views": 1005
+  },
+  {
+   "name": "Floor & Decor Holdings",
+   "aliases": [
+    "Floor & Decor"
+   ],
+   "tier": 6,
+   "views": 2268
+  },
+  {
+   "name": "Flowserve",
+   "aliases": [],
+   "tier": 6,
+   "views": 3601
+  },
+  {
+   "name": "FM Global",
+   "aliases": [],
+   "tier": 6,
+   "views": 4079
+  },
+  {
+   "name": "Forrester Research",
+   "aliases": [
+    "Forrester"
+   ],
+   "tier": 6,
+   "views": 2144
+  },
+  {
+   "name": "Fortune Brands Innovations",
+   "aliases": [],
+   "tier": 6,
+   "views": 2797
+  },
+  {
+   "name": "Frost Bank",
+   "aliases": [
+    "Cullen/Frost Bankers",
+    "Frost"
+   ],
+   "tier": 6,
+   "views": 3505
+  },
+  {
+   "name": "G-III Apparel Group",
+   "aliases": [
+    "G-III Apparel"
+   ],
+   "tier": 6,
+   "views": 3935
+  },
+  {
+   "name": "Garrett Motion",
+   "aliases": [],
+   "tier": 6,
+   "views": 4256
+  },
+  {
+   "name": "General Dynamics Information Technology",
+   "aliases": [
+    "GDIT"
+   ],
+   "tier": 6,
+   "views": 805
+  },
+  {
+   "name": "Genworth Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 2413
+  },
+  {
+   "name": "Global Partners",
+   "aliases": [],
+   "tier": 6,
+   "views": 1053
+  },
+  {
+   "name": "Globant",
+   "aliases": [],
+   "tier": 6,
+   "views": 3720
+  },
+  {
+   "name": "Globe Life",
+   "aliases": [
+    "Torchmark"
+   ],
+   "tier": 6,
+   "views": 3461
+  },
+  {
+   "name": "GM Financial",
+   "aliases": [
+    "AmeriCredit"
+   ],
+   "tier": 6,
+   "views": 2413
+  },
+  {
+   "name": "Gordon Food Service",
+   "aliases": [],
+   "tier": 6,
+   "views": 3912
+  },
+  {
+   "name": "Graham Holdings",
+   "aliases": [],
+   "tier": 6,
+   "views": 3384
+  },
+  {
+   "name": "Granite Construction",
+   "aliases": [],
+   "tier": 6,
+   "views": 1125
+  },
+  {
+   "name": "Graphic Packaging Holding",
+   "aliases": [
+    "Graphic Packaging"
+   ],
+   "tier": 6,
+   "views": 1883
+  },
+  {
+   "name": "Graybar Electric",
+   "aliases": [
+    "Graybar"
+   ],
+   "tier": 6,
+   "views": 3098
+  },
+  {
+   "name": "Green Plains",
+   "aliases": [],
+   "tier": 6,
+   "views": 429
+  },
+  {
+   "name": "Griffon",
+   "aliases": [
+    "Griffon Corporation"
+   ],
+   "tier": 6,
+   "views": 1434
+  },
+  {
+   "name": "Group 1 Automotive",
+   "aliases": [],
+   "tier": 6,
+   "views": 3758
+  },
+  {
+   "name": "Guardian Life",
+   "aliases": [
+    "Guardian Life Ins. Co. of America",
+    "The Guardian Life Insurance Company of America"
+   ],
+   "tier": 6,
+   "views": 2899
+  },
+  {
+   "name": "Guidehouse",
+   "aliases": [
+    "Navigant"
+   ],
+   "tier": 6,
+   "views": 4427
+  },
+  {
+   "name": "H.B. Fuller",
+   "aliases": [],
+   "tier": 6,
+   "views": 2354
+  },
+  {
+   "name": "Half Price Books",
+   "aliases": [],
+   "tier": 6,
+   "views": 3635
+  },
+  {
+   "name": "Hanesbrands",
+   "aliases": [],
+   "tier": 6,
+   "views": 4400
+  },
+  {
+   "name": "Hanover Insurance Group",
+   "aliases": [
+    "Hanover Insurance"
+   ],
+   "tier": 6,
+   "views": 1692
+  },
+  {
+   "name": "Hawaiian Electric Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 1686
+  },
+  {
+   "name": "Health Care Service Corporation",
+   "aliases": [
+    "HCSC",
+    "Blue Cross Blue Shield of Texas"
+   ],
+   "tier": 6,
+   "views": 4222
+  },
+  {
+   "name": "HEICO",
+   "aliases": [],
+   "tier": 6,
+   "views": 2703
+  },
+  {
+   "name": "Helmerich & Payne",
+   "aliases": [],
+   "tier": 6,
+   "views": 1931
+  },
+  {
+   "name": "Henry Schein",
+   "aliases": [],
+   "tier": 6,
+   "views": 3737
+  },
+  {
+   "name": "Herc Rentals",
+   "aliases": [
+    "Herc Holdings",
+    "Herc"
+   ],
+   "tier": 6,
+   "views": 2049
+  },
+  {
+   "name": "Hilton Grand Vacations",
+   "aliases": [],
+   "tier": 6,
+   "views": 3978
+  },
+  {
+   "name": "Hitachi Consulting",
+   "aliases": [],
+   "tier": 6,
+   "views": 474
+  },
+  {
+   "name": "Hologic",
+   "aliases": [],
+   "tier": 6,
+   "views": 2964
+  },
+  {
+   "name": "Host Hotels & Resorts",
+   "aliases": [],
+   "tier": 6,
+   "views": 2892
+  },
+  {
+   "name": "Houston Methodist",
+   "aliases": [
+    "Houston Methodist Hospital"
+   ],
+   "tier": 6,
+   "views": 3401
+  },
+  {
+   "name": "Hovnanian Enterprises",
+   "aliases": [],
+   "tier": 6,
+   "views": 1646
+  },
+  {
+   "name": "Hub Group",
+   "aliases": [],
+   "tier": 6,
+   "views": 2368
+  },
+  {
+   "name": "Hubbell",
+   "aliases": [
+    "Hubbell Incorporated"
+   ],
+   "tier": 6,
+   "views": 4029
+  },
+  {
+   "name": "Hunt Oil Company",
+   "aliases": [
+    "Hunt Oil"
+   ],
+   "tier": 6,
+   "views": 3836
+  },
+  {
+   "name": "Huron Consulting Group",
+   "aliases": [
+    "Huron"
+   ],
+   "tier": 6,
+   "views": 3632
+  },
+  {
+   "name": "IDEX Corporation",
+   "aliases": [
+    "IDEX"
+   ],
+   "tier": 6,
+   "views": 2397
+  },
+  {
+   "name": "IDEXX Laboratories",
+   "aliases": [],
+   "tier": 6,
+   "views": 3034
+  },
+  {
+   "name": "Incyte",
+   "aliases": [],
+   "tier": 6,
+   "views": 3122
+  },
+  {
+   "name": "Ingredion",
+   "aliases": [],
+   "tier": 6,
+   "views": 3824
+  },
+  {
+   "name": "Insight Enterprises",
+   "aliases": [],
+   "tier": 6,
+   "views": 4175
+  },
+  {
+   "name": "Insight Global",
+   "aliases": [],
+   "tier": 6,
+   "views": 498
+  },
+  {
+   "name": "Insperity",
+   "aliases": [],
+   "tier": 6,
+   "views": 1205
+  },
+  {
+   "name": "Interstate Batteries",
+   "aliases": [],
+   "tier": 6,
+   "views": 2776
+  },
+  {
+   "name": "Jack Henry & Associates",
+   "aliases": [
+    "Jack Henry"
+   ],
+   "tier": 6,
+   "views": 3858
+  },
+  {
+   "name": "Jefferies Financial Group",
+   "aliases": [
+    "Jefferies Financial"
+   ],
+   "tier": 6,
+   "views": 3877
+  },
+  {
+   "name": "JELD-WEN Holding",
+   "aliases": [
+    "JELD-WEN"
+   ],
+   "tier": 6,
+   "views": 1710
+  },
+  {
+   "name": "JPS Health Network",
+   "aliases": [
+    "JPS",
+    "John Peter Smith Hospital",
+    "JPS Hospital"
+   ],
+   "tier": 6,
+   "views": 1239
+  },
+  {
+   "name": "Kaiser Aluminum",
+   "aliases": [],
+   "tier": 6,
+   "views": 2454
+  },
+  {
+   "name": "KB Home",
+   "aliases": [],
+   "tier": 6,
+   "views": 2222
+  },
+  {
+   "name": "Kelly Services",
+   "aliases": [],
+   "tier": 6,
+   "views": 3445
+  },
+  {
+   "name": "Kemper",
+   "aliases": [
+    "Kemper Corporation"
+   ],
+   "tier": 6,
+   "views": 2524
+  },
+  {
+   "name": "Kirby Corporation",
+   "aliases": [
+    "Kirby"
+   ],
+   "tier": 6,
+   "views": 1227
+  },
+  {
+   "name": "Knight-Swift",
+   "aliases": [
+    "Knight-Swift Transportation Hldgs.",
+    "Knight-Swift Transportation"
+   ],
+   "tier": 6,
+   "views": 2297
+  },
+  {
+   "name": "Kosmos Energy",
+   "aliases": [
+    "Kosmos"
+   ],
+   "tier": 6,
+   "views": 1496
+  },
+  {
+   "name": "L.E.K. Consulting",
+   "aliases": [
+    "LEK"
+   ],
+   "tier": 6,
+   "views": 3463
+  },
+  {
+   "name": "Lamb Weston Holdings",
+   "aliases": [
+    "Lamb Weston"
+   ],
+   "tier": 6,
+   "views": 3651
+  },
+  {
+   "name": "Landstar System",
+   "aliases": [],
+   "tier": 6,
+   "views": 1385
+  },
+  {
+   "name": "Lear",
+   "aliases": [
+    "Lear Corporation"
+   ],
+   "tier": 6,
+   "views": 4281
+  },
+  {
+   "name": "Leggett & Platt",
+   "aliases": [],
+   "tier": 6,
+   "views": 2317
+  },
+  {
+   "name": "Lennox International",
+   "aliases": [
+    "Lennox"
+   ],
+   "tier": 6,
+   "views": 4140
+  },
+  {
+   "name": "Liberty Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2090
+  },
+  {
+   "name": "Lincoln Electric Holdings",
+   "aliases": [
+    "Lincoln Electric"
+   ],
+   "tier": 6,
+   "views": 2982
+  },
+  {
+   "name": "Lincoln National",
+   "aliases": [
+    "Lincoln National Corporation"
+   ],
+   "tier": 6,
+   "views": 3652
+  },
+  {
+   "name": "LKQ",
+   "aliases": [
+    "LKQ Corporation"
+   ],
+   "tier": 6,
+   "views": 4338
+  },
+  {
+   "name": "Louisiana-Pacific",
+   "aliases": [],
+   "tier": 6,
+   "views": 2307
+  },
+  {
+   "name": "ManpowerGroup",
+   "aliases": [],
+   "tier": 6,
+   "views": 4565
+  },
+  {
+   "name": "Markel Group",
+   "aliases": [
+    "Markel"
+   ],
+   "tier": 6,
+   "views": 3331
+  },
+  {
+   "name": "Marriott Vacations Worldwide",
+   "aliases": [],
+   "tier": 6,
+   "views": 1167
+  },
+  {
+   "name": "Martin Marietta Materials",
+   "aliases": [],
+   "tier": 6,
+   "views": 4349
+  },
+  {
+   "name": "Masco",
+   "aliases": [],
+   "tier": 6,
+   "views": 4531
+  },
+  {
+   "name": "Maximus",
+   "aliases": [
+    "Maximus Inc."
+   ],
+   "tier": 6,
+   "views": 3743
+  },
+  {
+   "name": "McLane Company",
+   "aliases": [
+    "McLane"
+   ],
+   "tier": 6,
+   "views": 4061
+  },
+  {
+   "name": "MDU Resources Group",
+   "aliases": [
+    "MDU Resources"
+   ],
+   "tier": 6,
+   "views": 757
+  },
+  {
+   "name": "Medical Mutual of Ohio",
+   "aliases": [],
+   "tier": 6,
+   "views": 1224
+  },
+  {
+   "name": "Memorial Hermann",
+   "aliases": [
+    "Memorial Hermann Health System"
+   ],
+   "tier": 6,
+   "views": 2649
+  },
+  {
+   "name": "Mercury General",
+   "aliases": [],
+   "tier": 6,
+   "views": 3605
+  },
+  {
+   "name": "Meritage Homes Corporation",
+   "aliases": [],
+   "tier": 6,
+   "views": 1012
+  },
+  {
+   "name": "Michaels",
+   "aliases": [
+    "Michaels Stores",
+    "The Michaels Companies"
+   ],
+   "tier": 6,
+   "views": 3612
+  },
+  {
+   "name": "Middleby",
+   "aliases": [],
+   "tier": 6,
+   "views": 1792
+  },
+  {
+   "name": "MKS Instruments",
+   "aliases": [],
+   "tier": 6,
+   "views": 4085
+  },
+  {
+   "name": "ModivCare",
+   "aliases": [],
+   "tier": 6,
+   "views": 1056
+  },
+  {
+   "name": "Mohawk Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 2929
+  },
+  {
+   "name": "Moss Adams",
+   "aliases": [],
+   "tier": 6,
+   "views": 1906
+  },
+  {
+   "name": "Mr. Cooper",
+   "aliases": [
+    "Mr. Cooper Group",
+    "Nationstar"
+   ],
+   "tier": 6,
+   "views": 3329
+  },
+  {
+   "name": "MSC Industrial Direct",
+   "aliases": [],
+   "tier": 6,
+   "views": 2370
+  },
+  {
+   "name": "Mueller Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 983
+  },
+  {
+   "name": "Murphy Oil",
+   "aliases": [],
+   "tier": 6,
+   "views": 2891
+  },
+  {
+   "name": "MYR Group",
+   "aliases": [
+    "MYR",
+    "MYR Group Inc."
+   ],
+   "tier": 6,
+   "views": 614
+  },
+  {
+   "name": "NASA",
+   "aliases": [
+    "National Aeronautics and Space Administration",
+    "Johnson Space Center"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "NCR Atleos",
+   "aliases": [],
+   "tier": 6,
+   "views": 3101
+  },
+  {
+   "name": "NewMarket",
+   "aliases": [
+    "NewMarket Corporation"
+   ],
+   "tier": 6,
+   "views": 1035
+  },
+  {
+   "name": "NGL Energy Partners",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "NiSource",
+   "aliases": [],
+   "tier": 6,
+   "views": 3933
+  },
+  {
+   "name": "Nordson",
+   "aliases": [
+    "Nordson Corporation"
+   ],
+   "tier": 6,
+   "views": 2409
+  },
+  {
+   "name": "NSA",
+   "aliases": [
+    "National Security Agency"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "NVR",
+   "aliases": [
+    "NVR, Inc."
+   ],
+   "tier": 6,
+   "views": 2726
+  },
+  {
+   "name": "O-I Glass",
+   "aliases": [],
+   "tier": 6,
+   "views": 3028
+  },
+  {
+   "name": "OGE Energy",
+   "aliases": [
+    "Oklahoma Gas & Electric"
+   ],
+   "tier": 6,
+   "views": 1119
+  },
+  {
+   "name": "Old Dominion Freight Line",
+   "aliases": [],
+   "tier": 6,
+   "views": 4548
+  },
+  {
+   "name": "Old National Bancorp",
+   "aliases": [
+    "Old National Bank"
+   ],
+   "tier": 6,
+   "views": 3537
+  },
+  {
+   "name": "Old Republic International",
+   "aliases": [],
+   "tier": 6,
+   "views": 888
+  },
+  {
+   "name": "Oncor",
+   "aliases": [
+    "Oncor Electric Delivery"
+   ],
+   "tier": 6,
+   "views": 2281
+  },
+  {
+   "name": "Oneok",
+   "aliases": [],
+   "tier": 6,
+   "views": 2981
+  },
+  {
+   "name": "Organon",
+   "aliases": [
+    "Organon & Co."
+   ],
+   "tier": 6,
+   "views": 3740
+  },
+  {
+   "name": "Ovintiv",
+   "aliases": [],
+   "tier": 6,
+   "views": 2544
+  },
+  {
+   "name": "Owens & Minor",
+   "aliases": [
+    "Accendra Health"
+   ],
+   "tier": 6,
+   "views": 1404
+  },
+  {
+   "name": "Pacific Life",
+   "aliases": [],
+   "tier": 6,
+   "views": 3690
+  },
+  {
+   "name": "Packaging Corporation of America",
+   "aliases": [
+    "Packaging Corp. of America"
+   ],
+   "tier": 6,
+   "views": 1631
+  },
+  {
+   "name": "Par Pacific Holdings",
+   "aliases": [
+    "Par Pacific"
+   ],
+   "tier": 6,
+   "views": 1068
+  },
+  {
+   "name": "Park Hotels & Resorts",
+   "aliases": [],
+   "tier": 6,
+   "views": 1027
+  },
+  {
+   "name": "Patterson-UTI Energy",
+   "aliases": [
+    "Patterson-UTI"
+   ],
+   "tier": 6,
+   "views": 740
+  },
+  {
+   "name": "Paycom",
+   "aliases": [],
+   "tier": 6,
+   "views": 3357
+  },
+  {
+   "name": "Paylocity",
+   "aliases": [],
+   "tier": 6,
+   "views": 3769
+  },
+  {
+   "name": "PBF Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 3046
+  },
+  {
+   "name": "PC Connection",
+   "aliases": [],
+   "tier": 6,
+   "views": 1355
+  },
+  {
+   "name": "Peabody Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 4017
+  },
+  {
+   "name": "Penn Mutual",
+   "aliases": [],
+   "tier": 6,
+   "views": 1158
+  },
+  {
+   "name": "PennyMac Financial Services",
+   "aliases": [
+    "Pennymac"
+   ],
+   "tier": 6,
+   "views": 3204
+  },
+  {
+   "name": "Penske Automotive Group",
+   "aliases": [
+    "Penske Automotive"
+   ],
+   "tier": 6,
+   "views": 4045
+  },
+  {
+   "name": "Perficient",
+   "aliases": [],
+   "tier": 6,
+   "views": 1975
+  },
+  {
+   "name": "Performance Food Group",
+   "aliases": [
+    "Performance Food"
+   ],
+   "tier": 6,
+   "views": 3721
+  },
+  {
+   "name": "Pinnacle West Capital",
+   "aliases": [],
+   "tier": 6,
+   "views": 1050
+  },
+  {
+   "name": "Plains All American",
+   "aliases": [
+    "Plains GP Holdings",
+    "Plains GP",
+    "Plains All American Pipeline"
+   ],
+   "tier": 6,
+   "views": 1799
+  },
+  {
+   "name": "PlainsCapital Bank",
+   "aliases": [
+    "PlainsCapital",
+    "Hilltop Holdings"
+   ],
+   "tier": 6,
+   "views": 784
+  },
+  {
+   "name": "Plante Moran",
+   "aliases": [],
+   "tier": 6,
+   "views": 1979
+  },
+  {
+   "name": "Playtika Holding",
+   "aliases": [
+    "Playtika"
+   ],
+   "tier": 6,
+   "views": 4431
+  },
+  {
+   "name": "Pool Corporation",
+   "aliases": [],
+   "tier": 6,
+   "views": 1218
+  },
+  {
+   "name": "Portland General Electric",
+   "aliases": [],
+   "tier": 6,
+   "views": 2451
+  },
+  {
+   "name": "Primoris",
+   "aliases": [
+    "Primoris Services",
+    "Primoris Services Corporation"
+   ],
+   "tier": 6,
+   "views": 1444
+  },
+  {
+   "name": "Prosperity Bank",
+   "aliases": [
+    "Prosperity Bancshares"
+   ],
+   "tier": 6,
+   "views": 1125
+  },
+  {
+   "name": "Public Service Enterprise Group",
+   "aliases": [
+    "Public Service Enterprise"
+   ],
+   "tier": 6,
+   "views": 4408
+  },
+  {
+   "name": "Public Storage",
+   "aliases": [],
+   "tier": 6,
+   "views": 4560
+  },
+  {
+   "name": "Puget Sound Energy",
+   "aliases": [
+    "Puget Energy"
+   ],
+   "tier": 6,
+   "views": 4298
+  },
+  {
+   "name": "Quad",
+   "aliases": [
+    "Quad/Graphics"
+   ],
+   "tier": 6,
+   "views": 1474
+  },
+  {
+   "name": "QuidelOrtho",
+   "aliases": [],
+   "tier": 6,
+   "views": 1339
+  },
+  {
+   "name": "QVC Group",
+   "aliases": [
+    "Qurate Retail"
+   ],
+   "tier": 6,
+   "views": 3602
+  },
+  {
+   "name": "Rackspace",
+   "aliases": [
+    "Rackspace Technology"
+   ],
+   "tier": 6,
+   "views": 4120
+  },
+  {
+   "name": "Radius Recycling",
+   "aliases": [],
+   "tier": 6,
+   "views": 1156
+  },
+  {
+   "name": "Raising Cane's",
+   "aliases": [
+    "Cane's",
+    "Raising Cane's Chicken Fingers"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Range Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 807
+  },
+  {
+   "name": "Realty Income",
+   "aliases": [],
+   "tier": 6,
+   "views": 4233
+  },
+  {
+   "name": "Regal Rexnord",
+   "aliases": [],
+   "tier": 6,
+   "views": 3870
+  },
+  {
+   "name": "Reinsurance Group of America",
+   "aliases": [],
+   "tier": 6,
+   "views": 2036
+  },
+  {
+   "name": "Reliance, Inc.",
+   "aliases": [],
+   "tier": 6,
+   "views": 1443
+  },
+  {
+   "name": "Rent-A-Center",
+   "aliases": [
+    "Upbound Group",
+    "Upbound"
+   ],
+   "tier": 6,
+   "views": 3312
+  },
+  {
+   "name": "ResMed",
+   "aliases": [],
+   "tier": 6,
+   "views": 4334
+  },
+  {
+   "name": "REV Group",
+   "aliases": [],
+   "tier": 6,
+   "views": 2736
+  },
+  {
+   "name": "Revvity",
+   "aliases": [],
+   "tier": 6,
+   "views": 3838
+  },
+  {
+   "name": "Rithm Capital",
+   "aliases": [],
+   "tier": 6,
+   "views": 2087
+  },
+  {
+   "name": "Roland Berger",
+   "aliases": [],
+   "tier": 6,
+   "views": 3169
+  },
+  {
+   "name": "Rollins",
+   "aliases": [
+    "Rollins, Inc."
+   ],
+   "tier": 6,
+   "views": 3315
+  },
+  {
+   "name": "RPM International",
+   "aliases": [],
+   "tier": 6,
+   "views": 3375
+  },
+  {
+   "name": "Rush Enterprises",
+   "aliases": [],
+   "tier": 6,
+   "views": 816
+  },
+  {
+   "name": "Ryan LLC",
+   "aliases": [
+    "Ryan Tax"
+   ],
+   "tier": 6,
+   "views": 2440
+  },
+  {
+   "name": "Ryerson",
+   "aliases": [
+    "Ryerson Holding"
+   ],
+   "tier": 6,
+   "views": 1350
+  },
+  {
+   "name": "Saia",
+   "aliases": [],
+   "tier": 6,
+   "views": 3713
+  },
+  {
+   "name": "Sally Beauty",
+   "aliases": [
+    "Sally Beauty Holdings"
+   ],
+   "tier": 6,
+   "views": 2050
+  },
+  {
+   "name": "Sanmina",
+   "aliases": [
+    "Sanmina Corporation"
+   ],
+   "tier": 6,
+   "views": 3991
+  },
+  {
+   "name": "SBA Communications",
+   "aliases": [],
+   "tier": 6,
+   "views": 2057
+  },
+  {
+   "name": "Schneider National",
+   "aliases": [],
+   "tier": 6,
+   "views": 2968
+  },
+  {
+   "name": "Seaboard Corporation",
+   "aliases": [
+    "Seaboard"
+   ],
+   "tier": 6,
+   "views": 2102
+  },
+  {
+   "name": "Sealed Air",
+   "aliases": [],
+   "tier": 6,
+   "views": 3663
+  },
+  {
+   "name": "Securian Financial Group",
+   "aliases": [
+    "Securian Financial"
+   ],
+   "tier": 6,
+   "views": 1338
+  },
+  {
+   "name": "Select Medical Holdings",
+   "aliases": [
+    "Select Medical"
+   ],
+   "tier": 6,
+   "views": 1718
+  },
+  {
+   "name": "Sempra",
+   "aliases": [],
+   "tier": 6,
+   "views": 3407
+  },
+  {
+   "name": "Sendero Consulting",
+   "aliases": [
+    "Sendero"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Sentry Insurance Group",
+   "aliases": [
+    "Sentry Insurance"
+   ],
+   "tier": 6,
+   "views": 1804
+  },
+  {
+   "name": "Service Corporation International",
+   "aliases": [
+    "Service Corp. International"
+   ],
+   "tier": 6,
+   "views": 3734
+  },
+  {
+   "name": "Shift4 Payments",
+   "aliases": [
+    "Shift4"
+   ],
+   "tier": 6,
+   "views": 4545
+  },
+  {
+   "name": "Siemens Digital Industries Software",
+   "aliases": [],
+   "tier": 6,
+   "views": 3712
+  },
+  {
+   "name": "Silgan Holdings",
+   "aliases": [
+    "Silgan"
+   ],
+   "tier": 6,
+   "views": 1102
+  },
+  {
+   "name": "Slalom",
+   "aliases": [
+    "Slalom Consulting",
+    "Slalom Inc"
+   ],
+   "tier": 6,
+   "views": 3289
+  },
+  {
+   "name": "Solera",
+   "aliases": [
+    "Solera Holdings"
+   ],
+   "tier": 6,
+   "views": 2089
+  },
+  {
+   "name": "Sonic Automotive",
+   "aliases": [],
+   "tier": 6,
+   "views": 2498
+  },
+  {
+   "name": "Sonoco Products",
+   "aliases": [
+    "Sonoco"
+   ],
+   "tier": 6,
+   "views": 2229
+  },
+  {
+   "name": "Southern Glazer's Wine and Spirits",
+   "aliases": [
+    "Southern Glazer's"
+   ],
+   "tier": 6,
+   "views": 4108
+  },
+  {
+   "name": "Southwest Gas Holdings",
+   "aliases": [
+    "Southwest Gas"
+   ],
+   "tier": 6,
+   "views": 758
+  },
+  {
+   "name": "Southwestern Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 649
+  },
+  {
+   "name": "SpartanNash",
+   "aliases": [],
+   "tier": 6,
+   "views": 3579
+  },
+  {
+   "name": "Spire Inc.",
+   "aliases": [],
+   "tier": 6,
+   "views": 848
+  },
+  {
+   "name": "Stagwell",
+   "aliases": [],
+   "tier": 6,
+   "views": 3311
+  },
+  {
+   "name": "Steel Dynamics",
+   "aliases": [],
+   "tier": 6,
+   "views": 2508
+  },
+  {
+   "name": "Stericycle",
+   "aliases": [],
+   "tier": 6,
+   "views": 1813
+  },
+  {
+   "name": "Sun Communities",
+   "aliases": [],
+   "tier": 6,
+   "views": 1494
+  },
+  {
+   "name": "Synovus Financial",
+   "aliases": [
+    "Synovus"
+   ],
+   "tier": 6,
+   "views": 3009
+  },
+  {
+   "name": "Taco Cabana",
+   "aliases": [],
+   "tier": 6,
+   "views": 2518
+  },
+  {
+   "name": "Talen Energy",
+   "aliases": [],
+   "tier": 6,
+   "views": 2295
+  },
+  {
+   "name": "Targa Resources",
+   "aliases": [],
+   "tier": 6,
+   "views": 1652
+  },
+  {
+   "name": "Taylor Morrison Home",
+   "aliases": [
+    "Taylor Morrison"
+   ],
+   "tier": 6,
+   "views": 2624
+  },
+  {
+   "name": "Teladoc Health",
+   "aliases": [],
+   "tier": 6,
+   "views": 3271
+  },
+  {
+   "name": "Teleflex",
+   "aliases": [],
+   "tier": 6,
+   "views": 1793
+  },
+  {
+   "name": "Telephone & Data Systems",
+   "aliases": [],
+   "tier": 6,
+   "views": 1115
+  },
+  {
+   "name": "Tempur Sealy",
+   "aliases": [
+    "Tempur Sealy International",
+    "Somnigroup International"
+   ],
+   "tier": 6,
+   "views": 3754
+  },
+  {
+   "name": "Teradata",
+   "aliases": [],
+   "tier": 6,
+   "views": 4323
+  },
+  {
+   "name": "Tetra Tech",
+   "aliases": [],
+   "tier": 6,
+   "views": 4487
+  },
+  {
+   "name": "Texas Capital Bank",
+   "aliases": [
+    "Texas Capital"
+   ],
+   "tier": 6,
+   "views": 2041
+  },
+  {
+   "name": "Texas Christian University",
+   "aliases": [
+    "TCU",
+    "TCU IT",
+    "TCU Information Technology"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "Texas Health Resources",
+   "aliases": [
+    "Texas Health",
+    "THR"
+   ],
+   "tier": 6,
+   "views": 2039
+  },
+  {
+   "name": "Texas Rangers",
+   "aliases": [
+    "Rangers"
+   ],
+   "tier": 6
+  },
+  {
+   "name": "The Andersons",
+   "aliases": [
+    "Andersons"
+   ],
+   "tier": 6,
+   "views": 1490
+  },
+  {
+   "name": "The Cooper Companies",
+   "aliases": [
+    "Cooper Cos."
+   ],
+   "tier": 6,
+   "views": 2393
+  },
+  {
+   "name": "Thor Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 4278
+  },
+  {
+   "name": "Titan Machinery",
+   "aliases": [],
+   "tier": 6,
+   "views": 754
+  },
+  {
+   "name": "Toll Brothers",
+   "aliases": [],
+   "tier": 6,
+   "views": 3672
+  },
+  {
+   "name": "Torchy's Tacos",
+   "aliases": [
+    "Torchy's"
+   ],
+   "tier": 6,
+   "views": 2717
+  },
+  {
+   "name": "Trammell Crow Company",
+   "aliases": [
+    "Trammell Crow"
+   ],
+   "tier": 6,
+   "views": 2357
+  },
+  {
+   "name": "TransDigm Group",
+   "aliases": [
+    "TransDigm"
+   ],
+   "tier": 6,
+   "views": 4452
+  },
+  {
+   "name": "TreeHouse Foods",
+   "aliases": [],
+   "tier": 6,
+   "views": 2506
+  },
+  {
+   "name": "Tri Pointe Homes",
+   "aliases": [],
+   "tier": 6,
+   "views": 679
+  },
+  {
+   "name": "TriNet Group",
+   "aliases": [
+    "TriNet"
+   ],
+   "tier": 6,
+   "views": 2566
+  },
+  {
+   "name": "Trinity Health",
+   "aliases": [],
+   "tier": 6,
+   "views": 2943
+  },
+  {
+   "name": "Trinity Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 1801
+  },
+  {
+   "name": "Tutor Perini",
+   "aliases": [],
+   "tier": 6,
+   "views": 3097
+  },
+  {
+   "name": "UFP Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 1002
+  },
+  {
+   "name": "UGI Corporation",
+   "aliases": [
+    "UGI"
+   ],
+   "tier": 6,
+   "views": 1471
+  },
+  {
+   "name": "United Rentals",
+   "aliases": [],
+   "tier": 6,
+   "views": 4422
+  },
+  {
+   "name": "Universal Corporation",
+   "aliases": [],
+   "tier": 6,
+   "views": 965
+  },
+  {
+   "name": "Unum Group",
+   "aliases": [
+    "Unum"
+   ],
+   "tier": 6,
+   "views": 3838
+  },
+  {
+   "name": "UT Southwestern Medical Center",
+   "aliases": [
+    "UT Southwestern",
+    "UTSW",
+    "University of Texas Southwestern Medical Center"
+   ],
+   "tier": 6,
+   "views": 4461
+  },
+  {
+   "name": "Valley National Bancorp",
+   "aliases": [
+    "Valley Bank"
+   ],
+   "tier": 6,
+   "views": 3235
+  },
+  {
+   "name": "Valmont Industries",
+   "aliases": [],
+   "tier": 6,
+   "views": 2755
+  },
+  {
+   "name": "Ventas",
+   "aliases": [],
+   "tier": 6,
+   "views": 1260
+  },
+  {
+   "name": "Verisk Analytics",
+   "aliases": [],
+   "tier": 6,
+   "views": 3845
+  },
+  {
+   "name": "Vista Outdoor",
+   "aliases": [],
+   "tier": 6,
+   "views": 3783
+  },
+  {
+   "name": "Visteon",
+   "aliases": [],
+   "tier": 6,
+   "views": 4372
+  },
+  {
+   "name": "Vontier",
+   "aliases": [],
+   "tier": 6,
+   "views": 1984
+  },
+  {
+   "name": "Voya Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 4314
+  },
+  {
+   "name": "Vulcan Materials",
+   "aliases": [
+    "Vulcan Materials Company"
+   ],
+   "tier": 6,
+   "views": 4033
+  },
+  {
+   "name": "W.R. Berkley",
+   "aliases": [
+    "W. R. Berkley Corporation"
+   ],
+   "tier": 6,
+   "views": 2351
+  },
+  {
+   "name": "Wabash National",
+   "aliases": [],
+   "tier": 6,
+   "views": 1740
+  },
+  {
+   "name": "Watsco",
+   "aliases": [],
+   "tier": 6,
+   "views": 1498
+  },
+  {
+   "name": "Webster Financial",
+   "aliases": [
+    "Webster Bank"
+   ],
+   "tier": 6,
+   "views": 4483
+  },
+  {
+   "name": "WEC Energy Group",
+   "aliases": [
+    "WEC Energy"
+   ],
+   "tier": 6,
+   "views": 2570
+  },
+  {
+   "name": "Werner Enterprises",
+   "aliases": [],
+   "tier": 6,
+   "views": 2533
+  },
+  {
+   "name": "West Pharmaceutical Services",
+   "aliases": [],
+   "tier": 6,
+   "views": 1998
+  },
+  {
+   "name": "Western & Southern Financial Group",
+   "aliases": [
+    "Western & Southern Financial"
+   ],
+   "tier": 6,
+   "views": 2213
+  },
+  {
+   "name": "Westlake Corporation",
+   "aliases": [],
+   "tier": 6,
+   "views": 2180
+  },
+  {
+   "name": "WEX",
+   "aliases": [
+    "WEX Inc."
+   ],
+   "tier": 6,
+   "views": 3048
+  },
+  {
+   "name": "Whataburger",
+   "aliases": [],
+   "tier": 6
+  },
+  {
+   "name": "Williams-Sonoma",
+   "aliases": [],
+   "tier": 6,
+   "views": 4609
+  },
+  {
+   "name": "Wintrust Financial",
+   "aliases": [],
+   "tier": 6,
+   "views": 2583
+  },
+  {
+   "name": "World Kinect",
+   "aliases": [
+    "World Kinect Corporation"
+   ],
+   "tier": 6,
+   "views": 2054
+  },
+  {
+   "name": "Worthington Enterprises",
+   "aliases": [],
+   "tier": 6,
+   "views": 1337
+  },
+  {
+   "name": "Zales",
+   "aliases": [],
+   "tier": 6,
+   "views": 1961
+  }
+ ]
+}

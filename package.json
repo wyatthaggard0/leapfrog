@@ -8,6 +8,7 @@
     "dev": "node dev-server.js",
     "test": "node --test",
     "setup-sheet": "node scripts/setup-sheet.js",
+    "build-answers": "node scripts/build-answers.js",
     "simulate": "node scripts/simulate.js"
   },
   "engines": {

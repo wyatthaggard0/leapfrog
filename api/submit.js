@@ -1,4 +1,4 @@
-import { PROMPTS, SECTIONS } from '../config/game.js';
+import { PROMPTS } from '../config/game.js';
 import { readBody, send, allow } from '../lib/http.js';
 import { scoreAll } from '../lib/scoring.js';
 import { appendResponse } from '../lib/store.js';
@@ -37,9 +37,7 @@ export default async function handler(req, res) {
 
   const first = cleanName(body.first);
   const last = cleanName(body.last);
-  const section = String(body.section ?? '');
   if (!first || !last) return send(res, 400, { error: 'First and last name are required' });
-  if (!SECTIONS.includes(section)) return send(res, 400, { error: 'Pick your section' });
 
   const answers = PROMPTS.map((_, i) => String(body.answers?.[i] ?? '').trim().slice(0, 80));
   const { results, score, miles } = scoreAll(answers);
@@ -47,7 +45,6 @@ export default async function handler(req, res) {
     ts: timestamp(),
     last,
     first,
-    section,
     score,
     answers,
     matched: results.map((r) => r.matched),
@@ -68,5 +65,5 @@ export default async function handler(req, res) {
   } catch (err) {
     console.error(err);
   }
-  send(res, 200, { player: { first, last, section }, score, miles, results, stats });
+  send(res, 200, { player: { first, last }, score, miles, results, stats });
 }
