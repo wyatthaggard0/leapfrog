@@ -22,17 +22,14 @@ const started = Date.now();
 const results = await Promise.allSettled(
   Array.from({ length: count }, async (_, n) => {
     await new Promise((r) => setTimeout(r, Math.random() * 3000));
-    const res = await fetch(`${base}/api/submit`, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({
-        first: pick(FIRST),
-        last: `${pick(LAST)}${n}`,
-        answers: PROMPTS.map(answerFor),
-      }),
-    });
-    if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
-    return res.json();
+    const body = JSON.stringify({ first: pick(FIRST), last: `${pick(LAST)}${n}`, answers: PROMPTS.map(answerFor) });
+    // Retry like the phone does: back off and try again until it lands.
+    for (let attempt = 1; ; attempt++) {
+      const res = await fetch(`${base}/api/submit`, { method: 'POST', headers: { 'content-type': 'application/json' }, body });
+      if (res.ok) return { ...(await res.json()), attempt };
+      if (res.status === 400 || attempt >= 10) throw new Error(`${res.status} ${await res.text()}`);
+      await new Promise((r) => setTimeout(r, Math.min(15000, 1500 * attempt)));
+    }
   }),
 );
 
@@ -41,6 +38,8 @@ const failed = results.filter((r) => r.status === 'rejected');
 console.log(`${ok.length}/${count} saved in ${((Date.now() - started) / 1000).toFixed(1)}s`);
 if (failed.length) console.log('First failure:', failed[0].reason.message);
 if (ok.length) {
+  const retried = ok.filter((r) => r.value.attempt > 1).length;
+  console.log(`${retried} needed a retry (max attempts: ${Math.max(...ok.map((r) => r.value.attempt))})`);
   const last = ok.at(-1).value;
   console.log(`Room now has ${last.stats?.n} players; sample score ${last.score}`);
 }
