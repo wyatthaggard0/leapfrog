@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a0f45">
+  <title>Leapfrog</title>
+  <meta name="description" content="TCU BIS speaker-event check-in game. Rarer answers leap farther.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%234d1979'/%3E%3Crect x='3' y='6' width='10' height='6' fill='%23a57de0'/%3E%3Crect x='4' y='4' width='3' height='3' fill='%23fff'/%3E%3Crect x='9' y='4' width='3' height='3' fill='%23fff'/%3E%3Crect x='5' y='5' width='1' height='1' fill='%23000'/%3E%3Crect x='10' y='5' width='1' height='1' fill='%23000'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-screen="loading">
+  <canvas id="world" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <button id="sound" class="icon-btn" type="button" aria-pressed="false" aria-label="Sound">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6h3l4-3v10l-4-3H2z" fill="currentColor"/><g class="sound-on" fill="currentColor"><rect x="11" y="6" width="1" height="4"/><rect x="13" y="4" width="1" height="8"/></g><g class="sound-off" fill="currentColor"><rect x="11" y="5" width="1" height="1"/><rect x="12" y="6" width="1" height="1"/><rect x="13" y="7" width="1" height="2"/><rect x="12" y="9" width="1" height="1"/><rect x="11" y="10" width="1" height="1"/><rect x="14" y="5" width="1" height="1"/><rect x="14" y="10" width="1" height="1"/></g></svg>
+  </button>
+
+  <!-- HUD: visible while playing -->
+  <header class="hud" aria-live="off">
+    <div class="hud-box">
+      <span class="hud-label">Distance</span>
+      <span class="hud-value" id="hud-distance">0 yd</span>
+    </div>
+    <div class="hud-progress">
+      <div class="blocks" id="hud-blocks"></div>
+      <span class="hud-label" id="hud-step">Prompt 1 of 7</span>
+    </div>
+    <div class="hud-box right">
+      <span class="hud-label">Score</span>
+      <span class="hud-value pink" id="hud-score">0</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="screen" id="screen-loading">
+      <p class="pill">loading…</p>
+    </section>
+
+    <section class="screen" id="screen-title">
+      <h1 class="logo" data-text="LEAPFROG">LEAPFROG</h1>
+      <p class="subtitle" id="event-name">BIS Speaker Series</p>
+      <p class="tagline" id="event-tagline"></p>
+      <button class="big-btn" id="begin" type="button">▶ Begin Leap ◀</button>
+      <p class="fine">Finishing the game checks you in for today's event.</p>
+    </section>
+
+    <section class="screen" id="screen-checkin">
+      <form class="panel form" id="checkin" novalidate>
+        <p class="kicker">Check in</p>
+        <h2>Who's leaping?</h2>
+        <label>First name
+          <input name="first" autocomplete="given-name" maxlength="40" required>
+        </label>
+        <label>Last name
+          <input name="last" autocomplete="family-name" maxlength="40" required>
+        </label>
+        <label>Class section
+          <select name="section" required>
+            <option value="">Choose your section…</option>
+          </select>
+        </label>
+        <p class="error" id="checkin-error" role="alert"></p>
+        <button class="big-btn small" type="submit">Ready ▶</button>
+      </form>
+    </section>
+
+    <section class="screen" id="screen-play">
+      <div class="panel card">
+        <p class="kicker" id="prompt-step">Prompt 1 of 7</p>
+        <h2 class="prompt" id="prompt-text"></h2>
+        <p class="hint">▶ rarer answers leap farther ▶</p>
+      </div>
+      <p class="pill" id="countdown">get ready · the clock starts in <b>3</b></p>
+      <form class="answer-row" id="answer-form" autocomplete="off">
+        <div class="timer" id="timer">
+          <svg viewBox="0 0 44 44" aria-hidden="true"><circle class="track" cx="22" cy="22" r="19"/><circle class="ring" id="timer-ring" cx="22" cy="22" r="19"/></svg>
+          <span id="timer-text">25</span>
+        </div>
+        <input id="answer" maxlength="60" enterkeyhint="go" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Your answer" placeholder="type an answer…">
+        <button class="leap-btn" type="submit">Leap</button>
+        <div class="time-bar"><div id="time-bar-fill"></div></div>
+      </form>
+    </section>
+
+    <section class="screen" id="screen-reveal">
+      <div class="reveal" id="reveal" aria-live="polite">
+        <p class="tier-name" id="reveal-tier"></p>
+        <p class="reveal-answer" id="reveal-answer"></p>
+        <p class="reveal-points" id="reveal-points"></p>
+        <p class="reveal-flavor" id="reveal-flavor"></p>
+      </div>
+      <button class="big-btn small" id="next" type="button">Leap ▶</button>
+    </section>
+
+    <section class="screen" id="screen-saving">
+      <div class="panel card center">
+        <p class="kicker">Almost there</p>
+        <h2>Logging your leap…</h2>
+        <p class="hint" id="saving-status">Saving your check-in.</p>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-results">
+      <div class="results">
+        <header class="results-head">
+          <span class="logo small" data-text="LEAPFROG">LEAPFROG</span>
+          <span class="hud-label">Leap complete</span>
+        </header>
+        <p class="checked-in" id="checked-in"></p>
+        <div class="big-score">
+          <span id="final-score">0</span>
+          <span class="big-distance" id="final-distance"></span>
+        </div>
+        <p class="landed" id="landed"></p>
+
+        <h3 class="section-label">How you compare</h3>
+        <svg class="curve" id="curve" viewBox="0 0 600 190" role="img" aria-label="Score distribution"></svg>
+        <p class="percentile" id="percentile"></p>
+
+        <h3 class="section-label">Leap log <span>· longer = rarer</span></h3>
+        <svg class="leaplog" id="leaplog" viewBox="0 0 600 180" role="img" aria-label="Your seven leaps"></svg>
+
+        <h3 class="section-label">Your answers vs. the room</h3>
+        <ol class="answers" id="answers"></ol>
+        <p class="fine">Room stats update as more classmates finish.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
