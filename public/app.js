@@ -36,7 +36,7 @@ async function api(path, body) {
       signal: ctrl.signal,
     });
     const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw Object.assign(new Error(data.error || `HTTP ${res.status}`), { status: res.status });
+    if (!res.ok) throw Object.assign(new Error(data.error || `HTTP ${res.status}`), { status: res.status, code: data.code });
     return data;
   } finally {
     clearTimeout(timeout);
@@ -282,7 +282,10 @@ async function submit(payload) {
         save(KEY.progress);
         return;
       }
-      status.textContent = `Connection hiccup · retrying (try ${attempt})… keep this page open.`;
+      status.textContent =
+        err.code === 'storage_not_configured'
+          ? `${err.message} Your answers are saved on this phone and will send once it's fixed (try ${attempt}).`
+          : `Connection hiccup · retrying (try ${attempt})… keep this page open.`;
       await sleep(Math.min(15000, 1500 * attempt));
     }
   }

@@ -55,6 +55,9 @@ export default async function handler(req, res) {
     await appendResponse(record);
   } catch (err) {
     console.error(err);
+    if (err.code === 'storage_not_configured') {
+      return send(res, 503, { error: 'Check-in storage is not set up yet. Tell the event organizer.', code: err.code });
+    }
     return send(res, 503, { error: 'Could not save your check-in. Retrying…' });
   }
   rememberRow(record);
